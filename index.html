@@ -83,8 +83,8 @@
 
   /* ===== quiz area ===== */
   .quiz-zone{background:var(--black);padding:72px 0;position:relative;overflow:hidden}
-  .quiz-zone::before{content:"";position:absolute;left:-80px;top:0;bottom:0;width:120px;background:var(--red);transform:skewX(-24deg);opacity:.9}
-  .quiz-zone::after{content:"";position:absolute;left:60px;top:0;bottom:0;width:26px;background:var(--yellow);transform:skewX(-24deg)}
+  .quiz-zone::before{display:none;content:"";position:absolute;left:-80px;top:0;bottom:0;width:120px;background:var(--red);transform:skewX(-24deg);opacity:.9}
+  .quiz-zone::after{display:none;content:"";position:absolute;left:60px;top:0;bottom:0;width:26px;background:var(--yellow);transform:skewX(-24deg)}
   @media (max-width:760px){.quiz-zone::before,.quiz-zone::after{display:none}}
   .quiz-head{text-align:center;color:#fff;margin-bottom:28px;position:relative;z-index:1}
   .quiz-head h2{font-size:clamp(32px,5vw,48px)}
@@ -155,8 +155,8 @@
   .coach{display:grid;grid-template-columns:300px 1fr;gap:40px;align-items:center}
   @media (max-width:820px){.coach{grid-template-columns:1fr;gap:24px}}
   .coach-card{position:relative;background:var(--black);color:#fff;border-radius:10px;padding:30px 26px;overflow:hidden;min-height:300px;display:flex;flex-direction:column;justify-content:flex-end}
-  .coach-card::before{content:"";position:absolute;right:-30px;top:-20px;width:60px;height:200%;background:var(--red);transform:skewX(-24deg)}
-  .coach-card::after{content:"";position:absolute;right:44px;top:-20px;width:20px;height:200%;background:var(--yellow);transform:skewX(-24deg)}
+  .coach-card::before{display:none;content:"";position:absolute;right:-30px;top:-20px;width:60px;height:200%;background:var(--red);transform:skewX(-24deg)}
+  .coach-card::after{display:none;content:"";position:absolute;right:44px;top:-20px;width:20px;height:200%;background:var(--yellow);transform:skewX(-24deg)}
   .coach-card .big-num{font-family:Anton,Impact,sans-serif;font-style:italic;font-size:54px;padding-right:60px;line-height:1;position:relative;z-index:1}
   .coach-card .big-num small{font-size:28px;opacity:.6}
   .coach-card .arrow{color:var(--yellow)}
@@ -255,7 +255,6 @@
 <main id="top">
   <!-- HERO -->
   <section class="hero">
-    <div class="stripes"><i></i><i></i><i></i></div>
     <div class="container">
       <div class="kicker"><span data-t="heroKicker"></span></div>
       <h1 class="display" data-t="heroH"></h1>
