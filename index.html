@@ -192,9 +192,17 @@
   .ba-stats{display:flex;gap:28px;background:var(--black);color:#fff;padding:16px 24px;border-bottom:4px solid var(--yellow)}
   .ba-stats b{display:block;font-family:Anton,Impact,sans-serif;font-style:italic;font-weight:400;font-size:28px;line-height:1.1}
   .ba-stats span{font-size:12px;opacity:.75}
+  .coach-intro{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:end}
+  .couple{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;border-radius:10px;border-bottom:6px solid var(--red)}
+  @media (max-width:820px){.coach-intro{grid-template-columns:1fr}.couple{max-width:360px}}
+  .ba.one{grid-template-columns:1fr}
+  .ba.one img{aspect-ratio:2/1;object-position:center 22%}
+  .who-row{display:flex;gap:14px;align-items:center;margin-bottom:12px}
+  .who-row .role{margin-bottom:0}
+  .avatar{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center 15%;border:3px solid var(--yellow);flex:none}
   .tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:32px}
   .tcard{background:#fff;border-radius:10px;padding:22px}
-  .tcard img{width:100%;border-radius:6px;margin-bottom:14px}
+  .tcard img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:var(--black);border-radius:6px;margin-bottom:14px}
   .tcard .res{font-family:Anton,Impact,sans-serif;font-style:italic;font-size:26px;color:var(--red);line-height:1.1}
   .tcard q{display:block;font-size:15px;margin:10px 0}
   .tcard .who{font-weight:800;font-size:14px}
@@ -351,30 +359,33 @@
   <!-- COACHES -->
   <section class="block" id="coaches">
     <div class="container">
-      <div class="eyebrow" data-t="coachEyebrow"></div>
-      <h2 class="title display" data-t="coachH"></h2>
-      <p class="lede" data-t="coachLede"></p>
+      <div class="coach-intro">
+        <div>
+          <div class="eyebrow" data-t="coachEyebrow"></div>
+          <h2 class="title display" data-t="coachH"></h2>
+          <p class="lede" data-t="coachLede"></p>
+        </div>
+        <img class="couple" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200">
+      </div>
       <div class="coaches">
         <article class="cc">
           <div class="ba">
-            <figure><img src="kimi-before.jpg" alt="Coach Kimi before" width="600" height="600"><figcaption data-t="before"></figcaption></figure>
-            <figure><img src="kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600"><figcaption data-t="after"></figcaption></figure>
+            <figure><img src="img/kimi-before.jpg" alt="Coach Kimi before" width="600" height="600"><figcaption data-t="before"></figcaption></figure>
+            <figure><img src="img/kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600"><figcaption data-t="after"></figcaption></figure>
           </div>
           <div class="ba-stats"><div><b>+7 KG</b><span data-t="kimiStat1"></span></div><div><b>~20%</b><span data-t="kimiStat2"></span></div></div>
           <div class="body">
-            <h3>Coach Kimi</h3>
-            <div class="role" data-t="kimiRole"></div>
+            <div class="who-row"><img class="avatar" src="img/kimi.jpg" alt="" width="720" height="1080"><div><h3>Coach Kimi</h3>
+            <div class="role" data-t="kimiRole"></div></div></div>
             <blockquote><p data-t="kimiP1"></p><p data-t="kimiP2"></p></blockquote>
           </div>
         </article>
         <article class="cc">
-          <div class="coach-card">
-            <div class="big-num">56<small>KG</small> <span class="arrow">→</span> 47<small>KG</small></div>
-            <p data-t="zaraCard"></p>
-          </div>
+          <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200"></figure></div>
+          <div class="ba-stats"><div><b>56 → 47 KG</b><span data-t="zaraCard"></span></div></div>
           <div class="body">
-            <h3>Coach Zara</h3>
-            <div class="role" data-t="zaraRole"></div>
+            <div class="who-row"><img class="avatar" src="img/zara.jpg" alt="" width="608" height="1080"><div><h3>Coach Zara</h3>
+            <div class="role" data-t="zaraRole"></div></div></div>
             <blockquote><p data-t="zaraP1"></p><p data-t="zaraP2"></p></blockquote>
           </div>
         </article>
@@ -447,7 +458,16 @@ const CONFIG = {
 /* Real client testimonials only, with their written permission. Example entry:
    { name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
      quote:{en:"...", ms:"..."} } */
-const TESTIMONIALS = [];
+const TESTIMONIALS = [
+  { name:"Dr Sakeenah, Kuala Lumpur", result:"67 → 57 kg", photo:"img/t-sakeenah.jpg",
+    quote:{ms:"Baju yang sama, berat yang berbeza. Saya dah turun 13 kg. Rupanya mudah turun berat dengan cara yang betul.",en:"Same outfit, different weight. I've lost 13 kg. It turns out losing weight is easy when you do it the right way."} },
+  { name:"Eka, Johor Bahru", result:"75 → 54 kg", photo:"img/t-eka.jpg",
+    quote:{ms:"Saya turun 21 kg sambil makan nasi, brownies dan makan sedap.",en:"I lost 21 kg while still eating rice, brownies and good food."} },
+  { name:{ms:"Klien team",en:"Team client"}, result:"68 → 57 kg", months:{ms:"Okt 2024 → Sept 2025",en:"Oct 2024 → Sept 2025"}, photo:"img/t-nurse.jpg" },
+  { name:{ms:"Klien team",en:"Team client"}, result:"68 → 58 kg", photo:"img/t-68-58.jpg" },
+  { name:{ms:"Klien team",en:"Team client"}, result:"−11 kg", photo:"img/t-11kg.jpg" },
+  { name:"Alya", result:"102.3 → 85.45 kg", photo:"img/t-alya.jpg" }
+];
 
 const TXT = {
   en: {
@@ -473,15 +493,15 @@ const TXT = {
     kimiRole:"Online fitness coach · for men and women",
     kimiP1:"\"In high school I went from 84 kg down to 60 kg. Then after lockdown I ended up skinny fat: thin, soft around the belly and always tired. Dieting harder wasn't the answer. I ate enough protein, trained with weights and stayed consistent. In 6 months I gained 7 kg, and I've kept it ever since. Today I'm 70 kg at about 20% body fat, and I lift heavy every week.\"",
     kimiP2:"\"Now I help busy working adults do the same with a plan that fits real life: rice, eating out, long shifts and all.\"",
-    zaraCard:"35 weeks pregnant → 55 days after giving birth",
+    zaraCard:"from 35 weeks pregnant to 55 days after giving birth",
     zaraRole:"Online fitness coach · for women and mums",
     zaraP1:"\"I was 56 kg at 35 weeks pregnant, and 47 kg 55 days after giving birth, by eating well and staying active in a way that was safe for me.\"",
     zaraP2:"\"If you'd feel more comfortable with a female coach, I'm here. I also run a Private Ladies Workout class in Gombak.\"",
     coachNote:"Coaches' own journeys. Results vary from person to person.",
-    testiEyebrow:"Real clients",
-    testiH:"What our clients say",
-    testiNote:"Shared with the clients' permission. Results vary from person to person.",
-    webFoot:"Free wellness profile + meal plan",
+    testiEyebrow:"Real results",
+    testiH:"Our team's clients",
+    testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
+    webFoot:"Free online body assessment",
     faqH:"Questions people ask",
     faq:[
       ["Why start with 3 to 5 kg?","Because it's realistic. A small first goal is easier to reach while working full time, and once you see it happen it's much easier to keep going."],
@@ -528,7 +548,7 @@ const TXT = {
     coachPickH:"Who would you like to talk to?",
     pdpa:"By tapping a button, you agree to share your name and quiz answers with our coaches (Coach Kimi and Coach Zara) so we can contact you about your result. Your details won't be shared with anyone else.",
     waBtn:"💬 Prefer to WhatsApp me first?",
-    webBtn:"Get my free wellness profile + meal plan",
+    webBtn:"Get my free online body assessment",
     retake:"↺ Retake the quiz",
     disclaimer:"This quiz is for general wellness guidance only and is not medical advice. Results are not typical and vary by individual.",
     wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like to book a free consultation call. Please send me the link to pick a time slot."}
@@ -556,15 +576,15 @@ const TXT = {
     kimiRole:"Online fitness coach · untuk lelaki dan perempuan",
     kimiP1:"\"Masa sekolah menengah, saya turun dari 84 kg ke 60 kg. Lepas PKP, saya jadi skinny fat: kurus, perut lembik dan selalu penat. Diet lebih ketat bukan jawapannya. Saya makan protein yang cukup, angkat weights dan konsisten. Dalam 6 bulan saya naik 7 kg, dan kekal sampai sekarang. Hari ini saya 70 kg dengan body fat lebih kurang 20%, dan angkat berat setiap minggu.\"",
     kimiP2:"\"Sekarang saya bantu orang bekerja yang sibuk buat perkara yang sama, dengan pelan yang ikut kehidupan sebenar: makan nasi, makan di luar, kerja syif panjang.\"",
-    zaraCard:"35 minggu mengandung → 55 hari selepas bersalin",
+    zaraCard:"dari 35 minggu mengandung ke 55 hari selepas bersalin",
     zaraRole:"Online fitness coach · untuk wanita dan ibu",
     zaraP1:"\"Saya 56 kg masa mengandung 35 minggu, dan 47 kg 55 hari selepas bersalin, dengan makan yang betul dan kekal aktif dengan cara yang selamat untuk saya.\"",
     zaraP2:"\"Kalau anda lebih selesa dengan coach perempuan, saya ada. Saya juga buat kelas Private Ladies Workout di Gombak.\"",
     coachNote:"Perjalanan coach sendiri. Result berbeza mengikut individu.",
-    testiEyebrow:"Klien sebenar",
-    testiH:"Apa kata klien kami",
-    testiNote:"Dikongsi dengan izin klien. Result berbeza mengikut individu.",
-    webFoot:"Wellness profile + meal plan percuma",
+    testiEyebrow:"Result sebenar",
+    testiH:"Klien team kami",
+    testiNote:"Result klien team coaching kami. Result tidak tipikal dan berbeza mengikut individu.",
+    webFoot:"Online body assessment percuma",
     faqH:"Soalan yang selalu ditanya",
     faq:[
       ["Kenapa mula dengan 3 hingga 5 kg?","Sebab ia realistik. Matlamat kecil lebih senang dicapai walaupun kerja sepenuh masa, dan bila dah nampak hasil, lebih senang nak teruskan."],
@@ -611,7 +631,7 @@ const TXT = {
     coachPickH:"Anda selesa bercakap dengan siapa?",
     pdpa:"Dengan menekan butang, anda bersetuju untuk berkongsi nama dan jawapan kuiz dengan coach kami (Coach Kimi dan Coach Zara) supaya kami boleh hubungi anda tentang result anda. Maklumat anda tidak akan dikongsi dengan pihak lain.",
     waBtn:"💬 Nak WhatsApp saya dulu?",
-    webBtn:"Dapatkan wellness profile + meal plan PERCUMA",
+    webBtn:"Dapatkan online body assessment PERCUMA",
     retake:"↺ Ulang kuiz",
     disclaimer:"Kuiz ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result tidak tipikal dan berbeza mengikut individu.",
     wa:{hi:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Turun?”.", name:"Nama", result:"Result", weak:"Bahagian paling lemah", goal:"Matlamat", why:"Sebab utama", when:"Nak mula", commit:"Komitmen", budget:"Bajet sebulan", coach:"Coach pilihan", end:"Saya nak book free consultation call. Boleh hantar link untuk saya pilih slot masa?"}
@@ -736,7 +756,7 @@ function applyLang(){
   document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
   $("web-foot").href = CONFIG.websiteUrl;
   $("testimonials").hidden = !TESTIMONIALS.length;
-  $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="${t.name}" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${t.name}${t.months?" · "+L(t.months):""}</div><q>${L(t.quote)}</q></div>`).join("");
+  $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("");
   $("faq").innerHTML = T.faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join("");
   $("coachpick").innerHTML = "";
   Object.keys(CONFIG.coaches).forEach(k=>{
