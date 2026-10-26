@@ -46,22 +46,23 @@
   @media (max-width:560px){.top-cta{display:none}.logo small{display:none}}
 
   /* ===== hero ===== */
-  .hero{position:relative;background:var(--black);color:#fff;overflow:hidden;padding:64px 0 88px}
+  .hero{position:relative;background:var(--black);color:#fff;overflow:hidden;padding:56px 0 56px}
   .stripes{position:absolute;right:-120px;top:-40px;bottom:-40px;width:420px;display:flex;gap:18px;transform:skewX(-24deg);pointer-events:none}
   .stripes i{display:block;width:70px;background:var(--red)}
   .stripes i:nth-child(2){background:var(--yellow);width:46px}
   .stripes i:nth-child(3){background:var(--red);width:22px;opacity:.85}
   @media (max-width:760px){.stripes{right:-230px;opacity:.5}}
   .hero .container{position:relative;z-index:1}
-  .kicker{display:inline-block;font-weight:800;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;background:var(--yellow);color:#000;padding:5px 10px;transform:skewX(-10deg);margin-bottom:18px}
-  .kicker span{display:inline-block;transform:skewX(10deg)}
+  .kicker{display:inline-block;font-weight:800;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;background:var(--yellow);color:#000;padding:5px 10px;margin-bottom:18px}
   .hero h1{font-size:clamp(44px,8.6vw,92px);max-width:760px;margin-bottom:20px}
   .hero h1 em{color:var(--red);font-style:italic}
   .hero p.sub{font-size:clamp(16px,2.2vw,19px);max-width:560px;opacity:.85;margin-bottom:28px}
   .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-  .big{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:17px 26px;border-radius:6px;transform:skewX(-8deg);box-shadow:6px 6px 0 var(--yellow);transition:transform .15s,box-shadow .15s;border:0;cursor:pointer;font-family:inherit}
-  .big span{transform:skewX(8deg)}
-  .big:hover{transform:skewX(-8deg) translate(-2px,-2px);box-shadow:8px 8px 0 var(--yellow)}
+  .big{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:17px 26px;border-radius:8px;transition:background .15s;border:0;cursor:pointer;font-family:inherit}
+  .big:hover{background:var(--red-dark)}
+  .wa-text{color:#fff;font-weight:700;font-size:15px;opacity:.85}
+  .mini-steps{margin-top:22px;font-size:14px;opacity:.75}
+  .wa-float[hidden]{display:none}
   .hero .meta{font-size:13px;opacity:.65}
   .hero-stats{display:flex;flex-wrap:wrap;gap:20px 28px;margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15);max-width:640px}
   .hero-stats b{display:block;font-family:Anton,Impact,sans-serif;font-style:italic;font-size:30px;font-weight:400;line-height:1.1}
@@ -228,7 +229,7 @@
   /* ===== final cta + footer ===== */
   .final{background:var(--red);color:#fff;text-align:center;padding:64px 0;position:relative;overflow:hidden}
   .final h2{font-size:clamp(32px,6vw,58px);margin-bottom:22px}
-  .final .big{background:#000;box-shadow:6px 6px 0 var(--yellow)}
+  .final .big{background:#000}
   footer{background:var(--black);color:rgba(255,255,255,.7);padding:36px 0;font-size:13px}
   footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center}
   footer .hash{font-family:Anton,Impact,sans-serif;font-style:italic;color:#fff;font-size:18px;letter-spacing:.5px}
@@ -261,34 +262,15 @@
       <p class="sub" data-t="heroSub"></p>
       <div class="hero-ctas">
         <a class="big" href="#quiz-zone"><span data-t="heroBtn"></span></a>
-        <a class="ghost-big wa-link" target="_blank" rel="noopener"><span data-t="waShort"></span></a>
+        <a class="wa-text wa-link" target="_blank" rel="noopener" data-t="waText"></a>
       </div>
-      <div class="hero-stats">
-        <div><b>3-5 KG</b><span data-t="stat1"></span></div>
-        <div><b>2 MIN</b><span data-t="stat2"></span></div>
-        <div><b>2</b><span data-t="stat3"></span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HOW IT WORKS -->
-  <section class="block">
-    <div class="container">
-      <div class="eyebrow" data-t="howEyebrow"></div>
-      <h2 class="title display" data-t="howH"></h2>
-      <p class="lede" data-t="howLede"></p>
-      <ol class="steps3">
-        <li><h3 data-t="how1H"></h3><p data-t="how1P"></p></li>
-        <li><h3 data-t="how2H"></h3><p data-t="how2P"></p></li>
-        <li><h3 data-t="how3H"></h3><p data-t="how3P"></p></li>
-      </ol>
+      <p class="mini-steps" data-t="miniSteps"></p>
     </div>
   </section>
 
   <!-- QUIZ -->
   <section class="quiz-zone" id="quiz-zone">
     <div class="container">
-      <div class="quiz-head"><h2 class="display" data-t="quizHead"></h2></div>
       <div class="wrap">
         <div class="card fade" id="intro">
           <h1 data-t="h1"></h1>
@@ -335,7 +317,6 @@
           <div class="section">
             <h3 data-t="stepsH"></h3>
             <ol class="steps" id="steps"></ol>
-            <div class="all-inc"><strong data-t="investH"></strong><span data-t="investP"></span></div>
             <p class="proof" data-t="proof"></p>
           </div>
 
@@ -345,15 +326,25 @@
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
             <a class="btn" id="book" target="_blank" rel="noopener" data-t="bookBtn"></a>
-            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 14px"></p>
+            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
+            <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
             <a class="btn wa" id="wa" target="_blank" rel="noopener" data-t="waBtn"></a>
-            <a class="btn ghost" id="web" target="_blank" rel="noopener" data-t="webBtn"></a>
             <p class="pdpa" data-t="pdpa"></p>
             <button class="back" id="retake" style="display:block;margin:16px auto 0" data-t="retake"></button>
           </div>
           <p class="disclaimer" data-t="disclaimer"></p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS: shown once TESTIMONIALS below has entries -->
+  <section class="block" id="testimonials" hidden>
+    <div class="container">
+      <div class="eyebrow" data-t="testiEyebrow"></div>
+      <h2 class="title display" data-t="testiH"></h2>
+      <div class="tgrid" id="tgrid"></div>
+      <p class="tnote" data-t="testiNote"></p>
     </div>
   </section>
 
@@ -396,16 +387,6 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS: shown once TESTIMONIALS below has entries -->
-  <section class="block" id="testimonials" hidden style="padding-top:0">
-    <div class="container">
-      <div class="eyebrow" data-t="testiEyebrow"></div>
-      <h2 class="title display" data-t="testiH"></h2>
-      <div class="tgrid" id="tgrid"></div>
-      <p class="tnote" data-t="testiNote"></p>
-    </div>
-  </section>
-
   <!-- FAQ -->
   <section class="block" style="padding-top:0">
     <div class="container">
@@ -421,7 +402,6 @@
       <h2 class="display" data-t="finalH"></h2>
       <div class="ctas">
         <a class="big" href="#quiz-zone"><span data-t="heroBtn"></span></a>
-        <a class="ghost-big wa-link" target="_blank" rel="noopener"><span data-t="waShort"></span></a>
       </div>
     </div>
   </section>
@@ -475,8 +455,11 @@ const TXT = {
   en: {
     navCta:"Take the quiz",
     heroKicker:"Online fitness coaching for working adults",
-    heroH:"Lose 3-5 kg. <em>Realistic.</em> Healthy.",
-    heroSub:"No crash diets and no 2-hour gym sessions. Coach Kimi and Coach Zara help busy working adults lose their first 3 to 5 kg with normal food, short workouts and a coach who checks in on you.",
+    heroH:"Busy at work, weight won't move? <em>Start with your first 3-5 kg.</em>",
+    heroSub:"Take the 2-minute quiz and find out what's stopping your weight from going down. No crash diet, no 2-hour gym, and you can still eat rice.",
+    waText:"or WhatsApp us first",
+    miniSteps:"① Quiz 2 min  →  ② Free 30-min call  →  ③ Start, and we follow up with you",
+    investShort:"Programs start from RM259 a month. On the call we'll find an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
@@ -510,8 +493,6 @@ const TXT = {
       ["Why start with 3 to 5 kg?","Because it's realistic. A small first goal is easier to reach while working full time, and once you see it happen it's much easier to keep going."],
       ["How long does it take to lose 3 to 5 kg?","It depends on your starting point and your routine. A healthy pace is usually around 0.5 to 1 kg a week. We'll give you an honest estimate on the call. Results vary."],
       ["I'm really busy. Do I need the gym?","No. The workouts are about 20 minutes and can be done at home."],
-      ["Is the quiz really free?","Yes. The quiz, your result and the 30-minute consultation call are all free, with no obligation to join anything."],
-      ["What happens after I finish?","You get your score, your weakest area and 3 next steps straight away. If you want help, you can book a free call or WhatsApp us, and your answers are sent along so you don't have to repeat yourself."],
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
       ["How much does coaching cost?","Coaching programs start from RM259 a month. On the call we'll find the option that fits your goal and budget."]
@@ -531,7 +512,7 @@ const TXT = {
     step:(n,t)=>`Question ${n} of ${t}`,
     phaseGoal:"Your goal", phaseRoutine:"Your routine",
     g1:"On track", g2:"Running on empty", g3:"Burnout zone",
-    triangleH:"Your transformation triangle",
+    triangleH:"What needs fixing most",
     fixLead:"Your #1 fix:",
     fixTail:" Most people only fix one side of the triangle. When one side collapses, the whole thing does.",
     stepsH:"What to do next",
@@ -543,7 +524,7 @@ const TXT = {
     tellNone:"Your habits are solid. What usually holds people like you back is not having a clear plan for busy weeks, and that's what we'll sort out on the call.",
     investH:"Before you book: be ready to invest in yourself",
     investP:"A real transformation is an investment, not a quick fix. Our coaching programs start from RM259 a month, often about what many people already spend on eating out and sweet drinks. If you're ready to put that into your health, let's talk. On the call we'll find the option that fits your goal and budget.",
-    proof:"Our team's clients have lost 10 to 30 kg over 3 to 6 months while still working full time and eating real food like rice and the occasional cake. Results vary from person to person.",
+    proof:"Our clients are full-time workers who still eat rice and eat out. Results vary from person to person.",
     ctaTitle:n=>n?`Ready to book your free consultation, ${n}?`:"Ready to book your free consultation?",
     ctaLead:"Pick a time that suits you. It's a free 30-minute call: I'll phone you, we'll go through your answers together, and you'll leave with a clear game plan. No pressure.",
     bookBtn:"📅 Book my free call now",
@@ -559,8 +540,11 @@ const TXT = {
   ms: {
     navCta:"Jawab kuiz",
     heroKicker:"Online fitness coaching untuk orang bekerja",
-    heroH:"Turun 3-5 kg. <em>Realistik.</em> Sihat.",
-    heroSub:"Tiada crash diet, tiada gym 2 jam. Coach Kimi dan Coach Zara bantu orang bekerja yang sibuk turunkan 3 hingga 5 kg pertama dengan makanan biasa, senaman pendek dan coach yang follow-up anda.",
+    heroH:"Sibuk kerja, berat tak turun-turun? <em>Mula dengan 3-5 kg pertama.</em>",
+    heroSub:"Jawab kuiz 2 minit. Tahu apa yang menghalang berat anda turun, tanpa crash diet, tanpa gym 2 jam, masih makan nasi.",
+    waText:"atau WhatsApp kami dulu",
+    miniSteps:"① Kuiz 2 minit  →  ② Call percuma 30 minit  →  ③ Mula, dan kami follow-up",
+    investShort:"Program bermula dari RM259 sebulan. Kita cari pilihan ikut bajet anda dalam call.",
     heroBtn:"Mula kuiz percuma →",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
@@ -594,8 +578,6 @@ const TXT = {
       ["Kenapa mula dengan 3 hingga 5 kg?","Sebab ia realistik. Matlamat kecil lebih senang dicapai walaupun kerja sepenuh masa, dan bila dah nampak hasil, lebih senang nak teruskan."],
       ["Berapa lama nak turun 3 hingga 5 kg?","Bergantung pada titik mula dan rutin anda. Kadar yang sihat biasanya lebih kurang 0.5 hingga 1 kg seminggu. Kami bagi anggaran yang jujur dalam call nanti. Result berbeza mengikut individu."],
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
-      ["Betul ke kuiz ni percuma?","Betul. Kuiz, result dan consultation call 30 minit semuanya percuma, dan tiada paksaan untuk join apa-apa."],
-      ["Apa jadi lepas saya siap jawab?","Anda terus dapat skor, bahagian paling lemah dan 3 langkah seterusnya. Kalau nak bantuan, boleh book free call atau WhatsApp kami, dan jawapan anda dihantar sekali supaya tak perlu cerita semula."],
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
       ["Berapa kos coaching?","Program coaching bermula dari RM259 sebulan. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda."]
@@ -615,7 +597,7 @@ const TXT = {
     step:(n,t)=>`Soalan ${n} daripada ${t}`,
     phaseGoal:"Matlamat anda", phaseRoutine:"Rutin anda",
     g1:"Di landasan betul", g2:"Tenaga habis", g3:"Zon burnout",
-    triangleH:"Segi tiga transformasi anda",
+    triangleH:"Apa yang paling perlu dibaiki",
     fixLead:"Perkara #1 untuk dibaiki:",
     fixTail:" Ramai orang cuma betulkan satu sisi segi tiga. Bila satu sisi runtuh, semuanya runtuh.",
     stepsH:"Apa perlu anda buat sekarang",
@@ -627,7 +609,7 @@ const TXT = {
     tellNone:"Tabiat anda dah bagus. Yang biasanya menghalang orang macam anda ialah tiada pelan yang jelas untuk minggu-minggu sibuk, dan itulah yang kita akan susun dalam call nanti.",
     investH:"Sebelum book: bersedia untuk melabur pada diri sendiri",
     investP:"Transformasi sebenar ialah satu pelaburan, bukan jalan pintas. Program coaching kami bermula dari RM259 sebulan, selalunya lebih kurang sama dengan apa yang ramai orang dah belanja untuk makan di luar dan air manis. Kalau anda dah sedia laburkan itu untuk kesihatan, jom kita berbincang. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda.",
-    proof:"Klien team kami berjaya turun 10 hingga 30 kg dalam 3 hingga 6 bulan, sambil masih bekerja sepenuh masa dan makan makanan biasa seperti nasi dan sesekali kek. Result berbeza mengikut individu.",
+    proof:"Klien kami orang bekerja sepenuh masa yang masih makan nasi dan makan di luar. Result berbeza mengikut individu.",
     ctaTitle:n=>n?`Sedia untuk book free consultation, ${n}?`:"Sedia untuk book free consultation?",
     ctaLead:"Pilih masa yang sesuai untuk anda. Ini free call 30 minit: saya akan telefon anda, kita semak jawapan anda bersama, dan anda dapat game plan yang jelas. Tiada paksaan.",
     bookBtn:"📅 Book free call saya sekarang",
@@ -780,6 +762,7 @@ document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{
 
 function show(id, noScroll){
   view = id;
+  document.querySelector(".wa-float").hidden = id==="result";
   ["intro","quiz","result"].forEach(s=>$(s).classList.add("hidden"));
   const el=$(id); el.classList.remove("hidden"); el.classList.remove("fade"); void el.offsetWidth; el.classList.add("fade");
   if(!noScroll) $("quiz-zone").scrollIntoView({behavior:"smooth"});
@@ -828,12 +811,12 @@ function showResult(relang){
   $("r-title").textContent = firstName ? firstName+", "+title.charAt(0).toLowerCase()+title.slice(1) : title;
   $("r-text").textContent = L(tier.text);
 
-  let weakest = null, weakestPct = 101;
+  let weakest = null, weakestPct = -1;
   $("pillars").innerHTML = "";
   Object.keys(pScore).forEach(p=>{
-    const pct = Math.round(100 - pScore[p]/pMax[p]*100);
-    if(pct < weakestPct){ weakestPct = pct; weakest = p; }
-    const col = pct>=67 ? "var(--ok)" : pct>=34 ? "var(--mid)" : "var(--warm)";
+    const pct = Math.round(pScore[p]/pMax[p]*100);   // how much this side needs fixing
+    if(pct > weakestPct){ weakestPct = pct; weakest = p; }
+    const col = pct>=67 ? "var(--warm)" : pct>=34 ? "var(--mid)" : "var(--ok)";
     $("pillars").insertAdjacentHTML("beforeend",
       `<div class="pillar"><div class="pillar-top"><span>${pLabel[p]}</span><span>${pct}%</span></div><div class="bar"><span style="width:${relang?pct:0}%;background:${col}" data-w="${pct}"></span></div></div>`);
   });
@@ -844,7 +827,7 @@ function showResult(relang){
   const tells = [];
   QUESTIONS.forEach((q,k)=>{ const o=q.a[answers[k]]; if(q.type==="score" && o.i) tells.push({s:o.s, html:`<li><em>${T.tellQ} “${L(o)}”</em>${L(o.i)}</li>`}); });
   tells.sort((x,y)=>y.s-x.s);
-  $("tell").innerHTML = tells.length ? tells.slice(0,4).map(t=>t.html).join("") : `<li>${T.tellNone}</li>`;
+  $("tell").innerHTML = tells.length ? tells.slice(0,2).map(t=>t.html).join("") : `<li>${T.tellNone}</li>`;
 
   // next steps: two weakest sides of the triangle, then book the call
   const ranked = Object.keys(pScore).sort((x,y)=>pScore[y]/pMax[y]-pScore[x]/pMax[x]);
@@ -853,7 +836,6 @@ function showResult(relang){
 
   ctx = { tier, total, maxTotal, weakestLabel: pLabel[weakest] };
   $("cta-title").textContent = T.ctaTitle(firstName);
-  $("web").href = CONFIG.websiteUrl;
   updateWa();
 
   if(relang) return;
