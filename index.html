@@ -175,7 +175,7 @@
   .steps3 li:nth-child(3)::before{background:var(--yellow);color:#000}
   .steps3 h3{font-size:18px;font-weight:800;margin-bottom:6px}
   .steps3 p{color:var(--muted);font-size:15px}
-  .coaches{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px}
+  .coaches{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px;align-items:start}
   @media (max-width:820px){.coaches{grid-template-columns:1fr}}
   .cc{background:#fff;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
   .cc .coach-card{min-height:190px;border-radius:0}
@@ -184,6 +184,14 @@
   .cc .role{font-size:13px;font-weight:700;color:var(--red);margin-bottom:12px}
   .cc blockquote{color:var(--ink);font-size:15px;border-left:3px solid var(--yellow);padding-left:14px}
   .cc blockquote p+p{margin-top:10px}
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--black)}
+  .ba figure{position:relative;margin:0}
+  .ba img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+  .ba figcaption{position:absolute;left:10px;bottom:10px;background:var(--black);color:#fff;font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;transform:skewX(-10deg)}
+  .ba figure+figure figcaption{background:var(--red)}
+  .ba-stats{display:flex;gap:28px;background:var(--black);color:#fff;padding:16px 24px;border-bottom:4px solid var(--yellow)}
+  .ba-stats b{display:block;font-family:Anton,Impact,sans-serif;font-style:italic;font-weight:400;font-size:28px;line-height:1.1}
+  .ba-stats span{font-size:12px;opacity:.75}
   .tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:32px}
   .tcard{background:#fff;border-radius:10px;padding:22px}
   .tcard img{width:100%;border-radius:6px;margin-bottom:14px}
@@ -348,10 +356,11 @@
       <p class="lede" data-t="coachLede"></p>
       <div class="coaches">
         <article class="cc">
-          <div class="coach-card">
-            <div class="big-num">84<small>KG</small> <span class="arrow">→</span> 70<small>KG</small></div>
-            <p data-t="kimiCard"></p>
+          <div class="ba">
+            <figure><img src="kimi-before.jpg" alt="Coach Kimi before" width="600" height="600"><figcaption data-t="before"></figcaption></figure>
+            <figure><img src="kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600"><figcaption data-t="after"></figcaption></figure>
           </div>
+          <div class="ba-stats"><div><b>+7 KG</b><span data-t="kimiStat1"></span></div><div><b>~20%</b><span data-t="kimiStat2"></span></div></div>
           <div class="body">
             <h3>Coach Kimi</h3>
             <div class="role" data-t="kimiRole"></div>
@@ -459,9 +468,10 @@ const TXT = {
     coachEyebrow:"Your coaches",
     coachH:"Meet Coach Kimi & Coach Zara",
     coachLede:"We're a husband and wife coaching team. We've both been through it ourselves, so we know what real life does to a diet.",
-    kimiCard:"Coach Kimi's own journey",
+    before:"Before", after:"After",
+    kimiStat1:"gained in 6 months, kept ever since", kimiStat2:"body fat today",
     kimiRole:"Online fitness coach · for men and women",
-    kimiP1:"\"In high school I was 84 kg at 164 cm. I lost the weight, then after lockdown I ended up skinny fat. I rebuilt with the right nutrition, cardio and weights, and today I'm 70 kg at 171 cm, leaner and stronger.\"",
+    kimiP1:"\"In high school I went from 84 kg down to 60 kg. Then after lockdown I ended up skinny fat: thin, soft around the belly and always tired. Dieting harder wasn't the answer. I ate enough protein, trained with weights and stayed consistent. In 6 months I gained 7 kg, and I've kept it ever since. Today I'm 70 kg at about 20% body fat, and I lift heavy every week.\"",
     kimiP2:"\"Now I help busy working adults do the same with a plan that fits real life: rice, eating out, long shifts and all.\"",
     zaraCard:"35 weeks pregnant → 55 days after giving birth",
     zaraRole:"Online fitness coach · for women and mums",
@@ -541,9 +551,10 @@ const TXT = {
     coachEyebrow:"Coach anda",
     coachH:"Kenali Coach Kimi & Coach Zara",
     coachLede:"Kami pasangan suami isteri yang coach bersama. Kami berdua pernah lalui sendiri, jadi kami faham macam mana kehidupan sebenar boleh ganggu diet.",
-    kimiCard:"Perjalanan Coach Kimi sendiri",
+    before:"Sebelum", after:"Selepas",
+    kimiStat1:"naik dalam 6 bulan, kekal sampai sekarang", kimiStat2:"body fat sekarang",
     kimiRole:"Online fitness coach · untuk lelaki dan perempuan",
-    kimiP1:"\"Masa sekolah menengah, saya 84 kg dengan tinggi 164 cm. Berat turun, tapi lepas PKP saya jadi skinny fat. Saya bina semula dengan pemakanan yang betul, cardio dan weights, dan sekarang saya 70 kg dengan tinggi 171 cm, lebih kurus dan lebih kuat.\"",
+    kimiP1:"\"Masa sekolah menengah, saya turun dari 84 kg ke 60 kg. Lepas PKP, saya jadi skinny fat: kurus, perut lembik dan selalu penat. Diet lebih ketat bukan jawapannya. Saya makan protein yang cukup, angkat weights dan konsisten. Dalam 6 bulan saya naik 7 kg, dan kekal sampai sekarang. Hari ini saya 70 kg dengan body fat lebih kurang 20%, dan angkat berat setiap minggu.\"",
     kimiP2:"\"Sekarang saya bantu orang bekerja yang sibuk buat perkara yang sama, dengan pelan yang ikut kehidupan sebenar: makan nasi, makan di luar, kerja syif panjang.\"",
     zaraCard:"35 minggu mengandung → 55 hari selepas bersalin",
     zaraRole:"Online fitness coach · untuk wanita dan ibu",
