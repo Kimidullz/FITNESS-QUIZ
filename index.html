@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
-<title>Kenapa Berat Tak Turun? | Coach Kimi · WeDoTransformations</title>
+<title>Kenapa Berat Tak Turun? | KimZara · Coach Kimi &amp; Coach Zara</title>
 <meta name="description" content="Kuiz 2 minit percuma oleh Coach Kimi. Tahu kenapa berat badan tak turun, bahagian mana yang paling lemah, dan apa langkah seterusnya.">
 <meta property="og:title" content="Kenapa Berat Tak Turun? Kuiz 2 minit percuma">
 <meta property="og:description" content="10 soalan ringkas oleh Coach Kimi. Dapatkan skor, bahagian paling lemah dan game plan anda.">
@@ -43,7 +43,7 @@
   .lang button{background:none;border:0;color:#fff;font:inherit;font-size:12px;font-weight:800;padding:6px 11px;cursor:pointer;opacity:.6}
   .lang button.on{background:#fff;color:#000;opacity:1}
   .top-cta{background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:13px;padding:9px 14px;border-radius:99px;white-space:nowrap}
-  @media (max-width:560px){.top-cta{display:none}.logo small{display:none}}
+  @media (max-width:560px){.top-cta{display:none}}
 
   /* ===== hero ===== */
   .hero{position:relative;background:var(--black);color:#fff;overflow:hidden;padding:56px 0 56px}
@@ -149,6 +149,7 @@
   .pick-label{font-size:14px;font-weight:700;margin-bottom:8px}
   .coachpick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
   .coachpick button{padding:12px 10px;border:2px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
+  .btn.off{opacity:.4;pointer-events:none}
   .coachpick button.sel{border-color:var(--red);background:var(--tint);color:var(--red-dark)}
   @media (max-width:420px){.card h1{font-size:25px}.card{padding:24px 18px}}
 
@@ -205,6 +206,7 @@
   .avatar{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center 15%;border:3px solid var(--yellow);flex:none}
   .tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:32px}
   .tcard{background:#fff;border-radius:10px;padding:22px}
+  @media (max-width:760px){.tgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:24px -20px 0;padding:0 20px 10px}.tcard{flex:0 0 82%;scroll-snap-align:center}}
   .tcard img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:var(--black);border-radius:6px;margin-bottom:14px}
   .tcard .res{font-family:Anton,Impact,sans-serif;font-style:italic;font-size:26px;color:var(--red);line-height:1.1}
   .tcard q{display:block;font-size:15px;margin:10px 0}
@@ -265,7 +267,7 @@
 
 <header class="top">
   <div class="container">
-    <a class="logo" href="#top"><div class="mark"><span>WDT</span></div><div>COACH KIMI<small>WeDoTransformations</small></div></a>
+    <a class="logo" href="#top"><div class="mark"><span>WDT</span></div><div>KIMZARA<small>Coach Kimi &amp; Coach Zara</small></div></a>
     <div class="top-right">
       <div class="lang" role="group" aria-label="Language">
         <button data-lang="ms">BM</button><button data-lang="en">EN</button>
@@ -297,11 +299,6 @@
         <div class="card fade" id="intro">
           <h1 data-t="h1"></h1>
           <p class="lead" data-t="introLead"></p>
-          <ul class="ticks">
-            <li data-t="tick1"></li>
-            <li data-t="tick2"></li>
-            <li data-t="tick3"></li>
-          </ul>
           <label class="small" for="name" data-t="nameLabel"></label>
           <input type="text" id="name" autocomplete="given-name" maxlength="30">
           <button class="btn" id="start" data-t="startBtn"></button>
@@ -321,6 +318,19 @@
           <span class="badge" id="r-badge"></span>
           <h1 id="r-title"></h1>
           <p class="lead" id="r-text"></p>
+
+          <div class="section">
+            <h3 id="cta-title"></h3>
+            <p class="lead" style="margin-bottom:16px" data-t="ctaLead"></p>
+            <p class="pick-label" data-t="coachPickH"></p>
+            <div class="coachpick" id="coachpick"></div>
+            <a class="btn" id="book" target="_blank" rel="noopener" data-t="bookBtn"></a>
+            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
+            <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
+            <a class="btn wa" id="wa" target="_blank" rel="noopener" data-t="waBtn"></a>
+            <p class="pdpa" data-t="pdpa"></p>
+          </div>
+
           <div class="gauge"><i id="r-dot"></i></div>
           <div class="gauge-labels"><span data-t="g1"></span><span data-t="g2"></span><span data-t="g3"></span></div>
 
@@ -342,17 +352,8 @@
             <p class="proof" data-t="proof"></p>
           </div>
 
-          <div class="section">
-            <h3 id="cta-title"></h3>
-            <p class="lead" style="margin-bottom:16px" data-t="ctaLead"></p>
-            <p class="pick-label" data-t="coachPickH"></p>
-            <div class="coachpick" id="coachpick"></div>
-            <a class="btn" id="book" target="_blank" rel="noopener" data-t="bookBtn"></a>
-            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
-            <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
-            <a class="btn wa" id="wa" target="_blank" rel="noopener" data-t="waBtn"></a>
-            <p class="pdpa" data-t="pdpa"></p>
-            <button class="back" id="retake" style="display:block;margin:16px auto 0" data-t="retake"></button>
+          <div style="text-align:center">
+            <button class="back" id="retake" data-t="retake"></button>
           </div>
           <p class="disclaimer" data-t="disclaimer"></p>
         </div>
@@ -489,7 +490,7 @@ const CONFIG = {
     m: { name:"Coach Kimi", whatsapp:"60127040268", label:{en:"👨 Male coach",ms:"👨 Coach lelaki"}, pref:{en:"Male coach",ms:"Coach lelaki"} },
     f: { name:"Coach Zara", whatsapp:"60123520097", label:{en:"👩 Female coach",ms:"👩 Coach perempuan"}, pref:{en:"Female coach",ms:"Coach perempuan"} }
   },
-  calendlyUrl: "https://calendly.com/hakimihaikal619/15min",  // Free Fat Loss Strategy Call (30 min)
+  calendlyUrl: "https://calendly.com/hakimihaikal619/15min",  // Free Fat Loss Strategy Call: set to 30 min in Calendly (slug stays /15min)
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
 
@@ -528,7 +529,7 @@ const TXT = {
     pkgLabel:"Packages", pSingle:"1 session", pSilver:"5 + 1 free sessions · use within 60 days", pGold:"10 + 2 free sessions · use within 90 days",
     o2Btn:"Book a class slot →",
     o2Addr:"Orchids Library Cafe, 53A-1 (upper floor), Plaza KL Traders Square, Jalan Gombak. Dates follow the monthly schedule on the booking page.",
-    miniSteps:"① Quiz 2 min  →  ② Free 30-min call  →  ③ Start, and we follow up with you",
+    miniSteps:"① Quiz 2 min  →  ② Free 30-min call  →  ③ Coaching from RM259 a month",
     investShort:"Programs start from RM259 a month. On the call we'll find an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     waShort:"💬 WhatsApp us",
@@ -583,11 +584,11 @@ const TXT = {
     phaseGoal:"Your goal", phaseRoutine:"Your routine",
     g1:"On track", g2:"Running on empty", g3:"Burnout zone",
     triangleH:"What needs fixing most",
-    fixLead:"Your #1 fix:",
+    fixLead:"Your #1 fix:", allStrong:"<strong>All three sides look strong.</strong> Your next step is staying consistent, and a coach helps you lock it in for good.",
     fixTail:" Most people only fix one side of the triangle. When one side collapses, the whole thing does.",
     stepsH:"What to do next",
     stepFinalH:"Get a plan built around your schedule",
-    stepFinal:"Book a free 30-minute call with me below. We'll go through your answers, find the root cause and map out your game plan together.",
+    stepFinal:"Book a free 30-minute call with me above. We'll go through your answers, find the root cause and map out your game plan together.",
     tellH:"What your answers tell me",
     tellGoal:(g,w)=>`<strong>Your goal:</strong> ${g}<br><strong>Why it matters to you:</strong> ${w}`,
     tellQ:"You said:",
@@ -627,7 +628,7 @@ const TXT = {
     pkgLabel:"Pakej", pSingle:"1 sesi", pSilver:"5 + 1 sesi percuma · guna dalam 60 hari", pGold:"10 + 2 sesi percuma · guna dalam 90 hari",
     o2Btn:"Book slot kelas →",
     o2Addr:"Orchids Library Cafe, 53A-1 (tingkat atas), Plaza KL Traders Square, Jalan Gombak. Tarikh ikut jadual bulanan di halaman booking.",
-    miniSteps:"① Kuiz 2 minit  →  ② Call percuma 30 minit  →  ③ Mula, dan kami follow-up",
+    miniSteps:"① Kuiz 2 minit  →  ② Call percuma 30 minit  →  ③ Coaching dari RM259 sebulan",
     investShort:"Program bermula dari RM259 sebulan. Kita cari pilihan ikut bajet anda dalam call.",
     heroBtn:"Mula kuiz percuma →",
     waShort:"💬 WhatsApp kami",
@@ -682,11 +683,11 @@ const TXT = {
     phaseGoal:"Matlamat anda", phaseRoutine:"Rutin anda",
     g1:"Di landasan betul", g2:"Tenaga habis", g3:"Zon burnout",
     triangleH:"Apa yang paling perlu dibaiki",
-    fixLead:"Perkara #1 untuk dibaiki:",
+    fixLead:"Perkara #1 untuk dibaiki:", allStrong:"<strong>Ketiga-tiga bahagian nampak kukuh.</strong> Langkah seterusnya ialah kekal konsisten, dan coach bantu anda kunci hasil ini untuk jangka panjang.",
     fixTail:" Ramai orang cuma betulkan satu sisi segi tiga. Bila satu sisi runtuh, semuanya runtuh.",
     stepsH:"Apa perlu anda buat sekarang",
     stepFinalH:"Dapatkan pelan yang ikut jadual anda",
-    stepFinal:"Book free call 30 minit dengan saya di bawah. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
+    stepFinal:"Book free call 30 minit dengan saya di atas. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
     tellH:"Apa jawapan anda beritahu saya",
     tellGoal:(g,w)=>`<strong>Matlamat anda:</strong> ${g}<br><strong>Kenapa ia penting:</strong> ${w}`,
     tellQ:"Anda jawab:",
@@ -812,13 +813,13 @@ const PILLAR_TIPS = {
                       ms:"Minda dan kaedah ialah bahagian paling lemah anda. Kurang tidur, stres dan berusaha seorang diri ialah sebab cubaan lepas tak kekal. Pelan yang jelas dan ada orang yang follow-up akan ubah segalanya."}
 };
 
-let i = 0, answers = [], firstName = "", ctx = {}, coach = "m", locked = false, view = "intro";
+let i = 0, answers = [], firstName = "", ctx = {}, coach = null, locked = false, view = "intro";
 const $ = id => document.getElementById(id);
 
 function applyLang(){
   T = TXT[LANG];
   document.documentElement.lang = LANG;
-  document.title = LANG==="ms" ? "Kenapa Berat Tak Turun? | Coach Kimi · WeDoTransformations" : "Why Can't I Lose Weight? | Coach Kimi · WeDoTransformations";
+  document.title = LANG==="ms" ? "Kenapa Berat Tak Turun? | KimZara · Coach Kimi & Coach Zara" : "Why Can't I Lose Weight? | KimZara · Coach Kimi & Coach Zara";
   document.querySelectorAll("[data-t]").forEach(el => { el.innerHTML = T[el.dataset.t]; });
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===LANG));
   $("name").placeholder = T.namePh;
@@ -846,7 +847,6 @@ document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{
 
 function show(id, noScroll){
   view = id;
-  document.querySelector(".wa-float").hidden = id==="result";
   ["intro","quiz","result"].forEach(s=>$(s).classList.add("hidden"));
   const el=$(id); el.classList.remove("hidden"); el.classList.remove("fade"); void el.offsetWidth; el.classList.add("fade");
   if(!noScroll) $("quiz-zone").scrollIntoView({behavior:"smooth"});
@@ -904,7 +904,7 @@ function showResult(relang){
     $("pillars").insertAdjacentHTML("beforeend",
       `<div class="pillar"><div class="pillar-top"><span>${pLabel[p]}</span><span>${pct}%</span></div><div class="bar"><span style="width:${relang?pct:0}%;background:${col}" data-w="${pct}"></span></div></div>`);
   });
-  $("r-weak").innerHTML = `<strong>${T.fixLead}</strong> ` + L(PILLAR_TIPS[weakest]) + T.fixTail;
+  $("r-weak").innerHTML = weakestPct ? `<strong>${T.fixLead}</strong> ` + L(PILLAR_TIPS[weakest]) + T.fixTail : T.allStrong;
 
   // what your answers tell me
   $("tell-goal").innerHTML = T.tellGoal(L(ans("goal")), L(ans("why")));
@@ -918,7 +918,7 @@ function showResult(relang){
   $("steps").innerHTML = ranked.slice(0,2).map(k=>`<li><strong>${L(PILLAR_ACTIONS[k].h)}</strong>${L(PILLAR_ACTIONS[k].t)}</li>`).join("")
     + `<li><strong>${T.stepFinalH}</strong>${T.stepFinal}</li>`;
 
-  ctx = { tier, total, maxTotal, weakestLabel: pLabel[weakest] };
+  ctx = { tier, total, maxTotal, weakestLabel: weakestPct ? pLabel[weakest] : "-" };
   $("cta-title").textContent = T.ctaTitle(firstName);
   updateWa();
 
@@ -950,6 +950,8 @@ function profileLines(){
 
 function updateWa(){
   if(!ctx.tier) return;
+  ["book","wa"].forEach(id=>$(id).classList.toggle("off", !coach));
+  if(!coach){ $("book").removeAttribute("href"); $("wa").removeAttribute("href"); return; }
   const c = CONFIG.coaches[coach];
   const link = lines => `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(lines.join("\n").replace("%COACH%", c.name))}`;
   $("wa").href = viaSheet(link([T.wa.hi, ...profileLines(), T.wa.end]), "WhatsApp");
@@ -970,6 +972,7 @@ function viaSheet(url, via){
 }
 
 applyLang();
+new IntersectionObserver(([e])=>{ document.querySelector(".wa-float").hidden = e.isIntersecting; }, {rootMargin:"-30% 0px -30% 0px"}).observe($("quiz-zone"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
