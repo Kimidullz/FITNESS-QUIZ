@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-video": {
+      "source": {
+        "source": "github",
+        "repo": "bradautomates/claude-video",
+        "ref": "03ceb42f7fa2c4439aca01752118044baabffb8f"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "watch@claude-video": true
+  }
+}
