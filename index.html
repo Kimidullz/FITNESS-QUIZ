@@ -324,10 +324,9 @@
             <p class="lead" style="margin-bottom:16px" data-t="ctaLead"></p>
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
-            <a class="btn" id="book" target="_blank" rel="noopener" data-t="bookBtn"></a>
+            <a class="btn wa" id="wa" target="_blank" rel="noopener" data-t="waBtn"></a>
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
-            <a class="btn wa" id="wa" target="_blank" rel="noopener" data-t="waBtn"></a>
             <p class="pdpa" data-t="pdpa"></p>
           </div>
 
@@ -490,7 +489,6 @@ const CONFIG = {
     m: { name:"Coach Kimi", whatsapp:"60127040268", label:{en:"👨 Male coach",ms:"👨 Coach lelaki"}, pref:{en:"Male coach",ms:"Coach lelaki"} },
     f: { name:"Coach Zara", whatsapp:"60123520097", label:{en:"👩 Female coach",ms:"👩 Coach perempuan"}, pref:{en:"Female coach",ms:"Coach perempuan"} }
   },
-  calendlyUrl: "https://calendly.com/hakimihaikal619/15min",  // Free Fat Loss Strategy Call: set to 30 min in Calendly (slug stays /15min)
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
 
@@ -538,7 +536,7 @@ const TXT = {
     howH:"3 simple steps",
     howLede:"You don't need to figure it out alone. Here is exactly what happens.",
     how1H:"Take the 2-minute quiz", how1P:"10 quick questions show what is stopping your weight from going down. Free, no sign-up.",
-    how2H:"Free 30-minute call", how2P:"Book a time on your result page. Your coach calls you and builds a plan around your work and family.",
+    how2H:"Free 30-minute call", how2P:"WhatsApp your coach from your result page to set a time. Your coach calls you and builds a plan around your work and family.",
     how3H:"Start, and we check in", how3P:"You get a meal plan with normal food, 20-minute workouts and a coach who follows up with you.",
     quizHead:"Start here: the 2-minute quiz",
     coachEyebrow:"Your coaches",
@@ -588,7 +586,7 @@ const TXT = {
     fixTail:" Most people only fix one side of the triangle. When one side collapses, the whole thing does.",
     stepsH:"What to do next",
     stepFinalH:"Get a plan built around your schedule",
-    stepFinal:"Book a free 30-minute call with me above. We'll go through your answers, find the root cause and map out your game plan together.",
+    stepFinal:"WhatsApp me above to set your free 30-minute call. We'll go through your answers, find the root cause and map out your game plan together.",
     tellH:"What your answers tell me",
     tellGoal:(g,w)=>`<strong>Your goal:</strong> ${g}<br><strong>Why it matters to you:</strong> ${w}`,
     tellQ:"You said:",
@@ -596,17 +594,16 @@ const TXT = {
     investH:"Before you book: be ready to invest in yourself",
     investP:"A real transformation is an investment, not a quick fix. Our coaching programs start from RM259 a month, often about what many people already spend on eating out and sweet drinks. If you're ready to put that into your health, let's talk. On the call we'll find the option that fits your goal and budget.",
     proof:"Our clients are full-time workers who still eat rice and eat out. Results vary from person to person.",
-    ctaTitle:n=>n?`Ready to book your free consultation, ${n}?`:"Ready to book your free consultation?",
-    ctaLead:"Pick a time that suits you. It's a free 30-minute call: I'll phone you, we'll go through your answers together, and you'll leave with a clear game plan. No pressure.",
-    bookBtn:"📅 Book my free call now",
-    bookMeta:"Takes 30 seconds · your quiz answers are sent with your booking",
+    ctaTitle:n=>n?`Ready for your free consultation, ${n}?`:"Ready for your free consultation?",
+    ctaLead:"WhatsApp your coach and we'll set a time that suits you. It's a free 30-minute call: we'll phone you, we'll go through your answers together, and you'll leave with a clear game plan. No pressure.",
+    bookMeta:"Your quiz answers are sent with your message",
     coachPickH:"Who would you like to talk to?",
     pdpa:"By tapping a button, you agree to share your name and quiz answers with our coaches (Coach Kimi and Coach Zara) so we can contact you about your result. Your details won't be shared with anyone else.",
-    waBtn:"💬 Prefer to WhatsApp me first?",
+    waBtn:"💬 WhatsApp my coach now",
     webBtn:"Get my free online body assessment",
     retake:"↺ Retake the quiz",
     disclaimer:"This quiz is for general wellness guidance only and is not medical advice. Results are not typical and vary by individual.",
-    wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like to book a free consultation call. Please send me the link to pick a time slot."}
+    wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like a free consultation call. When can we talk?"}
   },
   ms: {
     navCta:"Jawab kuiz",
@@ -637,7 +634,7 @@ const TXT = {
     howH:"3 langkah mudah",
     howLede:"Anda tak perlu fikir seorang diri. Ini apa yang akan berlaku.",
     how1H:"Jawab kuiz 2 minit", how1P:"10 soalan ringkas tunjuk apa yang buat berat anda tak turun. Percuma, tak perlu daftar.",
-    how2H:"Free call 30 minit", how2P:"Book masa di halaman result. Coach akan call anda dan susun pelan ikut kerja dan keluarga anda.",
+    how2H:"Free call 30 minit", how2P:"WhatsApp coach dari halaman result untuk set masa. Coach akan call anda dan susun pelan ikut kerja dan keluarga anda.",
     how3H:"Mula, dan kami follow-up", how3P:"Anda dapat meal plan dengan makanan biasa, senaman 20 minit dan coach yang pantau progress anda.",
     quizHead:"Mula di sini: kuiz 2 minit",
     coachEyebrow:"Coach anda",
@@ -687,7 +684,7 @@ const TXT = {
     fixTail:" Ramai orang cuma betulkan satu sisi segi tiga. Bila satu sisi runtuh, semuanya runtuh.",
     stepsH:"Apa perlu anda buat sekarang",
     stepFinalH:"Dapatkan pelan yang ikut jadual anda",
-    stepFinal:"Book free call 30 minit dengan saya di atas. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
+    stepFinal:"WhatsApp saya di atas untuk set free call 30 minit. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
     tellH:"Apa jawapan anda beritahu saya",
     tellGoal:(g,w)=>`<strong>Matlamat anda:</strong> ${g}<br><strong>Kenapa ia penting:</strong> ${w}`,
     tellQ:"Anda jawab:",
@@ -695,17 +692,16 @@ const TXT = {
     investH:"Sebelum book: bersedia untuk melabur pada diri sendiri",
     investP:"Transformasi sebenar ialah satu pelaburan, bukan jalan pintas. Program coaching kami bermula dari RM259 sebulan, selalunya lebih kurang sama dengan apa yang ramai orang dah belanja untuk makan di luar dan air manis. Kalau anda dah sedia laburkan itu untuk kesihatan, jom kita berbincang. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda.",
     proof:"Klien kami orang bekerja sepenuh masa yang masih makan nasi dan makan di luar. Result berbeza mengikut individu.",
-    ctaTitle:n=>n?`Sedia untuk book free consultation, ${n}?`:"Sedia untuk book free consultation?",
-    ctaLead:"Pilih masa yang sesuai untuk anda. Ini free call 30 minit: saya akan telefon anda, kita semak jawapan anda bersama, dan anda dapat game plan yang jelas. Tiada paksaan.",
-    bookBtn:"📅 Book free call saya sekarang",
-    bookMeta:"Ambil masa 30 saat · jawapan kuiz anda dihantar sekali dengan booking",
+    ctaTitle:n=>n?`Sedia untuk free consultation, ${n}?`:"Sedia untuk free consultation?",
+    ctaLead:"WhatsApp coach anda dan kita set masa yang sesuai. Ini free call 30 minit: kami akan telefon anda, kita semak jawapan anda bersama, dan anda dapat game plan yang jelas. Tiada paksaan.",
+    bookMeta:"Jawapan kuiz anda dihantar sekali dalam mesej",
     coachPickH:"Anda selesa bercakap dengan siapa?",
     pdpa:"Dengan menekan butang, anda bersetuju untuk berkongsi nama dan jawapan kuiz dengan coach kami (Coach Kimi dan Coach Zara) supaya kami boleh hubungi anda tentang result anda. Maklumat anda tidak akan dikongsi dengan pihak lain.",
-    waBtn:"💬 Nak WhatsApp saya dulu?",
+    waBtn:"💬 WhatsApp coach sekarang",
     webBtn:"Dapatkan online body assessment PERCUMA",
     retake:"↺ Ulang kuiz",
     disclaimer:"Kuiz ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result tidak tipikal dan berbeza mengikut individu.",
-    wa:{hi:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Turun?”.", name:"Nama", result:"Result", weak:"Bahagian paling lemah", goal:"Matlamat", why:"Sebab utama", when:"Nak mula", commit:"Komitmen", budget:"Bajet sebulan", coach:"Coach pilihan", end:"Saya nak book free consultation call. Boleh hantar link untuk saya pilih slot masa?"}
+    wa:{hi:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Turun?”.", name:"Nama", result:"Result", weak:"Bahagian paling lemah", goal:"Matlamat", why:"Sebab utama", when:"Nak mula", commit:"Komitmen", budget:"Bajet sebulan", coach:"Coach pilihan", end:"Saya nak free consultation call. Bila kita boleh bercakap?"}
   }
 };
 
@@ -950,14 +946,11 @@ function profileLines(){
 
 function updateWa(){
   if(!ctx.tier) return;
-  ["book","wa"].forEach(id=>$(id).classList.toggle("off", !coach));
-  if(!coach){ $("book").removeAttribute("href"); $("wa").removeAttribute("href"); return; }
+  $("wa").classList.toggle("off", !coach);
+  if(!coach){ $("wa").removeAttribute("href"); return; }
   const c = CONFIG.coaches[coach];
   const link = lines => `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(lines.join("\n").replace("%COACH%", c.name))}`;
   $("wa").href = viaSheet(link([T.wa.hi, ...profileLines(), T.wa.end]), "WhatsApp");
-  // Calendly: prefill name and put the quiz answers in "anything that will help prepare" (a1)
-  const enc = encodeURIComponent;
-  $("book").href = viaSheet(`${CONFIG.calendlyUrl}?${firstName?`name=${enc(firstName)}&`:""}a1=${enc(profileLines().join("\n"))}`, "Calendly");
 }
 
 // Route a button through the Google Sheet bridge: it saves the lead, then opens `url`
