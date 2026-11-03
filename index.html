@@ -206,6 +206,8 @@
   .avatar{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:center 15%;border:3px solid var(--yellow);flex:none}
   .tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:32px}
   .tcard{background:#fff;border-radius:10px;padding:22px}
+  .wgrid{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:24px -20px 0;padding:0 20px 10px}
+  .wgrid img{flex:0 0 auto;width:min(62vw,260px);height:auto;aspect-ratio:9/16;border-radius:10px;scroll-snap-align:center;background:#000}
   @media (max-width:760px){.tgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:24px -20px 0;padding:0 20px 10px}.tcard{flex:0 0 82%;scroll-snap-align:center}}
   .tcard img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:var(--black);border-radius:6px;margin-bottom:14px}
   .tcard .res{font-family:Anton,Impact,sans-serif;font-style:italic;font-size:26px;color:var(--red);line-height:1.1}
@@ -370,6 +372,17 @@
     </div>
   </section>
 
+  <!-- WDT TEAM RESULTS: this month's 21-Day Challenge posters from WeDoTransformations coaches -->
+  <section class="block" id="wdt-results">
+    <div class="container">
+      <div class="eyebrow">#WEDOTRANSFORMATIONS</div>
+      <h2 class="title display" data-t="wdtH"></h2>
+      <p class="lede" data-t="wdtP"></p>
+      <div class="wgrid" id="wgrid"></div>
+      <p class="tnote" data-t="wdtNote"></p>
+    </div>
+  </section>
+
   <!-- OPTIONS -->
   <section class="block" id="pilihan">
     <div class="container">
@@ -495,6 +508,10 @@ const CONFIG = {
 /* Real client testimonials only, with their written permission. Example entry:
    { name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
      quote:{en:"...", ms:"..."} } */
+// WDT team posters in img/wdt/NN.jpg (client name for the alt text)
+const WDT_RESULTS = [[1,"Sandra Saucedo"],[2,"Hernan Brito"],[3,"Sanjay Abraham"],[4,"Emilia Negru"],[5,"Ivaylo Hristov"],[6,"Andres Contreras"],[7,"Karina Ortiz"],[8,"Sturzu Constantin Daniel"],
+  [9,"Mihalcea Cornelia"],[10,"Rachel Romero"],[11,"Jazmine Fabro"],[12,"Denise Preston"],[13,"Rossi Perez"],[14,"Takeshi Taco"],[15,"Maria Ramirez Ramirez"],[16,"Everline Hoffmann"]];
+
 const TESTIMONIALS = [
   { name:"Dr Sakeenah, Kuala Lumpur", result:"67 → 57 kg", photo:"img/t-sakeenah.jpg",
     quote:{ms:"Baju yang sama, berat yang berbeza. Saya dah turun 13 kg. Rupanya mudah turun berat dengan cara yang betul.",en:"Same outfit, different weight. I've lost 13 kg. It turns out losing weight is easy when you do it the right way."} },
@@ -553,6 +570,7 @@ const TXT = {
     zaraP1:"\"I was 56 kg at 35 weeks pregnant, and 47 kg 55 days after giving birth, by eating well and staying active in a way that was safe for me.\"",
     zaraP2:"\"If you'd feel more comfortable with a female coach, I'm here. I also run a Private Ladies Workout class in Gombak.\"",
     coachNote:"Coaches' own journeys. Results vary from person to person.",
+    wdtH:"Results from our <em>coaching team</em>", wdtP:"21-Day Challenge results from clients of the WeDoTransformations team of coaches, just from this month. There are many more. Swipe to see them all →", wdtNote:"Results vary from person to person and are not typical.",
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
     testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
@@ -651,6 +669,7 @@ const TXT = {
     zaraP1:"\"Saya 56 kg masa mengandung 35 minggu, dan 47 kg 55 hari selepas bersalin, dengan makan yang betul dan kekal aktif dengan cara yang selamat untuk saya.\"",
     zaraP2:"\"Kalau anda lebih selesa dengan coach perempuan, saya ada. Saya juga buat kelas Private Ladies Workout di Gombak.\"",
     coachNote:"Perjalanan coach sendiri. Result berbeza mengikut individu.",
+    wdtH:"Result team <em>coach kami</em>", wdtP:"Result 21-Day Challenge klien team coach WeDoTransformations, untuk bulan ini sahaja. Ada banyak lagi. Leret untuk tengok semua →", wdtNote:"Result berbeza mengikut individu dan tidak tipikal.",
     testiEyebrow:"Result sebenar",
     testiH:"Klien team kami",
     testiNote:"Result klien team coaching kami. Result tidak tipikal dan berbeza mengikut individu.",
@@ -824,6 +843,7 @@ function applyLang(){
   $("web-foot").href = CONFIG.websiteUrl;
   $("testimonials").hidden = !TESTIMONIALS.length;
   $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("");
+  $("wgrid").innerHTML = WDT_RESULTS.map(n=>`<img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy">`).join("");
   $("faq").innerHTML = T.faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join("");
   $("coachpick").innerHTML = "";
   Object.keys(CONFIG.coaches).forEach(k=>{
