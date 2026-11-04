@@ -1,0 +1,427 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>BMR for Dummies v4</title>
+<style>
+@font-face{font-family:'Mont';src:url('fonts/mont.ttf');font-weight:100 900;}
+html,body{margin:0;background:#f7f4eb;}
+canvas{display:block;width:100vw;height:100vh;}
+</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="glass.js"></script>
+<script>
+/* =====================================================================
+   BMR for Dummies — v2, "Dark Tech Keynote" engine grammar with a
+   full brand override (warm cream stage). 1080x1920, 30 fps, 900 frames.
+   Page contract: window.DUR, window.render(t), window.READY, window.TEXTS(t).
+   Every frame is a pure function of f, so any worker can draw any frame.
+   ===================================================================== */
+const W = 1080, H = 1920, FPS = 30, TOTAL = 900, TAU = Math.PI*2;
+const C = { bg:'#f7f4eb', lift:'#fcfaf4', ink:'#111111', red:'#d61f1f', org:'#cf752b', card:'#fbf9f3' };
+const GLOW = 'rgba(207,117,43,0.42)';          // low-opacity warm orange neon on every highlight
+const SAFE_TOP = 450, SAFE_BOT = 1450;
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+
+/* ---------- frame map (the single source of truth) ---------- */
+const T = {
+  cap1: 0, cap2: 90, bmr: 150, s2: 210, ringA: 220, ringB: 340, cap4: 330,
+  push: 480, cards: [490, 520, 550, 580], focus: [612, 642, 672, 702],
+  s4: 750, wipe: 721, warn: 754, rule: 760, prompt: 820
+};
+
+/* ---------- spring physics (mass .35, stiffness 180, damping 12) ---------- */
+const M = 0.35, K = 180, D = 12;
+const SA = D/(2*M), SW = Math.sqrt(K/M - SA*SA);
+const IMP_N = (() => { const t = Math.atan(SW/SA)/SW; return Math.exp(-SA*t)*Math.sin(SW*t); })();
+function spring(fr){ if (fr <= 0) return 0; const t = fr/FPS; return 1 - Math.exp(-SA*t)*(Math.cos(SW*t) + (SA/SW)*Math.sin(SW*t)); }
+function kick(fr){ if (fr <= 0) return 0; const t = fr/FPS; return Math.exp(-SA*t)*Math.sin(SW*t)/IMP_N; }
+const clamp = (v,a=0,b=1) => Math.max(a, Math.min(b, v));
+const lerp = (a,b,t) => a + (b-a)*t;
+const seg = (f,a,b) => clamp((f-a)/(b-a));
+const eio = t => t<.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2;
+const eo = t => 1 - Math.pow(1-t,3);
+const font = (px, wt=700) => `${wt} ${px}px Mont`;
+
+/* ---------- camera (engine grammar: only the camera moves the stage) ---------- */
+// scene worlds sit side by side: S1 at x 0, S2 at x 1080, S3 at x 2160
+const camX = f => 1080*spring(f - T.s2) + 1080*spring(f - T.push);
+
+/* ---------- stage: cream matte, radial lift, hairline grid on a 48 px module ---------- */
+function stage(f){
+  g.fillStyle = C.bg; g.fillRect(0,0,W,H);
+  const lr = g.createRadialGradient(540, 760, 40, 540, 760, 1100);
+  lr.addColorStop(0, C.lift); lr.addColorStop(1, 'rgba(247,244,235,0)'); g.fillStyle = lr; g.fillRect(0,0,W,H);
+  grid(-camX(f) % 192, 0, 1);
+  const vg = g.createRadialGradient(540, 960, 700, 540, 960, 1500);
+  vg.addColorStop(0,'rgba(17,17,17,0)'); vg.addColorStop(1,'rgba(17,17,17,0.06)'); g.fillStyle = vg; g.fillRect(0,0,W,H);
+}
+function grid(ox, oy, alpha, color='17,17,17', boost=1){
+  const step = 48, major = 4; g.save(); g.lineWidth = 1;
+  for (let pass=0; pass<2; pass++){
+    g.strokeStyle = `rgba(${color},${(pass?0.075:0.035)*alpha*boost})`; g.beginPath();
+    for (let i=-1; i<=W/step+1; i++){ if ((i%major===0) !== !!pass) continue; const x = Math.round(ox + i*step)+0.5; g.moveTo(x,0); g.lineTo(x,H); }
+    for (let j=0; j<=H/step+1; j++){ if ((j%major===0) !== !!pass) continue; const y = Math.round(oy + j*step)+0.5; g.moveTo(0,y); g.lineTo(W,y); }
+    g.stroke(); }
+  g.restore();
+}
+function rr(x,y,w,h,r){ g.beginPath(); g.roundRect(x,y,w,h,r); }
+function panel(x,y,w,h,{r=20, stroke=C.ink, lw=1, shadow=1, fill=C.card}={}){
+  g.save(); g.shadowColor = `rgba(17,17,17,${0.10*shadow})`; g.shadowBlur = 34; g.shadowOffsetY = 10;
+  g.fillStyle = fill; rr(x,y,w,h,r); g.fill(); g.restore();
+  g.save(); g.lineWidth = lw; g.strokeStyle = stroke; rr(x+0.5,y+0.5,w-1,h-1,r); g.stroke();
+  g.strokeStyle = 'rgba(255,255,255,0.9)'; g.beginPath(); g.moveTo(x+r, y+1.5); g.lineTo(x+w-r, y+1.5); g.stroke(); g.restore();
+}
+
+/* ---------- vector geometry cache (built once) ---------- */
+function bez(p0,p1,p2,p3,n=28){ const o=[]; for(let i=0;i<=n;i++){ const t=i/n,u=1-t;
+  o.push([u*u*u*p0[0]+3*u*u*t*p1[0]+3*u*t*t*p2[0]+t*t*t*p3[0], u*u*u*p0[1]+3*u*u*t*p1[1]+3*u*t*t*p2[1]+t*t*t*p3[1]]);} return o; }
+const join = (...s) => s.flatMap((x,i)=> i? x.slice(1): x);
+const mirror = p => p.map(([x,y])=>[-x,y]);
+const TORSO = (() => { const L = [];
+  L.push(join([[-46,-272],[-52,-200]], bez([-52,-200],[-95,-178],[-195,-168],[-245,-140]), bez([-245,-140],[-285,-128],[-302,-90],[-300,-40]), bez([-300,-40],[-300,20],[-306,110],[-300,172])));
+  L.push(join(bez([-245,172],[-246,100],[-242,30],[-232,-20]), bez([-232,-20],[-216,80],[-188,170],[-182,250])));
+  L.push(bez([-28,-165],[-90,-140],[-160,-172],[-215,-148]));
+  L.push(bez([-212,-80],[-185,20],[-70,25],[-14,-12]));
+  for (let i=0;i<3;i++) L.push(bez([-14,52+i*42],[-70,62+i*42],[-150,72+i*45],[-178,98+i*48]));
+  const P = new Path2D(); const add = pts => pts.forEach((p,i)=> i? P.lineTo(p[0],p[1]) : P.moveTo(p[0],p[1]));
+  L.forEach(p => { add(p); add(mirror(p)); }); add([[0,-160],[0,40]]); add(bez([-182,250],[-60,266],[60,266],[182,250]));
+  return P; })();
+const DASH = (() => { const P = new Path2D(); P.moveTo(0,60); P.lineTo(0,245); return P; })();
+const HEART = (() => { const P = new Path2D(); for(let i=0;i<=120;i++){ const t=TAU*i/120;
+  const x = 16*Math.pow(Math.sin(t),3), y = -(13*Math.cos(t)-5*Math.cos(2*t)-2*Math.cos(3*t)-Math.cos(4*t)); i? P.lineTo(x,y):P.moveTo(x,y); } P.closePath(); return P; })();
+const VESSELS = (() => { const P = new Path2D(); [bez([62,-88],[58,-110],[62,-128],[78,-136]), bez([92,-84],[96,-108],[112,-122],[128,-118])].forEach(s => s.forEach((p,i)=> i?P.lineTo(p[0],p[1]):P.moveTo(p[0],p[1]))); return P; })();
+const HEART_POS = [78,-36], HEART_K = 4.1, BEAT = 25;   // 72 bpm
+const heartScale = f => { const ph = ((f%BEAT)+BEAT)%BEAT; return 1 + 0.10*kick(ph) + 0.05*kick(ph-7); };
+
+/* ---------- torso: light-reveal (native move) then a living, beating heart ---------- */
+function torso(f, x, y, sc, alpha=1){
+  if (alpha <= 0) return;
+  const rv = eio(seg(f, 2, 40));                       // light band position 0..1
+  g.save(); g.translate(x, y); g.scale(sc, sc); g.globalAlpha = alpha;
+  g.lineCap='round'; g.lineJoin='round'; const lw = 5/Math.sqrt(sc);
+  const drawBody = (col, a) => { g.save(); g.globalAlpha *= a; g.strokeStyle = col; g.lineWidth = lw; g.stroke(TORSO);
+    g.setLineDash([10,12]); g.stroke(DASH); g.setLineDash([]); g.lineWidth = lw*0.8; g.stroke(VESSELS); g.restore(); };
+  if (rv < 1){
+    drawBody(C.ink, 0.07);                                // unlit pixels sit at a few percent
+    const front = lerp(-420, 420, rv), soft = 160;        // diagonal sweep, top-left → bottom-right
+    g.save(); clipDiag(front); drawBody(C.ink, 1); g.restore();
+    g.save(); clipBand(front, 70); drawBody(C.org, 0.9); g.restore();
+  } else drawBody(C.ink, 1);
+  // heart
+  const hs = rv >= 1 ? heartScale(f) : 1, glow = clamp((hs-1)/0.1);
+  g.save(); g.translate(HEART_POS[0], HEART_POS[1]); g.scale(HEART_K*hs, HEART_K*hs);
+  g.globalAlpha *= rv;
+  g.save(); g.globalAlpha *= 0.20 + 0.25*glow; g.fillStyle = C.org; g.shadowColor = C.org; g.shadowBlur = 30 + 40*glow; g.fill(HEART); g.restore();
+  g.shadowColor = GLOW; g.shadowBlur = 18 + 20*glow; g.strokeStyle = C.ink; g.lineWidth = 6/(HEART_K*Math.sqrt(sc)); g.stroke(HEART);
+  g.restore(); g.restore();
+}
+function clipDiag(front){ g.beginPath(); g.moveTo(-2000, -2000); g.lineTo(front*1.4+400, -2000); g.lineTo(front*1.4-400-200, 2000); g.lineTo(-2000, 2000); g.closePath(); g.clip(); }
+function clipBand(front, w){ const a = front*1.4; g.beginPath(); g.moveTo(a+400-w, -2000); g.lineTo(a+400, -2000); g.lineTo(a-600, 2000); g.lineTo(a-600-w, 2000); g.closePath(); g.clip(); }
+
+/* ---------- ECG trace ---------- */
+function ecgShape(p){ const q = (c,w,a) => a*Math.exp(-Math.pow((p-c)/w,2));
+  return q(0.12,0.035,0.12) + q(0.255,0.008,-0.12) + q(0.28,0.011,1) + q(0.305,0.010,-0.28) + q(0.52,0.05,0.26); }
+function ecg(f, ox, alpha){
+  if (alpha <= 0) return;
+  const x0 = 90+ox, x1 = 990+ox, top = 1104, bot = 1196, base = 1176, amp = 62, speed = 11;
+  g.save(); g.globalAlpha = alpha;
+  panel(x0 - 18, top - 46, x1 - x0 + 36, bot - top + 64, {r: 18, shadow: 1.6});
+  g.lineWidth = 1; g.strokeStyle = 'rgba(207,117,43,0.28)'; g.beginPath();
+  for (let x=x0; x<=x1; x+=24){ g.moveTo(x+0.5,top); g.lineTo(x+0.5,bot); }
+  for (let y=top; y<=bot; y+=24){ g.moveTo(x0,y+0.5); g.lineTo(x1,y+0.5); } g.stroke();
+  g.strokeStyle = C.ink; g.strokeRect(x0+0.5, top+0.5, x1-x0, bot-top);
+  g.font = font(22, 600); g.letterSpacing = '5px'; g.fillStyle = C.ink; g.textBaseline = 'alphabetic';
+  g.textAlign = 'left'; g.fillText('LEAD II · 72 BPM', x0, top-14); g.textAlign = 'right'; g.fillText('STATE: AT REST', x1, top-14); g.letterSpacing = '0px';
+  g.save(); g.beginPath(); g.rect(x0+1, top-30, x1-x0-2, bot-top+30); g.clip();
+  g.beginPath(); for (let x=x0; x<=x1; x+=3){ const t = f - (x1-x)/speed; const ph = (((t + 0.28*BEAT)/BEAT)%1+1)%1;
+    const y = base - amp*ecgShape(ph); x===x0 ? g.moveTo(x,y) : g.lineTo(x,y); }
+  const gr = g.createLinearGradient(x0,0,x1,0); gr.addColorStop(0,'rgba(17,17,17,0)'); gr.addColorStop(0.3,'rgba(17,17,17,.9)'); gr.addColorStop(1,C.ink);
+  g.strokeStyle = gr; g.lineWidth = 4.5; g.lineJoin='round'; g.stroke();
+  const hy = base - amp*ecgShape(((((f + 0.28*BEAT)/BEAT)%1)+1)%1);
+  g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 22; g.beginPath(); g.arc(x1-5, hy, 8, 0, TAU); g.fill();
+  g.restore(); g.restore();
+}
+
+/* ---------- text: balanced wrap + caption toast (engine caption component, restyled) ---------- */
+function wrap(words, maxW){
+  const sp = g.measureText(' ').width; words.forEach(o => o.w = g.measureText(o.t).width);
+  const width = a => a.reduce((s,o,i)=> s+o.w+(i?sp:0), 0);
+  if (width(words) <= maxW) return [words];
+  let best = null; for (let k=1;k<words.length;k++){ const a = words.slice(0,k), b = words.slice(k); const m = Math.max(width(a), width(b));
+    if (!best || m < best.m) best = {m, k}; }
+  return [words.slice(0,best.k), words.slice(best.k)];
+}
+function words(text, red=[]){ return text.split(' ').map(t => ({t, red: red.includes(t.replace(/[^\w%#']/g,''))})); }
+// draws word list centred at (cx, cy); per-word reveal callback gives {a, dy, s}
+function drawWords(lines, cx, cy, lineH, anim){
+  const sp = g.measureText(' ').width; let idx = 0;
+  lines.forEach((ln, li) => { const lw = ln.reduce((s,o,i)=> s+o.w+(i?sp:0), 0); let x = cx - lw/2; const y = cy + (li - (lines.length-1)/2)*lineH;
+    ln.forEach(o => { const st = anim ? anim(idx) : {a:1, dy:0, s:1}; idx++;
+      if (st.a > 0){ g.save(); g.globalAlpha *= st.a; g.translate(x + o.w/2, y + st.dy); g.scale(st.s, st.s);
+        if (o.red){ g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 20; } else g.fillStyle = C.ink;
+        g.textAlign='center'; g.textBaseline='middle'; g.fillText(o.t, 0, 0); g.restore(); }
+      x += o.w + sp; }); });
+}
+function toast(text, cy, a, {px=44, red=[], dy=0, sc=1}={}){
+  if (a <= 0) return null;
+  g.save(); g.font = font(px, 600);
+  const ws = words(text, red), lines = wrap(ws, 800), lineH = px*1.3;
+  const tw = Math.max(...lines.map(l => l.reduce((s,o,i)=> s+o.w+(i?g.measureText(' ').width:0),0)));
+  const h = px*1.25 + lineH*lines.length, w = tw + px*2.6, x = W/2 - w/2 + px*0.25, y = cy - h/2 + dy;
+  g.globalAlpha = a; g.translate(W/2, cy+dy); g.scale(sc, sc); g.translate(-W/2, -(cy+dy));
+  panel(x, y, w, h, {r: lines.length>1 ? 34 : h/2, shadow: 1});
+  g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 14; g.beginPath(); g.arc(x + px*0.95, y + h/2, px*0.15, 0, TAU); g.fill(); g.shadowBlur = 0;
+  drawWords(lines, W/2 + px*0.55, y + h/2, lineH, null);
+  g.restore();
+  return {x0:x, y0:y, x1:x+w, y1:y+h};
+}
+
+/* ---------- HUD (sub-metrics: uppercase, generous tracking) ---------- */
+function hud(f){
+  const a = eo(seg(f, 0, 10)); g.save(); g.globalAlpha = a; const y = 490;
+  g.font = font(28, 800); g.letterSpacing = '3px'; g.textAlign='left'; g.textBaseline='middle';
+  g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 12; g.fillText('BMR', 84, y); const bw = g.measureText('BMR ').width;
+  g.shadowBlur = 0; g.fillStyle = INK(f); g.fillText('FOR DUMMIES', 84+bw, y);
+  const scene = f < T.s2 ? 1 : f < T.push ? 2 : f < T.s4 ? 3 : 4;
+  g.font = font(22, 600); g.letterSpacing = '5px'; g.textAlign = 'right'; g.fillStyle = C.org;
+  g.fillText(`SCN 0${scene}/04  ${String(Math.floor(f/FPS)).padStart(2,'0')}:${String(f%FPS).padStart(2,'0')}`, 996, y);
+  g.letterSpacing = '0px';
+  const x0 = 84, x1 = 996, by = 522; g.fillStyle = DARK(f) > 0.5 ? 'rgba(247,244,235,0.18)' : 'rgba(17,17,17,0.12)'; g.fillRect(x0, by, x1-x0, 3);
+  g.fillStyle = C.org; g.fillRect(x0, by, (x1-x0)*f/(TOTAL-1), 3);
+  g.fillStyle = INK(f); [T.s2, T.push, T.s4].forEach(m => g.fillRect(x0 + (x1-x0)*m/TOTAL - 1, by-6, 2, 15));
+  g.restore();
+  // safe-zone brackets
+  g.save(); g.strokeStyle = INK(f); g.lineWidth = 2; const b = 34, p = eo(seg(f,0,14));
+  [[60,SAFE_TOP,1,1],[1020,SAFE_TOP,-1,1],[60,SAFE_BOT,1,-1],[1020,SAFE_BOT,-1,-1]].forEach(([x,y,dx,dy]) => {
+    g.beginPath(); g.moveTo(x, y+dy*b*p); g.lineTo(x,y); g.lineTo(x+dx*b*p, y); g.stroke(); }); g.restore();
+}
+
+/* ---------- social safe zone: all UI lives in x 40–910 (right 15 % clear), y 384–1440 (bottom 25 % clear) ---------- */
+const US = 0.906, UTX = -14.4, UTY = -7.7;
+const toS = (x, y) => [UTX + US*x, UTY + US*y];
+const DARK = f => 1 - seg(f, T.s2, T.s2 + 14);                 // scene 1 is a dark-field 3D stage
+const INK = f => DARK(f) > 0.5 ? '#f7f4eb' : C.ink;
+
+/* ---------- full-frame 9:16 3D layer: scene 1 background, then collapses into the scene 2 card ---------- */
+function draw3D(f){
+  if (!window.R3D || f > T.push + 24) return;
+  const src = R3D.draw(f);
+  const c = eio(seg(f, T.s2, T.s2 + 16)), s = spring(f - T.s2), pushOut = 1080*spring(f - T.push);
+  const [cx, cy] = toS(540 - pushOut, lerp(808, 800, s)); const cw = 560*US, ch = 340*US;
+  const dx = lerp(0, cx - cw/2, c), dy = lerp(0, cy - ch/2, c), dw = lerp(1080, cw, c), dh = lerp(1920, ch, c);
+  const sh = 1080*340/560, sx = lerp(0, 0, c), sy = lerp(0, 820 - sh/2, c), sww = 1080, shh = lerp(1920, sh, c);
+  g.save();
+  if (c > 0){ g.shadowColor = 'rgba(17,17,17,0.28)'; g.shadowBlur = 50*c; g.shadowOffsetY = 18*c; g.fillStyle = '#0b0b0d'; rr(dx, dy, dw, dh, 22*c); g.fill(); g.shadowBlur = 0; g.shadowOffsetY = 0; }
+  rr(dx, dy, dw, dh, 22*c); g.clip(); g.drawImage(src, sx, sy, sww, shh, dx, dy, dw, dh);
+  const bf = seg(f, T.bmr, T.bmr + 8) * (1 - c); if (bf > 0){ g.fillStyle = `rgba(11,11,13,${0.5*bf})`; g.fillRect(dx, dy, dw, dh); }
+  g.restore();
+  if (c > 0.5){ g.save(); g.strokeStyle = C.ink; g.lineWidth = 1; rr(dx+0.5, dy+0.5, dw-1, dh-1, 22*c); g.stroke(); g.restore(); }
+}
+
+/* ---------- 3D-tracked infographic overlay (projected from the live camera; clipped to the safe zone) ---------- */
+function track3D(f){
+  if (!window.R3D || f >= T.s2) return; const tr = R3D.track, a0 = 1 - seg(f, T.s2 - 12, T.s2);
+  g.save(); g.beginPath(); g.rect(40, 480, 878, 960); g.clip(); g.globalAlpha = a0;
+  const CY = '#00d2ff', glow = t => { g.shadowColor = t; g.shadowBlur = 16; };
+  const corners = (x0, y0, x1, y1, L, col) => { g.strokeStyle = col; g.lineWidth = 2; g.beginPath();
+    [[x0,y0,1,1],[x1,y0,-1,1],[x0,y1,1,-1],[x1,y1,-1,-1]].forEach(([x,y,sx,sy]) => { g.moveTo(x, y+sy*L); g.lineTo(x,y); g.lineTo(x+sx*L, y); }); g.stroke(); };
+  g.font = font(20, 600); g.letterSpacing = '4px'; g.textBaseline = 'middle';
+  if (tr.cloud && f < 104){ const [x0,y0,x1,y1] = tr.cloud, pad = 24, A = 1 - seg(f, 88, 104);
+    const X0 = Math.max(52, x0-pad), Y0 = Math.max(520, y0-pad), X1 = Math.min(906, x1+pad), Y1 = Math.min(1150, y1+pad);
+    g.globalAlpha = a0*A; glow(CY); corners(X0, Y0, X1, Y1, 28, CY);
+    g.fillStyle = CY; g.textAlign = 'left'; const lab = `PARTICLE FIELD  ${String(tr.merged).padStart(4,'0')} / ${tr.total} FUSED`; g.fillText(lab, Math.min(X0 + 4, 906 - g.measureText(lab).width), Math.max(500, Y0 - 18));
+    g.fillStyle = 'rgba(247,244,235,0.9)'; g.shadowBlur = 0; g.fillText(`FUSION ${Math.round(100*tr.merged/tr.total)}%`, X0 + 4, Math.min(1430, Y1 + 22)); }
+  if (tr.heart && f >= 92){ const A = eio(seg(f, 92, 108)) * (1 - seg(f, T.bmr - 6, T.bmr)), {x, y} = tr.heart, r = Math.max(60, tr.heart.r);
+    g.globalAlpha = a0*A; const L = lerp(2.2, 1, spring(f - 92));
+    glow('rgba(214,31,31,0.9)'); corners(x - r*L, y - r*L, x + r*L, y + r*L, 22, C.red);
+    const lx = Math.min(x + r + 40, 700), ly = Math.max(520, y - r - 70);
+    g.strokeStyle = 'rgba(247,244,235,0.7)'; g.lineWidth = 1.5; g.shadowBlur = 0; g.beginPath(); g.moveTo(x + r*0.7, y - r*0.7); g.lineTo(lx, ly + 18); g.lineTo(lx + 190, ly + 18); g.stroke();
+    glow(CY); g.fillStyle = CY; g.textAlign = 'left'; g.fillText('HEART · 72 BPM', lx, ly);
+    g.fillStyle = 'rgba(247,244,235,0.85)'; g.shadowBlur = 0; g.fillText('FOCUS LOCK', lx, ly + 44); }
+  g.restore();
+}
+
+/* ---------- Scene 1 + 2 ---------- */
+const TEXT_LOG = [];   // filled during render for TEXTS()
+function scene12(f){
+  const cx = camX(f), s = spring(f - T.s2);
+  // torso: S1 frame (540,820,.80) → S2 frame (540,810,.60) — 25 % smaller, top-centre, carried by the camera
+  const pushOut = 1080*spring(f - T.push);
+  const tx = 540 - pushOut, tsc = lerp(0.80, 0.60, eio(seg(f, T.s2, T.s2+12)));
+  const veil = f >= T.bmr && f < T.s2 + 10 ? 1 - 0.85*eo(seg(f, T.bmr, T.bmr+8))*(1 - seg(f, T.s2-4, T.s2+10)) : 1;
+  // S1 world objects (x offset −camX)
+  const s1x = -cx;
+  if (s1x > -1100){
+    ecg(f, s1x, eo(seg(f, 16, 32)));
+    // readouts
+    g.save(); g.globalAlpha = eo(seg(f, 30, 44)) * veil; g.font = font(22, 600); g.letterSpacing = '5px'; g.fillStyle = C.org; g.textBaseline = 'middle';
+    g.restore();
+  }
+  // S1 caption rail: new caption enters bottom slot, old one translates up and fades
+  if (f < T.s2 + 16){
+    const out = 1 - seg(f, T.s2, T.s2 + 12);
+    const c1fr = f - T.cap1, up1 = eio(seg(f, T.cap2, T.cap2 + 12));
+    const a1 = clamp((c1fr+6)/6) * (1 - seg(f, T.cap2 + 10, T.cap2 + 26)) * out;
+    const r1 = toast('Why does your body burn energy...', 1330, a1, {dy: (1-eo(clamp((c1fr+4)/10)))*24 - up1*118});
+    if (r1 && a1 > 0.9) TEXT_LOG.push({id:'cap1', text:'Why does your body burn energy...', ...r1});
+    const c2fr = f - T.cap2;
+    if (c2fr >= 0){ const sp = spring(c2fr); const r2 = toast("...even if you're completely at rest?", 1330, clamp(c2fr/4)*out, {sc: lerp(0.6,1,sp), dy:(1-sp)*24});
+      if (r2 && out > 0.9 && c2fr > 6) TEXT_LOG.push({id:'cap2', text:"...even if you're completely at rest?", ...r2}); }
+  }
+  // "That's your BMR." massive, centred, BMR in brand red
+  const bf = f - T.bmr;
+  if (bf >= 0 && f < T.s2 + 10){
+    const sp = spring(bf), out = 1 - seg(f, T.s2+4, T.s2+12);
+    g.save(); g.globalAlpha = clamp(bf/3)*out; g.translate(540 + s1x, 830); g.scale(lerp(1.6,1,sp), lerp(1.6,1,sp));
+    g.textAlign='center'; g.textBaseline='middle'; g.font = font(96, 900); g.fillStyle = INK(f); g.fillText("That's your", 0, -112);
+    g.font = font(270, 900); g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 40; g.fillText('BMR.', 0, 70);
+    g.restore();
+    if (out > 0.9 && bf > 6) TEXT_LOG.push({id:'bmr', text:"That's your BMR.", x0:160, y0:660, x1:920, y1:1000});
+  }
+  // ---------- Scene 2 world (x + 1080) ----------
+  const s2x = 1080 - cx;
+  if (f >= T.s2 && s2x > -1100){
+    // header caption locks to top-centre (screen space until the push carries it away)
+    const hf = f - T.s2, hs = spring(hf);
+    g.save(); g.globalAlpha = clamp(hf/5); g.translate(-pushOut, (1-hs)*-40); g.font = font(46, 700);
+    const L = wrap(words('BMR is your baseline survival cost.', ['BMR']), 900); drawWords(L, 540, 592, 58, null); g.restore();
+    if (hf > 6 && f < T.push) TEXT_LOG.push({id:'cap3', text:'BMR is your baseline survival cost.', x0:90, y0:550, x1:990, y1:640});
+    ring(f, 540 + s2x, 1148);
+    // word-by-word under the wheel
+    const wf = f - T.cap4;
+    if (wf >= 0){ g.save(); g.translate(-pushOut, 0); g.font = font(44, 600);
+      const L2 = wrap(words("It's up to 75% of your total daily burn.", ['75%']), 860);
+      drawWords(L2, 540, 1396, 56, i => { const fr = wf - i*4; const sp = spring(fr); return {a: clamp(fr/3), dy: (1-sp)*26, s: lerp(0.7,1,sp)}; });
+      g.restore(); if (wf > 40 && f < T.push) TEXT_LOG.push({id:'cap4', text:"It's up to 75% of your total daily burn.", x0:110, y0:1340, x1:970, y1:1420}); }
+  }
+}
+function ring(f, x, y){
+  const r = 148, appear = spring(f - T.s2 - 4);
+  if (appear <= 0) return;
+  const p = eio(seg(f, T.ringA, T.ringB)), val = 75*p, hit = f >= T.ringB;
+  // radial expansion wave across the grid lines at the hit
+  if (hit){ const wp = seg(f, T.ringB, T.ringB + 48); if (wp < 1){ const R = eo(wp)*1500, bw = 120;
+    g.save(); g.beginPath(); g.arc(x, y, R + bw, 0, TAU); g.arc(x, y, Math.max(0, R - bw), 0, TAU, true); g.clip('evenodd');
+    grid(-camX(f) % 192, 0, (1-wp), '207,117,43', 7); g.restore();
+    g.save(); g.strokeStyle = C.red; g.globalAlpha = 0.35*(1-wp); g.lineWidth = 3; g.shadowColor = GLOW; g.shadowBlur = 20;
+    g.beginPath(); g.arc(x, y, R, 0, TAU); g.stroke(); g.restore(); } }
+  g.save(); g.translate(x, y); g.scale(appear, appear);
+  // tick ring (48 ticks), staggered write-in
+  g.strokeStyle = C.org; g.lineWidth = 2;
+  for (let i=0;i<48;i++){ const q = eo(seg(f, T.s2+6+i*0.5, T.s2+16+i*0.5)); if (q<=0) continue; const a0 = -Math.PI/2 + i/48*TAU;
+    const r0 = r+26, r1 = r0 + (i%4===0 ? 16 : 7)*q; g.beginPath(); g.moveTo(Math.cos(a0)*r0, Math.sin(a0)*r0); g.lineTo(Math.cos(a0)*r1, Math.sin(a0)*r1); g.stroke(); }
+  g.lineWidth = 30; g.lineCap = 'round'; g.strokeStyle = 'rgba(17,17,17,0.09)'; g.beginPath(); g.arc(0,0,r,0,TAU); g.stroke();
+  const end = -Math.PI/2 + TAU*val/100;
+  if (val > 0.1){ g.save(); g.strokeStyle = hit ? C.red : C.ink;
+    if (hit){ g.shadowColor = GLOW; g.shadowBlur = 26 + 30*(1-seg(f, T.ringB, T.ringB+30)); }
+    g.beginPath(); g.arc(0,0,r,-Math.PI/2,end); g.stroke(); g.restore(); }
+  if (hit){ const q = eio(seg(f, T.ringB+10, T.ringB+30)); g.save(); g.lineWidth = 8; g.lineCap='butt'; g.strokeStyle = C.org; g.setLineDash([8,9]);
+    g.beginPath(); g.arc(0,0,r, end+0.16, end+0.16 + (TAU*0.25-0.32)*q); g.stroke(); g.restore(); }
+  g.textAlign='center'; g.textBaseline='middle';
+  g.font = font(22, 700); g.letterSpacing='6px'; g.fillStyle = C.ink; g.fillText('UP TO', 3, -60); g.letterSpacing='0px';
+  const pop = hit ? 1 + 0.16*kick(f - T.ringB) : 1; g.save(); g.scale(pop, pop); g.font = font(96, 800);
+  if (hit){ g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 24; } else g.fillStyle = C.ink;
+  g.fillText(`${Math.round(val)}%`, 0, 16); g.restore();
+  g.restore();
+  if (hit){ g.save(); g.globalAlpha = seg(f, T.ringB+22, T.ringB+32); g.font = font(22, 700); g.letterSpacing='4px'; g.fillStyle = C.org;
+    g.textAlign = 'left'; g.textBaseline='middle'; g.fillText('REST: MOVEMENT', x + r + 52, y + 96); g.fillText('+ DIGESTION', x + r + 52, y + 126); g.restore(); }
+}
+
+/* ---------- Scene 3: four levers ---------- */
+const CARDS = [
+  {n:'01', t:'Muscle Mass', d:'More muscle, higher burn at rest'},
+  {n:'02', t:'Biological Age', d:'BMR slowly drops as you age'},
+  {n:'03', t:'Genetic Sex', d:'Males usually burn more at rest'},
+  {n:'04', t:'Total Body Size', d:'Bigger body, bigger baseline'} ];
+function scene3(f){
+  const s3x = 2160 - camX(f); if (f < T.push || s3x > 1100 || f >= T.s4) return;
+  const away = i => 1 - eio(seg(f, T.wipe + i*4, T.wipe + i*4 + 9));   // fully cleared by frame 746, before scene 4
+  // header
+  const ha = away(0); if (ha > 0){ g.save(); g.translate(540 + s3x, 600); g.scale(ha, ha);
+    g.font = font(104, 900); g.textBaseline='middle'; const w4 = g.measureText('4 ').width, wl = g.measureText('LEVERS').width, x0 = -(w4+wl)/2;
+    g.textAlign='left'; g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 26; g.fillText('4', x0, 0); g.shadowBlur = 0; g.fillStyle = C.ink; g.fillText('LEVERS', x0+w4, 0);
+    g.font = font(26, 700); g.letterSpacing = '9px'; g.textAlign='center'; g.fillStyle = C.org; g.fillText('WHAT SETS YOUR BMR', 4, 74); g.letterSpacing='0px';
+    g.restore(); if (ha > 0.99 && s3x < 2) TEXT_LOG.push({id:'levers', text:'4 LEVERS what sets your bmr', x0:200, y0:540, x1:880, y1:690}); }
+  CARDS.forEach((c, i) => {
+    const fr = f - T.cards[i]; if (fr < 0) return; const a = away(i+1); if (a <= 0) return;
+    const dir = i%2===0 ? 1 : -1, sp = spring(fr);
+    const w = 860, h = 140, x = 110 + s3x + dir*(1-sp)*1150, y = 720 + i*170;
+    g.save(); g.translate(x + w/2, y + h/2); g.scale(a, a); g.translate(-w/2, -h/2);
+    const fp = f >= T.focus[i] ? 1 - seg(f, T.focus[i]+20, T.focus[i]+44) : 0;
+    if (fp > 0){ g.save(); g.shadowColor = `rgba(207,117,43,${0.5*fp})`; g.shadowBlur = 36*fp; g.fillStyle = C.card; rr(0,0,w,h,h/2); g.fill(); g.restore(); }
+    panel(0, 0, w, h, {r: h/2, lw: fp > 0 ? 2 : 1, stroke: fp > 0 ? C.red : C.ink});
+    g.textBaseline='middle'; g.textAlign='left';
+    g.font = font(34, 700); g.fillStyle = C.org; g.fillText(c.n, 64, 50); const nw = g.measureText(c.n).width;
+    g.fillStyle = 'rgba(17,17,17,0.35)'; g.fillText(' //', 64+nw, 50); const lx = 64 + nw + g.measureText(' // ').width;
+    g.font = font(44, 800); g.fillStyle = C.ink; g.fillText(c.t, lx, 50);
+    g.font = font(25, 500); g.fillStyle = 'rgba(17,17,17,0.66)'; g.fillText(c.d, 64, 99);
+    // crosshair anchors on landing
+    const lf = fr - 8; if (lf >= 0){ const ls = spring(lf), cx = w - 84, cy = h/2, k = lerp(2.4, 1, ls);
+      g.save(); g.translate(cx, cy); g.rotate((1-ls)*Math.PI/2); g.scale(k,k); g.globalAlpha = clamp(lf/4);
+      g.strokeStyle = fp>0 ? C.red : C.ink; g.lineWidth = 2/k; g.beginPath(); g.arc(0,0,24,0,TAU); g.stroke();
+      g.beginPath(); [[0,-38,0,-14],[0,14,0,38],[-38,0,-14,0],[14,0,38,0]].forEach(([a1,b1,c1,d1]) => { g.moveTo(a1,b1); g.lineTo(c1,d1); }); g.stroke();
+      g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 10; g.beginPath(); g.arc(0,0,5,0,TAU); g.fill(); g.restore(); }
+    g.restore();
+    if (sp > 0.98 && a > 0.99) TEXT_LOG.push({id:'card'+i, text:`${c.n} // ${c.t} ${c.d}`, x0:x, y0:y, x1:x+w, y1:y+h});
+  });
+}
+
+/* ---------- Scene 4: the golden rule ---------- */
+function scene4(f){
+  if (f < T.warn) return;
+  const s = spring(f - T.warn), cx = 540, cy = 930, w = 960, h = 500;
+  g.save(); g.translate(cx, cy); g.scale(s, s);
+  const pulse = 0.5 + 0.5*Math.cos((f - T.warn)*TAU/36);       // soft opacity loop, 1.2 s
+  g.save(); g.shadowColor = 'rgba(17,17,17,0.10)'; g.shadowBlur = 40; g.shadowOffsetY = 12; g.fillStyle = C.card; rr(-w/2,-h/2,w,h,28); g.fill(); g.restore();
+  g.save(); g.globalAlpha = 0.45 + 0.55*pulse; g.strokeStyle = C.red; g.lineWidth = 3; g.shadowColor = GLOW; g.shadowBlur = 14 + 18*pulse;
+  rr(-w/2+1.5,-h/2+1.5,w-3,h-3,28); g.stroke(); g.restore();
+  // warning glyph + tracked label
+  g.save(); g.translate(-176, -h/2 + 62); g.strokeStyle = C.red; g.lineWidth = 4; g.lineJoin='round';
+  g.beginPath(); g.moveTo(0,-19); g.lineTo(21,17); g.lineTo(-21,17); g.closePath(); g.stroke();
+  g.fillStyle = C.red; g.fillRect(-2,-7,4,13); g.beginPath(); g.arc(0,11.5,2.8,0,TAU); g.fill(); g.restore();
+  g.font = font(24, 700); g.letterSpacing = '8px'; g.fillStyle = C.red; g.textAlign='left'; g.textBaseline='middle'; g.fillText('WARNING BLOCK', -138, -h/2 + 64); g.letterSpacing='0px';
+  g.restore();
+  // the rule: two clean lines, slammed in with a 4-frame stagger
+  const L = [ {t:'RULE #1:', y: cy - 40, px: 150}, {t:'NEVER EAT BELOW YOUR BMR.', y: cy + 120, px: 0} ];
+  L.forEach((ln, i) => { const lf = f - (T.rule + i*4); if (lf < 0) return; const sp = spring(lf);
+    let px = ln.px; if (!px){ g.font = font(100, 900); px = 100*Math.min(1, 880/g.measureText(ln.t).width); }
+    g.save(); g.translate(540, ln.y - (1-sp)*220); const k = lerp(i === 0 ? 1.35 : 1.08, 1, sp); g.scale(k, k); g.globalAlpha = clamp(lf/3)*s;
+    g.font = font(px, 900); g.textAlign='center'; g.textBaseline='middle';
+    if (i === 1){ const pre = 'NEVER EAT BELOW YOUR ', w1 = g.measureText(pre).width, w2 = g.measureText('BMR.').width, x0 = -(w1+w2)/2;
+      g.textAlign='left'; g.fillStyle = C.ink; g.fillText(pre, x0, 0); g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 22; g.fillText('BMR.', x0 + w1, 0); }
+    else { g.fillStyle = C.ink; g.fillText(ln.t, 0, 0); }
+    g.restore(); });
+  if (f >= T.rule + 8) TEXT_LOG.push({id:'rule', text:'RULE #1: NEVER EAT BELOW YOUR BMR.', x0:100, y0:700, x1:980, y1:1160});
+  // prompt slides up + spring chevron
+  const pf = f - T.prompt; if (pf >= 0){ const sp = spring(pf);
+    g.save(); g.globalAlpha = clamp(pf/4); g.translate(0, (1-sp)*60); g.font = font(42, 600);
+    const Lp = wrap(words("Comment 'BMR' to calculate your baseline.", ['BMR']), 940); drawWords(Lp, 540, 1265, 54, null); g.restore();
+    const cf = pf - 4; if (cf >= 0){ const cs = spring(cf), bob = Math.max(0, Math.sin((cf-10)*0.33))*12*clamp((cf-10)/6), y = lerp(1300, 1360, cs) + bob;
+      g.save(); g.globalAlpha = clamp(cf/4); g.strokeStyle = C.red; g.lineWidth = 10; g.lineCap='round'; g.lineJoin='round'; g.shadowColor = GLOW; g.shadowBlur = 26;
+      g.beginPath(); g.moveTo(504, y-14); g.lineTo(540, y+20); g.lineTo(576, y-14); g.stroke();
+      g.globalAlpha *= 0.45; g.beginPath(); g.moveTo(514, y-42); g.lineTo(540, y-18); g.lineTo(566, y-42); g.stroke(); g.restore(); }
+    if (pf > 4) TEXT_LOG.push({id:'prompt', text:"Comment 'BMR' to calculate your baseline.", x0:100, y0:1240, x1:980, y1:1300}); }
+}
+
+/* ---------- push transition edge (UI expand grammar) ---------- */
+function pushEdge(f){
+  [[T.s2, 'pan'], [T.push, 'push']].forEach(([t0]) => { const p = spring(f - t0); if (p <= 0.02 || p >= 0.98) return;
+    const ex = W*(1-p); g.save(); g.fillStyle = C.red; g.shadowColor = GLOW; g.shadowBlur = 24; g.globalAlpha = 0.9*(1 - Math.abs(p-0.5)*1.4);
+    g.fillRect(ex-2, SAFE_TOP+90, 4, SAFE_BOT-SAFE_TOP-90); g.restore(); });
+}
+
+/* ---------- master ---------- */
+function renderFrame(f){
+  TEXT_LOG.length = 0;
+  g.setTransform(1,0,0,1,0,0); g.globalAlpha = 1; g.shadowBlur = 0; g.shadowOffsetY = 0; g.setLineDash([]); g.letterSpacing = '0px';
+  stage(f); draw3D(f); track3D(f);
+  g.setTransform(US, 0, 0, US, UTX, UTY);
+  hud(f); scene12(f); scene3(f); pushEdge(f); scene4(f);
+  g.setTransform(1,0,0,1,0,0);
+}
+window.DUR = TOTAL/FPS;
+window.renderFrame = renderFrame;
+window.render = t => renderFrame(Math.round(t*FPS));
+window.TEXTS = t => { renderFrame(Math.round(t*FPS)); return TEXT_LOG.slice(); };
+window.ready = new Promise(res => { const c = () => window.r3dReady ? res() : setTimeout(c, 20); c(); }).then(() => Promise.all([document.fonts.load('900 100px Mont'), document.fonts.load('600 40px Mont'), document.fonts.load('800 40px Mont')]))
+  .then(() => { renderFrame(0); window.READY = true; return true; });
+</script></body></html>
