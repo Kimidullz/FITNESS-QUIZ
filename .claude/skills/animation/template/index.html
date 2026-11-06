@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Starter render page. Every animation is built PAUSED and is moved to an
+     exact time by renderFrame(f), so frames come out the same on every run.
+     Libraries load from ./libs (run vendor.sh first). -->
+<style>
+  :root { --black:#0b0b0b; --white:#fff; --red:#E30613; --yellow:#FFD200; }
+  html,body { margin:0; width:540px; height:960px; overflow:hidden; background:var(--black); }
+  #stage { position:relative; width:540px; height:960px; font-family:system-ui, sans-serif; color:var(--white); }
+  .title { position:absolute; left:40px; right:40px; top:340px; font-size:40px; font-weight:900; line-height:1; text-transform:uppercase; }
+  .bar { position:absolute; left:40px; height:18px; width:0; }
+  .bar.red { top:300px; background:var(--red); }
+  .bar.yellow { top:560px; background:var(--yellow); }
+  .dot { position:absolute; top:640px; width:28px; height:28px; border-radius:50%; background:var(--yellow); }
+</style>
+<script src="libs/gsap.min.js"></script>
+<script src="libs/SplitText.min.js"></script>
+<script src="libs/anime.min.js"></script>
+</head>
+<body>
+<div id="stage">
+  <div class="bar red"></div>
+  <div class="title" id="title">We do transformations</div>
+  <div class="bar yellow"></div>
+  <div class="dot" style="left:60px"></div><div class="dot" style="left:120px"></div><div class="dot" style="left:180px"></div>
+</div>
+<script>
+const FPS = 30, DURATION = 4;              // seconds
+window.TOTAL_FRAMES = FPS * DURATION;
+
+gsap.registerPlugin(SplitText);
+gsap.ticker.lagSmoothing(0);
+const split = new SplitText('#title', { type: 'words,chars' });
+
+// GSAP: one master timeline, paused.
+const tl = gsap.timeline({ paused: true })
+  .to('.bar.red',    { width: 300, duration: 0.5, ease: 'power3.out' }, 0)
+  .from(split.chars, { yPercent: 120, opacity: 0, stagger: 0.03, duration: 0.5, ease: 'back.out(2)' }, 0.2)
+  .to('.bar.yellow', { width: 460, duration: 0.6, ease: 'power3.out' }, 0.8)
+  .to('#title',      { scale: 1.06, duration: 0.4, yoyo: true, repeat: 1, ease: 'sine.inOut' }, 2.6);
+
+// anime.js: autoplay off, moved with seek(ms).
+const dots = anime({ targets: '.dot', translateY: [-40, 0], opacity: [0, 1],
+  delay: anime.stagger(120, { start: 1400 }), duration: 600, easing: 'easeOutElastic(1, .6)', autoplay: false });
+
+window.renderFrame = (f) => {
+  const t = f / FPS;
+  tl.seek(t, false);
+  dots.seek(t * 1000);
+};
+window.ready = document.fonts.ready.then(() => window.renderFrame(0));
+if (location.hash.startsWith('#f=')) window.ready.then(() => renderFrame(+location.hash.slice(3)));
+</script>
+</body>
+</html>
