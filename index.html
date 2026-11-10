@@ -154,7 +154,7 @@
   .pick-label{font-size:14px;font-weight:700;margin-bottom:8px}
   .coachpick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
   .coachpick button{padding:12px 10px;border:2px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
-  .btn.off{opacity:.4;pointer-events:none}
+  .btn.off{background:#fff;color:#333;border:2px dashed #999;pointer-events:none}
   .coachpick button.sel{border-color:var(--red);background:var(--tint);color:var(--red-dark)}
   @media (max-width:420px){.card h1{font-size:25px}.card{padding:24px 18px}}
 
@@ -280,7 +280,7 @@
       <div class="lang" role="group" aria-label="Language">
         <button data-lang="ms">BM</button><button data-lang="en">EN</button>
       </div>
-      <a class="top-cta" href="#quiz-zone" data-t="navCta"></a>
+      <a class="top-cta assess" target="_blank" rel="noopener" data-t="navCta"></a>
     </div>
   </div>
 </header>
@@ -294,7 +294,7 @@
       <p class="sub" data-t="heroSub"></p>
       <div class="ticks-hero" data-t="heroTicks"></div>
       <div class="hero-ctas">
-        <a class="big" id="assess-top" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
+        <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
         <a class="quiz-link" href="#quiz-zone" data-t="heroQuizLink"></a>
       </div>
       <p class="mini-steps" data-t="miniSteps"></p>
@@ -333,7 +333,7 @@
             <p class="lead" style="margin-bottom:16px" data-t="ctaLead"></p>
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
-            <a class="btn wa" id="wa" target="_blank" rel="noopener" data-t="waBtn"></a>
+            <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
             <p class="pdpa" data-t="pdpa"></p>
@@ -394,7 +394,7 @@
           <ul class="checks" data-t="o1List"></ul>
           <div class="olabel" data-t="investLabel"></div>
           <div class="oprice" data-t="o1Price"></div>
-          <a class="btn" href="#quiz-zone" data-t="o1Btn"></a>
+          <a class="btn assess" target="_blank" rel="noopener" data-t="o1Btn"></a>
         </article>
         <article class="offer ladies" id="ladies">
           <span class="otag" data-t="o2Tag"></span>
@@ -424,27 +424,27 @@
           <h2 class="title display" data-t="coachH"></h2>
           <p class="lede" data-t="coachLede"></p>
         </div>
-        <img class="couple" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200">
+        <img class="couple" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
       </div>
       <div class="coaches">
         <article class="cc">
           <div class="ba">
-            <figure><img src="img/kimi-before.jpg" alt="Coach Kimi before" width="600" height="600"><figcaption data-t="before"></figcaption></figure>
-            <figure><img src="img/kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600"><figcaption data-t="after"></figcaption></figure>
+            <figure><img src="img/kimi-before.jpg" alt="Coach Kimi before" width="600" height="600" loading="lazy"><figcaption data-t="before"></figcaption></figure>
+            <figure><img src="img/kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600" loading="lazy"><figcaption data-t="after"></figcaption></figure>
           </div>
           <div class="ba-head" data-t="kimiHead"></div>
           <div class="ba-stats"><div><b>+7 KG</b><span data-t="kimiStat1"></span></div><div><b>19%</b><span data-t="kimiStat2"></span></div></div>
           <div class="body">
-            <div class="who-row"><img class="avatar" src="img/kimi.jpg" alt="" width="720" height="1080"><div><h3>Coach Kimi</h3>
+            <div class="who-row"><img class="avatar" src="img/kimi.jpg" alt="" width="160" height="240" loading="lazy"><div><h3>Coach Kimi</h3>
             <div class="role" data-t="kimiRole"></div></div></div>
             <blockquote><p data-t="kimiP1"></p><p data-t="kimiP2"></p></blockquote>
           </div>
         </article>
         <article class="cc">
-          <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200"></figure></div>
+          <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200" loading="lazy"></figure></div>
           <div class="ba-stats"><div><b>56 → 47 KG</b><span data-t="zaraCard"></span></div></div>
           <div class="body">
-            <div class="who-row"><img class="avatar" src="img/zara.jpg" alt="" width="608" height="1080"><div><h3>Coach Zara</h3>
+            <div class="who-row"><img class="avatar" src="img/zara.jpg" alt="" width="160" height="284" loading="lazy"><div><h3>Coach Zara</h3>
             <div class="role" data-t="zaraRole"></div></div></div>
             <blockquote><p data-t="zaraP1"></p><p data-t="zaraP2"></p></blockquote>
           </div>
@@ -468,7 +468,7 @@
     <div class="container">
       <h2 class="display" data-t="finalH"></h2>
       <div class="ctas">
-        <a class="big" href="#quiz-zone"><span data-t="heroBtn"></span></a>
+        <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
       </div>
     </div>
   </section>
@@ -522,9 +522,9 @@ const TESTIMONIALS = [
 
 const TXT = {
   en: {
-    navCta:"Take the quiz",
+    navCta:"Free body assessment",
     heroKicker:"Free online body assessment",
-    heroH:"Busy at work, weight won't move? <em>Start with your first 3-5 kg.</em>",
+    heroH:"Losing weight ≠ losing fat. <em>Check your body first, for free.</em>",
     heroSub:"Start with our free online body assessment and find out where you stand and what to fix first. No crash diet, no 2-hour gym, and you can still eat rice.",
     waText:"or WhatsApp us first",
     heroTicks:"<span>✓ No crash diet</span><span>✓ Still eat rice</span><span>✓ Male &amp; female coach</span>",
@@ -533,15 +533,15 @@ const TXT = {
     offLede:"Want online coaching from home, or a ladies-only class in person? Both work.",
     o1Tag:"Online · men &amp; women", o1H:"Online coaching",
     o1P:"For busy working adults who want a clear plan and a coach who checks in on them.",
-    o1List:"<li>1-to-1 and group coaching</li><li>Meal plan with normal food, including eating out</li><li>20-minute workouts you can do at home</li><li>A coach who follows up with you</li><li>Nutrition supplements included to support your journey, so you don't have to depend on them</li>",
-    investLabel:"Investment", o1Price:"From RM259 a month", o1Btn:"Start with the free quiz →",
+    o1List:"<li>1-to-1 and group coaching</li><li>Meal plan with normal food, including eating out</li><li>20-minute workouts you can do at home</li><li>A coach who follows up with you</li><li>Nutrition support included. Your plan is built on normal food, not on products</li>",
+    investLabel:"Investment", o1Price:"From RM259 a month", o1Btn:"Start with the free body assessment →",
     o2Tag:"Ladies only · Coach Zara",
     o2P:"A small private workout class for women, max 12 per class, led by Coach Zara.",
     slotLabel:"Usual class times", o2Slots:"<span>Tue · 8.40 PM</span><span>Sat · 10 AM</span><span>Sun · 10 AM</span>",
     pkgLabel:"Packages", pSingle:"1 session", pSilver:"5 + 1 free sessions · use within 60 days", pGold:"10 + 2 free sessions · use within 90 days",
     o2Btn:"Book a class slot →",
     o2Addr:"Orchids Library Cafe, 53A-1 (upper floor), Plaza KL Traders Square, Jalan Gombak. Dates follow the monthly schedule on the booking page.",
-    miniSteps:"① Quiz 2 min  →  ② Free 30-min call  →  ③ Coaching from RM259 a month",
+    miniSteps:"① Free body assessment  →  ② Chat with a coach on WhatsApp  →  ③ Coaching from RM259 a month",
     investShort:"Programs start from RM259 a month. On the call we'll find an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     assessBtn:"Free Online Body Assessment →", heroQuizLink:"or take the 2-minute quiz",
@@ -551,7 +551,7 @@ const TXT = {
     howH:"3 simple steps",
     howLede:"You don't need to figure it out alone. Here is exactly what happens.",
     how1H:"Take the 2-minute quiz", how1P:"10 quick questions show what is stopping your weight from going down. Free, no sign-up.",
-    how2H:"Free 30-minute call", how2P:"WhatsApp your coach from your result page to set a time. Your coach calls you and builds a plan around your work and family.",
+    how2H:"Chat with your coach", how2P:"WhatsApp your coach from your result page. Chat first, and if you want, set a free 30-minute call. Your coach builds a plan around your work and family.",
     how3H:"Start, and we check in", how3P:"You get a meal plan with normal food, 20-minute workouts and a coach who follows up with you.",
     quizHead:"Start here: the 2-minute quiz",
     coachEyebrow:"Your coaches",
@@ -582,7 +582,7 @@ const TXT = {
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
       ["How much does coaching cost?","Coaching programs start from RM259 a month. On the call we'll find the option that fits your goal and budget."]
     ],
-    finalH:"Your first 3-5 kg starts with 2 minutes.",
+    finalH:"Know your body first. It's free.",
     footFine:"This site is for general wellness guidance only and is not medical advice. Results vary from person to person.",
     h1:"Busy, tired, and the weight <em>won't move?</em>",
     introLead:"Take the 2-minute “Why Can't I Lose Weight?” quiz. Ten quick questions show you which part of your routine is quietly holding your results back, and what to do next.",
@@ -611,20 +611,20 @@ const TXT = {
     investP:"A real transformation is an investment, not a quick fix. Our coaching programs start from RM259 a month, often about what many people already spend on eating out and sweet drinks. If you're ready to put that into your health, let's talk. On the call we'll find the option that fits your goal and budget.",
     proof:"Our clients are full-time workers who still eat rice and eat out. Results vary from person to person.",
     ctaTitle:n=>n?`Ready for your free consultation, ${n}?`:"Ready for your free consultation?",
-    ctaLead:"WhatsApp your coach and we'll set a time that suits you. It's a free 30-minute call: we'll phone you, we'll go through your answers together, and you'll leave with a clear game plan. No pressure.",
+    ctaLead:"Pick your coach and tap WhatsApp. Your quiz answers are already in the message. We chat on WhatsApp first, and if you want, we set a free 30-minute call to build your game plan. No pressure.",
     bookMeta:"Your quiz answers are sent with your message",
     coachPickH:"Who would you like to talk to?",
     pdpa:"By tapping a button, you agree to share your name and quiz answers with our coaches (Coach Kimi and Coach Zara) so we can contact you about your result. Your details won't be shared with anyone else.",
-    waBtn:"💬 WhatsApp my coach now",
+    waBtn:"💬 WhatsApp my coach now", pickFirst:"Pick a coach first ↑",
     webBtn:"Get my free online body assessment",
     retake:"↺ Retake the quiz",
     disclaimer:"This quiz is for general wellness guidance only and is not medical advice. Results are not typical and vary by individual.",
     wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like a free consultation call. When can we talk?"}
   },
   ms: {
-    navCta:"Jawab kuiz",
+    navCta:"Body assessment percuma",
     heroKicker:"Online body assessment percuma",
-    heroH:"Sibuk kerja, berat tak turun-turun? <em>Mula dengan 3-5 kg pertama.</em>",
+    heroH:"Turun berat ≠ hilang lemak. <em>Semak badan anda dulu, percuma.</em>",
     heroSub:"Mula dengan online body assessment percuma. Tahu keadaan badan anda sekarang dan apa yang perlu dibaiki dulu, tanpa crash diet, tanpa gym 2 jam, masih makan nasi.",
     waText:"atau WhatsApp kami dulu",
     heroTicks:"<span>✓ Tiada crash diet</span><span>✓ Masih makan nasi</span><span>✓ Coach lelaki &amp; perempuan</span>",
@@ -633,15 +633,15 @@ const TXT = {
     offLede:"Nak coaching online dari rumah, atau kelas wanita sahaja secara bersemuka? Dua-dua boleh.",
     o1Tag:"Online · lelaki &amp; wanita", o1H:"Coaching online",
     o1P:"Untuk orang bekerja yang sibuk dan nak pelan yang jelas, dengan coach yang follow-up.",
-    o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan makanan biasa, termasuk makan di luar</li><li>Senaman 20 minit, boleh buat di rumah</li><li>Coach yang follow-up anda</li><li>Supplement nutrisi disertakan untuk bantu perjalanan anda, bukan untuk bergantung padanya</li>",
-    investLabel:"Pelaburan", o1Price:"Dari RM259 sebulan", o1Btn:"Mula dengan kuiz percuma →",
+    o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan makanan biasa, termasuk makan di luar</li><li>Senaman 20 minit, boleh buat di rumah</li><li>Coach yang follow-up anda</li><li>Sokongan nutrisi disertakan. Pelan anda tetap berasaskan makanan biasa, bukan produk</li>",
+    investLabel:"Pelaburan", o1Price:"Dari RM259 sebulan", o1Btn:"Mula dengan body assessment percuma →",
     o2Tag:"Wanita sahaja · Coach Zara",
     o2P:"Kelas senaman private untuk wanita, maksimum 12 orang sekelas, bersama Coach Zara.",
     slotLabel:"Jadual biasa", o2Slots:"<span>Selasa · 8.40 malam</span><span>Sabtu · 10 pagi</span><span>Ahad · 10 pagi</span>",
     pkgLabel:"Pakej", pSingle:"1 sesi", pSilver:"5 + 1 sesi percuma · guna dalam 60 hari", pGold:"10 + 2 sesi percuma · guna dalam 90 hari",
     o2Btn:"Book slot kelas →",
     o2Addr:"Orchids Library Cafe, 53A-1 (tingkat atas), Plaza KL Traders Square, Jalan Gombak. Tarikh ikut jadual bulanan di halaman booking.",
-    miniSteps:"① Kuiz 2 minit  →  ② Call percuma 30 minit  →  ③ Coaching dari RM259 sebulan",
+    miniSteps:"① Body assessment percuma  →  ② Chat coach di WhatsApp  →  ③ Coaching dari RM259 sebulan",
     investShort:"Program bermula dari RM259 sebulan. Kita cari pilihan ikut bajet anda dalam call.",
     heroBtn:"Mula kuiz percuma →",
     assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau jawab kuiz 2 minit",
@@ -651,7 +651,7 @@ const TXT = {
     howH:"3 langkah mudah",
     howLede:"Anda tak perlu fikir seorang diri. Ini apa yang akan berlaku.",
     how1H:"Jawab kuiz 2 minit", how1P:"10 soalan ringkas tunjuk apa yang buat berat anda tak turun. Percuma, tak perlu daftar.",
-    how2H:"Free call 30 minit", how2P:"WhatsApp coach dari halaman result untuk set masa. Coach akan call anda dan susun pelan ikut kerja dan keluarga anda.",
+    how2H:"Chat dengan coach", how2P:"WhatsApp coach dari halaman result. Chat dulu, dan kalau anda nak, set free call 30 minit. Coach susun pelan ikut kerja dan keluarga anda.",
     how3H:"Mula, dan kami follow-up", how3P:"Anda dapat meal plan dengan makanan biasa, senaman 20 minit dan coach yang pantau progress anda.",
     quizHead:"Mula di sini: kuiz 2 minit",
     coachEyebrow:"Coach anda",
@@ -682,7 +682,7 @@ const TXT = {
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
       ["Berapa kos coaching?","Program coaching bermula dari RM259 sebulan. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda."]
     ],
-    finalH:"3-5 kg pertama anda bermula dengan 2 minit.",
+    finalH:"Kenal badan anda dulu. Percuma.",
     footFine:"Laman ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result berbeza mengikut individu.",
     h1:"Sibuk, penat, tapi berat badan <em>tak turun-turun?</em>",
     introLead:"Jawab Kuiz “Kenapa Berat Tak Turun?” dalam 2 minit. Sepuluh soalan ringkas akan tunjuk bahagian mana dalam rutin harian anda yang diam-diam menghalang result, apa yang perlu dibaiki dulu, dan apa langkah seterusnya.",
@@ -711,11 +711,11 @@ const TXT = {
     investP:"Transformasi sebenar ialah satu pelaburan, bukan jalan pintas. Program coaching kami bermula dari RM259 sebulan, selalunya lebih kurang sama dengan apa yang ramai orang dah belanja untuk makan di luar dan air manis. Kalau anda dah sedia laburkan itu untuk kesihatan, jom kita berbincang. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda.",
     proof:"Klien kami orang bekerja sepenuh masa yang masih makan nasi dan makan di luar. Result berbeza mengikut individu.",
     ctaTitle:n=>n?`Sedia untuk free consultation, ${n}?`:"Sedia untuk free consultation?",
-    ctaLead:"WhatsApp coach anda dan kita set masa yang sesuai. Ini free call 30 minit: kami akan telefon anda, kita semak jawapan anda bersama, dan anda dapat game plan yang jelas. Tiada paksaan.",
+    ctaLead:"Pilih coach dan tekan WhatsApp. Jawapan kuiz anda dah siap dalam mesej. Kita chat di WhatsApp dulu, dan kalau anda nak, kita set free call 30 minit untuk susun game plan anda. Tiada paksaan.",
     bookMeta:"Jawapan kuiz anda dihantar sekali dalam mesej",
     coachPickH:"Anda selesa bercakap dengan siapa?",
     pdpa:"Dengan menekan butang, anda bersetuju untuk berkongsi nama dan jawapan kuiz dengan coach kami (Coach Kimi dan Coach Zara) supaya kami boleh hubungi anda tentang result anda. Maklumat anda tidak akan dikongsi dengan pihak lain.",
-    waBtn:"💬 WhatsApp coach sekarang",
+    waBtn:"💬 WhatsApp coach sekarang", pickFirst:"Pilih coach dulu ↑",
     webBtn:"Dapatkan online body assessment PERCUMA",
     retake:"↺ Ulang kuiz",
     disclaimer:"Kuiz ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result tidak tipikal dan berbeza mengikut individu.",
@@ -840,7 +840,7 @@ function applyLang(){
   const waMsg = LANG==="ms" ? "Hi Coach Kimi! Saya dari website. Saya nak tanya pasal coaching turun berat." : "Hi Coach Kimi! I found you on your website. I'd like to ask about weight loss coaching.";
   document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
   $("web-foot").href = CONFIG.websiteUrl;
-  $("assess-top").href = CONFIG.sheetUrl ? CONFIG.sheetUrl + "?" + new URLSearchParams({type:"quiz", via:"Body assessment (top button)", src:"website", go:CONFIG.websiteUrl}) : CONFIG.websiteUrl;
+  document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>logTap({type:"quiz", via:"Body assessment", src:"website", go:CONFIG.websiteUrl}); });
   $("testimonials").hidden = !TESTIMONIALS.length;
   $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("")
     + WDT_RESULTS.map(n=>`<div class="tcard poster"><img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy"></div>`).join("");
@@ -967,25 +967,31 @@ function profileLines(){
 function updateWa(){
   if(!ctx.tier) return;
   $("wa").classList.toggle("off", !coach);
-  if(!coach){ $("wa").removeAttribute("href"); return; }
+  $("wa").textContent = coach ? T.waBtn : T.pickFirst;
+  if(!coach){ $("wa").removeAttribute("href"); $("wa").onclick = null; return; }
   const c = CONFIG.coaches[coach];
-  const link = lines => `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(lines.join("\n").replace("%COACH%", c.name))}`;
-  $("wa").href = viaSheet(link([T.wa.hi, ...profileLines(), T.wa.end]), "WhatsApp");
+  const url = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([T.wa.hi, ...profileLines(), T.wa.end].join("\n").replace("%COACH%", c.name))}`;
+  $("wa").href = url;
+  $("wa").onclick = ()=>{ if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase(); logTap(sheetParams(url, "WhatsApp")); };
 }
 
-// Route a button through the Google Sheet bridge: it saves the lead, then opens `url`
+// Log a tap to the Google Sheet in the background (the link itself opens directly)
+function logTap(params){
+  if(CONFIG.sheetUrl) fetch(CONFIG.sheetUrl + "?" + new URLSearchParams(params), {mode:"no-cors", keepalive:true}).catch(()=>{});
+}
 let quizId = null;
-function viaSheet(url, via){
-  if(!CONFIG.sheetUrl) return url;
+function sheetParams(url, via){
   if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase();
   const routine = QUESTIONS.map((q,k)=>({q,o:q.a[answers[k]]})).filter(x=>x.q.type==="score").map(x=>`${L(x.q.short)}: ${L(x.o)}`).join("; ");
-  return CONFIG.sheetUrl + "?" + new URLSearchParams({ type:"quiz", qid:quizId, name:firstName||"", result:`${L(ctx.tier.badge)} (${ctx.total}/${ctx.maxTotal})`,
+  return ({ type:"quiz", qid:quizId, name:firstName||"", result:`${L(ctx.tier.badge)} (${ctx.total}/${ctx.maxTotal})`,
     weak:ctx.weakestLabel, goal:L(ans("goal")), why:L(ans("why")), when:L(ans("when")), commit:L(ans("commit")), budget:L(ans("budget")),
     coach:L(CONFIG.coaches[coach].pref), via, src:"website", answers:routine, go:url });
 }
 
 applyLang();
-new IntersectionObserver(([e])=>{ document.querySelector(".wa-float").hidden = e.isIntersecting; }, {rootMargin:"-30% 0px -30% 0px"}).observe($("quiz-zone"));
+const onScreen = {};
+const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});
+floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
