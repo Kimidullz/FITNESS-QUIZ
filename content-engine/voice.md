@@ -12,22 +12,32 @@ Edit this file any time. The content engine reads it before every batch.
 ## Audience
 Malaysians who want to lose fat: office workers, shift workers, mums, people who eat at the mamak, kedai nasi campur and pasar. Budget-aware. Many are beginners.
 
-## Language
-- English by default. Simple words, short sentences. Malaysian food names stay in Malay (nasi lemak, teh tarik, kuih, tauhu, ikan kembung, lauk, pasar, kedai, mamak).
+## Language basics
+- Simple words, short sentences. Malaysian food names stay in Malay (nasi lemak, teh tarik, kuih, tauhu, ikan kembung, lauk, pasar, kedai, mamak).
 - Friendly coach talking to a friend. Not preachy, no shaming, no "you are lazy".
 - No foods are banned. Swaps and portions, not cutting everything.
 
-## What works (from my TikTok data, Aug to Nov 2026)
-1. Money + protein + Malaysian food. "30g protein under RM3" got 46,000 views and 414 shares.
-2. Photo carousels beat talking-head videos (11 to 19s watch time vs 4 to 6s).
-3. A specific number in the hook: "30g", "RM3", "per 100g", "5x the calories".
-4. Saveable lists and rankings ("ranked by protein per ringgit", "save this for your pasar run").
-5. A soft myth-bust ("Protein is expensive? Not really").
-6. Inviting correction ("Correct me if I'm wrong") gets the most comments.
-7. Body "inside view" comparisons (what sugary drinks / sleep / walking do inside your body).
+## What works (Metricool data, Aug to 10 Nov 2026)
+
+### Instagram: whiteboard reels
+- "Turun berat ≠ hilang lemak" whiteboard reel: 124,000 views, 3,244 saves, 1,833 shares, 399 comments.
+- "Bakar lemak, cardio vs angkat berat, mana lagi bagus?": 66,000 views, 1,723 saves.
+- Style: white board, hand-lettered black marker words appear one by one, one red key word, a blue underline, simple line-drawn icons (shoe, dumbbell, plate), boxes and arrows. No face, no music lyrics.
+- Hook frames that won: "A ≠ B" (two things people think are the same), "A vs B, which is better?", one myth then the real answer.
+- Caption: short numbered list of the answer, then "Save this" + "Comment PLAN and I'll send you my free online body assessment."
+- Everything else on IG (talking head, English photo carousels) gets 100 to 3,500 views.
+
+### TikTok: photo carousels
+- "30g protein under RM3" carousel: 53,000 views, 466 likes. "What walking every day does to your body" (body vs): 12,500. "Protein per 100g": 10,400. "Your body keeps score": 3,700.
+- Videos on TikTok (including the same whiteboard reel) get 150 to 400 views. So on TikTok, post ideas as photo carousels.
+- Winners: money + protein + Malaysian food, a number in the hook, saveable rankings, body "vs" anatomy comparisons, "correct me if I'm wrong".
 
 ## What flops
-Generic motivation, hashtag-heavy posts, posts with no number, ad-like CTAs ("DM START", "DM PLAN").
+Talking-head videos, generic motivation, "uncomfortable truths", "I rated your excuses", hashtag-heavy captions, DM START / DM MULA CTAs, posts with no number.
+
+## Language
+- IG whiteboard reels: Malay (both viral reels were Malay). Casual "korang/you" Malay, English words where Malaysians use them.
+- TikTok carousels: English.
 
 ## Rules for every post
 - Numbers are approximate and say so ("~", "approx.", "prices vary by area"). Round down. Never make up a study; if unsure, say "about" and keep it general.
