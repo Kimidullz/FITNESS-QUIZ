@@ -268,7 +268,6 @@ if __name__ == "__main__":
     if mode == "bulk":
         weeks = next((int(a) for a in args if a.isdigit()), 12)
         run_bulk(dry, weeks)
-    else:
     elif mode == "weekly":
         # never overwrite a week that bulk (or an earlier run) already made
         run_bulk(dry, 1)
