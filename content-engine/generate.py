@@ -48,9 +48,12 @@ def recent_titles(limit_files: int = 16) -> str:
     titles = []
     for f in files:
         for line in f.read_text(encoding="utf-8").splitlines():
-            if line.startswith("## ") or (line.startswith("| ") and "---" not in line):
+            # weekly: post headings only (reel script tables would crowd them out);
+            # monthly: the plan table rows
+            is_row = f.parent.name == "monthly" and line.startswith("| ") and "---" not in line
+            if line.startswith("## ") or is_row:
                 titles.append(line.strip()[:140])
-    return "\n".join(titles[-150:])
+    return "\n".join(titles[-250:])
 
 
 def system_prompt() -> str:
