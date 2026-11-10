@@ -7,6 +7,10 @@ Every Sunday at 10am (Malaysia time, after the comment/DM insights update) it wr
 - **Weekly** (`output/weekly/<monday>.md`): 5 carousels with all 6 slides written, 2 reel scripts, captions, TikTok titles, pinned comments, numbers to double-check, 10 spare hooks and 5 Threads/Stories ideas.
 - **Monthly** (`output/monthly/<yyyy-mm>.md` + `.csv`): one row per day. The CSV columns match the Plan tab of the content planner Google Sheet, so you can import it (File > Import > Upload > "Insert new sheet") or ask Claude in the project to put it into the Sheet.
 
+## Bulk: many weeks at once
+
+Actions tab > Content engine > Run workflow > pick `bulk` > set weeks (12 = about 3 months) > Run. It writes one file per week into `output/weekly/`, each one avoiding topics already made. Takes about 3 minutes per week (so roughly 30 to 45 minutes for 12) and about US$0.30 to 0.40 per week. If it stops halfway, run it again: finished weeks are skipped.
+
 ## One-time setup (5 minutes)
 
 1. Get an API key: go to https://console.anthropic.com/settings/keys, click **Create Key**, copy it. (Your API credit is used, not your Claude subscription.)

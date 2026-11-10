@@ -2,6 +2,7 @@
 
 Weekly:  python content-engine/generate.py weekly
          -> content-engine/output/weekly/<monday>.md
+Bulk:    python content-engine/generate.py bulk 12   (12 weekly batches in a row)
 Monthly: python content-engine/generate.py monthly
          -> content-engine/output/monthly/<yyyy-mm>.md and .csv (columns match the
             "Plan" tab of the WDT 30-Day Content Planner Google Sheet)
@@ -40,14 +41,14 @@ def read(name: str) -> str:
     return text
 
 
-def recent_titles(limit_files: int = 6) -> str:
+def recent_titles(limit_files: int = 16) -> str:
     """Headings from recent batches so the model does not repeat topics."""
     files = sorted((OUT / "weekly").glob("*.md")) + sorted((OUT / "monthly").glob("*.md"))
     files = sorted(files, key=lambda p: p.stat().st_mtime)[-limit_files:]
     titles = []
     for f in files:
         for line in f.read_text(encoding="utf-8").splitlines():
-            if line.startswith("## ") or line.startswith("| "):
+            if line.startswith("## ") or (line.startswith("| ") and "---" not in line):
                 titles.append(line.strip()[:140])
     return "\n".join(titles[-150:])
 
@@ -91,6 +92,7 @@ def weekly_prompt(start: dt.date) -> str:
     return (
         context_block()
         + f"\n\nWrite next week's content batch for {days[0]} to {days[-1]}.\n\n"
+        "These posts go on both Instagram and TikTok (same 4:5 carousel images on both). "
         "Make 7 posts, one per day, in this order of days: " + ", ".join(days) + ".\n"
         "- 5 photo carousels (IG 4:5, 6 slides) and 2 short reels (20 to 35 seconds).\n"
         "- Use the winning formula from the voice guide. Mix pillars: cheap protein / money, "
@@ -189,8 +191,8 @@ def call_claude(prompt: str, schema: dict | None = None) -> str:
     return "".join(b.text for b in msg.content if b.type == "text").strip()
 
 
-def run_weekly(dry: bool) -> None:
-    start = next_monday(dt.datetime.now(MYT).date())
+def run_weekly(dry: bool, start: dt.date | None = None) -> None:
+    start = start or next_monday(dt.datetime.now(MYT).date())
     prompt = weekly_prompt(start)
     if dry:
         print(system_prompt(), "\n\n----\n\n", prompt)
@@ -243,9 +245,28 @@ def run_monthly(dry: bool) -> None:
     print(f"Wrote {stem}.md and {stem}.csv ({len(rows)} days)")
 
 
+def run_bulk(dry: bool, weeks: int) -> None:
+    """Many weekly batches in a row (e.g. 12 weeks = 3 months). Weeks that already
+    have a file are skipped, so a re-run carries on where it stopped."""
+    first = next_monday(dt.datetime.now(MYT).date())
+    for i in range(weeks):
+        start = first + dt.timedelta(weeks=i)
+        if (OUT / "weekly" / f"{start.isoformat()}.md").exists():
+            print(f"Skip {start} (already made)")
+            continue
+        run_weekly(dry, start)
+        if dry:
+            return
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
-    mode = next((a for a in args if a in ("weekly", "monthly")), None)
+    mode = next((a for a in args if a in ("weekly", "monthly", "bulk")), None)
     if not mode:
-        sys.exit("Usage: python content-engine/generate.py weekly|monthly [--dry-run]")
-    (run_weekly if mode == "weekly" else run_monthly)("--dry-run" in args)
+        sys.exit("Usage: python content-engine/generate.py weekly|monthly|bulk [weeks] [--dry-run]")
+    dry = "--dry-run" in args
+    if mode == "bulk":
+        weeks = next((int(a) for a in args if a.isdigit()), 12)
+        run_bulk(dry, weeks)
+    else:
+        (run_weekly if mode == "weekly" else run_monthly)(dry)
