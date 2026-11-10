@@ -36,8 +36,9 @@ Malaysians who want to lose fat: office workers, shift workers, mums, people who
 Talking-head videos, generic motivation, "uncomfortable truths", "I rated your excuses", hashtag-heavy captions, DM START / DM MULA CTAs, posts with no number.
 
 ## Language
-- IG whiteboard reels: Malay (both viral reels were Malay). Casual "korang/you" Malay, English words where Malaysians use them.
-- TikTok carousels: English.
+- EVERYTHING in Malay (Kimi's choice, 11 Nov 2026): reels, carousel slides, captions, TikTok titles, pinned comments. Both viral reels and the 53k TikTok post were Malay.
+- Casual Malaysian Malay like the viral reels: "korang" / "you", short lines, English words where Malaysians normally use them (protein, cardio, fat loss, save). Not formal textbook Malay.
+- CTA in Malay: "Komen PLAN, saya hantar body assessment online percuma."
 
 ## Rules for every post
 - Numbers are approximate and say so ("~", "approx.", "prices vary by area"). Round down. Never make up a study; if unsure, say "about" and keep it general.
