@@ -1,6 +1,6 @@
 # Content engine
 
-Every Sunday it writes next week's posts in Coach Kimi's voice. On the 25th of each month it fills next month's content plan. Everything lands in `content-engine/output/`.
+Every Sunday at 10am (Malaysia time, after the comment/DM insights update) it writes next week's posts in Coach Kimi's voice. On the 25th of each month it fills next month's content plan. Everything lands in `content-engine/output/`.
 
 ## What you get
 

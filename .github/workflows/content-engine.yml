@@ -2,7 +2,7 @@ name: Content engine
 
 on:
   schedule:
-    - cron: "0 0 * * 0"   # every Sunday 8:00 AM Malaysia time: next week's batch
+    - cron: "0 2 * * 0"   # every Sunday 10:00 AM Malaysia time: next week's batch
     - cron: "0 1 25 * *"  # 25th of each month 9:00 AM Malaysia time: next month's plan
   workflow_dispatch:
     inputs:
@@ -47,4 +47,4 @@ jobs:
           git add content-engine/output
           git diff --cached --quiet && exit 0
           git commit -m "Content engine: new ${{ steps.mode.outputs.mode }} batch"
-          git push
+          git pull --rebase && git push
