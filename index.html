@@ -61,6 +61,7 @@
   .big{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:17px 26px;border-radius:8px;transition:background .15s;border:0;cursor:pointer;font-family:inherit}
   .big:hover{background:var(--red-dark)}
   .wa-text{color:#fff;font-weight:700;font-size:15px;opacity:.85}
+  .quiz-link{color:inherit;font-weight:700;font-size:15px}
   .mini-steps{margin-top:22px;font-size:14px;opacity:.75}
   .wa-float[hidden]{display:none}
   .hero .meta{font-size:13px;opacity:.65}
@@ -289,7 +290,8 @@
       <p class="sub" data-t="heroSub"></p>
       <div class="ticks-hero" data-t="heroTicks"></div>
       <div class="hero-ctas">
-        <a class="big" href="#quiz-zone"><span data-t="heroBtn"></span></a>
+        <a class="big" id="assess-top" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
+        <a class="quiz-link" href="#quiz-zone" data-t="heroQuizLink"></a>
       </div>
       <p class="mini-steps" data-t="miniSteps"></p>
     </div>
@@ -538,6 +540,7 @@ const TXT = {
     miniSteps:"① Quiz 2 min  →  ② Free 30-min call  →  ③ Coaching from RM259 a month",
     investShort:"Programs start from RM259 a month. On the call we'll find an option that fits your budget.",
     heroBtn:"Start the free quiz →",
+    assessBtn:"Free Online Body Assessment →", heroQuizLink:"or take the 2-minute quiz",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
     howEyebrow:"How it works",
@@ -637,6 +640,7 @@ const TXT = {
     miniSteps:"① Kuiz 2 minit  →  ② Call percuma 30 minit  →  ③ Coaching dari RM259 sebulan",
     investShort:"Program bermula dari RM259 sebulan. Kita cari pilihan ikut bajet anda dalam call.",
     heroBtn:"Mula kuiz percuma →",
+    assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau jawab kuiz 2 minit",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
     howEyebrow:"Macam mana ia berfungsi",
@@ -831,7 +835,7 @@ function applyLang(){
   $("name").placeholder = T.namePh;
   const waMsg = LANG==="ms" ? "Hi Coach Kimi! Saya dari website. Saya nak tanya pasal coaching turun berat." : "Hi Coach Kimi! I found you on your website. I'd like to ask about weight loss coaching.";
   document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
-  $("web-foot").href = CONFIG.websiteUrl;
+  $("web-foot").href = $("assess-top").href = CONFIG.websiteUrl;
   $("testimonials").hidden = !TESTIMONIALS.length;
   $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("")
     + WDT_RESULTS.map(n=>`<div class="tcard poster"><img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy"></div>`).join("");
