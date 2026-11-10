@@ -1,0 +1,55 @@
+name: Content engine
+
+on:
+  schedule:
+    - cron: "0 2 * * 0"   # every Sunday 10:00 AM Malaysia time: next week's batch
+    - cron: "0 1 25 * *"  # 25th of each month 9:00 AM Malaysia time: next month's plan
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to make"
+        type: choice
+        options: [weekly, monthly, bulk]
+        default: weekly
+      weeks:
+        description: "Bulk only: how many weeks to make (12 = about 3 months)"
+        default: "12"
+
+permissions:
+  contents: write
+
+concurrency: content-engine
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "anthropic>=2.8,<3"
+      - name: Pick mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 1 25 * *" ]; then
+            echo "mode=monthly" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=weekly" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python content-engine/generate.py ${{ steps.mode.outputs.mode }} ${{ inputs.weeks }}
+      - name: Save to repo
+        if: always()
+        run: |
+          git config user.name "content-engine"
+          git config user.email "content-engine@users.noreply.github.com"
+          git add content-engine/output
+          git diff --cached --quiet && exit 0
+          git commit -m "Content engine: new ${{ steps.mode.outputs.mode }} batch"
+          git pull --rebase && git push
