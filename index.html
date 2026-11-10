@@ -6,8 +6,12 @@
 <meta name="color-scheme" content="light">
 <title>Kenapa Berat Tak Turun? | Arami · Coach Kimi &amp; Coach Zara</title>
 <meta name="description" content="Kuiz 2 minit percuma oleh Coach Kimi. Tahu kenapa berat badan tak turun, bahagian mana yang paling lemah, dan apa langkah seterusnya.">
-<meta property="og:title" content="Kenapa Berat Tak Turun? Kuiz 2 minit percuma">
-<meta property="og:description" content="10 soalan ringkas oleh Coach Kimi. Dapatkan skor, bahagian paling lemah dan game plan anda.">
+<meta property="og:title" content="Online Body Assessment PERCUMA | ARAMI">
+<meta property="og:description" content="Coach Kimi &amp; Coach Zara. Tahu keadaan badan anda dan apa yang perlu dibaiki dulu. Percuma.">
+<meta property="og:image" content="https://kimidullz.github.io/FITNESS-QUIZ/img/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0B0B0B">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230B0B0B'/%3E%3Cpath d='M38 64 64 30v14L52 64z' fill='%23E30613'/%3E%3Cpath d='M50 64 64 46v10l-6 8z' fill='%23FFD200'/%3E%3Ctext x='8' y='40' font-family='Arial Black,Arial' font-weight='900' font-style='italic' font-size='20' fill='%23fff'%3EWDT%3C/text%3E%3C/svg%3E">
@@ -519,9 +523,9 @@ const TESTIMONIALS = [
 const TXT = {
   en: {
     navCta:"Take the quiz",
-    heroKicker:"Online fitness coaching for working adults",
+    heroKicker:"Free online body assessment",
     heroH:"Busy at work, weight won't move? <em>Start with your first 3-5 kg.</em>",
-    heroSub:"Take the 2-minute quiz and find out what's stopping your weight from going down. No crash diet, no 2-hour gym, and you can still eat rice.",
+    heroSub:"Start with our free online body assessment and find out where you stand and what to fix first. No crash diet, no 2-hour gym, and you can still eat rice.",
     waText:"or WhatsApp us first",
     heroTicks:"<span>✓ No crash diet</span><span>✓ Still eat rice</span><span>✓ Male &amp; female coach</span>",
     offEyebrow:"Start here",
@@ -619,9 +623,9 @@ const TXT = {
   },
   ms: {
     navCta:"Jawab kuiz",
-    heroKicker:"Online fitness coaching untuk orang bekerja",
+    heroKicker:"Online body assessment percuma",
     heroH:"Sibuk kerja, berat tak turun-turun? <em>Mula dengan 3-5 kg pertama.</em>",
-    heroSub:"Jawab kuiz 2 minit. Tahu apa yang menghalang berat anda turun, tanpa crash diet, tanpa gym 2 jam, masih makan nasi.",
+    heroSub:"Mula dengan online body assessment percuma. Tahu keadaan badan anda sekarang dan apa yang perlu dibaiki dulu, tanpa crash diet, tanpa gym 2 jam, masih makan nasi.",
     waText:"atau WhatsApp kami dulu",
     heroTicks:"<span>✓ Tiada crash diet</span><span>✓ Masih makan nasi</span><span>✓ Coach lelaki &amp; perempuan</span>",
     offEyebrow:"Mula di sini",
@@ -835,7 +839,8 @@ function applyLang(){
   $("name").placeholder = T.namePh;
   const waMsg = LANG==="ms" ? "Hi Coach Kimi! Saya dari website. Saya nak tanya pasal coaching turun berat." : "Hi Coach Kimi! I found you on your website. I'd like to ask about weight loss coaching.";
   document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
-  $("web-foot").href = $("assess-top").href = CONFIG.websiteUrl;
+  $("web-foot").href = CONFIG.websiteUrl;
+  $("assess-top").href = CONFIG.sheetUrl ? CONFIG.sheetUrl + "?" + new URLSearchParams({type:"quiz", via:"Body assessment (top button)", src:"website", go:CONFIG.websiteUrl}) : CONFIG.websiteUrl;
   $("testimonials").hidden = !TESTIMONIALS.length;
   $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("")
     + WDT_RESULTS.map(n=>`<div class="tcard poster"><img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy"></div>`).join("");
