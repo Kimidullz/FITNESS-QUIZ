@@ -89,7 +89,8 @@
   .c-day li b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.6px}
   .c-tips{list-style:none;font-size:14px;display:grid;gap:4px}
   .c-tips li::before{content:"↻ ";font-weight:800}
-  .c-assess{color:var(--ink);text-align:center}
+  .c-next{background:var(--bg);border-radius:10px;padding:14px;display:grid;gap:8px}
+  .c-next p{font-size:14px;color:var(--muted)}
   .quiz-link{color:inherit;font-weight:700;font-size:15px}
   .mini-steps{margin-top:22px;font-size:14px;opacity:.75}
   .wa-float[hidden]{display:none}
@@ -409,18 +410,17 @@
           <label><span data-t="calWt"></span><input type="number" id="c-wt" inputmode="decimal" min="35" max="250" placeholder="65"></label>
         </div>
         <label><span data-t="calAct"></span><select id="c-act"></select></label>
-        <div class="seg" id="c-food"><button type="button" data-v="my" data-t="calMy"></button><button type="button" data-v="nm" data-t="calNm"></button></div>
         <label class="chk"><input type="checkbox" id="c-preg"> <span data-t="calPreg"></span></label>
         <button class="btn" id="c-go" type="button" data-t="calGo"></button>
         <p class="c-err" id="c-err"></p>
         <div id="c-out" hidden>
           <div class="c-big"><b id="c-kcal"></b><span data-t="calPerDay"></span></div>
           <div class="c-big"><b id="c-pro"></b><span data-t="calProDay"></span></div>
+          <a class="btn" id="c-pdf" target="_blank" rel="noopener" download><span id="c-pdfBtn"></span></a>
           <h3 class="c-h" id="c-dayH"></h3>
           <ul class="c-day" id="c-day"></ul>
           <ul class="c-tips" id="c-tips"></ul>
-          <a class="btn wa" id="c-wa" target="_blank" rel="noopener" data-t="calWa"></a>
-          <a class="quiz-link c-assess assess" target="_blank" rel="noopener" data-t="calAssess"></a>
+          <div class="c-next"><b data-t="calNextH"></b><p data-t="calNextP"></p><a class="btn ghost" href="#quiz-zone" data-t="calNextBtn"></a></div>
         </div>
         <p class="tnote" data-t="calNote"></p>
       </div>
@@ -576,17 +576,16 @@ const TESTIMONIALS = [
 const TXT = {
   en: {
     calEyebrow:"Free calculator", calH:"How many calories <em>do I need a day?</em>",
-    calLede:"Get your daily calorie range, protein target and a sample day of normal food. Takes 30 seconds.",
+    calLede:"Get your daily calorie range, protein target, a sample day (Malaysian + everyday food) and a free meal plan PDF. Takes 30 seconds.",
     calF:"Female", calM:"Male", calAge:"Age", calHt:"Height (cm)", calWt:"Weight (kg)", calAct:"How active are you?",
-    calActs:["Mostly sitting (office work)","Walk a bit, light exercise 1-2x a week","Exercise 3x a week or more"],
-    calMy:"🍛 Malaysian food", calNm:"🍳 Everyday food", calPreg:"I'm pregnant or breastfeeding",
+    calActs:["Mostly sitting (office work, driving)","Shift work or on your feet a lot (factory, counter, security)","Lots of walking at work (nurse, retail, delivery, teacher)","Exercise 3-5x a week","Heavy physical work or train almost every day"],
+    calPreg:"I'm pregnant or breastfeeding",
     calGo:"Calculate →", calPerDay:"calories a day to lose fat steadily (estimate)", calProDay:"protein a day to keep your muscle",
     calDay:"Sample day (about %K kcal)", calMeals:["Breakfast","Lunch","Snack","Dinner"],
-    calWa:"💬 Get my full meal plan on WhatsApp", calAssess:"or check your body fat with the free body assessment →",
-    calNote:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, or people with diabetes, kidney or heart problems: see your doctor first.",
+    calPdf:"📄 Download free meal plan PDF (~%K kcal)", calNextH:"Want the full program with a coach?", calNextP:"Take the 2-minute quiz. If it's a fit, your coach will WhatsApp you for a free consultation.", calNextBtn:"Take the quiz →",
+    calNote:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, people who are underweight, have had an eating disorder, or have diabetes, kidney or heart problems: see your doctor first.",
     calErrFill:"Please fill in gender, age, height and weight.", calErrAge:"This calculator is for adults 18 and over.",
-    calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. WhatsApp Coach Zara instead, she's been through it.",
-    calWaMsg:"Hi %COACH%! I used the calorie calculator on your website. My estimate: %K kcal a day, %P g protein. I'd like a full meal plan.",
+    calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. Please check with your doctor or midwife first.", calErrUnder:"This calculator is for fat loss and isn't suitable if you're underweight. Please see your doctor first.", calHigher:"Your target is above this ~%K kcal plan: add 1 snack or ½ cup rice for every ~250 kcal extra.",
     navCta:"Free body assessment",
     heroKicker:"Free online body assessment",
     heroH:"Losing weight ≠ losing fat. <em>Check your body first, for free.</em>",
@@ -688,17 +687,16 @@ const TXT = {
   },
   ms: {
     calEyebrow:"Kalkulator percuma", calH:"Berapa kalori <em>saya perlu sehari?</em>",
-    calLede:"Dapatkan julat kalori harian, sasaran protein dan contoh menu sehari dengan makanan biasa. Ambil masa 30 saat.",
+    calLede:"Dapatkan julat kalori harian, sasaran protein, contoh menu sehari (makanan Malaysia + harian) dan meal plan PDF percuma. Ambil masa 30 saat.",
     calF:"Perempuan", calM:"Lelaki", calAge:"Umur", calHt:"Tinggi (cm)", calWt:"Berat (kg)", calAct:"Seaktif mana anda?",
-    calActs:["Banyak duduk (kerja pejabat)","Jalan sikit, senaman ringan 1-2x seminggu","Bersenam 3x seminggu atau lebih"],
-    calMy:"🍛 Makanan Malaysia", calNm:"🍳 Makanan harian", calPreg:"Saya mengandung atau menyusu",
+    calActs:["Banyak duduk (kerja pejabat, memandu)","Kerja syif atau banyak berdiri (kilang, kaunter, guard)","Banyak berjalan masa kerja (nurse, retail, delivery, cikgu)","Bersenam 3-5x seminggu","Kerja fizikal berat atau bersenam hampir setiap hari"],
+    calPreg:"Saya mengandung atau menyusu",
     calGo:"Kira →", calPerDay:"kalori sehari untuk turun lemak secara perlahan (anggaran)", calProDay:"protein sehari untuk jaga otot",
     calDay:"Contoh menu sehari (lebih kurang %K kcal)", calMeals:["Sarapan","Tengah hari","Snek petang","Makan malam"],
-    calWa:"💬 Dapatkan meal plan penuh di WhatsApp", calAssess:"atau semak lemak badan dengan body assessment percuma →",
-    calNote:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, atau penghidap diabetes, buah pinggang atau jantung: jumpa doktor dulu.",
+    calPdf:"📄 Muat turun meal plan PDF percuma (~%K kcal)", calNextH:"Nak program penuh dengan coach?", calNextP:"Jawab kuiz 2 minit. Kalau sesuai, coach akan WhatsApp anda untuk consultation percuma.", calNextBtn:"Jawab kuiz →",
+    calNote:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, kurang berat badan, pernah ada eating disorder, atau penghidap diabetes, buah pinggang atau jantung: jumpa doktor dulu.",
     calErrFill:"Sila isi jantina, umur, tinggi dan berat.", calErrAge:"Kalkulator ini untuk dewasa 18 tahun ke atas.",
-    calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. WhatsApp Coach Zara, dia pernah lalui sendiri.",
-    calWaMsg:"Hi %COACH%! Saya guna kalkulator kalori di website. Anggaran saya: %K kcal sehari, protein %P g. Saya nak meal plan penuh.",
+    calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. Sila rujuk doktor atau bidan anda dulu.", calErrUnder:"Kalkulator ini untuk turun lemak dan tak sesuai kalau berat anda kurang. Sila jumpa doktor dulu.", calHigher:"Sasaran anda lebih tinggi dari pelan ~%K kcal ini: tambah 1 snek atau ½ cawan nasi untuk setiap ~250 kcal lebih.",
     navCta:"Body assessment percuma",
     heroKicker:"Online body assessment percuma",
     heroH:"Turun berat ≠ hilang lemak. <em>Semak badan anda dulu, percuma.</em>",
@@ -1067,52 +1065,17 @@ function sheetParams(url, via){
 }
 
 // ---------- meal calculator ----------
-// Sample days: [meal index, {ms,en} item, kcal, protein g]. Numbers are rough estimates per portion.
-const F = (ms, en) => ({ms, en});
-const DAYS = {
-  my: [
-    [[0,F("Roti canai kosong 1 keping + telur rebus 1 + teh O kosong","1 plain roti canai + 1 boiled egg + teh O kosong"),375,12],
-     [1,F("Nasi campur: nasi ½ cawan + ayam bakar 1 ketul + sayur","Nasi campur: ½ cup rice + 1 grilled chicken piece + vegetables"),400,33],
-     [2,F("Pisang 1 biji + susu rendah lemak 1 gelas","1 banana + 1 glass low-fat milk"),190,9],
-     [3,F("Ikan kembung bakar 1 ekor + nasi ½ cawan + ulam","1 grilled mackerel + ½ cup rice + ulam"),350,34]],
-    [[0,F("Nasi lemak separuh nasi + telur rebus, tanpa ayam goreng + teh tarik kurang manis","Nasi lemak with half the rice + boiled egg, no fried chicken + teh tarik less sugar"),525,19],
-     [1,F("Nasi campur: nasi 1 cawan + ayam bakar 1 ketul + 2 sayur","Nasi campur: 1 cup rice + 1 grilled chicken piece + 2 vegetables"),520,35],
-     [2,F("Pisang 1 biji + yogurt 1 cawan","1 banana + 1 cup yogurt"),220,9],
-     [3,F("Mee sup ayam 1 mangkuk","1 bowl chicken mee soup"),400,25]],
-    [[0,F("Roti canai 1 keping + telur 2 biji + teh tarik kurang manis","1 roti canai + 2 eggs + teh tarik less sugar"),550,21],
-     [1,F("Nasi ayam (ayam panggang, bukan goreng) + sayur","Chicken rice (roasted, not fried) + vegetables"),680,33],
-     [2,F("Pisang 1 biji + susu rendah lemak 1 gelas","1 banana + 1 glass low-fat milk"),190,9],
-     [3,F("Nasi 1 cawan + ikan bakar + sayur","1 cup rice + grilled fish + vegetables"),480,37]]
-  ],
-  nm: [
-    [[0,F("Oat 40g + susu rendah lemak + pisang","40g oats + low-fat milk + banana"),350,14],
-     [1,F("Nasi ½ cawan + dada ayam 120g + salad","½ cup rice + 120g chicken breast + salad"),350,40],
-     [2,F("Yogurt Greek 1 cawan + epal","1 cup Greek yogurt + apple"),210,16],
-     [3,F("Telur dadar 2 biji + roti wholemeal 2 keping + sayur","2-egg omelette + 2 slices wholemeal bread + vegetables"),390,22]],
-    [[0,F("Roti wholemeal 2 keping + telur 2 biji + kopi susu kurang manis","2 slices wholemeal bread + 2 eggs + coffee with milk, less sugar"),370,22],
-     [1,F("Nasi 1 cawan + dada ayam 150g + sayur","1 cup rice + 150g chicken breast + vegetables"),530,52],
-     [2,F("Yogurt Greek 1 cawan + buah","1 cup Greek yogurt + fruit"),210,16],
-     [3,F("Spaghetti 1 cawan + sos daging cincang tomato + salad","1 cup spaghetti + tomato mince sauce + salad"),520,35]],
-    [[0,F("Oat 60g + susu + pisang + telur rebus 2 biji","60g oats + milk + banana + 2 boiled eggs"),480,26],
-     [1,F("Nasi 1 cawan + ikan 150g + sayur","1 cup rice + 150g fish + vegetables"),580,40],
-     [2,F("Roti wholemeal + peanut butter + epal","Wholemeal toast + peanut butter + apple"),330,9],
-     [3,F("Kentang 1 biji + dada ayam 150g + sayur","1 potato + 150g chicken breast + vegetables"),480,52]]
-  ]
-};
-const TIPS = {
-  my: [F("Teh tarik → teh O kosong: jimat ~100 kcal","Teh tarik → teh O kosong: saves ~100 kcal"),
-       F("Ayam goreng → ayam bakar: jimat ~100 kcal","Fried chicken → grilled chicken: saves ~100 kcal"),
-       F("Nasi sepinggan penuh → separuh, tambah sayur: jimat ~150 kcal","Full plate of rice → half, add vegetables: saves ~150 kcal")],
-  nm: [F("Air manis → air kosong: jimat ~140 kcal","Sweet drink → plain water: saves ~140 kcal"),
-       F("Goreng → bakar, rebus atau air fryer: jimat ~100 kcal","Fried → grilled, boiled or air fryer: saves ~100 kcal"),
-       F("Separuh pinggan sayur dulu, baru nasi dan lauk","Fill half your plate with vegetables first")]
-};
-const calc = { sex:null, food:"my" };
+// Sample day per PDF tier (built by mealplan/build.js -> days.json): [breakfast, lunch, snacks, dinner], item = [ms, en, kcal, protein]
+const MEAL_DAYS = {"1200": [[["Roti canai kosong 1 keping + telur rebus 1 + teh O kosong", "1 plain roti canai + 1 boiled egg + teh O kosong", 375, 12]], [["Nasi campur: nasi ½ cawan + ayam bakar + 2 sayur", "Nasi campur: ½ cup rice + grilled chicken + 2 vegetables", 450, 33]], [["Buah potong 1 cawan", "1 cup cut fruit", 80, 1]], [["Ayam atau ikan bakar + sayur, tanpa nasi", "Grilled chicken or fish + vegetables, no rice", 300, 35]]], "1500": [[["Nasi lemak separuh nasi + telur rebus, tanpa ayam goreng", "Nasi lemak, half the rice + boiled egg, no fried chicken", 400, 13]], [["Nasi campur: nasi ½ cawan + ayam bakar + 2 sayur", "Nasi campur: ½ cup rice + grilled chicken + 2 vegetables", 450, 33]], [["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16]], [["Sup ayam + nasi ½ cawan + sayur", "Chicken soup + ½ cup rice + vegetables", 400, 30]]], "1800": [[["Roti canai kosong 1 keping + telur rebus 1 + teh O kosong", "1 plain roti canai + 1 boiled egg + teh O kosong", 375, 12]], [["Nasi ayam panggang (buang kulit) + sayur", "Roasted chicken rice (skin off) + vegetables", 600, 33]], [["Pisang + susu rendah lemak 1 gelas", "Banana + 1 glass low-fat milk", 190, 9], ["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16]], [["Sup ayam + nasi ½ cawan + sayur", "Chicken soup + ½ cup rice + vegetables", 400, 30]]], "2000": [[["Roti canai 1 + telur 2 biji + teh tarik kurang manis", "1 roti canai + 2 eggs + teh tarik less sugar", 550, 21]], [["Nasi ayam panggang (buang kulit) + sayur", "Roasted chicken rice (skin off) + vegetables", 600, 33]], [["Pisang + susu rendah lemak 1 gelas", "Banana + 1 glass low-fat milk", 190, 9], ["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16]], [["Kentang 1 biji + dada ayam 150g + sayur", "1 potato + 150g chicken breast + vegetables", 480, 52]]], "2300": [[["Roti canai 1 + telur 2 biji + teh tarik kurang manis", "1 roti canai + 2 eggs + teh tarik less sugar", 550, 21]], [["Nasi 1 cawan + ayam bakar + 2 sayur", "1 cup rice + grilled chicken + 2 vegetables", 550, 35]], [["Roti wholemeal + peanut butter 1 sudu", "Wholemeal toast + 1 tbsp peanut butter", 250, 9], ["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16], ["Telur rebus 2 biji", "2 boiled eggs", 150, 12]], [["Spaghetti 1 cawan + sos daging tomato + salad", "1 cup spaghetti + tomato meat sauce + salad", 520, 28]]]};
+const TIPS = [{ms:"Teh tarik → teh O kosong: jimat ~100 kcal",en:"Teh tarik → teh O kosong: saves ~100 kcal"},
+  {ms:"Goreng → bakar, rebus atau air fryer: jimat ~100 kcal",en:"Fried → grilled, boiled or air fryer: saves ~100 kcal"},
+  {ms:"Separuh pinggan sayur dulu, baru nasi dan lauk",en:"Fill half your plate with vegetables first, then rice and protein"}];
+const calc = { sex:null };
 const r50 = n => Math.round(n/50)*50;
 // Mifflin-St Jeor x activity, deficit of up to 500 kcal (max 20%), never below 1200 (women) / 1500 (men)
 function calories(sex, age, cm, kg, act){
   const bmr = 10*kg + 6.25*cm - 5*age + (sex==="m" ? 5 : -161);
-  const tdee = bmr * [1.2,1.375,1.55][act];
+  const tdee = bmr * [1.2,1.375,1.45,1.55,1.725][act];
   return Math.max(sex==="m" ? 1500 : 1200, tdee - Math.min(500, tdee*0.2));
 }
 // 1.6 g/kg, using a BMI-27 weight cap so bigger bodies don't get unrealistic targets
@@ -1120,8 +1083,10 @@ const protein = (cm, kg) => Math.round(1.6 * Math.min(kg, 27*(cm/100)**2) / 5) *
 console.assert(Math.round(calories("f",30,160,65,0))===1285 && protein(160,65)===105 && calories("f",60,150,45,0)===1200, "calculator self-check");
 
 function calcLang(){
+  const act = $("c-act").value;
   $("c-act").innerHTML = T.calActs.map((a,k)=>`<option value="${k}">${a}</option>`).join("");
-  ["c-sex","c-food"].forEach(id=>$(id).querySelectorAll("button").forEach(b=>b.classList.toggle("sel", b.dataset.v===(id==="c-sex"?calc.sex:calc.food))));
+  if(act) $("c-act").value = act;
+  $("c-sex").querySelectorAll("button").forEach(b=>b.classList.toggle("sel", b.dataset.v===calc.sex));
   if(!$("c-out").hidden) runCalc();
 }
 function runCalc(){
@@ -1131,27 +1096,31 @@ function runCalc(){
   if(!calc.sex || !age || !cm || !kg){ err.textContent = T.calErrFill; return; }
   if(age < 18){ err.textContent = T.calErrAge; return; }
   if(cm<130 || cm>220 || kg<35 || kg>250 || age>90){ err.textContent = T.calErrRange; return; }
-  const k = calories(calc.sex, age, cm, kg, +$("c-act").value), pro = protein(cm, kg);
+  if(kg/((cm/100)**2) < 18.5){ err.textContent = T.calErrUnder; return; }
+  const k = calories(calc.sex, age, cm, kg, +$("c-act").value);
+  // ties go to the higher plan
+  const tier = Object.keys(MEAL_DAYS).reduce((a,b)=> Math.abs(b-k) <= Math.abs(a-k) ? b : a);
+  // keep the shown protein inside the PDF's range
+  const pro = Math.min(protein(cm, kg), {1200:100,1500:110,1800:130,2000:140,2300:150}[tier]);
   const lo = Math.max(calc.sex==="m" ? 1500 : 1200, r50(k-100));
   const range = `${lo.toLocaleString()}–${(lo+200).toLocaleString()}`;
   $("c-kcal").textContent = range + " kcal"; $("c-pro").textContent = pro + " g";
-  const days = DAYS[calc.food], totals = days.map(d=>d.reduce((t,x)=>t+x[2],0));
-  const pick = totals.reduce((best,t,i)=> Math.abs(t-k) < Math.abs(totals[best]-k) ? i : best, 0);
-  $("c-dayH").textContent = T.calDay.replace("%K", r50(totals[pick]).toLocaleString());
-  $("c-day").innerHTML = days[pick].map(([m,item,kc])=>`<li><b>${T.calMeals[m]} · ~${kc} kcal</b>${L(item)}</li>`).join("");
-  $("c-tips").innerHTML = TIPS[calc.food].map(t=>`<li>${L(t)}</li>`).join("");
-  const c = CONFIG.coaches[calc.sex];
-  const url = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(T.calWaMsg.replace("%COACH%", c.name).replace("%K", range).replace("%P", pro))}`;
-  $("c-wa").href = url; $("c-wa").onclick = ()=>logTap({type:"quiz", via:"Calculator WhatsApp", src:"website", result:range+" kcal", go:url});
+  const day = MEAL_DAYS[tier], li = LANG==="ms" ? 0 : 1;
+  $("c-dayH").textContent = T.calDay.replace("%K", (+tier).toLocaleString());
+  $("c-day").innerHTML = day.map((items,m)=>`<li><b>${T.calMeals[m]} · ~${items.reduce((a,x)=>a+x[2],0)} kcal</b>${items.map(x=>x[li]).join(" + ")}</li>`).join("");
+  $("c-tips").innerHTML = (k > +tier + 150 ? [`<li>${T.calHigher.replace("%K", (+tier).toLocaleString())}</li>`] : []).concat(TIPS.map(t=>`<li>${L(t)}</li>`)).join("");
+  $("c-pdf").href = `pdf/meal-plan-${tier}-${LANG}.pdf`;
+  $("c-pdfBtn").textContent = T.calPdf.replace("%K", (+tier).toLocaleString());
+  $("c-pdf").onclick = ()=>logTap({type:"quiz", via:"Meal plan PDF", src:"website", result:tier+" kcal"});
   $("c-out").hidden = false;
 }
-["c-sex","c-food"].forEach(id=>$(id).querySelectorAll("button").forEach(b=>b.onclick=()=>{ calc[id==="c-sex"?"sex":"food"] = b.dataset.v; calcLang(); }));
+$("c-sex").querySelectorAll("button").forEach(b=>b.onclick=()=>{ calc.sex = b.dataset.v; calcLang(); });
 $("c-go").onclick = ()=>{ runCalc(); if(!$("c-out").hidden) $("c-kcal").scrollIntoView({behavior:"smooth",block:"center"}); };
 
 applyLang();
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero"));
+floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero")); floatObs.observe(document.querySelector(".c-next"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
