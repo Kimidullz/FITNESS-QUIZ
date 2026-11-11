@@ -1,0 +1,444 @@
+{
+  "recipes": [
+    {
+      "ms": "Overnight oats pisang",
+      "en": "Banana overnight oats",
+      "time": "5 min",
+      "slot": "sarapan",
+      "kcal": 350,
+      "protein": 20,
+      "ing_ms": [
+        "Oat 40g (½ cawan)",
+        "Susu rendah lemak 150ml",
+        "Yogurt Greek tanpa gula 100g (½ cawan)",
+        "Pisang ½ biji, hiris",
+        "Kayu manis serbuk secubit (pilihan)"
+      ],
+      "ing_en": [
+        "40g oats (½ cup)",
+        "150ml low-fat milk",
+        "100g plain Greek yogurt (½ cup)",
+        "½ banana, sliced",
+        "A pinch of cinnamon (optional)"
+      ],
+      "steps_ms": [
+        "Masukkan oat, susu dan yogurt dalam balang bertutup. Kacau rata.",
+        "Simpan dalam peti sejuk semalaman (sekurang-kurangnya 4 jam).",
+        "Pagi esok, tambah pisang dan kayu manis. Makan sejuk."
+      ],
+      "steps_en": [
+        "Put oats, milk and yogurt in a lidded jar. Stir well.",
+        "Refrigerate overnight (at least 4 hours).",
+        "In the morning, top with banana and cinnamon. Eat cold."
+      ]
+    },
+    {
+      "ms": "Telur dadar sayur",
+      "en": "Vegetable omelette",
+      "time": "10 min",
+      "slot": "sarapan/malam",
+      "kcal": 370,
+      "protein": 24,
+      "ing_ms": [
+        "Telur 3 biji",
+        "Bawang besar ¼ biji + tomato ½ biji, potong kecil",
+        "Sawi atau kubis ½ cawan, hiris halus",
+        "Cili merah ½ biji + daun bawang (pilihan)",
+        "Minyak 1 sudu kecil, garam & lada sulah",
+        "Roti wholemeal 1 keping"
+      ],
+      "ing_en": [
+        "3 eggs",
+        "¼ onion + ½ tomato, diced",
+        "½ cup mustard greens or cabbage, finely sliced",
+        "½ red chilli + spring onion (optional)",
+        "1 tsp oil, salt & white pepper",
+        "1 slice wholemeal bread"
+      ],
+      "steps_ms": [
+        "Pukul telur dengan garam dan lada sulah.",
+        "Masukkan semua sayur, kacau rata.",
+        "Panaskan minyak dalam kuali tak melekat, api sederhana. Tuang telur, masak 2–3 minit setiap belah.",
+        "Hidang dengan roti wholemeal."
+      ],
+      "steps_en": [
+        "Beat the eggs with salt and pepper.",
+        "Add all the vegetables and mix.",
+        "Heat oil in a non-stick pan on medium. Pour in the eggs, cook 2–3 min each side.",
+        "Serve with the wholemeal bread."
+      ]
+    },
+    {
+      "ms": "Nasi goreng kampung versi sihat",
+      "en": "Healthier kampung fried rice",
+      "time": "15 min",
+      "slot": "tengah hari",
+      "kcal": 420,
+      "protein": 35,
+      "ing_ms": [
+        "Nasi sejuk ¾ cawan (nasi semalam pun boleh)",
+        "Dada ayam 80g, potong kecil",
+        "Telur 1 biji",
+        "Kangkung atau sawi 1 cawan, potong",
+        "Ikan bilis 1 sudu besar + bawang merah 2 biji + bawang putih 1 ulas + cili padi 2 biji",
+        "Kicap masin 1 sudu kecil, minyak 1 sudu kecil"
+      ],
+      "ing_en": [
+        "¾ cup cold cooked rice (leftover is fine)",
+        "80g chicken breast, diced",
+        "1 egg",
+        "1 cup kangkung or mustard greens, cut",
+        "1 tbsp ikan bilis + 2 shallots + 1 garlic clove + 2 bird's eye chillies",
+        "1 tsp light soy sauce, 1 tsp oil"
+      ],
+      "steps_ms": [
+        "Tumbuk ikan bilis, bawang dan cili padi.",
+        "Panaskan minyak dalam kuali tak melekat. Tumis bahan tumbuk 1 minit, masuk ayam, masak 4 minit.",
+        "Tolak ke tepi, pecahkan telur dan kacau hancur.",
+        "Masuk nasi dan kicap, gaul 2 minit. Masuk kangkung, gaul hingga layu."
+      ],
+      "steps_en": [
+        "Pound the ikan bilis, shallots, garlic and chillies.",
+        "Heat oil in a non-stick pan. Fry the paste 1 min, add chicken, cook 4 min.",
+        "Push aside, crack in the egg and scramble.",
+        "Add rice and soy sauce, toss 2 min. Add kangkung, toss until wilted."
+      ]
+    },
+    {
+      "ms": "Wrap ayam",
+      "en": "Chicken wrap",
+      "time": "15 min",
+      "slot": "tengah hari",
+      "kcal": 360,
+      "protein": 35,
+      "ing_ms": [
+        "Tortilla 1 keping (8 inci), gandum penuh jika ada",
+        "Dada ayam 120g, hiris nipis",
+        "Serbuk cili ½ sudu kecil, lada hitam, garam",
+        "Minyak ½ sudu kecil",
+        "Daun salad 1 cawan + timun & tomato, hiris",
+        "Sos: yogurt Greek 2 sudu besar + sos cili 1 sudu kecil"
+      ],
+      "ing_en": [
+        "1 tortilla (8-inch), wholemeal if available",
+        "120g chicken breast, thinly sliced",
+        "½ tsp chilli powder, black pepper, salt",
+        "½ tsp oil",
+        "1 cup lettuce + sliced cucumber & tomato",
+        "Sauce: 2 tbsp Greek yogurt + 1 tsp chilli sauce"
+      ],
+      "steps_ms": [
+        "Gaul ayam dengan serbuk cili, lada hitam, garam dan minyak.",
+        "Air fryer 180°C 10 minit, atau kuali tak melekat 6–8 minit.",
+        "Campur yogurt dan sos cili.",
+        "Panaskan tortilla 20 saat. Susun salad, ayam dan sos, gulung ketat, potong dua."
+      ],
+      "steps_en": [
+        "Toss chicken with chilli powder, pepper, salt and oil.",
+        "Air-fry at 180°C for 10 min, or pan-cook 6–8 min.",
+        "Mix the yogurt and chilli sauce.",
+        "Warm the tortilla 20 sec. Layer salad, chicken and sauce, roll tight, cut in half."
+      ]
+    },
+    {
+      "ms": "Ayam kicap kurang manis (air fryer)",
+      "en": "Air-fryer soy sauce chicken, less sweet",
+      "time": "20 min",
+      "slot": "tengah hari/malam",
+      "kcal": 430,
+      "protein": 38,
+      "ing_ms": [
+        "Dada ayam 150g, potong dadu",
+        "Kicap masin 1 sudu besar + kicap manis 1 sudu besar",
+        "Bawang putih 2 ulas, cincang",
+        "Bawang besar ½ biji, hiris",
+        "Minyak 1 sudu kecil, lada hitam secubit",
+        "Cili merah 1 biji, hiris (pilihan)",
+        "Nasi ½ cawan + timun"
+      ],
+      "ing_en": [
+        "150g chicken breast, cubed",
+        "1 tbsp light soy sauce + 1 tbsp sweet soy sauce",
+        "2 garlic cloves, minced",
+        "½ onion, sliced",
+        "1 tsp oil, a pinch of black pepper",
+        "1 red chilli, sliced (optional)",
+        "½ cup rice + cucumber"
+      ],
+      "steps_ms": [
+        "Gaul ayam dengan kicap, bawang putih, minyak dan lada hitam. Perap 5 minit.",
+        "Masukkan ayam dan bawang besar dalam air fryer, 180°C 12 minit, goncang separuh masa. (Tiada air fryer: kuali tak melekat 8–10 minit.)",
+        "Tabur cili. Hidang dengan nasi dan timun."
+      ],
+      "steps_en": [
+        "Mix chicken with both soy sauces, garlic, oil and pepper. Marinate 5 min.",
+        "Air-fry chicken and onion at 180°C for 12 min, shaking halfway. (No air fryer: non-stick pan, 8–10 min.)",
+        "Top with chilli. Serve with rice and cucumber."
+      ]
+    },
+    {
+      "ms": "Ikan bakar sambal kurang minyak",
+      "en": "Grilled fish with low-oil sambal",
+      "time": "20 min",
+      "slot": "tengah hari/malam",
+      "kcal": 360,
+      "protein": 27,
+      "ing_ms": [
+        "Ikan kembung atau selar 1 ekor sederhana (~180g)",
+        "Kunyit serbuk ½ sudu kecil + garam secubit",
+        "Cili kisar 1 sudu besar",
+        "Bawang merah 3 biji + bawang putih 1 ulas, kisar",
+        "Air asam jawa 2 sudu besar, gula ½ sudu kecil",
+        "Minyak 1 sudu kecil",
+        "Nasi ½ cawan + ulam atau timun"
+      ],
+      "ing_en": [
+        "1 medium kembung or selar fish (~180g)",
+        "½ tsp turmeric powder + a pinch of salt",
+        "1 tbsp blended chilli",
+        "3 shallots + 1 garlic clove, blended",
+        "2 tbsp tamarind water, ½ tsp sugar",
+        "1 tsp oil",
+        "½ cup rice + ulam or cucumber"
+      ],
+      "steps_ms": [
+        "Lumur ikan dengan kunyit dan garam. Air fryer 200°C 12–15 minit (atau kuali leper tanpa minyak, terbalikkan sekali).",
+        "Sementara itu, tumis bawang kisar dengan minyak 1 minit.",
+        "Masuk cili kisar dan air asam. Masak 5 minit hingga pekat. Perasakan dengan garam dan gula.",
+        "Letak sambal atas ikan. Hidang dengan nasi dan ulam."
+      ],
+      "steps_en": [
+        "Rub fish with turmeric and salt. Air-fry at 200°C for 12–15 min (or a dry pan, flip once).",
+        "Meanwhile, fry the blended shallots and garlic in the oil for 1 min.",
+        "Add chilli and tamarind water. Cook 5 min until thick. Season with salt and sugar.",
+        "Spoon sambal over the fish. Serve with rice and ulam."
+      ]
+    },
+    {
+      "ms": "Sup sayur ayam",
+      "en": "Chicken vegetable soup",
+      "time": "20 min",
+      "slot": "malam",
+      "kcal": 290,
+      "protein": 31,
+      "ing_ms": [
+        "Dada ayam 120g, hiris nipis",
+        "Kentang ½ biji + lobak merah ½ batang, potong dadu",
+        "Kubis 1 cawan, hiris",
+        "Bawang merah 3 biji + bawang putih 2 ulas + halia 1 inci, ketuk",
+        "Rempah sup 1 sudu kecil",
+        "Air 2 cawan, garam & lada sulah",
+        "Daun sup & daun bawang"
+      ],
+      "ing_en": [
+        "120g chicken breast, thinly sliced",
+        "½ potato + ½ carrot, diced",
+        "1 cup cabbage, sliced",
+        "3 shallots + 2 garlic cloves + 1-inch ginger, smashed",
+        "1 tsp soup spice mix (rempah sup)",
+        "2 cups water, salt & white pepper",
+        "Chinese celery & spring onion"
+      ],
+      "steps_ms": [
+        "Didihkan air dengan bawang, halia dan rempah sup, 3 minit.",
+        "Masuk ayam, kentang dan lobak. Masak 10 minit.",
+        "Masuk kubis, masak 3 minit. Perasakan dengan garam dan lada sulah.",
+        "Tabur daun sup. Boleh tambah nasi ½ cawan (+100 kcal)."
+      ],
+      "steps_en": [
+        "Boil water with shallots, garlic, ginger and soup spices for 3 min.",
+        "Add chicken, potato and carrot. Cook 10 min.",
+        "Add cabbage, cook 3 min. Season with salt and pepper.",
+        "Top with the herbs. Add ½ cup rice if you like (+100 kcal)."
+      ]
+    },
+    {
+      "ms": "Tauhu & tempe tumis sayur",
+      "en": "Tofu & tempeh vegetable stir-fry",
+      "time": "20 min",
+      "slot": "malam",
+      "kcal": 380,
+      "protein": 30,
+      "ing_ms": [
+        "Tauhu keras 100g, potong dadu",
+        "Tempe 80g, potong nipis",
+        "Sayur campur 1½ cawan (kacang buncis, lobak merah, sawi)",
+        "Bawang putih 2 ulas + cili merah 1 biji, hiris",
+        "Sos tiram 1 sudu besar + kicap masin 1 sudu kecil + air 3 sudu besar",
+        "Minyak 1 sudu kecil"
+      ],
+      "ing_en": [
+        "100g firm tofu, cubed",
+        "80g tempeh, thinly sliced",
+        "1½ cups mixed vegetables (green beans, carrot, mustard greens)",
+        "2 garlic cloves + 1 red chilli, sliced",
+        "1 tbsp oyster sauce + 1 tsp light soy sauce + 3 tbsp water",
+        "1 tsp oil"
+      ],
+      "steps_ms": [
+        "Masukkan tauhu dan tempe dalam air fryer, 200°C 10 minit hingga garing, tanpa minyak (atau guna kuali tak melekat).",
+        "Panaskan minyak, tumis bawang putih dan cili 30 saat.",
+        "Masuk sayur, sos dan air. Masak 3 minit.",
+        "Masuk tauhu dan tempe, gaul 1 minit. Makan begitu saja atau dengan nasi ½ cawan (+100 kcal)."
+      ],
+      "steps_en": [
+        "Air-fry tofu and tempeh at 200°C for 10 min until crisp, no oil (or use a non-stick pan).",
+        "Heat the oil, fry garlic and chilli for 30 sec.",
+        "Add vegetables, sauces and water. Cook 3 min.",
+        "Toss in tofu and tempeh for 1 min. Eat as is or with ½ cup rice (+100 kcal)."
+      ]
+    }
+  ],
+  "eatout": [
+    {
+      "place_ms": "Mamak",
+      "place_en": "Mamak",
+      "picks": [
+        {
+          "ms": "Roti canai kosong 1 keping + telur separuh masak 2 biji",
+          "en": "1 plain roti canai + 2 half-boiled eggs",
+          "kcal": 440
+        },
+        {
+          "ms": "Thosai 2 keping + dhal",
+          "en": "2 thosai + dhal",
+          "kcal": 300
+        },
+        {
+          "ms": "Ayam tandoori 1 ketul + salad, tanpa naan",
+          "en": "1 piece tandoori chicken + salad, no naan",
+          "kcal": 280
+        }
+      ],
+      "avoid_ms": "Mee goreng mamak + teh tarik (~800 kcal)",
+      "avoid_en": "Mee goreng mamak + teh tarik (~800 kcal)",
+      "say": "Roti kosong satu, kuah dhal sikit. Teh O kosong.",
+      "say_en": "One plain roti, a little dhal. Black tea, no sugar."
+    },
+    {
+      "place_ms": "Nasi campur / nasi kandar",
+      "place_en": "Mixed rice / nasi kandar",
+      "picks": [
+        {
+          "ms": "Nasi separuh + ayam bakar 1 ketul + 2 sayur",
+          "en": "Half rice + 1 piece grilled chicken + 2 vegetables",
+          "kcal": 450
+        },
+        {
+          "ms": "Nasi separuh + ikan asam pedas atau ikan bakar + sayur + ulam",
+          "en": "Half rice + asam pedas or grilled fish + vegetables + ulam",
+          "kcal": 420
+        },
+        {
+          "ms": "Nasi kandar: nasi separuh + ayam/ikan kari (buang kulit) + bendi, kuah sikit",
+          "en": "Nasi kandar: half rice + curry chicken/fish (skin off) + okra, little gravy",
+          "kcal": 550
+        }
+      ],
+      "avoid_ms": "Nasi penuh banjir kuah + ayam goreng berempah (~900 kcal)",
+      "avoid_en": "Full plate of rice flooded with gravy + spiced fried chicken (~900 kcal)",
+      "say": "Nasi separuh, kuah sikit, tambah sayur.",
+      "say_en": "Half rice, a little gravy, extra vegetables."
+    },
+    {
+      "place_ms": "Kopitiam / kedai kopi",
+      "place_en": "Kopitiam / coffee shop",
+      "picks": [
+        {
+          "ms": "Telur separuh masak 2 biji + roti bakar 2 keping, kaya nipis tanpa mentega",
+          "en": "2 half-boiled eggs + 2 slices toast, thin kaya, no butter",
+          "kcal": 350
+        },
+        {
+          "ms": "Mee hoon atau kuey teow sup ayam/ikan",
+          "en": "Chicken or fish soup with mee hoon or kuey teow",
+          "kcal": 350
+        },
+        {
+          "ms": "Nasi ayam stim (buang kulit), nasi separuh + sayur",
+          "en": "Steamed chicken rice (skin off), half rice + vegetables",
+          "kcal": 450
+        }
+      ],
+      "avoid_ms": "Char kuey teow (~740 kcal)",
+      "avoid_en": "Char kuey teow (~740 kcal)",
+      "say": "Teh O kurang manis. Roti bakar tak nak butter.",
+      "say_en": "Black tea, less sugar. Toast without butter."
+    },
+    {
+      "place_ms": "Restoran makanan segera",
+      "place_en": "Fast food",
+      "picks": [
+        {
+          "ms": "Burger ayam bakar (grill), tanpa mayo",
+          "en": "Grilled chicken burger, no mayo",
+          "kcal": 350
+        },
+        {
+          "ms": "Ayam goreng 1 ketul (buang kulit) + jagung",
+          "en": "1 piece fried chicken (skin off) + corn",
+          "kcal": 280
+        },
+        {
+          "ms": "Sandwich sub ayam 6 inci, roti gandum, sos sikit",
+          "en": "6-inch chicken sub, wholemeal bread, little sauce",
+          "kcal": 350
+        }
+      ],
+      "avoid_ms": "Set besar: burger double + kentang goreng besar + air bergas (~1,200 kcal)",
+      "avoid_en": "Large combo: double burger + large fries + soda (~1,200 kcal)",
+      "say": "Tak nak set, ala carte je. Air mineral.",
+      "say_en": "No combo, à la carte only. Mineral water."
+    },
+    {
+      "place_ms": "7-Eleven / kedai serbaneka",
+      "place_en": "7-Eleven / convenience store",
+      "picks": [
+        {
+          "ms": "Sandwich telur atau tuna 1 pek",
+          "en": "1 pack egg or tuna sandwich",
+          "kcal": 300
+        },
+        {
+          "ms": "Pau ayam 1 biji + susu soya kurang manis",
+          "en": "1 chicken bun + less-sugar soy milk",
+          "kcal": 340
+        },
+        {
+          "ms": "Susu rendah lemak 1 kotak (250ml) + pisang 1 biji",
+          "en": "1 carton low-fat milk (250ml) + 1 banana",
+          "kcal": 210
+        }
+      ],
+      "avoid_ms": "Mee segera cawan + air tin bergas (~500 kcal)",
+      "avoid_en": "Cup noodles + canned soda (~500 kcal)",
+      "say": "Pilih label 'kurang manis' atau 'tanpa gula'.",
+      "say_en": "Pick drinks labelled 'less sugar' or 'no sugar'."
+    },
+    {
+      "place_ms": "Food court / kedai Cina / Thai",
+      "place_en": "Food court / Chinese / Thai",
+      "picks": [
+        {
+          "ms": "Yong tau foo sup 6 keping (pilih yang tak goreng) + mee hoon sikit",
+          "en": "Yong tau foo soup, 6 pieces (not fried) + a little mee hoon",
+          "kcal": 400
+        },
+        {
+          "ms": "Tom yam campur kuah jernih + nasi separuh",
+          "en": "Clear tom yam campur + half rice",
+          "kcal": 400
+        },
+        {
+          "ms": "Ikan stim limau + sayur + nasi separuh",
+          "en": "Steamed lime fish + vegetables + half rice",
+          "kcal": 450
+        }
+      ],
+      "avoid_ms": "Nasi goreng pattaya (~750 kcal)",
+      "avoid_en": "Pattaya fried rice in omelette (~750 kcal)",
+      "say": "Tom yam kuah jernih, tak nak susu. Nasi separuh.",
+      "say_en": "Clear tom yam, no milk. Half rice."
+    }
+  ]
+}

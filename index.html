@@ -84,15 +84,32 @@
   .c-big b{display:block;font-family:Anton,Impact,sans-serif;font-style:italic;font-size:34px;line-height:1.1}
   .c-big span{font-size:14px;color:var(--muted)}
   .c-h{font-size:17px;font-weight:800;margin-top:6px}
-  .c-day{list-style:none;display:grid;gap:8px}
-  .c-day li{background:var(--bg);border-radius:8px;padding:10px 12px;font-size:15px}
-  .c-day li b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.6px}
   .c-tips{list-style:none;font-size:14px;display:grid;gap:4px}
   .c-tips li::before{content:"↻ ";font-weight:800}
   .c-next{background:var(--bg);border-radius:10px;padding:14px;display:grid;gap:8px}
   .c-next p{font-size:14px;color:var(--muted)}
+  .c-kit{list-style:none;display:grid;gap:6px;font-size:15px}
+  .c-kit li{padding-left:26px;position:relative}
+  .c-kit li::before{content:"✓";position:absolute;left:0;font-weight:800}
+  .c-rem{font-weight:700;font-size:14px;text-align:center}
+  .c-start,.c-inapp{font-size:13px;color:var(--muted);text-align:center}
+  .kit{padding:40px 0 44px}
+  .kit-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:6px}
+  @media (max-width:760px){.kit-steps{grid-template-columns:1fr}}
+  .kit-steps a{display:flex;gap:14px;align-items:center;background:#fff;border:2px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--muted);font-size:14px;line-height:1.4}
+  .kit-steps a:hover{border-color:var(--ink)}
+  .kit-steps i{flex:none;width:36px;height:36px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-style:normal;font-weight:800}
+  .kit-steps a.done i{background:var(--yellow);color:var(--ink)}
+  .kit-steps strong{display:block;color:var(--ink);font-size:16px}
+  .kit-note{margin-top:14px;font-weight:700;font-size:15px}
+  .kit-note a{color:var(--ink)}
+  #hari7[hidden]{display:none}
+  #hari7,#kalori{scroll-margin-top:60px}
+  .h7-out{background:var(--black);color:#fff;border-radius:10px;padding:14px 16px;font-weight:600}
+  .h7-out:empty{display:none}
+  .h7-out b{color:var(--yellow)}
+  .h7-wa{display:grid;gap:8px}
   .quiz-link{color:inherit;font-weight:700;font-size:15px}
-  .mini-steps{margin-top:22px;font-size:14px;opacity:.75}
   .wa-float[hidden]{display:none}
   .hero .meta{font-size:13px;opacity:.65}
   .hero-stats{display:flex;flex-wrap:wrap;gap:20px 28px;margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15);max-width:640px}
@@ -322,9 +339,43 @@
       <div class="ticks-hero" data-t="heroTicks"></div>
       <div class="hero-ctas">
         <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
-        <a class="quiz-link" href="#quiz-zone" data-t="heroQuizLink"></a>
+        <a class="quiz-link" href="#kit" data-t="heroQuizLink"></a>
       </div>
-      <p class="mini-steps" data-t="miniSteps"></p>
+    </div>
+  </section>
+
+  <!-- DAY 7 CHECK-IN: opened from the PDF tracker (#hari7) or from day 7 after the PDF download -->
+  <section class="block" id="hari7" hidden>
+    <div class="container">
+      <div class="eyebrow" data-t="h7Eyebrow"></div>
+      <h2 class="title display" data-t="h7H"></h2>
+      <p class="lede" data-t="h7Lede"></p>
+      <div class="calc">
+        <div class="row3">
+          <label><span data-t="h7W1"></span><input type="number" id="h7-w1" inputmode="decimal" min="40" max="200" placeholder="cm"></label>
+          <label><span data-t="h7W7"></span><input type="number" id="h7-w7" inputmode="decimal" min="40" max="200" placeholder="cm"></label>
+          <label><span data-t="h7Ticks"></span><input type="number" id="h7-t" inputmode="numeric" min="0" max="35" placeholder="0-35"></label>
+        </div>
+        <label><span data-t="h7Energy"></span><select id="h7-e"></select></label>
+        <label><span data-t="h7Hunger"></span><select id="h7-h"></select></label>
+        <p class="h7-out" id="h7-out"></p>
+        <div class="h7-wa" id="h7-wa"></div>
+        <p class="tnote" data-t="h7Note"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREE STARTER KIT: 3 free steps; ticks are saved in this browser only -->
+  <section class="kit" id="kit">
+    <div class="container">
+      <div class="eyebrow" data-t="kitEyebrow"></div>
+      <h2 class="title display" data-t="kitH"></h2>
+      <div class="kit-steps">
+        <a href="#quiz-zone" data-k="q"><i>1</i><span data-t="kit1"></span></a>
+        <a href="#kalori" data-k="m"><i>2</i><span data-t="kit2"></span></a>
+        <a class="assess" target="_blank" rel="noopener" data-k="a"><i>3</i><span data-t="kit3"></span></a>
+      </div>
+      <p class="kit-note" id="kit-note"></p>
     </div>
   </section>
 
@@ -364,6 +415,7 @@
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
             <p class="pdpa" data-t="pdpa"></p>
+            <p class="meta-s" style="margin-top:12px"><a href="#kalori" data-t="resKalori"></a></p>
           </div>
 
           <div class="gauge"><i id="r-dot"></i></div>
@@ -396,7 +448,7 @@
     </div>
   </section>
 
-  <!-- MEAL CALCULATOR: daily calorie range, protein and a sample day (Malaysian or everyday food) -->
+  <!-- MEAL CALCULATOR: daily calorie range, protein and the free 8-page meal plan PDF (Kit Mula 7 Hari) -->
   <section class="block" id="kalori">
     <div class="container">
       <div class="eyebrow" data-t="calEyebrow"></div>
@@ -416,11 +468,14 @@
         <div id="c-out" hidden>
           <div class="c-big"><b id="c-kcal"></b><span data-t="calPerDay"></span></div>
           <div class="c-big"><b id="c-pro"></b><span data-t="calProDay"></span></div>
-          <a class="btn" id="c-pdf" target="_blank" rel="noopener" download><span id="c-pdfBtn"></span></a>
-          <h3 class="c-h" id="c-dayH"></h3>
-          <ul class="c-day" id="c-day"></ul>
+          <a class="btn" id="c-pdf" target="_blank" rel="noopener"><span id="c-pdfBtn"></span></a>
+          <p class="c-inapp" id="c-inapp" data-t="calInApp" hidden></p>
+          <a class="c-rem" id="c-rem" target="_blank" rel="noopener" data-t="calRem"></a>
+          <p class="c-start" data-t="calStart"></p>
+          <h3 class="c-h" data-t="calKitH"></h3>
+          <ul class="c-kit" data-t="calKit"></ul>
           <ul class="c-tips" id="c-tips"></ul>
-          <div class="c-next"><b data-t="calNextH"></b><p data-t="calNextP"></p><a class="btn ghost" href="#quiz-zone" data-t="calNextBtn"></a></div>
+          <div class="c-next"><b data-t="calNextH"></b><p data-t="calNextP"></p><a class="btn ghost" href="#quiz-zone" data-t="calNextBtn"></a><a class="quiz-link assess" target="_blank" rel="noopener" data-t="calAssess" style="text-align:center;font-size:14px"></a></div>
         </div>
         <p class="tnote" data-t="calNote"></p>
       </div>
@@ -576,16 +631,51 @@ const TESTIMONIALS = [
 const TXT = {
   en: {
     calEyebrow:"Free calculator", calH:"How many calories <em>do I need a day?</em>",
-    calLede:"Get your daily calorie range, protein target, a sample day (Malaysian + everyday food) and a free meal plan PDF. Takes 30 seconds.",
+    calLede:"Get your daily calorie range, protein target and a free 8-page meal plan: menu, recipes, eating out and a grocery list. Takes 30 seconds.",
     calF:"Female", calM:"Male", calAge:"Age", calHt:"Height (cm)", calWt:"Weight (kg)", calAct:"How active are you?",
     calActs:["Mostly sitting (office work, driving)","Shift work or on your feet a lot (factory, counter, security)","Lots of walking at work (nurse, retail, delivery, teacher)","Exercise 3-5x a week","Heavy physical work or train almost every day"],
     calPreg:"I'm pregnant or breastfeeding",
     calGo:"Calculate →", calPerDay:"calories a day to lose fat steadily (estimate)", calProDay:"protein a day to keep your muscle",
-    calDay:"Sample day (about %K kcal)", calMeals:["Breakfast","Lunch","Snack","Dinner"],
-    calPdf:"📄 Download free meal plan PDF (~%K kcal)", calNextH:"Want the full program with a coach?", calNextP:"Take the 2-minute quiz. If it's a fit, your coach will WhatsApp you for a free consultation.", calNextBtn:"Take the quiz →",
+    calPdf:"📄 Download my free meal plan (~%K kcal)", calNextH:"Want the full program with a coach?", calNextP:"Take the 2-minute quiz. Your result goes straight to a coach on WhatsApp for a free consultation.", calNextBtn:"Take the quiz →",
     calNote:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, people who are underweight, have had an eating disorder, or have diabetes, kidney or heart problems: see your doctor first.",
     calErrFill:"Please fill in gender, age, height and weight.", calErrAge:"This calculator is for adults 18 and over.",
-    calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. Please check with your doctor or midwife first.", calErrUnder:"This calculator is for fat loss and isn't suitable if you're underweight. Please see your doctor first.", calHigher:"Your target is above this ~%K kcal plan: add 1 snack or ½ cup rice for every ~250 kcal extra.",
+    calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. Please check with your doctor or midwife first.", calPregWa:"Questions about the program for mums? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! I'd like to ask about the program for pregnant or breastfeeding mums.", calErrUnder:"This calculator is for fat loss and isn't suitable if you're underweight. Please see your doctor first.", calHigher:"Your target is above this ~%K kcal plan: add 1 snack or ½ cup rice for every ~250 kcal extra.",
+    kitEyebrow:"Free 7-Day Starter Kit",
+    kitH:"Try it first. <em>Feel the difference yourself.</em>",
+    kit1:"<strong>2-minute quiz</strong>Find your weakest side",
+    kit2:"<strong>Free meal plan</strong>Menu, 8 recipes, eating out, grocery list + 7-day tracker",
+    kit3:"<strong>Online body assessment</strong>Weight lost vs fat lost: know the difference",
+    kitNote:"All of this is free. The full program adds a plan built for your body, a coach who checks your progress every week, and nutrition support.",
+    kitDay:"Your kit: day %D of 7. Measured your waist on day 1? Write it on page 8. Your Day 7 check-in will appear here.",
+    kitDone:"7 days done! <a href='#hari7'>Send your Day 7 result →</a>",
+    h7Eyebrow:"Day 7 check-in",
+    h7H:"7 days done. <em>What changed?</em>",
+    h7Lede:"Fill in what you have (all optional) and send it to a coach on WhatsApp. Free.",
+    h7W1:"Waist day 1 (cm)",
+    h7W7:"Waist day 7 (cm)",
+    h7Ticks:"Ticks (out of 35)",
+    h7Energy:"Energy this week",
+    h7Energies:["Choose","More energy","About the same","More tired"],
+    h7Hunger:"Night-time hunger",
+    h7Hungers:["Choose","Less hungry","About the same","Hungrier"],
+    h7Down:"<b>Down %D cm in 7 days</b>, on the free plan, on your own. Week 1 usually includes some water and bloating, so keep measuring. Now imagine 3 months with a plan built for your body and a coach checking your progress every week. Results vary.",
+    h7Check:"<b>Double-check your tape.</b> More than 4 cm in a week is usually a measuring difference. Measure in the morning, before eating, at belly-button level.",
+    h7Same:"<b>Very normal for week 1.</b> It's usually portions, sleep or sweet drinks, and that's exactly what a coach checks with you.",
+    h7Btn:"Send my result to %C",
+    h7Note:"Results vary. Your answers only go to the coach you pick, by WhatsApp.",
+    h7Msg:"Hi %C! I finished the 7-Day Starter Kit ✓",
+    h7MsgEnd:"Can you check my result and tell me about the program?",
+    h7L:["Waist","Ticks","Energy","Night hunger","Name","Plan"],
+    resKalori:"Not ready to chat yet? Get the free meal plan first →",
+    calRem:"📅 Set a Day 7 reminder in my calendar",
+    calStart:"<b>Start today:</b> measure your waist (morning, before eating, at belly-button level) and write it on page 8. Measure again on Day 7.",
+    calInApp:'Opened from TikTok/Instagram? If the PDF doesn\'t open, tap ⋯ at the top and choose "Open in browser".',
+    calNextP2:"Your quiz result is ready. Pick a coach and WhatsApp for a free consultation.", calNextBtn2:"See my result →",
+    calRemT:"Day 7: measure your waist and send your result",
+    calRemD:"Open ",
+    calKitH:"Inside your free PDF (8 pages):",
+    calKit:"<li>3-day menu at your calories</li><li>8 home recipes, under 20 minutes</li><li>Eating out: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>1-week grocery list + rough cost</li><li>30-minute Sunday meal prep</li><li>7-Day Challenge tracker</li>",
+    calAssess:"or do the free online body assessment first →",
     navCta:"Free body assessment",
     heroKicker:"Free online body assessment",
     heroH:"Losing weight ≠ losing fat. <em>Check your body first, for free.</em>",
@@ -605,10 +695,9 @@ const TXT = {
     pkgLabel:"Packages", pSingle:"1 session", pSilver:"5 + 1 free sessions · use within 60 days", pGold:"10 + 2 free sessions · use within 90 days",
     o2Btn:"Book a class slot →", o2From:"From <b>RM40</b> a session. Silver and Gold packages on the booking page.",
     o2Addr:"Orchids Library Cafe, 53A-1 (upper floor), Plaza KL Traders Square, Jalan Gombak. Dates follow the monthly schedule on the booking page.",
-    miniSteps:"① Free body assessment  →  ② Chat with a coach on WhatsApp  →  ③ Coaching from RM259 a month",
     investShort:"Programs start from RM259 a month. On the call we'll find an option that fits your budget.",
     heroBtn:"Start the free quiz →",
-    assessBtn:"Free Online Body Assessment →", heroQuizLink:"or take the 2-minute quiz",
+    assessBtn:"Free Online Body Assessment →", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
     howEyebrow:"How it works",
@@ -663,7 +752,7 @@ const TXT = {
     g1:"On track", g2:"Running on empty", g3:"Burnout zone",
     triangleH:"What needs fixing most",
     fixLead:"Your #1 fix:", allStrong:"<strong>All three sides look strong.</strong> Your next step is staying consistent, and a coach helps you lock it in for good.",
-    fixTail:" Most people only fix one side of the triangle. When one side collapses, the whole thing does.",
+    fixTail:" Fix the weakest side first and the other two get easier.",
     stepsH:"What to do next",
     stepFinalH:"Get a plan built around your schedule",
     stepFinal:"WhatsApp me above to set your free 30-minute call. We'll go through your answers, find the root cause and map out your game plan together.",
@@ -687,16 +776,51 @@ const TXT = {
   },
   ms: {
     calEyebrow:"Kalkulator percuma", calH:"Berapa kalori <em>saya perlu sehari?</em>",
-    calLede:"Dapatkan julat kalori harian, sasaran protein, contoh menu sehari (makanan Malaysia + harian) dan meal plan PDF percuma. Ambil masa 30 saat.",
+    calLede:"Dapatkan julat kalori, sasaran protein dan meal plan percuma 8 muka surat: menu, resipi, makan luar dan senarai barang. 30 saat.",
     calF:"Perempuan", calM:"Lelaki", calAge:"Umur", calHt:"Tinggi (cm)", calWt:"Berat (kg)", calAct:"Seaktif mana anda?",
     calActs:["Banyak duduk (kerja pejabat, memandu)","Kerja syif atau banyak berdiri (kilang, kaunter, guard)","Banyak berjalan masa kerja (nurse, retail, delivery, cikgu)","Bersenam 3-5x seminggu","Kerja fizikal berat atau bersenam hampir setiap hari"],
     calPreg:"Saya mengandung atau menyusu",
     calGo:"Kira →", calPerDay:"kalori sehari untuk turun lemak secara perlahan (anggaran)", calProDay:"protein sehari untuk jaga otot",
-    calDay:"Contoh menu sehari (lebih kurang %K kcal)", calMeals:["Sarapan","Tengah hari","Snek petang","Makan malam"],
-    calPdf:"📄 Muat turun meal plan PDF percuma (~%K kcal)", calNextH:"Nak program penuh dengan coach?", calNextP:"Jawab kuiz 2 minit. Kalau sesuai, coach akan WhatsApp anda untuk consultation percuma.", calNextBtn:"Jawab kuiz →",
+    calPdf:"📄 Muat turun meal plan percuma (~%K kcal)", calNextH:"Nak program penuh dengan coach?", calNextP:"Jawab kuiz 2 minit. Result anda terus ke WhatsApp coach untuk consultation percuma.", calNextBtn:"Jawab kuiz →",
     calNote:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, kurang berat badan, pernah ada eating disorder, atau penghidap diabetes, buah pinggang atau jantung: jumpa doktor dulu.",
     calErrFill:"Sila isi jantina, umur, tinggi dan berat.", calErrAge:"Kalkulator ini untuk dewasa 18 tahun ke atas.",
-    calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. Sila rujuk doktor atau bidan anda dulu.", calErrUnder:"Kalkulator ini untuk turun lemak dan tak sesuai kalau berat anda kurang. Sila jumpa doktor dulu.", calHigher:"Sasaran anda lebih tinggi dari pelan ~%K kcal ini: tambah 1 snek atau ½ cawan nasi untuk setiap ~250 kcal lebih.",
+    calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. Sila rujuk doktor atau bidan anda dulu.", calPregWa:"Nak tanya pasal program untuk ibu? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! Saya nak tanya pasal program untuk ibu mengandung atau menyusu.", calErrUnder:"Kalkulator ini untuk turun lemak dan tak sesuai kalau berat anda kurang. Sila jumpa doktor dulu.", calHigher:"Sasaran anda lebih tinggi dari pelan ~%K kcal ini: tambah 1 snek atau ½ cawan nasi untuk setiap ~250 kcal lebih.",
+    kitEyebrow:"Kit Mula 7 Hari · Percuma",
+    kitH:"Cuba dulu. <em>Rasa sendiri.</em>",
+    kit1:"<strong>Kuiz 2 minit</strong>Tahu bahagian paling lemah anda",
+    kit2:"<strong>Meal plan percuma</strong>Menu, 8 resipi, makan luar, senarai barang + tracker 7 hari",
+    kit3:"<strong>Online body assessment</strong>Tahu beza turun berat dengan hilang lemak",
+    kitNote:"Semua ni percuma. Program penuh tambah pelan ikut badan anda, coach yang semak progress anda setiap minggu, dan sokongan nutrisi.",
+    kitDay:"Kit anda: Hari %D daripada 7. Dah ukur pinggang Hari 1? Tulis di muka surat 8. Borang Hari 7 akan keluar di sini.",
+    kitDone:"Dah 7 hari! <a href='#hari7'>Hantar result Hari 7 anda →</a>",
+    h7Eyebrow:"Semakan Hari 7",
+    h7H:"Dah 7 hari. <em>Apa yang berubah?</em>",
+    h7Lede:"Isi yang mana ada (tak perlu isi semua), lepas tu hantar ke coach di WhatsApp. Percuma.",
+    h7W1:"Pinggang hari 1 (cm)",
+    h7W7:"Pinggang hari 7 (cm)",
+    h7Ticks:"Tick (daripada 35)",
+    h7Energy:"Tenaga minggu ni",
+    h7Energies:["Pilih","Lebih bertenaga","Lebih kurang sama","Lebih penat"],
+    h7Hunger:"Lapar waktu malam",
+    h7Hungers:["Pilih","Kurang lapar","Lebih kurang sama","Lebih lapar"],
+    h7Down:"<b>Turun %D cm dalam 7 hari</b>, guna pelan percuma, buat sendiri. Minggu pertama selalunya termasuk sikit air dan kembung, jadi teruskan ukur. Bayangkan 3 bulan dengan pelan ikut badan anda dan coach yang semak progress anda setiap minggu. Result berbeza mengikut individu.",
+    h7Check:"<b>Semak semula ukuran anda.</b> Lebih 4 cm seminggu selalunya sebab cara ukur berbeza. Ukur pagi, sebelum makan, pita di paras pusat.",
+    h7Same:"<b>Biasa untuk minggu pertama.</b> Selalunya porsi, tidur atau air manis, dan itulah yang coach semak dengan anda.",
+    h7Btn:"Hantar result ke %C",
+    h7Note:"Result berbeza mengikut individu. Jawapan anda hanya pergi ke coach yang anda pilih, melalui WhatsApp.",
+    h7Msg:"Hi %C! Saya dah siap Kit Mula 7 Hari ✓",
+    h7MsgEnd:"Boleh semak result saya dan cerita pasal program?",
+    h7L:["Pinggang","Tick","Tenaga","Lapar malam","Nama","Pelan"],
+    resKalori:"Belum sedia nak chat? Ambil meal plan percuma dulu →",
+    calRem:"📅 Set peringatan Hari 7 di kalendar",
+    calStart:"<b>Mula hari ni:</b> ukur pinggang (pagi, sebelum makan, paras pusat) dan tulis di muka surat 8. Hari 7 nanti ukur lagi.",
+    calInApp:'Buka dari TikTok/Instagram? Kalau PDF tak keluar, tekan ⋯ di atas dan pilih "Buka dalam browser".',
+    calNextP2:"Result kuiz anda dah siap. Pilih coach dan WhatsApp untuk consultation percuma.", calNextBtn2:"Lihat result saya →",
+    calRemT:"Hari 7: ukur pinggang dan hantar result",
+    calRemD:"Buka ",
+    calKitH:"Dalam PDF percuma anda (8 muka surat):",
+    calKit:"<li>Menu 3 hari ikut kalori anda</li><li>8 resipi rumah, bawah 20 minit</li><li>Makan luar: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>Senarai barang dapur seminggu + anggaran kos</li><li>Meal prep Ahad 30 minit</li><li>Tracker Cabaran 7 Hari</li>",
+    calAssess:"atau buat online body assessment percuma dulu →",
     navCta:"Body assessment percuma",
     heroKicker:"Online body assessment percuma",
     heroH:"Turun berat ≠ hilang lemak. <em>Semak badan anda dulu, percuma.</em>",
@@ -716,10 +840,9 @@ const TXT = {
     pkgLabel:"Pakej", pSingle:"1 sesi", pSilver:"5 + 1 sesi percuma · guna dalam 60 hari", pGold:"10 + 2 sesi percuma · guna dalam 90 hari",
     o2Btn:"Book slot kelas →", o2From:"Dari <b>RM40</b> sesi. Pakej Silver dan Gold di halaman booking.",
     o2Addr:"Orchids Library Cafe, 53A-1 (tingkat atas), Plaza KL Traders Square, Jalan Gombak. Tarikh ikut jadual bulanan di halaman booking.",
-    miniSteps:"① Body assessment percuma  →  ② Chat coach di WhatsApp  →  ③ Coaching dari RM259 sebulan",
     investShort:"Program bermula dari RM259 sebulan. Kita cari pilihan ikut bajet anda dalam call.",
     heroBtn:"Mula kuiz percuma →",
-    assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau jawab kuiz 2 minit",
+    assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
     howEyebrow:"Macam mana ia berfungsi",
@@ -774,7 +897,7 @@ const TXT = {
     g1:"Di landasan betul", g2:"Tenaga habis", g3:"Zon burnout",
     triangleH:"Apa yang paling perlu dibaiki",
     fixLead:"Perkara #1 untuk dibaiki:", allStrong:"<strong>Ketiga-tiga bahagian nampak kukuh.</strong> Langkah seterusnya ialah kekal konsisten, dan coach bantu anda kunci hasil ini untuk jangka panjang.",
-    fixTail:" Ramai orang cuma betulkan satu sisi segi tiga. Bila satu sisi runtuh, semuanya runtuh.",
+    fixTail:" Bila bahagian ni dah okay, dua lagi pun jadi lebih mudah.",
     stepsH:"Apa perlu anda buat sekarang",
     stepFinalH:"Dapatkan pelan yang ikut jadual anda",
     stepFinal:"WhatsApp saya di atas untuk set free call 30 minit. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
@@ -894,8 +1017,8 @@ const PILLAR_ACTIONS = {
 };
 
 const PILLAR_TIPS = {
-  "Nutrition":{en:"Nutrition is your weakest side. Skipped meals and quick fixes leave you hungry, tired and storing fat. Fixing breakfast and protein first usually moves the scale fastest.",
-               ms:"Pemakanan ialah bahagian paling lemah anda. Skip makan dan cara mudah buat anda lapar, penat dan simpan lemak. Betulkan sarapan dan protein dulu, biasanya ini yang paling cepat turunkan berat."},
+  "Nutrition":{en:"Nutrition is your weakest side. Skipped meals and quick fixes leave you hungry, tired and storing fat. Fixing breakfast and protein first is usually the easiest place to start.",
+               ms:"Pemakanan ialah bahagian paling lemah anda. Skip makan dan cara mudah buat anda lapar, penat dan simpan lemak. Betulkan sarapan dan protein dulu, biasanya ini tempat paling senang mula."},
   "Workout":{en:"Movement is your weakest side. You don't need the gym every day. Three 20-minute sessions a week, done consistently, beat bursts of motivation that fade.",
              ms:"Senaman ialah bahagian paling lemah anda. Anda tak perlu ke gym setiap hari. Tiga sesi 20 minit seminggu yang konsisten lebih berkesan daripada semangat yang datang sekejap."},
   "Mindset & Method":{en:"Mindset and method is your weakest side. Poor sleep, stress and going it alone are why past attempts didn't stick. A clear plan plus someone checking in changes everything.",
@@ -915,8 +1038,8 @@ function applyLang(){
   const waMsg = LANG==="ms" ? "Hi Coach Kimi! Saya dari website. Saya nak tanya pasal coaching turun berat." : "Hi Coach Kimi! I found you on your website. I'd like to ask about weight loss coaching.";
   document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
   $("web-foot").href = CONFIG.websiteUrl;
-  if(typeof calcLang==="function") calcLang();
-  document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>logTap({type:"quiz", via:"Body assessment", src:"website", go:CONFIG.websiteUrl}); });
+  if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
+  document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:"website", go:CONFIG.websiteUrl}); }; });
   $("testimonials").hidden = !TESTIMONIALS.length;
   $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("")
     + WDT_RESULTS.map(n=>`<div class="tcard poster"><img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy"></div>`).join("");
@@ -925,7 +1048,7 @@ function applyLang(){
   Object.keys(CONFIG.coaches).forEach(k=>{
     const b = document.createElement("button");
     b.textContent = L(CONFIG.coaches[k].label); b.dataset.c = k; if(k===coach) b.classList.add("sel");
-    b.onclick = ()=>{ coach = k; document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); };
+    b.onclick = ()=>{ coach = k; kitSave({c:k}); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); };
     $("coachpick").appendChild(b);
   });
   if(view==="quiz") render();
@@ -939,6 +1062,7 @@ document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{
 
 function show(id, noScroll){
   view = id;
+  if(typeof calNext==="function") calNext();
   ["intro","quiz","result"].forEach(s=>$(s).classList.add("hidden"));
   const el=$(id); el.classList.remove("hidden"); el.classList.remove("fade"); void el.offsetWidth; el.classList.add("fade");
   if(!noScroll) $("quiz-zone").scrollIntoView({behavior:"smooth"});
@@ -1015,6 +1139,8 @@ function showResult(relang){
   updateWa();
 
   if(relang) return;
+  if(firstName) kitSave({n:firstName});
+  kitMark("q");
   show("result");
   requestAnimationFrame(()=>setTimeout(()=>{
     $("r-dot").style.left = Math.max(4, Math.min(96, ctx.total/ctx.maxTotal*100))+"%";
@@ -1065,8 +1191,7 @@ function sheetParams(url, via){
 }
 
 // ---------- meal calculator ----------
-// Sample day per PDF tier (built by mealplan/build.js -> days.json): [breakfast, lunch, snacks, dinner], item = [ms, en, kcal, protein]
-const MEAL_DAYS = {"1200": [[["Roti canai kosong 1 keping + telur rebus 1 + teh O kosong", "1 plain roti canai + 1 boiled egg + teh O kosong", 375, 12]], [["Nasi campur: nasi ½ cawan + ayam bakar + 2 sayur", "Nasi campur: ½ cup rice + grilled chicken + 2 vegetables", 450, 33]], [["Buah potong 1 cawan", "1 cup cut fruit", 80, 1]], [["Ayam atau ikan bakar + sayur, tanpa nasi", "Grilled chicken or fish + vegetables, no rice", 300, 35]]], "1500": [[["Nasi lemak separuh nasi + telur rebus, tanpa ayam goreng", "Nasi lemak, half the rice + boiled egg, no fried chicken", 400, 13]], [["Nasi campur: nasi ½ cawan + ayam bakar + 2 sayur", "Nasi campur: ½ cup rice + grilled chicken + 2 vegetables", 450, 33]], [["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16]], [["Sup ayam + nasi ½ cawan + sayur", "Chicken soup + ½ cup rice + vegetables", 400, 30]]], "1800": [[["Roti canai kosong 1 keping + telur rebus 1 + teh O kosong", "1 plain roti canai + 1 boiled egg + teh O kosong", 375, 12]], [["Nasi ayam panggang (buang kulit) + sayur", "Roasted chicken rice (skin off) + vegetables", 600, 33]], [["Pisang + susu rendah lemak 1 gelas", "Banana + 1 glass low-fat milk", 190, 9], ["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16]], [["Sup ayam + nasi ½ cawan + sayur", "Chicken soup + ½ cup rice + vegetables", 400, 30]]], "2000": [[["Roti canai 1 + telur 2 biji + teh tarik kurang manis", "1 roti canai + 2 eggs + teh tarik less sugar", 550, 21]], [["Nasi ayam panggang (buang kulit) + sayur", "Roasted chicken rice (skin off) + vegetables", 600, 33]], [["Pisang + susu rendah lemak 1 gelas", "Banana + 1 glass low-fat milk", 190, 9], ["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16]], [["Kentang 1 biji + dada ayam 150g + sayur", "1 potato + 150g chicken breast + vegetables", 480, 52]]], "2300": [[["Roti canai 1 + telur 2 biji + teh tarik kurang manis", "1 roti canai + 2 eggs + teh tarik less sugar", 550, 21]], [["Nasi 1 cawan + ayam bakar + 2 sayur", "1 cup rice + grilled chicken + 2 vegetables", 550, 35]], [["Roti wholemeal + peanut butter 1 sudu", "Wholemeal toast + 1 tbsp peanut butter", 250, 9], ["Yogurt Greek + epal", "Greek yogurt + apple", 210, 16], ["Telur rebus 2 biji", "2 boiled eggs", 150, 12]], [["Spaghetti 1 cawan + sos daging tomato + salad", "1 cup spaghetti + tomato meat sauce + salad", 520, 28]]]};
+const PLANS = [1200,1500,1800,2000,2300];   // pdf/meal-plan-{plan}-{lang}.pdf, built by mealplan/build.js
 const TIPS = [{ms:"Teh tarik → teh O kosong: jimat ~100 kcal",en:"Teh tarik → teh O kosong: saves ~100 kcal"},
   {ms:"Goreng → bakar, rebus atau air fryer: jimat ~100 kcal",en:"Fried → grilled, boiled or air fryer: saves ~100 kcal"},
   {ms:"Separuh pinggan sayur dulu, baru nasi dan lauk",en:"Fill half your plate with vegetables first, then rice and protein"}];
@@ -1092,35 +1217,94 @@ function calcLang(){
 function runCalc(){
   const age=+$("c-age").value, cm=+$("c-ht").value, kg=+$("c-wt").value, err=$("c-err");
   $("c-out").hidden = true; err.textContent = "";
-  if($("c-preg").checked){ err.textContent = T.calErrPreg; return; }
+  if($("c-preg").checked){
+    const z = CONFIG.coaches.f;
+    err.innerHTML = `${T.calErrPreg} <a href="https://wa.me/${z.whatsapp}?text=${encodeURIComponent(T.calPregMsg)}" target="_blank" rel="noopener">${T.calPregWa}</a>`;
+    err.querySelector("a").onclick = ()=>logTap({type:"quiz", via:"Calculator mum WhatsApp", src:"website", coach:z.name});
+    return;
+  }
   if(!calc.sex || !age || !cm || !kg){ err.textContent = T.calErrFill; return; }
   if(age < 18){ err.textContent = T.calErrAge; return; }
   if(cm<130 || cm>220 || kg<35 || kg>250 || age>90){ err.textContent = T.calErrRange; return; }
   if(kg/((cm/100)**2) < 18.5){ err.textContent = T.calErrUnder; return; }
   const k = calories(calc.sex, age, cm, kg, +$("c-act").value);
   // ties go to the higher plan
-  const tier = Object.keys(MEAL_DAYS).reduce((a,b)=> Math.abs(b-k) <= Math.abs(a-k) ? b : a);
+  const tier = String(PLANS.reduce((a,b)=> Math.abs(b-k) <= Math.abs(a-k) ? b : a));
   // keep the shown protein inside the PDF's range
-  const pro = Math.min(protein(cm, kg), {1200:100,1500:110,1800:130,2000:140,2300:150}[tier]);
+  const pro = Math.min(protein(cm, kg), {1200:100,1500:110,1800:120,2000:125,2300:135}[tier]);
   const lo = Math.max(calc.sex==="m" ? 1500 : 1200, r50(k-100));
   const range = `${lo.toLocaleString()}–${(lo+200).toLocaleString()}`;
   $("c-kcal").textContent = range + " kcal"; $("c-pro").textContent = pro + " g";
-  const day = MEAL_DAYS[tier], li = LANG==="ms" ? 0 : 1;
-  $("c-dayH").textContent = T.calDay.replace("%K", (+tier).toLocaleString());
-  $("c-day").innerHTML = day.map((items,m)=>`<li><b>${T.calMeals[m]} · ~${items.reduce((a,x)=>a+x[2],0)} kcal</b>${items.map(x=>x[li]).join(" + ")}</li>`).join("");
+  $("c-rem").href = calReminder();
   $("c-tips").innerHTML = (k > +tier + 150 ? [`<li>${T.calHigher.replace("%K", (+tier).toLocaleString())}</li>`] : []).concat(TIPS.map(t=>`<li>${L(t)}</li>`)).join("");
   $("c-pdf").href = `pdf/meal-plan-${tier}-${LANG}.pdf`;
   $("c-pdfBtn").textContent = T.calPdf.replace("%K", (+tier).toLocaleString());
-  $("c-pdf").onclick = ()=>logTap({type:"quiz", via:"Meal plan PDF", src:"website", result:tier+" kcal"});
+  $("c-inapp").hidden = !/TikTok|musical_ly|Bytedance|Instagram|FBAN|FBAV/i.test(navigator.userAgent);
+  $("c-pdf").onclick = ()=>{ kitSave({p:tier}); kitMark("m"); logTap({type:"quiz", via:"Meal plan PDF", src:"website", result:tier+" kcal"}); };
+  calNext();
   $("c-out").hidden = false;
+}
+function calNext(){
+  const done = view==="result";
+  document.querySelector(".c-next p").innerHTML = done ? T.calNextP2 : T.calNextP;
+  document.querySelector(".c-next .btn").innerHTML = done ? T.calNextBtn2 : T.calNextBtn;
 }
 $("c-sex").querySelectorAll("button").forEach(b=>b.onclick=()=>{ calc.sex = b.dataset.v; calcLang(); });
 $("c-go").onclick = ()=>{ runCalc(); if(!$("c-out").hidden) $("c-kcal").scrollIntoView({behavior:"smooth",block:"center"}); };
 
+// ---------- Kit Mula 7 Hari: ticks + start date saved in this browser only ----------
+const SITE_URL = "https://kimidullz.github.io/FITNESS-QUIZ/";
+function kitGet(){ try{ return JSON.parse(localStorage.getItem("kit7")) || {}; }catch(e){ return {}; } }
+function kitSave(o){ try{ localStorage.setItem("kit7", JSON.stringify(Object.assign(kitGet(), o))); }catch(e){} }
+function kitMark(k){
+  const n = new Date();   // local date, so day 1 is the visitor's own today
+  if(!kitGet()[k]) kitSave({[k]: n.getFullYear()+"-"+String(n.getMonth()+1).padStart(2,"0")+"-"+String(n.getDate()).padStart(2,"0")});   // first time only: the meal plan date starts the 7 days
+  kitRender();
+}
+const kitDay = () => { const m = kitGet().m; return m ? Math.floor((Date.now() - new Date(m+"T00:00:00")) / 864e5) + 1 : 0; };
+function kitRender(){
+  const kit = kitGet(), d = kitDay();
+  document.querySelectorAll(".kit-steps a").forEach((a,n)=>{ const done = !!kit[a.dataset.k]; a.classList.toggle("done", done); a.querySelector("i").textContent = done ? "✓" : n+1; });
+  $("kit-note").innerHTML = d >= 7 ? T.kitDone : d >= 1 ? T.kitDay.replace("%D", d) : T.kitNote;
+  if(d >= 7) $("hari7").hidden = false;
+}
+// Google Calendar all-day event 7 days after today, linking back to the Day 7 check-in
+function calReminder(){
+  const day = n => { const x = new Date(Date.now() + n*864e5); return x.getFullYear() + String(x.getMonth()+1).padStart(2,"0") + String(x.getDate()).padStart(2,"0"); };
+  const url = SITE_URL + (LANG==="en" ? "?lang=en" : "") + "#hari7";
+  return "https://calendar.google.com/calendar/render?" + new URLSearchParams({action:"TEMPLATE", text:T.calRemT, dates:day(6)+"/"+day(7), details:T.calRemD + url});
+}
+function h7Lang(){
+  [["h7-e",T.h7Energies],["h7-h",T.h7Hungers]].forEach(([id,opts])=>{ const v = $(id).value; $(id).innerHTML = opts.map((o,k)=>`<option value="${k}">${o}</option>`).join(""); if(v) $(id).value = v; });
+  h7Update();
+}
+function h7Update(){
+  const w1 = +$("h7-w1").value, w7 = +$("h7-w7").value, t = $("h7-t").value, e = +$("h7-e").value, h = +$("h7-h").value;
+  const drop = Math.round((w1 - w7)*10)/10;
+  $("h7-out").innerHTML = w1 && w7 ? (drop > 4 ? T.h7Check : drop >= 1 ? T.h7Down.replace("%D", drop) : T.h7Same) : "";
+  const kit = kitGet();
+  const lines = [kit.n ? `${T.h7L[4]}: ${kit.n}` : null, kit.p ? `${T.h7L[5]}: ~${(+kit.p).toLocaleString()} kcal` : null,
+    w1 && w7 ? `${T.h7L[0]}: ${w1} → ${w7} cm` : null, t !== "" ? `${T.h7L[1]}: ${t}/35` : null,
+    e ? `${T.h7L[2]}: ${T.h7Energies[e]}` : null, h ? `${T.h7L[3]}: ${T.h7Hungers[h]}` : null].filter(Boolean);
+  $("h7-wa").innerHTML = "";
+  Object.keys(CONFIG.coaches).sort((x,y)=>(y===kit.c)-(x===kit.c)).map(k=>CONFIG.coaches[k]).forEach(c=>{   // the coach they picked in the quiz first
+    const a = document.createElement("a");
+    a.className = "btn wa"; a.target = "_blank"; a.rel = "noopener";
+    a.textContent = T.h7Btn.replace("%C", c.name);
+    a.href = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([T.h7Msg.replace("%C", c.name), ...lines, T.h7MsgEnd].join("\n"))}`;
+    a.onclick = ()=>logTap({type:"quiz", via:"Hari 7 WhatsApp", src:"website", coach:c.name});
+    $("h7-wa").appendChild(a);
+  });
+}
+["h7-w1","h7-w7","h7-t","h7-e","h7-h"].forEach(id=>$(id).addEventListener("input", h7Update));
+function h7Open(){ if(location.hash !== "#hari7") return; $("hari7").hidden = false; $("hari7").scrollIntoView(); }
+window.addEventListener("hashchange", h7Open);
+
 applyLang();
+h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero")); floatObs.observe(document.querySelector(".c-next"));
+floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
