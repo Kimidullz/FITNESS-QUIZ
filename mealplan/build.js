@@ -73,7 +73,9 @@ const T = {
         ctaH:"Want the full program with a coach?", cta:"Take the 2-minute quiz on the website. If it's a fit, a coach will WhatsApp you for a free consultation.", ctaBtn:"Take the quiz →",
         note:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, people who are underweight, have had an eating disorder, or have diabetes, kidney or heart problems: see your doctor first." },
 };
-const SITE = "https://kimidullz.github.io/FITNESS-QUIZ/";
+// Other coaches (e.g. Coach Mel) reuse this with env: BRAND, BRAND_SUB, SITE, OUT
+const SITE = process.env.SITE || "https://kimidullz.github.io/FITNESS-QUIZ/";
+const BRAND = process.env.BRAND || "ARAMI", BRAND_SUB = process.env.BRAND_SUB || "Coach Kimi &amp; Coach Zara";
 const proRange = k => ({1200:"80-100",1500:"90-110",1800:"100-130",2000:"110-140",2300:"120-150"})[k];
 const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
 
@@ -127,7 +129,7 @@ ul.out{list-style:none}ul.out li{margin-bottom:5px;padding-left:14px;position:re
 .foot{position:absolute;right:14mm;top:8mm;font-size:11px;color:#5E5E5E}
 </style></head><body>
 <div class="page">
-  <div class="band"><div class="brand">ARAMI<small>Coach Kimi &amp; Coach Zara</small></div>
+  <div class="band"><div class="brand">${BRAND}<small>${BRAND_SUB}</small></div>
   <h1>${t.title} <em>~${k.toLocaleString()} kcal</em></h1><div class="sub">${t.sub}</div></div>
   <div class="stats"><div class="stat"><b>~${k.toLocaleString()}</b>${t.kcal}</div><div class="stat"><b>${proRange(k)} g</b>${t.pro}</div><div class="stat"><b>2-3 L</b>${t.water}</div></div>
   <div class="two"><div><h2>${t.plateH}</h2><div class="plate"><div class="pie"></div><ul>${t.plate.map(x=>`<li>${x}</li>`).join("")}</ul></div></div>
@@ -136,19 +138,19 @@ ul.out{list-style:none}ul.out li{margin-bottom:5px;padding-left:14px;position:re
   ${dayCard(TIERS[k][0],1)}${dayCard(TIERS[k][1],2)}
   <div class="note">${t.note}</div>
 </div>
-<div class="page"><div class="foot">ARAMI · ${t.title} ~${k} kcal</div>
+<div class="page"><div class="foot">${BRAND} · ${t.title} ~${k} kcal</div>
   ${dayCard(TIERS[k][2],3)}<p class="mix">${t.mix}</p>
   <h2 style="margin-top:6mm">${t.swapH}</h2>
   <table>${t.swaps.map(([a,b,c])=>`<tr><td>${a}</td><td>${b}</td><td>${c} kcal</td></tr>`).join("")}</table>
   <div class="two" style="margin-bottom:0"><div><h2>${t.outH}</h2><ul class="out">${t.out.map(x=>`<li>${x}</li>`).join("")}</ul></div>
   <div class="box"><h2>${t.shiftH}</h2><p>${t.shift}</p></div></div>
-  <div class="cta"><div><h3>${t.ctaH}</h3><p>${t.cta}</p></div><a href="${SITE}${lang==="en"?"?lang=en":""}#quiz-zone">${t.ctaBtn}</a></div>
+  <div class="cta"><div><h3>${t.ctaH}</h3><p>${t.cta}</p></div><a href="${SITE}${process.env.SITE ? "" : (lang==="en"?"?lang=en":"") + "#quiz-zone"}">${t.ctaBtn}</a></div>
   <div class="note">${t.note}</div>
 </div></body></html>`;
 }
 
 (async () => {
-  const out = path.join(__dirname, '..', 'pdf'); fs.mkdirSync(out, { recursive: true });
+  const out = process.env.OUT || path.join(__dirname, '..', 'pdf'); fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch(); const p = await b.newPage();
   for (const k of Object.keys(TIERS)) for (const lang of ['ms','en']) {
     await p.setContent(html(+k, lang), { waitUntil: 'networkidle' });
