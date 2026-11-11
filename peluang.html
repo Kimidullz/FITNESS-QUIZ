@@ -87,10 +87,10 @@
 
   <section style="padding-top:0">
     <h2>Soalan biasa</h2>
-    <details><summary>Ada kos nak mula?</summary><p>Ya, ada kos permulaan. Kami terangkan semua kos dengan jelas di WhatsApp sebelum anda buat apa-apa keputusan. Tiada paksaan.</p></details>
+    <details><summary>Ada kos nak mula?</summary><p>Ya, ada kos permulaan. Coach Kimi terangkan semua kos dengan jelas dalam sesi Zoom, sebelum anda buat apa-apa keputusan. Tiada paksaan.</p></details>
     <details><summary>Berapa jam seminggu?</summary><p>Anda tentukan sendiri. Kami cadang mula dengan 5-10 jam seminggu, di samping kerja sekarang.</p></details>
     <details><summary>Kena fit dulu ke?</summary><p>Tak. Ramai coach mula sebagai klien dulu. Yang penting anda amalkan apa yang anda ajar.</p></details>
-    <details><summary>Kena jual produk ke?</summary><p>Kerja utama anda ialah coaching klien. Program klien termasuk sokongan nutrisi, dan kami terangkan semua butiran di WhatsApp.</p></details>
+    <details><summary>Kena jual produk ke?</summary><p>Kerja utama anda ialah coaching klien. Program klien termasuk sokongan nutrisi, dan Coach Kimi terangkan semua butiran dalam sesi Zoom.</p></details>
     <p class="note">Pendapatan bergantung pada usaha. Tiada jaminan.</p>
   </section>
 
@@ -111,7 +111,7 @@ const WA = "60127040268";   // Coach Kimi answers side income chats
 const QS = [
   ["Masa seminggu", "Berapa jam seminggu anda ada?", ["Bawah 5 jam", "5-10 jam", "Lebih 10 jam"]],
   ["Sebab berminat", "Kenapa anda berminat?", ["Tambah pendapatan", "Suka bantu orang", "Dua-dua"]],
-  ["Nak sembang", "Nak sembang macam mana?", ["WhatsApp", "Zoom"]],
+  ["Masa Zoom", "Bila sesuai untuk sesi Zoom?", ["Malam hari bekerja", "Hujung minggu", "Bila-bila"]],
 ];
 const pick = {};
 document.getElementById("qs").innerHTML = QS.map(([k, q, opts]) =>
@@ -122,7 +122,7 @@ document.querySelectorAll(".chips").forEach(g => g.querySelectorAll("button").fo
 }));
 function waLink(){
   const lines = ["Hi Coach Kimi! Saya dah tonton video peluang pendapatan sampingan.",
-    ...QS.filter(([k]) => pick[k]).map(([k]) => `${k}: ${pick[k]}`), "Boleh cerita lebih lanjut?"];
+    ...QS.filter(([k]) => pick[k]).map(([k]) => `${k}: ${pick[k]}`), "Boleh set sesi Zoom?"];
   document.getElementById("wa").href = `https://wa.me/${WA}?text=${encodeURIComponent(lines.join("\n"))}`;
 }
 waLink();
