@@ -1,4 +1,5 @@
-// Builds the free "Kit Mula 7 Hari" meal plan PDFs (5 calorie levels x BM/EN, 6 pages) into ../pdf/.
+// Builds the free "Kit Mula 7 Hari" meal plan PDFs (5 calorie levels x BM/EN, 8 pages) into ../pdf/,
+// plus the weight-gain kit (3 levels x BM/EN, 6 pages: no eating-out or grocery page) as weight-gain-*.pdf.
 // Data: FOOD/TIERS below, grocery.js (grocery page), recipes.json (recipes + eating out).
 // Run: node mealplan/build.js [screenshotDir]
 const fs = require('fs'), path = require('path');
@@ -37,6 +38,20 @@ const FOOD = {
   D6: ["Tom yam campur kuah jernih + nasi ½ cawan", "Clear tom yam campur + ½ cup rice", 400, 30],
   D7: ["Ayam atau ikan bakar + sayur, tanpa nasi", "Grilled chicken or fish + vegetables, no rice", 300, 35],
   D8: ["Nasi 1 cawan + ikan bakar + sayur + sup sayur", "1 cup rice + grilled fish + vegetables + vegetable soup", 550, 31],
+  // weight gain
+  GB1: ["Nasi lemak + telur rebus + ayam bakar", "Nasi lemak + boiled egg + grilled chicken", 700, 36],
+  GB2: ["Oat 60g + susu penuh krim 250ml + pisang + peanut butter 1 sudu besar", "60g oats + 250ml full-cream milk + banana + 1 tbsp peanut butter", 590, 21],
+  GB3: ["3 roti wholemeal + 3 telur hancur + segelas susu penuh krim", "3 slices wholemeal toast + 3 scrambled eggs + full-cream milk", 670, 39],
+  GL1: ["Nasi 1½ cawan + ayam bakar + 2 sayur + kuah sikit", "1½ cups rice + grilled chicken + 2 veg + a little gravy", 720, 39],
+  GL2: ["Nasi 1½ cawan + ikan bakar + telur dadar + sayur", "1½ cups rice + grilled fish + omelette + vegetables", 710, 40],
+  GL3: ["Nasi 2 cawan + ayam bakar + 2 sayur + kuah sikit", "2 cups rice + grilled chicken + 2 veg + a little gravy", 820, 41],
+  GS1: ["Smoothie: susu penuh krim + pisang + oat 30g + peanut butter 1 sudu besar", "Smoothie: full-cream milk + banana + 30g oats + 1 tbsp peanut butter", 475, 17],   // 250ml milk
+  GS2: ["Kacang campur 40g + kurma 3 biji", "40g mixed nuts + 3 dates", 310, 9],
+  GS3: ["Yogurt Greek 170g + granola 4 sudu besar + madu 1 sudu kecil", "170g Greek yogurt + 4 tbsp granola + 1 tsp honey", 290, 20],
+  GS4: ["Sandwich 2 telur & keju (roti wholemeal)", "2-egg & cheese wholemeal sandwich", 370, 24],
+  GD1: ["Nasi 1½ cawan + daging masak kicap + sayur", "1½ cups rice + beef in soy sauce + vegetables", 660, 38],
+  GD2: ["Nasi 1 cawan + ayam masak merah + sayur + telur rebus", "1 cup rice + ayam masak merah + vegetables + boiled egg", 640, 35],
+  GD3: ["Mee sup daging + telur rebus 1 biji", "Beef noodle soup + 1 boiled egg", 550, 31],
 };
 // each day = [breakfast, lunch, snack(s), dinner]
 const TIERS = {
@@ -46,8 +61,13 @@ const TIERS = {
   2000: [["B8","L3",["S1","S2"],"D4"], ["B9","L4",["S6","S2"],"D5"], ["B4","L4",["S1","S6"],"D8"]],
   2300: [["B8","L8",["S6","S2","S4"],"D5"], ["B9","L3",["S1","S6","S4"],"D4"], ["B8","L2",["S2","S6","S4"],"D8"]],
 };
+const GTIERS = {
+  2000: [["B9","L8",["S1","S4"],"D8"], ["GB3","L3",["S4","S5"],"GD3"], ["GB2","L8",["S4","S5"],"GD2"]],
+  2500: [["GB1","L8",["GS1","S4"],"GD2"], ["GB3","GL2",["GS1","S5"],"GD1"], ["GB2","GL1",["GS3","S6"],"GD3"]],
+  3000: [["GB1","GL3",["GS1","GS2"],"GD2"], ["GB3","GL2",["GS1","GS4"],"GD1"], ["GB2","GL3",["GS4","GS3","GS2"],"GD2"]],
+};
 const dayTotal = d => { const ids=[d[0],d[1],...d[2],d[3]]; return ids.reduce((t,i)=>[t[0]+FOOD[i][2], t[1]+FOOD[i][3]],[0,0]); };
-for (const [k, days] of Object.entries(TIERS)) for (const d of days) {
+for (const [k, days] of [...Object.entries(TIERS), ...Object.entries(GTIERS)]) for (const d of days) {
   const [kc] = dayTotal(d); console.assert(Math.abs(kc - k) <= 120, `tier ${k} day ${d} = ${kc}`);
 }
 
@@ -104,22 +124,54 @@ if (process.env.BRAND) {
   T.ms.cta = T.ms.cta.replace("coach yang semak progress anda setiap minggu", "coach yang follow-up anda");
   T.en.cta = T.en.cta.replace("a coach checking in every week", "a coach who follows up with you");
 }
+// weight-gain kit: overrides on top of T (claims follow the co-pilot's gain mode: 0.25-0.5 kg a week, red flags to a doctor)
+const GT = {
+  ms: { kit:"Kit Naik Berat · Percuma", title:"Meal Plan Naik Berat", sub:"Menu 3 hari · Tambah kalori sihat · 8 resipi · Meal prep · Cabaran 7 hari",
+        plateH:"Pinggan naik berat (setiap hidangan)", plate:["⅓ sayur","⅓ protein: ayam, ikan, telur, daging, tauhu","⅓ nasi, roti atau mee, boleh tambah"],
+        rules:["Makan 5 kali sehari: 3 hidangan + 2 snek.","Protein setiap kali makan.","Tambah kalori sihat: susu, telur, kacang, pisang, peanut butter.","Latihan kekuatan 3 kali seminggu: naik otot, bukan lemak je.","Tidur 7 jam. Badan bina otot masa tidur."],
+        mix:"Boleh tukar hidangan antara hari, atau dengan resipi dalam kit ini, asalkan kalori lebih kurang sama.",
+        swapH:"Tambah ini, kalori naik cara sihat", swaps:[["Susu penuh krim 1 gelas","Masa sarapan atau sebelum tidur","+160"],["Peanut butter 1 sudu besar","Atas roti, oat atau pisang","+95"],["Kacang 1 genggam (30g)","Snek petang","+170"],["Pisang 1 biji","Dalam smoothie atau oat","+105"],["Telur 1 biji","Tambah pada nasi atau mee","+75"],["Nasi tambah ½ cawan","Tengah hari atau malam","+100"]],
+        shiftH:"Susah nak makan banyak?", shift:"Makan setiap 3 jam walaupun tak lapar. Dapatkan kalori dari minuman: susu atau smoothie lebih senang daripada sepinggan nasi lagi. Jangan minum air banyak sebelum makan. Guna pinggan lebih besar. Simpan snek dalam beg: kacang, kurma, roti peanut butter.",
+        rcSub:"Bawah 20 minit. Untuk naik berat, makan dengan sepinggan nasi penuh atau tambah telur dan segelas susu.",
+        waistH:"Timbang berat, seminggu sekali", waistHow:"Pagi, lepas ke tandas, sebelum makan. Sasaran sihat: naik 0.25-0.5 kg seminggu. Lebih laju selalunya lemak.", unit:"kg",
+        habits:["5 kali makan","Protein tiap hidangan","Latihan ikut jadual","Tidur 7 jam","Susu / smoothie"],
+        h7H:"Siap 7 hari? Hantar berat anda", h7P:"Hantar berat hari 1, hari 7 dan tick anda ke coach di WhatsApp. Percuma.", h7Btn:"WhatsApp coach →",
+        h7Wa:"Hi Coach! Saya dah siap 7 hari pelan naik berat ✓\nBerat hari 1: ___ kg\nBerat hari 7: ___ kg\nTick: ___/35\nBoleh semak result saya?",
+        cmp:[["Menu ikut kalori, sama untuk semua","Menu ikut badan, selera dan jadual anda"],["Timbang sendiri","Coach semak progress anda setiap minggu"],["Tiada pelan senaman","Latihan kekuatan ikut tahap anda"],["Buat seorang diri","Group WhatsApp: kawan yang sama-sama berusaha"],["Makanan biasa sahaja","Makanan biasa + supplement, dah termasuk dalam harga"]],
+        ctaH:"Kalau 7 hari sendiri pun dah rasa beza…", cta:"…bayangkan kalau ada coach yang semak progress anda setiap minggu. Mula dengan body assessment percuma: coach tengok badan anda dan bina pelan naik berat. Result berbeza mengikut individu.", ctaBtn:"Body assessment percuma →",
+        note:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, BMI bawah 16, pernah ada eating disorder, atau penghidap diabetes, buah pinggang atau jantung. Berat turun tanpa sebab? Jumpa doktor dulu." },
+  en: { kit:"Free Weight Gain Kit", title:"Weight Gain Meal Plan", sub:"3-day menu · Healthy calorie add-ons · 8 recipes · Meal prep · 7-day challenge",
+        plateH:"Weight gain plate (every meal)", plate:["⅓ vegetables","⅓ protein: chicken, fish, eggs, meat, tofu","⅓ rice, bread or noodles (seconds OK)"],
+        rules:["Eat 5 times a day: 3 meals + 2 snacks.","Protein at every meal.","Add healthy calories: milk, eggs, nuts, bananas, peanut butter.","Strength training 3 times a week: gain muscle, not just fat.","Sleep 7 hours. Your body builds muscle while you sleep."],
+        mix:"Swap meals between days, or with the recipes in this kit, as long as the calories are about the same.",
+        swapH:"Add these for healthy calories", swaps:[["1 glass full-cream milk","At breakfast or before bed","+160"],["1 tbsp peanut butter","On toast, oats or a banana","+95"],["A handful of nuts (30g)","Afternoon snack","+170"],["1 banana","In a smoothie or oats","+105"],["1 egg","Add to rice or noodles","+75"],["Extra ½ cup rice","Lunch or dinner","+100"]],
+        shiftH:"Hard to eat more?", shift:"Eat every 3 hours, even if you're not hungry. Drink your calories: milk or a smoothie is easier than another plate of rice. Don't drink lots of water right before meals. Use a bigger plate. Keep snacks in your bag: nuts, dates, peanut butter toast.",
+        rcSub:"Under 20 minutes. To gain, eat them with a full plate of rice or add eggs and a glass of milk.",
+        waistH:"Weigh yourself once a week", waistHow:"Morning, after the toilet, before eating. Healthy pace: 0.25-0.5 kg a week. Faster is usually fat.", unit:"kg",
+        habits:["5 meals","Protein every meal","Training as planned","7 hours sleep","Milk / smoothie"],
+        h7H:"Done 7 days? Send your weight", h7P:"Send your day 1 and day 7 weight and your ticks to a coach on WhatsApp. Free.", h7Btn:"WhatsApp a coach →",
+        h7Wa:"Hi Coach! I finished 7 days of the weight gain plan ✓\nWeight day 1: ___ kg\nWeight day 7: ___ kg\nTicks: ___/35\nCan you check my result?",
+        cmp:[["Menu by calories, same for everyone","Menu built around your body, taste and schedule"],["Weigh yourself","A coach checks your progress every week"],["No workout plan","Strength training at your level"],["On your own","WhatsApp group: people working on it with you"],["Normal food only","Normal food + supplements, already in the price"]],
+        ctaH:"If 7 days on your own already feels different…", cta:"…imagine having a coach checking in every week. Start with the free body assessment: a coach looks at your body and builds your weight gain plan. Results vary.", ctaBtn:"Free body assessment →",
+        note:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, a BMI under 16, a past eating disorder, or diabetes, kidney or heart problems. Losing weight without trying? See a doctor first." },
+};
+const KIMI_WA = "60127040268", ASSESS = "https://www.wedotransformations.com/coach/3e08ee09-9e41-403c-b54a-67a6b1d8e86c";   // keep in sync with CONFIG in index.html
 // Other coaches (e.g. Coach Mel) reuse this with env: BRAND, BRAND_SUB, SITE, OUT, and HARI7_WA (WhatsApp number for the Day 7 button
 // when their page has no #hari7 check-in)
 const SITE = process.env.SITE || "https://kimidullz.github.io/FITNESS-QUIZ/";
 const BRAND = process.env.BRAND || "ARAMI", BRAND_SUB = process.env.BRAND_SUB || "Coach Kimi &amp; Coach Zara";
 const link = (lang, hash) => process.env.SITE ? SITE : SITE + (lang==="en" ? "?lang=en" : "") + hash;
 const hari7 = lang => process.env.HARI7_WA ? `https://wa.me/${process.env.HARI7_WA}?text=${encodeURIComponent(T[lang].h7Wa)}` : link(lang, "#hari7");
-const proRange = k => ({1200:"80-100",1500:"90-110",1800:"100-120",2000:"100-125",2300:"115-135"})[k];   // keep in sync with the cap map in index.html runCalc
+const proRange = (k, gain) => (gain ? {2000:"90-120",2500:"110-140",3000:"130-160"} : {1200:"80-100",1500:"90-110",1800:"100-120",2000:"100-125",2300:"115-135"})[k];   // keep in sync with the cap maps in index.html runCalc
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
 const enQty = s => s.replace(/ (ekor|biji)$/,"").replace(" keping"," slices").replace(" paket"," pack").replace(" buku"," loaf").replace(" sikat"," bunch").replace("minggu 1, ~RM5 lepas tu","week 1, ~RM5 after");
 const fill = (s, o) => s.replace(/\{(\w+)\}/g, (_, x) => o[x]);
-const PAGES = 8;
-
-function html(k, lang){
-  const note = T[lang].note + (k===1200 ? (lang==="en" ? " This 1,200 kcal plan is for women; men should not go below 1,500 kcal a day." : " Pelan 1,200 kcal ini untuk wanita; lelaki jangan makan bawah 1,500 kcal sehari.") : "");
-  const t = T[lang], g = G[lang], en = lang === "en", L = i => esc(FOOD[i][en?1:0]);
-  const foot = n => `<div class="foot">${BRAND} · ${t.title} ~${k.toLocaleString()} kcal · ${n}/${PAGES}</div>`;
+function html(k, lang, gain){
+  const PAGES = gain ? 6 : 8, DAYS = (gain ? GTIERS : TIERS)[k];
+  let pn = 1;
+  const note = gain ? GT[lang].note : T[lang].note + (k===1200 ? (lang==="en" ? " This 1,200 kcal plan is for women; men should not go below 1,500 kcal a day." : " Pelan 1,200 kcal ini untuk wanita; lelaki jangan makan bawah 1,500 kcal sehari.") : "");
+  const t = gain ? { ...T[lang], ...GT[lang] } : T[lang], g = G[lang], en = lang === "en", L = i => esc(FOOD[i][en?1:0]);
+  const foot = () => `<div class="foot">${BRAND} · ${t.title} ~${k.toLocaleString()} kcal · ${++pn}/${PAGES}</div>`;
   const dayCard = (d, n) => { const [kc, p] = dayTotal(d); const rows = [[0,[d[0]]],[1,[d[1]]],[2,d[2]],[3,[d[3]]]];
     return `<div class="day"><div class="dh"><b>${t.day} ${n}</b><span>${t.total}: ~${kc.toLocaleString()} kcal · ${p} g protein</span></div>
     ${rows.map(([m,ids])=>`<div class="row"><i>${t.meals[m]}${m===2&&ids.length>1?" ×"+ids.length:""}</i><span>${ids.map(L).join(m===2?" · ":" + ")}</span><em>~${ids.reduce((a,i)=>a+FOOD[i][2],0)}</em></div>`).join("")}</div>`; };
@@ -132,7 +184,7 @@ function html(k, lang){
     <div class="rb"><div><b>${t.ing}</b><ul>${(en?r.ing_en:r.ing_ms).map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>
     <div><b>${t.how}</b><ol>${(en?r.steps_en:r.steps_ms).map(x=>`<li>${esc(x)}</li>`).join("")}</ol></div></div></div>`).join("");
   const q = s => en ? enQty(s) : s;
-  const gl = G.groups.map(grp => { const rows = grp.rows.filter(r => r[2][k] !== "-");
+  const gl = gain ? "" : G.groups.map(grp => { const rows = grp.rows.filter(r => r[2][k] !== "-");
     return rows.length ? `<tr class="gh"><td colspan="4">${esc(grp[lang])}</td></tr>` + rows.map(r =>
       `<tr><td><span class="bx"></span></td><td>${esc(r[en?1:0])}</td><td>${r[2][k]==="✓" ? "" : esc(q(r[2][k]))}</td><td>${esc(q(r[3]))}</td></tr>`).join("") : ""; }).join("");
   const tot = G.totals[k], out = G.eatOut[k];
@@ -234,55 +286,55 @@ table{width:100%;border-collapse:collapse}
 <div class="page">
   <div class="band"><div class="brand">${BRAND}<small>${BRAND_SUB}</small><span class="kit">${t.kit}</span></div>
   <h1>${t.title} <em>~${k.toLocaleString()} kcal</em></h1><div class="sub">${t.sub}</div></div>
-  <div class="stats"><div class="stat"><b>~${k.toLocaleString()}</b>${t.kcal}</div><div class="stat"><b>${proRange(k)} g</b>${t.pro}</div><div class="stat"><b>2-3 L</b>${t.water}</div></div>
-  <div class="two"><div><h2>${t.plateH}</h2><div class="plate"><div class="pie"></div><ul>${t.plate.map(x=>`<li>${x}</li>`).join("")}</ul></div></div>
+  <div class="stats"><div class="stat"><b>~${k.toLocaleString()}</b>${t.kcal}</div><div class="stat"><b>${proRange(k, gain)} g</b>${t.pro}</div><div class="stat"><b>2-3 L</b>${t.water}</div></div>
+  <div class="two"><div><h2>${t.plateH}</h2><div class="plate"><div class="pie"${gain ? ' style="background:conic-gradient(#6BBF59 0 34%,#E30613 34% 67%,#FFD200 67% 100%)"' : ""}></div><ul>${t.plate.map(x=>`<li>${x}</li>`).join("")}</ul></div></div>
   <div><h2>${t.rulesH}</h2><ol>${t.rules.map(x=>`<li>${x}</li>`).join("")}</ol></div></div>
   <h2>${t.daysH}</h2>
-  ${dayCard(TIERS[k][0],1)}${dayCard(TIERS[k][1],2)}
+  ${dayCard(DAYS[0],1)}${dayCard(DAYS[1],2)}
   <div class="note">${note}</div>
 </div>
-<div class="page">${foot(2)}
-  ${dayCard(TIERS[k][2],3)}<p class="mix">${t.mix}</p>
+<div class="page">${foot()}
+  ${dayCard(DAYS[2],3)}<p class="mix">${t.mix}</p>
   <h2 style="margin-top:6mm">${t.swapH}</h2>
   <table class="sw">${t.swaps.map(([a,b,c])=>`<tr><td>${a}</td><td>${b}</td><td>${c} kcal</td></tr>`).join("")}</table>
   <div class="box"><h2>${t.shiftH}</h2><p>${t.shift}</p></div>
 </div>
-<div class="page">${foot(3)}
+${gain ? "" : `<div class="page">${foot()}
   <h2 style="font-size:28px">${t.eoH}</h2><p class="lead">${t.eoSub}</p>
   <div class="eog">${eo}</div>
   <div class="rule">${t.eoRule}</div>
-</div>
-<div class="page">${foot(4)}
+</div>`}
+<div class="page">${foot()}
   <h2 style="font-size:28px">${t.rcH}</h2><p class="lead">${t.rcSub}</p>
   ${rc(R.recipes.slice(0,4))}
 </div>
-<div class="page">${foot(5)}
+<div class="page">${foot()}
   <h2 style="font-size:28px">${t.rcH2}</h2>
   ${rc(R.recipes.slice(4))}
 </div>
-<div class="page">${foot(6)}
+${gain ? "" : `<div class="page">${foot()}
   <h2 style="font-size:28px">${esc(g.h)}</h2><p class="lead">${esc(g.sub)}<br><b style="color:#111">${fill(g.qtyH,{k:k.toLocaleString()})}</b></p>
   <table class="gl">${gl}</table>
   <div class="cost"><b>${g.totalH}:</b> ${fill(g.totalLine,{dapur:tot.dapur,out:out.rm,sehari:tot.sehari})}<br><span style="opacity:.75;font-size:12px">${g.outH}: ${esc(out[lang])}</span></div>
   <p class="small">${esc(g.stock)} ${esc(g.priceNote)}</p>
-</div>
-<div class="page">${foot(7)}
+</div>`}
+<div class="page">${foot()}
   <h2 style="font-size:28px">${g.prepH}</h2><p class="lead">${t.prepSub}</p>
   <div class="prep">${g.prep.map(([a,b])=>`<div><b>${a}</b>${esc(b)}</div>`).join("")}</div>
   <div class="box" style="margin-bottom:8mm"><b>${t.safeH}</b> ${esc(g.safety.replace(/^[^:]+: /,""))}</div>
   <h2>${g.tipsH}</h2><ol class="tips">${g.tips.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>
   <div class="box" style="margin-top:6mm"><b>${t.famH}</b> ${esc(g.family.replace(/^[^?]+\? /,""))}</div>
 </div>
-<div class="page">${foot(8)}
+<div class="page">${foot()}
   <h2 style="font-size:30px">${t.trH}</h2><p class="lead">${t.trSub}</p>
   <div class="meet"><div>${t.name}:</div><div>${t.start}:</div></div>
-  <div class="waist"><div><b>${t.waistH}</b><p class="small">${t.waistHow}</p></div><div class="w">${t.day} 1<span>____ cm</span></div><div class="w">${t.day} 7<span>____ cm</span></div></div>
+  <div class="waist"><div><b>${t.waistH}</b><p class="small">${t.waistHow}</p></div><div class="w">${t.day} 1<span>____ ${t.unit || "cm"}</span></div><div class="w">${t.day} 7<span>____ ${t.unit || "cm"}</span></div></div>
   <table class="tr"><tr><th>${t.day}</th>${t.habits.map(h=>`<th>${h}</th>`).join("")}<th>${t.sum}</th></tr>
   ${[1,2,3,4,5,6,7].map(n=>`<tr><td>${t.day} ${n}</td>${box5}<td>/5</td></tr>`).join("")}</table>
-  <div class="h7"><div><b>${t.h7H}</b><p class="small">${t.h7P}</p></div><a href="${hari7(lang)}">${t.h7Btn}</a></div>
+  <div class="h7"><div><b>${t.h7H}</b><p class="small">${t.h7P}</p></div><a href="${gain ? `https://wa.me/${KIMI_WA}?text=${encodeURIComponent(t.h7Wa)}` : hari7(lang)}">${t.h7Btn}</a></div>
   <h2>${t.cmpH}</h2>
   <table class="cmp"><tr><th>${t.cmpFree}</th><th>${t.cmpPaid}</th></tr>${t.cmp.map(([a,b])=>`<tr><td>${a}</td><td>${b}</td></tr>`).join("")}</table>
-  <div class="cta"><div><h3>${t.ctaH}</h3><p>${t.cta}</p>${t.price ? `<p class="price">${t.price}</p>` : ""}</div><a href="${link(lang,"#quiz-zone")}">${t.ctaBtn}</a></div>
+  <div class="cta"><div><h3>${t.ctaH}</h3><p>${t.cta}</p>${t.price ? `<p class="price">${t.price}</p>` : ""}</div><a href="${gain ? ASSESS : link(lang,"#quiz-zone")}">${t.ctaBtn}</a></div>
   <div class="note">${note}</div>
 </div></body></html>`;
 }
@@ -290,17 +342,18 @@ table{width:100%;border-collapse:collapse}
 (async () => {
   const out = process.env.OUT || path.join(__dirname, '..', 'pdf'); fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch(); const p = await b.newPage();
-  for (const k of Object.keys(TIERS)) for (const lang of ['ms','en']) {
-    await p.setContent(html(+k, lang), { waitUntil: 'networkidle' });
+  const sets = [[TIERS, false], ...(process.env.BRAND ? [] : [[GTIERS, true]])];   // the weight-gain kit is Kimi's only for now
+  for (const [tiers, gain] of sets) for (const k of Object.keys(tiers)) for (const lang of ['ms','en']) {
+    await p.setContent(html(+k, lang, gain), { waitUntil: 'networkidle' });
     // every page must fit on its own A4 sheet
     const over = await p.$$eval('.page', ps => ps.map((el, i) => {
       const kids = [...el.children].filter(c => !c.matches('.note,.foot')), note = el.querySelector('.note');
       const limit = note ? note.getBoundingClientRect().top - 4 : el.getBoundingClientRect().bottom - 30;
       const d = Math.max(...kids.map(c => c.getBoundingClientRect().bottom)) - limit; return d > 0 ? `p${i + 1}+${Math.round(d)}px` : 0; }).filter(Boolean));
-    if (over.length) throw new Error(`overflow ${k} ${lang} pages ${over}`);
-    await p.pdf({ path: path.join(out, `meal-plan-${k}-${lang}.pdf`), format: 'A4', printBackground: true });
-    if (k === '1500' && process.argv[2]) await p.screenshot({ path: process.argv[2] + `/mp-${lang}.png`, fullPage: true });
+    if (over.length) throw new Error(`overflow ${gain ? "gain " : ""}${k} ${lang} pages ${over}`);
+    await p.pdf({ path: path.join(out, `${gain ? "weight-gain" : "meal-plan"}-${k}-${lang}.pdf`), format: 'A4', printBackground: true });
+    if ((gain ? k === '2500' : k === '1500') && process.argv[2]) await p.screenshot({ path: process.argv[2] + `/${gain ? "wg" : "mp"}-${lang}.png`, fullPage: true });
   }
   await b.close();
-  console.log('ok', Object.entries(TIERS).map(([k, ds]) => k + ':' + ds.map(d => dayTotal(d)[0]).join('/')).join(' '));
+  console.log('ok', [...Object.entries(TIERS), ...Object.entries(GTIERS)].map(([k, ds]) => k + ':' + ds.map(d => dayTotal(d)[0]).join('/')).join(' '));
 })();
