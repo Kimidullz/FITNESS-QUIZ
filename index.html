@@ -436,10 +436,13 @@
             <h3 data-t="stepsH"></h3>
             <ol class="steps" id="steps"></ol>
             <p class="proof" data-t="proof"></p>
+            <a class="btn wa" id="wa2" target="_blank" rel="noopener"></a>
+            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 0;text-align:center"></p>
           </div>
 
           <div style="text-align:center">
-            <button class="back" id="retake" data-t="retake"></button>
+            <button class="back" id="retake" data-t="retake"></button><br>
+            <a class="back" id="share" target="_blank" rel="noopener" data-t="share"></a>
           </div>
           <p class="disclaimer" data-t="disclaimer"></p>
         </div>
@@ -769,11 +772,12 @@ const TXT = {
     phaseGoal:"Your goal", phaseRoutine:"Your routine",
     g1:"On track", g2:"Running on empty", g3:"Burnout zone",
     triangleH:"What needs fixing most",
+    lvl:["Good","Room to improve","Fix first"],
     fixLead:"Your #1 fix:", allStrong:"<strong>All three sides look strong.</strong> Your next step is staying consistent, and a coach helps you lock it in for good.",
     fixTail:" Fix the weakest side first and the other two get easier.",
     stepsH:"What to do next",
     stepFinalH:"Get a plan built around your schedule",
-    stepFinal:"WhatsApp me above to set your free 30-minute call. We'll go through your answers, find the root cause and map out your game plan together.",
+    stepFinal:"Tap WhatsApp below to chat first, and set a free 30-minute call if you want. We'll go through your answers, find the root cause and map out your game plan together.",
     tellH:"What your answers tell me",
     tellGoal:(g,w)=>`<strong>Your goal:</strong> ${g}<br><strong>Why it matters to you:</strong> ${w}`,
     tellQ:"You said:",
@@ -788,7 +792,7 @@ const TXT = {
     pdpa:"By tapping a button, you agree to share your name and quiz answers with our coaches (Coach Kimi and Coach Zara) so we can contact you about your result. Your details won't be shared with anyone else.",
     waBtn:"💬 WhatsApp my coach now", pickFirst:"Pick a coach first ↑",
     webBtn:"Get my free online body assessment",
-    retake:"↺ Retake the quiz",
+    retake:"↺ Retake the quiz", share:"Share this quiz with a friend",
     disclaimer:"This quiz is for general wellness guidance only and is not medical advice. Results are not typical and vary by individual.",
     wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like a free consultation call. When can we talk?"}
   },
@@ -931,11 +935,12 @@ const TXT = {
     phaseGoal:"Matlamat anda", phaseRoutine:"Rutin anda",
     g1:"Di landasan betul", g2:"Tenaga habis", g3:"Zon burnout",
     triangleH:"Apa yang paling perlu dibaiki",
+    lvl:["Okay","Boleh dibaiki","Baiki dulu"],
     fixLead:"Perkara #1 untuk dibaiki:", allStrong:"<strong>Ketiga-tiga bahagian nampak kukuh.</strong> Langkah seterusnya ialah kekal konsisten, dan coach bantu anda kunci hasil ini untuk jangka panjang.",
     fixTail:" Bila bahagian ni dah okay, dua lagi pun jadi lebih mudah.",
     stepsH:"Apa perlu anda buat sekarang",
     stepFinalH:"Dapatkan pelan yang ikut jadual anda",
-    stepFinal:"WhatsApp saya di atas untuk set free call 30 minit. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
+    stepFinal:"Tekan WhatsApp di bawah untuk chat dulu, dan set free call 30 minit kalau anda nak. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
     tellH:"Apa jawapan anda beritahu saya",
     tellGoal:(g,w)=>`<strong>Matlamat anda:</strong> ${g}<br><strong>Kenapa ia penting:</strong> ${w}`,
     tellQ:"Anda jawab:",
@@ -950,7 +955,7 @@ const TXT = {
     pdpa:"Dengan menekan butang, anda bersetuju untuk berkongsi nama dan jawapan kuiz dengan coach kami (Coach Kimi dan Coach Zara) supaya kami boleh hubungi anda tentang result anda. Maklumat anda tidak akan dikongsi dengan pihak lain.",
     waBtn:"💬 WhatsApp coach sekarang", pickFirst:"Pilih coach dulu ↑",
     webBtn:"Dapatkan online body assessment PERCUMA",
-    retake:"↺ Ulang kuiz",
+    retake:"↺ Ulang kuiz", share:"Kongsi kuiz ni dengan kawan",
     disclaimer:"Kuiz ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result tidak tipikal dan berbeza mengikut individu.",
     wa:{hi:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Turun?”.", name:"Nama", result:"Result", weak:"Bahagian paling lemah", goal:"Matlamat", why:"Sebab utama", when:"Nak mula", commit:"Komitmen", budget:"Bajet sebulan", coach:"Coach pilihan", end:"Saya nak free consultation call. Bila kita boleh bercakap?"}
   }
@@ -981,22 +986,22 @@ const QUESTIONS = [
     {en:"I have a big event coming (wedding, raya, holiday)",ms:"Ada majlis penting tak lama lagi (kahwin, raya, bercuti)"},
     {en:"I want more energy for my family and work",ms:"Nak lebih bertenaga untuk keluarga dan kerja"},
     {en:"Someone close to me (or my doctor) told me to",ms:"Orang terdekat (atau doktor) suruh saya"} ]},
-  { type:"score", pillar:{en:"Nutrition",ms:"Pemakanan"}, short:{en:"Meals",ms:"Makan"}, q:{en:"On a typical workday, how do your meals usually go?",ms:"Pada hari bekerja biasa, macam mana waktu makan anda?"}, a:[
+  { type:"score", pillar:{en:"Nutrition",ms:"Pemakanan"}, short:{en:"Meals",ms:"Makan"}, fix:{h:{en:"Protein at every meal, starting with breakfast",ms:"Protein setiap kali makan, mula dengan sarapan"}, t:{en:"This week, eat breakfast within an hour of waking and put a palm of protein (egg, chicken, fish, tempeh) on every plate. Eating out? Choose grilled over fried, with less kuah.",ms:"Minggu ni, makan sarapan dalam sejam selepas bangun, dan letak protein sebesar tapak tangan (telur, ayam, ikan, tempe) dalam setiap pinggan. Makan luar? Pilih bakar, bukan goreng, dan kuah sikit."}}, q:{en:"On a typical workday, how do your meals usually go?",ms:"Pada hari bekerja biasa, macam mana waktu makan anda?"}, a:[
     {en:"I eat 3 planned meals with protein most days",ms:"Makan 3 kali sehari dengan protein, kebanyakan hari",s:0},
     {en:"I eat regularly but grab whatever is quick",ms:"Makan ikut waktu, tapi ambil apa saja yang cepat",s:1,i:{en:"Quick food is usually high in oil and sugar and low in protein, so you get hungry again soon after.",ms:"Makanan cepat biasanya tinggi minyak dan gula tapi rendah protein, sebab tu cepat lapar balik."}},
     {en:"I often skip breakfast or lunch, then overeat at night",ms:"Selalu skip sarapan atau lunch, lepas tu makan banyak waktu malam",s:3,i:{en:"Skipping meals then eating big at night is one of the most common reasons busy people gain weight even when they feel they eat less. Your body runs on empty all day, then cravings win at night.",ms:"Skip makan lepas tu makan banyak waktu malam ialah antara sebab paling biasa orang sibuk naik berat walaupun rasa dah kurang makan. Badan kosong sepanjang hari, malam nanti craving yang menang."}},
     {en:"Mostly mamak, fast food or delivery, plus snacks and sweet drinks",ms:"Kebanyakannya mamak, fast food atau delivery, campur snek dan air manis",s:2,i:{en:"Mamak, delivery and sweet drinks add hidden calories fast. You don't have to stop eating out, you just need to know what to order.",ms:"Mamak, delivery dan air manis tambah kalori tersembunyi dengan cepat. Anda tak perlu berhenti makan di luar, cuma perlu tahu apa nak order."}} ]},
-  { type:"score", pillar:{en:"Nutrition",ms:"Pemakanan"}, short:{en:"Drinks",ms:"Minuman"}, q:{en:"How much water do you drink, and what else are you sipping?",ms:"Berapa banyak air kosong anda minum, dan apa lagi yang anda minum?"}, a:[
+  { type:"score", pillar:{en:"Nutrition",ms:"Pemakanan"}, short:{en:"Drinks",ms:"Minuman"}, fix:{h:{en:"Swap 1 sweet drink a day for plain water",ms:"Tukar 1 air manis sehari kepada air kosong"}, t:{en:"Keep a 1-litre bottle at your desk and finish it twice a day. Teh tarik to teh O kosong saves about 100 kcal a cup.",ms:"Letak botol 1 liter atas meja dan habiskan 2 kali sehari. Teh tarik ke teh O kosong jimat lebih kurang 100 kcal secawan."}}, q:{en:"How much water do you drink, and what else are you sipping?",ms:"Berapa banyak air kosong anda minum, dan apa lagi yang anda minum?"}, a:[
     {en:"2 litres or more of plain water, few sweet drinks",ms:"2 liter air kosong atau lebih, jarang minum air manis",s:0},
     {en:"About 1 litre, with a teh tarik or kopi here and there",ms:"Lebih kurang 1 liter, sesekali teh tarik atau kopi",s:1,i:{en:"A daily teh tarik or kopi adds more sugar than most people realise, and 1 litre of water is usually not enough.",ms:"Teh tarik atau kopi setiap hari tambah gula lebih banyak daripada yang ramai sangka, dan 1 liter air biasanya tak cukup."}},
     {en:"Barely any water, sweet drinks most days",ms:"Jarang minum air kosong, hampir setiap hari minum air manis",s:3,i:{en:"Sweet drinks most days is often your easiest win. Swapping them alone can make a visible difference.",ms:"Air manis hampir setiap hari selalunya perkara paling mudah untuk diubah. Tukar ini saja pun boleh nampak perbezaan."}},
     {en:"Honestly, I've never paid attention",ms:"Jujurnya, tak pernah ambil tahu pun",s:2,i:{en:"When you don't track water, it's easy to mistake thirst for hunger, especially in the afternoon.",ms:"Bila tak ambil tahu pasal air, senang sangka dahaga itu lapar, terutamanya waktu petang."}} ]},
-  { type:"score", pillar:{en:"Workout",ms:"Senaman"}, short:{en:"Exercise",ms:"Senaman"}, q:{en:"How often do you move your body on purpose?",ms:"Berapa kerap anda bersenam atau aktif secara sengaja?"}, a:[
+  { type:"score", pillar:{en:"Workout",ms:"Senaman"}, short:{en:"Exercise",ms:"Senaman"}, fix:{h:{en:"Schedule your movement",ms:"Jadualkan senaman anda"}, t:{en:"Put three 20-minute workouts in your calendar this week, like meetings you can't miss.",ms:"Masukkan tiga sesi senaman 20 minit dalam kalendar minggu ini, macam meeting yang tak boleh ponteng."}}, q:{en:"How often do you move your body on purpose?",ms:"Berapa kerap anda bersenam atau aktif secara sengaja?"}, a:[
     {en:"3 or more workouts a week",ms:"3 kali seminggu atau lebih",s:0},
     {en:"1 to 2 times a week when I can",ms:"1 hingga 2 kali seminggu, bila ada masa",s:1,i:{en:"1 to 2 sessions a week is a good start. The gap is staying consistent when work gets busy.",ms:"1 hingga 2 sesi seminggu ialah permulaan yang baik. Yang kurang cuma konsisten bila kerja sibuk."}},
     {en:"I start strong, then work gets busy and I stop",ms:"Mula semangat, tapi bila kerja sibuk terus berhenti",s:2,i:{en:"Starting strong then stopping means your plan depends on motivation. You need a plan that still works in your busiest week.",ms:"Mula semangat lepas tu berhenti maksudnya pelan anda bergantung pada semangat. Anda perlukan pelan yang masih jalan walaupun minggu paling sibuk."}},
     {en:"Almost never. Between work and home, there's no time",ms:"Hampir tak pernah. Kerja dan urusan rumah, memang tak ada masa",s:3,i:{en:"No time to work out is the struggle we hear most. 20 minutes at home is enough to start.",ms:"Tak ada masa nak bersenam ialah masalah yang paling kerap kami dengar. 20 minit di rumah dah cukup untuk mula."}} ]},
-  { type:"score", pillar:{en:"Mindset & Method",ms:"Minda & Kaedah"}, short:{en:"Sleep & stress",ms:"Tidur & stres"}, q:{en:"How are your sleep and stress lately?",ms:"Macam mana tidur dan tahap stres anda kebelakangan ini?"}, a:[
+  { type:"score", pillar:{en:"Mindset & Method",ms:"Minda & Kaedah"}, short:{en:"Sleep & stress",ms:"Tidur & stres"}, fix:{h:{en:"Protect your sleep",ms:"Jaga tidur anda"}, t:{en:"Go to bed at the same time every night and put your phone away 30 minutes before. Aim for 7 hours.",ms:"Tidur pada waktu yang sama setiap malam dan letak telefon 30 minit sebelum tidur. Sasarkan 7 jam."}}, q:{en:"How are your sleep and stress lately?",ms:"Macam mana tidur dan tahap stres anda kebelakangan ini?"}, a:[
     {en:"7+ hours of sleep, stress is manageable",ms:"Tidur 7 jam atau lebih, stres masih terkawal",s:0},
     {en:"Around 6 hours, stress comes and goes",ms:"Lebih kurang 6 jam, stres datang dan pergi",s:1,i:{en:"Around 6 hours of sleep makes hunger and cravings harder to control the next day.",ms:"Tidur lebih kurang 6 jam buat rasa lapar dan craving lebih susah dikawal keesokan harinya."}},
     {en:"Under 6 hours and I'm stressed most days",ms:"Kurang 6 jam dan stres hampir setiap hari",s:3,i:{en:"Under 6 hours of sleep plus daily stress makes you crave sugar and makes weight much harder to lose. Fixing sleep is part of fat loss, not separate from it.",ms:"Tidur kurang 6 jam dan stres setiap hari buat anda craving benda manis dan berat lebih susah turun. Betulkan tidur ialah sebahagian daripada turunkan lemak."}},
@@ -1042,15 +1047,6 @@ const TIERS = [
           ms:"Skip makan, kurang tidur, stres tinggi dan tiada sokongan, semuanya bertimbun. Di sinilah ramai orang sibuk tersangkut bertahun-tahun. Berita baiknya: di sini jugalah transformasi paling besar bermula."} }
 ];
 
-const PILLAR_ACTIONS = {
-  "Nutrition":{h:{en:"Fix breakfast first",ms:"Betulkan sarapan dulu"},
-               t:{en:"Eat a protein-rich breakfast within an hour of waking, every workday this week. No more skipping until lunch.",ms:"Makan sarapan tinggi protein dalam masa sejam selepas bangun, setiap hari bekerja minggu ini. Jangan skip sampai lunch lagi."}},
-  "Workout":{h:{en:"Schedule your movement",ms:"Jadualkan senaman anda"},
-             t:{en:"Put three 20-minute workouts in your calendar this week, like meetings you can't miss.",ms:"Masukkan tiga sesi senaman 20 minit dalam kalendar minggu ini, macam meeting yang tak boleh ponteng."}},
-  "Mindset & Method":{h:{en:"Protect your sleep and get support",ms:"Jaga tidur dan dapatkan sokongan"},
-                      t:{en:"Set a fixed bedtime, and find one person who checks in on your progress every day.",ms:"Tetapkan waktu tidur yang tetap, dan cari seorang yang boleh follow-up progress anda setiap hari."}}
-};
-
 const PILLAR_TIPS = {
   "Nutrition":{en:"Nutrition is your weakest side. Skipped meals and quick fixes leave you hungry, tired and storing fat. Fixing breakfast and protein first is usually the easiest place to start.",
                ms:"Pemakanan ialah bahagian paling lemah anda. Skip makan dan cara mudah buat anda lapar, penat dan simpan lemak. Betulkan sarapan dan protein dulu, biasanya ini tempat paling senang mula."},
@@ -1073,6 +1069,7 @@ function applyLang(){
   const waMsg = LANG==="ms" ? "Hi Coach Kimi! Saya dari website. Saya nak tanya pasal coaching turun berat." : "Hi Coach Kimi! I found you on your website. I'd like to ask about weight loss coaching.";
   document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
   $("web-foot").href = CONFIG.websiteUrl;
+  $("share").href = "https://wa.me/?text=" + encodeURIComponent((LANG==="ms" ? "Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak turun. Cuba la: " : "I just took this 2-minute quiz that shows why your weight won't budge. Try it: ") + "https://kimidullz.github.io/FITNESS-QUIZ/" + (LANG==="en" ? "?lang=en" : "") + "#quiz-zone");
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
   document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:"website", go:CONFIG.websiteUrl}); }; });
   $("testimonials").hidden = !TESTIMONIALS.length;
@@ -1154,7 +1151,7 @@ function showResult(relang){
     if(pct > weakestPct){ weakestPct = pct; weakest = p; }
     const col = pct>=67 ? "var(--warm)" : pct>=34 ? "var(--mid)" : "var(--ok)";
     $("pillars").insertAdjacentHTML("beforeend",
-      `<div class="pillar"><div class="pillar-top"><span>${pLabel[p]}</span><span>${pct}%</span></div><div class="bar"><span style="width:${relang?pct:0}%;background:${col}" data-w="${pct}"></span></div></div>`);
+      `<div class="pillar"><div class="pillar-top"><span>${pLabel[p]}</span><span>${T.lvl[pct>=67?2:pct>=34?1:0]}</span></div><div class="bar"><span style="width:${relang?pct:0}%;background:${col}" data-w="${pct}"></span></div></div>`);
   });
   $("r-weak").innerHTML = weakestPct ? `<strong>${T.fixLead}</strong> ` + L(PILLAR_TIPS[weakest]) + T.fixTail : T.allStrong;
 
@@ -1165,9 +1162,9 @@ function showResult(relang){
   tells.sort((x,y)=>y.s-x.s);
   $("tell").innerHTML = tells.length ? tells.slice(0,2).map(t=>t.html).join("") : `<li>${T.tellNone}</li>`;
 
-  // next steps: two weakest sides of the triangle, then book the call
-  const ranked = Object.keys(pScore).sort((x,y)=>pScore[y]/pMax[y]-pScore[x]/pMax[x]);
-  $("steps").innerHTML = ranked.slice(0,2).map(k=>`<li><strong>${L(PILLAR_ACTIONS[k].h)}</strong>${L(PILLAR_ACTIONS[k].t)}</li>`).join("")
+  // next steps: fixes for their two worst answers (stable sort keeps question order on ties), then the coach
+  const fixes = QUESTIONS.map((q,k)=>({f:q.fix, s:q.a[answers[k]].s})).filter(x=>x.f).sort((x,y)=>y.s-x.s);
+  $("steps").innerHTML = fixes.slice(0,2).map(({f})=>`<li><strong>${L(f.h)}</strong>${L(f.t)}</li>`).join("")
     + `<li><strong>${T.stepFinalH}</strong>${T.stepFinal}</li>`;
 
   ctx = { tier, total, maxTotal, weakestLabel: weakestPct ? pLabel[weakest] : "-" };
@@ -1204,13 +1201,14 @@ function profileLines(){
 
 function updateWa(){
   if(!ctx.tier) return;
+  const w2 = $("wa2");   // same button again under "what to do next"
   $("wa").classList.toggle("off", !coach);
-  $("wa").textContent = coach ? T.waBtn : T.pickFirst;
-  if(!coach){ $("wa").removeAttribute("href"); $("wa").onclick = null; return; }
+  $("wa").textContent = w2.textContent = coach ? T.waBtn : T.pickFirst;
+  if(!coach){ $("wa").removeAttribute("href"); w2.removeAttribute("href"); $("wa").onclick = null; w2.onclick = ()=>$("coachpick").scrollIntoView({behavior:"smooth",block:"center"}); return; }
   const c = CONFIG.coaches[coach];
   const url = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([T.wa.hi, ...profileLines(), T.wa.end].join("\n").replace("%COACH%", c.name))}`;
-  $("wa").href = url;
-  $("wa").onclick = ()=>{ if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase(); logTap(sheetParams(url, "WhatsApp")); };
+  $("wa").href = w2.href = url;
+  $("wa").onclick = w2.onclick = ()=>{ if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase(); logTap(sheetParams(url, "WhatsApp")); };
 }
 
 // Log a tap to the Google Sheet in the background (the link itself opens directly)
