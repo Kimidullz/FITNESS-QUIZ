@@ -407,14 +407,15 @@
 
           <div class="section">
             <h3 id="cta-title"></h3>
-            <p class="lead" style="margin-bottom:16px" data-t="ctaLead"></p>
+            <p class="lead" style="margin-bottom:16px" id="cta-lead"></p>
+            <a class="btn" id="kit-first" href="#kalori" data-t="kitFirstBtn" style="margin-bottom:20px" hidden></a>
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
             <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px;font-weight:700;color:var(--ink)"></p>
             <p class="pdpa" data-t="pdpa"></p>
-            <p class="meta-s" style="margin-top:12px"><a href="#kalori" data-t="resKalori"></a></p>
+            <p class="meta-s" style="margin-top:12px" id="res-kalori"><a href="#kalori" data-t="resKalori"></a></p>
           </div>
 
           <div class="gauge"><i id="r-dot"></i></div>
@@ -786,6 +787,9 @@ const TXT = {
     investP:"A real transformation is an investment, not a quick fix. Our coaching programs start from RM259 a month with supplements included, often about what many people already spend on eating out and sweet drinks. If you're ready to put that into your health, let's talk. On the call we'll find the option that fits your goal and budget.",
     proof:"Our clients are full-time workers who still eat rice and eat out. Results vary from person to person.",
     ctaTitle:n=>n?`Ready for your free consultation, ${n}?`:"Ready for your free consultation?",
+    ctaTitleLow:n=>n?`${n}, start with the free 7-day kit`:"Start with the free 7-day kit",
+    ctaLeadLow:"No need to decide anything yet. Get a free meal plan that fits your calories, try it for 7 days and see how it feels. When you're ready, WhatsApp a coach below.",
+    kitFirstBtn:"Get my free meal plan →",
     ctaLead:"Pick your coach and tap WhatsApp. Your quiz answers are already in the message. We chat on WhatsApp first, and if you want, we set a free 30-minute call to build your game plan. No pressure.",
     bookMeta:"Your quiz answers are sent with your message",
     coachPickH:"Who would you like to talk to?",
@@ -949,6 +953,9 @@ const TXT = {
     investP:"Transformasi sebenar ialah satu pelaburan, bukan jalan pintas. Program coaching kami bermula dari RM259 sebulan (termasuk supplement), selalunya lebih kurang sama dengan apa yang ramai orang dah belanja untuk makan di luar dan air manis. Kalau anda dah sedia laburkan itu untuk kesihatan, jom kita berbincang. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda.",
     proof:"Klien kami orang bekerja sepenuh masa yang masih makan nasi dan makan di luar. Result berbeza mengikut individu.",
     ctaTitle:n=>n?`Sedia untuk free consultation, ${n}?`:"Sedia untuk free consultation?",
+    ctaTitleLow:n=>n?`${n}, mula dengan Kit Mula 7 Hari percuma`:"Mula dengan Kit Mula 7 Hari percuma",
+    ctaLeadLow:"Tak perlu buat keputusan lagi. Ambil meal plan percuma ikut kalori anda, cuba 7 hari, dan rasa sendiri. Bila dah sedia, WhatsApp coach di bawah.",
+    kitFirstBtn:"Ambil meal plan percuma →",
     ctaLead:"Pilih coach dan tekan WhatsApp. Jawapan kuiz anda dah siap dalam mesej. Kita chat di WhatsApp dulu, dan kalau anda nak, kita set free call 30 minit untuk susun game plan anda. Tiada paksaan.",
     bookMeta:"Jawapan kuiz anda dihantar sekali dalam mesej",
     coachPickH:"Anda selesa bercakap dengan siapa?",
@@ -1015,12 +1022,12 @@ const QUESTIONS = [
     {en:"This week. I'm ready now",ms:"Minggu ini. Saya dah sedia"},
     {en:"Within this month",ms:"Dalam bulan ini"},
     {en:"In the next 2 to 3 months",ms:"Dalam 2 hingga 3 bulan lagi"},
-    {en:"Just exploring for now",ms:"Saja tengok-tengok dulu"} ]},
+    {en:"Just exploring for now",ms:"Saja tengok-tengok dulu",low:1} ]},
   { type:"profile", key:"commit", q:{en:"On a scale of 1 to 10, how committed are you to changing this?",ms:"Dari skala 1 hingga 10, sejauh mana anda komited untuk berubah?"}, a:[
     {en:"9 to 10: I'm all in",ms:"9 hingga 10: Saya betul-betul serius"},
     {en:"7 to 8: Very serious, just need the right plan",ms:"7 hingga 8: Serius, cuma perlukan pelan yang betul"},
     {en:"5 to 6: Interested, but a bit unsure",ms:"5 hingga 6: Berminat, tapi masih ragu-ragu"},
-    {en:"1 to 4: Still thinking about it",ms:"1 hingga 4: Masih fikir-fikir"} ]},
+    {en:"1 to 4: Still thinking about it",ms:"1 hingga 4: Masih fikir-fikir",low:1} ]},
   { type:"profile", key:"budget", q:{en:"What monthly budget feels comfortable to invest in your health?",ms:"Berapa bajet sebulan yang selesa untuk anda labur pada kesihatan?"}, a:[
     {en:"Under RM300",ms:"Bawah RM300"},
     {en:"RM300 to RM500",ms:"RM300 hingga RM500"},
@@ -1168,7 +1175,11 @@ function showResult(relang){
     + `<li><strong>${T.stepFinalH}</strong>${T.stepFinal}</li>`;
 
   ctx = { tier, total, maxTotal, weakestLabel: weakestPct ? pLabel[weakest] : "-" };
-  $("cta-title").textContent = T.ctaTitle(firstName);
+  // not ready yet ("just exploring" or 1-4): the free kit is the main button, WhatsApp stays below it
+  const low = ans("when").low || ans("commit").low;
+  $("cta-title").textContent = (low ? T.ctaTitleLow : T.ctaTitle)(firstName);
+  $("cta-lead").textContent = low ? T.ctaLeadLow : T.ctaLead;
+  $("kit-first").hidden = !low; $("res-kalori").hidden = !!low;
   updateWa();
 
   if(relang) return;
