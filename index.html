@@ -640,7 +640,7 @@ const TXT = {
     calPdf:"📄 Download my free meal plan (~%K kcal)", calNextH:"Want the full program with a coach?", calNextP:"Take the 2-minute quiz. Your result goes straight to a coach on WhatsApp for a free consultation.", calNextBtn:"Take the quiz →",
     calNote:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, people who are underweight, have had an eating disorder, or have diabetes, kidney or heart problems: see your doctor first.",
     calErrFill:"Please fill in gender, age, height and weight.", calErrAge:"This calculator is for adults 18 and over.",
-    calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. Please check with your doctor or midwife first.", calPregWa:"Questions about the program for mums? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! I'd like to ask about the program for pregnant or breastfeeding mums.", calErrUnder:"Your BMI is under 18.5, so a fat loss plan isn't right for you. Pick \"Gain weight\" above, or see your doctor first.", calHigher:"Your target is above this ~%K kcal plan: add 1 snack or ½ cup rice for every ~250 kcal extra.",
+    calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. Please check with your doctor or midwife first.", calPregWa:"Questions about the program for mums? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! I'd like to ask about the program for pregnant or breastfeeding mums.", calErrUnder:"Your BMI is under 18.5, so a fat loss plan isn't right for you. Pick \"Gain weight\" above, or see your doctor first.", calHigher:"Your target is above this ~%K kcal plan: add 1 snack or 1 cup of rice for every ~250 kcal extra.",
     kitEyebrow:"Free 7-Day Starter Kit",
     kitH:"Try it first. <em>Feel the difference yourself.</em>",
     kit1:"<strong>2-minute quiz</strong>Find your weakest side",
@@ -676,16 +676,18 @@ const TXT = {
     calRemD:"Open ",
     calKitH:"Inside your free PDF (8 pages):",
     calLoss:"Lose fat", calGain:"Gain weight",
-    calPerDayG:"calories a day to gain weight steadily (estimate)", calProDayG:"protein a day to build muscle",
+    calPerDayG:"calories a day to gain weight without gaining excess fat (estimate)", calProDayG:"protein a day to build muscle (%F g per kg of body weight)",
     calStartG:"<b>Start today:</b> weigh yourself (morning, before eating) and write it on page 6. Weigh again on Day 7.",
     calKitHG:"Inside your free PDF (6 pages):",
-    calKitG:"<li>3-day menu at your calories, 5 meals a day</li><li>Healthy calorie add-ons: milk, nuts, peanut butter</li><li>Tips if it's hard to eat more</li><li>8 home recipes, under 20 minutes</li><li>30-minute Sunday meal prep</li><li>7-day tracker: weight + 5 habits</li>",
+    calKitG:"<li>3-day menu at your calories: eat 5 times a day (3 meals + 2 snacks)</li><li>Healthy calorie add-ons: milk, nuts, peanut butter</li><li>Tips if it's hard to eat more</li><li>8 home recipes, under 20 minutes</li><li>30-minute Sunday meal prep</li><li>7-day tracker: weight + 5 habits</li>",
     calPdfG:"📄 Download my free weight gain plan (~%K kcal)",
-    calNoteG:"Estimate only, not medical advice. Aim for 0.25-0.5 kg a week; faster is usually fat. Not for under 18s, pregnant or breastfeeding mums, a BMI under 16, a past eating disorder, or diabetes, kidney or heart problems. Losing weight without trying? See a doctor first.",
-    calErrLow:"Your BMI is very low. Please see a doctor first before starting a weight gain plan.",
-    calErrGainHigh:"This weight gain plan is for people who are slim or a normal weight. For your BMI, pick \"Lose fat\", or ask a coach about building muscle.",
-    calGainMore:"Your body needs a bit more than ~%K kcal: add one more snack.",
-    calGainLess:"This ~%K kcal plan is about %D kcal more than you need. Start by leaving out snacks worth that much (2 boiled eggs ~150, banana + milk ~190). Add them back only if your weight hasn't gone up after 2 weeks.",
+    calNoteG:"Estimate only, not medical advice. Results vary. Aim for 0.25-0.5 kg a week; faster is usually fat. Not for under 18s, pregnant or breastfeeding mums, or anyone with a BMI under 16, a past or current eating disorder, or diabetes, kidney or heart problems: see your doctor first. Losing weight without trying? See a doctor too.",
+    calErrLow:"Your BMI is very low. Please see a doctor before starting a weight gain plan.",
+    calErrGainHigh:"This weight gain plan is for a BMI under 23 (the Asian cut-off). Yours is 23 or above, so pick \"Lose fat\", or ask a coach about building muscle.",
+    calGainLess:"This ~%K kcal plan is about %D kcal more than you need. Start by leaving out 1-2 snacks worth about that much (e.g. 2 boiled eggs ~150, banana + milk ~265). If your weight hasn't gone up after 2 weeks, add them back.",
+    calHigherG:"Your body needs about %D kcal more than this ~%K kcal plan: add snacks to match, e.g. a glass of full-cream milk (~160 kcal) or milk + a banana (~265 kcal).",
+    calLower:"This ~%K kcal plan is about %D kcal above your target: leave out 1 snack on most days.",
+    calFloor:"Your body uses only about ~%T kcal a day, and eating less than %K kcal isn't safe without a doctor. To help lose fat, add a 30-minute brisk walk every day.",
     calNextHG:"Want to gain weight with a coach?", calNextPG:"Start with the free online body assessment. A coach looks at your body and builds your weight gain plan.",
     calAssessG:"Do the free body assessment →",
     calKit:"<li>3-day menu at your calories</li><li>8 home recipes, under 20 minutes</li><li>Eating out: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>1-week grocery list + rough cost</li><li>30-minute Sunday meal prep</li><li>7-Day Challenge tracker</li>",
@@ -748,7 +750,7 @@ const TXT = {
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
       ["How much does coaching cost?","Packages start from RM259 for one month, supplements included. There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
-      ["I want to gain weight. Can you help?","Yes. In the <a href='#kalori'>calculator</a>, pick \"Gain weight\" for a free weight gain meal plan (2,000-3,000 kcal). We coach weight gain too, from RM259 a month with supplements included. Losing weight without trying? See a doctor first."],
+      ["I want to gain weight. Can you help?","Yes. In the <a href='#kalori'>calculator</a>, pick \"Gain weight\" for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). We coach weight gain too: programs start from RM259 a month, supplements included. Losing weight without trying? See a doctor first."],
       ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."]
     ],
     finalH:"Know your body first. It's free.",
@@ -800,7 +802,7 @@ const TXT = {
     calPdf:"📄 Muat turun meal plan percuma (~%K kcal)", calNextH:"Nak program penuh dengan coach?", calNextP:"Jawab kuiz 2 minit. Result anda terus ke WhatsApp coach untuk consultation percuma.", calNextBtn:"Jawab kuiz →",
     calNote:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, kurang berat badan, pernah ada eating disorder, atau penghidap diabetes, buah pinggang atau jantung: jumpa doktor dulu.",
     calErrFill:"Sila isi jantina, umur, tinggi dan berat.", calErrAge:"Kalkulator ini untuk dewasa 18 tahun ke atas.",
-    calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. Sila rujuk doktor atau bidan anda dulu.", calPregWa:"Nak tanya pasal program untuk ibu? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! Saya nak tanya pasal program untuk ibu mengandung atau menyusu.", calErrUnder:"BMI anda bawah 18.5, jadi pelan turun lemak tak sesuai. Pilih \"Naik berat\" di atas, atau jumpa doktor dulu.", calHigher:"Sasaran anda lebih tinggi dari pelan ~%K kcal ini: tambah 1 snek atau ½ cawan nasi untuk setiap ~250 kcal lebih.",
+    calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. Sila rujuk doktor atau bidan anda dulu.", calPregWa:"Nak tanya pasal program untuk ibu? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! Saya nak tanya pasal program untuk ibu mengandung atau menyusu.", calErrUnder:"BMI anda bawah 18.5, jadi pelan turun lemak tak sesuai. Pilih \"Naik berat\" di atas, atau jumpa doktor dulu.", calHigher:"Sasaran anda lebih tinggi dari pelan ~%K kcal ini: tambah 1 snek atau 1 cawan nasi untuk setiap ~250 kcal lebih.",
     kitEyebrow:"Kit Mula 7 Hari · Percuma",
     kitH:"Cuba dulu. <em>Rasa sendiri.</em>",
     kit1:"<strong>Kuiz 2 minit</strong>Tahu bahagian paling lemah anda",
@@ -836,16 +838,18 @@ const TXT = {
     calRemD:"Buka ",
     calKitH:"Dalam PDF percuma anda (8 muka surat):",
     calLoss:"Turun lemak", calGain:"Naik berat",
-    calPerDayG:"kalori sehari untuk naik berat secara perlahan (anggaran)", calProDayG:"protein sehari untuk bina otot",
+    calPerDayG:"kalori sehari untuk naik berat tanpa naik lemak berlebihan (anggaran)", calProDayG:"protein sehari untuk bina otot (%F g bagi setiap kg berat badan)",
     calStartG:"<b>Mula hari ni:</b> timbang berat (pagi, sebelum makan) dan tulis di muka surat 6. Hari 7 nanti timbang lagi.",
     calKitHG:"Dalam PDF percuma anda (6 muka surat):",
     calKitG:"<li>Menu 3 hari ikut kalori anda, 5 kali makan</li><li>Tambah kalori sihat: susu, kacang, peanut butter</li><li>Tips kalau susah nak makan banyak</li><li>8 resipi rumah, bawah 20 minit</li><li>Meal prep Ahad 30 minit</li><li>Tracker 7 hari: berat + 5 tabiat</li>",
     calPdfG:"📄 Muat turun pelan naik berat percuma (~%K kcal)",
-    calNoteG:"Anggaran sahaja, bukan nasihat perubatan. Sasaran sihat: naik 0.25-0.5 kg seminggu; lebih laju selalunya lemak. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, BMI bawah 16, pernah ada eating disorder, atau penghidap diabetes, buah pinggang atau jantung. Berat turun tanpa sebab? Jumpa doktor dulu.",
+    calNoteG:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Sasaran sihat: naik 0.25-0.5 kg seminggu. Kalau naik lebih laju, selalunya itu lemak. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, BMI bawah 16, pernah atau sedang ada masalah makan (eating disorder), atau ada diabetes, sakit buah pinggang atau sakit jantung: jumpa doktor dulu. Berat turun tanpa sebab? Jumpa doktor juga.",
     calErrLow:"BMI anda sangat rendah. Sila jumpa doktor dulu sebelum mula pelan naik berat.",
-    calErrGainHigh:"Pelan naik berat ni untuk yang kurus atau berat normal. Untuk BMI anda, pilih \"Turun lemak\", atau tanya coach pasal bina otot.",
-    calGainMore:"Badan anda perlu lebih sikit dari ~%K kcal: tambah 1 snek lagi.",
-    calGainLess:"Pelan ~%K kcal ni lebih kira-kira %D kcal dari keperluan anda. Mula dengan kurangkan snek sebanyak itu (telur rebus 2 biji ~150, pisang + susu ~190). Tambah balik kalau berat tak naik selama 2 minggu.",
+    calErrGainHigh:"Pelan naik berat ni untuk BMI bawah 23 (had untuk orang Asia). BMI anda 23 atau lebih, jadi pilih \"Turun lemak\", atau tanya coach pasal bina otot.",
+    calGainLess:"Pelan ~%K kcal ni lebih kira-kira %D kcal daripada keperluan anda. Jadi, mula dengan buang 1-2 snek yang jumlahnya lebih kurang sama (contoh: telur rebus 2 biji ~150, pisang + susu ~265). Kalau selepas 2 minggu berat tak naik, baru tambah balik.",
+    calHigherG:"Badan anda perlu kira-kira %D kcal lebih daripada pelan ~%K kcal ni: tambah snek ikut jumlah tu, contohnya segelas susu penuh krim (~160 kcal) atau susu + pisang (~265 kcal).",
+    calLower:"Pelan ~%K kcal ni lebih kira-kira %D kcal daripada sasaran anda: tinggalkan 1 snek kebanyakan hari.",
+    calFloor:"Badan anda guna lebih kurang ~%T kcal sehari sahaja, dan makan bawah %K kcal tak selamat tanpa nasihat doktor. Untuk bantu turun lemak, tambah jalan laju 30 minit setiap hari.",
     calNextHG:"Nak naik berat dengan coach?", calNextPG:"Mula dengan body assessment online percuma. Coach tengok badan anda dan bina pelan naik berat.",
     calAssessG:"Buat body assessment percuma →",
     calKit:"<li>Menu 3 hari ikut kalori anda</li><li>8 resipi rumah, bawah 20 minit</li><li>Makan luar: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>Senarai barang dapur seminggu + anggaran kos</li><li>Meal prep Ahad 30 minit</li><li>Tracker Cabaran 7 Hari</li>",
@@ -908,7 +912,7 @@ const TXT = {
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
       ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan, termasuk supplement. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
-      ["Saya nak naik berat. Boleh tolong?","Boleh. Dalam <a href='#kalori'>kalkulator</a>, pilih \"Naik berat\" untuk meal plan naik berat percuma (2,000-3,000 kcal). Kami coach naik berat juga, dari RM259 sebulan termasuk supplement. Berat turun tanpa sebab? Jumpa doktor dulu."],
+      ["Saya nak naik berat. Boleh tolong?","Boleh. Dalam <a href='#kalori'>kalkulator</a>, pilih \"Naik berat\" untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Kami juga ada coaching naik berat: program bermula dari RM259 sebulan, termasuk supplement. Berat turun tanpa sebab? Jumpa doktor dulu."],
       ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
     ],
     finalH:"Kenal badan anda dulu. Percuma.",
@@ -1224,10 +1228,11 @@ function sheetParams(url, via){
 
 // ---------- meal calculator ----------
 const PLANS = [1200,1500,1800,2000,2300];   // pdf/meal-plan-{plan}-{lang}.pdf, built by mealplan/build.js
-const GAIN_PLANS = [2000,2500,3000];          // pdf/weight-gain-{plan}-{lang}.pdf, same builder
-const GAIN_TIPS = [{ms:"Tambah segelas susu penuh krim: +160 kcal",en:"Add a glass of full-cream milk: +160 kcal"},
-  {ms:"Snek petang: kacang 1 genggam + pisang, ~275 kcal",en:"Afternoon snack: a handful of nuts + a banana, ~275 kcal"},
-  {ms:"Latihan kekuatan 3 kali seminggu, supaya yang naik tu otot, bukan lemak je",en:"Strength training 3 times a week, so you gain muscle"}];
+const GAIN_PLANS = [1500,1800,2100,2400,2700,3000];   // pdf/weight-gain-{plan}-{lang}.pdf, same builder
+const GAIN_PROTEIN = [1.6,1.7,1.8,1.9,2.0];   // g per kg body weight, by activity level (index of c-act)
+const GAIN_TIPS = [{ms:"Latihan kekuatan 3 kali seminggu, supaya yang naik lebih banyak otot, bukan lemak",en:"Strength training 3 times a week, so more of the gain is muscle, not fat"},
+  {ms:"Timbang seminggu sekali. Berat tak naik selepas 2 minggu? Tambah segelas susu penuh krim (+160 kcal)",en:"Weigh yourself once a week. No gain after 2 weeks? Add a glass of full-cream milk (+160 kcal)"},
+  {ms:"Naik lebih 0.5 kg seminggu? Kurangkan 1 snek, sebab yang naik laju selalunya lemak",en:"Gaining more than 0.5 kg a week? Drop 1 snack, because fast gain is usually fat"}];
 const TIPS = [{ms:"Teh tarik → teh O kosong: jimat ~100 kcal",en:"Teh tarik → teh O kosong: saves ~100 kcal"},
   {ms:"Goreng → bakar, rebus atau air fryer: jimat ~100 kcal",en:"Fried → grilled, boiled or air fryer: saves ~100 kcal"},
   {ms:"Separuh pinggan sayur dulu, baru nasi dan lauk",en:"Fill half your plate with vegetables first, then rice and protein"}];
@@ -1239,11 +1244,11 @@ function calories(sex, age, cm, kg, act){
   const t = tdee(sex, age, cm, kg, act);
   return Math.max(sex==="m" ? 1500 : 1200, t - Math.min(500, t*0.2));
 }
-// weight gain: surplus of 15%, kept between 300 and 500 kcal (about 0.25-0.5 kg a week)
-const gainCalories = (...a) => { const t = tdee(...a); return t + Math.min(500, Math.max(300, t*0.15)); };
+// weight gain without much fat: small surplus of 12%, kept between 250 and 400 kcal (about 0.25-0.5 kg a week)
+const gainCalories = (...a) => { const t = tdee(...a); return t + Math.min(400, Math.max(250, t*0.12)); };
 // 1.6 g/kg, using a BMI-27 weight cap so bigger bodies don't get unrealistic targets
 const protein = (cm, kg) => Math.round(1.6 * Math.min(kg, 27*(cm/100)**2) / 5) * 5;
-console.assert(Math.round(calories("f",30,160,65,0))===1285 && protein(160,65)===105 && calories("f",60,150,45,0)===1200 && Math.round(gainCalories("m",25,170,55,2))===2489, "calculator self-check");
+console.assert(Math.round(calories("f",30,160,65,0))===1285 && protein(160,65)===105 && calories("f",60,150,45,0)===1200 && Math.round(gainCalories("m",25,170,55,2))===2424, "calculator self-check");
 
 function calcLang(){
   const act = $("c-act").value;
@@ -1252,8 +1257,13 @@ function calcLang(){
   $("c-sex").querySelectorAll("button").forEach(b=>b.classList.toggle("sel", b.dataset.v===calc.sex));
   const gain = calc.goal==="gain";
   $("c-goal").querySelectorAll("button").forEach(b=>b.classList.toggle("sel", b.dataset.v===calc.goal));
-  for (const k of ["calKitH","calKit","calNote","calPerDay","calProDay","calStart"]) document.querySelector(`[data-t="${k}"]`).innerHTML = T[gain ? k+"G" : k];
-  if(!$("c-out").hidden) runCalc();
+  calLabels();
+  if(!$("c-out").hidden || $("c-err").textContent) runCalc();   // also redo a showing error in the new language
+}
+// set again in runCalc, so the result always shows the labels of the goal it was calculated for
+function calLabels(){
+  const gain = calc.goal==="gain", f = GAIN_PROTEIN[+$("c-act").value || 0].toFixed(1);
+  for (const k of ["calKitH","calKit","calNote","calPerDay","calProDay","calStart"]) document.querySelector(`[data-t="${k}"]`).innerHTML = T[gain ? k+"G" : k].replace("%F", f);
 }
 function runCalc(){
   const age=+$("c-age").value, cm=+$("c-ht").value, kg=+$("c-wt").value, err=$("c-err");
@@ -1271,18 +1281,21 @@ function runCalc(){
   if(!gain && bmi < 18.5){ err.textContent = T.calErrUnder; return; }
   if(gain && bmi < 16){ err.textContent = T.calErrLow; return; }
   if(gain && bmi >= 23){ err.textContent = T.calErrGainHigh; return; }   // Asian cut-off (Malaysian CPG): 23+ is overweight
-  const k = (gain ? gainCalories : calories)(calc.sex, age, cm, kg, +$("c-act").value);
+  const act = +$("c-act").value, k = (gain ? gainCalories : calories)(calc.sex, age, cm, kg, act);
+  calLabels();
   // ties go to the higher plan
   const tier = String((gain ? GAIN_PLANS : PLANS).reduce((a,b)=> Math.abs(b-k) <= Math.abs(a-k) ? b : a));
-  // keep the shown protein inside the PDF's range (gain: 1.8 g/kg)
-  const pro = gain ? Math.min(Math.max(Math.round(1.8*kg/5)*5, {2000:90,2500:110,3000:130}[tier]), {2000:120,2500:140,3000:160}[tier])
-    : Math.min(protein(cm, kg), {1200:100,1500:110,1800:120,2000:125,2300:135}[tier]);
+  // gain: 1.6-2 g per kg body weight by activity (BMI is under 23 here, so no cap); loss: kept inside the PDF's range
+  const pro = gain ? Math.round(GAIN_PROTEIN[act]*kg/5)*5
+    : Math.min(Math.max(protein(cm, kg), {1200:80,1500:90,1800:100,2000:100,2300:115}[tier]), {1200:100,1500:110,1800:120,2000:125,2300:135}[tier]);
+  const burn = tdee(calc.sex, age, cm, kg, act), tight = !gain && burn - k < 250;   // the 1,200/1,500 floor leaves little or no deficit
   const lo = gain ? r50(k-100) : Math.max(calc.sex==="m" ? 1500 : 1200, r50(k-100));
-  const range = `${lo.toLocaleString()}–${(lo+200).toLocaleString()}`;
+  const range = tight ? `~${lo.toLocaleString()}` : `${lo.toLocaleString()}–${(lo+200).toLocaleString()}`;
   $("c-kcal").textContent = range + " kcal"; $("c-pro").textContent = pro + " g";
   $("c-rem").href = calReminder(); $("c-rem").hidden = gain;   // the Day 7 check-in measures waist loss
-  const extra = k > +tier + 150 ? (gain ? T.calGainMore : T.calHigher) : gain && +tier > k + 150 ? T.calGainLess : "";
-  $("c-tips").innerHTML = (extra ? [`<li>${extra.replace("%K", (+tier).toLocaleString()).replace("%D", r50(+tier - k))}</li>`] : []).concat((gain ? (extra===T.calGainLess ? GAIN_TIPS.slice(2) : GAIN_TIPS) : TIPS).map(t=>`<li>${L(t)}</li>`)).join("");
+  // explain whenever the PDF's calories fall outside the range shown (gain tiers are 300 apart)
+  const extra = tight ? T.calFloor : k > +tier + (gain ? 100 : 150) ? (gain ? T.calHigherG : T.calHigher) : +tier > k + 100 ? (gain ? T.calGainLess : T.calLower) : "";
+  $("c-tips").innerHTML = (extra ? [`<li>${extra.replace("%K", (+tier).toLocaleString()).replace("%D", r50(Math.abs(+tier - k))).replace("%T", r50(burn).toLocaleString())}</li>`] : []).concat((gain ? GAIN_TIPS.filter((t,i)=> i!==1 || extra!==T.calGainLess) : TIPS).map(t=>`<li>${L(t)}</li>`)).join("");
   $("c-pdf").href = `pdf/${gain ? "weight-gain" : "meal-plan"}-${tier}-${LANG}.pdf`;
   $("c-pdfBtn").textContent = (gain ? T.calPdfG : T.calPdf).replace("%K", (+tier).toLocaleString());
   $("c-inapp").hidden = !/TikTok|musical_ly|Bytedance|Instagram|FBAN|FBAV/i.test(navigator.userAgent);
@@ -1300,6 +1313,7 @@ function calNext(){
 }
 $("c-sex").querySelectorAll("button").forEach(b=>b.onclick=()=>{ calc.sex = b.dataset.v; calcLang(); });
 $("c-goal").querySelectorAll("button").forEach(b=>b.onclick=()=>{ const retry = !!$("c-err").textContent; calc.goal = b.dataset.v; $("c-err").textContent = ""; calcLang(); if(retry) runCalc(); calNext(); });
+$("c-act").onchange = ()=>{ if(!$("c-out").hidden) runCalc(); };
 $("c-go").onclick = ()=>{ runCalc(); if(!$("c-out").hidden) $("c-kcal").scrollIntoView({behavior:"smooth",block:"center"}); };
 
 // ---------- Kit Mula 7 Hari: ticks + start date saved in this browser only ----------
