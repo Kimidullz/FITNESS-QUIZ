@@ -259,9 +259,6 @@
   /* one swipe row at every width, so the 20+ results never make a long page */
   .tgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:24px -20px 0;padding:0 20px 10px}.tcard{flex:0 0 min(82%,300px);scroll-snap-align:center}
   .tcard img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:var(--black);border-radius:6px;margin-bottom:14px}
-  .tcard .res{font-family:Anton,Impact,sans-serif;font-style:italic;font-size:26px;color:var(--ink);line-height:1.1}
-  .tcard q{display:block;font-size:15px;margin:10px 0}
-  .tcard .who{font-weight:800;font-size:14px}
   .offers{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px;align-items:start}
   @media (max-width:820px){.offers{grid-template-columns:1fr}}
   .offer{background:#fff;border:2px solid var(--line);border-radius:16px;padding:26px 24px}
@@ -275,6 +272,7 @@
   .checks li::before{content:"✓ ";font-weight:800;color:var(--ink)}
   .olabel{font-size:12px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
   .oprice{font-size:30px;font-weight:800;color:var(--ink);line-height:1.1;margin-bottom:18px}
+  .oprice small{display:block;font-size:14px;font-weight:700;color:var(--muted);margin-top:4px}
   .slots{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
   .slots span{background:var(--bg);border-radius:8px;padding:6px 10px;font-size:14px;font-weight:700}
   .prices{display:grid;gap:8px;margin-bottom:18px}
@@ -360,6 +358,7 @@
         <label><span data-t="h7Hunger"></span><select id="h7-h"></select></label>
         <p class="h7-out" id="h7-out"></p>
         <div class="h7-wa" id="h7-wa"></div>
+        <p class="tnote" data-t="investShort" style="font-size:14px;font-weight:700;color:var(--ink)"></p>
         <p class="tnote" data-t="h7Note"></p>
       </div>
     </div>
@@ -413,7 +412,7 @@
             <div class="coachpick" id="coachpick"></div>
             <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
-            <p class="meta-s" data-t="investShort" style="margin:0 0 14px"></p>
+            <p class="meta-s" data-t="investShort" style="margin:0 0 14px;font-weight:700;color:var(--ink)"></p>
             <p class="pdpa" data-t="pdpa"></p>
             <p class="meta-s" style="margin-top:12px"><a href="#kalori" data-t="resKalori"></a></p>
           </div>
@@ -475,7 +474,7 @@
           <h3 class="c-h" data-t="calKitH"></h3>
           <ul class="c-kit" data-t="calKit"></ul>
           <ul class="c-tips" id="c-tips"></ul>
-          <div class="c-next"><b data-t="calNextH"></b><p data-t="calNextP"></p><a class="btn ghost" href="#quiz-zone" data-t="calNextBtn"></a><a class="quiz-link assess" target="_blank" rel="noopener" data-t="calAssess" style="text-align:center;font-size:14px"></a></div>
+          <div class="c-next"><b data-t="calNextH"></b><p data-t="calNextP"></p><a class="btn ghost" href="#quiz-zone" data-t="calNextBtn"></a><a class="quiz-link assess" target="_blank" rel="noopener" data-t="calAssess" style="text-align:center;font-size:14px"></a><p data-t="investShort"></p></div>
         </div>
         <p class="tnote" data-t="calNote"></p>
       </div>
@@ -611,22 +610,22 @@ const CONFIG = {
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
 
-/* Real client testimonials only, with their written permission. Example entry:
-   { name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
+/* Real client testimonials only, with their written permission. After editing, run: node testimonials/build.js (add a crop for a new id there). Example entry:
+   { id:"aina", name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
      quote:{en:"...", ms:"..."} } */
 // WDT team posters in img/wdt/NN.jpg (client name for the alt text)
 const WDT_RESULTS = [[1,"Sandra Saucedo"],[2,"Hernan Brito"],[3,"Sanjay Abraham"],[4,"Emilia Negru"],[5,"Ivaylo Hristov"],[6,"Andres Contreras"],[7,"Karina Ortiz"],[8,"Sturzu Constantin Daniel"],
   [9,"Mihalcea Cornelia"],[10,"Rachel Romero"],[11,"Jazmine Fabro"],[12,"Denise Preston"],[13,"Rossi Perez"],[14,"Takeshi Taco"],[15,"Maria Ramirez Ramirez"],[16,"Everline Hoffmann"]];
 
 const TESTIMONIALS = [
-  { name:"Dr Sakeenah, Kuala Lumpur", result:"67 → 57 kg", photo:"img/t-sakeenah.jpg",
+  { id:"sakeenah", name:"Dr Sakeenah, Kuala Lumpur", result:"67 → 57 kg", photo:"img/t-sakeenah.jpg",
     quote:{ms:"Baju yang sama, berat yang berbeza. Saya dah turun 13 kg. Rupanya mudah turun berat dengan cara yang betul.",en:"Same outfit, different weight. I've lost 13 kg. It turns out losing weight is easy when you do it the right way."} },
-  { name:"Eka, Johor Bahru", result:"75 → 54 kg", photo:"img/t-eka.jpg",
+  { id:"eka", name:"Eka, Johor Bahru", result:"75 → 54 kg", photo:"img/t-eka.jpg",
     quote:{ms:"Saya turun 21 kg sambil makan nasi, brownies dan makan sedap.",en:"I lost 21 kg while still eating rice, brownies and good food."} },
-  { name:{ms:"Klien team",en:"Team client"}, result:"68 → 57 kg", months:{ms:"Okt 2024 → Sept 2025",en:"Oct 2024 → Sept 2025"}, photo:"img/t-nurse.jpg" },
-  { name:{ms:"Klien team",en:"Team client"}, result:"68 → 58 kg", photo:"img/t-68-58.jpg" },
-  { name:{ms:"Klien team",en:"Team client"}, result:"−11 kg", photo:"img/t-11kg.jpg" },
-  { name:"Alya", result:"102.3 → 85.45 kg", photo:"img/t-alya.jpg" }
+  { id:"nurse", name:{ms:"Klien team",en:"Team client"}, result:"68 → 57 kg", months:{ms:"Okt 2024 → Sept 2025",en:"Oct 2024 → Sept 2025"}, photo:"img/t-nurse.jpg" },
+  { id:"68-58", name:{ms:"Klien team",en:"Team client"}, result:"68 → 58 kg", photo:"img/t-68-58.jpg" },
+  { id:"11kg", name:{ms:"Klien team",en:"Team client"}, result:"−11 kg", photo:"img/t-11kg.jpg" },
+  { id:"alya", name:"Alya", result:"102.3 → 85.45 kg", photo:"img/t-alya.jpg" }
 ];
 
 const TXT = {
@@ -646,7 +645,7 @@ const TXT = {
     kit1:"<strong>2-minute quiz</strong>Find your weakest side",
     kit2:"<strong>Free meal plan</strong>Menu, 8 recipes, eating out, grocery list + 7-day tracker",
     kit3:"<strong>Online body assessment</strong>Weight lost vs fat lost: know the difference",
-    kitNote:"All of this is free. The full program adds a plan built for your body, a coach who checks your progress every week, and nutrition support.",
+    kitNote:"All of this is free. The full program, from RM259 a month: a plan built for your body, a coach who checks your progress every week, and supplements, all included.",
     kitDay:"Your kit: day %D of 7. Measured your waist on day 1? Write it on page 8. Your Day 7 check-in will appear here.",
     kitDone:"7 days done! <a href='#hari7'>Send your Day 7 result →</a>",
     h7Eyebrow:"Day 7 check-in",
@@ -688,15 +687,15 @@ const TXT = {
     offLede:"Want online coaching from home, or a ladies-only class in person? Both work.",
     o1Tag:"Online · men &amp; women", o1H:"Online coaching",
     o1P:"For busy working adults who want a clear plan and a coach who checks in on them.",
-    o1List:"<li>1-to-1 and group coaching</li><li>Meal plan with normal food, including eating out</li><li>20-minute workouts you can do at home</li><li>A coach who follows up with you</li><li>Nutrition support included. Your plan is built on normal food, not on products</li>",
-    investLabel:"Investment", o1Price:"From RM259 a month", o1Btn:"Start with the free body assessment →",
+    o1List:"<li>1-to-1 and group coaching</li><li>Meal plan with normal food, including eating out</li><li>20-minute workouts you can do at home</li><li>A coach who follows up with you</li><li>Supplements included. Your plan is still built on normal food</li>",
+    investLabel:"Investment", o1Price:"From RM259 a month<small>supplements included</small>", o1Btn:"Start with the free body assessment →",
     o2Tag:"Ladies only · Coach Zara",
     o2P:"A small private workout class for women, max 12 per class, led by Coach Zara.",
     slotLabel:"Usual class times", o2Slots:"<span>Tue · 8.40 PM</span><span>Sat · 10 AM</span><span>Sun · 10 AM</span>",
     pkgLabel:"Packages", pSingle:"1 session", pSilver:"5 + 1 free sessions · use within 60 days", pGold:"10 + 2 free sessions · use within 90 days",
     o2Btn:"Book a class slot →", o2From:"From <b>RM40</b> a session. Silver and Gold packages on the booking page.",
     o2Addr:"Orchids Library Cafe, 53A-1 (upper floor), Plaza KL Traders Square, Jalan Gombak. Dates follow the monthly schedule on the booking page.",
-    investShort:"Programs start from RM259 a month. On the call we'll find an option that fits your budget.",
+    investShort:"Programs start from RM259 a month, supplements included. Your coach will help you pick an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     assessBtn:"Free Online Body Assessment →", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
@@ -734,7 +733,8 @@ const TXT = {
       ["I'm really busy. Do I need the gym?","No. The workouts are about 20 minutes and can be done at home."],
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
-      ["How much does coaching cost?","Coaching programs start from RM259 a month. On the call we'll find the option that fits your goal and budget."]
+      ["How much does coaching cost?","Packages start from RM259 for one month, supplements included. There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
+      ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."]
     ],
     finalH:"Know your body first. It's free.",
     footFine:"This site is for general wellness guidance only and is not medical advice. Results vary from person to person.",
@@ -762,7 +762,7 @@ const TXT = {
     tellQ:"You said:",
     tellNone:"Your habits are solid. What usually holds people like you back is not having a clear plan for busy weeks, and that's what we'll sort out on the call.",
     investH:"Before you book: be ready to invest in yourself",
-    investP:"A real transformation is an investment, not a quick fix. Our coaching programs start from RM259 a month, often about what many people already spend on eating out and sweet drinks. If you're ready to put that into your health, let's talk. On the call we'll find the option that fits your goal and budget.",
+    investP:"A real transformation is an investment, not a quick fix. Our coaching programs start from RM259 a month with supplements included, often about what many people already spend on eating out and sweet drinks. If you're ready to put that into your health, let's talk. On the call we'll find the option that fits your goal and budget.",
     proof:"Our clients are full-time workers who still eat rice and eat out. Results vary from person to person.",
     ctaTitle:n=>n?`Ready for your free consultation, ${n}?`:"Ready for your free consultation?",
     ctaLead:"Pick your coach and tap WhatsApp. Your quiz answers are already in the message. We chat on WhatsApp first, and if you want, we set a free 30-minute call to build your game plan. No pressure.",
@@ -791,7 +791,7 @@ const TXT = {
     kit1:"<strong>Kuiz 2 minit</strong>Tahu bahagian paling lemah anda",
     kit2:"<strong>Meal plan percuma</strong>Menu, 8 resipi, makan luar, senarai barang + tracker 7 hari",
     kit3:"<strong>Online body assessment</strong>Tahu beza turun berat dengan hilang lemak",
-    kitNote:"Semua ni percuma. Program penuh tambah pelan ikut badan anda, coach yang semak progress anda setiap minggu, dan sokongan nutrisi.",
+    kitNote:"Semua ni percuma. Program penuh dari RM259 sebulan: pelan ikut badan anda, coach yang semak progress anda setiap minggu, dan supplement, semua termasuk.",
     kitDay:"Kit anda: Hari %D daripada 7. Dah ukur pinggang Hari 1? Tulis di muka surat 8. Borang Hari 7 akan keluar di sini.",
     kitDone:"Dah 7 hari! <a href='#hari7'>Hantar result Hari 7 anda →</a>",
     h7Eyebrow:"Semakan Hari 7",
@@ -833,15 +833,15 @@ const TXT = {
     offLede:"Nak coaching online dari rumah, atau kelas wanita sahaja secara bersemuka? Dua-dua boleh.",
     o1Tag:"Online · lelaki &amp; wanita", o1H:"Coaching online",
     o1P:"Untuk orang bekerja yang sibuk dan nak pelan yang jelas, dengan coach yang follow-up.",
-    o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan makanan biasa, termasuk makan di luar</li><li>Senaman 20 minit, boleh buat di rumah</li><li>Coach yang follow-up anda</li><li>Sokongan nutrisi disertakan. Pelan anda tetap berasaskan makanan biasa, bukan produk</li>",
-    investLabel:"Pelaburan", o1Price:"Dari RM259 sebulan", o1Btn:"Mula dengan body assessment percuma →",
+    o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan makanan biasa, termasuk makan di luar</li><li>Senaman 20 minit, boleh buat di rumah</li><li>Coach yang follow-up anda</li><li>Supplement disertakan. Pelan anda tetap berasaskan makanan biasa</li>",
+    investLabel:"Pelaburan", o1Price:"Dari RM259 sebulan<small>termasuk supplement</small>", o1Btn:"Mula dengan body assessment percuma →",
     o2Tag:"Wanita sahaja · Coach Zara",
     o2P:"Kelas senaman private untuk wanita, maksimum 12 orang sekelas, bersama Coach Zara.",
     slotLabel:"Jadual biasa", o2Slots:"<span>Selasa · 8.40 malam</span><span>Sabtu · 10 pagi</span><span>Ahad · 10 pagi</span>",
     pkgLabel:"Pakej", pSingle:"1 sesi", pSilver:"5 + 1 sesi percuma · guna dalam 60 hari", pGold:"10 + 2 sesi percuma · guna dalam 90 hari",
     o2Btn:"Book slot kelas →", o2From:"Dari <b>RM40</b> sesi. Pakej Silver dan Gold di halaman booking.",
     o2Addr:"Orchids Library Cafe, 53A-1 (tingkat atas), Plaza KL Traders Square, Jalan Gombak. Tarikh ikut jadual bulanan di halaman booking.",
-    investShort:"Program bermula dari RM259 sebulan. Kita cari pilihan ikut bajet anda dalam call.",
+    investShort:"Program bermula dari RM259 sebulan, termasuk supplement. Coach akan bantu pilih pakej ikut bajet anda.",
     heroBtn:"Mula kuiz percuma →",
     assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
@@ -879,7 +879,8 @@ const TXT = {
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
-      ["Berapa kos coaching?","Program coaching bermula dari RM259 sebulan. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda."]
+      ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan, termasuk supplement. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
+      ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
     ],
     finalH:"Kenal badan anda dulu. Percuma.",
     footFine:"Laman ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result berbeza mengikut individu.",
@@ -907,7 +908,7 @@ const TXT = {
     tellQ:"Anda jawab:",
     tellNone:"Tabiat anda dah bagus. Yang biasanya menghalang orang macam anda ialah tiada pelan yang jelas untuk minggu-minggu sibuk, dan itulah yang kita akan susun dalam call nanti.",
     investH:"Sebelum book: bersedia untuk melabur pada diri sendiri",
-    investP:"Transformasi sebenar ialah satu pelaburan, bukan jalan pintas. Program coaching kami bermula dari RM259 sebulan, selalunya lebih kurang sama dengan apa yang ramai orang dah belanja untuk makan di luar dan air manis. Kalau anda dah sedia laburkan itu untuk kesihatan, jom kita berbincang. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda.",
+    investP:"Transformasi sebenar ialah satu pelaburan, bukan jalan pintas. Program coaching kami bermula dari RM259 sebulan (termasuk supplement), selalunya lebih kurang sama dengan apa yang ramai orang dah belanja untuk makan di luar dan air manis. Kalau anda dah sedia laburkan itu untuk kesihatan, jom kita berbincang. Dalam call nanti, kita cari pilihan yang sesuai dengan matlamat dan bajet anda.",
     proof:"Klien kami orang bekerja sepenuh masa yang masih makan nasi dan makan di luar. Result berbeza mengikut individu.",
     ctaTitle:n=>n?`Sedia untuk free consultation, ${n}?`:"Sedia untuk free consultation?",
     ctaLead:"Pilih coach dan tekan WhatsApp. Jawapan kuiz anda dah siap dalam mesej. Kita chat di WhatsApp dulu, dan kalau anda nak, kita set free call 30 minit untuk susun game plan anda. Tiada paksaan.",
@@ -1042,7 +1043,8 @@ function applyLang(){
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
   document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:"website", go:CONFIG.websiteUrl}); }; });
   $("testimonials").hidden = !TESTIMONIALS.length;
-  $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard">${t.photo?`<img src="${t.photo}" alt="" loading="lazy">`:""}<div class="res">${t.result}</div><div class="who">${typeof t.name==="string"?t.name:L(t.name)}${t.months?" · "+L(t.months):""}</div>${t.quote?`<q>${L(t.quote)}</q>`:""}</div>`).join("")
+  // posters made from this list by testimonials/build.js (rerun it after editing TESTIMONIALS)
+  $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard poster"><img src="img/t/${t.id}-${LANG}.jpg" alt="${typeof t.name==="string"?t.name:L(t.name)}: ${t.result}${t.quote?". "+L(t.quote):""}" width="540" height="960" loading="lazy"></div>`).join("")
     + WDT_RESULTS.map(n=>`<div class="tcard poster"><img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy"></div>`).join("");
   $("faq").innerHTML = T.faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join("");
   $("coachpick").innerHTML = "";

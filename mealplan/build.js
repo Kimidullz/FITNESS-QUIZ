@@ -71,8 +71,9 @@ const T = {
         habits:["Protein tiap hidangan","Air kosong 2-3 L","7,000 langkah","Tidur 7 jam","Tiada air manis"], sum:"Tick",
         h7H:"Siap 7 hari? Hantar result anda", h7P:"Isi ukuran pinggang dan tick anda, terus hantar ke coach di WhatsApp. Percuma.", h7Btn:"Hantar result Hari 7 →", h7Wa:"Hi Coach! Saya dah siap Kit Mula 7 Hari ✓\nPinggang hari 1: ___ cm\nPinggang hari 7: ___ cm\nTick: ___/35\nBoleh semak result saya?",
         cmpH:"PDF ni peta. Program penuh: coach teman anda sepanjang jalan.", cmpFree:"Percuma (kit ini)", cmpPaid:"Program dengan coach",
-        cmp:[["Menu ikut kalori, sama untuk semua","Menu ikut badan, kerja dan makanan kegemaran anda"],["Semak sendiri","Coach semak progress anda setiap minggu"],["Minggu kenduri? Teka sendiri","Pelan diubah, bukan dibuang"],["Tiada pelan senaman","Workout 20 minit ikut tahap anda"],["Buat seorang diri","Group WhatsApp: kawan yang sama-sama berusaha"]],
-        ctaH:"Kalau 7 hari sendiri pun dah rasa beza…", cta:"…bayangkan 3 bulan dengan pelan ikut badan anda dan coach yang semak progress anda setiap minggu. Jawab kuiz 2 minit: result anda terus ke WhatsApp coach untuk consultation percuma. Result berbeza mengikut individu.", ctaBtn:"Jawab kuiz 2 minit →",
+        cmp:[["Menu ikut kalori, sama untuk semua","Menu ikut badan, kerja dan makanan kegemaran anda"],["Semak sendiri","Coach semak progress anda setiap minggu"],["Minggu kenduri? Teka sendiri","Pelan diubah, bukan dibuang"],["Tiada pelan senaman","Workout 20 minit ikut tahap anda"],["Buat seorang diri","Group WhatsApp: kawan yang sama-sama berusaha"],["Makanan biasa sahaja","Makanan biasa + supplement, dah termasuk dalam harga"]],
+        price:"Program dari <b>RM259</b> sebulan, termasuk supplement",
+        ctaH:"Kalau 7 hari sendiri pun dah rasa beza…", cta:"…bayangkan kalau ada coach yang semak progress anda setiap minggu. Jawab kuiz 2 minit: result terus ke WhatsApp coach untuk consultation percuma. Result berbeza mengikut individu.", ctaBtn:"Jawab kuiz 2 minit →",
         note:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, kurang berat badan, pernah ada eating disorder, atau penghidap diabetes, buah pinggang atau jantung: jumpa doktor dulu." },
   en: { kit:"Free 7-Day Starter Kit", title:"Fat-Loss Meal Plan", sub:"3-day menu · Eating out · 8 recipes · Grocery list + cost · 7-day challenge", kcal:"calories a day", pro:"protein a day", water:"water a day",
         plateH:"Healthy plate (every meal)", plate:["½ plate vegetables","¼ protein: chicken, fish, eggs, tofu, meat","¼ rice, bread or noodles"],
@@ -91,11 +92,13 @@ const T = {
         habits:["Protein every meal","2-3 L plain water","7,000 steps","7 hours sleep","No sweet drinks"], sum:"Ticks",
         h7H:"Done 7 days? Send your result", h7P:"Fill in your waist and ticks and send them to a coach on WhatsApp. Free.", h7Btn:"Send my Day 7 result →", h7Wa:"Hi Coach! I finished the 7-Day Starter Kit ✓\nWaist day 1: ___ cm\nWaist day 7: ___ cm\nTicks: ___/35\nCan you check my result?",
         cmpH:"This PDF is the map. The full program walks it with you.", cmpFree:"Free (this kit)", cmpPaid:"Program with a coach",
-        cmp:[["Menu by calories, same for everyone","Menu built around your body, work and favourite food"],["Check yourself","A coach checks your progress every week"],["Kenduri week? Guess on your own","The plan gets adjusted, not abandoned"],["No workout plan","20-minute workouts at your level"],["On your own","WhatsApp group: people working on it with you"]],
-        ctaH:"If 7 days on your own already feels different…", cta:"…imagine 3 months with a plan built for your body and a coach checking in every week. Take the 2-minute quiz: your result goes straight to a coach on WhatsApp for a free consultation. Results vary.", ctaBtn:"Take the 2-minute quiz →",
+        cmp:[["Menu by calories, same for everyone","Menu built around your body, work and favourite food"],["Check yourself","A coach checks your progress every week"],["Kenduri week? Guess on your own","The plan gets adjusted, not abandoned"],["No workout plan","20-minute workouts at your level"],["On your own","WhatsApp group: people working on it with you"],["Normal food only","Normal food + supplements, already in the price"]],
+        price:"Programs from <b>RM259</b> a month, supplements included",
+        ctaH:"If 7 days on your own already feels different…", cta:"…imagine having a coach checking in every week. Take the 2-minute quiz: your result goes straight to a coach on WhatsApp for a free consultation. Results vary.", ctaBtn:"Take the 2-minute quiz →",
         note:"Estimate only, not medical advice. Results vary. Not for under 18s, pregnant or breastfeeding mums, people who are underweight, have had an eating disorder, or have diabetes, kidney or heart problems: see your doctor first." },
 };
 if (process.env.BRAND) {
+  for (const l of ["ms","en"]) { T[l].cmp.pop(); T[l].price = ""; }
   T.ms.cmp[1][1] = "Coach follow-up progress anda"; T.ms.cmp[4][1] = "Coaching berkumpulan: kawan yang sama-sama berusaha";
   T.en.cmp[1][1] = "A coach follows up on your progress"; T.en.cmp[4][1] = "Group coaching: people working on it with you";
   T.ms.cta = T.ms.cta.replace("coach yang semak progress anda setiap minggu", "coach yang follow-up anda");
@@ -211,7 +214,7 @@ table{width:100%;border-collapse:collapse}
 .tr{font-size:12px;margin-bottom:5mm}
 .tr th{font-size:10.5px;text-transform:uppercase;letter-spacing:.3px;padding:5px 4px;text-align:center;background:#0B0B0B;color:#fff;font-weight:800}
 .tr th:first-child{text-align:left;padding-left:8px}
-.tr td{text-align:center;padding:5px 4px;border-bottom:1px solid #E3E3E0}
+.tr td{text-align:center;padding:3px 4px;border-bottom:1px solid #E3E3E0}
 .tr td:first-child{text-align:left;font-weight:800;padding-left:8px}
 .tr td:last-child{color:#BDBDBD;font-weight:800}
 .h7{display:flex;justify-content:space-between;align-items:center;gap:12px;border:2px dashed #0B0B0B;border-radius:12px;padding:9px 14px;margin-bottom:5mm}
@@ -220,10 +223,11 @@ table{width:100%;border-collapse:collapse}
 .cmp{font-size:12.5px;margin-bottom:5mm}
 .cmp th{text-align:left;padding:7px 10px;font-size:11px;text-transform:uppercase;letter-spacing:.4px}
 .cmp th:first-child{background:#F4F4F2}.cmp th:last-child{background:#FFD200}
-.cmp td{padding:5px 10px;border-bottom:1px solid #E3E3E0;width:50%}.cmp td:first-child{color:#5E5E5E}.cmp td:last-child{font-weight:700}
+.cmp td{padding:5px 10px;border-bottom:1px solid #E3E3E0;width:38%}.cmp td:last-child{width:62%}.cmp td:first-child{color:#5E5E5E}.cmp td:last-child{font-weight:700}
 .cta{background:#E30613;color:#fff;border-radius:12px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:14px}
 .cta h3{font-family:Anton;font-style:italic;text-transform:uppercase;font-size:20px;line-height:1.1;margin-bottom:6px}
 .cta p{font-size:13px}
+.cta .price{margin-top:6px;font-weight:700}.cta .price b{color:#FFD200;font-size:16px}
 .note{position:absolute;left:14mm;right:14mm;bottom:10mm;font-size:11px;color:#5E5E5E;border-top:1px solid #E3E3E0;padding-top:6px}
 .foot{position:absolute;right:14mm;top:7mm;font-size:10.5px;color:#5E5E5E}
 </style></head><body>
@@ -278,7 +282,7 @@ table{width:100%;border-collapse:collapse}
   <div class="h7"><div><b>${t.h7H}</b><p class="small">${t.h7P}</p></div><a href="${hari7(lang)}">${t.h7Btn}</a></div>
   <h2>${t.cmpH}</h2>
   <table class="cmp"><tr><th>${t.cmpFree}</th><th>${t.cmpPaid}</th></tr>${t.cmp.map(([a,b])=>`<tr><td>${a}</td><td>${b}</td></tr>`).join("")}</table>
-  <div class="cta"><div><h3>${t.ctaH}</h3><p>${t.cta}</p></div><a href="${link(lang,"#quiz-zone")}">${t.ctaBtn}</a></div>
+  <div class="cta"><div><h3>${t.ctaH}</h3><p>${t.cta}</p>${t.price ? `<p class="price">${t.price}</p>` : ""}</div><a href="${link(lang,"#quiz-zone")}">${t.ctaBtn}</a></div>
   <div class="note">${note}</div>
 </div></body></html>`;
 }
@@ -293,7 +297,7 @@ table{width:100%;border-collapse:collapse}
       const kids = [...el.children].filter(c => !c.matches('.note,.foot')), note = el.querySelector('.note');
       const limit = note ? note.getBoundingClientRect().top - 4 : el.getBoundingClientRect().bottom - 30;
       const d = Math.max(...kids.map(c => c.getBoundingClientRect().bottom)) - limit; return d > 0 ? `p${i + 1}+${Math.round(d)}px` : 0; }).filter(Boolean));
-    console.assert(!over.length, `overflow ${k} ${lang} pages ${over}`);
+    if (over.length) throw new Error(`overflow ${k} ${lang} pages ${over}`);
     await p.pdf({ path: path.join(out, `meal-plan-${k}-${lang}.pdf`), format: 'A4', printBackground: true });
     if (k === '1500' && process.argv[2]) await p.screenshot({ path: process.argv[2] + `/mp-${lang}.png`, fullPage: true });
   }
