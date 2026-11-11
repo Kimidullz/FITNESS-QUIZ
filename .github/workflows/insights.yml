@@ -1,8 +1,8 @@
-name: Weekly comment and DM insights
+name: Weekly comment insights
 
 on:
   schedule:
-    - cron: "0 0 * * 0"   # Sunday 8am Malaysia time
+    - cron: "0 1 * * 0"   # Sunday 9am Malaysia time, 1 hour before the content engine
   workflow_dispatch: {}
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
       - run: pip install anthropic
       - name: Build insights report
         env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python insights/weekly_insights.py
       - name: Save report
@@ -31,6 +31,6 @@ jobs:
           git config user.name "insights-bot"
           git config user.email "insights-bot@users.noreply.github.com"
           git add content-engine/insights.md
-          git diff --cached --quiet || git commit -m "Weekly comment and DM insights"
+          git diff --cached --quiet || git commit -m "Weekly comment insights"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
