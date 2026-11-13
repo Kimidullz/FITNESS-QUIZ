@@ -339,6 +339,7 @@
       <div class="ticks-hero" data-t="heroTicks"></div>
       <div class="hero-ctas">
         <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
+        <p class="price-s" data-t="assessNote" style="opacity:.9;font-size:14px;margin-top:0;flex-basis:100%"></p>
         <a class="quiz-link" href="#kit" data-t="heroQuizLink"></a>
       </div>
       <p class="price-s" data-t="priceLine"></p>
@@ -478,6 +479,7 @@
           <a class="btn" id="c-pdf" target="_blank" rel="noopener"><span id="c-pdfBtn"></span></a>
           <p class="c-inapp" id="c-inapp" data-t="calInApp" hidden></p>
           <a class="c-rem" id="c-rem" target="_blank" rel="noopener" data-t="calRem"></a>
+          <a class="btn wa" id="c-wa" target="_blank" rel="noopener" style="font-size:15px;padding:13px 16px"></a>
           <p class="c-start" data-t="calStart"></p>
           <h3 class="c-h" data-t="calKitH"></h3>
           <ul class="c-kit" data-t="calKit"></ul>
@@ -600,7 +602,6 @@
     </div>
     <div class="links">
       <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
-      <a href="peluang.html" data-t="incomeFoot"></a>
     </div>
     <p class="fine" data-t="footFine"></p>
   </div>
@@ -626,12 +627,12 @@ const SRC = ((new URLSearchParams(location.search).get("src") || "").toLowerCase
    { id:"aina", name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
      quote:{en:"...", ms:"..."} } */
 // WDT team posters in img/wdt/NN.jpg (client name for the alt text)
-const WDT_RESULTS = [[1,"Sandra Saucedo"],[2,"Hernan Brito"],[3,"Sanjay Abraham"],[4,"Emilia Negru"],[5,"Ivaylo Hristov"],[6,"Andres Contreras"],[7,"Karina Ortiz"],[8,"Sturzu Constantin Daniel"],
-  [9,"Mihalcea Cornelia"],[10,"Rachel Romero"],[11,"Jazmine Fabro"],[12,"Denise Preston"],[13,"Rossi Perez"],[14,"Takeshi Taco"],[15,"Maria Ramirez Ramirez"],[16,"Everline Hoffmann"]];
+// overseas WDT coaches' 21-Day Challenge posters, shown after the Malaysian results (Kimi 13 Nov: keep 3-4)
+const WDT_RESULTS = [[9,"Mihalcea Cornelia"],[10,"Rachel Romero"],[16,"Everline Hoffmann"],[2,"Hernan Brito"]];
 
 const TESTIMONIALS = [
   { id:"sakeenah", name:"Dr Sakeenah, Kuala Lumpur", result:"67 → 57 kg", photo:"img/t-sakeenah.jpg",
-    quote:{ms:"Baju yang sama, berat yang berbeza. Saya dah turun 13 kg. Rupanya mudah turun berat dengan cara yang betul.",en:"Same outfit, different weight. I've lost 13 kg. It turns out losing weight is easy when you do it the right way."} },
+    quote:{ms:"Baju yang sama, berat yang berbeza. Rupanya mudah turun berat dengan cara yang betul.",en:"Same outfit, different weight. It turns out losing weight is easy when you do it the right way."} },
   { id:"eka", name:"Eka, Johor Bahru", result:"75 → 54 kg", photo:"img/t-eka.jpg",
     quote:{ms:"Saya turun 21 kg sambil makan nasi, brownies dan makan sedap.",en:"I lost 21 kg while still eating rice, brownies and good food."} },
   { id:"nurse", name:{ms:"Klien team",en:"Team client"}, result:"68 → 57 kg", months:{ms:"Okt 2024 → Sept 2025",en:"Oct 2024 → Sept 2025"}, photo:"img/t-nurse.jpg" },
@@ -680,6 +681,7 @@ const TXT = {
     h7L:["Waist","Ticks","Energy","Night hunger","Name","Plan"],
     resKalori:"Not ready to chat yet? Get the free meal plan first →",
     calRem:"📅 Set a Day 7 reminder in my calendar",
+    calWa:"💬 Want a coach to follow up for 7 days? WhatsApp %C →", calWaMsg:"Hi %C! I just got the free ~%K kcal meal plan (%G). Can you follow up with me for the next 7 days?", calWaG:["lose fat","gain weight"],
     calStart:"<b>Start today:</b> measure your waist (morning, before eating, at belly-button level) and write it on page 8. Measure again on Day 7.",
     calInApp:'Opened from TikTok/Instagram? If the PDF doesn\'t open, tap ⋯ at the top and choose "Open in browser".',
     calNextP2:"Your quiz result is ready. Pick a coach and WhatsApp for a free consultation.", calNextBtn2:"See my result →",
@@ -714,7 +716,7 @@ const TXT = {
     offLede:"Want online coaching from home, or a ladies-only class in person? Both work.",
     o1Tag:"Online · men &amp; women", o1H:"Online coaching",
     o1P:"For busy working adults who want a clear plan and a coach who checks in on them.",
-    o1List:"<li>1-to-1 and group coaching</li><li>Meal plan with normal food, including eating out</li><li>20-minute workouts you can do at home</li><li>A coach who follows up with you</li><li>Supplements included. Your plan is still built on normal food</li>",
+    o1List:"<li>1-to-1 and group coaching</li><li>Meal plan and workout plan built around your lifestyle</li><li>Normal food and eating out, 20-minute workouts at home</li><li>Accountability: a coach who keeps you on track</li><li>Supplements included. Your plan is still built on normal food</li>",
     investLabel:"Investment", o1Price:"From RM259 a month<small>supplements included</small>", o1Btn:"Start with the free body assessment →",
     o2Tag:"Ladies only · Coach Zara",
     o2P:"A small private workout class for women, max 12 per class, led by Coach Zara.",
@@ -725,6 +727,7 @@ const TXT = {
     investShort:"Programs start from RM259 a month, supplements included. Your coach will help you pick an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     priceLine:"Programs start from RM259 a month, supplements included.",
+    assessNote:"Fill in a free form online, then Coach Kimi contacts you personally to explain your result. No pressure.",
     assessBtn:"Free Online Body Assessment →", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
@@ -749,19 +752,20 @@ const TXT = {
     zaraP1:"\"56 kg at 35 weeks pregnant, 47 kg 55 days after giving birth, by eating well and staying safely active.\"",
     zaraP2:"\"Prefer a female coach? I'm here.\"",
     coachNote:"Coaches' own journeys. Results vary from person to person.",
-    wdtH:"Results from our <em>coaching team</em>", wdtP:"Results from our clients and from the WeDoTransformations team of coaches. These are just some from this month, there are many more. Swipe to see them all →", wdtNote:"Results vary from person to person and are not typical.",
+    wdtH:"Results from our <em>coaching team</em>", wdtP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas. Swipe to see them all →", wdtNote:"Results vary from person to person and are not typical.",
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
     testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
     webFoot:"Free online body assessment", incomeFoot:"Side income opportunity (in Malay)",
     faqH:"Questions people ask",
     faq:[
+      ["What is the free online body assessment?","You fill in a form online on the WeDoTransformations page (it opens in a new tab). Then Coach Kimi contacts you personally to explain where your body is now and what to fix first. It's free, and there's no pressure to join. Programs start from RM259 a month, supplements included."],
       ["Why start with 3 to 5 kg?","Because it's realistic. A small first goal is easier to reach while working full time, and once you see it happen it's much easier to keep going."],
       ["How long does it take to lose 3 to 5 kg?","It depends on your starting point and your routine. A healthy pace is usually around 0.5 to 1 kg a week. We'll give you an honest estimate on the call. Results vary."],
       ["I'm really busy. Do I need the gym?","No. The workouts are about 20 minutes and can be done at home."],
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
-      ["How much does coaching cost?","Packages start from RM259 for one month, supplements included. There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
+      ["How much does coaching cost?","Packages start from RM259 for one month. That includes supplements, 1-to-1 coaching, group coaching, accountability (a coach who keeps you on track), and a meal plan and workout plan built around your lifestyle. There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
       ["I want to gain weight. Can you help?","Yes. In the <a href='#kalori'>calculator</a>, pick \"Gain weight\" for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). We coach weight gain too: programs start from RM259 a month, supplements included. Losing weight without trying? See a doctor first."],
       ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."]
     ],
@@ -847,6 +851,7 @@ const TXT = {
     h7L:["Pinggang","Tick","Tenaga","Lapar malam","Nama","Pelan"],
     resKalori:"Belum sedia nak chat? Ambil meal plan percuma dulu →",
     calRem:"📅 Set peringatan Hari 7 di kalendar",
+    calWa:"💬 Nak coach follow-up 7 hari? WhatsApp %C →", calWaMsg:"Hi %C! Saya baru ambil meal plan percuma ~%K kcal (%G). Boleh follow-up saya 7 hari ni?", calWaG:["turun lemak","naik berat"],
     calStart:"<b>Mula hari ni:</b> ukur pinggang (pagi, sebelum makan, paras pusat) dan tulis di muka surat 8. Hari 7 nanti ukur lagi.",
     calInApp:'Buka dari TikTok/Instagram? Kalau PDF tak keluar, tekan ⋯ di atas dan pilih "Buka dalam browser".',
     calNextP2:"Result kuiz anda dah siap. Pilih coach dan WhatsApp untuk consultation percuma.", calNextBtn2:"Lihat result saya →",
@@ -881,7 +886,7 @@ const TXT = {
     offLede:"Nak coaching online dari rumah, atau kelas wanita sahaja secara bersemuka? Dua-dua boleh.",
     o1Tag:"Online · lelaki &amp; wanita", o1H:"Coaching online",
     o1P:"Untuk orang bekerja yang sibuk dan nak pelan yang jelas, dengan coach yang follow-up.",
-    o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan makanan biasa, termasuk makan di luar</li><li>Senaman 20 minit, boleh buat di rumah</li><li>Coach yang follow-up anda</li><li>Supplement disertakan. Pelan anda tetap berasaskan makanan biasa</li>",
+    o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan dan workout plan ikut gaya hidup anda</li><li>Makanan biasa dan makan di luar, senaman 20 minit di rumah</li><li>Accountability: coach yang pantau progress anda</li><li>Supplement disertakan. Pelan anda tetap berasaskan makanan biasa</li>",
     investLabel:"Pelaburan", o1Price:"Dari RM259 sebulan<small>termasuk supplement</small>", o1Btn:"Mula dengan body assessment percuma →",
     o2Tag:"Wanita sahaja · Coach Zara",
     o2P:"Kelas senaman private untuk wanita, maksimum 12 orang sekelas, bersama Coach Zara.",
@@ -892,6 +897,7 @@ const TXT = {
     investShort:"Program bermula dari RM259 sebulan, termasuk supplement. Coach akan bantu pilih pakej ikut bajet anda.",
     heroBtn:"Mula kuiz percuma →",
     priceLine:"Program bermula dari RM259 sebulan, termasuk supplement.",
+    assessNote:"Isi borang online percuma, lepas tu Coach Kimi sendiri akan hubungi anda untuk terangkan result. Tiada paksaan.",
     assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
@@ -916,19 +922,20 @@ const TXT = {
     zaraP1:"\"56 kg masa mengandung 35 minggu, 47 kg 55 hari selepas bersalin, dengan makan betul dan aktif secara selamat.\"",
     zaraP2:"\"Lebih selesa dengan coach perempuan? Saya ada.\"",
     coachNote:"Perjalanan coach sendiri. Result berbeza mengikut individu.",
-    wdtH:"Result team <em>coach kami</em>", wdtP:"Result klien kami dan team coach WeDoTransformations. Ini sebahagian dari bulan ini sahaja, ada banyak lagi. Leret untuk tengok semua →", wdtNote:"Result berbeza mengikut individu dan tidak tipikal.",
+    wdtH:"Result team <em>coach kami</em>", wdtP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara. Leret untuk tengok semua →", wdtNote:"Result berbeza mengikut individu dan tidak tipikal.",
     testiEyebrow:"Result sebenar",
     testiH:"Klien team kami",
     testiNote:"Result klien team coaching kami. Result tidak tipikal dan berbeza mengikut individu.",
     webFoot:"Online body assessment percuma", incomeFoot:"Peluang pendapatan sampingan",
     faqH:"Soalan yang selalu ditanya",
     faq:[
+      ["Apa itu online body assessment percuma?","Anda isi borang online di page WeDoTransformations (dibuka di tab baru). Lepas tu Coach Kimi sendiri akan hubungi anda untuk terangkan keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Percuma, dan tiada paksaan untuk join. Program bermula dari RM259 sebulan, termasuk supplement."],
       ["Kenapa mula dengan 3 hingga 5 kg?","Sebab ia realistik. Matlamat kecil lebih senang dicapai walaupun kerja sepenuh masa, dan bila dah nampak hasil, lebih senang nak teruskan."],
       ["Berapa lama nak turun 3 hingga 5 kg?","Bergantung pada titik mula dan rutin anda. Kadar yang sihat biasanya lebih kurang 0.5 hingga 1 kg seminggu. Kami bagi anggaran yang jujur dalam call nanti. Result berbeza mengikut individu."],
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
-      ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan, termasuk supplement. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
+      ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
       ["Saya nak naik berat. Boleh tolong?","Boleh. Dalam <a href='#kalori'>kalkulator</a>, pilih \"Naik berat\" untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Kami juga ada coaching naik berat: program bermula dari RM259 sebulan, termasuk supplement. Berat turun tanpa sebab? Jumpa doktor dulu."],
       ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
     ],
@@ -1326,6 +1333,11 @@ function runCalc(){
   $("c-inapp").hidden = !/TikTok|musical_ly|Bytedance|Instagram|FBAN|FBAV/i.test(navigator.userAgent);
   $("c-pdf").onclick = gain ? ()=>logTap({type:"quiz", via:"Weight gain PDF", src:SRC, result:tier+" kcal"})
     : ()=>{ kitSave({p:tier}); kitMark("m"); logTap({type:"quiz", via:"Meal plan PDF", src:SRC, result:tier+" kcal"}); };
+  // coach follow-up: the coach picked in the quiz, else by the sex entered here
+  const cw = CONFIG.coaches[coach || kitGet().c || calc.sex] || CONFIG.coaches.m, fill = t => t.replace("%C", cw.name).replace("%K", (+tier).toLocaleString()).replace("%G", T.calWaG[gain ? 1 : 0]);
+  $("c-wa").textContent = fill(T.calWa);
+  $("c-wa").href = `https://wa.me/${cw.whatsapp}?text=${encodeURIComponent(fill(T.calWaMsg))}`;
+  $("c-wa").onclick = ()=>logTap({type:"quiz", via:"Meal plan WhatsApp", src:SRC, result:tier+" kcal", coach:cw.name});
   calNext();
   $("c-out").hidden = false;
 }
