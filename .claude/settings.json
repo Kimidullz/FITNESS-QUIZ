@@ -6,9 +6,17 @@
         "repo": "bradautomates/claude-video",
         "ref": "03ceb42f7fa2c4439aca01752118044baabffb8f"
       }
+    },
+    "lemolab": {
+      "source": {
+        "source": "github",
+        "repo": "lemomo-ai/lemo-opuscar",
+        "ref": "bebbbe1aa92a3cb4bb6f83500e61b23a17d1aa00"
+      }
     }
   },
   "enabledPlugins": {
-    "watch@claude-video": true
+    "watch@claude-video": true,
+    "lemo-opuscar@lemolab": true
   }
 }
