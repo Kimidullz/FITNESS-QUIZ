@@ -111,6 +111,8 @@
   .h7-wa{display:grid;gap:8px}
   .quiz-link{color:inherit;font-weight:700;font-size:15px}
   .wa-float[hidden]{display:none}
+  [hidden]{display:none!important}   /* .btn{display:block} etc. must not show a hidden element */
+  .price-s{font-size:13px;opacity:.75;margin-top:12px}
   .hero .meta{font-size:13px;opacity:.65}
   .hero-stats{display:flex;flex-wrap:wrap;gap:20px 28px;margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15);max-width:640px}
   .hero-stats b{display:block;font-family:Anton,Impact,sans-serif;font-style:italic;font-size:30px;font-weight:400;line-height:1.1}
@@ -304,7 +306,7 @@
   .final{background:var(--red);color:#fff;text-align:center;padding:64px 0;position:relative;overflow:hidden}
   .final h2{font-size:clamp(32px,6vw,58px);margin-bottom:22px}
   .final .big{background:#000}
-  footer{background:var(--black);color:rgba(255,255,255,.7);padding:36px 0;font-size:13px}
+  footer{background:var(--black);color:rgba(255,255,255,.7);padding:36px 0 calc(90px + env(safe-area-inset-bottom,0px));font-size:13px}
   footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center}
   footer .hash{font-family:Anton,Impact,sans-serif;font-style:italic;color:#fff;font-size:18px;letter-spacing:.5px}
   footer .socials{display:flex;gap:14px;flex-wrap:wrap}
@@ -339,6 +341,7 @@
         <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
         <a class="quiz-link" href="#kit" data-t="heroQuizLink"></a>
       </div>
+      <p class="price-s" data-t="priceLine"></p>
     </div>
   </section>
 
@@ -520,7 +523,7 @@
           <div class="olabel" data-t="slotLabel"></div>
           <div class="slots" data-t="o2Slots"></div>
           <p class="from" data-t="o2From"></p>
-          <a class="btn" href="https://claude.ai/artifact/TvdrzJGC7tUcXF4nnc2DkU" target="_blank" rel="noopener" data-t="o2Btn"></a>
+          <a class="btn" id="o2-book" href="https://claude.ai/artifact/TvdrzJGC7tUcXF4nnc2DkU" target="_blank" rel="noopener" data-t="o2Btn"></a>
           <p class="addr" data-t="o2Addr"></p>
         </article>
       </div>
@@ -582,6 +585,7 @@
       <div class="ctas">
         <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
       </div>
+      <p class="price-s" data-t="priceLine"></p>
     </div>
   </section>
 </main>
@@ -614,6 +618,9 @@ const CONFIG = {
   },
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
+// where the visitor came from: ?src=tiktok / ig / threads on the bio link, else the app's in-app browser, else "website"
+const SRC = ((new URLSearchParams(location.search).get("src") || "").toLowerCase().replace(/[^a-z0-9_-]/g,"").slice(0,20))
+  || (/TikTok|musical_ly|Bytedance/i.test(navigator.userAgent) ? "tiktok" : /Instagram/i.test(navigator.userAgent) ? "instagram" : /FBAN|FBAV/i.test(navigator.userAgent) ? "facebook" : "website");
 
 /* Real client testimonials only, with their written permission. After editing, run: node testimonials/build.js (add a crop for a new id there). Example entry:
    { id:"aina", name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
@@ -651,8 +658,8 @@ const TXT = {
     kit2:"<strong>Free meal plan</strong>Menu, 8 recipes, eating out, grocery list + 7-day tracker",
     kit3:"<strong>Online body assessment</strong>Weight lost vs fat lost: know the difference",
     kitNote:"All of this is free. The full program, from RM259 a month: a plan built for your body, a coach who checks your progress every week, and supplements, all included.",
-    kitDay:"Your kit: day %D of 7. Measured your waist on day 1? Write it on page 8. Your Day 7 check-in will appear here.",
-    kitDone:"7 days done! <a href='#hari7'>Send your Day 7 result →</a>",
+    kitDay:"Your kit: day %D of 7. Measured your waist on day 1? Write it on page 8. Your Day 7 check-in will appear here. The full program starts from RM259 a month, supplements included.",
+    kitDone:"7 days done! <a href='#hari7'>Send your Day 7 result →</a> The full program starts from RM259 a month, supplements included.",
     h7Eyebrow:"Day 7 check-in",
     h7H:"7 days done. <em>What changed?</em>",
     h7Lede:"Fill in what you have (all optional) and send it to a coach on WhatsApp. Free.",
@@ -717,6 +724,7 @@ const TXT = {
     o2Addr:"Orchids Library Cafe, 53A-1 (upper floor), Plaza KL Traders Square, Jalan Gombak. Dates follow the monthly schedule on the booking page.",
     investShort:"Programs start from RM259 a month, supplements included. Your coach will help you pick an option that fits your budget.",
     heroBtn:"Start the free quiz →",
+    priceLine:"Programs start from RM259 a month, supplements included.",
     assessBtn:"Free Online Body Assessment →", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
@@ -817,8 +825,8 @@ const TXT = {
     kit2:"<strong>Meal plan percuma</strong>Menu, 8 resipi, makan luar, senarai barang + tracker 7 hari",
     kit3:"<strong>Online body assessment</strong>Tahu beza turun berat dengan hilang lemak",
     kitNote:"Semua ni percuma. Program penuh dari RM259 sebulan: pelan ikut badan anda, coach yang semak progress anda setiap minggu, dan supplement, semua termasuk.",
-    kitDay:"Kit anda: Hari %D daripada 7. Dah ukur pinggang Hari 1? Tulis di muka surat 8. Borang Hari 7 akan keluar di sini.",
-    kitDone:"Dah 7 hari! <a href='#hari7'>Hantar result Hari 7 anda →</a>",
+    kitDay:"Kit anda: Hari %D daripada 7. Dah ukur pinggang Hari 1? Tulis di muka surat 8. Borang Hari 7 akan keluar di sini. Program penuh bermula dari RM259 sebulan, termasuk supplement.",
+    kitDone:"Dah 7 hari! <a href='#hari7'>Hantar result Hari 7 anda →</a> Program penuh bermula dari RM259 sebulan, termasuk supplement.",
     h7Eyebrow:"Semakan Hari 7",
     h7H:"Dah 7 hari. <em>Apa yang berubah?</em>",
     h7Lede:"Isi yang mana ada (tak perlu isi semua), lepas tu hantar ke coach di WhatsApp. Percuma.",
@@ -883,6 +891,7 @@ const TXT = {
     o2Addr:"Orchids Library Cafe, 53A-1 (tingkat atas), Plaza KL Traders Square, Jalan Gombak. Tarikh ikut jadual bulanan di halaman booking.",
     investShort:"Program bermula dari RM259 sebulan, termasuk supplement. Coach akan bantu pilih pakej ikut bajet anda.",
     heroBtn:"Mula kuiz percuma →",
+    priceLine:"Program bermula dari RM259 sebulan, termasuk supplement.",
     assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
@@ -1073,12 +1082,11 @@ function applyLang(){
   document.querySelectorAll("[data-t]").forEach(el => { el.innerHTML = T[el.dataset.t]; });
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===LANG));
   $("name").placeholder = T.namePh;
-  const waMsg = LANG==="ms" ? "Hi Coach Kimi! Saya dari website. Saya nak tanya pasal coaching turun berat." : "Hi Coach Kimi! I found you on your website. I'd like to ask about weight loss coaching.";
-  document.querySelectorAll(".wa-link").forEach(a=>a.href=`https://wa.me/${CONFIG.coaches.m.whatsapp}?text=${encodeURIComponent(waMsg)}`);
+  waFloat();
   $("web-foot").href = CONFIG.websiteUrl;
   $("share").href = "https://wa.me/?text=" + encodeURIComponent((LANG==="ms" ? "Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak turun. Cuba la: " : "I just took this 2-minute quiz that shows why your weight won't budge. Try it: ") + "https://kimidullz.github.io/FITNESS-QUIZ/" + (LANG==="en" ? "?lang=en" : "") + "#quiz-zone");
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
-  document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:"website", go:CONFIG.websiteUrl}); }; });
+  document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:SRC, go:CONFIG.websiteUrl}); }; });
   $("testimonials").hidden = !TESTIMONIALS.length;
   // posters made from this list by testimonials/build.js (rerun it after editing TESTIMONIALS)
   $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard poster"><img src="img/t/${t.id}-${LANG}.jpg" alt="${typeof t.name==="string"?t.name:L(t.name)}: ${t.result}${t.quote?". "+L(t.quote):""}" width="540" height="960" loading="lazy"></div>`).join("")
@@ -1088,11 +1096,19 @@ function applyLang(){
   Object.keys(CONFIG.coaches).forEach(k=>{
     const b = document.createElement("button");
     b.textContent = L(CONFIG.coaches[k].label); b.dataset.c = k; if(k===coach) b.classList.add("sel");
-    b.onclick = ()=>{ coach = k; kitSave({c:k}); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); };
+    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); };
     $("coachpick").appendChild(b);
   });
   if(view==="quiz") render();
   if(view==="result") showResult(true);
+}
+// floating WhatsApp: the coach picked in the quiz (saved in this browser), else Coach Kimi, named on the button
+function waFloat(){
+  const c = CONFIG.coaches[coach || kitGet().c] || CONFIG.coaches.m, a = document.querySelector(".wa-float");
+  const msg = LANG==="ms" ? `Hi ${c.name}! Saya dari website. Saya nak tanya pasal coaching.` : `Hi ${c.name}! I found you on your website. I'd like to ask about coaching.`;
+  a.href = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(msg)}`;
+  a.querySelector("span").textContent = "WhatsApp " + c.name; a.setAttribute("aria-label", "WhatsApp " + c.name);
+  a.onclick = ()=>logTap({type:"quiz", via:"Floating WhatsApp", src:SRC, coach:c.name});
 }
 document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{
   LANG = b.dataset.lang;
@@ -1232,7 +1248,7 @@ function sheetParams(url, via){
   const routine = QUESTIONS.map((q,k)=>({q,o:q.a[answers[k]]})).filter(x=>x.q.type==="score").map(x=>`${L(x.q.short)}: ${L(x.o)}`).join("; ");
   return ({ type:"quiz", qid:quizId, name:firstName||"", result:`${L(ctx.tier.badge)} (${ctx.total}/${ctx.maxTotal})`,
     weak:ctx.weakestLabel, goal:L(ans("goal")), why:L(ans("why")), when:L(ans("when")), commit:L(ans("commit")), budget:L(ans("budget")),
-    coach:L(CONFIG.coaches[coach].pref), via, src:"website", answers:routine, go:url });
+    coach:L(CONFIG.coaches[coach].pref), via, src:SRC, answers:routine, go:url });
 }
 
 // ---------- meal calculator ----------
@@ -1280,7 +1296,7 @@ function runCalc(){
   if($("c-preg").checked){
     const z = CONFIG.coaches.f;
     err.innerHTML = `${T.calErrPreg} <a href="https://wa.me/${z.whatsapp}?text=${encodeURIComponent(T.calPregMsg)}" target="_blank" rel="noopener">${T.calPregWa}</a>`;
-    err.querySelector("a").onclick = ()=>logTap({type:"quiz", via:"Calculator mum WhatsApp", src:"website", coach:z.name});
+    err.querySelector("a").onclick = ()=>logTap({type:"quiz", via:"Calculator mum WhatsApp", src:SRC, coach:z.name});
     return;
   }
   if(!calc.sex || !age || !cm || !kg){ err.textContent = T.calErrFill; return; }
@@ -1308,8 +1324,8 @@ function runCalc(){
   $("c-pdf").href = `pdf/${gain ? "weight-gain" : "meal-plan"}-${tier}-${LANG}.pdf`;
   $("c-pdfBtn").textContent = (gain ? T.calPdfG : T.calPdf).replace("%K", (+tier).toLocaleString());
   $("c-inapp").hidden = !/TikTok|musical_ly|Bytedance|Instagram|FBAN|FBAV/i.test(navigator.userAgent);
-  $("c-pdf").onclick = gain ? ()=>logTap({type:"quiz", via:"Weight gain PDF", src:"website", result:tier+" kcal"})
-    : ()=>{ kitSave({p:tier}); kitMark("m"); logTap({type:"quiz", via:"Meal plan PDF", src:"website", result:tier+" kcal"}); };
+  $("c-pdf").onclick = gain ? ()=>logTap({type:"quiz", via:"Weight gain PDF", src:SRC, result:tier+" kcal"})
+    : ()=>{ kitSave({p:tier}); kitMark("m"); logTap({type:"quiz", via:"Meal plan PDF", src:SRC, result:tier+" kcal"}); };
   calNext();
   $("c-out").hidden = false;
 }
@@ -1365,7 +1381,7 @@ function h7Update(){
     a.className = "btn wa"; a.target = "_blank"; a.rel = "noopener";
     a.textContent = T.h7Btn.replace("%C", c.name);
     a.href = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([T.h7Msg.replace("%C", c.name), ...lines, T.h7MsgEnd].join("\n"))}`;
-    a.onclick = ()=>logTap({type:"quiz", via:"Hari 7 WhatsApp", src:"website", coach:c.name});
+    a.onclick = ()=>logTap({type:"quiz", via:"Hari 7 WhatsApp", src:SRC, coach:c.name});
     $("h7-wa").appendChild(a);
   });
 }
@@ -1374,6 +1390,7 @@ function h7Open(){ if(location.hash !== "#hari7") return; $("hari7").hidden = fa
 window.addEventListener("hashchange", h7Open);
 
 applyLang();
+$("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:SRC});
 h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});

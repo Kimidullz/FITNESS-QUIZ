@@ -31,7 +31,7 @@ Generic motivation, hashtag-heavy posts, posts with no number, ad-like CTAs ("DM
 
 ## Rules for every post
 - Numbers are approximate and say so ("~", "approx.", "prices vary by area"). Round down. Never make up a study; if unsure, say "about" and keep it general.
-- No medical claims, no "cure", no supplement brand names (no Herbalife on public posts). No phone numbers.
+- No medical claims, no "cure", no supplement brand names on public posts (never name the brand). No phone numbers.
 - No emoji on slides. One or two emoji in captions is fine.
 - Carousels are 4:5 (IG size), 6 slides: hook, 4 content slides, CTA. Same images go to TikTok.
 - Captions: short, end with a question about the viewer's own habit + a pinned comment. Few or no hashtags.
