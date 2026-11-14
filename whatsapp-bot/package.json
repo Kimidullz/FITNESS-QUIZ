@@ -1,0 +1,16 @@
+{
+  "name": "wdt-lead-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --import ./test/register.mjs --test test/*.test.js",
+    "try": "node --import ./test/register.mjs scripts/try.js",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.8.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.162.0"
+  }
+}
