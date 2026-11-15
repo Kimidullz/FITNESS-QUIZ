@@ -183,6 +183,8 @@
   .bar span{display:block;height:100%;border-radius:99px;transition:width .8s ease}
   .weak{background:var(--tint);border-left:4px solid var(--warm);padding:14px 16px;border-radius:6px;margin-top:14px;font-size:15px}
   .proof{font-size:14px;color:var(--muted);margin-top:14px}
+  .proof.g{font-size:15px;color:var(--ink)}
+  .doc-box{background:#FFF6CC;border-left:4px solid var(--yellow);border-radius:8px;padding:12px 14px;font-weight:600;margin-bottom:14px}
   .disclaimer{font-size:12px;color:var(--muted);text-align:center;margin-top:20px}
   .steps{list-style:none;counter-reset:st;display:grid;gap:12px}
   .steps li{counter-increment:st;position:relative;padding-left:40px;font-size:15px}
@@ -389,6 +391,7 @@
         <div class="card fade" id="intro">
           <h1 data-t="h1"></h1>
           <p class="lead" data-t="introLead"></p>
+          <p class="meta-s" data-t="introGain" style="margin:-6px 0 14px;font-weight:600"></p>
           <label class="small" for="name" data-t="nameLabel"></label>
           <input type="text" id="name" autocomplete="given-name" maxlength="30">
           <button class="btn" id="start" data-t="startBtn"></button>
@@ -405,6 +408,7 @@
         </div>
 
         <div class="card hidden" id="result">
+          <p class="doc-box" id="r-doc" hidden></p>
           <span class="badge" id="r-badge"></span>
           <h1 id="r-title"></h1>
           <p class="lead" id="r-text"></p>
@@ -440,7 +444,7 @@
           <div class="section">
             <h3 data-t="stepsH"></h3>
             <ol class="steps" id="steps"></ol>
-            <p class="proof" data-t="proof"></p>
+            <p class="proof" id="r-proof"></p>
             <a class="btn wa" id="wa2" target="_blank" rel="noopener"></a>
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 0;text-align:center"></p>
           </div>
@@ -696,12 +700,12 @@ const TXT = {
     calPdfG:"📄 Download my free weight gain plan (~%K kcal)",
     calNoteG:"Estimate only, not medical advice. Results vary. Aim for 0.25-0.5 kg a week; faster is usually fat. Not for under 18s, pregnant or breastfeeding mums, or anyone with a BMI under 16, a past or current eating disorder, or diabetes, kidney or heart problems: see your doctor first. Losing weight without trying? See a doctor too.",
     calErrLow:"Your BMI is very low. Please see a doctor before starting a weight gain plan.",
-    calErrGainHigh:"This weight gain plan is for a BMI under 23 (the Asian cut-off). Yours is 23 or above, so pick \"Lose fat\", or ask a coach about building muscle.",
+    calErrGainHigh:"This weight gain plan is for a BMI under 23 (the Asian cut-off). Yours is 23 or above, so pick \"Lose fat\".",
     calGainLess:"This ~%K kcal plan is about %D kcal more than you need. Start by leaving out 1-2 snacks worth about that much (e.g. 2 boiled eggs ~150, banana + milk ~265). If your weight hasn't gone up after 2 weeks, add them back.",
     calHigherG:"Your body needs about %D kcal more than this ~%K kcal plan: add snacks to match, e.g. a glass of full-cream milk (~160 kcal) or milk + a banana (~265 kcal).",
     calLower:"This ~%K kcal plan is about %D kcal above your target: leave out 1 snack on most days.",
     calFloor:"Your body uses only about ~%T kcal a day, and eating less than %K kcal isn't safe without a doctor. To help lose fat, add a 30-minute brisk walk every day.",
-    calNextHG:"Want to gain weight with a coach?", calNextPG:"Start with the free online body assessment. A coach looks at your body and builds your weight gain plan.",
+    calNextHG:"Want to gain weight with a coach?", calNextPG:"Start with the free online body assessment. A coach reviews where you're at and builds your weight gain plan.",
     calAssessG:"Do the free body assessment →",
     calKit:"<li>3-day menu at your calories</li><li>8 home recipes, under 20 minutes</li><li>Eating out: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>1-week grocery list + rough cost</li><li>30-minute Sunday meal prep</li><li>7-Day Challenge tracker</li>",
     calAssess:"or do the free online body assessment first →",
@@ -766,7 +770,7 @@ const TXT = {
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
       ["How much does coaching cost?","Packages start from RM259 for one month. That includes supplements, 1-to-1 coaching, group coaching, accountability (a coach who keeps you on track), and a meal plan and workout plan built around your lifestyle. There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
-      ["I want to gain weight. Can you help?","Yes. In the <a href='#kalori'>calculator</a>, pick \"Gain weight\" for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). We coach weight gain too: programs start from RM259 a month, supplements included. Losing weight without trying? See a doctor first."],
+      ["I want to gain weight. Can you help?","Yes. Take the <a href='#quiz-zone'>2-minute quiz</a> and pick “Gain weight and look fuller” in question 1 to see what's stopping your weight from going up. Or in the <a href='#kalori'>calculator</a>, pick “Gain weight” for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). Our weight gain coaching uses normal food and strength training. Programs start from RM259 a month, supplements included. For ages 18 and up. Losing weight without trying? See a doctor first."],
       ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."]
     ],
     finalH:"Know your body first. It's free.",
@@ -802,6 +806,16 @@ const TXT = {
     ctaTitleLow:n=>n?`${n}, start with the free 7-day kit`:"Start with the free 7-day kit",
     ctaLeadLow:"No need to decide anything yet. Get a free meal plan that fits your calories, try it for 7 days and see how it feels. When you're ready, WhatsApp a coach below.",
     kitFirstBtn:"Get my free meal plan →",
+    ctaTitleLowG:n=>n?`${n}, start with the free weight gain plan`:"Start with the free weight gain plan",
+    introGain:"Want to gain weight? This quiz is for you too: pick “Gain weight and look fuller” in question 1.",
+    docBox:"Weight that drops without trying should be checked by a doctor first (for example thyroid, blood sugar or stomach problems). Once your doctor says you're okay, we can help you with the right plan.",
+    shareG:"I just took this 2-minute quiz that shows why your weight won't go up. Try it: ",
+    stepFinalHG:"Find out why your weight won't go up",
+    stepFinalG:"Tap WhatsApp below to chat first. Your coach will go through your answers, work out the calories and protein you need, and map out a meal and workout plan around your schedule. If you want, we'll set a free 30-minute call. No pressure.",
+    ctaLeadLowG:"No need to decide anything yet. Get a free weight gain plan that fits your calories, weigh yourself today and again on Day 7. When you're ready, WhatsApp a coach below with your Day 7 weight.",
+    proofG:"Our plans use normal, affordable Malaysian food: rice, eggs, chicken, milk. For ages 18 and up. Losing weight without trying, no appetite for weeks, always thirsty and peeing often, heart often racing, or scared of gaining weight? See a doctor first. Results vary from person to person.",
+    calGainHighWa:"Or WhatsApp a coach about building muscle →",
+    calGainHighMsg:"Hi %C! I tried the weight gain calculator but my BMI is 23 or above. I want to build muscle. Can you help?",
     ctaLead:"Pick your coach and tap WhatsApp. Your quiz answers are already in the message. We chat on WhatsApp first, and if you want, we set a free 30-minute call to build your game plan. No pressure.",
     bookMeta:"Your quiz answers are sent with your message",
     coachPickH:"Who would you like to talk to?",
@@ -810,7 +824,7 @@ const TXT = {
     webBtn:"Get my free online body assessment",
     retake:"↺ Retake the quiz", share:"Share this quiz with a friend",
     disclaimer:"This quiz is for general wellness guidance only and is not medical advice. Results are not typical and vary by individual.",
-    wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like a free consultation call. When can we talk?"}
+    wa:{hi:"Hi %COACH%! I just did the “Why Can't I Lose Weight?” quiz.", hiG:"Hi %COACH%! I just did the “Why Can't I Gain Weight?” quiz.", endG:"I'd like to know which weight-gain plan fits me and my budget. Can we chat first?", name:"Name", result:"Result", weak:"Weakest area", goal:"Goal", why:"Main reason", when:"Want to start", commit:"Commitment", budget:"Monthly budget", coach:"Preferred coach", end:"I'd like a free consultation call. When can we talk?"}
   },
   ms: {
     calEyebrow:"Kalkulator percuma", calH:"Berapa kalori <em>saya perlu sehari?</em>",
@@ -866,12 +880,12 @@ const TXT = {
     calPdfG:"📄 Muat turun pelan naik berat percuma (~%K kcal)",
     calNoteG:"Anggaran sahaja, bukan nasihat perubatan. Result berbeza mengikut individu. Sasaran sihat: naik 0.25-0.5 kg seminggu. Kalau naik lebih laju, selalunya itu lemak. Tidak sesuai untuk bawah 18 tahun, ibu mengandung atau menyusu, BMI bawah 16, pernah atau sedang ada masalah makan (eating disorder), atau ada diabetes, sakit buah pinggang atau sakit jantung: jumpa doktor dulu. Berat turun tanpa sebab? Jumpa doktor juga.",
     calErrLow:"BMI anda sangat rendah. Sila jumpa doktor dulu sebelum mula pelan naik berat.",
-    calErrGainHigh:"Pelan naik berat ni untuk BMI bawah 23 (had untuk orang Asia). BMI anda 23 atau lebih, jadi pilih \"Turun lemak\", atau tanya coach pasal bina otot.",
+    calErrGainHigh:"Pelan naik berat ni untuk BMI bawah 23 (had untuk orang Asia). BMI anda 23 atau lebih, jadi pilih \"Turun lemak\".",
     calGainLess:"Pelan ~%K kcal ni lebih kira-kira %D kcal daripada keperluan anda. Jadi, mula dengan buang 1-2 snek yang jumlahnya lebih kurang sama (contoh: telur rebus 2 biji ~150, pisang + susu ~265). Kalau selepas 2 minggu berat tak naik, baru tambah balik.",
     calHigherG:"Badan anda perlu kira-kira %D kcal lebih daripada pelan ~%K kcal ni: tambah snek ikut jumlah tu, contohnya segelas susu penuh krim (~160 kcal) atau susu + pisang (~265 kcal).",
     calLower:"Pelan ~%K kcal ni lebih kira-kira %D kcal daripada sasaran anda: tinggalkan 1 snek kebanyakan hari.",
     calFloor:"Badan anda guna lebih kurang ~%T kcal sehari sahaja, dan makan bawah %K kcal tak selamat tanpa nasihat doktor. Untuk bantu turun lemak, tambah jalan laju 30 minit setiap hari.",
-    calNextHG:"Nak naik berat dengan coach?", calNextPG:"Mula dengan body assessment online percuma. Coach tengok badan anda dan bina pelan naik berat.",
+    calNextHG:"Nak naik berat dengan coach?", calNextPG:"Mula dengan body assessment online percuma. Coach semak keadaan anda sekarang dan bina pelan naik berat.",
     calAssessG:"Buat body assessment percuma →",
     calKit:"<li>Menu 3 hari ikut kalori anda</li><li>8 resipi rumah, bawah 20 minit</li><li>Makan luar: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>Senarai barang dapur seminggu + anggaran kos</li><li>Meal prep Ahad 30 minit</li><li>Tracker Cabaran 7 Hari</li>",
     calAssess:"atau buat online body assessment percuma dulu →",
@@ -936,7 +950,7 @@ const TXT = {
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
       ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
-      ["Saya nak naik berat. Boleh tolong?","Boleh. Dalam <a href='#kalori'>kalkulator</a>, pilih \"Naik berat\" untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Kami juga ada coaching naik berat: program bermula dari RM259 sebulan, termasuk supplement. Berat turun tanpa sebab? Jumpa doktor dulu."],
+      ["Saya nak naik berat. Boleh tolong?","Boleh. Jawab <a href='#quiz-zone'>kuiz 2 minit</a> dan pilih “Naik berat dan nampak lebih berisi” di soalan 1 untuk tahu apa yang menghalang berat anda naik. Atau dalam <a href='#kalori'>kalkulator</a>, pilih “Naik berat” untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Coaching naik berat kami guna makanan biasa dan latihan kekuatan. Program bermula dari RM259 sebulan, termasuk supplement. Untuk umur 18 tahun ke atas. Berat turun tanpa sebab? Jumpa doktor dulu."],
       ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
     ],
     finalH:"Kenal badan anda dulu. Percuma.",
@@ -972,6 +986,16 @@ const TXT = {
     ctaTitleLow:n=>n?`${n}, mula dengan Kit Mula 7 Hari percuma`:"Mula dengan Kit Mula 7 Hari percuma",
     ctaLeadLow:"Tak perlu buat keputusan lagi. Ambil meal plan percuma ikut kalori anda, cuba 7 hari, dan rasa sendiri. Bila dah sedia, WhatsApp coach di bawah.",
     kitFirstBtn:"Ambil meal plan percuma →",
+    ctaTitleLowG:n=>n?`${n}, mula dengan pelan naik berat percuma`:"Mula dengan pelan naik berat percuma",
+    introGain:"Nak naik berat? Kuiz ni untuk anda juga: pilih “Naik berat dan nampak lebih berisi” di soalan 1.",
+    docBox:"Berat yang turun sendiri tanpa cuba perlu disemak doktor dulu (contohnya tiroid, gula dalam darah atau masalah perut). Lepas doktor kata okay, kami boleh bantu anda dengan pelan yang betul.",
+    shareG:"Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak naik-naik. Cuba la: ",
+    stepFinalHG:"Tahu kenapa berat anda tak naik",
+    stepFinalG:"Tekan WhatsApp di bawah untuk chat dulu. Coach akan semak jawapan anda, kira berapa kalori dan protein anda perlu, dan susun pelan makan dan latihan ikut jadual anda. Kalau anda nak, kita set free call 30 minit. Tiada paksaan.",
+    ctaLeadLowG:"Tak perlu buat keputusan lagi. Ambil pelan naik berat percuma ikut kalori anda, timbang berat hari ni dan timbang lagi Hari 7. Bila dah sedia, WhatsApp coach di bawah dengan berat Hari 7 anda.",
+    proofG:"Pelan kami guna makanan Malaysia biasa yang mampu dibeli: nasi, telur, ayam, susu. Untuk umur 18 tahun ke atas. Berat turun sendiri, lama tak ada selera makan, selalu dahaga dan kerap buang air kecil, jantung selalu berdebar, atau takut bila berat naik? Jumpa doktor dulu. Result berbeza mengikut individu.",
+    calGainHighWa:"Atau WhatsApp coach pasal bina otot →",
+    calGainHighMsg:"Hi %C! Saya cuba kalkulator naik berat, tapi BMI saya 23 ke atas. Saya nak bina otot. Boleh bantu?",
     ctaLead:"Pilih coach dan tekan WhatsApp. Jawapan kuiz anda dah siap dalam mesej. Kita chat di WhatsApp dulu, dan kalau anda nak, kita set free call 30 minit untuk susun game plan anda. Tiada paksaan.",
     bookMeta:"Jawapan kuiz anda dihantar sekali dalam mesej",
     coachPickH:"Anda selesa bercakap dengan siapa?",
@@ -980,7 +1004,7 @@ const TXT = {
     webBtn:"Dapatkan online body assessment PERCUMA",
     retake:"↺ Ulang kuiz", share:"Kongsi kuiz ni dengan kawan",
     disclaimer:"Kuiz ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result tidak tipikal dan berbeza mengikut individu.",
-    wa:{hi:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Turun?”.", name:"Nama", result:"Result", weak:"Bahagian paling lemah", goal:"Matlamat", why:"Sebab utama", when:"Nak mula", commit:"Komitmen", budget:"Bajet sebulan", coach:"Coach pilihan", end:"Saya nak free consultation call. Bila kita boleh bercakap?"}
+    wa:{hi:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Turun?”.", hiG:"Hi %COACH%! Saya baru jawab Kuiz “Kenapa Berat Tak Naik?”.", endG:"Saya nak tahu pelan naik berat yang sesuai dengan saya dan bajet saya. Boleh chat dulu?", name:"Nama", result:"Result", weak:"Bahagian paling lemah", goal:"Matlamat", why:"Sebab utama", when:"Nak mula", commit:"Komitmen", budget:"Bajet sebulan", coach:"Coach pilihan", end:"Saya nak free consultation call. Bila kita boleh bercakap?"}
   }
 };
 
@@ -996,12 +1020,13 @@ const L = o => o[LANG];
 
 /* type "score": counts toward the result (0 = great, 3 = holding you back).
    type "profile": not scored; sent to you on WhatsApp for the consultation. */
-const QUESTIONS = [
+const Q_LOSS = [
   { type:"profile", key:"goal", q:{en:"First, what's your main goal?",ms:"Pertama, apa matlamat utama anda?"}, a:[
     {en:"Lose under 5 kg",ms:"Turun kurang 5 kg",v:"<5"},
     {en:"Lose 5 to 10 kg",ms:"Turun 5 hingga 10 kg",v:"5-10"},
     {en:"Lose 10 to 20 kg",ms:"Turun 10 hingga 20 kg",v:"10-20"},
     {en:"Lose more than 20 kg",ms:"Turun lebih 20 kg",v:"20+"},
+    {en:"Gain weight and look fuller",ms:"Naik berat dan nampak lebih berisi",v:"gain"},
     {en:"Not about weight. I want more energy and better health",ms:"Bukan pasal berat. Saya nak lebih bertenaga dan sihat",v:"health"} ]},
   { type:"profile", key:"why", q:{en:"Why does this matter to you right now?",ms:"Kenapa perkara ini penting untuk anda sekarang?"}, a:[
     {en:"My health (sugar, blood pressure, cholesterol, joint pain)",ms:"Kesihatan (gula, darah tinggi, kolesterol, sakit sendi)"},
@@ -1052,22 +1077,38 @@ const QUESTIONS = [
     {en:"Above RM1,300. I want the full transformation",ms:"Lebih RM1,300. Saya nak transformasi penuh"} ]}
 ];
 
+// weight-gain path (council 15 Nov): picked in Q1, swaps Q2-Q7; Q1 and Q8-Q10 are shared
+const Q_GAIN = [Q_LOSS[0],
+  { type:"profile", key:"why", q:Q_LOSS[1].q, a:[{"en": "My health (my doctor says I'm underweight)", "ms": "Kesihatan (doktor kata saya kurang berat badan)"}, {"en": "I want to feel confident and fill out my clothes", "ms": "Nak rasa yakin dan baju muat elok"}, {"en": "I want to feel stronger and have more energy", "ms": "Nak lebih kuat dan bertenaga"}, {"en": "I want to build muscle for sport or the gym", "ms": "Nak bina otot untuk sukan atau gym"}, {"en": "People keep saying “you're so thin, don't you eat?”", "ms": "Asyik kena tegur “kurusnya, tak makan ke?”"}, {"en": "My weight has been dropping on its own lately", "ms": "Berat saya turun sendiri kebelakangan ini", "doc": 1}] },
+  {"type": "score", "pillar": {"en": "Nutrition", "ms": "Pemakanan"}, "short": {"ms": "Makan", "en": "Meals"}, "q": {"ms": "Pada hari biasa, berapa kali anda makan?", "en": "On a normal day, how many times do you eat?"}, "a": [{"en": "5 or more times, snacks included", "ms": "5 kali atau lebih, termasuk snek", "s": 0}, {"en": "3 meals at regular times", "ms": "3 kali, ikut waktu", "s": 1, "i": {"en": "3 meals is a good base, but for gaining it's usually not enough. Adding 2 snacks is the easiest fix.", "ms": "3 kali makan dah bagus, tapi untuk naik berat biasanya belum cukup. Tambah 2 snek ialah cara paling mudah."}}, {"en": "I often skip meals because I'm busy, forget or want to save money", "ms": "Selalu skip sebab sibuk, terlupa atau nak jimat duit", "s": 3, "i": {"en": "Every skipped meal is a full meal your body misses. For many slim people this is the real cause, not a fast metabolism.", "ms": "Setiap kali skip, badan terlepas satu hidangan penuh. Bagi ramai orang kurus, inilah punca sebenar, bukan metabolisme laju."}}, {"en": "I get full fast and can't eat much", "ms": "Cepat kenyang, tak larat makan banyak", "s": 2, "i": {"en": "Getting full fast is common in slim people. Eat a little but often, and drink water after meals, not before. If your appetite dropped recently or your weight keeps falling, see a doctor first.", "ms": "Cepat kenyang memang biasa untuk orang kurus. Makan sikit tapi kerap, dan minum air kosong lepas makan, bukan sebelum. Kalau selera baru-baru ini hilang atau berat makin turun, jumpa doktor dulu."}}], "fix": {"h": {"ms": "Makan 5 kali sehari, sikit tapi kerap", "en": "Eat 5 times a day, little and often"}, "t": {"ms": "Minggu ni, makan 5 kali: sarapan, minum pagi, makan tengah hari, minum petang dan makan malam. Snek murah: pisang dengan segelas susu penuh krim, roti sapu peanut butter, 2 biji telur rebus atau segenggam kacang. Selalu terlupa? Set alarm di telefon.", "en": "This week, eat 5 times: breakfast, morning snack, lunch, afternoon tea and dinner. Cheap snacks: a banana with a glass of full-cream milk, bread with peanut butter, 2 boiled eggs or a handful of nuts. Keep forgetting? Set a phone alarm."}}},
+  {"type": "score", "pillar": {"en": "Nutrition", "ms": "Pemakanan"}, "short": {"ms": "Protein", "en": "Protein"}, "q": {"ms": "Berapa kerap anda makan protein? (telur, ayam, ikan, susu, tempe, tauhu, dhal)", "en": "How often do you eat protein? (eggs, chicken, fish, milk, tempeh, tofu, dhal)"}, "a": [{"en": "At every meal", "ms": "Setiap kali makan", "s": 0}, {"en": "1 to 2 times a day", "ms": "1 hingga 2 kali sehari", "s": 1, "i": {"en": "Protein once or twice a day isn't enough. Your muscles need it spread through the day, not all at once.", "ms": "Protein 1 hingga 2 kali sehari belum cukup. Otot perlukan protein sepanjang hari, bukan sekali harung."}}, {"en": "Rarely. Mostly rice, bread or instant noodles", "ms": "Jarang. Kebanyakannya nasi, roti atau mi segera", "s": 3, "i": {"en": "Rice, bread and noodles give energy, but without protein more of the gain ends up as fat, not muscle.", "ms": "Nasi, roti dan mi bagi tenaga, tapi tanpa protein, berat yang naik lebih banyak lemak daripada otot."}}, {"en": "Not much. I fill up on snacks and sweet drinks", "ms": "Kurang. Saya banyakkan snek dan air manis", "s": 2, "i": {"en": "Snacks and sweet drinks do add weight, but it usually ends up as belly fat, not muscle. Swap some for milk, eggs, nuts or bread with peanut butter.", "ms": "Snek dan air manis memang tambah berat, tapi selalunya jadi lemak perut, bukan otot. Tukar sebahagiannya kepada susu, telur, kacang atau roti peanut butter."}}], "fix": {"h": {"ms": "Protein dalam setiap pinggan", "en": "Protein on every plate"}, "t": {"ms": "Letak protein sebesar tapak tangan dalam setiap pinggan, dan minum 2 gelas susu sehari. Paling murah: telur, tempe, tauhu, sardin tin dan susu penuh krim. Perut tak tahan susu? Cuba yogurt atau susu soya. Sasaran protein harian anda ada dalam kalkulator kalori.", "en": "Put a palm of protein on every plate and drink 2 glasses of milk a day. Cheapest options: eggs, tempeh, tofu, canned sardines and full-cream milk. Milk upsets your stomach? Try yogurt or soy milk. Your daily protein target is in the calorie calculator."}}},
+  {"type": "score", "pillar": {"en": "Workout", "ms": "Senaman"}, "short": {"ms": "Latihan kekuatan", "en": "Strength training"}, "q": {"ms": "Macam mana latihan kekuatan anda sekarang? (angkat beban, push-up, squat)", "en": "What does your strength training look like right now? (weights, push-ups, squats)"}, "a": [{"en": "3 or more times a week, with a plan", "ms": "3 kali seminggu atau lebih, ikut pelan", "s": 0}, {"en": "I do some, but not regularly or without a plan", "ms": "Ada buat, tapi tak tetap atau tak ikut pelan", "s": 1, "i": {"en": "Muscle grows when your body is asked to do a little more each week. If the weights and reps never change, your body has no reason to.", "ms": "Otot membesar bila badan diminta buat sedikit lebih setiap minggu. Kalau berat dan ulangan sama setiap kali, badan tak ada sebab untuk berubah."}}, {"en": "Only cardio or sports (running, futsal, badminton, zumba)", "ms": "Cardio atau sukan saja (lari, futsal, badminton, zumba)", "s": 2, "i": {"en": "Sport is great for your heart, but it burns the calories you need to gain. No need to stop playing: add strength training, and eat 1 extra snack on sports days.", "ms": "Sukan bagus untuk jantung, tapi ia bakar kalori yang anda perlukan untuk naik berat. Tak perlu berhenti main: tambah latihan kekuatan, dan makan 1 snek lebih pada hari bersukan."}}, {"en": "Never or rarely. I don't know how to start, or feel shy", "ms": "Tak pernah atau jarang. Tak tahu nak mula, atau segan", "s": 3, "i": {"en": "Without strength training, extra food turns into belly fat more easily than muscle. Same for women: it helps you look fuller, not bulky. 20 minutes at home is enough to start.", "ms": "Tanpa latihan kekuatan, lebihan makanan senang jadi lemak perut, bukan otot. Perempuan pun sama: ia bantu badan nampak berisi, bukan sasa. 20 minit di rumah dah cukup untuk mula."}}], "fix": {"h": {"ms": "Latihan kekuatan 3 kali seminggu", "en": "Strength train 3 times a week"}, "t": {"ms": "30 minit, boleh di rumah: squat, push-up (mula di dinding atau lutut), row dengan beg galas isi buku, dan glute bridge. Buat 2-3 set, 8-15 ulangan. Bila semua set capai 15, tambah beban atau pilih versi lebih susah. Sakit otot 2-3 hari pertama itu biasa, jangan berhenti.", "en": "30 minutes, at home is fine: squats, push-ups (start on a wall or your knees), rows with a backpack of books, and glute bridges. Do 2-3 sets of 8-15 reps. When every set reaches 15, add weight or pick a harder version. Sore muscles for the first 2-3 days are normal, so don't stop."}}},
+  {"type": "score", "pillar": {"en": "Mindset & Method", "ms": "Minda & Kaedah"}, "short": {"ms": "Tidur & stres", "en": "Sleep & stress"}, "q": {"ms": "Macam mana tidur dan tahap stres anda kebelakangan ini?", "en": "How are your sleep and stress lately?"}, "a": [{"en": "7+ hours of sleep, stress is manageable", "ms": "Tidur 7 jam atau lebih, stres masih terkawal", "s": 0}, {"en": "Around 6 hours, stress comes and goes", "ms": "Lebih kurang 6 jam, stres datang dan pergi", "s": 1, "i": {"en": "Muscle repairs while you sleep. Around 6 hours is often not enough for your body to recover after training.", "ms": "Otot dibaiki masa anda tidur. Tidur lebih kurang 6 jam selalunya belum cukup untuk badan pulih selepas latihan."}}, {"en": "Under 6 hours and I'm stressed most days", "ms": "Kurang 6 jam dan stres hampir setiap hari", "s": 3, "i": {"en": "Little sleep and daily stress can shut down your appetite, so eating enough gets hard. If stress or low mood has taken your appetite for more than 2 weeks, see a doctor.", "ms": "Kurang tidur dan stres setiap hari boleh tutup selera, jadi susah nak makan cukup. Kalau stres atau rasa sedih buat anda hilang selera lebih 2 minggu, jumpa doktor."}}, {"en": "I sleep late or wake up tired, so I skip breakfast", "ms": "Tidur lewat atau bangun penat, sampai sarapan pun skip", "s": 2, "i": {"en": "Late nights or tired mornings usually wipe out breakfast, so you lose a meal every day. A glass of milk or bread with peanut butter is enough to start. If the tiredness lasts for weeks, ask a doctor for a blood test.", "ms": "Tidur lewat atau bangun penat selalunya buang sarapan terus, jadi satu waktu makan hilang setiap hari. Segelas susu atau roti peanut butter pun dah cukup untuk mula. Kalau penat berterusan berminggu-minggu, minta doktor buat ujian darah."}}], "fix": {"h": {"ms": "Jaga tidur anda", "en": "Protect your sleep"}, "t": {"ms": "Tidur pada waktu yang sama setiap malam dan letak telefon 30 minit sebelum tidur. Sasarkan 7 jam, dan makan sesuatu dalam sejam selepas bangun, walaupun cuma segelas susu.", "en": "Go to bed at the same time every night and put your phone away 30 minutes before. Aim for 7 hours, and eat something within an hour of waking, even just a glass of milk."}}},
+  {"type": "score", "pillar": {"en": "Mindset & Method", "ms": "Minda & Kaedah"}, "short": {"ms": "Cubaan lepas", "en": "Last attempt"}, "q": {"ms": "Apa jadi kali terakhir anda cuba naikkan berat badan?", "en": "What happened the last time you tried to gain weight?"}, "a": [{"en": "It worked, I just want more", "ms": "Ada hasil, cuma nak naik lagi", "s": 0}, {"en": "I've never really tried properly", "ms": "Belum pernah cuba betul-betul", "s": 1, "i": {"en": "Good news: you can start the right way from day one. That's easier than undoing old habits.", "ms": "Bagus, anda boleh mula dengan cara yang betul dari awal. Itu lebih senang daripada betulkan tabiat lama."}}, {"en": "I eat a lot, but the scale won't move", "ms": "Dah makan banyak, tapi berat tetap tak naik", "s": 2, "i": {"en": "This is what we hear most. Usually “eating a lot” is a day or two, then little on other days. Write down what you eat for 3 days, don't guess. If you really eat a lot and your weight still won't move or keeps dropping, see a doctor to check your thyroid and blood sugar.", "ms": "Ini yang paling kerap kami dengar. Selalunya “makan banyak” cuma sehari dua, dan sikit pada hari lain. Catat apa yang anda makan 3 hari, jangan teka. Kalau memang makan banyak tapi berat tetap tak naik atau makin turun, jumpa doktor untuk semak tiroid dan gula dalam darah."}}, {"en": "I gave up fast because I had no plan and no support", "ms": "Cepat putus asa sebab tak ada pelan dan tak ada sokongan", "s": 3, "i": {"en": "Giving up because you had no plan or support is exactly what coaching fixes. You won't be doing it alone this time.", "ms": "Putus asa sebab tiada pelan dan sokongan ialah perkara yang coaching selesaikan. Kali ini anda tak buat seorang diri."}}]},
+  ...Q_LOSS.slice(-3)];
+let QUESTIONS = Q_LOSS;
+const isGain = () => QUESTIONS === Q_GAIN;
+const PILLAR_TIPS_G = {"Nutrition": {"en": "Nutrition is your weakest side. Your body isn't getting enough food and protein every day to gain weight. Start by eating 5 times a day with protein on every plate.", "ms": "Pemakanan ialah bahagian paling lemah anda. Badan anda belum dapat cukup makanan dan protein setiap hari untuk naik berat. Mula dengan makan 5 kali sehari dan protein dalam setiap pinggan."}, "Workout": {"en": "Movement is your weakest side. Without strength training, extra food turns into belly fat more easily than muscle. No need for the gym every day: three 30-minute sessions a week, at home or the gym, is enough to start.", "ms": "Senaman ialah bahagian paling lemah anda. Tanpa latihan kekuatan, lebihan makanan lebih mudah jadi lemak perut, bukan otot. Tak perlu gym hari-hari: tiga sesi 30 minit seminggu, di rumah atau di gym, dah cukup untuk mula."}, "Mindset & Method": {"en": "Mindset and method is your weakest side. Poor sleep and stress can shut down your appetite, and without a plan it's hard to eat enough every day. A clear plan and a coach who checks in help you stay consistent.", "ms": "Minda dan kaedah ialah bahagian paling lemah anda. Kurang tidur dan stres boleh tutup selera, dan tanpa pelan, susah nak makan cukup setiap hari. Pelan yang jelas dan coach yang follow-up bantu anda kekal konsisten."}};
+
 const TIERS = [
   { max:5, color:"var(--ok)",
     badge:{en:"On track",ms:"Di landasan betul"},
     title:{en:"You're closer than you think",ms:"Anda lebih dekat dengan matlamat daripada yang anda sangka"},
     text:{en:"Your foundations are decent. What's missing is structure: the right nutrition and a plan that fits a busy schedule so your effort turns into visible results.",
-          ms:"Asas anda dah okay. Yang kurang cuma struktur: pemakanan yang betul dan pelan yang sesuai dengan jadual sibuk, supaya usaha anda nampak hasil."} },
+          ms:"Asas anda dah okay. Yang kurang cuma struktur: pemakanan yang betul dan pelan yang sesuai dengan jadual sibuk, supaya usaha anda nampak hasil."},
+    textG:{"en": "Your foundations are decent. What's missing is structure: enough calories and protein every day and consistent strength training, so more of what you gain is muscle.", "ms": "Asas anda dah okay. Yang kurang cuma struktur: kalori dan protein yang cukup setiap hari, dan latihan kekuatan yang konsisten, supaya yang naik lebih banyak otot."} },
   { max:10, color:"var(--mid)",
     badge:{en:"Running on empty",ms:"Tenaga habis"},
     title:{en:"Your routine is working against you",ms:"Rutin harian anda sedang melawan anda"},
     text:{en:"You're trying, but long days, rushed meals and low energy keep pulling you back to square one. You don't need more willpower. You need a system that does the heavy lifting.",
-          ms:"Anda dah berusaha, tapi hari yang panjang, makan tergesa-gesa dan tenaga rendah buat anda asyik kembali ke titik mula. Anda tak perlukan lebih semangat. Anda perlukan sistem yang buat kerja berat untuk anda."} },
+          ms:"Anda dah berusaha, tapi hari yang panjang, makan tergesa-gesa dan tenaga rendah buat anda asyik kembali ke titik mula. Anda tak perlukan lebih semangat. Anda perlukan sistem yang buat kerja berat untuk anda."},
+    textG:{"en": "You're trying, but irregular meals, low protein and late nights leave your body without enough to build on. You don't need to force-feed yourself. You need a simple system you can follow.", "ms": "Anda dah cuba, tapi makan tak tetap, protein kurang dan tidur lewat buat badan tak cukup bahan untuk naik. Anda tak perlu paksa makan sampai muak. Anda perlukan sistem yang mudah diikut."} },
   { max:15, color:"var(--warm)",
     badge:{en:"Burnout zone",ms:"Zon burnout"},
     title:{en:"Your body is asking for a full reset",ms:"Badan anda perlukan reset sepenuhnya"},
     text:{en:"Skipped meals, little sleep, high stress and no support add up. This is exactly where most busy adults get stuck for years. The good news: it's also where the biggest transformations start.",
-          ms:"Skip makan, kurang tidur, stres tinggi dan tiada sokongan, semuanya bertimbun. Di sinilah ramai orang sibuk tersangkut bertahun-tahun. Berita baiknya: di sini jugalah transformasi paling besar bermula."} }
+          ms:"Skip makan, kurang tidur, stres tinggi dan tiada sokongan, semuanya bertimbun. Di sinilah ramai orang sibuk tersangkut bertahun-tahun. Berita baiknya: di sini jugalah transformasi paling besar bermula."},
+    textG:{"en": "Skipped meals, little protein, late nights and no plan add up. This is where many slim people stay stuck for years blaming a “fast metabolism”. The good news: it's also where the biggest changes start.", "ms": "Skip makan, protein sikit, tidur lewat dan tiada pelan, semuanya bertimbun. Di sinilah ramai orang kurus tersangkut bertahun-tahun dengan alasan “metabolisme laju”. Berita baiknya: di sini jugalah perubahan paling besar bermula."} }
 ];
 
 const PILLAR_TIPS = {
@@ -1091,7 +1132,7 @@ function applyLang(){
   $("name").placeholder = T.namePh;
   waFloat();
   $("web-foot").href = CONFIG.websiteUrl;
-  $("share").href = "https://wa.me/?text=" + encodeURIComponent((LANG==="ms" ? "Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak turun. Cuba la: " : "I just took this 2-minute quiz that shows why your weight won't budge. Try it: ") + "https://kimidullz.github.io/FITNESS-QUIZ/" + (LANG==="en" ? "?lang=en" : "") + "#quiz-zone");
+  $("share").href = shareLink(false);
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
   document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:SRC, go:CONFIG.websiteUrl}); }; });
   $("testimonials").hidden = !TESTIMONIALS.length;
@@ -1108,6 +1149,10 @@ function applyLang(){
   });
   if(view==="quiz") render();
   if(view==="result") showResult(true);
+}
+function shareLink(gain){
+  const msg = gain ? T.shareG : LANG==="ms" ? "Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak turun. Cuba la: " : "I just took this 2-minute quiz that shows why your weight won't budge. Try it: ";
+  return "https://wa.me/?text=" + encodeURIComponent(msg + "https://kimidullz.github.io/FITNESS-QUIZ/" + (LANG==="en" ? "?lang=en" : "") + "#quiz-zone");
 }
 // floating WhatsApp: the coach picked in the quiz (saved in this browser), else Coach Kimi, named on the button
 function waFloat(){
@@ -1143,7 +1188,9 @@ function render(){
     const b = document.createElement("button");
     b.className = "opt"+(answers[i]===idx?" sel":"");
     b.textContent = L(opt);
-    b.onclick = ()=>{ if(locked) return; locked = true; answers[i]=idx; b.classList.add("sel"); setTimeout(next,180); };
+    b.onclick = ()=>{ if(locked) return; locked = true; answers[i]=idx;
+      if(i===0){ const nq = opt.v==="gain" ? Q_GAIN : Q_LOSS; if(nq!==QUESTIONS){ QUESTIONS = nq; answers.length = 1; } }   // Q1 picks the path; a new path clears Q2-Q10
+      b.classList.add("sel"); setTimeout(next,180); };
     $("opts").appendChild(b);
   });
   $("back").style.visibility = i===0 ? "hidden" : "visible";
@@ -1172,7 +1219,8 @@ function showResult(relang){
   $("r-badge").style.background = tier.color; $("r-badge").style.color = "#fff";
   const title = L(tier.title);
   $("r-title").textContent = firstName ? firstName+", "+title.charAt(0).toLowerCase()+title.slice(1) : title;
-  $("r-text").textContent = L(tier.text);
+  const gain = isGain();
+  $("r-text").textContent = L(gain ? tier.textG : tier.text);
 
   let weakest = null, weakestPct = -1;
   $("pillars").innerHTML = "";
@@ -1183,7 +1231,7 @@ function showResult(relang){
     $("pillars").insertAdjacentHTML("beforeend",
       `<div class="pillar"><div class="pillar-top"><span>${pLabel[p]}</span><span>${T.lvl[pct>=67?2:pct>=34?1:0]}</span></div><div class="bar"><span style="width:${relang?pct:0}%;background:${col}" data-w="${pct}"></span></div></div>`);
   });
-  $("r-weak").innerHTML = weakestPct ? `<strong>${T.fixLead}</strong> ` + L(PILLAR_TIPS[weakest]) + T.fixTail : T.allStrong;
+  $("r-weak").innerHTML = weakestPct ? `<strong>${T.fixLead}</strong> ` + L((gain ? PILLAR_TIPS_G : PILLAR_TIPS)[weakest]) + T.fixTail : T.allStrong;
 
   // what your answers tell me
   $("tell-goal").innerHTML = T.tellGoal(L(ans("goal")), L(ans("why")));
@@ -1195,13 +1243,17 @@ function showResult(relang){
   // next steps: fixes for their two worst answers (stable sort keeps question order on ties), then the coach
   const fixes = QUESTIONS.map((q,k)=>({f:q.fix, s:q.a[answers[k]].s})).filter(x=>x.f).sort((x,y)=>y.s-x.s);
   $("steps").innerHTML = fixes.slice(0,2).map(({f})=>`<li><strong>${L(f.h)}</strong>${L(f.t)}</li>`).join("")
-    + `<li><strong>${T.stepFinalH}</strong>${T.stepFinal}</li>`;
+    + `<li><strong>${gain ? T.stepFinalHG : T.stepFinalH}</strong>${gain ? T.stepFinalG : T.stepFinal}</li>`;
+  $("r-proof").textContent = gain ? T.proofG : T.proof; $("r-proof").classList.toggle("g", gain);
+  const doc = gain && ans("why").doc;   // weight dropping on its own: doctor first, WhatsApp stays the main button
+  $("r-doc").hidden = !doc; $("r-doc").textContent = doc ? T.docBox : "";
+  $("share").href = shareLink(gain);
 
   ctx = { tier, total, maxTotal, weakestLabel: weakestPct ? pLabel[weakest] : "-" };
   // not ready yet ("just exploring" or 1-4): the free kit is the main button, WhatsApp stays below it
-  const low = ans("when").low || ans("commit").low;
-  $("cta-title").textContent = (low ? T.ctaTitleLow : T.ctaTitle)(firstName);
-  $("cta-lead").textContent = low ? T.ctaLeadLow : T.ctaLead;
+  const low = !doc && (ans("when").low || ans("commit").low);
+  $("cta-title").textContent = (low ? (gain ? T.ctaTitleLowG : T.ctaTitleLow) : T.ctaTitle)(firstName);
+  $("cta-lead").textContent = low ? (gain ? T.ctaLeadLowG : T.ctaLeadLow) : T.ctaLead;
   $("kit-first").hidden = !low; $("res-kalori").hidden = !!low;
   updateWa();
 
@@ -1240,7 +1292,7 @@ function updateWa(){
   $("wa").textContent = w2.textContent = coach ? T.waBtn : T.pickFirst;
   if(!coach){ $("wa").removeAttribute("href"); w2.removeAttribute("href"); $("wa").onclick = null; w2.onclick = ()=>$("coachpick").scrollIntoView({behavior:"smooth",block:"center"}); return; }
   const c = CONFIG.coaches[coach];
-  const url = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([T.wa.hi, ...profileLines(), T.wa.end].join("\n").replace("%COACH%", c.name))}`;
+  const url = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([isGain() ? T.wa.hiG : T.wa.hi, ...profileLines(), isGain() ? T.wa.endG : T.wa.end].join("\n").replace("%COACH%", c.name))}`;
   $("wa").href = w2.href = url;
   $("wa").onclick = w2.onclick = ()=>{ if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase(); logTap(sheetParams(url, "WhatsApp")); };
 }
@@ -1312,7 +1364,12 @@ function runCalc(){
   const gain = calc.goal==="gain", bmi = kg/((cm/100)**2);
   if(!gain && bmi < 18.5){ err.textContent = T.calErrUnder; return; }
   if(gain && bmi < 16){ err.textContent = T.calErrLow; return; }
-  if(gain && bmi >= 23){ err.textContent = T.calErrGainHigh; return; }   // Asian cut-off (Malaysian CPG): 23+ is overweight
+  if(gain && bmi >= 23){   // Asian cut-off (Malaysian CPG): 23+ is overweight
+    const c = CONFIG.coaches[coach || kitGet().c] || CONFIG.coaches.m;
+    err.innerHTML = `${T.calErrGainHigh} <a href="https://wa.me/${c.whatsapp}?text=${encodeURIComponent(T.calGainHighMsg.replace("%C", c.name))}" target="_blank" rel="noopener">${T.calGainHighWa}</a>`;
+    err.querySelector("a").onclick = ()=>logTap({type:"quiz", via:"Calculator muscle WhatsApp", src:SRC, coach:c.name});
+    return;
+  }
   const act = +$("c-act").value, k = (gain ? gainCalories : calories)(calc.sex, age, cm, kg, act);
   calLabels();
   // ties go to the higher plan
@@ -1345,7 +1402,7 @@ function calNext(){
   const done = view==="result", gain = calc.goal==="gain", q = s => document.querySelector(".c-next " + s);
   q("b").innerHTML = gain ? T.calNextHG : T.calNextH;
   q("p").innerHTML = gain ? T.calNextPG : done ? T.calNextP2 : T.calNextP;
-  q(".btn").innerHTML = done ? T.calNextBtn2 : T.calNextBtn; q(".btn").style.display = gain ? "none" : "";   // the quiz is about fat loss
+  q(".btn").innerHTML = done ? T.calNextBtn2 : T.calNextBtn;   // the quiz has a gain path too
   q(".assess").innerHTML = gain ? T.calAssessG : T.calAssess;
 }
 $("c-sex").querySelectorAll("button").forEach(b=>b.onclick=()=>{ calc.sex = b.dataset.v; calcLang(); });
@@ -1402,13 +1459,14 @@ function h7Open(){ if(location.hash !== "#hari7") return; $("hari7").hidden = fa
 window.addEventListener("hashchange", h7Open);
 
 applyLang();
+[$("kit-first"), document.querySelector("#res-kalori a")].forEach(a=>a.addEventListener("click", ()=>$("c-goal").querySelector(`[data-v="${isGain() ? "gain" : "loss"}"]`).click()));
 $("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:SRC});
 h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});
 floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7"));
 $("r-dot").style.left = "4%";
-$("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; show("quiz"); render(); };
+$("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; QUESTIONS = Q_LOSS; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
 $("back").onclick = ()=>{ if(i>0){ i--; render(); } };
 $("retake").onclick = ()=>{ i=0; answers=[]; quizId=null; ctx={}; show("intro"); };
