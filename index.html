@@ -606,6 +606,7 @@
     </div>
     <div class="links">
       <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
+      <a id="income-foot" href="peluang.html" data-t="incomeFoot"></a>
     </div>
     <p class="fine" data-t="footFine"></p>
   </div>
@@ -760,7 +761,7 @@ const TXT = {
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
     testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
-    webFoot:"Free online body assessment", incomeFoot:"Side income opportunity (in Malay)",
+    webFoot:"Free online body assessment", incomeFoot:"Side income opportunity",
     faqH:"Questions people ask",
     faq:[
       ["What is the free online body assessment?","You fill in a form online on the WeDoTransformations page (it opens in a new tab). Then Coach Kimi contacts you personally to explain where your body is now and what to fix first. It's free, and there's no pressure to join. Programs start from RM259 a month, supplements included."],
@@ -1132,6 +1133,7 @@ function applyLang(){
   $("name").placeholder = T.namePh;
   waFloat();
   $("web-foot").href = CONFIG.websiteUrl;
+  $("income-foot").href = LANG==="en" ? "peluang.html?lang=en" : "peluang.html";
   $("share").href = shareLink(false);
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
   document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:SRC, go:CONFIG.websiteUrl}); }; });
