@@ -30,7 +30,8 @@
     --ok:#111; --mid:#8A8A8A; --warm:#E30613;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
+  html{scroll-behavior:auto}   /* a #link jumps straight there while the page loads; smooth only after load */
+  @media (prefers-reduced-motion:no-preference){html.loaded{scroll-behavior:smooth}}
   body{background:var(--bg);color:var(--ink);font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:inherit}
   .hidden{display:none!important}
@@ -1650,9 +1651,7 @@ applyLang();
 [$("kit-first"), document.querySelector("#res-kalori a")].forEach(a=>a.addEventListener("click", ()=>$("c-goal").querySelector(`[data-v="${isGain() ? "gain" : "loss"}"]`).click()));
 $("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:SRC});
 h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
-// links like #kit or #kalori: land again once the headline font has loaded and moved the page, unless the visitor already scrolled
-let touched = false; ["wheel","touchstart","keydown"].forEach(e=>addEventListener(e, ()=>touched=true, {once:true, passive:true}));
-window.addEventListener("load", ()=>document.fonts.ready.then(()=>{ const t = location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1))); if (t && !t.hidden && !touched && t.id !== "hari7") t.scrollIntoView({behavior:"instant"}); }));
+window.addEventListener("load", ()=>document.documentElement.classList.add("loaded"));
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
 floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe(document.querySelector(".sx-final"));
