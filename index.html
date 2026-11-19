@@ -20,6 +20,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+<!-- Scroll Craft engine (nateherkai/scroll-craft 75d81f7), copied unedited -->
+<link rel="stylesheet" href="sc/scrollcraft.css">
 <style>
   :root{
     --black:#0B0B0B; --ink:#111; --white:#fff;
@@ -315,6 +317,115 @@
   footer .socials a{text-decoration:none;font-weight:700;color:#fff}
   footer .socials a:hover{color:var(--yellow)}
   footer .fine{width:100%;opacity:.6;font-size:12px}
+
+  /* ===== Scroll Craft story (v2) ===== */
+  :root{--sc-canvas:#0B0B0B;--sc-ink:#F4F4F2;--sc-ink-soft:#A9A6A0;--sc-accent:#FFD200;--sc-accent-ink:#0B0B0B;--gut:clamp(16px,4.6vw,64px)}
+  /* undo the engine's page-wide type and focus defaults: the tool sections keep their own look */
+  body{font-size:16px;letter-spacing:normal;font-synthesis-weight:auto}
+  :root{accent-color:auto;caret-color:auto}
+  :focus-visible{outline-color:var(--ink)}
+  .sx :focus-visible{outline-color:var(--yellow)}
+  .sx{background:var(--black);color:#F4F4F2}
+  .sx-plane{position:absolute;pointer-events:none}
+
+  /* 1 hero: the thesis at poster scale, the button usable on landing */
+  .sx-hero{position:relative;overflow:clip;min-height:100svh;display:flex;align-items:center;padding:72px 0 56px}
+  .sx-neq{right:-15vw;top:50%;width:min(70vh,46vw);translate:0 -50%}
+  .sx-neq path{fill:none;stroke:var(--yellow);stroke-width:1.6px;vector-effect:non-scaling-stroke}
+  .sx-bars{right:-4%;bottom:6%;width:min(38vw,520px);height:clamp(14px,2.2vw,32px);display:flex;transform:skewX(-28deg)}
+  .sx-bars i{flex:1;background:var(--red)}.sx-bars i+i{background:var(--yellow)}
+  @media (prefers-reduced-motion:no-preference){
+    .sx-neq{transform:scale(calc(.7 + var(--sc-p,0) * .8)) rotate(calc(var(--sc-p,0) * -10deg))}
+    .sx-bars{transform:translate3d(calc(var(--sc-p,0) * -30vw),0,0) skewX(-28deg)}
+  }
+  .sx-hero .container{position:relative;z-index:1;width:100%}
+  .sx-kick{display:inline-block;font-weight:800;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;background:var(--yellow);color:#000;padding:5px 10px;margin-bottom:18px}
+  .sx-h1{font-size:clamp(52px,8.4vw,128px);line-height:.94;max-width:10.5em;margin-bottom:22px}
+  .sx-h1 em{display:block;font-size:.36em;line-height:1.1;color:var(--yellow);margin-top:.5em}
+  .sx-sub{font-size:clamp(16px,1.5vw,19px);max-width:560px;opacity:.88;margin-bottom:22px}
+
+  /* 2 the scale (peak) */
+  .sx-st{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:84px var(--gut) 40px}
+  .sx-label{font-weight:800;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:var(--yellow)}
+  .sx-read{display:flex;align-items:flex-end;gap:.06em;font-family:Anton,Impact,sans-serif;font-style:italic;line-height:.86;margin:.08em 0 .1em}
+  .sx-nums{display:grid}
+  .sx-nums>span{grid-area:1/1;font-size:min(34vw,62vh)}
+  .sx-num--up{color:var(--yellow)}
+  .sx-kg{font-size:min(7vw,12vh);padding-bottom:.32em;color:var(--sc-ink-soft)}
+  .sx-caps{display:grid;max-width:34rem}
+  .sx-caps>*{grid-area:1/1;align-self:start}
+  .sx-cap{font-weight:600;font-size:clamp(18px,1.9vw,24px);line-height:1.4}
+  .sx-turn{font-size:clamp(34px,4.4vw,64px);line-height:1;margin-bottom:.35em}
+  .sx-turn em{color:var(--yellow);font-style:italic}
+  .sx-vary{font-size:13px;font-weight:500;color:var(--sc-ink-soft);margin-top:.6em}
+  .sx-ph{position:absolute;margin:0;right:var(--gut);top:50%;translate:0 -50%;width:min(34vw,60vh);aspect-ratio:1}
+  .sx-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:8px}
+
+  /* 3 proof: client posters travel sideways */
+  .sx-pan{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:clamp(12px,2.4vh,24px);padding-top:64px}
+  .sx-h2{font-size:clamp(34px,5vw,64px);line-height:1}
+  .sx-pan__p,.sx-pan__note{font-size:13px;color:var(--sc-ink-soft);max-width:60ch}
+  .sx-pan__p{margin-top:8px}
+  .sx-rail{gap:14px;padding:0 var(--gut);width:max-content}
+  .sx-rail .tcard{flex:0 0 auto;height:min(56svh,520px);width:auto;aspect-ratio:9/16;padding:0;margin:0;border-radius:8px}
+  .sx-rail .tcard img{width:100%;height:100%;aspect-ratio:9/16;object-fit:cover;margin:0;border-radius:0}
+
+  /* 4 invite */
+  .sx-cta{padding:clamp(64px,14vh,140px) 0}
+  .sx-cta .sx-h2{max-width:12em;margin-bottom:24px}
+  .sx-note{font-size:14px;opacity:.8;margin-top:12px;max-width:560px}
+  .sx-price{font-weight:700;opacity:1}
+
+  @media (max-width:760px){
+    .sx-h1{font-size:13.4vw}
+    .sx-neq{display:none}
+    .sx-bars{bottom:3%;width:48vw}
+    .sx-st{padding-bottom:88px}   /* clear of the floating WhatsApp button */
+    .sx-pan{padding-bottom:84px}
+    .sx-ph{top:76px;translate:none;width:min(42vw,30svh)}
+    .sx-nums>span{font-size:min(44vw,27svh)}
+    .sx-kg{font-size:9vw}
+    .sx-cap{font-size:17px}
+    .sx-turn{font-size:11vw}
+  }
+
+  /* ===== the rest of the page in the story's colours ===== */
+  body{background:var(--black)}
+  section.block,.kit{background:var(--black);color:#F4F4F2}
+  .eyebrow{color:var(--yellow)}
+  .lede{color:#C9C6C0}
+  .tnote{color:#A9A6A0}
+  .kit{padding:clamp(56px,10vh,110px) 0}
+  .kit-note{color:#F4F4F2}.kit-note a{color:var(--yellow)}
+  .kit .hero-ctas{margin-top:22px}
+  .calc,.offer,.cc,details{color:var(--ink)}
+  .offer{border-color:#fff}
+  .sx-c{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:84px var(--gut) 88px}
+  .sx-big{font-family:Anton,Impact,sans-serif;font-style:italic;text-transform:uppercase;line-height:.92;font-size:clamp(68px,12vw,200px)}
+  .sx-big--y{color:var(--yellow)}
+  .sx-line{font-weight:600;font-size:clamp(18px,2vw,26px);line-height:1.4;max-width:30ch;margin-top:.8em}
+  .sx-qbars{left:-8%;top:18%;width:min(40vw,520px);height:clamp(14px,2.2vw,32px);display:flex;transform:skewX(-28deg)}
+  .sx-qbars i{flex:1;background:var(--yellow)}.sx-qbars i+i{background:var(--red)}
+  @media (prefers-reduced-motion:no-preference){.sx-qbars{transform:translate3d(calc(var(--sc-p,0) * 70vw),0,0) skewX(-28deg)}}
+  .sx-qintro .sx-c{align-items:flex-start}
+  .quiz-zone .sx-qmark{left:50%;top:6%;width:min(70vw,640px);margin-left:max(-46vw,-520px)}
+  .sx-qmark text{fill:none;stroke:var(--yellow);stroke-width:1.2px;vector-effect:non-scaling-stroke;font:italic 100px Anton,Impact,sans-serif}
+  .sx-price .sx-label{margin-bottom:.4em}
+  .sx-price .sx-big{font-size:clamp(96px,19vw,300px)}
+  .sx-price .sx-big span{color:var(--yellow)}
+  .sx-final{background:var(--red);color:#fff}
+  .sx-final__wrap{position:absolute;inset:0;display:flex;flex-direction:column}
+  .sx-final__in{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:84px var(--gut) 24px}
+  .sx-final__in h2{font-size:clamp(36px,6.4vw,84px);margin-bottom:22px;max-width:12em}
+  .sx-final .big{background:#000}
+  .sx-final .price-s{opacity:1;font-weight:600}
+  .sx-final footer{padding-top:24px}
+  @media (max-width:760px){
+    .sx-big{font-size:21vw}
+    .sx-price .sx-big{font-size:26vw}
+    .sx-qbars{top:14%;width:56vw}
+    .quiz-zone .sx-qmark{width:110vw;margin-left:-55vw}
+  }
 </style>
 </head>
 <body>
@@ -332,12 +443,14 @@
 </header>
 
 <main id="top">
-  <!-- HERO -->
-  <section class="hero">
+  <!-- STORY 1: hero (flow). Thesis at poster scale, the body assessment button usable on landing -->
+  <section class="sx sx-hero" id="sx-hero" data-sc-act="flow">
+    <svg class="sx-plane sx-neq" viewBox="0 0 100 100" aria-hidden="true"><path d="M8 30h84v12H8zM8 58h84v12H8zM60 4l11 4-31 88-11-4z"/></svg>
+    <div class="sx-plane sx-bars" aria-hidden="true"><i></i><i></i></div>
     <div class="container">
-      <div class="kicker"><span data-t="heroKicker"></span></div>
-      <h1 class="display" data-t="heroH"></h1>
-      <p class="sub" data-t="heroSub"></p>
+      <p class="sx-kick" data-t="heroKicker"></p>
+      <h1 class="display sx-h1" data-t="heroH"></h1>
+      <p class="sx-sub" data-t="heroSub"></p>
       <div class="ticks-hero" data-t="heroTicks"></div>
       <div class="hero-ctas">
         <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
@@ -345,6 +458,43 @@
         <a class="quiz-link" href="#kit" data-t="heroQuizLink"></a>
       </div>
       <p class="price-s" data-t="priceLine"></p>
+    </div>
+  </section>
+
+  <!-- STORY 2 (peak): pin. The scale falls 84 to 60, then climbs to 70 and that is the good ending -->
+  <section class="sx" id="sx-scale" data-sc-act="pin" data-sc-span="3.6">
+    <div data-sc-stage>
+      <figure class="sx-ph">
+        <img src="img/kimi-before.jpg" data-sc-cue="0.24 0.66 0.15 0.1" alt="Coach Kimi at 60 kg, skinny fat" width="600" height="600" loading="lazy">
+        <img src="img/kimi-after.jpg" data-sc-cue="0.6 1 0.08 0.04" alt="Coach Kimi now, deadlifting" width="600" height="600" loading="lazy">
+      </figure>
+      <div class="sx-st">
+        <p class="sx-label" data-t="sxLabel"></p>
+        <div class="sx-read">
+          <div class="sx-nums">
+            <span data-sc-cue="0 0.64 0 0.08" data-sc-count="84 60" data-sc-count-at="0.08 0.42">84</span>
+            <span class="sx-num--up" data-sc-cue="0.58 1 0.06 0.04" data-sc-count="60 70" data-sc-count-at="0.68 0.88">60</span>
+          </div>
+          <span class="sx-kg">KG</span>
+        </div>
+        <div class="sx-caps">
+          <p class="sx-cap" data-sc-cue="0 0.3 0" data-t="sx1"></p>
+          <p class="sx-cap" data-sc-cue="0.26 0.5" data-t="sx2"></p>
+          <p class="sx-cap" data-sc-cue="0.46 0.66" data-t="sx3"></p>
+          <div class="sx-cap" data-sc-cue="0.62 1 0.1 0.04"><p class="display sx-turn" data-t="kimiHead"></p><p data-t="sx4"></p><p class="sx-vary" data-t="coachNote"></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY 3: pan. Real client posters travel sideways (same list and posters as before) -->
+  <section class="sx" id="testimonials" data-sc-act="pan" data-sc-span="3">
+    <div data-sc-stage>
+      <div class="sx-pan">
+        <div class="container"><h2 class="display sx-h2" data-t="testiH"></h2><p class="sx-pan__p" data-t="sxProofP"></p></div>
+        <div class="sx-rail" id="tgrid" data-sc-pan="0.04"></div>
+        <p class="container sx-pan__note" data-t="testiNote"></p>
+      </div>
     </div>
   </section>
 
@@ -371,8 +521,8 @@
   </section>
 
   <!-- FREE STARTER KIT: 3 free steps; ticks are saved in this browser only -->
-  <section class="kit" id="kit">
-    <div class="container">
+  <section class="sx kit" id="kit" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="80">
       <div class="eyebrow" data-t="kitEyebrow"></div>
       <h2 class="title display" data-t="kitH"></h2>
       <div class="kit-steps">
@@ -381,11 +531,25 @@
         <a class="assess" target="_blank" rel="noopener" data-k="a"><i>3</i><span data-t="kit3"></span></a>
       </div>
       <p class="kit-note" id="kit-note"></p>
+      <div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
+    </div>
+  </section>
+
+  <!-- QUIZ INTRO: pin. Three facts build up, then the quiz card -->
+  <section class="sx sx-qintro" data-sc-act="pin" data-sc-span="1.5">
+    <div data-sc-stage>
+      <div class="sx-plane sx-qbars" aria-hidden="true"><i></i><i></i></div>
+      <div class="sx-c">
+        <p class="sx-big" data-sc-cue="0 1 0 0.08" data-t="sxQ1"></p>
+        <p class="sx-big sx-big--y" data-sc-cue="0.22 1 0.15 0.08" data-t="sxQ2"></p>
+        <p class="sx-line" data-sc-cue="0.44 1 0.15 0.08" data-t="sxQ3"></p>
+      </div>
     </div>
   </section>
 
   <!-- QUIZ -->
-  <section class="quiz-zone" id="quiz-zone">
+  <section class="quiz-zone" id="quiz-zone" data-sc-act="flow">
+    <svg class="sx-plane sx-qmark" viewBox="0 0 60 100" aria-hidden="true" data-sc-parallax="-2.4"><text x="2" y="92">?</text></svg>
     <div class="container">
       <div class="wrap">
         <div class="card fade" id="intro">
@@ -460,8 +624,8 @@
   </section>
 
   <!-- MEAL CALCULATOR: daily calorie range, protein and the free 8-page meal plan PDF (Kit Mula 7 Hari) -->
-  <section class="block" id="kalori">
-    <div class="container">
+  <section class="block" id="kalori" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow" data-t="calEyebrow"></div>
       <h2 class="title display" data-t="calH"></h2>
       <p class="lede" data-t="calLede"></p>
@@ -495,20 +659,23 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS: shown once TESTIMONIALS below has entries -->
-  <section class="block" id="testimonials" hidden>
-    <div class="container">
-      <div class="eyebrow" data-t="testiEyebrow"></div>
-      <h2 class="title display" data-t="testiH"></h2>
-      <p class="lede" data-t="wdtP"></p>
-      <div class="tgrid" id="tgrid"></div>
-      <p class="tnote" data-t="testiNote"></p>
+  <!-- TESTIMONIALS moved up into the story (#testimonials pan act) -->
+
+  <!-- PRICE: pin. The starting price holds on screen (ground), the terms build up under it -->
+  <section class="sx sx-price" data-sc-act="pin" data-sc-span="1.6">
+    <div data-sc-stage>
+      <div class="sx-c">
+        <p class="sx-label" data-sc-cue="0 1 0 0.08" data-t="sxP1"></p>
+        <p class="sx-big"><span>RM</span>259</p>
+        <p class="sx-line" data-sc-cue="0.28 1 0.15 0.08" data-t="sxP2"></p>
+        <p class="sx-line" data-sc-cue="0.46 1 0.15 0.08" style="font-weight:500;color:#C9C6C0" data-t="sxP3"></p>
+      </div>
     </div>
   </section>
 
   <!-- OPTIONS -->
-  <section class="block" id="pilihan">
-    <div class="container">
+  <section class="block" id="pilihan" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow" data-t="offEyebrow"></div>
       <h2 class="title display" data-t="offH"></h2>
       <p class="lede" data-t="offLede"></p>
@@ -537,7 +704,7 @@
   </section>
 
   <!-- COACHES -->
-  <section class="block" id="coaches">
+  <section class="block" id="coaches" data-sc-act="flow">
     <div class="container">
       <div class="coach-intro">
         <div>
@@ -545,10 +712,10 @@
           <h2 class="title display" data-t="coachH"></h2>
           <p class="lede" data-t="coachLede"></p>
         </div>
-        <img class="couple" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
+        <img class="couple" data-sc-reveal="up" data-sc-reveal-at="0.04 0.26" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
       </div>
       <div class="coaches">
-        <article class="cc">
+        <article class="cc" data-sc-tilt="3">
           <div class="ba">
             <figure><img src="img/kimi-before.jpg" alt="Coach Kimi before" width="600" height="600" loading="lazy"><figcaption data-t="before"></figcaption></figure>
             <figure><img src="img/kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600" loading="lazy"><figcaption data-t="after"></figcaption></figure>
@@ -561,7 +728,7 @@
             <blockquote><p data-t="kimiP1"></p></blockquote>
           </div>
         </article>
-        <article class="cc">
+        <article class="cc" data-sc-tilt="3">
           <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200" loading="lazy"></figure></div>
           <div class="ba-stats"><div><b>56 → 47 KG</b><span data-t="zaraCard"></span></div></div>
           <div class="body">
@@ -576,41 +743,42 @@
   </section>
 
   <!-- FAQ -->
-  <section class="block" style="padding-top:0">
-    <div class="container">
+  <section class="block" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow">FAQ</div>
       <h2 class="title display" data-t="faqH"></h2>
       <div class="faq" id="faq"></div>
     </div>
   </section>
 
-  <!-- FINAL CTA -->
-  <section class="final">
-    <div class="container">
-      <h2 class="display" data-t="finalH"></h2>
-      <div class="ctas">
-        <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
+  <!-- FINAL: pin. The page stops on the button and holds -->
+  <section class="sx sx-final" data-sc-act="pin" data-sc-span="1.3">
+    <div data-sc-stage>
+      <div class="sx-final__wrap">
+        <div class="sx-final__in" data-sc-cue="0 1 0 0">
+          <h2 class="display" data-t="finalH"></h2>
+          <div class="ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
+          <p class="price-s" data-t="priceLine"></p>
+        </div>
+        <footer>
+        <div class="container">
+          <div class="hash">#WEDOTRANSFORMATIONS</div>
+          <div class="socials">
+            <a href="https://www.tiktok.com/@transformwithkimi" target="_blank" rel="noopener">TikTok</a>
+            <a href="https://www.instagram.com/coachkimii_" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.threads.net/@coachkimii_" target="_blank" rel="noopener">Threads</a>
+          </div>
+          <div class="links">
+            <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
+            <a id="income-foot" href="peluang.html" data-t="incomeFoot"></a>
+          </div>
+          <p class="fine" data-t="footFine"></p>
+        </div>
+      </footer>
       </div>
-      <p class="price-s" data-t="priceLine"></p>
     </div>
   </section>
 </main>
-
-<footer>
-  <div class="container">
-    <div class="hash">#WEDOTRANSFORMATIONS</div>
-    <div class="socials">
-      <a href="https://www.tiktok.com/@transformwithkimi" target="_blank" rel="noopener">TikTok</a>
-      <a href="https://www.instagram.com/coachkimii_" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.threads.net/@coachkimii_" target="_blank" rel="noopener">Threads</a>
-    </div>
-    <div class="links">
-      <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
-      <a id="income-foot" href="peluang.html" data-t="incomeFoot"></a>
-    </div>
-    <p class="fine" data-t="footFine"></p>
-  </div>
-</footer>
 <a class="wa-float wa-link" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg><span>WhatsApp</span></a>
 
 <script>
@@ -758,6 +926,11 @@ const TXT = {
     zaraP2:"\"Prefer a female coach? I'm here.\"",
     coachNote:"Coaches' own journeys. Results vary from person to person.",
     wdtH:"Results from our <em>coaching team</em>", wdtP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas. Swipe to see them all →", wdtNote:"Results vary from person to person and are not typical.",
+    sxLabel:"Coach Kimi's story", sx1:"I used to be 84 kg.", sx2:"After lockdown I got down to 60 kg. Everyone said I'd made it.",
+    sx3:"But I'd become skinny fat. Dieting harder wasn't the answer.", sx4:"I ate enough protein and lifted weights. Now I'm 70 kg at 19% body fat.",
+    sxProofP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas.",
+    sxQ1:"10 questions.", sxQ2:"2 minutes.", sxQ3:"Find out what's holding your results back.",
+    sxP1:"Programs start from", sxP2:"a month, supplements included.", sxP3:"Your coach will help you pick an option that fits your budget.",
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
     testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
@@ -938,6 +1111,11 @@ const TXT = {
     zaraP2:"\"Lebih selesa dengan coach perempuan? Saya ada.\"",
     coachNote:"Perjalanan coach sendiri. Result berbeza mengikut individu.",
     wdtH:"Result team <em>coach kami</em>", wdtP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara. Leret untuk tengok semua →", wdtNote:"Result berbeza mengikut individu dan tidak tipikal.",
+    sxLabel:"Kisah Coach Kimi", sx1:"Dulu saya 84 kg.", sx2:"Lepas PKP saya turun ke 60 kg. Semua orang kata dah berjaya.",
+    sx3:"Tapi saya jadi skinny fat. Diet lebih ketat bukan jawapannya.", sx4:"Saya makan protein cukup dan angkat weights. Sekarang 70 kg, body fat 19%.",
+    sxProofP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara.",
+    sxQ1:"10 soalan.", sxQ2:"2 minit.", sxQ3:"Tahu apa yang menghalang result anda.",
+    sxP1:"Program bermula dari", sxP2:"sebulan, termasuk supplement.", sxP3:"Coach akan bantu pilih pakej ikut bajet anda.",
     testiEyebrow:"Result sebenar",
     testiH:"Klien team kami",
     testiNote:"Result klien team coaching kami. Result tidak tipikal dan berbeza mengikut individu.",
@@ -1466,12 +1644,14 @@ $("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:
 h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe(document.querySelector(".hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7"));
+floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; QUESTIONS = Q_LOSS; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
 $("back").onclick = ()=>{ if(i>0){ i--; render(); } };
 $("retake").onclick = ()=>{ i=0; answers=[]; quizId=null; ctx={}; show("intro"); };
 </script>
+<script src="sc/scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
 </body>
 </html>
