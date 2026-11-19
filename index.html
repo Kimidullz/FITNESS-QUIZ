@@ -107,6 +107,7 @@
   .kit-note a{color:var(--ink)}
   #hari7[hidden]{display:none}
   #hari7,#kalori{scroll-margin-top:60px}
+  #zara,#kit,#pilihan{scroll-margin-top:72px}
   .h7-out{background:var(--black);color:#fff;border-radius:10px;padding:14px 16px;font-weight:600}
   .h7-out:empty{display:none}
   .h7-out b{color:var(--yellow)}
@@ -426,6 +427,18 @@
     .sx-qbars{top:14%;width:56vw}
     .quiz-zone .sx-qmark{width:110vw;margin-left:-55vw}
   }
+  /* 19 Nov new-visitor review: on phones the free assessment follows you, WhatsApp shrinks to an icon */
+  .as-float{display:none}
+  @media (max-width:560px){
+    .as-float{position:fixed;left:16px;right:82px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 14px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:15px;border-radius:99px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+    .wa-float{width:52px;height:52px;padding:0;justify-content:center}
+    .wa-float span{display:none}
+    .wa-float svg{width:26px;height:26px}
+  }
+  .calc .tnote{color:#5E5E5E}
+  footer .fine{opacity:1}
+  .lang button{min-height:36px}
+  footer .links a,footer .socials a{display:inline-block;padding:10px 0}
 </style>
 </head>
 <body>
@@ -456,32 +469,32 @@
         <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
         <p class="price-s" data-t="assessNote" style="opacity:.9;font-size:14px;margin-top:0;flex-basis:100%"></p>
         <a class="quiz-link" href="#kit" data-t="heroQuizLink"></a>
+        <a class="quiz-link" href="#zara" data-t="heroZara" style="flex-basis:100%;font-weight:600;font-size:14px"></a>
       </div>
       <p class="price-s" data-t="priceLine"></p>
     </div>
   </section>
 
   <!-- STORY 2 (peak): pin. The scale falls 84 to 60, then climbs to 70 and that is the good ending -->
-  <section class="sx" id="sx-scale" data-sc-act="pin" data-sc-span="3.6">
+  <section class="sx" id="sx-scale" data-sc-act="pin" data-sc-span="3">
     <div data-sc-stage>
       <figure class="sx-ph">
-        <img src="img/kimi-before.jpg" data-sc-cue="0.24 0.66 0.15 0.1" alt="Coach Kimi at 60 kg, skinny fat" width="600" height="600" loading="lazy">
-        <img src="img/kimi-after.jpg" data-sc-cue="0.6 1 0.08 0.04" alt="Coach Kimi now, deadlifting" width="600" height="600" loading="lazy">
+        <img src="img/kimi-before.jpg" data-sc-cue="0.26 0.62 0.15 0.06" alt="Coach Kimi at 60 kg, skinny fat" width="600" height="600" loading="lazy">
+        <img src="img/kimi-after.jpg" data-sc-cue="0.62 1 0.06 0" alt="Coach Kimi now, deadlifting" width="600" height="600" loading="lazy">
       </figure>
       <div class="sx-st">
         <p class="sx-label" data-t="sxLabel"></p>
         <div class="sx-read">
           <div class="sx-nums">
-            <span data-sc-cue="0 0.64 0 0.08" data-sc-count="84 60" data-sc-count-at="0.08 0.42">84</span>
-            <span class="sx-num--up" data-sc-cue="0.58 1 0.06 0.04" data-sc-count="60 70" data-sc-count-at="0.68 0.88">60</span>
+            <span data-sc-cue="0 0.64 0 0.03" data-sc-count="84 60" data-sc-count-at="0.12 0.3">84</span>
+            <span class="sx-num--up" data-sc-cue="0.62 1 0.04 0" data-sc-count="60 70" data-sc-count-at="0.62 0.68">60</span>
           </div>
           <span class="sx-kg">KG</span>
         </div>
         <div class="sx-caps">
-          <p class="sx-cap" data-sc-cue="0 0.3 0" data-t="sx1"></p>
-          <p class="sx-cap" data-sc-cue="0.26 0.5" data-t="sx2"></p>
-          <p class="sx-cap" data-sc-cue="0.46 0.66" data-t="sx3"></p>
-          <div class="sx-cap" data-sc-cue="0.62 1 0.1 0.04"><p class="display sx-turn" data-t="kimiHead"></p><p data-t="sx4"></p><p class="sx-vary" data-t="coachNote"></p></div>
+          <p class="sx-cap" data-sc-cue="0 0.32 0 0.1"><span data-t="sx1"></span> <span data-t="sx2"></span></p>
+          <p class="sx-cap" data-sc-cue="0.32 0.62 0.1 0.1" data-t="sx3"></p>
+          <div class="sx-cap" data-sc-cue="0.62 1 0.08 0"><p class="display sx-turn" data-t="kimiHead"></p><p data-t="sx4"></p><p class="sx-vary" data-t="coachNote"></p></div>
         </div>
       </div>
     </div>
@@ -531,8 +544,8 @@
         <a class="assess" target="_blank" rel="noopener" data-k="a"><i>3</i><span data-t="kit3"></span></a>
       </div>
       <p class="kit-note" id="kit-note"></p>
-      <div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
     </div>
+    <div class="container"><div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div></div>
   </section>
 
   <!-- QUIZ INTRO: pin. Three facts build up, then the quiz card -->
@@ -540,9 +553,9 @@
     <div data-sc-stage>
       <div class="sx-plane sx-qbars" aria-hidden="true"><i></i><i></i></div>
       <div class="sx-c">
-        <p class="sx-big" data-sc-cue="0 1 0 0.08" data-t="sxQ1"></p>
-        <p class="sx-big sx-big--y" data-sc-cue="0.22 1 0.15 0.08" data-t="sxQ2"></p>
-        <p class="sx-line" data-sc-cue="0.44 1 0.15 0.08" data-t="sxQ3"></p>
+        <p class="sx-big" data-sc-cue="0 1 0 0" data-t="sxQ1"></p>
+        <p class="sx-big sx-big--y" data-sc-cue="0.22 1 0.15 0" data-t="sxQ2"></p>
+        <p class="sx-line" data-sc-cue="0.44 1 0.15 0" data-t="sxQ3"></p>
       </div>
     </div>
   </section>
@@ -665,10 +678,10 @@
   <section class="sx sx-price" data-sc-act="pin" data-sc-span="1.6">
     <div data-sc-stage>
       <div class="sx-c">
-        <p class="sx-label" data-sc-cue="0 1 0 0.08" data-t="sxP1"></p>
+        <p class="sx-label" data-sc-cue="0 1 0 0" data-t="sxP1"></p>
         <p class="sx-big"><span>RM</span>259</p>
-        <p class="sx-line" data-sc-cue="0.28 1 0.15 0.08" data-t="sxP2"></p>
-        <p class="sx-line" data-sc-cue="0.46 1 0.15 0.08" style="font-weight:500;color:#C9C6C0" data-t="sxP3"></p>
+        <p class="sx-line" data-sc-cue="0.28 1 0.15 0" data-t="sxP2"></p>
+        <p class="sx-line" data-sc-cue="0.46 1 0.15 0" style="font-weight:500;color:#C9C6C0" data-t="sxP3"></p>
       </div>
     </div>
   </section>
@@ -716,19 +729,13 @@
       </div>
       <div class="coaches">
         <article class="cc" data-sc-tilt="3">
-          <div class="ba">
-            <figure><img src="img/kimi-before.jpg" alt="Coach Kimi before" width="600" height="600" loading="lazy"><figcaption data-t="before"></figcaption></figure>
-            <figure><img src="img/kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600" loading="lazy"><figcaption data-t="after"></figcaption></figure>
-          </div>
-          <div class="ba-head" data-t="kimiHead"></div>
-          <div class="ba-stats"><div><b>+7 KG</b><span data-t="kimiStat1"></span></div><div><b>19%</b><span data-t="kimiStat2"></span></div></div>
           <div class="body">
             <div class="who-row"><img class="avatar" src="img/kimi.jpg" alt="" width="160" height="240" loading="lazy"><div><h3>Coach Kimi</h3>
             <div class="role" data-t="kimiRole"></div></div></div>
             <blockquote><p data-t="kimiP1"></p></blockquote>
           </div>
         </article>
-        <article class="cc" data-sc-tilt="3">
+        <article class="cc" id="zara" data-sc-tilt="3">
           <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200" loading="lazy"></figure></div>
           <div class="ba-stats"><div><b>56 → 47 KG</b><span data-t="zaraCard"></span></div></div>
           <div class="body">
@@ -780,6 +787,7 @@
   </section>
 </main>
 <a class="wa-float wa-link" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg><span>WhatsApp</span></a>
+<a class="as-float assess" target="_blank" rel="noopener"><span data-t="navCta"></span>&nbsp;→</a>
 
 <script>
 /* ===== YOUR DETAILS ===== */
@@ -828,7 +836,7 @@ const TXT = {
     calErrRange:"Please check your height and weight.", calErrPreg:"Your needs are different while pregnant or breastfeeding, so this calculator isn't right for you. Please check with your doctor or midwife first.", calPregWa:"Questions about the program for mums? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! I'd like to ask about the program for pregnant or breastfeeding mums.", calErrUnder:"Your BMI is under 18.5, so a fat loss plan isn't right for you. Pick \"Gain weight\" above, or see your doctor first.", calHigher:"Your target is above this ~%K kcal plan: add 1 snack or 1 cup of rice for every ~250 kcal extra.",
     kitEyebrow:"Free 7-Day Starter Kit",
     kitH:"Try it first. <em>Feel the difference yourself.</em>",
-    kit1:"<strong>2-minute quiz</strong>Find your weakest side",
+    kit1:"<strong>2-minute quiz</strong>Find the habit holding you back most",
     kit2:"<strong>Free meal plan</strong>Menu, 8 recipes, eating out, grocery list + 7-day tracker",
     kit3:"<strong>Online body assessment</strong>Weight lost vs fat lost: know the difference",
     kitNote:"All of this is free. The full program, from RM259 a month: a plan built for your body, a coach who checks your progress every week, and supplements, all included.",
@@ -880,7 +888,7 @@ const TXT = {
     calAssess:"or do the free online body assessment first →",
     navCta:"Free body assessment",
     heroKicker:"Free online body assessment",
-    heroH:"Losing weight ≠ losing fat. <em>Check your body first, for free.</em>",
+    heroH:"Losing weight isn't the same as losing fat. <em>Check your body first, for free.</em>",
     heroSub:"Start with our free online body assessment and find out where you stand and what to fix first. No crash diet, no 2-hour gym, and you can still eat rice.",
     waText:"or WhatsApp us first",
     heroTicks:"<span>✓ No crash diet</span><span>✓ Still eat rice</span><span>✓ Male &amp; female coach</span>",
@@ -890,7 +898,7 @@ const TXT = {
     o1Tag:"Online · men &amp; women", o1H:"Online coaching",
     o1P:"For busy working adults who want a clear plan and a coach who checks in on them.",
     o1List:"<li>1-to-1 and group coaching</li><li>Meal plan and workout plan built around your lifestyle</li><li>Normal food and eating out, 20-minute workouts at home</li><li>Accountability: a coach who keeps you on track</li><li>Supplements included. Your plan is still built on normal food</li>",
-    investLabel:"Investment", o1Price:"From RM259 a month<small>supplements included</small>", o1Btn:"Start with the free body assessment →",
+    investLabel:"Price", o1Price:"From RM259 a month<small>supplements included</small>", o1Btn:"Start with the free body assessment →",
     o2Tag:"Ladies only · Coach Zara",
     o2P:"A small private workout class for women, max 12 per class, led by Coach Zara.",
     slotLabel:"Usual class times", o2Slots:"<span>Tue · 8.40 PM</span><span>Sat · 10 AM</span><span>Sun · 10 AM</span>",
@@ -900,8 +908,8 @@ const TXT = {
     investShort:"Programs start from RM259 a month, supplements included. Your coach will help you pick an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     priceLine:"Programs start from RM259 a month, supplements included.",
-    assessNote:"Fill in a free form online, then Coach Kimi contacts you personally to explain your result. No pressure.",
-    assessBtn:"Free Online Body Assessment →", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
+    assessNote:"Fill in a free form on the WeDoTransformations website (our team), then Coach Kimi contacts you personally to explain your result. No pressure.",
+    assessBtn:"Free Online Body Assessment →", heroZara:"Prefer a female coach? Meet Coach Zara ↓", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
     howEyebrow:"How it works",
@@ -927,7 +935,7 @@ const TXT = {
     coachNote:"Coaches' own journeys. Results vary from person to person.",
     wdtH:"Results from our <em>coaching team</em>", wdtP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas. Swipe to see them all →", wdtNote:"Results vary from person to person and are not typical.",
     sxLabel:"Coach Kimi's story", sx1:"I used to be 84 kg.", sx2:"After lockdown I got down to 60 kg. Everyone said I'd made it.",
-    sx3:"But I'd become skinny fat. Dieting harder wasn't the answer.", sx4:"I ate enough protein and lifted weights. Now I'm 70 kg at 19% body fat.",
+    sx3:"But I'd become skinny fat: thin on the outside, low on muscle, still carrying fat. Dieting harder wasn't the answer.", sx4:"I ate enough protein and lifted weights. Now I'm 70 kg at 19% body fat.",
     sxProofP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas.",
     sxQ1:"10 questions.", sxQ2:"2 minutes.", sxQ3:"Find out what's holding your results back.",
     sxP1:"Programs start from", sxP2:"a month, supplements included.", sxP3:"Your coach will help you pick an option that fits your budget.",
@@ -954,9 +962,9 @@ const TXT = {
     tick1:"Built for working adults juggling work, family and health",
     tick2:"Get your score plus your weakest area",
     tick3:"Know exactly what to do next",
-    nameLabel:"Your first name (so we can personalise your result)",
+    nameLabel:"What should we call you? (so we can personalise your result)",
     namePh:"e.g. Aina",
-    startBtn:"Start my check →",
+    startBtn:"Start the quiz →",
     introMeta:"10 questions · about 2 minutes · free",
     back:"← Back",
     step:(n,t)=>`Question ${n} of ${t}`,
@@ -1002,7 +1010,7 @@ const TXT = {
   },
   ms: {
     calEyebrow:"Kalkulator percuma", calH:"Berapa kalori <em>saya perlu sehari?</em>",
-    calLede:"Dapatkan julat kalori, sasaran protein dan meal plan percuma untuk turun lemak atau naik berat: menu, resipi dan tracker 7 hari. 30 saat.",
+    calLede:"Dapatkan anggaran kalori, sasaran protein dan meal plan percuma untuk turun lemak atau naik berat: menu, resipi dan tracker 7 hari. 30 saat.",
     calF:"Perempuan", calM:"Lelaki", calAge:"Umur", calHt:"Tinggi (cm)", calWt:"Berat (kg)", calAct:"Seaktif mana anda?",
     calActs:["Banyak duduk (kerja pejabat, memandu)","Kerja syif atau banyak berdiri (kilang, kaunter, guard)","Banyak berjalan masa kerja (nurse, retail, delivery, cikgu)","Bersenam 3-5x seminggu","Kerja fizikal berat atau bersenam hampir setiap hari"],
     calPreg:"Saya mengandung atau menyusu",
@@ -1013,9 +1021,9 @@ const TXT = {
     calErrRange:"Sila semak tinggi dan berat anda.", calErrPreg:"Keperluan anda berbeza semasa mengandung atau menyusu, jadi kalkulator ini tak sesuai. Sila rujuk doktor atau bidan anda dulu.", calPregWa:"Nak tanya pasal program untuk ibu? WhatsApp Coach Zara →", calPregMsg:"Hi Coach Zara! Saya nak tanya pasal program untuk ibu mengandung atau menyusu.", calErrUnder:"BMI anda bawah 18.5, jadi pelan turun lemak tak sesuai. Pilih \"Naik berat\" di atas, atau jumpa doktor dulu.", calHigher:"Sasaran anda lebih tinggi dari pelan ~%K kcal ini: tambah 1 snek atau 1 cawan nasi untuk setiap ~250 kcal lebih.",
     kitEyebrow:"Kit Mula 7 Hari · Percuma",
     kitH:"Cuba dulu. <em>Rasa sendiri.</em>",
-    kit1:"<strong>Kuiz 2 minit</strong>Tahu bahagian paling lemah anda",
+    kit1:"<strong>Kuiz 2 minit</strong>Tahu tabiat mana yang paling menghalang anda",
     kit2:"<strong>Meal plan percuma</strong>Menu, 8 resipi, makan luar, senarai barang + tracker 7 hari",
-    kit3:"<strong>Online body assessment</strong>Tahu beza turun berat dengan hilang lemak",
+    kit3:"<strong>Online body assessment</strong>Tahu beza turun berat dengan turun lemak",
     kitNote:"Semua ni percuma. Program penuh dari RM259 sebulan: pelan ikut badan anda, coach yang semak progress anda setiap minggu, dan supplement, semua termasuk.",
     kitDay:"Kit anda: Hari %D daripada 7. Dah ukur pinggang Hari 1? Tulis di muka surat 8. Borang Hari 7 akan keluar di sini. Program penuh bermula dari RM259 sebulan, termasuk supplement.",
     kitDone:"Dah 7 hari! <a href='#hari7'>Hantar result Hari 7 anda →</a> Program penuh bermula dari RM259 sebulan, termasuk supplement.",
@@ -1065,17 +1073,17 @@ const TXT = {
     calAssess:"atau buat online body assessment percuma dulu →",
     navCta:"Body assessment percuma",
     heroKicker:"Online body assessment percuma",
-    heroH:"Turun berat ≠ hilang lemak. <em>Semak badan anda dulu, percuma.</em>",
-    heroSub:"Mula dengan online body assessment percuma. Tahu keadaan badan anda sekarang dan apa yang perlu dibaiki dulu, tanpa crash diet, tanpa gym 2 jam, masih makan nasi.",
+    heroH:"Turun berat tak sama dengan turun lemak. <em>Semak badan anda dulu, percuma.</em>",
+    heroSub:"Mula dengan online body assessment percuma: tahu keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Tanpa crash diet, tanpa gym 2 jam, masih boleh makan nasi.",
     waText:"atau WhatsApp kami dulu",
-    heroTicks:"<span>✓ Tiada crash diet</span><span>✓ Masih makan nasi</span><span>✓ Coach lelaki &amp; perempuan</span>",
+    heroTicks:"<span>✓ Tiada crash diet</span><span>✓ Boleh makan nasi</span><span>✓ Coach lelaki &amp; perempuan</span>",
     offEyebrow:"Mula di sini",
     offH:"Pilih cara yang sesuai",
     offLede:"Nak coaching online dari rumah, atau kelas wanita sahaja secara bersemuka? Dua-dua boleh.",
     o1Tag:"Online · lelaki &amp; wanita", o1H:"Coaching online",
     o1P:"Untuk orang bekerja yang sibuk dan nak pelan yang jelas, dengan coach yang follow-up.",
     o1List:"<li>Coaching 1-1 dan berkumpulan</li><li>Meal plan dan workout plan ikut gaya hidup anda</li><li>Makanan biasa dan makan di luar, senaman 20 minit di rumah</li><li>Accountability: coach yang pantau progress anda</li><li>Supplement disertakan. Pelan anda tetap berasaskan makanan biasa</li>",
-    investLabel:"Pelaburan", o1Price:"Dari RM259 sebulan<small>termasuk supplement</small>", o1Btn:"Mula dengan body assessment percuma →",
+    investLabel:"Harga", o1Price:"Dari RM259 sebulan<small>termasuk supplement</small>", o1Btn:"Mula dengan body assessment percuma →",
     o2Tag:"Wanita sahaja · Coach Zara",
     o2P:"Kelas senaman private untuk wanita, maksimum 12 orang sekelas, bersama Coach Zara.",
     slotLabel:"Jadual biasa", o2Slots:"<span>Selasa · 8.40 malam</span><span>Sabtu · 10 pagi</span><span>Ahad · 10 pagi</span>",
@@ -1085,8 +1093,8 @@ const TXT = {
     investShort:"Program bermula dari RM259 sebulan, termasuk supplement. Coach akan bantu pilih pakej ikut bajet anda.",
     heroBtn:"Mula kuiz percuma →",
     priceLine:"Program bermula dari RM259 sebulan, termasuk supplement.",
-    assessNote:"Isi borang online percuma, lepas tu Coach Kimi sendiri akan hubungi anda untuk terangkan result. Tiada paksaan.",
-    assessBtn:"Online Body Assessment PERCUMA →", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
+    assessNote:"Isi borang percuma di website WeDoTransformations (team kami), lepas tu Coach Kimi sendiri akan hubungi anda untuk terangkan result. Tiada paksaan.",
+    assessBtn:"Online Body Assessment PERCUMA →", heroZara:"Lebih selesa dengan coach perempuan? Kenali Coach Zara ↓", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
     howEyebrow:"Macam mana ia berfungsi",
@@ -1103,7 +1111,7 @@ const TXT = {
     kimiHead:"Lemak turun, <em>otot naik</em>",
     kimiStat1:"naik dalam 6 bulan, kekal sampai sekarang", kimiStat2:"body fat sekarang (Tanita)",
     kimiRole:"Online fitness coach · untuk lelaki dan perempuan",
-    kimiP1:"\"Lepas PKP saya jadi skinny fat. Bukan diet lebih ketat jawapannya: saya makan protein cukup dan angkat weights. Sekarang 70 kg, body fat 19%.\"",
+    kimiP1:"\"Lepas PKP saya jadi skinny fat. Bukan diet lebih ketat jawapannya: saya makan protein cukup dan angkat beban. Sekarang 70 kg, lemak badan 19%.\"",
     kimiP2:"\"Sekarang saya bantu orang bekerja yang sibuk buat perkara yang sama, dengan pelan yang ikut kehidupan sebenar: makan nasi, makan di luar, kerja syif panjang.\"",
     zaraCard:"dari 35 minggu mengandung ke 55 hari selepas bersalin",
     zaraRole:"Online fitness coach · untuk wanita dan ibu",
@@ -1112,7 +1120,7 @@ const TXT = {
     coachNote:"Perjalanan coach sendiri. Result berbeza mengikut individu.",
     wdtH:"Result team <em>coach kami</em>", wdtP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara. Leret untuk tengok semua →", wdtNote:"Result berbeza mengikut individu dan tidak tipikal.",
     sxLabel:"Kisah Coach Kimi", sx1:"Dulu saya 84 kg.", sx2:"Lepas PKP saya turun ke 60 kg. Semua orang kata dah berjaya.",
-    sx3:"Tapi saya jadi skinny fat. Diet lebih ketat bukan jawapannya.", sx4:"Saya makan protein cukup dan angkat weights. Sekarang 70 kg, body fat 19%.",
+    sx3:"Tapi saya jadi skinny fat: nampak kurus, tapi otot sikit dan lemak masih tinggi. Diet lebih ketat bukan jawapannya.", sx4:"Saya makan protein cukup dan angkat beban. Sekarang 70 kg, lemak badan (body fat) 19%.",
     sxProofP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara.",
     sxQ1:"10 soalan.", sxQ2:"2 minit.", sxQ3:"Tahu apa yang menghalang result anda.",
     sxP1:"Program bermula dari", sxP2:"sebulan, termasuk supplement.", sxP3:"Coach akan bantu pilih pakej ikut bajet anda.",
@@ -1127,7 +1135,7 @@ const TXT = {
       ["Berapa lama nak turun 3 hingga 5 kg?","Bergantung pada titik mula dan rutin anda. Kadar yang sihat biasanya lebih kurang 0.5 hingga 1 kg seminggu. Kami bagi anggaran yang jujur dalam call nanti. Result berbeza mengikut individu."],
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
-      ["Boleh dapat coach perempuan?","Boleh. Coach Zara coach wanita. Pilih \"Coach perempuan\" di halaman result."],
+      ["Boleh dapat coach perempuan?","Boleh. Coach Zara ialah coach wanita. Pilih \"Coach perempuan\" di halaman result."],
       ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
       ["Saya nak naik berat. Boleh tolong?","Boleh. Jawab <a href='#quiz-zone'>kuiz 2 minit</a> dan pilih “Naik berat dan nampak lebih berisi” di soalan 1 untuk tahu apa yang menghalang berat anda naik. Atau dalam <a href='#kalori'>kalkulator</a>, pilih “Naik berat” untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Coaching naik berat kami guna makanan biasa dan latihan kekuatan. Program bermula dari RM259 sebulan, termasuk supplement. Untuk umur 18 tahun ke atas. Berat turun tanpa sebab? Jumpa doktor dulu."],
       ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
@@ -1139,7 +1147,7 @@ const TXT = {
     tick1:"Khas untuk orang bekerja yang sibuk dengan kerja, keluarga dan kesihatan",
     tick2:"Dapatkan skor anda dan bahagian paling lemah",
     tick3:"Tahu dengan jelas apa langkah seterusnya",
-    nameLabel:"Nama pertama anda (supaya result lebih personal)",
+    nameLabel:"Nama panggilan anda (supaya result lebih personal)",
     namePh:"cth. Aina",
     startBtn:"Mula kuiz →",
     introMeta:"10 soalan · lebih kurang 2 minit · percuma",
@@ -1151,10 +1159,10 @@ const TXT = {
     lvl:["Okay","Boleh dibaiki","Baiki dulu"],
     fixLead:"Perkara #1 untuk dibaiki:", allStrong:"<strong>Ketiga-tiga bahagian nampak kukuh.</strong> Langkah seterusnya ialah kekal konsisten, dan coach bantu anda kunci hasil ini untuk jangka panjang.",
     fixTail:" Bila bahagian ni dah okay, dua lagi pun jadi lebih mudah.",
-    stepsH:"Apa perlu anda buat sekarang",
+    stepsH:"Apa yang perlu anda buat sekarang",
     stepFinalH:"Dapatkan pelan yang ikut jadual anda",
     stepFinal:"Tekan WhatsApp di bawah untuk chat dulu, dan set free call 30 minit kalau anda nak. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
-    tellH:"Apa jawapan anda beritahu saya",
+    tellH:"Apa yang jawapan anda beritahu saya",
     tellGoal:(g,w)=>`<strong>Matlamat anda:</strong> ${g}<br><strong>Kenapa ia penting:</strong> ${w}`,
     tellQ:"Anda jawab:",
     tellNone:"Tabiat anda dah bagus. Yang biasanya menghalang orang macam anda ialah tiada pelan yang jelas untuk minggu-minggu sibuk, dan itulah yang kita akan susun dalam call nanti.",
@@ -1642,9 +1650,12 @@ applyLang();
 [$("kit-first"), document.querySelector("#res-kalori a")].forEach(a=>a.addEventListener("click", ()=>$("c-goal").querySelector(`[data-v="${isGain() ? "gain" : "loss"}"]`).click()));
 $("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:SRC});
 h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
+// links like #kit or #kalori: land again once the headline font has loaded and moved the page, unless the visitor already scrolled
+let touched = false; ["wheel","touchstart","keydown"].forEach(e=>addEventListener(e, ()=>touched=true, {once:true, passive:true}));
+window.addEventListener("load", ()=>document.fonts.ready.then(()=>{ const t = location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1))); if (t && !t.hidden && !touched && t.id !== "hari7") t.scrollIntoView({behavior:"instant"}); }));
 const onScreen = {};
-const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); document.querySelector(".wa-float").hidden = Object.values(onScreen).some(Boolean); }, {rootMargin:"-30% 0px -30% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7"));
+const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
+floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe(document.querySelector(".sx-final"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; QUESTIONS = Q_LOSS; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
