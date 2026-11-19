@@ -13,10 +13,18 @@
         "repo": "lemomo-ai/lemo-opuscar",
         "ref": "bebbbe1aa92a3cb4bb6f83500e61b23a17d1aa00"
       }
+    },
+    "nateherk": {
+      "source": {
+        "source": "github",
+        "repo": "nateherkai/scroll-craft",
+        "ref": "75d81f74e83692add18cd7a8a8e078b8a887a579"
+      }
     }
   },
   "enabledPlugins": {
     "watch@claude-video": true,
-    "lemo-opuscar@lemolab": true
+    "lemo-opuscar@lemolab": true,
+    "nateherk-design@nateherk": true
   }
 }
