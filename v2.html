@@ -389,6 +389,44 @@
     .sx-cap{font-size:17px}
     .sx-turn{font-size:11vw}
   }
+
+  /* ===== the rest of the page in the story's colours ===== */
+  body{background:var(--black)}
+  section.block,.kit{background:var(--black);color:#F4F4F2}
+  .eyebrow{color:var(--yellow)}
+  .lede{color:#C9C6C0}
+  .tnote{color:#A9A6A0}
+  .kit{padding:clamp(56px,10vh,110px) 0}
+  .kit-note{color:#F4F4F2}.kit-note a{color:var(--yellow)}
+  .kit .hero-ctas{margin-top:22px}
+  .calc,.offer,.cc,details{color:var(--ink)}
+  .offer{border-color:#fff}
+  .sx-c{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:84px var(--gut) 88px}
+  .sx-big{font-family:Anton,Impact,sans-serif;font-style:italic;text-transform:uppercase;line-height:.92;font-size:clamp(68px,12vw,200px)}
+  .sx-big--y{color:var(--yellow)}
+  .sx-line{font-weight:600;font-size:clamp(18px,2vw,26px);line-height:1.4;max-width:30ch;margin-top:.8em}
+  .sx-qbars{left:-8%;top:18%;width:min(40vw,520px);height:clamp(14px,2.2vw,32px);display:flex;transform:skewX(-28deg)}
+  .sx-qbars i{flex:1;background:var(--yellow)}.sx-qbars i+i{background:var(--red)}
+  @media (prefers-reduced-motion:no-preference){.sx-qbars{transform:translate3d(calc(var(--sc-p,0) * 70vw),0,0) skewX(-28deg)}}
+  .sx-qintro .sx-c{align-items:flex-start}
+  .quiz-zone .sx-qmark{left:50%;top:6%;width:min(70vw,640px);margin-left:max(-46vw,-520px)}
+  .sx-qmark text{fill:none;stroke:var(--yellow);stroke-width:1.2px;vector-effect:non-scaling-stroke;font:italic 100px Anton,Impact,sans-serif}
+  .sx-price .sx-label{margin-bottom:.4em}
+  .sx-price .sx-big{font-size:clamp(96px,19vw,300px)}
+  .sx-price .sx-big span{color:var(--yellow)}
+  .sx-final{background:var(--red);color:#fff}
+  .sx-final__wrap{position:absolute;inset:0;display:flex;flex-direction:column}
+  .sx-final__in{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:84px var(--gut) 24px}
+  .sx-final__in h2{font-size:clamp(36px,6.4vw,84px);margin-bottom:22px;max-width:12em}
+  .sx-final .big{background:#000}
+  .sx-final .price-s{opacity:1;font-weight:600}
+  .sx-final footer{padding-top:24px}
+  @media (max-width:760px){
+    .sx-big{font-size:21vw}
+    .sx-price .sx-big{font-size:26vw}
+    .sx-qbars{top:14%;width:56vw}
+    .quiz-zone .sx-qmark{width:110vw;margin-left:-55vw}
+  }
 </style>
 </head>
 <body>
@@ -461,16 +499,6 @@
     </div>
   </section>
 
-  <!-- STORY 4: invite (flow), then the tools below are unchanged -->
-  <section class="sx sx-cta" data-sc-act="flow">
-    <div class="container" data-sc-in data-sc-stagger="90">
-      <h2 class="display sx-h2" data-t="finalH"></h2>
-      <div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
-      <p class="sx-note" data-t="assessNote"></p>
-      <p class="sx-note sx-price" data-t="priceLine"></p>
-    </div>
-  </section>
-
   <!-- DAY 7 CHECK-IN: opened from the PDF tracker (#hari7) or from day 7 after the PDF download -->
   <section class="block" id="hari7" hidden>
     <div class="container">
@@ -494,8 +522,8 @@
   </section>
 
   <!-- FREE STARTER KIT: 3 free steps; ticks are saved in this browser only -->
-  <section class="kit" id="kit">
-    <div class="container">
+  <section class="sx kit" id="kit" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="80">
       <div class="eyebrow" data-t="kitEyebrow"></div>
       <h2 class="title display" data-t="kitH"></h2>
       <div class="kit-steps">
@@ -504,11 +532,25 @@
         <a class="assess" target="_blank" rel="noopener" data-k="a"><i>3</i><span data-t="kit3"></span></a>
       </div>
       <p class="kit-note" id="kit-note"></p>
+      <div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
+    </div>
+  </section>
+
+  <!-- QUIZ INTRO: pin. Three facts build up, then the quiz card -->
+  <section class="sx sx-qintro" data-sc-act="pin" data-sc-span="1.5">
+    <div data-sc-stage>
+      <div class="sx-plane sx-qbars" aria-hidden="true"><i></i><i></i></div>
+      <div class="sx-c">
+        <p class="sx-big" data-sc-cue="0 1 0 0.08" data-t="sxQ1"></p>
+        <p class="sx-big sx-big--y" data-sc-cue="0.22 1 0.15 0.08" data-t="sxQ2"></p>
+        <p class="sx-line" data-sc-cue="0.44 1 0.15 0.08" data-t="sxQ3"></p>
+      </div>
     </div>
   </section>
 
   <!-- QUIZ -->
-  <section class="quiz-zone" id="quiz-zone">
+  <section class="quiz-zone" id="quiz-zone" data-sc-act="flow">
+    <svg class="sx-plane sx-qmark" viewBox="0 0 60 100" aria-hidden="true" data-sc-parallax="-2.4"><text x="2" y="92">?</text></svg>
     <div class="container">
       <div class="wrap">
         <div class="card fade" id="intro">
@@ -583,8 +625,8 @@
   </section>
 
   <!-- MEAL CALCULATOR: daily calorie range, protein and the free 8-page meal plan PDF (Kit Mula 7 Hari) -->
-  <section class="block" id="kalori">
-    <div class="container">
+  <section class="block" id="kalori" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow" data-t="calEyebrow"></div>
       <h2 class="title display" data-t="calH"></h2>
       <p class="lede" data-t="calLede"></p>
@@ -620,9 +662,21 @@
 
   <!-- TESTIMONIALS moved up into the story (#testimonials pan act) -->
 
+  <!-- PRICE: pin. The starting price holds on screen (ground), the terms build up under it -->
+  <section class="sx sx-price" data-sc-act="pin" data-sc-span="1.6">
+    <div data-sc-stage>
+      <div class="sx-c">
+        <p class="sx-label" data-sc-cue="0 1 0 0.08" data-t="sxP1"></p>
+        <p class="sx-big"><span>RM</span>259</p>
+        <p class="sx-line" data-sc-cue="0.28 1 0.15 0.08" data-t="sxP2"></p>
+        <p class="sx-line" data-sc-cue="0.46 1 0.15 0.08" style="font-weight:500;color:#C9C6C0" data-t="sxP3"></p>
+      </div>
+    </div>
+  </section>
+
   <!-- OPTIONS -->
-  <section class="block" id="pilihan">
-    <div class="container">
+  <section class="block" id="pilihan" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow" data-t="offEyebrow"></div>
       <h2 class="title display" data-t="offH"></h2>
       <p class="lede" data-t="offLede"></p>
@@ -651,7 +705,7 @@
   </section>
 
   <!-- COACHES -->
-  <section class="block" id="coaches">
+  <section class="block" id="coaches" data-sc-act="flow">
     <div class="container">
       <div class="coach-intro">
         <div>
@@ -659,10 +713,10 @@
           <h2 class="title display" data-t="coachH"></h2>
           <p class="lede" data-t="coachLede"></p>
         </div>
-        <img class="couple" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
+        <img class="couple" data-sc-reveal="up" data-sc-reveal-at="0.04 0.26" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
       </div>
       <div class="coaches">
-        <article class="cc">
+        <article class="cc" data-sc-tilt="3">
           <div class="ba">
             <figure><img src="img/kimi-before.jpg" alt="Coach Kimi before" width="600" height="600" loading="lazy"><figcaption data-t="before"></figcaption></figure>
             <figure><img src="img/kimi-after.jpg" alt="Coach Kimi after, deadlifting" width="600" height="600" loading="lazy"><figcaption data-t="after"></figcaption></figure>
@@ -675,7 +729,7 @@
             <blockquote><p data-t="kimiP1"></p></blockquote>
           </div>
         </article>
-        <article class="cc">
+        <article class="cc" data-sc-tilt="3">
           <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200" loading="lazy"></figure></div>
           <div class="ba-stats"><div><b>56 → 47 KG</b><span data-t="zaraCard"></span></div></div>
           <div class="body">
@@ -690,41 +744,42 @@
   </section>
 
   <!-- FAQ -->
-  <section class="block" style="padding-top:0">
-    <div class="container">
+  <section class="block" data-sc-act="flow">
+    <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow">FAQ</div>
       <h2 class="title display" data-t="faqH"></h2>
       <div class="faq" id="faq"></div>
     </div>
   </section>
 
-  <!-- FINAL CTA -->
-  <section class="final">
-    <div class="container">
-      <h2 class="display" data-t="finalH"></h2>
-      <div class="ctas">
-        <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
+  <!-- FINAL: pin. The page stops on the button and holds -->
+  <section class="sx sx-final" data-sc-act="pin" data-sc-span="1.3">
+    <div data-sc-stage>
+      <div class="sx-final__wrap">
+        <div class="sx-final__in" data-sc-cue="0 1 0 0">
+          <h2 class="display" data-t="finalH"></h2>
+          <div class="ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
+          <p class="price-s" data-t="priceLine"></p>
+        </div>
+        <footer>
+        <div class="container">
+          <div class="hash">#WEDOTRANSFORMATIONS</div>
+          <div class="socials">
+            <a href="https://www.tiktok.com/@transformwithkimi" target="_blank" rel="noopener">TikTok</a>
+            <a href="https://www.instagram.com/coachkimii_" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.threads.net/@coachkimii_" target="_blank" rel="noopener">Threads</a>
+          </div>
+          <div class="links">
+            <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
+            <a id="income-foot" href="peluang.html" data-t="incomeFoot"></a>
+          </div>
+          <p class="fine" data-t="footFine"></p>
+        </div>
+      </footer>
       </div>
-      <p class="price-s" data-t="priceLine"></p>
     </div>
   </section>
 </main>
-
-<footer>
-  <div class="container">
-    <div class="hash">#WEDOTRANSFORMATIONS</div>
-    <div class="socials">
-      <a href="https://www.tiktok.com/@transformwithkimi" target="_blank" rel="noopener">TikTok</a>
-      <a href="https://www.instagram.com/coachkimii_" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.threads.net/@coachkimii_" target="_blank" rel="noopener">Threads</a>
-    </div>
-    <div class="links">
-      <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
-      <a id="income-foot" href="peluang.html" data-t="incomeFoot"></a>
-    </div>
-    <p class="fine" data-t="footFine"></p>
-  </div>
-</footer>
 <a class="wa-float wa-link" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg><span>WhatsApp</span></a>
 
 <script>
@@ -875,6 +930,8 @@ const TXT = {
     sxLabel:"Coach Kimi's story", sx1:"I used to be 84 kg.", sx2:"After lockdown I got down to 60 kg. Everyone said I'd made it.",
     sx3:"But I'd become skinny fat. Dieting harder wasn't the answer.", sx4:"I ate enough protein and lifted weights. Now I'm 70 kg at 19% body fat.",
     sxProofP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas.",
+    sxQ1:"10 questions.", sxQ2:"2 minutes.", sxQ3:"Find out what's holding your results back.",
+    sxP1:"Programs start from", sxP2:"a month, supplements included.", sxP3:"Your coach will help you pick an option that fits your budget.",
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
     testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
@@ -1058,6 +1115,8 @@ const TXT = {
     sxLabel:"Kisah Coach Kimi", sx1:"Dulu saya 84 kg.", sx2:"Lepas PKP saya turun ke 60 kg. Semua orang kata dah berjaya.",
     sx3:"Tapi saya jadi skinny fat. Diet lebih ketat bukan jawapannya.", sx4:"Saya makan protein cukup dan angkat weights. Sekarang 70 kg, body fat 19%.",
     sxProofP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara.",
+    sxQ1:"10 soalan.", sxQ2:"2 minit.", sxQ3:"Tahu apa yang menghalang result anda.",
+    sxP1:"Program bermula dari", sxP2:"sebulan, termasuk supplement.", sxP3:"Coach akan bantu pilih pakej ikut bajet anda.",
     testiEyebrow:"Result sebenar",
     testiH:"Klien team kami",
     testiNote:"Result klien team coaching kami. Result tidak tipikal dan berbeza mengikut individu.",
