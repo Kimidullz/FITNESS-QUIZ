@@ -31,7 +31,7 @@ function page(t, l) {
   const src = new String(b64(t.photo)); src.natW = t.natW;
   const crops = CROPS[t.id]; assert(crops, 'no crop for ' + t.id);
   const [name, place] = L(t.name, l).split(', ');
-  const kg = t.result.match(/[\d.]+/g);
+  const kg = t.result.match(/[\d.]+/g) || [];
   const lab = i => crops.length === 2 && kg.length === 2 ? `${kg[i]} KG${t.months ? ' · ' + L(t.months, l).split(' → ')[i].toUpperCase() : ''}` : '';
   const photos = crops.length === 2 ? crops.map((c, i) => panel(src, c, 222, 410, lab(i))).join('')
     : panel(src, crops[0], crops[0][2]/crops[0][3] > 0.9 ? 470 : 300, crops[0][2]/crops[0][3] > 0.9 ? 470 : 470, '');
@@ -52,7 +52,7 @@ q{display:block;font-style:italic;font-weight:500;font-size:15.5px;line-height:1
 </style></head><body>
 <div class="logo"></div><h1>${TXT[l].head}</h1>
 <div class="ph">${photos}</div>
-<div class="nm">${name}</div><div class="rs">${t.result.replace('kg','KG')}${place ? ' · ' + place : ''}</div>
+<div class="nm">${name}</div><div class="rs">${[t.result.replace('kg','KG'), place].filter(Boolean).join(' · ')}</div>
 ${t.quote ? `<q>${L(t.quote, l)}</q>` : ''}
 <div class="disc">${TXT[l].disc}</div></body></html>`;
 }
@@ -60,7 +60,7 @@ function assert(c, m) { if (!c) throw new Error(m); }
 (async () => {
   const out = path.join(ROOT, 'img', 't'); fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 540, height: 960 } });
-  for (const t of TESTIMONIALS) {
+  for (const t of TESTIMONIALS.filter(t => !process.env.ONLY || process.env.ONLY.split(',').includes(t.id))) {
     t.natW = await p.evaluate(async s => { const i = new Image(); i.src = s; await i.decode(); return i.naturalWidth; }, b64(t.photo));
     for (const l of ['ms', 'en']) {
       await p.setContent(page(t, l), { waitUntil: 'networkidle' });

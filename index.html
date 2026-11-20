@@ -107,6 +107,8 @@
   .kit-note{margin-top:14px;font-weight:700;font-size:15px}
   .kit-note a{color:var(--ink)}
   #hari7[hidden]{display:none}
+  .fold:not(.open){display:none}
+  .oterms{font-size:13px;line-height:1.45;margin:6px 0 0;opacity:.85}
   #hari7,#kalori{scroll-margin-top:60px}
   #zara,#kit,#pilihan{scroll-margin-top:72px}
   .h7-out{background:var(--black);color:#fff;border-radius:10px;padding:14px 16px;font-weight:600}
@@ -549,20 +551,8 @@
     <div class="container"><div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div></div>
   </section>
 
-  <!-- QUIZ INTRO: pin. Three facts build up, then the quiz card -->
-  <section class="sx sx-qintro" data-sc-act="pin" data-sc-span="1.5">
-    <div data-sc-stage>
-      <div class="sx-plane sx-qbars" aria-hidden="true"><i></i><i></i></div>
-      <div class="sx-c">
-        <p class="sx-big" data-sc-cue="0 1 0 0" data-t="sxQ1"></p>
-        <p class="sx-big sx-big--y" data-sc-cue="0.22 1 0.15 0" data-t="sxQ2"></p>
-        <p class="sx-line" data-sc-cue="0.44 1 0.15 0" data-t="sxQ3"></p>
-      </div>
-    </div>
-  </section>
-
   <!-- QUIZ -->
-  <section class="quiz-zone" id="quiz-zone" data-sc-act="flow">
+  <section class="quiz-zone fold" id="quiz-zone" data-sc-act="flow">
     <svg class="sx-plane sx-qmark" viewBox="0 0 60 100" aria-hidden="true" data-sc-parallax="-2.4"><text x="2" y="92">?</text></svg>
     <div class="container">
       <div class="wrap">
@@ -638,7 +628,7 @@
   </section>
 
   <!-- MEAL CALCULATOR: daily calorie range, protein and the free 8-page meal plan PDF (Kit Mula 7 Hari) -->
-  <section class="block" id="kalori" data-sc-act="flow">
+  <section class="block fold" id="kalori" data-sc-act="flow">
     <div class="container" data-sc-in data-sc-stagger="90">
       <div class="eyebrow" data-t="calEyebrow"></div>
       <h2 class="title display" data-t="calH"></h2>
@@ -683,6 +673,7 @@
         <p class="sx-big"><span>RM</span>259</p>
         <p class="sx-line" data-sc-cue="0.28 1 0.15 0" data-t="sxP2"></p>
         <p class="sx-line" data-sc-cue="0.46 1 0.15 0" style="font-weight:500;color:#C9C6C0" data-t="sxP3"></p>
+        <p class="sx-line" data-sc-cue="0.6 1 0.15 0" style="font-weight:600;color:#FFD200;font-size:clamp(15px,2.2vw,20px)" data-t="sxP4"></p>
       </div>
     </div>
   </section>
@@ -701,6 +692,7 @@
           <ul class="checks" data-t="o1List"></ul>
           <div class="olabel" data-t="investLabel"></div>
           <div class="oprice" data-t="o1Price"></div>
+          <p class="oterms" data-t="terms"></p>
           <a class="btn assess" target="_blank" rel="noopener" data-t="o1Btn"></a>
         </article>
         <article class="offer ladies" id="ladies">
@@ -813,7 +805,7 @@ const SRC = ((new URLSearchParams(location.search).get("src") || "").toLowerCase
 const WDT_RESULTS = [[9,"Mihalcea Cornelia"],[10,"Rachel Romero"],[16,"Everline Hoffmann"],[2,"Hernan Brito"]];
 
 const TESTIMONIALS = [
-  { id:"sakeenah", name:"Dr Sakeenah, Kuala Lumpur", result:"67 → 57 kg", photo:"img/t-sakeenah.jpg",
+  { id:"sakeenah", name:"Dr Sakeenah, Kuala Lumpur", result:"", photo:"img/t-sakeenah.jpg",
     quote:{ms:"Baju yang sama, berat yang berbeza. Rupanya mudah turun berat dengan cara yang betul.",en:"Same outfit, different weight. It turns out losing weight is easy when you do it the right way."} },
   { id:"eka", name:"Eka, Johor Bahru", result:"75 → 54 kg", photo:"img/t-eka.jpg",
     quote:{ms:"Saya turun 21 kg sambil makan nasi, brownies dan makan sedap.",en:"I lost 21 kg while still eating rice, brownies and good food."} },
@@ -909,7 +901,7 @@ const TXT = {
     investShort:"Programs start from RM259 a month, supplements included. Your coach will help you pick an option that fits your budget.",
     heroBtn:"Start the free quiz →",
     priceLine:"Programs start from RM259 a month, supplements included.",
-    assessNote:"Fill in a free form on the WeDoTransformations website (our team), then Coach Kimi, or Coach Zara for women, contacts you personally to explain your result. No pressure.",
+    assessNote:"Fill in a free form on the WeDoTransformations website (our team), then Coach Kimi, or Coach Zara for women, contacts you within 1 hour (8am to 10pm) to explain your result. No pressure.",
     assessBtn:"Free Online Body Assessment →", heroZara:"Prefer a female coach? Meet Coach Zara ↓", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
@@ -939,20 +931,20 @@ const TXT = {
     sx3:"But I'd become skinny fat: thin on the outside, low on muscle, still carrying fat. Dieting harder wasn't the answer.", sx4:"I ate enough protein and lifted weights. Now I'm 70 kg at 19% body fat.",
     sxProofP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas.",
     sxQ1:"10 questions.", sxQ2:"2 minutes.", sxQ3:"Find out what's holding your results back.",
-    sxP1:"Programs start from", sxP2:"a month, supplements included.", sxP3:"Your coach will help you pick an option that fits your budget.",
+    sxP1:"Programs start from", sxP2:"a month, supplements included.", sxP3:"Your coach will help you pick an option that fits your budget.", sxP4:"One payment for 1 month. No contract, no auto-renew. Rejoin later for 25-50% off (T&amp;C apply).", terms:"One payment for 1 month. No contract, no auto-renew. Rejoin later for 25-50% off (T&amp;C apply).",
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
     testiNote:"Results from clients of our coaching team. Results are not typical and vary from person to person.",
     webFoot:"Free online body assessment", incomeFoot:"Side income opportunity",
     faqH:"Questions people ask",
     faq:[
-      ["What is the free online body assessment?","You fill in a form online on the WeDoTransformations page (it opens in a new tab). Then Coach Kimi, or Coach Zara for women, contacts you personally to explain where your body is now and what to fix first. It's free, and there's no pressure to join. Programs start from RM259 a month, supplements included."],
+      ["What is the free online body assessment?","You fill in a form online on the WeDoTransformations page (it opens in a new tab). Then Coach Kimi, or Coach Zara for women, contacts you within 1 hour (8am to 10pm) to explain where your body is now and what to fix first. It's free, and there's no pressure to join. Programs start from RM259 a month, supplements included."],
       ["Why start with 3 to 5 kg?","Because it's realistic. A small first goal is easier to reach while working full time, and once you see it happen it's much easier to keep going."],
       ["How long does it take to lose 3 to 5 kg?","It depends on your starting point and your routine. A healthy pace is usually around 0.5 to 1 kg a week. We'll give you an honest estimate on the call. Results vary."],
       ["I'm really busy. Do I need the gym?","No. The workouts are about 20 minutes and can be done at home."],
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
       ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
-      ["How much does coaching cost?","Packages start from RM259 for one month. That includes supplements, 1-to-1 coaching, group coaching, accountability (a coach who keeps you on track), and a meal plan and workout plan built around your lifestyle. There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
+      ["How much does coaching cost?","Packages start from RM259 for one month. That includes supplements, 1-to-1 coaching, group coaching, accountability (a coach who keeps you on track), and a meal plan and workout plan built around your lifestyle. It's one payment for one month: no contract, no auto-renew, no membership. If you rejoin later you get 25-50% off (T&C apply). There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
       ["I want to gain weight. Can you help?","Yes. Take the <a href='#quiz-zone'>2-minute quiz</a> and pick “Gain weight and look fuller” in question 1 to see what's stopping your weight from going up. Or in the <a href='#kalori'>calculator</a>, pick “Gain weight” for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). Our weight gain coaching uses normal food and strength training. Programs start from RM259 a month, supplements included. For ages 18 and up. Losing weight without trying? See a doctor first."],
       ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."]
     ],
@@ -1094,7 +1086,7 @@ const TXT = {
     investShort:"Program bermula dari RM259 sebulan, termasuk supplement. Coach akan bantu pilih pakej ikut bajet anda.",
     heroBtn:"Mula kuiz percuma →",
     priceLine:"Program bermula dari RM259 sebulan, termasuk supplement.",
-    assessNote:"Isi borang percuma di website WeDoTransformations (team kami), lepas tu Coach Kimi, atau Coach Zara untuk wanita, akan hubungi anda untuk terangkan result. Tiada paksaan.",
+    assessNote:"Isi borang percuma di website WeDoTransformations (team kami), lepas tu Coach Kimi, atau Coach Zara untuk wanita, akan hubungi anda dalam masa 1 jam (8 pagi hingga 10 malam) untuk terangkan result. Tiada paksaan.",
     assessBtn:"Online Body Assessment PERCUMA →", heroZara:"Lebih selesa dengan coach perempuan? Kenali Coach Zara ↓", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
@@ -1124,20 +1116,20 @@ const TXT = {
     sx3:"Tapi saya jadi skinny fat: nampak kurus, tapi otot sikit dan lemak masih tinggi. Diet lebih ketat bukan jawapannya.", sx4:"Saya makan protein cukup dan angkat beban. Sekarang 70 kg, lemak badan (body fat) 19%.",
     sxProofP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara.",
     sxQ1:"10 soalan.", sxQ2:"2 minit.", sxQ3:"Tahu apa yang menghalang result anda.",
-    sxP1:"Program bermula dari", sxP2:"sebulan, termasuk supplement.", sxP3:"Coach akan bantu pilih pakej ikut bajet anda.",
+    sxP1:"Program bermula dari", sxP2:"sebulan, termasuk supplement.", sxP3:"Coach akan bantu pilih pakej ikut bajet anda.", sxP4:"Bayar sekali untuk 1 bulan. Tiada kontrak, tiada auto-renew. Sambung semula dapat diskaun 25-50% (tertakluk syarat).", terms:"Bayar sekali untuk 1 bulan. Tiada kontrak, tiada auto-renew. Sambung semula dapat diskaun 25-50% (tertakluk syarat).",
     testiEyebrow:"Result sebenar",
     testiH:"Klien team kami",
     testiNote:"Result klien team coaching kami. Result tidak tipikal dan berbeza mengikut individu.",
     webFoot:"Online body assessment percuma", incomeFoot:"Peluang pendapatan sampingan",
     faqH:"Soalan yang selalu ditanya",
     faq:[
-      ["Apa itu online body assessment percuma?","Anda isi borang online di page WeDoTransformations (dibuka di tab baru). Lepas tu Coach Kimi, atau Coach Zara untuk wanita, akan hubungi anda untuk terangkan keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Percuma, dan tiada paksaan untuk join. Program bermula dari RM259 sebulan, termasuk supplement."],
+      ["Apa itu online body assessment percuma?","Anda isi borang online di page WeDoTransformations (dibuka di tab baru). Lepas tu Coach Kimi, atau Coach Zara untuk wanita, akan hubungi anda dalam masa 1 jam (8 pagi hingga 10 malam) untuk terangkan keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Percuma, dan tiada paksaan untuk join. Program bermula dari RM259 sebulan, termasuk supplement."],
       ["Kenapa mula dengan 3 hingga 5 kg?","Sebab ia realistik. Matlamat kecil lebih senang dicapai walaupun kerja sepenuh masa, dan bila dah nampak hasil, lebih senang nak teruskan."],
       ["Berapa lama nak turun 3 hingga 5 kg?","Bergantung pada titik mula dan rutin anda. Kadar yang sihat biasanya lebih kurang 0.5 hingga 1 kg seminggu. Kami bagi anggaran yang jujur dalam call nanti. Result berbeza mengikut individu."],
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
       ["Boleh dapat coach perempuan?","Boleh. Coach Zara ialah coach wanita. Pilih \"Coach perempuan\" di halaman result."],
-      ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
+      ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Bayar sekali untuk sebulan: tiada kontrak, tiada auto-renew, tiada keahlian. Kalau sambung semula nanti, dapat diskaun 25-50% (tertakluk syarat). Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
       ["Saya nak naik berat. Boleh tolong?","Boleh. Jawab <a href='#quiz-zone'>kuiz 2 minit</a> dan pilih “Naik berat dan nampak lebih berisi” di soalan 1 untuk tahu apa yang menghalang berat anda naik. Atau dalam <a href='#kalori'>kalkulator</a>, pilih “Naik berat” untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Coaching naik berat kami guna makanan biasa dan latihan kekuatan. Program bermula dari RM259 sebulan, termasuk supplement. Untuk umur 18 tahun ke atas. Berat turun tanpa sebab? Jumpa doktor dulu."],
       ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
     ],
@@ -1326,7 +1318,7 @@ function applyLang(){
   document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:SRC, go:CONFIG.websiteUrl}); }; });
   $("testimonials").hidden = !TESTIMONIALS.length;
   // posters made from this list by testimonials/build.js (rerun it after editing TESTIMONIALS)
-  $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard poster"><img src="img/t/${t.id}-${LANG}.jpg" alt="${typeof t.name==="string"?t.name:L(t.name)}: ${t.result}${t.quote?". "+L(t.quote):""}" width="540" height="960" loading="lazy"></div>`).join("")
+  $("tgrid").innerHTML = TESTIMONIALS.map(t=>`<div class="tcard poster"><img src="img/t/${t.id}-${LANG}.jpg" alt="${typeof t.name==="string"?t.name:L(t.name)}${t.result?": "+t.result:""}${t.quote?". "+L(t.quote):""}" width="540" height="960" loading="lazy"></div>`).join("")
     + WDT_RESULTS.map(n=>`<div class="tcard poster"><img src="img/wdt/${String(n[0]).padStart(2,"0")}.jpg" alt="21-Day Challenge: ${n[1]}" width="540" height="960" loading="lazy"></div>`).join("");
   $("faq").innerHTML = T.faq.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join("");
   $("coachpick").innerHTML = "";
@@ -1357,8 +1349,24 @@ document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{
   applyLang();
 });
 
+// Quiz and calculator stay folded inside the kit until tapped (Kimi 20 Nov): opening one re-measures the scroll scenes below
+function openFold(id, scroll){
+  const el = $(id); if(!el || !el.classList.contains("fold")) return;
+  const was = el.classList.contains("open");
+  if(!was){ el.classList.add("open"); try{ ScrollCraft.instances.forEach(a=>a.layout()); }catch(e){} }
+  if(scroll) el.scrollIntoView({behavior: was ? "smooth" : "instant"});
+}
+document.addEventListener("click", e=>{
+  const a = e.target.closest && e.target.closest('a[href="#quiz-zone"],a[href="#kalori"]'); if(!a) return;
+  e.preventDefault(); const id = a.getAttribute("href").slice(1);
+  openFold(id, true); try{ history.replaceState(null, "", "#" + id); }catch(err){}
+});
+function foldFromHash(){ const h = location.hash.slice(1); if(h === "quiz-zone" || h === "kalori") openFold(h, true); }
+window.addEventListener("hashchange", foldFromHash);
+
 function show(id, noScroll){
   view = id;
+  if(id !== "intro") openFold("quiz-zone");
   if(typeof calNext==="function") calNext();
   ["intro","quiz","result"].forEach(s=>$(s).classList.add("hidden"));
   const el=$(id); el.classList.remove("hidden"); el.classList.remove("fade"); void el.offsetWidth; el.classList.add("fade");
@@ -1650,7 +1658,8 @@ window.addEventListener("hashchange", h7Open);
 applyLang();
 [$("kit-first"), document.querySelector("#res-kalori a")].forEach(a=>a.addEventListener("click", ()=>$("c-goal").querySelector(`[data-v="${isGain() ? "gain" : "loss"}"]`).click()));
 $("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:SRC});
-h7Open(); window.addEventListener("load", h7Open);   // again after fonts/images settle
+h7Open(); window.addEventListener("load", h7Open);
+foldFromHash(); window.addEventListener("load", foldFromHash);   // #quiz-zone / #kalori links (shares, PDFs) open the folded section   // again after fonts/images settle
 window.addEventListener("load", ()=>document.documentElement.classList.add("loaded"));
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
