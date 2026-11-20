@@ -108,6 +108,10 @@
   .kit-note a{color:var(--ink)}
   #hari7[hidden]{display:none}
   .fold:not(.open){display:none}
+  body.qonly main>section:not(#quiz-zone):not(.fold.open),body.qonly .as-float{display:none!important}
+  body.qonly .quiz-zone{min-height:calc(100vh - 64px)}
+  .qfull{display:none;text-align:center;margin:18px 0 0;font-size:14px}.qfull a{color:#F4F4F2}
+  body.qonly .qfull{display:block}
   .oterms{font-size:13px;line-height:1.45;margin:6px 0 0;opacity:.85}
   #hari7,#kalori{scroll-margin-top:60px}
   #zara,#kit,#pilihan{scroll-margin-top:72px}
@@ -565,6 +569,7 @@
           <button class="btn" id="start" data-t="startBtn"></button>
           <p class="meta-s" data-t="introMeta"></p>
         </div>
+        <p class="qfull"><a href="./" data-t="qFull"></a></p>
 
         <div class="card hidden" id="quiz">
           <div class="progress"><span id="prog"></span></div>
@@ -794,8 +799,9 @@ const CONFIG = {
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
 // where the visitor came from: ?src=tiktok / ig / threads on the bio link, else the app's in-app browser, else "website"
+const QONLY = new URLSearchParams(location.search).get("kuiz") === "1";   // quiz-only link (/kuiz/), Kimi 20 Nov
 const SRC = ((new URLSearchParams(location.search).get("src") || "").toLowerCase().replace(/[^a-z0-9_-]/g,"").slice(0,20))
-  || (/TikTok|musical_ly|Bytedance/i.test(navigator.userAgent) ? "tiktok" : /Instagram/i.test(navigator.userAgent) ? "instagram" : /FBAN|FBAV/i.test(navigator.userAgent) ? "facebook" : "website");
+  || (/TikTok|musical_ly|Bytedance/i.test(navigator.userAgent) ? "tiktok" : /Instagram/i.test(navigator.userAgent) ? "instagram" : /FBAN|FBAV/i.test(navigator.userAgent) ? "facebook" : QONLY ? "quiz-link" : "website");
 
 /* Real client testimonials only, with their written permission. After editing, run: node testimonials/build.js (add a crop for a new id there). Example entry:
    { id:"aina", name:"Aina, Gombak", result:"-4 kg", months:{en:"2 months",ms:"2 bulan"}, photo:"aina.jpg",
@@ -930,7 +936,7 @@ const TXT = {
     sxLabel:"Coach Kimi's story", sx1:"I used to be 84 kg.", sx2:"After lockdown I got down to 60 kg. Everyone said I'd made it.",
     sx3:"But I'd become skinny fat: thin on the outside, low on muscle, still carrying fat. Dieting harder wasn't the answer.", sx4:"I ate enough protein and lifted weights. Now I'm 70 kg at 19% body fat.",
     sxProofP:"The first 6 results are from Malaysia. The last 4 are 21-Day Challenge results from WeDoTransformations coaches overseas.",
-    sxQ1:"10 questions.", sxQ2:"2 minutes.", sxQ3:"Find out what's holding your results back.",
+    qFull:"See Coach Kimi & Coach Zara\u2019s full website →", sxQ1:"10 questions.", sxQ2:"2 minutes.", sxQ3:"Find out what's holding your results back.",
     sxP1:"Programs start from", sxP2:"a month, supplements included.", sxP3:"Your coach will help you pick an option that fits your budget.", sxP4:"One payment for 1 month. No contract, no auto-renew. Rejoin later for 25-50% off (T&amp;C apply).", terms:"One payment for 1 month. No contract, no auto-renew. Rejoin later for 25-50% off (T&amp;C apply).",
     testiEyebrow:"Real results",
     testiH:"Our team's clients",
@@ -1115,7 +1121,7 @@ const TXT = {
     sxLabel:"Kisah Coach Kimi", sx1:"Dulu saya 84 kg.", sx2:"Lepas PKP saya turun ke 60 kg. Semua orang kata dah berjaya.",
     sx3:"Tapi saya jadi skinny fat: nampak kurus, tapi otot sikit dan lemak masih tinggi. Diet lebih ketat bukan jawapannya.", sx4:"Saya makan protein cukup dan angkat beban. Sekarang 70 kg, lemak badan (body fat) 19%.",
     sxProofP:"6 result pertama dari Malaysia. 4 terakhir ialah result Cabaran 21 Hari dari coach WeDoTransformations di luar negara.",
-    sxQ1:"10 soalan.", sxQ2:"2 minit.", sxQ3:"Tahu apa yang menghalang result anda.",
+    qFull:"Lihat website penuh Coach Kimi & Coach Zara →", sxQ1:"10 soalan.", sxQ2:"2 minit.", sxQ3:"Tahu apa yang menghalang result anda.",
     sxP1:"Program bermula dari", sxP2:"sebulan, termasuk supplement.", sxP3:"Coach akan bantu pilih pakej ikut bajet anda.", sxP4:"Bayar sekali untuk 1 bulan. Tiada kontrak, tiada auto-renew. Sambung semula dapat diskaun 25-50% (tertakluk syarat).", terms:"Bayar sekali untuk 1 bulan. Tiada kontrak, tiada auto-renew. Sambung semula dapat diskaun 25-50% (tertakluk syarat).",
     testiEyebrow:"Result sebenar",
     testiH:"Klien team kami",
@@ -1333,7 +1339,7 @@ function applyLang(){
 }
 function shareLink(gain){
   const msg = gain ? T.shareG : LANG==="ms" ? "Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak turun. Cuba la: " : "I just took this 2-minute quiz that shows why your weight won't budge. Try it: ";
-  return "https://wa.me/?text=" + encodeURIComponent(msg + "https://kimidullz.github.io/FITNESS-QUIZ/" + (LANG==="en" ? "?lang=en" : "") + "#quiz-zone");
+  return "https://wa.me/?text=" + encodeURIComponent(msg + "https://kimidullz.github.io/FITNESS-QUIZ/kuiz/" + (LANG==="en" ? "?lang=en" : ""));
 }
 // floating WhatsApp: the coach picked in the quiz (saved in this browser), else Coach Kimi, named on the button
 function waFloat(){
@@ -1659,7 +1665,9 @@ applyLang();
 [$("kit-first"), document.querySelector("#res-kalori a")].forEach(a=>a.addEventListener("click", ()=>$("c-goal").querySelector(`[data-v="${isGain() ? "gain" : "loss"}"]`).click()));
 $("o2-book").onclick = ()=>logTap({type:"quiz", via:"Ladies class booking", src:SRC});
 h7Open(); window.addEventListener("load", h7Open);
-foldFromHash(); window.addEventListener("load", foldFromHash);   // #quiz-zone / #kalori links (shares, PDFs) open the folded section   // again after fonts/images settle
+foldFromHash(); window.addEventListener("load", foldFromHash);
+// quiz-only page: only the header, the quiz and (if tapped) the calculator show
+if(QONLY){ document.body.classList.add("qonly"); openFold("quiz-zone"); }   // #quiz-zone / #kalori links (shares, PDFs) open the folded section   // again after fonts/images settle
 window.addEventListener("load", ()=>document.documentElement.classList.add("loaded"));
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
