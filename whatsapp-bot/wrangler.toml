@@ -1,0 +1,20 @@
+name = "wdt-lead-bot"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# knowledge.md is bundled into the bot as text.
+[[rules]]
+type = "Text"
+globs = ["**/*.md"]
+fallthrough = true
+
+# Conversation memory. The deploy workflow fills in the id.
+[[kv_namespaces]]
+binding = "BOT_KV"
+id = "KV_ID_PLACEHOLDER"
+
+[vars]
+DAILY_LIMIT_PER_PERSON = "40"
+MONTHLY_REPLY_LIMIT = "3000"
+LEAD_ALERT_LANG = "en"
