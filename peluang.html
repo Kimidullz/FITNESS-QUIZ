@@ -93,7 +93,10 @@
   .a4{display:grid;gap:clamp(2.4rem,6vw,6rem)}
   @media (min-width:900px){.a4{grid-template-columns:minmax(260px,360px) minmax(0,1fr);align-items:start}.a4__vid{position:sticky;top:90px}}
   .a4 video{width:100%;max-width:360px;aspect-ratio:9/16;background:#000;border-radius:6px}
-  .a4 video.wide{aspect-ratio:16/9;margin-top:1.6rem}
+  .intro{max-width:820px}
+  .intro video.wide{width:100%;aspect-ratio:16/9;background:#000;border-radius:6px;display:block}
+  .intro .vnote{max-width:820px}
+  .vlabel{font-size:var(--sc-t-lg,1.6rem);margin-bottom:1rem;line-height:1.1}
   .vnote{max-width:360px;margin-top:.6rem;font-size:var(--sc-t-xs);color:var(--sc-ink-soft)}
   .block+.block{margin-top:clamp(3rem,8vh,5rem)}
   .h2{font-size:var(--sc-t-2xl);margin-bottom:1rem}
@@ -180,6 +183,17 @@
     </div>
   </section>
 
+  <!-- 1b INTRO: flow. Jorge's 4-minute introduction to the opportunity. -->
+  <section id="intro" class="sc-section" data-sc-act="flow">
+    <div class="sc-wrap intro" data-sc-in>
+      <p class="pf vlabel" data-t="vlabel2"></p>
+      <video class="wide" controls playsinline preload="metadata" poster="video/jorge-wdt-poster.jpg">
+        <source src="video/jorge-wdt-ms.mp4" type="video/mp4">
+      </video>
+      <p class="vnote" data-t="vnote2"></p>
+    </div>
+  </section>
+
   <!-- 2 RECOGNITION: flow. Their three pressures, in reading order. -->
   <section id="a2" class="a2" data-sc-act="flow">
     <div class="sc-wrap pains" data-sc-in data-sc-stagger="170">
@@ -208,14 +222,11 @@
   <section id="a4" class="sc-section" data-sc-act="flow">
     <div class="sc-wrap a4">
       <div class="a4__vid" data-sc-in>
+        <p class="pf vlabel" data-t="vlabel1"></p>
         <video controls playsinline preload="metadata" poster="video/peluang-poster.jpg">
           <source src="video/peluang-ms.mp4" type="video/mp4">
         </video>
         <p class="vnote" data-t="vnote"></p>
-        <video class="wide" controls playsinline preload="metadata" poster="video/jorge-wdt-poster.jpg">
-          <source src="video/jorge-wdt-ms.mp4" type="video/mp4">
-        </video>
-        <p class="vnote" data-t="vnote2"></p>
       </div>
       <div>
         <div class="block" id="what" data-sc-in data-sc-stagger="70"></div>
@@ -263,6 +274,7 @@ ms:{
   chipFor:"Untuk:", chipChange:"tukar", gapLabel:"Satu soalan untuk anda.",
   nextT:"Langkah seterusnya", pickTime:"Bila lebih sesuai?", otherTime:"Masa lain? Tanya di WhatsApp",
   slotHint:"Tekan satu masa. WhatsApp akan buka dengan mesej yang siap ditulis.",
+  vlabel1:"Apa coach buat", vlabel2:"Mula di sini: apa itu peluang ni?",
   vnote:"Video 80 saat: apa yang coach dapat dalam app (meal plan, resipi, senarai barang dapur, workout).",
   vnote2:"Video 4 minit dari Jorge, pengasas WeDoTransformations (sari kata Bahasa Melayu): apa itu WDT, kenapa Herbalife, dan cara coach dapat pendapatan. Angka dalam video dalam USD; untuk Malaysia, kami terangkan dalam Zoom. Keputusan setiap orang berbeza dan bergantung pada usaha.",
   whatT:"Apa ni sebenarnya?", whyT:"Kenapa bisnes ini", faqT:"Soalan biasa",
@@ -348,6 +360,7 @@ en:{
   chipFor:"For:", chipChange:"change", gapLabel:"One question for you.",
   nextT:"Next step", pickTime:"Which time suits you?", otherTime:"Another time? Ask on WhatsApp",
   slotHint:"Tap a time. WhatsApp opens with the message ready.",
+  vlabel1:"What coaches do", vlabel2:"Start here: what is this opportunity?",
   vnote:"80-second video (Malay captions): what coaches get in the app (meal plans, recipes, grocery lists, workouts).",
   vnote2:"4-minute video from Jorge, founder of WeDoTransformations (Malay captions): what WDT is, why Herbalife, and how coaches earn. Figures are in USD; for Malaysia we explain on Zoom. Results vary and depend on effort.",
   whatT:"So what is this, actually?", whyT:"Why this business", faqT:"Common questions",
