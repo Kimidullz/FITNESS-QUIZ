@@ -203,6 +203,7 @@
   .steps strong{display:block}
   .all-inc{font-size:14px;margin-top:14px;background:var(--bg);border-radius:6px;padding:12px 14px;border-left:4px solid #111}
   .all-inc strong{display:block;margin-bottom:4px}
+  .coach-note{font-size:15.5px;line-height:1.55;background:#FFF8D6;border-left:5px solid var(--yellow);border-radius:8px;padding:12px 14px;margin:-4px 0 16px;color:var(--ink)}
   .tell-goal{font-size:15px;background:var(--bg);border-radius:6px;padding:12px 14px;margin-bottom:12px}
   .tell{list-style:none;display:grid;gap:10px}
   .tell li{font-size:15px;padding-left:16px;border-left:3px solid var(--red)}
@@ -585,6 +586,7 @@
           <span class="badge" id="r-badge"></span>
           <h1 id="r-title"></h1>
           <p class="lead" id="r-text"></p>
+          <p class="coach-note" id="r-note" hidden></p>
 
           <div class="section">
             <h3 id="cta-title"></h3>
@@ -1407,6 +1409,14 @@ function next(){
 
 function ans(key){ const k = QUESTIONS.findIndex(q=>q.key===key); return QUESTIONS[k].a[answers[k]]; }
 
+// personal coach note per goal + reason + weakest side, written once with the Claude API (results/notes.json, seo/generate.py notes)
+let NOTES = null;
+function coachNote(key){
+  const el = $("r-note"), put = () => { const n = NOTES && NOTES[key]; el.hidden = !n; if(n) el.textContent = L(n); };
+  if(NOTES) return put();
+  el.hidden = true;
+  fetch("results/notes.json").then(r => r.ok ? r.json() : null).then(j => { NOTES = j || {}; if(view === "result") put(); }).catch(()=>{ NOTES = {}; });
+}
 function showResult(relang){
   const pScore = {}, pMax = {}, pLabel = {};
   let total = 0, maxTotal = 0;
@@ -1452,6 +1462,7 @@ function showResult(relang){
   $("r-doc").hidden = !doc; $("r-doc").textContent = doc ? T.docBox : "";
   $("share").href = shareLink(gain);
 
+  coachNote((gain ? "gain" : ans("goal").v) + "|" + answers[1] + "|" + (weakestPct ? weakest : "none"));
   ctx = { tier, total, maxTotal, weakestLabel: weakestPct ? pLabel[weakest] : "-" };
   // not ready yet ("just exploring" or 1-4): the free kit is the main button, WhatsApp stays below it
   const low = !doc && (ans("when").low || ans("commit").low);

@@ -1,0 +1,855 @@
+{
+ "categories": {
+  "sarapan": "Sarapan",
+  "nasi": "Nasi & lauk",
+  "mee": "Mee & kuey teow",
+  "mamak": "Mamak",
+  "minuman": "Minuman",
+  "kuih": "Kuih & pencuci mulut",
+  "barat": "Makanan barat & fast food",
+  "buah": "Buah",
+  "snek": "Snek"
+ },
+ "foods": [
+  {
+   "slug": "nasi-lemak-biasa",
+   "name": "Nasi lemak biasa (sambal, telur, ikan bilis, kacang)",
+   "cat": "sarapan",
+   "serving": "1 bungkus",
+   "kcal": 400
+  },
+  {
+   "slug": "nasi-lemak-ayam-goreng",
+   "name": "Nasi lemak ayam goreng",
+   "cat": "sarapan",
+   "serving": "1 pinggan",
+   "kcal": 650
+  },
+  {
+   "slug": "nasi-lemak-rendang-daging",
+   "name": "Nasi lemak rendang daging",
+   "cat": "sarapan",
+   "serving": "1 pinggan",
+   "kcal": 700
+  },
+  {
+   "slug": "roti-canai-kosong",
+   "name": "Roti canai kosong",
+   "cat": "sarapan",
+   "serving": "1 keping",
+   "kcal": 300
+  },
+  {
+   "slug": "roti-telur",
+   "name": "Roti telur",
+   "cat": "sarapan",
+   "serving": "1 keping",
+   "kcal": 400
+  },
+  {
+   "slug": "roti-planta",
+   "name": "Roti planta",
+   "cat": "sarapan",
+   "serving": "1 keping",
+   "kcal": 420
+  },
+  {
+   "slug": "thosai-kosong",
+   "name": "Thosai kosong",
+   "cat": "sarapan",
+   "serving": "1 keping",
+   "kcal": 170
+  },
+  {
+   "slug": "capati",
+   "name": "Capati",
+   "cat": "sarapan",
+   "serving": "1 keping",
+   "kcal": 120
+  },
+  {
+   "slug": "lontong",
+   "name": "Lontong",
+   "cat": "sarapan",
+   "serving": "1 mangkuk",
+   "kcal": 450
+  },
+  {
+   "slug": "nasi-dagang",
+   "name": "Nasi dagang",
+   "cat": "sarapan",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "nasi-kerabu",
+   "name": "Nasi kerabu",
+   "cat": "sarapan",
+   "serving": "1 pinggan",
+   "kcal": 550
+  },
+  {
+   "slug": "roti-bakar-kaya-mentega",
+   "name": "Roti bakar kaya mentega",
+   "cat": "sarapan",
+   "serving": "2 keping",
+   "kcal": 300
+  },
+  {
+   "slug": "telur-separuh-masak",
+   "name": "Telur separuh masak",
+   "cat": "sarapan",
+   "serving": "2 biji",
+   "kcal": 140
+  },
+  {
+   "slug": "bubur-ayam",
+   "name": "Bubur ayam",
+   "cat": "sarapan",
+   "serving": "1 mangkuk",
+   "kcal": 250
+  },
+  {
+   "slug": "mee-hoon-goreng",
+   "name": "Mee hoon goreng",
+   "cat": "sarapan",
+   "serving": "1 pinggan",
+   "kcal": 450
+  },
+  {
+   "slug": "pulut-kuning-dengan-rendang",
+   "name": "Pulut kuning dengan rendang",
+   "cat": "sarapan",
+   "serving": "1 pinggan",
+   "kcal": 550
+  },
+  {
+   "slug": "roti-jala-dengan-kari-ayam",
+   "name": "Roti jala dengan kari ayam",
+   "cat": "sarapan",
+   "serving": "3 keping + kari",
+   "kcal": 450
+  },
+  {
+   "slug": "oat-dengan-susu",
+   "name": "Oat dengan susu",
+   "cat": "sarapan",
+   "serving": "1 mangkuk",
+   "kcal": 250
+  },
+  {
+   "slug": "sandwich-telur",
+   "name": "Sandwich telur",
+   "cat": "sarapan",
+   "serving": "1 biji",
+   "kcal": 300
+  },
+  {
+   "slug": "karipap",
+   "name": "Karipap",
+   "cat": "sarapan",
+   "serving": "1 biji",
+   "kcal": 130
+  },
+  {
+   "slug": "nasi-putih",
+   "name": "Nasi putih",
+   "cat": "nasi",
+   "serving": "1 cawan",
+   "kcal": 200
+  },
+  {
+   "slug": "nasi-goreng-kampung",
+   "name": "Nasi goreng kampung",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "nasi-goreng-pattaya",
+   "name": "Nasi goreng pattaya",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 700
+  },
+  {
+   "slug": "nasi-ayam",
+   "name": "Nasi ayam",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "nasi-kandar",
+   "name": "Nasi kandar (nasi, ayam, kuah campur)",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 750
+  },
+  {
+   "slug": "nasi-campur",
+   "name": "Nasi campur (nasi, ayam goreng, 2 sayur)",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 650
+  },
+  {
+   "slug": "nasi-briyani-ayam",
+   "name": "Nasi briyani ayam",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 750
+  },
+  {
+   "slug": "nasi-minyak",
+   "name": "Nasi minyak",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "nasi-tomato-dengan-ayam-masak-merah",
+   "name": "Nasi tomato dengan ayam masak merah",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 700
+  },
+  {
+   "slug": "nasi-goreng-usa",
+   "name": "Nasi goreng USA",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 800
+  },
+  {
+   "slug": "nasi-paprik-ayam",
+   "name": "Nasi paprik ayam",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 650
+  },
+  {
+   "slug": "nasi-ayam-penyet",
+   "name": "Nasi ayam penyet",
+   "cat": "nasi",
+   "serving": "1 set",
+   "kcal": 800
+  },
+  {
+   "slug": "nasi-lemak-kukus-ayam",
+   "name": "Nasi lemak kukus ayam",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 700
+  },
+  {
+   "slug": "nasi-kerabu-ayam-percik",
+   "name": "Nasi kerabu ayam percik",
+   "cat": "nasi",
+   "serving": "1 pinggan",
+   "kcal": 650
+  },
+  {
+   "slug": "ayam-goreng",
+   "name": "Ayam goreng (paha)",
+   "cat": "nasi",
+   "serving": "1 ketul",
+   "kcal": 300
+  },
+  {
+   "slug": "ikan-goreng-kembung",
+   "name": "Ikan goreng kembung",
+   "cat": "nasi",
+   "serving": "1 ekor",
+   "kcal": 200
+  },
+  {
+   "slug": "telur-dadar",
+   "name": "Telur dadar",
+   "cat": "nasi",
+   "serving": "1 biji",
+   "kcal": 150
+  },
+  {
+   "slug": "sayur-campur-goreng",
+   "name": "Sayur campur goreng",
+   "cat": "nasi",
+   "serving": "1 senduk",
+   "kcal": 100
+  },
+  {
+   "slug": "kari-ayam",
+   "name": "Kari ayam",
+   "cat": "nasi",
+   "serving": "1 senduk (ketul + kuah)",
+   "kcal": 250
+  },
+  {
+   "slug": "rendang-daging",
+   "name": "Rendang daging",
+   "cat": "nasi",
+   "serving": "1 senduk",
+   "kcal": 300
+  },
+  {
+   "slug": "mee-goreng-mamak",
+   "name": "Mee goreng mamak",
+   "cat": "mee",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "char-kuey-teow",
+   "name": "Char kuey teow",
+   "cat": "mee",
+   "serving": "1 pinggan",
+   "kcal": 740
+  },
+  {
+   "slug": "kuey-teow-sup",
+   "name": "Kuey teow sup",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 350
+  },
+  {
+   "slug": "mee-rebus",
+   "name": "Mee rebus",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 550
+  },
+  {
+   "slug": "laksa-penang",
+   "name": "Laksa Penang (asam laksa)",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 450
+  },
+  {
+   "slug": "laksa-kari",
+   "name": "Laksa kari",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 650
+  },
+  {
+   "slug": "mee-kari",
+   "name": "Mee kari",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 650
+  },
+  {
+   "slug": "wantan-mee-kering",
+   "name": "Wantan mee kering",
+   "cat": "mee",
+   "serving": "1 pinggan",
+   "kcal": 450
+  },
+  {
+   "slug": "mee-bandung",
+   "name": "Mee bandung",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 550
+  },
+  {
+   "slug": "mee-soto",
+   "name": "Mee soto",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 400
+  },
+  {
+   "slug": "maggi-goreng",
+   "name": "Maggi goreng",
+   "cat": "mee",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "mi-segera",
+   "name": "Mi segera (mi sup)",
+   "cat": "mee",
+   "serving": "1 bungkus",
+   "kcal": 380
+  },
+  {
+   "slug": "pan-mee-sup",
+   "name": "Pan mee sup",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 450
+  },
+  {
+   "slug": "kuey-teow-kungfu",
+   "name": "Kuey teow kungfu (ladna)",
+   "cat": "mee",
+   "serving": "1 pinggan",
+   "kcal": 650
+  },
+  {
+   "slug": "bihun-sup",
+   "name": "Bihun sup",
+   "cat": "mee",
+   "serving": "1 mangkuk",
+   "kcal": 300
+  },
+  {
+   "slug": "mee-hailam",
+   "name": "Mee hailam",
+   "cat": "mee",
+   "serving": "1 pinggan",
+   "kcal": 550
+  },
+  {
+   "slug": "roti-tisu",
+   "name": "Roti tisu",
+   "cat": "mamak",
+   "serving": "1 keping",
+   "kcal": 500
+  },
+  {
+   "slug": "murtabak-ayam",
+   "name": "Murtabak ayam",
+   "cat": "mamak",
+   "serving": "1 keping (4 potong)",
+   "kcal": 700
+  },
+  {
+   "slug": "tosai-masala",
+   "name": "Tosai masala",
+   "cat": "mamak",
+   "serving": "1 keping",
+   "kcal": 350
+  },
+  {
+   "slug": "nasi-lemak-mamak",
+   "name": "Nasi lemak mamak (telur goreng)",
+   "cat": "mamak",
+   "serving": "1 pinggan",
+   "kcal": 550
+  },
+  {
+   "slug": "ayam-tandoori-dengan-naan",
+   "name": "Ayam tandoori dengan naan",
+   "cat": "mamak",
+   "serving": "1 set",
+   "kcal": 650
+  },
+  {
+   "slug": "naan-cheese",
+   "name": "Naan cheese",
+   "cat": "mamak",
+   "serving": "1 keping",
+   "kcal": 450
+  },
+  {
+   "slug": "pasembur",
+   "name": "Pasembur",
+   "cat": "mamak",
+   "serving": "1 pinggan",
+   "kcal": 500
+  },
+  {
+   "slug": "sup-kambing",
+   "name": "Sup kambing",
+   "cat": "mamak",
+   "serving": "1 mangkuk",
+   "kcal": 300
+  },
+  {
+   "slug": "teh-tarik",
+   "name": "Teh tarik",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 120
+  },
+  {
+   "slug": "teh-o-ais",
+   "name": "Teh O ais (bergula)",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 90
+  },
+  {
+   "slug": "kopi-o",
+   "name": "Kopi O (bergula)",
+   "cat": "minuman",
+   "serving": "1 cawan",
+   "kcal": 60
+  },
+  {
+   "slug": "milo-ais",
+   "name": "Milo ais",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 200
+  },
+  {
+   "slug": "sirap-bandung",
+   "name": "Sirap bandung",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 180
+  },
+  {
+   "slug": "air-tebu",
+   "name": "Air tebu",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 180
+  },
+  {
+   "slug": "teh-ais-limau",
+   "name": "Teh ais limau",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 100
+  },
+  {
+   "slug": "air-kelapa",
+   "name": "Air kelapa",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 60
+  },
+  {
+   "slug": "bubble-tea",
+   "name": "Bubble tea (susu, gula biasa)",
+   "cat": "minuman",
+   "serving": "1 cawan besar",
+   "kcal": 350
+  },
+  {
+   "slug": "neslo-ais",
+   "name": "Neslo ais",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 200
+  },
+  {
+   "slug": "jus-oren",
+   "name": "Jus oren (kotak)",
+   "cat": "minuman",
+   "serving": "1 kotak 250 ml",
+   "kcal": 110
+  },
+  {
+   "slug": "minuman-bergas",
+   "name": "Minuman bergas (tin)",
+   "cat": "minuman",
+   "serving": "1 tin 325 ml",
+   "kcal": 140
+  },
+  {
+   "slug": "kopi-latte",
+   "name": "Kopi latte",
+   "cat": "minuman",
+   "serving": "1 cawan 350 ml",
+   "kcal": 190
+  },
+  {
+   "slug": "air-mangga",
+   "name": "Air mangga (gerai)",
+   "cat": "minuman",
+   "serving": "1 gelas",
+   "kcal": 200
+  },
+  {
+   "slug": "kuih-seri-muka",
+   "name": "Kuih seri muka",
+   "cat": "kuih",
+   "serving": "1 potong",
+   "kcal": 150
+  },
+  {
+   "slug": "onde-onde",
+   "name": "Onde-onde",
+   "cat": "kuih",
+   "serving": "3 biji",
+   "kcal": 120
+  },
+  {
+   "slug": "kuih-lapis",
+   "name": "Kuih lapis",
+   "cat": "kuih",
+   "serving": "1 potong",
+   "kcal": 130
+  },
+  {
+   "slug": "pisang-goreng",
+   "name": "Pisang goreng",
+   "cat": "kuih",
+   "serving": "2 keping",
+   "kcal": 200
+  },
+  {
+   "slug": "cucur-udang",
+   "name": "Cucur udang",
+   "cat": "kuih",
+   "serving": "2 biji",
+   "kcal": 200
+  },
+  {
+   "slug": "donut-gula",
+   "name": "Donut gula",
+   "cat": "kuih",
+   "serving": "1 biji",
+   "kcal": 250
+  },
+  {
+   "slug": "apam-balik",
+   "name": "Apam balik (kacang)",
+   "cat": "kuih",
+   "serving": "1 potong besar",
+   "kcal": 250
+  },
+  {
+   "slug": "kuih-koci",
+   "name": "Kuih koci",
+   "cat": "kuih",
+   "serving": "1 biji",
+   "kcal": 130
+  },
+  {
+   "slug": "popia-goreng",
+   "name": "Popia goreng",
+   "cat": "kuih",
+   "serving": "2 batang",
+   "kcal": 200
+  },
+  {
+   "slug": "keropok-lekor",
+   "name": "Keropok lekor",
+   "cat": "kuih",
+   "serving": "5 batang",
+   "kcal": 250
+  },
+  {
+   "slug": "cendol",
+   "name": "Cendol",
+   "cat": "kuih",
+   "serving": "1 mangkuk",
+   "kcal": 350
+  },
+  {
+   "slug": "ais-kacang",
+   "name": "Ais kacang (ABC)",
+   "cat": "kuih",
+   "serving": "1 mangkuk",
+   "kcal": 300
+  },
+  {
+   "slug": "burger-ayam",
+   "name": "Burger ayam (gerai, dengan telur)",
+   "cat": "barat",
+   "serving": "1 biji",
+   "kcal": 500
+  },
+  {
+   "slug": "burger-daging",
+   "name": "Burger daging (fast food, biasa)",
+   "cat": "barat",
+   "serving": "1 biji",
+   "kcal": 300
+  },
+  {
+   "slug": "ayam-goreng-fast-food-original",
+   "name": "Ayam goreng (fast food, original)",
+   "cat": "barat",
+   "serving": "1 ketul",
+   "kcal": 320
+  },
+  {
+   "slug": "kentang-goreng",
+   "name": "Kentang goreng (sederhana)",
+   "cat": "barat",
+   "serving": "1 bekas sederhana",
+   "kcal": 340
+  },
+  {
+   "slug": "pizza",
+   "name": "Pizza (pepperoni)",
+   "cat": "barat",
+   "serving": "1 potong",
+   "kcal": 300
+  },
+  {
+   "slug": "spaghetti-bolognese",
+   "name": "Spaghetti bolognese",
+   "cat": "barat",
+   "serving": "1 pinggan",
+   "kcal": 600
+  },
+  {
+   "slug": "chicken-chop-dengan-kentang",
+   "name": "Chicken chop dengan kentang",
+   "cat": "barat",
+   "serving": "1 set",
+   "kcal": 850
+  },
+  {
+   "slug": "nugget-ayam",
+   "name": "Nugget ayam",
+   "cat": "barat",
+   "serving": "6 ketul",
+   "kcal": 280
+  },
+  {
+   "slug": "sandwich-tuna",
+   "name": "Sandwich tuna",
+   "cat": "barat",
+   "serving": "1 biji",
+   "kcal": 350
+  },
+  {
+   "slug": "shawarma-ayam",
+   "name": "Shawarma ayam",
+   "cat": "barat",
+   "serving": "1 gulung",
+   "kcal": 550
+  },
+  {
+   "slug": "pisang",
+   "name": "Pisang",
+   "cat": "buah",
+   "serving": "1 biji sederhana",
+   "kcal": 100
+  },
+  {
+   "slug": "epal",
+   "name": "Epal",
+   "cat": "buah",
+   "serving": "1 biji sederhana",
+   "kcal": 90
+  },
+  {
+   "slug": "durian",
+   "name": "Durian",
+   "cat": "buah",
+   "serving": "4 ulas",
+   "kcal": 260
+  },
+  {
+   "slug": "tembikai",
+   "name": "Tembikai",
+   "cat": "buah",
+   "serving": "1 potong",
+   "kcal": 50
+  },
+  {
+   "slug": "betik",
+   "name": "Betik",
+   "cat": "buah",
+   "serving": "1 mangkuk kecil",
+   "kcal": 60
+  },
+  {
+   "slug": "mangga",
+   "name": "Mangga",
+   "cat": "buah",
+   "serving": "1 biji sederhana",
+   "kcal": 200
+  },
+  {
+   "slug": "kurma",
+   "name": "Kurma",
+   "cat": "buah",
+   "serving": "3 biji",
+   "kcal": 70
+  },
+  {
+   "slug": "nanas",
+   "name": "Nanas",
+   "cat": "buah",
+   "serving": "1 mangkuk kecil",
+   "kcal": 80
+  },
+  {
+   "slug": "rambutan",
+   "name": "Rambutan",
+   "cat": "buah",
+   "serving": "10 biji",
+   "kcal": 120
+  },
+  {
+   "slug": "kacang-tanah",
+   "name": "Kacang tanah (goreng)",
+   "cat": "snek",
+   "serving": "1 genggam (30 g)",
+   "kcal": 170
+  },
+  {
+   "slug": "kerepek-ubi",
+   "name": "Kerepek ubi",
+   "cat": "snek",
+   "serving": "1 paket kecil (30 g)",
+   "kcal": 160
+  },
+  {
+   "slug": "coklat-susu",
+   "name": "Coklat susu",
+   "cat": "snek",
+   "serving": "1 bar kecil (40 g)",
+   "kcal": 210
+  },
+  {
+   "slug": "biskut-krim",
+   "name": "Biskut krim",
+   "cat": "snek",
+   "serving": "3 keping",
+   "kcal": 160
+  },
+  {
+   "slug": "roti-putih",
+   "name": "Roti putih",
+   "cat": "snek",
+   "serving": "2 keping",
+   "kcal": 160
+  },
+  {
+   "slug": "telur-rebus",
+   "name": "Telur rebus",
+   "cat": "snek",
+   "serving": "1 biji",
+   "kcal": 75
+  },
+  {
+   "slug": "yogurt",
+   "name": "Yogurt (berperisa)",
+   "cat": "snek",
+   "serving": "1 cawan",
+   "kcal": 150
+  },
+  {
+   "slug": "badam",
+   "name": "Badam",
+   "cat": "snek",
+   "serving": "1 genggam (30 g)",
+   "kcal": 170
+  },
+  {
+   "slug": "sosej-ayam",
+   "name": "Sosej ayam",
+   "cat": "snek",
+   "serving": "2 batang",
+   "kcal": 180
+  },
+  {
+   "slug": "tauhu-bakar",
+   "name": "Tauhu bakar",
+   "cat": "snek",
+   "serving": "1 pinggan",
+   "kcal": 300
+  },
+  {
+   "slug": "satay-ayam",
+   "name": "Satay ayam",
+   "cat": "snek",
+   "serving": "10 cucuk + kuah",
+   "kcal": 450
+  }
+ ]
+}

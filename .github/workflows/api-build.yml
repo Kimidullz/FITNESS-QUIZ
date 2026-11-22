@@ -1,0 +1,48 @@
+name: API build (food pages + quiz notes)
+
+# Manual only. Uses the ANTHROPIC_API_KEY secret (Kimi's credit, expires 12 Dec 2026).
+# Output is committed as plain JSON/HTML, so the site keeps working without the API.
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "What to make"
+        type: choice
+        options: [foods, notes, all, build-only]
+        default: foods
+      limit:
+        description: "Foods only: how many new foods at most (empty = all)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency: api-build
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "anthropic>=2.8,<3"
+      - name: Generate
+        if: inputs.job != 'build-only'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python seo/generate.py ${{ inputs.job }} ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
+      - name: Build pages
+        if: always()
+        run: python seo/build.py
+      - name: Save to repo
+        if: always()
+        run: |
+          git config user.name "api-build"
+          git config user.email "api-build@users.noreply.github.com"
+          git add seo/data results kalori sitemap.xml 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "API build: ${{ inputs.job }}"
+          git pull --rebase && git push
