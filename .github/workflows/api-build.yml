@@ -42,9 +42,7 @@ jobs:
         run: |
           git config user.name "api-build"
           git config user.email "api-build@users.noreply.github.com"
-          mkdir -p seo/data results kalori
-          git add -A seo/data results kalori
-          [ -f sitemap.xml ] && git add sitemap.xml || true
+          for f in seo/data results kalori sitemap.xml; do [ -e "$f" ] && git add -A "$f" || true; done
           git diff --cached --quiet && exit 0
           git commit -m "API build: ${{ inputs.job }}"
           git pull --rebase && git push
