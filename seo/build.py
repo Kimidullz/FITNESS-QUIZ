@@ -114,7 +114,7 @@ def food_page(f, d, cats, by_cat):
 <h2>Versi lain</h2><table>{rows(d['variants'])}</table>
 <h2>Boleh makan masa nak turun berat?</h2><div class="card"><p style="margin:0">{E(d['diet'])}</p></div>
 <h2>3 tips makan lebih bijak</h2><ul class="tips">{''.join(f'<li>{E(t)}</li>' for t in d['tips'])}</ul>
-<h2>Pilihan lebih ringan</h2><div class="card swap"><div class="n">~{d['swap']['kcal']}</div><div><b>{E(d['swap']['name'])}</b><br>{E(d['swap']['why'])}</div></div>
+<h2>Pilihan lebih bijak</h2><div class="card swap"><div class="n">~{d['swap']['kcal']}</div><div><b>{E(d['swap']['name'])}</b><br>{E(d['swap']['why'])}</div></div>
 {cta(short)}
 <h2>Soalan lazim</h2>{''.join(f'<details><summary>{E(q["q"])}</summary><p>{E(q["a"])}</p></details>' for q in d['faq'])}
 <h2>Makanan lain dalam {E(cats[f['cat']].lower())}</h2>

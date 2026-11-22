@@ -62,7 +62,6 @@
   }
  ],
  "check": "",
- "problems": [
-  "banned words: shake"
- ]
+ "problems": [],
+ "check_note": ""
 }
