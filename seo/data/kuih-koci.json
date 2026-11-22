@@ -1,0 +1,62 @@
+{
+ "slug": "kuih-koci",
+ "intro": "Sebiji kuih koci ada anggaran 130 kcal. Kebanyakan kalori datang daripada tepung pulut dan inti kelapa bergula melaka.",
+ "protein_g": 2,
+ "carbs_g": 22,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Kulit tepung pulut",
+   "kcal": 60
+  },
+  {
+   "part": "Inti kelapa & gula melaka",
+   "kcal": 55
+  },
+  {
+   "part": "Santan",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuih koci pulut hitam",
+   "kcal": 140
+  },
+  {
+   "name": "Kuih koci saiz besar",
+   "kcal": 180
+  },
+  {
+   "name": "Kuih koci inti kacang",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh. Sebiji kuih koci tak banyak kalori dan dikukus, bukan digoreng. Cuma ia kebanyakannya karbohidrat dan gula. Satu biji dengan minuman kosong sudah cukup untuk snek.",
+ "tips": [
+  "Pilih satu biji sahaja sebagai snek petang.",
+  "Minum dengan teh o kosong untuk elak gula berganda.",
+  "Kalau lapar lagi, tambah kacang atau telur rebus, bukan kuih kedua."
+ ],
+ "swap": {
+  "name": "Ubi rebus 1 potong sederhana",
+  "kcal": 120,
+  "why": "Kalori hampir sama tapi tanpa gula tambahan dan lebih banyak serat."
+ },
+ "faq": [
+  {
+   "q": "Kuih koci dibalut dengan daun apa?",
+   "a": "Biasanya daun pisang, dilipat bentuk piramid. Daun pisang beri aroma wangi bila dikukus."
+  },
+  {
+   "q": "Kenapa kuih koci melekat pada daun?",
+   "a": "Sapu sedikit minyak pada daun pisang sebelum membalut supaya senang dibuka."
+  },
+  {
+   "q": "Kuih koci tahan berapa lama?",
+   "a": "Elok habiskan dalam sehari. Inti kelapa cepat basi pada suhu bilik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "kacang-tanah",
+ "intro": "Segenggam kacang tanah goreng (30 g) ada anggaran 170 kcal. Kebanyakan kalori datang daripada lemak, iaitu minyak semula jadi kacang dan minyak gorengan.",
+ "protein_g": 7,
+ "carbs_g": 5,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Lemak semula jadi dalam kacang",
+   "kcal": 110
+  },
+  {
+   "part": "Minyak goreng yang diserap",
+   "kcal": 25
+  },
+  {
+   "part": "Protein kacang",
+   "kcal": 28
+  },
+  {
+   "part": "Karbohidrat dan garam",
+   "kcal": 7
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kacang tanah rebus (1 genggam, berkulit)",
+   "kcal": 100
+  },
+  {
+   "name": "Kacang tanah panggang tanpa minyak (30 g)",
+   "kcal": 160
+  },
+  {
+   "name": "Kacang salut tepung pedas (30 g)",
+   "kcal": 160
+  },
+  {
+   "name": "Kacang dalam nasi lemak (1 sudu besar)",
+   "kcal": 60
+  }
+ ],
+ "diet": "Boleh, kacang tanah ada protein dan lemak yang buat kita kenyang lebih lama. Tapi kalorinya padat, jadi segenggam kecil sudah cukup. Masalahnya ialah makan terus dari balang depan TV. Bahagikan dulu ke dalam bekas kecil.",
+ "tips": [
+  "Isi bekas kecil 30 g (lebih kurang segenggam) untuk snek pejabat, jangan bawa balang.",
+  "Pilih kacang rebus atau panggang kalau ada, lebih rendah minyak.",
+  "Taburkan sedikit kacang atas sayur atau salad untuk rasa, bukan makan sebagai snek berasingan."
+ ],
+ "swap": {
+  "name": "Kacang tanah rebus 1 genggam",
+  "kcal": 100,
+  "why": "Kacang rebus tidak guna minyak dan lebih banyak air, jadi kalori lebih rendah untuk rasa yang sama mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Kacang tanah tinggi protein ke?",
+   "a": "Ia ada protein, kira-kira 7 g segenggam. Tapi lemaknya lebih banyak, jadi jangan jadikan sumber protein utama."
+  },
+  {
+   "q": "Kacang tanah buat jerawat?",
+   "a": "Ada orang rasa begitu, tapi kesannya berbeza ikut individu. Perhatikan sendiri tindak balas kulit anda."
+  },
+  {
+   "q": "Kacang rebus atau goreng, mana lebih sihat?",
+   "a": "Kacang rebus lebih rendah kalori dan minyak. Kacang goreng lebih rangup tapi lebih padat tenaga."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

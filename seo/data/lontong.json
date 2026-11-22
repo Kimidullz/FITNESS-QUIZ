@@ -1,0 +1,70 @@
+{
+ "slug": "lontong",
+ "intro": "Satu mangkuk lontong ada anggaran 450 kcal. Kebanyakan kalori datang dari kuah lodeh bersantan dan nasi impit.",
+ "protein_g": 14,
+ "carbs_g": 50,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Nasi impit (lebih kurang 2 cawan potongan)",
+   "kcal": 150
+  },
+  {
+   "part": "Kuah lodeh santan dengan sayur",
+   "kcal": 180
+  },
+  {
+   "part": "Sambal tumis 1 sudu besar",
+   "kcal": 50
+  },
+  {
+   "part": "Telur rebus 1 biji",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Lontong dengan rendang ayam",
+   "kcal": 650
+  },
+  {
+   "name": "Lontong tambah serunding",
+   "kcal": 520
+  },
+  {
+   "name": "Lontong tambah kerupuk",
+   "kcal": 500
+  },
+  {
+   "name": "Lontong kuah sedikit, banyak sayur",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, lontong masih boleh masuk dalam plan turun berat. Yang perlu jaga ialah kuah santan, sebab di situ banyak kalori. Kalau ambil kuah secukupnya dan tak tambah lauk berat, satu mangkuk masih okay untuk sarapan. Jadikan sesekali, bukan setiap hari.",
+ "tips": [
+  "Minta kuah sikit tapi sayur lodeh lebih.",
+  "Tambah telur rebus untuk protein supaya kenyang lebih lama.",
+  "Skip kerupuk dan serunding kalau dah ambil rendang."
+ ],
+ "swap": {
+  "name": "Lontong kuah sikit dengan 2 biji telur rebus",
+  "kcal": 420,
+  "why": "Kurang santan tapi protein naik, jadi lebih kenyang dengan kalori lebih kurang sama."
+ },
+ "faq": [
+  {
+   "q": "Lontong asal dari mana?",
+   "a": "Lontong popular di Malaysia dan Indonesia, terutama di Johor dan masyarakat Jawa. Selalu dihidang masa sarapan dan Hari Raya."
+  },
+  {
+   "q": "Apa beza lontong dan ketupat?",
+   "a": "Lontong biasanya dimasak dalam daun pisang atau plastik, ketupat pula dalam anyaman daun kelapa. Rasa dan tekstur hampir sama, cuma bentuk berbeza."
+  },
+  {
+   "q": "Boleh simpan kuah lodeh berapa lama?",
+   "a": "Simpan dalam peti sejuk dan habiskan dalam 1 hingga 2 hari. Panaskan sampai mendidih sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

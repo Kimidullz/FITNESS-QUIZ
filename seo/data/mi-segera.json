@@ -1,0 +1,66 @@
+{
+ "slug": "mi-segera",
+ "intro": "Satu bungkus mi segera berkuah ada anggaran 380 kcal. Kebanyakan kalori datang dari ketul mi yang telah digoreng di kilang, manakala perencah menyumbang sedikit sahaja.",
+ "protein_g": 8,
+ "carbs_g": 52,
+ "fat_g": 15,
+ "breakdown": [
+  {
+   "part": "Ketul mi 1 keping",
+   "kcal": 320
+  },
+  {
+   "part": "Paket perencah dan minyak perisa",
+   "kcal": 45
+  },
+  {
+   "part": "Kuah dan sayur sikit",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mi segera tambah telur",
+   "kcal": 455
+  },
+  {
+   "name": "Mi segera perisa kari",
+   "kcal": 420
+  },
+  {
+   "name": "Mi segera jenis kering",
+   "kcal": 450
+  },
+  {
+   "name": "Mi segera tidak digoreng",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, tapi kalau makan seorang diri ia rendah protein dan cepat lapar. 380 kcal tak tinggi, cuma kurang zat untuk satu hidangan penuh. Masalah biasa ialah kita makan dua bungkus atau tambah keropok. Kalau nak makan, bina hidangan yang lebih lengkap dengan telur dan sayur.",
+ "tips": [
+  "Tambah telur dan sayur seperti sawi atau kubis untuk lebih kenyang.",
+  "Guna separuh paket perencah sahaja dan jangan habiskan kuah.",
+  "Tambah protein seperti ayam carik, fishball atau tauhu."
+ ],
+ "swap": {
+  "name": "Bihun sup",
+  "kcal": 300,
+  "why": "Lebih rendah lemak, ada protein dan sayur, dan masih senang cari di kedai."
+ },
+ "faq": [
+  {
+   "q": "Kenapa mi segera mudah masak?",
+   "a": "Mi segera dah dimasak dan dikeringkan di kilang, biasanya dengan cara digoreng. Jadi ia cuma perlu direbus beberapa minit."
+  },
+  {
+   "q": "Perlu ke buang air rebusan pertama?",
+   "a": "Sesetengah orang buang air rebusan pertama untuk kurangkan minyak. Ini pilihan peribadi, rasa mungkin sedikit kurang pekat."
+  },
+  {
+   "q": "Berapa lama nak masak mi segera?",
+   "a": "Biasanya 2 hingga 3 minit dalam air mendidih. Jangan terlalu lama supaya mi tak lembik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

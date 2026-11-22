@@ -1,0 +1,70 @@
+{
+ "slug": "mee-hailam",
+ "intro": "Satu pinggan mee hailam ada anggaran 550 kcal. Kebanyakan kalori datang dari mee kuning dan kuah pekat yang dimasak dengan tepung, kicap dan minyak.",
+ "protein_g": 24,
+ "carbs_g": 65,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1 hidangan",
+   "kcal": 240
+  },
+  {
+   "part": "Kuah pekat (tepung, kicap, minyak)",
+   "kcal": 140
+  },
+  {
+   "part": "Ayam, udang atau sotong",
+   "kcal": 100
+  },
+  {
+   "part": "Telur dan sayur sawi",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee hailam seafood",
+   "kcal": 600
+  },
+  {
+   "name": "Mee hailam goreng (kurang kuah, lebih minyak)",
+   "kcal": 650
+  },
+  {
+   "name": "Bihun hailam",
+   "kcal": 520
+  },
+  {
+   "name": "Kuey teow hailam",
+   "kcal": 580
+  }
+ ],
+ "diet": "Boleh, dan ia ada protein yang agak baik dari ayam, udang atau sotong. Kalori dia sederhana tinggi sebab kuah pekat ada minyak dan tepung. Kalau makan sebagai makan tengah hari dan minum air kosong, ia masih muat. Jaga saiz dan elakkan tambah lauk goreng di sebelah.",
+ "tips": [
+  "Minta seafood atau ayam lebih untuk naikkan protein.",
+  "Tambah sayur sawi lebih dan tinggalkan sedikit kuah.",
+  "Pilih bihun hailam kalau nak versi yang sedikit lebih ringan."
+ ],
+ "swap": {
+  "name": "Bihun sup",
+  "kcal": 300,
+  "why": "Kuah jernih tanpa tepung dan minyak, jadi kalori hampir separuh."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama mee hailam?",
+   "a": "Nama ini dikaitkan dengan masyarakat Hainan yang terkenal dengan masakan seperti ini. Di Malaysia, ia jadi menu biasa di kedai tomyam dan restoran."
+  },
+  {
+   "q": "Apa beza mee hailam dengan mee goreng?",
+   "a": "Mee hailam biasanya ada kuah pekat berwarna gelap, manakala mee goreng digoreng kering."
+  },
+  {
+   "q": "Kuah mee hailam pekat sebab apa?",
+   "a": "Kuahnya dipekatkan dengan tepung jagung dan telur, dengan rasa dari kicap pekat dan sos tiram."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

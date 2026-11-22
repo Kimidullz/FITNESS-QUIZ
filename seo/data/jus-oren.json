@@ -1,0 +1,66 @@
+{
+ "slug": "jus-oren",
+ "intro": "Sekotak jus oren 250 ml ada anggaran 110 kcal. Hampir semua kalori datang dari gula, sama ada gula asli buah atau gula tambahan.",
+ "protein_g": 2,
+ "carbs_g": 26,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula asli dari oren",
+   "kcal": 85
+  },
+  {
+   "part": "Gula tambahan (bergantung jenis)",
+   "kcal": 20
+  },
+  {
+   "part": "Protein & lain-lain",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jus oren 100% tanpa gula tambahan",
+   "kcal": 100
+  },
+  {
+   "name": "Minuman berperisa oren (bukan jus penuh)",
+   "kcal": 130
+  },
+  {
+   "name": "Oren segar 1 biji sederhana",
+   "kcal": 60
+  },
+  {
+   "name": "Jus oren perah segar (gerai) 1 gelas",
+   "kcal": 120
+  }
+ ],
+ "diet": "Boleh, tapi jangan anggap jus sama macam makan buah. Jus tak ada banyak fiber, jadi kurang kenyang dan senang minum banyak. Satu kotak sekali-sekala okay. Kalau nak turun berat, makan buah oren yang sebenar biasanya lebih membantu.",
+ "tips": [
+  "Baca label: pilih '100% jus' dan elak 'minuman berperisa'.",
+  "Campur separuh jus dengan separuh air sejuk untuk rasa lebih ringan.",
+  "Makan sebiji oren dan minum air kosong, lebih kenyang dengan kalori lebih rendah."
+ ],
+ "swap": {
+  "name": "Oren segar 1 biji + air kosong",
+  "kcal": 60,
+  "why": "Ada fiber, ambil masa untuk makan dan lebih mengenyangkan berbanding jus kotak."
+ },
+ "faq": [
+  {
+   "q": "Jus oren kotak ada vitamin C tak?",
+   "a": "Ada, biasanya cukup tinggi. Tapi oren segar juga beri vitamin C dengan tambahan fiber."
+  },
+  {
+   "q": "Beza jus oren 100% dengan minuman oren?",
+   "a": "Jus 100% dibuat daripada jus buah sahaja. Minuman oren selalunya ada air, gula dan perisa, dengan peratus jus yang rendah."
+  },
+  {
+   "q": "Boleh ke bagi anak minum jus oren kotak setiap hari?",
+   "a": "Sekali-sekala okay. Untuk harian, air kosong, susu dan buah segar lebih baik sebab jus tetap tinggi gula."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

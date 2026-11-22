@@ -1,0 +1,66 @@
+{
+ "slug": "sandwich-telur",
+ "intro": "Sebiji sandwich telur ada anggaran 300 kcal. Kebanyakan kalori datang daripada roti dan mayonis dalam inti telur.",
+ "protein_g": 12,
+ "carbs_g": 30,
+ "fat_g": 15,
+ "breakdown": [
+  {
+   "part": "Roti putih 2 keping",
+   "kcal": 150
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Mayonis 1 sudu besar",
+   "kcal": 75
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sandwich telur roti gandum penuh",
+   "kcal": 290
+  },
+  {
+   "name": "Sandwich telur + keju",
+   "kcal": 380
+  },
+  {
+   "name": "Sandwich telur tanpa mayonis (telur rebus + timun)",
+   "kcal": 230
+  },
+  {
+   "name": "Sandwich telur kedai serbaneka (mayonis lebih)",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh. Sandwich telur senang dibawa ke pejabat dan ada protein daripada telur. Kalori naik bila mayonis tebal atau ditambah keju dan mentega. Kalau buat sendiri, anda boleh kawal semuanya dengan mudah.",
+ "tips": [
+  "Guna 2 biji telur dan separuh sudu mayonis untuk lebih protein, kurang lemak.",
+  "Tambah timun, salad atau tomato supaya lebih rangup dan mengenyangkan.",
+  "Pilih roti gandum penuh kalau ada, lebih serat."
+ ],
+ "swap": {
+  "name": "Sandwich 2 telur rebus + timun, mayonis sikit",
+  "kcal": 300,
+  "why": "Kalori sama, tapi protein hampir berganda sebab tukar mayonis kepada telur."
+ },
+ "faq": [
+  {
+   "q": "Sandwich telur boleh tahan berapa lama?",
+   "a": "Dalam suhu bilik, makan dalam 2 jam. Kalau simpan dalam peti sejuk, boleh tahan sampai sehari."
+  },
+  {
+   "q": "Boleh guna yogurt ganti mayonis?",
+   "a": "Boleh. Yogurt plain buat inti tetap berkrim, dengan lemak lebih rendah."
+  },
+  {
+   "q": "Sandwich telur sesuai untuk bekal anak?",
+   "a": "Sesuai. Masukkan dalam bekas sejuk dan tambah buah untuk bekal yang seimbang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

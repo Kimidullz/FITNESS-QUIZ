@@ -1,0 +1,66 @@
+{
+ "slug": "sirap-bandung",
+ "intro": "Segelas sirap bandung ada anggaran 180 kcal. Kalori datang dari sirap mawar yang manis dan susu pekat manis.",
+ "protein_g": 3,
+ "carbs_g": 35,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Sirap mawar (~2 sudu besar)",
+   "kcal": 90
+  },
+  {
+   "part": "Susu pekat manis (~1 sudu besar)",
+   "kcal": 65
+  },
+  {
+   "part": "Susu cair (sedikit)",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bandung kurang manis",
+   "kcal": 120
+  },
+  {
+   "name": "Sirap ais (tanpa susu)",
+   "kcal": 100
+  },
+  {
+   "name": "Bandung soda",
+   "kcal": 200
+  },
+  {
+   "name": "Bandung cincau",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh, terutama waktu berbuka atau majlis kenduri. Tapi ia antara minuman paling manis di kedai, jadi elok jadikan treat, bukan rutin harian. Satu gelas okay kalau makan berat dikawal. Elak tambah gelas kedua atau versi soda dan cincau selalu.",
+ "tips": [
+  "Minta 'bandung kurang manis' atau separuh sirap.",
+  "Minta lebih ais supaya gelas penuh tapi kurang sirap.",
+  "Kalau buat di rumah, guna susu segar rendah lemak dan kurangkan sirap."
+ ],
+ "swap": {
+  "name": "Bandung kurang manis",
+  "kcal": 120,
+  "why": "Warna pink dan rasa mawar masih sama, cuma gula berkurang."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama dia bandung?",
+   "a": "'Bandung' merujuk kepada campuran dua benda, iaitu sirap dan susu. Ia bukan dari bandar Bandung."
+  },
+  {
+   "q": "Bandung soda sedap ke, macam mana buat?",
+   "a": "Campur sirap, susu pekat dan air soda berkarbonat. Rasa lebih segar dan berbuih, tapi kalori sedikit lebih tinggi."
+  },
+  {
+   "q": "Boleh buat bandung guna susu segar?",
+   "a": "Boleh. Rasa kurang lemak manis, tapi lebih ringan dan kurang kalori."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "sup-kambing",
+ "intro": "Semangkuk sup kambing ada anggaran 300 kcal. Kebanyakan kalori datang dari daging kambing dan lemak yang larut dalam kuah.",
+ "protein_g": 25,
+ "carbs_g": 8,
+ "fat_g": 18,
+ "breakdown": [
+  {
+   "part": "Daging kambing bertulang",
+   "kcal": 180
+  },
+  {
+   "part": "Kuah sup dan lemak",
+   "kcal": 80
+  },
+  {
+   "part": "Kentang dan lobak",
+   "kcal": 30
+  },
+  {
+   "part": "Bawang goreng dan daun sup",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup tulang kambing",
+   "kcal": 350
+  },
+  {
+   "name": "Sup kambing dengan nasi putih",
+   "kcal": 500
+  },
+  {
+   "name": "Sup kambing dengan roti canai",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, sup kambing sebenarnya pilihan yang baik di kedai mamak. Ia tinggi protein dan tak digoreng. Lemak kambing memang ada, tapi masih munasabah untuk satu mangkuk. Perhatikan apa yang anda makan bersama, contohnya roti canai atau nasi.",
+ "tips": [
+  "Pilih nasi putih separuh atau chapati, bukan roti canai.",
+  "Buang lapisan minyak di permukaan kuah kalau nampak banyak.",
+  "Minta daging lebih, kurang tulang berlemak."
+ ],
+ "swap": {
+  "name": "Sup ayam",
+  "kcal": 200,
+  "why": "Rasa berempah yang sama, tapi daging ayam kurang lemak berbanding kambing."
+ },
+ "faq": [
+  {
+   "q": "Kenapa sup kambing tak berbau hamis?",
+   "a": "Rempah seperti bunga lawang, kayu manis, buah pelaga dan halia membantu kurangkan bau kambing. Daging juga biasanya direbus lama."
+  },
+  {
+   "q": "Sup kambing sesuai dimakan bila?",
+   "a": "Ramai suka makan waktu malam atau masa cuaca sejuk dan hujan. Ia juga popular sebagai sarapan di sesetengah kedai mamak."
+  },
+  {
+   "q": "Boleh masak sup kambing guna periuk tekanan?",
+   "a": "Boleh, periuk tekanan boleh lembutkan daging dalam masa lebih kurang 30-40 minit. Rasa tetap sedap kalau rempah ditumis dulu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

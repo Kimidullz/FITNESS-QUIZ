@@ -1,0 +1,66 @@
+{
+ "slug": "roti-bakar-kaya-mentega",
+ "intro": "Dua keping roti bakar kaya mentega ada anggaran 300 kcal. Kalori datang dari roti putih, kaya yang manis dan mentega.",
+ "protein_g": 6,
+ "carbs_g": 40,
+ "fat_g": 13,
+ "breakdown": [
+  {
+   "part": "Roti putih 2 keping",
+   "kcal": 145
+  },
+  {
+   "part": "Kaya lebih kurang 1.5 sudu besar",
+   "kcal": 80
+  },
+  {
+   "part": "Mentega lebih kurang 10 g",
+   "kcal": 75
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti bakar wholemeal kaya mentega",
+   "kcal": 280
+  },
+  {
+   "name": "Roti bun bakar kaya mentega",
+   "kcal": 400
+  },
+  {
+   "name": "Set roti bakar dengan 2 telur separuh masak",
+   "kcal": 440
+  },
+  {
+   "name": "Roti bakar kaya sahaja tanpa mentega",
+   "kcal": 230
+  }
+ ],
+ "diet": "Boleh, 300 kcal untuk sarapan sebenarnya tak banyak. Masalahnya protein rendah, jadi cepat lapar semula. Pasangkan dengan telur separuh masak supaya lebih kenyang. Jaga juga air minuman yang manis.",
+ "tips": [
+  "Order set dengan telur separuh masak untuk protein.",
+  "Pilih kopi atau teh kosong atau kurang manis.",
+  "Minta mentega nipis atau kaya sahaja."
+ ],
+ "swap": {
+  "name": "1 keping roti bakar kaya + 2 telur separuh masak",
+  "kcal": 290,
+  "why": "Kalori lebih kurang sama tapi protein naik, jadi tahan kenyang sampai tengah hari."
+ },
+ "faq": [
+  {
+   "q": "Kaya diperbuat daripada apa?",
+   "a": "Kaya dibuat dari telur, santan, gula dan daun pandan. Ada versi kaya Nyonya hijau dan kaya Hainan perang."
+  },
+  {
+   "q": "Roti bakar arang dan biasa ada beza?",
+   "a": "Roti bakar arang lebih rangup dan ada aroma asap. Kalori lebih kurang sama."
+  },
+  {
+   "q": "Kenapa mentega roti bakar tebal di kopitiam?",
+   "a": "Kopitiam selalu letak kepingan mentega sejuk untuk tekstur. Boleh minta kurang mentega kalau nak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

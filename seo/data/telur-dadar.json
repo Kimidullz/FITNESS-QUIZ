@@ -1,0 +1,66 @@
+{
+ "slug": "telur-dadar",
+ "intro": "Satu biji telur dadar ada anggaran 150 kcal. Separuh kalori dari telur itu sendiri dan separuh lagi dari minyak yang digunakan untuk menggoreng.",
+ "protein_g": 7,
+ "carbs_g": 2,
+ "fat_g": 13,
+ "breakdown": [
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 65
+  },
+  {
+   "part": "Bawang, cili dan daun bawang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Telur rebus",
+   "kcal": 75
+  },
+  {
+   "name": "Telur goreng mata",
+   "kcal": 110
+  },
+  {
+   "name": "Telur dadar 2 biji",
+   "kcal": 280
+  },
+  {
+   "name": "Telur dadar berisi (sayur atau daging cincang)",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, telur ialah sumber protein yang murah dan senang. Yang buat kalori naik ialah minyak, sebab telur dadar menyerap minyak dengan cepat. Kalau masak sendiri dengan minyak sedikit, ia jadi lauk yang sangat sesuai masa diet. Di kedai, kongsi atau pilih telur rebus jika ada.",
+ "tips": [
+  "Guna kuali non-stick dan minyak satu sudu kecil sahaja.",
+  "Tambah sayur seperti bawang, tomato dan daun bawang supaya lebih kenyang.",
+  "Di kedai, pilih telur rebus atau telur mata berbanding telur dadar tebal."
+ ],
+ "swap": {
+  "name": "Telur rebus 2 biji",
+  "kcal": 150,
+  "why": "Kalori sama dengan sebiji telur dadar, tapi protein dua kali ganda. Lebih kenyang lama."
+ },
+ "faq": [
+  {
+   "q": "Apa beza telur dadar dengan telur goreng?",
+   "a": "Telur dadar dipukul dulu sebelum digoreng, biasanya dengan bawang dan cili. Telur goreng mata digoreng terus tanpa dipukul."
+  },
+  {
+   "q": "Macam mana nak buat telur dadar gebu?",
+   "a": "Pukul telur betul-betul dan masak atas api sederhana. Sikit air atau susu boleh bantu tekstur lebih lembut."
+  },
+  {
+   "q": "Berapa biji telur sehari boleh makan?",
+   "a": "Untuk kebanyakan orang sihat, 1 hingga 2 biji sehari adalah biasa. Kalau ada masalah kesihatan tertentu, rujuk doktor atau pakar pemakanan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

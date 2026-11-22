@@ -1,0 +1,66 @@
+{
+ "slug": "telur-rebus",
+ "intro": "1 biji telur rebus ada anggaran 75 kcal. Kebanyakan kalori datang daripada kuning telur, manakala putih telur hampir semuanya protein.",
+ "protein_g": 6,
+ "carbs_g": 1,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Kuning telur",
+   "kcal": 55
+  },
+  {
+   "part": "Putih telur",
+   "kcal": 17
+  },
+  {
+   "part": "Kicap/lada sedikit (pilihan)",
+   "kcal": 3
+  }
+ ],
+ "variants": [
+  {
+   "name": "Telur separuh masak + kicap",
+   "kcal": 80
+  },
+  {
+   "name": "Telur mata goreng",
+   "kcal": 110
+  },
+  {
+   "name": "Telur dadar 1 biji",
+   "kcal": 120
+  },
+  {
+   "name": "Telur masin 1 biji",
+   "kcal": 90
+  }
+ ],
+ "diet": "Sangat boleh. Telur rebus antara snek paling mudah untuk tambah protein dengan kalori rendah. Ia bantu kenyang lebih lama dan senang bawa ke ofis. Cuma jangan ganti semua makanan dengan telur saja, tetap makan sayur dan karbohidrat ikut portion.",
+ "tips": [
+  "Rebus 6-8 biji sekali gus pada hujung minggu, simpan dalam peti sejuk untuk snek seminggu.",
+  "Tambah 1-2 telur rebus pada nasi lemak atau sarapan untuk lebih protein.",
+  "Di mamak, minta telur rebus atau separuh masak berbanding telur dadar atau goreng."
+ ],
+ "swap": {
+  "name": "Telur rebus ganti telur goreng di nasi lemak",
+  "kcal": 75,
+  "why": "Jimat anggaran 35-50 kcal sebab tiada minyak, protein tetap sama."
+ },
+ "faq": [
+  {
+   "q": "Berapa biji telur boleh makan sehari?",
+   "a": "Bagi kebanyakan orang sihat, 1-2 biji sehari okay sebagai sebahagian diet seimbang. Kalau ada masalah kolesterol atau kesihatan, rujuk doktor."
+  },
+  {
+   "q": "Perlu buang kuning telur ke masa diet?",
+   "a": "Tak perlu. Kuning telur ada nutrien penting. Kalau nak lebih protein dengan kalori rendah, boleh tambah putih telur sahaja."
+  },
+  {
+   "q": "Berapa lama telur rebus tahan dalam peti sejuk?",
+   "a": "Biasanya sekitar seminggu kalau disimpan dengan kulit dalam peti sejuk."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

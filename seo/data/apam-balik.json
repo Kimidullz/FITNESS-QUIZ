@@ -1,0 +1,66 @@
+{
+ "slug": "apam-balik",
+ "intro": "Satu potong besar apam balik kacang ada anggaran 250 kcal. Kalori datang daripada lempeng tepung, kacang tumbuk, gula dan marjerin.",
+ "protein_g": 6,
+ "carbs_g": 34,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Lempeng tepung",
+   "kcal": 130
+  },
+  {
+   "part": "Kacang tanah tumbuk",
+   "kcal": 60
+  },
+  {
+   "part": "Gula",
+   "kcal": 35
+  },
+  {
+   "part": "Marjerin / mentega",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Apam balik nipis rangup (1 keping)",
+   "kcal": 150
+  },
+  {
+   "name": "Apam balik kacang + jagung",
+   "kcal": 270
+  },
+  {
+   "name": "Apam balik cheese / coklat",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, tapi kawal saiz. Satu potong besar dah macam satu snek penuh. Kalau beli satu bungkus penuh dan habiskan seorang, kalori boleh cecah 700-1000 kcal. Kongsi dengan keluarga lebih selamat.",
+ "tips": [
+  "Minta penjual potong kecil-kecil dan kongsi satu keluarga.",
+  "Pilih inti kacang biasa, elak tambahan cheese dan coklat.",
+  "Minta kurang marjerin di atas kalau boleh."
+ ],
+ "swap": {
+  "name": "Apam balik nipis rangup 1 keping",
+  "kcal": 150,
+  "why": "Rasa sama, lebih nipis jadi kurang tepung dan gula."
+ },
+ "faq": [
+  {
+   "q": "Apam balik dan martabak manis sama ke?",
+   "a": "Lebih kurang sama. Martabak manis ialah nama di Indonesia, apam balik nama di Malaysia."
+  },
+  {
+   "q": "Kenapa apam balik tak naik gebu?",
+   "a": "Biasanya soda bikarbonat tak cukup atau adunan tak direhatkan. Rehatkan adunan sekurang-kurangnya sejam."
+  },
+  {
+   "q": "Boleh simpan apam balik untuk esok?",
+   "a": "Boleh dalam bekas tertutup. Panaskan sekejap dalam kuali atau air fryer supaya lembut semula."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "pisang-goreng",
+ "intro": "Dua keping pisang goreng ada anggaran 200 kcal. Kalori paling banyak datang daripada minyak yang diserap tepung salut.",
+ "protein_g": 2,
+ "carbs_g": 30,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Pisang 2 keping",
+   "kcal": 80
+  },
+  {
+   "part": "Tepung salut",
+   "kcal": 50
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pisang goreng 1 keping",
+   "kcal": 100
+  },
+  {
+   "name": "Pisang goreng cheese (2 keping)",
+   "kcal": 320
+  },
+  {
+   "name": "Pisang goreng dengan sambal kicap",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh, asalkan kawal bilangan. Dua keping masih okay untuk snek petang sekali-sekala. Yang buat kalori naik selalunya bila makan 4-5 keping sambil lepak. Pilih yang garing dan tak berminyak sangat.",
+ "tips": [
+  "Beli 2 keping sahaja, bukan sebungkus besar untuk satu meja.",
+  "Tekan dengan tisu dapur untuk buang lebihan minyak.",
+  "Elakkan versi cheese dan susu pekat kalau tengah defisit."
+ ],
+ "swap": {
+  "name": "Pisang segar 1 biji besar",
+  "kcal": 110,
+  "why": "Rasa manis yang sama tanpa minyak, jimat hampir separuh kalori."
+ },
+ "faq": [
+  {
+   "q": "Pisang apa paling sedap untuk goreng?",
+   "a": "Pisang raja, pisang nangka dan pisang tanduk paling popular sebab manis dan tak lembik bila digoreng."
+  },
+  {
+   "q": "Macam mana nak buat pisang goreng rangup?",
+   "a": "Guna campuran tepung beras dan sedikit tepung jagung, dan pastikan minyak betul-betul panas sebelum goreng."
+  },
+  {
+   "q": "Boleh buat pisang goreng dalam air fryer?",
+   "a": "Boleh. Salut nipis dengan tepung, sembur sedikit minyak dan masak sekitar 10-12 minit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

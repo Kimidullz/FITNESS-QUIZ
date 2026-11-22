@@ -1,0 +1,66 @@
+{
+ "slug": "kari-ayam",
+ "intro": "Satu senduk kari ayam (seketul ayam dengan kuah) ada anggaran 250 kcal. Kalori paling banyak dari ayam dan kuah santan yang berlemak.",
+ "protein_g": 18,
+ "carbs_g": 7,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Ketul ayam",
+   "kcal": 140
+  },
+  {
+   "part": "Kuah kari santan",
+   "kcal": 80
+  },
+  {
+   "part": "Kentang 1 ketul",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kari ayam kuah banjir atas nasi",
+   "kcal": 350
+  },
+  {
+   "name": "Kari ayam tanpa santan (guna susu cair rendah lemak atau yogurt)",
+   "kcal": 200
+  },
+  {
+   "name": "Ayam masak merah",
+   "kcal": 280
+  },
+  {
+   "name": "Kari ayam dengan kentang lebih",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, kari ayam masih lauk yang ada protein yang baik. Yang buat kalori melonjak ialah kuah santan yang disiram banyak atas nasi. Ambil ketul ayam dan sedikit kuah sahaja, ia masih muat dalam diet. Masalahnya biasanya nasi dan kuah banjir, bukan ayamnya.",
+ "tips": [
+  "Ambil ketul ayam dengan kuah sesudu dua, jangan banjir.",
+  "Buang kulit ayam dan minyak yang terapung atas kuah.",
+  "Masak di rumah, guna separuh santan dan tambah air atau susu cair rendah lemak."
+ ],
+ "swap": {
+  "name": "Ayam masak kicap (kurang minyak) atau ayam tandoori",
+  "kcal": 200,
+  "why": "Kurang santan dan minyak, protein masih tinggi. Rasa berempah tetap ada."
+ },
+ "faq": [
+  {
+   "q": "Apa beza kari ayam Melayu dengan kari mamak?",
+   "a": "Kari Melayu biasanya guna lebih santan dan rasa lebih lemak manis. Kari mamak lebih pekat rempah dan kadangkala guna susu atau yogurt."
+  },
+  {
+   "q": "Kenapa kari lebih sedap esok hari?",
+   "a": "Rempah dan santan lebih meresap ke dalam ayam selepas diperap semalaman. Simpan dalam peti sejuk dan panaskan sampai mendidih sebelum makan."
+  },
+  {
+   "q": "Boleh buat kari ayam tanpa santan?",
+   "a": "Boleh. Ganti dengan susu cair rendah lemak, yogurt atau sedikit susu tepung. Rasa lebih ringan tapi tetap sedap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

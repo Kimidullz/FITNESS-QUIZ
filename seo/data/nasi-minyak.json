@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-minyak",
+ "intro": "Sepinggan nasi minyak dengan sedikit dalca dan acar ialah anggaran 600 kcal. Kebanyakan kalori datang daripada nasi itu sendiri yang dimasak dengan minyak sapi, susu dan santan.",
+ "protein_g": 13,
+ "carbs_g": 88,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Nasi minyak 1.5 cawan",
+   "kcal": 450
+  },
+  {
+   "part": "Dalca sayur",
+   "kcal": 70
+  },
+  {
+   "part": "Acar buah atau acar timun",
+   "kcal": 60
+  },
+  {
+   "part": "Bawang goreng dan kismis hiasan",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tambah ayam masak merah 1 ketul",
+   "kcal": 250
+  },
+  {
+   "name": "Tambah daging masak kurma",
+   "kcal": 300
+  },
+  {
+   "name": "Nasi minyak set kenduri penuh (ayam, daging, acar, dalca)",
+   "kcal": 950
+  },
+  {
+   "name": "Nasi minyak 1 cawan sahaja",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, nasi minyak biasanya kita jumpa di kenduri, jadi bukan makanan harian pun. Nasi minyak sendiri dah tinggi kalori tapi rendah protein. Masalah utama ialah bila tambah dua tiga lauk dan pinggan kedua. Makan satu pinggan dengan satu lauk protein, dan nikmati tanpa rasa bersalah.",
+ "tips": [
+  "Ambil nasi kurang sikit dan pilih satu lauk protein sahaja, contohnya ayam.",
+  "Tambah acar timun atau salad untuk rasa kenyang lebih.",
+  "Di kenduri, makan perlahan dan elakkan pinggan kedua, ambil buah atau air kosong selepas makan."
+ ],
+ "swap": {
+  "name": "Nasi minyak 1 cawan + ayam masak merah tanpa kulit + acar timun",
+  "kcal": 550,
+  "why": "Portion nasi lebih kecil dan protein bertambah, jadi lebih kenyang dengan kalori lebih kurang sama."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nasi minyak selalu ada di kenduri kahwin?",
+   "a": "Nasi minyak dianggap hidangan istimewa sebab rasa wangi dan kaya. Ia jadi tradisi untuk majlis perkahwinan dan kenduri besar."
+  },
+  {
+   "q": "Nasi minyak guna minyak apa?",
+   "a": "Biasanya minyak sapi atau ghee, dengan rempah seperti bunga lawang, kayu manis dan buah pelaga. Ada resipi tambah susu cair atau santan."
+  },
+  {
+   "q": "Boleh tak masak nasi minyak versi ringan di rumah?",
+   "a": "Boleh. Kurangkan minyak sapi separuh dan guna susu rendah lemak. Rasa tetap wangi kalau rempah cukup."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

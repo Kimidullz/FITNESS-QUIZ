@@ -1,0 +1,66 @@
+{
+ "slug": "sosej-ayam",
+ "intro": "2 batang sosej ayam ada anggaran 180 kcal. Kebanyakan kalori datang daripada lemak dalam adunan sosej dan sedikit tepung pengikat.",
+ "protein_g": 8,
+ "carbs_g": 8,
+ "fat_g": 13,
+ "breakdown": [
+  {
+   "part": "Daging ayam",
+   "kcal": 80
+  },
+  {
+   "part": "Lemak/kulit ayam dalam adunan",
+   "kcal": 70
+  },
+  {
+   "part": "Tepung/kanji pengikat",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sosej ayam goreng 2 batang",
+   "kcal": 240
+  },
+  {
+   "name": "Sosej ayam cheese 2 batang",
+   "kcal": 220
+  },
+  {
+   "name": "Sosej cucuk goreng bersalut tepung 2 batang",
+   "kcal": 300
+  },
+  {
+   "name": "Sosej ayam rebus/air fryer 2 batang",
+   "kcal": 180
+  }
+ ],
+ "diet": "Boleh makan sekali-sekala. Sosej ayam senang dan disukai anak-anak, tapi protein dia tak setinggi ayam biasa dan agak tinggi garam serta lemak. Untuk harian, ayam, telur atau ikan lebih mengenyangkan. Kalau makan sosej, kawal cara masak dan portion.",
+ "tips": [
+  "Rebus, bakar atau guna air fryer, bukan goreng celup minyak.",
+  "Makan dengan telur dan sayur untuk sarapan yang lebih seimbang.",
+  "Hadkan 2 batang dan tambah protein lain kalau masih lapar."
+ ],
+ "swap": {
+  "name": "Ayam dada panggang 100 g",
+  "kcal": 165,
+  "why": "Kalori lebih rendah tapi protein hampir 4 kali ganda, dan kurang garam."
+ },
+ "faq": [
+  {
+   "q": "Sosej ayam diproses tak sihat ke?",
+   "a": "Daging diproses sebaiknya dimakan sekali-sekala sahaja, bukan setiap hari. Ia tinggi garam dan bahan pengawet."
+  },
+  {
+   "q": "Sosej ayam tinggi protein ke?",
+   "a": "Sederhana sahaja. 2 batang ada anggaran 8 g protein, kurang berbanding seketul ayam."
+  },
+  {
+   "q": "Cara masak sosej paling rendah kalori?",
+   "a": "Rebus atau air fryer. Tiada minyak tambahan, jadi kalori kekal dekat dengan bacaan asal."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

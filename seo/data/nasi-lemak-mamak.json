@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-lemak-mamak",
+ "intro": "Sepinggan nasi lemak mamak dengan telur goreng ada anggaran 550 kcal. Kalori paling banyak datang dari nasi santan dan sambal yang bergula serta berminyak.",
+ "protein_g": 16,
+ "carbs_g": 62,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Nasi santan (1 cawan)",
+   "kcal": 250
+  },
+  {
+   "part": "Sambal",
+   "kcal": 120
+  },
+  {
+   "part": "Telur goreng (1 biji)",
+   "kcal": 100
+  },
+  {
+   "part": "Ikan bilis dan kacang goreng",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak tanpa telur",
+   "kcal": 450
+  },
+  {
+   "name": "Nasi lemak dengan sambal sotong",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi lemak dengan ayam goreng",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, nasi lemak tak perlu dibuang dari hidup anda. Sepinggan biasa dengan telur masih boleh masuk dalam bajet harian. Yang buat kalori melonjak ialah lauk tambahan seperti ayam goreng atau rendang. Pilih saiz biasa dan jaga lauk tambahan.",
+ "tips": [
+  "Tukar telur goreng kepada telur rebus untuk jimat sedikit minyak.",
+  "Minta sambal sikit dan tambah timun lebih.",
+  "Kalau nak tambah protein, pilih ayam bakar atau ayam rempah kecil, bukan ayam goreng besar."
+ ],
+ "swap": {
+  "name": "Nasi lemak telur rebus, sambal sikit",
+  "kcal": 430,
+  "why": "Rasa nasi lemak masih ada, tapi kurang minyak dari telur goreng dan sambal."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nasi lemak mamak lain rasa dari nasi lemak gerai Melayu?",
+   "a": "Setiap kedai ada resipi sambal dan cara masak santan sendiri. Nasi lemak mamak biasanya ada sambal lebih manis dan kadang-kadang dimakan dengan kuah kari."
+  },
+  {
+   "q": "Nasi lemak sesuai untuk sarapan ke?",
+   "a": "Ramai rakyat Malaysia makan nasi lemak waktu pagi dan ia boleh mengenyangkan sampai tengah hari. Pastikan ada protein seperti telur supaya kenyang lebih lama."
+  },
+  {
+   "q": "Boleh buat nasi lemak lebih ringan di rumah?",
+   "a": "Boleh, guna santan cair atau separuh santan separuh air. Sambal pun boleh dimasak dengan kurang minyak dan gula."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

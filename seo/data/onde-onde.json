@@ -1,0 +1,66 @@
+{
+ "slug": "onde-onde",
+ "intro": "Tiga biji onde-onde ada anggaran 120 kcal. Kebanyakan kalori datang dari tepung pulut dan gula melaka di dalamnya.",
+ "protein_g": 1,
+ "carbs_g": 22,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Tepung pulut (kulit)",
+   "kcal": 60
+  },
+  {
+   "part": "Gula melaka (inti)",
+   "kcal": 40
+  },
+  {
+   "part": "Kelapa parut (salutan)",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "1 biji onde-onde",
+   "kcal": 40
+  },
+  {
+   "name": "5 biji onde-onde",
+   "kcal": 200
+  },
+  {
+   "name": "Onde-onde keledek",
+   "kcal": 110
+  },
+  {
+   "name": "Onde-onde saiz besar (3 biji)",
+   "kcal": 180
+  }
+ ],
+ "diet": "Boleh, onde-onde antara kuih yang agak ringan kalau kawal bilangan. Tiga biji sekitar 120 kcal, okay untuk snek petang. Masalahnya ia kecil dan senang makan sebiji demi sebiji tanpa sedar. Kira dulu berapa biji sebelum mula makan.",
+ "tips": [
+  "Ambil 2-3 biji dalam piring, simpan baki dalam bekas.",
+  "Minum dengan teh O atau air kosong supaya gula tak bertambah.",
+  "Makan selepas makanan yang ada protein, contohnya telur rebus, supaya lebih kenyang."
+ ],
+ "swap": {
+  "name": "Onde-onde 2 biji + teh O kosong",
+  "kcal": 80,
+  "why": "Masih puas rasa gula melaka yang meletup, dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Onde-onde dan buah melaka sama ke?",
+   "a": "Ya, kuih yang sama. Di sesetengah tempat ia dipanggil buah melaka sempena gula melaka di dalamnya."
+  },
+  {
+   "q": "Kenapa onde-onde saya pecah masa direbus?",
+   "a": "Biasanya doh terlalu kering atau inti terlalu banyak. Tambah sedikit air pada doh dan rapatkan bebola dengan kemas."
+  },
+  {
+   "q": "Macam mana nak simpan kelapa parut supaya onde-onde tak cepat basi?",
+   "a": "Kukus kelapa parut dengan secubit garam sebelum digunakan. Ia bantu kuih tahan lebih lama sedikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

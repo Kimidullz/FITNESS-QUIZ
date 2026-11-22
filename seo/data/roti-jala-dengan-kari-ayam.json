@@ -1,0 +1,66 @@
+{
+ "slug": "roti-jala-dengan-kari-ayam",
+ "intro": "Roti jala 3 keping dengan kari ayam ada anggaran 450 kcal sehidang. Kebanyakan kalori datang daripada kuah kari bersantan dan tepung roti jala itu sendiri.",
+ "protein_g": 20,
+ "carbs_g": 45,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Roti jala 3 keping",
+   "kcal": 210
+  },
+  {
+   "part": "Kuah kari bersantan (1 senduk)",
+   "kcal": 120
+  },
+  {
+   "part": "Ayam 1 ketul kecil",
+   "kcal": 120
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti jala 5 keping + kari ayam",
+   "kcal": 600
+  },
+  {
+   "name": "Roti jala 3 keping + kari daging",
+   "kcal": 500
+  },
+  {
+   "name": "Roti jala 3 keping + kuah kari sahaja (tiada ayam)",
+   "kcal": 330
+  },
+  {
+   "name": "Roti jala 3 keping + kari ayam + teh tarik",
+   "kcal": 580
+  }
+ ],
+ "diet": "Boleh, asalkan porsi terkawal. 3 keping dengan seketul ayam masih okay untuk sarapan atau minum petang. Yang buat kalori naik ialah tambah keping dan celup kuah banyak-banyak. Pilih ayam lebih, kuah kurang, dan imbangkan dengan makan tengah hari yang lebih ringan.",
+ "tips": [
+  "Minta ayam bahagian dada dan buang kulit untuk lebih protein, kurang lemak.",
+  "Celup roti jala dalam kuah, jangan siram kuah atas pinggan.",
+  "Minum teh o kosong atau air suam, bukan teh tarik."
+ ],
+ "swap": {
+  "name": "Roti jala 2 keping + kari ayam (lebih ayam, kurang kuah)",
+  "kcal": 330,
+  "why": "Kurang tepung dan santan, tapi protein ayam masih ada supaya tetap kenyang."
+ },
+ "faq": [
+  {
+   "q": "Roti jala sesuai untuk sarapan ke?",
+   "a": "Sesuai. Pastikan ada lauk protein macam ayam supaya kenyang lebih lama sampai tengah hari."
+  },
+  {
+   "q": "Roti jala lebih sihat daripada roti canai?",
+   "a": "Roti jala biasanya kurang minyak sebab tidak digoreng banyak minyak. Tapi kuah kari bersantan tetap perlu dijaga."
+  },
+  {
+   "q": "Boleh buat roti jala sendiri dengan kurang kalori?",
+   "a": "Boleh. Guna susu rendah lemak dan sapu kuali dengan minyak sangat nipis. Kari pula boleh guna santan cair atau separuh susu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

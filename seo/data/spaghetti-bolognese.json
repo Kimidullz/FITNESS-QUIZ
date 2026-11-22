@@ -1,0 +1,70 @@
+{
+ "slug": "spaghetti-bolognese",
+ "intro": "Satu pinggan spaghetti bolognese ada anggaran 600 kcal. Kebanyakan kalori datang daripada pasta dan sos daging cincang berminyak.",
+ "protein_g": 25,
+ "carbs_g": 75,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Spaghetti masak (kira-kira 1.5 cawan)",
+   "kcal": 320
+  },
+  {
+   "part": "Sos bolognese daging cincang",
+   "kcal": 200
+  },
+  {
+   "part": "Minyak/mentega masakan",
+   "kcal": 50
+  },
+  {
+   "part": "Keju parmesan",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Portion kafe/kedai western besar",
+   "kcal": 750
+  },
+  {
+   "name": "Bolognese ayam cincang",
+   "kcal": 550
+  },
+  {
+   "name": "Homemade portion kecil",
+   "kcal": 450
+  },
+  {
+   "name": "Dengan 2 keping garlic bread",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, spaghetti bolognese sebenarnya hidangan seimbang dengan protein dari daging. Cuma portion kedai biasanya besar dan pasta banyak. Kalau makan separuh pasta dengan sos penuh, kalori turun tapi protein kekal. Elak tambah garlic bread dan air manis.",
+ "tips": [
+  "Minta pasta kurang atau tapau separuh untuk esok.",
+  "Di rumah, guna daging atau ayam cincang tanpa lemak dan tambah cendawan atau lobak.",
+  "Makan dengan salad atau sayur rebus supaya pinggan lebih penuh."
+ ],
+ "swap": {
+  "name": "Spaghetti bolognese separuh pasta + salad",
+  "kcal": 450,
+  "why": "Protein dari sos daging kekal, pasta kurang, dan salad tambah isi pinggan."
+ },
+ "faq": [
+  {
+   "q": "Bolognese berasal dari mana?",
+   "a": "Sos bolognese berasal dari bandar Bologna di Itali. Versi asal guna daging cincang yang dimasak perlahan."
+  },
+  {
+   "q": "Boleh guna ayam untuk bolognese?",
+   "a": "Boleh. Ayam cincang lebih ringan dan sesuai untuk keluarga."
+  },
+  {
+   "q": "Sos bolognese tahan berapa lama?",
+   "a": "Dalam peti sejuk sekitar 3 hari. Dalam freezer boleh tahan lebih lama, jadi sesuai untuk masak banyak sekali gus."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

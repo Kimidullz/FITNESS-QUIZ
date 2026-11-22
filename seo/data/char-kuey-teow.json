@@ -1,0 +1,70 @@
+{
+ "slug": "char-kuey-teow",
+ "intro": "Sepinggan char kuey teow ada anggaran 740 kcal. Kalori tinggi datang daripada kuey teow yang licin berminyak dan minyak banyak masa goreng api besar.",
+ "protein_g": 22,
+ "carbs_g": 80,
+ "fat_g": 37,
+ "breakdown": [
+  {
+   "part": "Kuey teow 1.5 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 250
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 80
+  },
+  {
+   "part": "Udang dan kerang",
+   "kcal": 60
+  },
+  {
+   "part": "Sos, tauge dan kucai",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Char kuey teow telur itik",
+   "kcal": 800
+  },
+  {
+   "name": "Char kuey teow special (lebih udang)",
+   "kcal": 850
+  },
+  {
+   "name": "Char kuey teow basah",
+   "kcal": 650
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia makanan 'treat'. 740 kcal hampir separuh keperluan harian ramai wanita yang nak turun berat. Sekali seminggu pun dah memadai. Hari makan CKT, pastikan makan lain ringan dan banyak protein.",
+ "tips": [
+  "Kongsi sepinggan dengan kawan dan tambah sepinggan sayur.",
+  "Minta kurang minyak dan lebih tauge.",
+  "Pilih saiz kecil kalau ada, beza boleh dekat 200 kcal."
+ ],
+ "swap": {
+  "name": "Kuey teow sup",
+  "kcal": 350,
+  "why": "Kuey teow yang sama, tapi direbus dalam sup. Kurang separuh kalori."
+ },
+ "faq": [
+  {
+   "q": "Kenapa char kuey teow Penang lain rasa?",
+   "a": "Penang biasa guna api sangat besar untuk dapat 'wok hei', tambah kerang dan udang, dan kurang kicap manis berbanding versi lain."
+  },
+  {
+   "q": "Char kuey teow halal ada tak?",
+   "a": "Ada banyak. Versi asal ada yang guna lemak babi, jadi pilih kedai yang ada sijil halal atau gerai Melayu dan mamak."
+  },
+  {
+   "q": "Boleh buat char kuey teow sendiri di rumah?",
+   "a": "Boleh. Guna kuali tak melekat dan 1 sudu besar minyak sahaja. Rasa mungkin kurang 'wok hei' tapi masih sedap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

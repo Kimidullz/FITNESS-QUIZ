@@ -1,0 +1,66 @@
+{
+ "slug": "neslo-ais",
+ "intro": "Segelas neslo ais di mamak ada anggaran 200 kcal. Kebanyakan kalori datang dari susu pekat manis, serbuk coklat malt dan gula.",
+ "protein_g": 4,
+ "carbs_g": 34,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis",
+   "kcal": 90
+  },
+  {
+   "part": "Serbuk coklat malt",
+   "kcal": 60
+  },
+  {
+   "part": "Kopi + gula tambahan",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Neslo ais kurang manis",
+   "kcal": 150
+  },
+  {
+   "name": "Neslo ais kosong (tanpa susu, tanpa gula)",
+   "kcal": 60
+  },
+  {
+   "name": "Neslo panas",
+   "kcal": 190
+  },
+  {
+   "name": "Neslo ais saiz jag/besar",
+   "kcal": 330
+  }
+ ],
+ "diet": "Boleh, kalau sekali-sekala dan kawal manis. 200 kcal satu gelas memang senang terlepas pandang sebab ia cuma minuman. Kalau minum dua gelas sehari, itu dah 400 kcal tanpa rasa kenyang. Cuba jadikan neslo sebagai treat, bukan minuman rutin setiap kali lepak.",
+ "tips": [
+  "Order 'kurang manis' atau 'kurang susu' di mamak.",
+  "Minta neslo 'kosong' dan tambah sedikit susu cair sendiri.",
+  "Kalau dahaga, minta segelas air suam sekali supaya tak habiskan neslo laju-laju."
+ ],
+ "swap": {
+  "name": "Kopi O ais kurang manis",
+  "kcal": 60,
+  "why": "Masih dapat rasa kopi dan sejuk, tanpa susu pekat dan serbuk coklat malt yang tinggi gula."
+ },
+ "faq": [
+  {
+   "q": "Neslo tu apa sebenarnya?",
+   "a": "Neslo ialah campuran kopi segera dan minuman coklat malt, biasanya dengan susu pekat. Ia popular di kedai mamak."
+  },
+  {
+   "q": "Neslo ada kafein lebih dari kopi biasa?",
+   "a": "Biasanya hampir sama atau sedikit kurang dari kopi biasa, bergantung berapa banyak kopi yang kedai letak."
+  },
+  {
+   "q": "Sesuai ke minum neslo sebelum bersenam?",
+   "a": "Ada orang suka sebab kafein dan gula beri tenaga cepat. Tapi pilih versi kurang manis supaya tak terlebih kalori."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

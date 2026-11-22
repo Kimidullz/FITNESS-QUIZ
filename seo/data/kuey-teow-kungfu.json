@@ -1,0 +1,70 @@
+{
+ "slug": "kuey-teow-kungfu",
+ "intro": "Satu pinggan kuey teow kungfu (ladna) ada anggaran 650 kcal. Kebanyakan kalori datang dari kuey teow yang digoreng dan kuah telur pekat yang dimasak dengan tepung jagung dan minyak.",
+ "protein_g": 25,
+ "carbs_g": 80,
+ "fat_g": 25,
+ "breakdown": [
+  {
+   "part": "Kuey teow digoreng",
+   "kcal": 300
+  },
+  {
+   "part": "Kuah telur pekat",
+   "kcal": 150
+  },
+  {
+   "part": "Ayam, udang atau sotong",
+   "kcal": 100
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kungfu seafood",
+   "kcal": 680
+  },
+  {
+   "name": "Yin yong (kuey teow + bihun goreng)",
+   "kcal": 700
+  },
+  {
+   "name": "Kuey teow ladna tanpa goreng",
+   "kcal": 520
+  },
+  {
+   "name": "Bihun kungfu",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, tapi ini antara hidangan mi yang lebih tinggi kalori di kedai tomyam. Kuey teow digoreng dulu, lepas tu disiram kuah pekat. Kalau makan, jadikan ia makan tengah hari dan jaga makanan lain hari itu. Kongsi atau tinggalkan sedikit kuey teow pun dah banyak membantu.",
+ "tips": [
+  "Minta kuey teow tak digoreng atau kurang minyak.",
+  "Pilih versi seafood atau ayam lebih untuk protein lebih tinggi.",
+  "Tambah sayur sawi atau kailan lebih supaya pinggan penuh tapi kalori kurang."
+ ],
+ "swap": {
+  "name": "Kuey teow sup",
+  "kcal": 350,
+  "why": "Kuey teow yang sama, tapi tak digoreng dan kuahnya jernih, jadi hampir separuh kalori."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama kuey teow kungfu?",
+   "a": "Ramai kata namanya dari kemahiran tukang masak yang perlu masak dengan api kuat dan cepat. Di Thailand, ia dikenali sebagai ladna."
+  },
+  {
+   "q": "Apa beza kuey teow kungfu dan char kuey teow?",
+   "a": "Char kuey teow digoreng kering dengan kicap. Kuey teow kungfu disiram kuah telur pekat di atas kuey teow."
+  },
+  {
+   "q": "Kuey teow kungfu boleh dapat di mana?",
+   "a": "Biasanya di kedai tomyam, kedai makan Thai dan restoran Cina."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

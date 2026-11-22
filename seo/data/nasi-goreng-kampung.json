@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-goreng-kampung",
+ "intro": "Sepinggan nasi goreng kampung ada anggaran 600 kcal. Kebanyakan kalori datang daripada nasi dan minyak masak.",
+ "protein_g": 20,
+ "carbs_g": 75,
+ "fat_g": 24,
+ "breakdown": [
+  {
+   "part": "Nasi 1.5 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 160
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 80
+  },
+  {
+   "part": "Ikan bilis dan kangkung",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng kampung + telur mata",
+   "kcal": 690
+  },
+  {
+   "name": "Nasi goreng kampung + ayam goreng",
+   "kcal": 850
+  },
+  {
+   "name": "Nasi goreng kampung separuh pinggan",
+   "kcal": 350
+  },
+  {
+   "name": "Nasi goreng biasa (tanpa ikan bilis)",
+   "kcal": 550
+  }
+ ],
+ "diet": "Boleh, tapi jangan jadikan menu harian. Nasi goreng kedai biasanya guna minyak lebih dan porsi nasi besar. Sesekali makan okay, cuma imbangkan dengan makan lain yang lebih ringan hari tu. Tambah protein supaya lebih kenyang dan tak cepat lapar.",
+ "tips": [
+  "Minta 'kurang minyak' masa order, kebanyakan kedai boleh buat.",
+  "Tambah telur rebus atau ayam bakar, bukan ayam goreng.",
+  "Minta sayur lebih, kongsi nasi atau tinggal sedikit kalau porsi besar."
+ ],
+ "swap": {
+  "name": "Nasi putih 1 cawan + ikan bakar + sayur",
+  "kcal": 450,
+  "why": "Kurang minyak, protein lebih tinggi, dan masih dapat makan nasi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi goreng kampung dengan nasi goreng biasa?",
+   "a": "Nasi goreng kampung ada ikan bilis, cili dan biasanya kangkung, rasanya lebih pedas dan berbau sambal."
+  },
+  {
+   "q": "Boleh masak nasi goreng kampung dengan kurang minyak?",
+   "a": "Boleh. Guna kuali tak melekat dan 1 sudu teh minyak. Goreng ikan bilis dengan sedikit minyak sahaja."
+  },
+  {
+   "q": "Nasi goreng sesuai untuk sarapan?",
+   "a": "Boleh, ramai orang Malaysia makan nasi goreng pagi. Cuma ambil porsi lebih kecil kalau tengah hari nak makan nasi lagi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

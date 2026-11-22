@@ -1,0 +1,66 @@
+{
+ "slug": "kuey-teow-sup",
+ "intro": "Semangkuk kuey teow sup ada anggaran 350 kcal. Kebanyakan kalori datang daripada kuey teow itu sendiri, kuahnya ringan.",
+ "protein_g": 20,
+ "carbs_g": 50,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Kuey teow 1 cawan",
+   "kcal": 200
+  },
+  {
+   "part": "Hirisan ayam atau bebola ikan",
+   "kcal": 80
+  },
+  {
+   "part": "Kuah sup",
+   "kcal": 40
+  },
+  {
+   "part": "Bawang goreng dan minyak bawang",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow sup + bebola daging",
+   "kcal": 400
+  },
+  {
+   "name": "Kuey teow sup tulang",
+   "kcal": 480
+  },
+  {
+   "name": "Mee hoon sup",
+   "kcal": 330
+  }
+ ],
+ "diet": "Ya, antara pilihan terbaik bila makan luar. Kalori sederhana dan ada protein. Kuahnya juga buat rasa kenyang lebih lama. Cuma perhatikan sodium dalam kuah kalau anda cepat kembung.",
+ "tips": [
+  "Minta lebih ayam atau bebola ikan untuk protein tambahan.",
+  "Tambah sayur sawi atau tauge kalau gerai ada.",
+  "Tak perlu habiskan semua kuah kalau ia terlalu masin."
+ ],
+ "swap": {
+  "name": "Sup ayam + nasi separuh",
+  "kcal": 380,
+  "why": "Kalori hampir sama tapi protein lebih tinggi, sesuai kalau nak kenyang lama."
+ },
+ "faq": [
+  {
+   "q": "Kuey teow sup sesuai untuk orang demam?",
+   "a": "Ramai suka makan sebab kuahnya panas dan senang ditelan. Tapi kalau sakit, ikut nasihat doktor ya."
+  },
+  {
+   "q": "Kuey teow atau mee hoon, mana lebih baik dalam sup?",
+   "a": "Dua-dua okay. Mee hoon lebih ringan sedikit, kuey teow lebih mengenyangkan bagi sesetengah orang."
+  },
+  {
+   "q": "Boleh makan kuey teow sup waktu malam?",
+   "a": "Boleh. Ia ringan dan senang dihadam, sesuai untuk dinner lewat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

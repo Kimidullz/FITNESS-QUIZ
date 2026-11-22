@@ -1,0 +1,66 @@
+{
+ "slug": "badam",
+ "intro": "1 genggam badam (30 g) ada anggaran 170 kcal. Kebanyakan kalori datang daripada lemak, terutamanya lemak tak tepu.",
+ "protein_g": 6,
+ "carbs_g": 5,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Lemak semula jadi badam",
+   "kcal": 126
+  },
+  {
+   "part": "Protein",
+   "kcal": 24
+  },
+  {
+   "part": "Karbohidrat & serat",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Badam panggang bergaram 30 g",
+   "kcal": 175
+  },
+  {
+   "name": "Badam bersalut coklat 30 g",
+   "kcal": 160
+  },
+  {
+   "name": "Badam madu 30 g",
+   "kcal": 165
+  },
+  {
+   "name": "Badam 15 g (separuh genggam)",
+   "kcal": 85
+  }
+ ],
+ "diet": "Boleh, badam snek yang bagus sebab ada lemak sihat, serat dan sedikit protein. Tapi badam padat kalori. Kalau makan terus dari balang, senang habis 300-500 kcal tanpa sedar. Kuncinya ialah portion.",
+ "tips": [
+  "Bahagikan badam ke dalam bekas kecil 30 g untuk seminggu, bawa ke ofis.",
+  "Pilih badam tanpa garam atau salutan.",
+  "Gandingkan dengan buah seperti epal untuk snek yang lebih kenyang."
+ ],
+ "swap": {
+  "name": "Badam 15 g + 1 biji epal",
+  "kcal": 160,
+  "why": "Kalori sama tapi isi lebih banyak, tambah serat dan rasa manis segar."
+ },
+ "faq": [
+  {
+   "q": "Berapa biji badam dalam 30 g?",
+   "a": "Lebih kurang 20-23 biji, bergantung saiz."
+  },
+  {
+   "q": "Badam mentah atau panggang lebih baik?",
+   "a": "Kedua-duanya okay. Pilih yang panggang tanpa minyak dan garam berlebihan."
+  },
+  {
+   "q": "Badam sesuai untuk snek waktu malam?",
+   "a": "Boleh, asalkan ikut portion. Segenggam kecil cukup untuk kurangkan rasa lapar."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

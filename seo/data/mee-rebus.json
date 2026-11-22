@@ -1,0 +1,66 @@
+{
+ "slug": "mee-rebus",
+ "intro": "Semangkuk mee rebus ada anggaran 550 kcal. Kalori banyak datang daripada mee kuning dan kuah pekat berasaskan keledek dan kacang.",
+ "protein_g": 18,
+ "carbs_g": 75,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1.5 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah pekat keledek dan kacang",
+   "kcal": 180
+  },
+  {
+   "part": "Telur rebus 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Tauhu goreng dan cucur udang",
+   "kcal": 45
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee rebus tulang",
+   "kcal": 750
+  },
+  {
+   "name": "Mee rebus + telur tambahan",
+   "kcal": 625
+  },
+  {
+   "name": "Mee rebus tanpa cucur",
+   "kcal": 500
+  }
+ ],
+ "diet": "Boleh, dalam kuantiti sederhana. Kuahnya pekat dan berkanji, jadi karbohidrat agak tinggi. Telur rebus memang membantu dari segi protein. Elakkan versi tulang yang berlemak kalau nak jaga kalori.",
+ "tips": [
+  "Minta kuah sikit sahaja atau jangan habiskan kuah.",
+  "Tambah telur rebus, bukan cucur goreng.",
+  "Perah limau kasturi banyak untuk rasa, bukan tambah sambal berminyak."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 400,
+  "why": "Kuah jernih, bukan pekat berkanji. Jimat dekat 150 kcal."
+ },
+ "faq": [
+  {
+   "q": "Kuah mee rebus diperbuat daripada apa?",
+   "a": "Biasanya keledek atau kentang rebus yang dikisar, campur rempah, udang kering dan kacang tanah."
+  },
+  {
+   "q": "Mee rebus Johor dengan Mee rebus Kedah beza ke?",
+   "a": "Ya. Versi Johor lebih pekat dan manis, ada yang guna tulang. Versi utara kadang lebih cair dan pedas."
+  },
+  {
+   "q": "Mee rebus boleh dibekukan?",
+   "a": "Kuahnya boleh dibekukan dalam bekas. Mee lebih baik dimasak baru supaya tak lembik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

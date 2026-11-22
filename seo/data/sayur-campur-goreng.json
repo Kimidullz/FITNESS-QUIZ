@@ -1,0 +1,66 @@
+{
+ "slug": "sayur-campur-goreng",
+ "intro": "Satu senduk sayur campur goreng ada anggaran 100 kcal. Kebanyakan kalori sebenarnya dari minyak tumisan, bukan dari sayur itu sendiri.",
+ "protein_g": 3,
+ "carbs_g": 8,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Sayur (kobis, lobak merah, kacang panjang, cendawan)",
+   "kcal": 35
+  },
+  {
+   "part": "Minyak tumisan",
+   "kcal": 55
+  },
+  {
+   "part": "Sos tiram, bawang putih dan kanji",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sayur celur atau rebus",
+   "kcal": 30
+  },
+  {
+   "name": "Sayur campur dengan udang atau sotong",
+   "kcal": 130
+  },
+  {
+   "name": "Kangkung goreng belacan",
+   "kcal": 120
+  },
+  {
+   "name": "Sayur lemak (masak santan)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, dan sepatutnya ada dalam setiap pinggan. Sayur beri serat dan isi pinggan supaya lebih kenyang dengan kalori rendah. Walaupun digoreng, satu senduk masih rendah kalori. Cuma pilih yang tak terlalu berminyak dan tak berkuah kanji pekat.",
+ "tips": [
+  "Ambil sayur dulu dan isi separuh pinggan sebelum ambil lauk lain.",
+  "Toskan kuah minyak di senduk sebelum letak atas nasi.",
+  "Masak di rumah? Tumis dengan sedikit minyak, tambah sedikit air untuk kukus dalam kuali."
+ ],
+ "swap": {
+  "name": "Sayur celur dengan sos tiram sedikit",
+  "kcal": 40,
+  "why": "Hampir tiada minyak, jadi boleh ambil dua senduk. Lebih banyak serat dan lebih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Sayur goreng masih ada khasiat ke?",
+   "a": "Ya, sayur goreng sekejap masih kekalkan banyak serat dan vitamin. Elak masak terlalu lama sampai lembik."
+  },
+  {
+   "q": "Sayur apa yang biasa ada dalam sayur campur?",
+   "a": "Biasanya kobis, lobak merah, kacang panjang, cendawan, jagung muda dan bunga kobis. Ada kedai tambah fishball atau udang."
+  },
+  {
+   "q": "Kenapa sayur di kedai selalu berkuah pekat?",
+   "a": "Kedai biasa tambah tepung jagung atau kanji supaya kuah melekat dan nampak berkilat. Ia tambah sedikit kalori, jadi ambil sayur, kurangkan kuah."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

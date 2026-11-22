@@ -1,0 +1,66 @@
+{
+ "slug": "nugget-ayam",
+ "intro": "Enam ketul nugget ayam ada anggaran 280 kcal. Kalori datang dari campuran ayam yang dikisar, salutan tepung dan minyak goreng.",
+ "protein_g": 14,
+ "carbs_g": 17,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Isi ayam kisar (6 ketul)",
+   "kcal": 150
+  },
+  {
+   "part": "Salutan tepung dan serbuk roti",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak yang diserap semasa goreng",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "6 ketul masak air fryer",
+   "kcal": 230
+  },
+  {
+   "name": "9 ketul goreng",
+   "kcal": 420
+  },
+  {
+   "name": "6 ketul + 2 sudu makan sos cili",
+   "kcal": 310
+  },
+  {
+   "name": "6 ketul + sos mayonis",
+   "kcal": 370
+  }
+ ],
+ "diet": "Boleh, kalau ikut porsi. Enam ketul masih sederhana, tapi proteinnya tak setinggi ayam biasa sebab ada tepung dan bahan lain. Masalah biasa ialah makan terus dari bungkusan tanpa kira. Ambil porsi dalam pinggan dan tambah sayur atau nasi sikit supaya jadi hidangan lengkap.",
+ "tips": [
+  "Masak guna air fryer atau oven, bukan goreng dalam minyak.",
+  "Ambil 6 ketul dalam pinggan, simpan baki bungkusan dalam peti sejuk.",
+  "Padankan dengan sayur rebus atau timun supaya lebih kenyang tanpa tambah banyak kalori."
+ ],
+ "swap": {
+  "name": "Dada ayam panggang potong kiub (100 g)",
+  "kcal": 165,
+  "why": "Protein hampir dua kali ganda dengan kalori lebih rendah. Budak-budak pun suka kalau dipotong kecil dan diperap."
+ },
+ "faq": [
+  {
+   "q": "Nugget ayam sesuai untuk anak-anak setiap hari?",
+   "a": "Sesekali okay. Untuk harian, lebih baik selang-seli dengan ayam masak sendiri, ikan atau telur supaya pemakanan lebih seimbang."
+  },
+  {
+   "q": "Berapa lama nak masak nugget dalam air fryer?",
+   "a": "Biasanya 180°C selama 8 hingga 10 minit. Terbalikkan separuh masa supaya rangup sekata. Semak arahan pada bungkusan."
+  },
+  {
+   "q": "Boleh buat nugget sendiri di rumah?",
+   "a": "Boleh. Kisar dada ayam dengan sedikit bawang putih dan lada, bentukkan, salut serbuk roti, kemudian bakar atau air fry. Simpan beku untuk stok."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

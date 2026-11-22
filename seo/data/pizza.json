@@ -1,0 +1,70 @@
+{
+ "slug": "pizza",
+ "intro": "Satu potong pizza pepperoni ada anggaran 300 kcal. Kebanyakan kalori datang daripada kerak roti, keju dan pepperoni.",
+ "protein_g": 12,
+ "carbs_g": 32,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Kerak roti",
+   "kcal": 150
+  },
+  {
+   "part": "Keju mozzarella",
+   "kcal": 80
+  },
+  {
+   "part": "Pepperoni",
+   "kcal": 50
+  },
+  {
+   "part": "Sos tomato",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Thin crust pepperoni",
+   "kcal": 230
+  },
+  {
+   "name": "Pan/thick crust pepperoni",
+   "kcal": 350
+  },
+  {
+   "name": "Stuffed crust cheese",
+   "kcal": 380
+  },
+  {
+   "name": "Pizza ayam & nanas",
+   "kcal": 270
+  }
+ ],
+ "diet": "Boleh, satu dua potong pizza muat dalam diet. Masalahnya pizza mudah habis 4-5 potong tanpa sedar. Tetapkan jumlah awal, contohnya dua potong, dan tambah salad. Pilih thin crust untuk jimat kalori.",
+ "tips": [
+  "Ambil dua potong dalam pinggan, kemudian tutup kotak.",
+  "Pilih thin crust dan topping ayam atau sayur.",
+  "Makan salad atau sup dulu sebelum pizza."
+ ],
+ "swap": {
+  "name": "Pizza thin crust ayam & sayur (1 potong)",
+  "kcal": 220,
+  "why": "Kerak lebih nipis dan topping kurang lemak. Boleh makan dua potong dengan kalori hampir sama satu setengah potong biasa."
+ },
+ "faq": [
+  {
+   "q": "Pepperoni diperbuat daripada apa?",
+   "a": "Di Malaysia, pepperoni di restoran halal biasanya diperbuat daripada daging lembu atau ayam."
+  },
+  {
+   "q": "Pizza sejuk boleh dimakan esok?",
+   "a": "Boleh, simpan dalam peti sejuk. Panaskan dalam kuali atau air fryer supaya kerak rangup semula."
+  },
+  {
+   "q": "Thin crust atau pan, mana lebih kenyang?",
+   "a": "Pan lebih tebal dan cepat kenyang, tapi kalori lebih tinggi. Thin crust lebih ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

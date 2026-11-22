@@ -1,0 +1,66 @@
+{
+ "slug": "karipap",
+ "intro": "Sebiji karipap saiz sederhana ada anggaran 130 kcal. Kalori datang daripada kulit pastri dan minyak yang diserap semasa digoreng.",
+ "protein_g": 3,
+ "carbs_g": 15,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Kulit pastri",
+   "kcal": 60
+  },
+  {
+   "part": "Minyak goreng yang diserap",
+   "kcal": 40
+  },
+  {
+   "part": "Inti kentang dan ayam",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Karipap pusing (kulit berlapis)",
+   "kcal": 170
+  },
+  {
+   "name": "Karipap besar",
+   "kcal": 200
+  },
+  {
+   "name": "Karipap sardin",
+   "kcal": 140
+  },
+  {
+   "name": "Karipap bakar",
+   "kcal": 100
+  }
+ ],
+ "diet": "Boleh, karipap bukan musuh. Masalahnya, susah nak makan satu je. Dua tiga biji dengan teh tarik dah sama macam satu hidangan nasi. Kalau nak makan, ambil sebiji dan pasangkan dengan minuman kosong.",
+ "tips": [
+  "Beli sebiji sahaja, jangan beli sebungkus untuk diri sendiri.",
+  "Lap minyak berlebihan dengan tisu sebelum makan.",
+  "Pasangkan dengan telur rebus atau segelas susu supaya lebih kenyang."
+ ],
+ "swap": {
+  "name": "Pau kacang merah atau pau ayam",
+  "kcal": 180,
+  "why": "Dikukus, bukan digoreng, jadi lebih rendah lemak dan lebih mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Karipap pusing dengan karipap biasa, apa beza?",
+   "a": "Karipap pusing ada kulit berlapis yang guna lebih banyak lemak, jadi biasanya lebih rangup dan lebih tinggi kalori."
+  },
+  {
+   "q": "Boleh goreng karipap guna air fryer?",
+   "a": "Boleh. Sapu minyak nipis, air fryer 180°C lebih kurang 12 hingga 15 minit. Hasilnya kurang berminyak."
+  },
+  {
+   "q": "Karipap sejuk beku boleh simpan berapa lama?",
+   "a": "Biasanya tahan beberapa bulan dalam freezer. Goreng atau bakar terus tanpa perlu cair."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

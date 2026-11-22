@@ -1,0 +1,62 @@
+{
+ "slug": "donut-gula",
+ "intro": "Sebiji donut gula ada anggaran 250 kcal. Kalori datang daripada doh tepung yang digoreng dan salutan gula.",
+ "protein_g": 4,
+ "carbs_g": 32,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Doh tepung",
+   "kcal": 130
+  },
+  {
+   "part": "Minyak goreng",
+   "kcal": 90
+  },
+  {
+   "part": "Salutan gula",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Donut gula saiz kecil",
+   "kcal": 160
+  },
+  {
+   "name": "Donut coklat bersalut",
+   "kcal": 300
+  },
+  {
+   "name": "Donut berinti jem / krim",
+   "kcal": 330
+  }
+ ],
+ "diet": "Boleh, sekali-sekala. Satu donut ni hampir sama kalori dengan sepinggan kecil nasi, tapi tak berapa kenyang. Masalahnya ialah senang makan dua tiga biji sekali gus. Nikmati satu, perlahan-lahan, dan anggap ia sebagai treat.",
+ "tips": [
+  "Beli satu biji sahaja, jangan beli kotak 6 untuk diri sendiri.",
+  "Makan selepas makanan berprotein, bukan masa perut kosong.",
+  "Minum air kosong atau kopi o kosong, elak air manis bersama."
+ ],
+ "swap": {
+  "name": "Roti gandum 2 keping + sedikit kaya",
+  "kcal": 200,
+  "why": "Rasa manis masih ada, kurang minyak dan lebih serat."
+ },
+ "faq": [
+  {
+   "q": "Kenapa donut kempis lepas goreng?",
+   "a": "Biasanya doh terlebih proof atau minyak tak cukup panas. Goreng pada suhu sederhana panas."
+  },
+  {
+   "q": "Berapa lama donut tahan?",
+   "a": "Paling sedap hari yang sama. Simpan dalam bekas kedap udara, boleh tahan sehari dua."
+  },
+  {
+   "q": "Donut kentang dan donut biasa beza apa?",
+   "a": "Donut kentang ada kentang lenyek dalam doh, jadi teksturnya lebih lembut dan gebu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

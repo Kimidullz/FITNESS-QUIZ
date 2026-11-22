@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-tomato-dengan-ayam-masak-merah",
+ "intro": "Sepinggan nasi tomato dengan ayam masak merah ialah anggaran 700 kcal. Kebanyakan kalori datang daripada nasi tomato bermentega atau minyak sapi dan kuah ayam masak merah yang manis berminyak.",
+ "protein_g": 30,
+ "carbs_g": 85,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Nasi tomato 1.5 cawan",
+   "kcal": 400
+  },
+  {
+   "part": "Ayam masak merah 1 ketul dengan kuah",
+   "kcal": 230
+  },
+  {
+   "part": "Acar buah",
+   "kcal": 40
+  },
+  {
+   "part": "Dalca sedikit",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi tomato + daging masak merah",
+   "kcal": 750
+  },
+  {
+   "name": "Nasi tomato + ayam goreng berempah",
+   "kcal": 750
+  },
+  {
+   "name": "Nasi tomato separuh + ayam masak merah",
+   "kcal": 500
+  },
+  {
+   "name": "Tambah telur rebus",
+   "kcal": 80
+  }
+ ],
+ "diet": "Boleh, terutama bila jadi menu jamuan atau kenduri. Ayam memberi protein yang bagus, tapi nasi tomato dan kuah masak merah ada minyak serta gula. Kawal nasi dan ambil kuah secukup rasa. Satu pinggan sederhana masih boleh muat dalam diet anda.",
+ "tips": [
+  "Ambil ayam bahagian dada dan buang kulit untuk protein lebih, lemak kurang.",
+  "Kurangkan kuah masak merah, cukup sesudu dua untuk rasa.",
+  "Tambah salad atau timun di tepi supaya pinggan lebih penuh tanpa banyak kalori."
+ ],
+ "swap": {
+  "name": "Nasi tomato 1 cawan + ayam masak merah tanpa kulit + timun",
+  "kcal": 520,
+  "why": "Kurang nasi dan kulit ayam potong hampir 200 kcal, protein masih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Nasi tomato dimasak dengan apa?",
+   "a": "Biasanya beras basmathi dimasak dengan sos tomato atau tomato segar, susu cair, minyak sapi dan rempah. Sebab tu warnanya merah oren."
+  },
+  {
+   "q": "Kenapa ayam masak merah rasanya manis?",
+   "a": "Kuahnya guna cili kisar, sos tomato dan gula. Ada resipi letak gula agak banyak, jadi rasa manis pedas."
+  },
+  {
+   "q": "Boleh simpan nasi tomato untuk esok?",
+   "a": "Boleh, simpan dalam peti sejuk dalam bekas tertutup dan habiskan dalam 1-2 hari. Panaskan sampai betul-betul panas."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

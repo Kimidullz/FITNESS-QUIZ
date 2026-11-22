@@ -1,0 +1,66 @@
+{
+ "slug": "pisang",
+ "intro": "Sebiji pisang sederhana ada anggaran 100 kcal. Hampir semua kalorinya datang daripada karbohidrat, iaitu gula semula jadi dan kanji.",
+ "protein_g": 1,
+ "carbs_g": 25,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi",
+   "kcal": 60
+  },
+  {
+   "part": "Kanji",
+   "kcal": 30
+  },
+  {
+   "part": "Serat, protein dan lain-lain",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pisang emas (1 biji kecil)",
+   "kcal": 60
+  },
+  {
+   "name": "Pisang berangan (1 biji)",
+   "kcal": 90
+  },
+  {
+   "name": "Pisang goreng (1 keping)",
+   "kcal": 150
+  },
+  {
+   "name": "Pisang + 1 sudu makan peanut butter",
+   "kcal": 195
+  }
+ ],
+ "diet": "Boleh, pisang memang sesuai masa nak turun berat. Ia ringan, mudah dibawa dan bagi tenaga, contohnya sebelum bersenam. Tiada makanan yang buat gemuk sendirian, pisang pun sama. Cuma kira ia sebagai snek, dan berhati-hati dengan versi goreng.",
+ "tips": [
+  "Jadikan pisang snek petang ganti kuih atau biskut.",
+  "Padankan dengan telur rebus atau yogurt untuk tambah protein dan kenyang lebih lama.",
+  "Pilih pisang segar berbanding pisang goreng, simpan goreng untuk sesekali."
+ ],
+ "swap": {
+  "name": "Pisang emas 1 biji",
+  "kcal": 60,
+  "why": "Saiz lebih kecil, rasa tetap manis. Sesuai kalau sekadar nak hilangkan craving manis."
+ },
+ "faq": [
+  {
+   "q": "Pisang elok dimakan sebelum atau selepas bersenam?",
+   "a": "Dua-dua okay. Sebelum bersenam, ia bagi tenaga cepat. Selepas bersenam, padankan dengan sumber protein seperti telur atau susu."
+  },
+  {
+   "q": "Pisang masak ranum lebih manis, betul ke?",
+   "a": "Betul. Bila pisang makin masak, kanji bertukar jadi gula, jadi rasanya lebih manis. Kalorinya lebih kurang sama."
+  },
+  {
+   "q": "Pesakit diabetes boleh makan pisang?",
+   "a": "Ramai boleh dalam porsi kecil, tapi setiap orang lain-lain. Sebaiknya ikut nasihat doktor atau pakar diet anda."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

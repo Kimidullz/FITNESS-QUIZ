@@ -1,0 +1,66 @@
+{
+ "slug": "wantan-mee-kering",
+ "intro": "Sepinggan wantan mee kering ada anggaran 450 kcal. Kebanyakan kalori datang daripada mee telur dan sos minyak yang digaul.",
+ "protein_g": 20,
+ "carbs_g": 60,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Mee telur 1.5 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Sos gaul dan minyak",
+   "kcal": 90
+  },
+  {
+   "part": "Char siu ayam",
+   "kcal": 70
+  },
+  {
+   "part": "Wantan rebus dan sayur",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Wantan mee sup",
+   "kcal": 380
+  },
+  {
+   "name": "Wantan mee + wantan goreng",
+   "kcal": 550
+  },
+  {
+   "name": "Wantan mee kering saiz besar",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, ia pilihan sederhana bila makan luar. Kalori masih munasabah dan ada protein daripada char siu dan wantan. Yang naikkan kalori biasanya sos gaul dan wantan goreng. Pilih saiz biasa, bukan besar.",
+ "tips": [
+  "Pilih wantan rebus, bukan goreng.",
+  "Minta sos kurang atau 'kurang minyak'.",
+  "Tambah sayur sawi lebih kalau gerai ada."
+ ],
+ "swap": {
+  "name": "Wantan mee sup",
+  "kcal": 380,
+  "why": "Mee dalam sup, bukan digaul minyak. Jimat dekat 70 kcal dan lebih mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Wantan mee halal ada tak?",
+   "a": "Ada. Banyak kedai guna char siu ayam dan inti wantan ayam atau udang. Pilih kedai yang ada sijil halal."
+  },
+  {
+   "q": "Apa isi dalam wantan?",
+   "a": "Biasanya ayam atau udang cincang dengan sedikit perasa, dibalut kulit wantan nipis."
+  },
+  {
+   "q": "Kering atau sup, mana lebih sedap?",
+   "a": "Ikut citarasa. Kering lebih wangi sos, sup lebih ringan dan sesuai cuaca hujan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

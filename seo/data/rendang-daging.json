@@ -1,0 +1,66 @@
+{
+ "slug": "rendang-daging",
+ "intro": "Satu senduk rendang daging ada anggaran 300 kcal. Kalori paling banyak dari daging lembu dan santan serta kerisik yang dimasak sampai pekat.",
+ "protein_g": 20,
+ "carbs_g": 8,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Daging lembu",
+   "kcal": 170
+  },
+  {
+   "part": "Santan dan kerisik",
+   "kcal": 100
+  },
+  {
+   "part": "Minyak dan rempah",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Rendang ayam",
+   "kcal": 260
+  },
+  {
+   "name": "Rendang tok (lebih kering dan pekat)",
+   "kcal": 330
+  },
+  {
+   "name": "Daging masak hitam",
+   "kcal": 260
+  },
+  {
+   "name": "Rendang daging berlemak",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, rendang daging tinggi protein dan ada zat besi. Tapi ia padat kalori sebab santan dan kerisik dimasak sampai pekat. Satu senduk dengan nasi biasa dan sayur masih okay untuk diet. Yang perlu dijaga ialah musim raya, bila senang tambah senduk kedua dan ketiga.",
+ "tips": [
+  "Ambil satu senduk sahaja dan pilih ketul daging yang kurang lemak.",
+  "Makan dengan nasi putih biasa, bukan lemang atau nasi minyak sekali gus.",
+  "Tambah ulam atau sayur rebus untuk imbangkan pinggan."
+ ],
+ "swap": {
+  "name": "Daging masak kicap atau daging bakar",
+  "kcal": 220,
+  "why": "Tiada santan dan kerisik, jadi lebih rendah lemak. Protein daging masih sama."
+ },
+ "faq": [
+  {
+   "q": "Kenapa rendang perlu dimasak lama?",
+   "a": "Masak lama buat daging lembut dan santan pekat sehingga berminyak. Inilah yang beri rasa dan warna gelap rendang."
+  },
+  {
+   "q": "Rendang tahan berapa lama?",
+   "a": "Dalam peti sejuk, biasanya 3 hingga 5 hari. Dalam peti beku boleh tahan lebih lama, panaskan sampai betul-betul panas sebelum makan."
+  },
+  {
+   "q": "Bahagian daging apa paling sesuai untuk rendang?",
+   "a": "Ramai guna daging batang pinang atau topside sebab kurang lemak dan lembut bila dimasak lama. Pilih bahagian kurang lemak kalau nak lebih ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

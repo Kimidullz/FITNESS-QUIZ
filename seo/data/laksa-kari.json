@@ -1,0 +1,66 @@
+{
+ "slug": "laksa-kari",
+ "intro": "Semangkuk laksa kari ada anggaran 650 kcal. Hampir separuh kalori datang daripada kuah kari bersantan yang pekat.",
+ "protein_g": 22,
+ "carbs_g": 60,
+ "fat_g": 36,
+ "breakdown": [
+  {
+   "part": "Mee kuning dan bihun",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah kari santan",
+   "kcal": 280
+  },
+  {
+   "part": "Tauhu pok dan ayam",
+   "kcal": 90
+  },
+  {
+   "part": "Kerang atau udang",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Laksa kari + kerang tambahan",
+   "kcal": 690
+  },
+  {
+   "name": "Laksa kari, kuah separuh",
+   "kcal": 520
+  },
+  {
+   "name": "Laksa lemak Nyonya",
+   "kcal": 700
+  }
+ ],
+ "diet": "Boleh, tapi bijak dengan kuah. Santan buat lemak tinggi, jadi kalori cepat naik. Kalau tak habiskan kuah, anda boleh jimat dekat 100 kcal. Jadikan ia pilihan sekali-sekala, bukan menu mingguan tetap.",
+ "tips": [
+  "Makan mee dan topping, tinggalkan separuh kuah.",
+  "Pilih bihun sahaja, bukan campur dengan mee.",
+  "Minta lebih ayam, kurang tauhu pok yang serap kuah."
+ ],
+ "swap": {
+  "name": "Laksa Penang (asam laksa)",
+  "kcal": 450,
+  "why": "Tiada santan. Masih rasa laksa tapi jimat dekat 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Laksa kari sama dengan curry mee?",
+   "a": "Hampir sama. Di Penang dan utara orang panggil curry mee, di KL ramai panggil laksa kari."
+  },
+  {
+   "q": "Kenapa tauhu pok dalam laksa sedap?",
+   "a": "Tauhu pok berliang, jadi ia serap kuah kari dengan banyak. Sebab itu juga ia tinggi kalori."
+  },
+  {
+   "q": "Kuah laksa kari boleh dibuat kurang santan?",
+   "a": "Boleh di rumah. Guna santan cair atau campur susu rendah lemak, rasa tetap lemak tapi lebih ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

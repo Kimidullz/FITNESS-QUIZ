@@ -1,0 +1,70 @@
+{
+ "slug": "mee-bandung",
+ "intro": "Satu mangkuk mee bandung ada anggaran 550 kcal. Kebanyakan kalori datang dari mee kuning dan kuah pekat yang dimasak dengan udang kering, cili dan minyak.",
+ "protein_g": 25,
+ "carbs_g": 70,
+ "fat_g": 19,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1 hidangan",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah bandung (cili, udang kering, minyak)",
+   "kcal": 150
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Daging, udang atau sotong",
+   "kcal": 75
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee bandung Muar (daging + udang)",
+   "kcal": 600
+  },
+  {
+   "name": "Mee bandung tambah telur",
+   "kcal": 625
+  },
+  {
+   "name": "Mee bandung ayam",
+   "kcal": 520
+  },
+  {
+   "name": "Bihun bandung",
+   "kcal": 500
+  }
+ ],
+ "diet": "Boleh, asalkan anda kira ia sebagai satu hidangan utama yang penuh. 550 kcal masih muat dalam bajet harian kebanyakan orang yang nak turun berat. Masalahnya biasanya bila kita tambah air manis dan kuih sekali. Pilih protein lebih, minum kosong, dan makan perlahan supaya kenyang lebih lama.",
+ "tips": [
+  "Minta tambah telur atau daging, kurangkan mee sikit supaya protein naik.",
+  "Jangan habiskan semua kuah, sebab minyak banyak terkumpul dalam kuah.",
+  "Pair dengan teh O kosong atau air suam, bukan sirap atau teh tarik."
+ ],
+ "swap": {
+  "name": "Mee soto (tanpa bergedil)",
+  "kcal": 400,
+  "why": "Kuah soto lebih cair dan kurang minyak, tapi masih rasa berempah dan mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Kenapa mee bandung terkenal di Muar?",
+   "a": "Mee bandung Muar terkenal sebab kuahnya pekat, berempah dan guna udang kering serta daging. Ramai orang sanggup datang dari jauh untuk rasa versi asal di sana."
+  },
+  {
+   "q": "Kuah mee bandung diperbuat daripada apa?",
+   "a": "Biasanya dari cili kisar, udang kering, bawang, rempah, stok daging atau udang, dan kadang-kadang sos tomato. Sebab itu kuahnya merah dan pekat."
+  },
+  {
+   "q": "Mee bandung pedas tak?",
+   "a": "Biasanya sederhana pedas. Kalau tak tahan pedas, boleh minta kurang cili masa order."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

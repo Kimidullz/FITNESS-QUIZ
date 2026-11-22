@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-kandar",
+ "intro": "Sepinggan nasi kandar dengan ayam dan kuah campur ialah anggaran 750 kcal. Kebanyakan kalori datang daripada nasi yang banyak, ayam goreng atau berkuah, dan kuah campur yang berminyak.",
+ "protein_g": 32,
+ "carbs_g": 85,
+ "fat_g": 31,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.5 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Ayam goreng atau ayam kari 1 ketul",
+   "kcal": 260
+  },
+  {
+   "part": "Kuah campur (kari, dalca, kuah kicap)",
+   "kcal": 140
+  },
+  {
+   "part": "Sayur (bendi, kobis atau terung)",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kandar kuah banjir + ayam goreng",
+   "kcal": 850
+  },
+  {
+   "name": "Nasi kandar ikan goreng + kuah sikit",
+   "kcal": 600
+  },
+  {
+   "name": "Tambah telur dadar",
+   "kcal": 150
+  },
+  {
+   "name": "Nasi kandar sotong + kuah campur",
+   "kcal": 700
+  }
+ ],
+ "diet": "Boleh, tapi bukan setiap hari. Satu pinggan nasi kandar dah makan hampir separuh kalori harian ramai orang yang nak turun berat. Kalau anda makan nasi kandar untuk lunch, buat dinner yang lebih ringan dengan protein dan sayur. Yang penting, kawal nasi dan kuah, bukan buang terus makanan yang anda suka.",
+ "tips": [
+  "Minta nasi separuh dan tambah sayur, ramai kedai boleh buat.",
+  "Pilih kuah satu jenis sahaja atau minta 'kuah sikit', jangan banjir.",
+  "Pilih ayam yang tak bersalut tepung atau buang kulit, untuk protein lebih kalori kurang."
+ ],
+ "swap": {
+  "name": "Nasi kandar separuh nasi + ikan bakar/gulai ikan + sayur, kuah sikit",
+  "kcal": 550,
+  "why": "Ikan lebih rendah lemak berbanding ayam goreng, dan kurang nasi serta kuah jimat hampir 200 kcal tanpa rasa tak cukup makan."
+ },
+ "faq": [
+  {
+   "q": "Kenapa dipanggil nasi kandar?",
+   "a": "Dulu penjual mengandar nasi dan lauk dalam bakul yang digantung pada kayu atas bahu. Nama tu kekal sampai sekarang, terutama di Pulau Pinang."
+  },
+  {
+   "q": "Apa maksud kuah campur?",
+   "a": "Kuah campur ialah campuran beberapa jenis kuah seperti kari ayam, kari ikan, dalca dan kuah kicap yang dituang atas nasi. Rasa memang sedap, tapi minyak dan santan pun bertambah."
+  },
+  {
+   "q": "Nasi kandar sesuai untuk sarapan?",
+   "a": "Ramai makan nasi kandar pagi, dan tak salah. Cuma ia berat, jadi makan tengah hari dan malam perlu lebih ringan supaya jumlah harian terkawal."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

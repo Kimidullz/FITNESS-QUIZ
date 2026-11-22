@@ -1,0 +1,70 @@
+{
+ "slug": "satay-ayam",
+ "intro": "10 cucuk satay ayam dengan kuah ada anggaran 450 kcal. Kebanyakan kalori datang daripada daging ayam yang diperap dengan minyak dan gula, diikuti kuah kacang.",
+ "protein_g": 35,
+ "carbs_g": 25,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Daging ayam 10 cucuk",
+   "kcal": 280
+  },
+  {
+   "part": "Minyak sapuan semasa bakar",
+   "kcal": 30
+  },
+  {
+   "part": "Kuah kacang (3-4 sudu besar)",
+   "kcal": 130
+  },
+  {
+   "part": "Timun & bawang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Satay ayam 10 cucuk + nasi impit 4 ketul",
+   "kcal": 580
+  },
+  {
+   "name": "Satay daging 10 cucuk + kuah",
+   "kcal": 500
+  },
+  {
+   "name": "Satay ayam 5 cucuk + kuah sikit",
+   "kcal": 220
+  },
+  {
+   "name": "Satay ayam 10 cucuk tanpa kuah",
+   "kcal": 320
+  }
+ ],
+ "diet": "Boleh, satay ayam sebenarnya antara pilihan yang okay sebab tinggi protein. Yang selalu buat kalori melonjak ialah kuah kacang yang dihirup banyak, nasi impit dan bilangan cucuk yang tak dikira. Tetapkan bilangan cucuk awal-awal. Lepas tu nikmati tanpa rasa bersalah.",
+ "tips": [
+  "Order ikut bilangan, contohnya 8-10 cucuk, bukan ambil dari pinggan kongsi tanpa kira.",
+  "Cicah kuah sikit sahaja, jangan tuang atas satay.",
+  "Ambil lebih timun dan bawang, kurangkan nasi impit."
+ ],
+ "swap": {
+  "name": "Satay ayam 8 cucuk + kuah 2 sudu + timun",
+  "kcal": 330,
+  "why": "Masih puas makan satay, protein tinggi, tapi jimat anggaran 120 kcal dari kuah dan cucuk."
+ },
+ "faq": [
+  {
+   "q": "Satay ayam atau daging, mana lebih rendah kalori?",
+   "a": "Biasanya satay ayam lebih rendah sedikit sebab daging ayam kurang lemak, terutama bahagian isi."
+  },
+  {
+   "q": "Satay sesuai untuk makan malam masa diet?",
+   "a": "Boleh. Pilih bilangan cucuk yang sesuai dan makan dengan timun. Kawal kuah dan nasi impit."
+  },
+  {
+   "q": "Nasi impit tinggi kalori ke?",
+   "a": "Sekitar 25-30 kcal seketul kecil. Sendiri tak banyak, tapi cepat bertambah bila dicicah kuah kacang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

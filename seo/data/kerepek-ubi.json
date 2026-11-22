@@ -1,0 +1,66 @@
+{
+ "slug": "kerepek-ubi",
+ "intro": "Satu paket kecil kerepek ubi (30 g) ada anggaran 160 kcal. Hampir separuh kalori datang daripada minyak goreng yang diserap oleh hirisan ubi kayu.",
+ "protein_g": 1,
+ "carbs_g": 19,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Kanji ubi kayu",
+   "kcal": 76
+  },
+  {
+   "part": "Minyak goreng yang diserap",
+   "kcal": 81
+  },
+  {
+   "part": "Garam, perisa dan protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kerepek ubi pedas manis (30 g)",
+   "kcal": 170
+  },
+  {
+   "name": "Kerepek pisang (30 g)",
+   "kcal": 155
+  },
+  {
+   "name": "Kerepek ubi 1 bungkus besar (100 g)",
+   "kcal": 530
+  },
+  {
+   "name": "Kerepek kentang (30 g)",
+   "kcal": 160
+  }
+ ],
+ "diet": "Boleh, sesekali dan dalam paket kecil. Kerepek tak berapa mengenyangkan, jadi senang termakan banyak. Satu bungkus besar boleh cecah lebih 500 kcal, sama macam satu hidangan nasi. Kalau beli paket besar, asingkan dulu ke dalam mangkuk.",
+ "tips": [
+  "Beli paket kecil, bukan bungkus besar untuk 'simpan'.",
+  "Tuang ke dalam mangkuk kecil dan simpan baki, jangan makan terus dari plastik.",
+  "Makan bersama buah atau timun supaya lebih kenyang dengan kalori kurang."
+ ],
+ "swap": {
+  "name": "Kacang tanah rebus 1 genggam",
+  "kcal": 100,
+  "why": "Masih rasa masin dan seronok dikunyah, tapi kurang minyak dan ada sedikit protein yang buat lebih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Kerepek ubi buatan sendiri lebih sihat?",
+   "a": "Kalau buat sendiri, anda boleh kawal minyak dan garam. Cuba bakar atau guna air fryer dengan sedikit minyak."
+  },
+  {
+   "q": "Kerepek ubi pedas lagi tinggi kalori ke?",
+   "a": "Sedikit sahaja lebih tinggi kerana ada gula dan perisa. Perbezaan utama tetap pada saiz paket."
+  },
+  {
+   "q": "Kerepek ubi tahan berapa lama?",
+   "a": "Biasanya beberapa minggu jika disimpan dalam bekas kedap udara di tempat kering. Rujuk tarikh luput pada paket."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

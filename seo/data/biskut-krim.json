@@ -1,0 +1,66 @@
+{
+ "slug": "biskut-krim",
+ "intro": "3 keping biskut krim ada anggaran 160 kcal. Kebanyakan kalori datang daripada tepung gandum dan minyak sayuran dalam adunan biskut.",
+ "protein_g": 3,
+ "carbs_g": 23,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Tepung gandum (3 keping)",
+   "kcal": 100
+  },
+  {
+   "part": "Minyak/lemak sayuran dalam adunan",
+   "kcal": 55
+  },
+  {
+   "part": "Gula, garam & bahan lain",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Biskut krim 3 keping + mentega kacang 1 sudu besar",
+   "kcal": 255
+  },
+  {
+   "name": "Biskut krim 3 keping + marjerin & gula",
+   "kcal": 230
+  },
+  {
+   "name": "Biskut krim dicicah teh tarik (segelas)",
+   "kcal": 290
+  },
+  {
+   "name": "Biskut gandum penuh 3 keping",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh, biskut krim boleh masuk dalam plan turun berat. Masalahnya, biskut ni rendah protein dan cepat lapar balik. Kalau makan terus dari tin, senang terlajak jadi 6-8 keping. Kira sebagai snek, bukan sarapan penuh.",
+ "tips": [
+  "Ambil 3 keping, letak atas piring, tutup tin dan simpan balik.",
+  "Makan dengan telur rebus atau segelas susu kurang gula supaya ada protein dan lebih kenyang.",
+  "Cicah dengan kopi O atau teh O kurang manis, bukan teh tarik atau milo pekat."
+ ],
+ "swap": {
+  "name": "2 keping biskut krim + 1 biji telur rebus",
+  "kcal": 180,
+  "why": "Kalori hampir sama, tapi ada protein dari telur. Lebih kenyang sampai waktu makan seterusnya."
+ },
+ "faq": [
+  {
+   "q": "Biskut krim sesuai untuk sarapan ke?",
+   "a": "Boleh, tapi sendiri saja kurang protein. Tambah telur, susu atau sedikit mentega kacang supaya sarapan lebih seimbang."
+  },
+  {
+   "q": "Biskut krim lebih sihat dari roti putih?",
+   "a": "Lebih kurang sama dari segi kalori. Biskut krim biasanya ada lebih lemak dan garam, roti putih lebih banyak karbohidrat. Kedua-duanya okay kalau portion terkawal."
+  },
+  {
+   "q": "Kenapa biskut krim buat cepat lapar?",
+   "a": "Sebab kebanyakannya karbohidrat halus, serat dan protein rendah. Gandingkan dengan sumber protein untuk kenyang lebih lama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

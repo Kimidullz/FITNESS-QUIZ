@@ -1,0 +1,66 @@
+{
+ "slug": "yogurt",
+ "intro": "1 cawan yogurt berperisa ada anggaran 150 kcal. Kebanyakan kalori datang daripada susu dan gula tambahan untuk perisa.",
+ "protein_g": 6,
+ "carbs_g": 24,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Yogurt asas (susu)",
+   "kcal": 85
+  },
+  {
+   "part": "Gula tambahan",
+   "kcal": 50
+  },
+  {
+   "part": "Perisa/jem buah",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Yogurt tanpa perisa (plain) 1 cawan",
+   "kcal": 110
+  },
+  {
+   "name": "Yogurt Greek tanpa perisa 1 cawan",
+   "kcal": 120
+  },
+  {
+   "name": "Yogurt berperisa + granola 2 sudu besar",
+   "kcal": 230
+  },
+  {
+   "name": "Yogurt minuman 1 botol kecil",
+   "kcal": 120
+  }
+ ],
+ "diet": "Boleh, yogurt okay untuk snek masa turun berat. Tapi yogurt berperisa biasanya tinggi gula tambahan. Kalau makan selalu, pilih versi plain atau kurang gula. Yogurt jenis Greek lebih tinggi protein dan lebih mengenyangkan.",
+ "tips": [
+  "Beli yogurt plain dan tambah buah potong sendiri untuk rasa manis.",
+  "Baca label: pilih yang gula lebih rendah per cawan.",
+  "Tambah segenggam kecil badam atau oat untuk snek petang yang lebih kenyang."
+ ],
+ "swap": {
+  "name": "Yogurt Greek plain + buah betik potong",
+  "kcal": 160,
+  "why": "Kalori hampir sama tapi protein hampir dua kali ganda dan gula tambahan kurang."
+ },
+ "faq": [
+  {
+   "q": "Yogurt berperisa sihat ke?",
+   "a": "Ia ada protein dan kalsium, tapi banyak yang tinggi gula. Okay sekali-sekala, tapi plain atau kurang gula lebih baik untuk harian."
+  },
+  {
+   "q": "Bila masa terbaik makan yogurt?",
+   "a": "Bila-bila masa. Ramai suka sebagai sarapan ringan atau snek petang untuk elak terlajak makan malam."
+  },
+  {
+   "q": "Apa beza yogurt biasa dan Greek yogurt?",
+   "a": "Greek yogurt ditapis lebih lama, jadi lebih pekat dan tinggi protein. Rasanya lebih masam sedikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

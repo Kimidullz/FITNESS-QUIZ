@@ -1,0 +1,66 @@
+{
+ "slug": "teh-ais-limau",
+ "intro": "Segelas teh ais limau ada anggaran 100 kcal. Hampir semua kalori datang dari gula atau air gula.",
+ "protein_g": 0,
+ "carbs_g": 25,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula / air gula",
+   "kcal": 90
+  },
+  {
+   "part": "Teh pekat",
+   "kcal": 5
+  },
+  {
+   "part": "Perahan limau kasturi",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh O ais limau kurang manis",
+   "kcal": 55
+  },
+  {
+   "name": "Teh O ais limau kosong",
+   "kcal": 10
+  },
+  {
+   "name": "Teh ais limau asam boi",
+   "kcal": 120
+  },
+  {
+   "name": "Teh ais limau gelas jumbo",
+   "kcal": 160
+  }
+ ],
+ "diet": "Boleh, ia lebih ringan dari minuman bersusu macam teh tarik atau Milo. Tapi kalorinya tetap dari gula, jadi tak buat kenyang. Satu gelas dengan makan tengah hari okay. Kalau dah biasa, cuba versi kurang manis atau kosong.",
+ "tips": [
+  "Order 'kurang manis', rasa masam limau tutup kurang gula dengan baik.",
+  "Minta limau lebih, rasa jadi segar walaupun gula sedikit.",
+  "Elak saiz jumbo, pilih gelas biasa."
+ ],
+ "swap": {
+  "name": "Teh O ais limau kosong",
+  "kcal": 10,
+  "why": "Rasa masam segar limau masih ada, gula hampir sifar."
+ },
+ "faq": [
+  {
+   "q": "Teh ais limau sama dengan lemon tea?",
+   "a": "Hampir sama. Di kedai Malaysia biasanya guna limau kasturi, bukan lemon."
+  },
+  {
+   "q": "Limau dalam teh bantu bakar lemak?",
+   "a": "Tidak. Limau beri rasa dan sedikit vitamin C, tapi tak bakar lemak."
+  },
+  {
+   "q": "Teh ais limau kosong masih sedap?",
+   "a": "Ramai suka sebab rasa masam limau buat ia segar. Lebih senang biasa berbanding teh O kosong biasa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

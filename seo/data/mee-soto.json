@@ -1,0 +1,70 @@
+{
+ "slug": "mee-soto",
+ "intro": "Satu mangkuk mee soto ada anggaran 400 kcal. Kebanyakan kalori datang dari mee kuning, manakala kuah soto dan ayam carik menyumbang bahagian yang lebih kecil.",
+ "protein_g": 22,
+ "carbs_g": 55,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1 hidangan",
+   "kcal": 220
+  },
+  {
+   "part": "Ayam carik",
+   "kcal": 70
+  },
+  {
+   "part": "Kuah soto berempah",
+   "kcal": 60
+  },
+  {
+   "part": "Taugeh, sambal kicap, bawang goreng",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee soto tambah bergedil",
+   "kcal": 520
+  },
+  {
+   "name": "Soto nasi impit",
+   "kcal": 350
+  },
+  {
+   "name": "Bihun soto",
+   "kcal": 370
+  },
+  {
+   "name": "Mee soto ayam extra",
+   "kcal": 460
+  }
+ ],
+ "diet": "Boleh, dan mee soto antara pilihan yang lebih ringan di gerai. Kuahnya tak bersantan, jadi lemak lebih rendah. Yang selalu buat kalori naik ialah bergedil dan kerepek. Kalau nak, ambil satu bergedil sahaja dan kira dalam bajet hari itu.",
+ "tips": [
+  "Minta ayam lebih untuk tambah protein dan kenyang lebih lama.",
+  "Tambah taugeh dan daun sup kalau ada, sebab isipadu naik tapi kalori rendah.",
+  "Ambil bergedil sekali-sekala sahaja, bukan setiap kali order."
+ ],
+ "swap": {
+  "name": "Soto nasi impit",
+  "kcal": 350,
+  "why": "Nasi impit biasanya sedikit lebih rendah kalori dari mee, tapi rasa soto tetap sama."
+ },
+ "faq": [
+  {
+   "q": "Apa beza soto Johor dengan soto biasa?",
+   "a": "Soto Johor biasanya lebih berempah dan kuahnya lebih pekat. Versi lain mungkin lebih jernih dan ringan."
+  },
+  {
+   "q": "Bergedil soto diperbuat daripada apa?",
+   "a": "Bergedil dibuat dari kentang lenyek yang digaul dengan bawang, rempah dan kadang-kadang daging, kemudian digoreng."
+  },
+  {
+   "q": "Mee soto sesuai untuk sarapan?",
+   "a": "Ya, ramai orang makan mee soto untuk sarapan sebab kuahnya panas dan tak terlalu berat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

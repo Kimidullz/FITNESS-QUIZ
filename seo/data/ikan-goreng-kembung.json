@@ -1,0 +1,66 @@
+{
+ "slug": "ikan-goreng-kembung",
+ "intro": "Seekor ikan kembung goreng saiz sederhana ada anggaran 200 kcal. Kebanyakan kalori dari isi ikan itu sendiri, ditambah minyak yang diserap semasa digoreng.",
+ "protein_g": 20,
+ "carbs_g": 3,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Isi ikan kembung",
+   "kcal": 140
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 50
+  },
+  {
+   "part": "Perapan kunyit dan garam",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ikan kembung bakar",
+   "kcal": 160
+  },
+  {
+   "name": "Ikan kembung goreng berlada",
+   "kcal": 260
+  },
+  {
+   "name": "Ikan kembung asam pedas (dengan kuah)",
+   "kcal": 170
+  },
+  {
+   "name": "Ikan kembung sumbat sambal goreng",
+   "kcal": 280
+  }
+ ],
+ "diet": "Boleh, ikan kembung memang pilihan lauk yang mesra diet. Ia tinggi protein dan mengandungi lemak omega-3 yang baik. Goreng kunyit biasa pun masih rendah kalori berbanding banyak lauk lain. Yang perlu dijaga cuma kuah berlada berminyak dan nasi yang terlalu banyak.",
+ "tips": [
+  "Pilih ikan kembung goreng kunyit biasa berbanding yang bersalut sambal.",
+  "Kalau ada pilihan, ambil ikan bakar atau asam pedas.",
+  "Pasangkan dengan sayur dan nasi separuh untuk pinggan yang seimbang."
+ ],
+ "swap": {
+  "name": "Ikan kembung bakar dengan air asam",
+  "kcal": 170,
+  "why": "Tiada minyak goreng tapi rasa tetap sedap. Air asam beri perisa tanpa tambah banyak kalori."
+ },
+ "faq": [
+  {
+   "q": "Ikan kembung banyak tulang ke?",
+   "a": "Ada tulang halus tapi tak terlalu banyak. Tulang tengahnya senang dibuang, sesuai juga untuk anak-anak dengan pengawasan."
+  },
+  {
+   "q": "Macam mana nak goreng ikan kembung supaya tak hancur?",
+   "a": "Lap ikan sampai kering, perap dengan kunyit dan garam, dan pastikan minyak panas. Jangan terbalikkan terlalu awal."
+  },
+  {
+   "q": "Ikan kembung atau ikan salmon, mana lebih bagus?",
+   "a": "Kedua-duanya kaya omega-3. Ikan kembung jauh lebih murah dan senang dapat di pasar Malaysia, jadi ia pilihan harian yang sangat baik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

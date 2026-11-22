@@ -1,0 +1,66 @@
+{
+ "slug": "milo-ais",
+ "intro": "Segelas Milo ais kedai ada anggaran 200 kcal. Kalori datang dari serbuk coklat malt dan susu pekat manis yang dicampur.",
+ "protein_g": 5,
+ "carbs_g": 34,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis (~1.5 sudu besar)",
+   "kcal": 95
+  },
+  {
+   "part": "Serbuk coklat malt (~3 sudu besar)",
+   "kcal": 80
+  },
+  {
+   "part": "Susu cair (sedikit)",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Milo ais kurang manis",
+   "kcal": 150
+  },
+  {
+   "name": "Milo tanpa susu pekat (Milo O ais)",
+   "kcal": 110
+  },
+  {
+   "name": "Milo panas",
+   "kcal": 180
+  },
+  {
+   "name": "Milo dinosaur (serbuk tabur atas)",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, tapi anggap Milo ais macam snek, bukan sekadar air. 200 kcal itu hampir sama dengan sekeping roti canai kosong. Kalau suka, nikmati beberapa kali seminggu dan kira dalam kalori harian. Yang paling perlu dijaga ialah versi dinosaur dan gelas jumbo.",
+ "tips": [
+  "Order 'Milo kurang manis' atau minta tanpa susu pekat.",
+  "Jadikan Milo ais sebagai 'snek petang', jangan tambah kuih lagi.",
+  "Buat sendiri di rumah dengan susu segar rendah lemak dan kurang serbuk."
+ ],
+ "swap": {
+  "name": "Milo O ais (tanpa susu pekat)",
+  "kcal": 110,
+  "why": "Rasa coklat masih ada, tapi kurang hampir separuh kalori."
+ },
+ "faq": [
+  {
+   "q": "Milo ais sesuai untuk lepas bersenam?",
+   "a": "Ia ada karbohidrat dan sedikit protein, tapi gulanya tinggi. Makanan sebenar macam nasi dengan lauk protein lebih mengenyangkan."
+  },
+  {
+   "q": "Apa beza Milo ais dengan Milo dinosaur?",
+   "a": "Milo dinosaur ada serbuk ditabur tebal di atas. Kalorinya boleh naik sampai anggaran 300 kcal."
+  },
+  {
+   "q": "Milo sesuai untuk anak-anak setiap hari?",
+   "a": "Boleh sesekali, tapi gulanya tinggi untuk minuman harian. Selang-selikan dengan susu kosong atau air kosong."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

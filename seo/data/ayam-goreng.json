@@ -1,0 +1,70 @@
+{
+ "slug": "ayam-goreng",
+ "intro": "Satu ketul ayam goreng bahagian paha ada anggaran 300 kcal. Kebanyakan kalori dari lemak, iaitu kulit ayam dan minyak yang diserap semasa menggoreng.",
+ "protein_g": 22,
+ "carbs_g": 10,
+ "fat_g": 19,
+ "breakdown": [
+  {
+   "part": "Isi ayam paha",
+   "kcal": 150
+  },
+  {
+   "part": "Kulit ayam",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 50
+  },
+  {
+   "part": "Salutan tepung dan rempah",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam goreng berempah (paha)",
+   "kcal": 330
+  },
+  {
+   "name": "Ayam goreng tepung rangup (paha)",
+   "kcal": 380
+  },
+  {
+   "name": "Ayam goreng drumstick",
+   "kcal": 200
+  },
+  {
+   "name": "Ayam goreng kunyit buang kulit",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh, ayam goreng tetap sumber protein yang bagus. Masalahnya bukan ayam, tapi kulit, tepung tebal dan minyak. Satu ketul dengan nasi dan sayur masih muat dalam bajet kalori harian. Elakkan ambil dua tiga ketul sekali gus atau jenis tepung rangup yang tebal.",
+ "tips": [
+  "Buang sebahagian kulit, terutama yang paling berminyak.",
+  "Pilih ayam goreng kunyit atau berempah berbanding ayam tepung rangup.",
+  "Kalau goreng di rumah, guna air fryer atau goreng dengan minyak sedikit."
+ ],
+ "swap": {
+  "name": "Ayam bakar atau ayam panggang (paha, buang kulit)",
+  "kcal": 200,
+  "why": "Tiada minyak goreng dan kulit, tapi protein hampir sama. Masih kenyang dan sedap dimakan dengan nasi."
+ },
+ "faq": [
+  {
+   "q": "Paha atau dada ayam, mana lebih baik untuk diet?",
+   "a": "Dada lebih rendah lemak dan tinggi protein. Paha lebih juicy dan sedap, jadi masih okay asalkan buang kulit dan jaga cara masak."
+  },
+  {
+   "q": "Macam mana nak goreng ayam supaya tak terlalu berminyak?",
+   "a": "Pastikan minyak cukup panas sebelum masuk ayam dan toskan atas tisu selepas goreng. Air fryer pun boleh beri hasil rangup dengan minyak sangat sedikit."
+  },
+  {
+   "q": "Boleh makan ayam goreng setiap hari?",
+   "a": "Boleh dari segi protein, tapi lebih baik selang-seli dengan ayam bakar, rebus atau masak kicap. Ini kurangkan minyak goreng yang masuk setiap hari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

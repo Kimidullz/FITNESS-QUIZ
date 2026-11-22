@@ -1,0 +1,66 @@
+{
+ "slug": "nanas",
+ "intro": "Satu mangkuk kecil nanas (anggaran 150 g) ada lebih kurang 80 kcal. Kalorinya datang hampir semua daripada gula semula jadi dalam buah.",
+ "protein_g": 1,
+ "carbs_g": 19,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi nanas",
+   "kcal": 66
+  },
+  {
+   "part": "Serat dan karbohidrat lain",
+   "kcal": 10
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nanas + serbuk asam boi",
+   "kcal": 95
+  },
+  {
+   "name": "Nanas dalam tin (sirap), 1 mangkuk kecil",
+   "kcal": 130
+  },
+  {
+   "name": "Jus nanas bergula (1 gelas)",
+   "kcal": 180
+  },
+  {
+   "name": "Rojak buah dengan kuah kacang",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh. Nanas segar rendah kalori, berair dan menyegarkan. Ia sesuai ganti air manis atau kuih waktu petang. Elakkan versi dalam tin bersirap dan jus bergula kalau nak jimat kalori.",
+ "tips": [
+  "Beli nanas potong di gerai buah, makan sebagai snek petang di pejabat.",
+  "Pilih nanas segar atau nanas tin dalam jus sendiri, bukan sirap.",
+  "Masukkan nanas dalam salad ayam atau tumis dengan udang untuk hidangan lebih berprotein."
+ ],
+ "swap": {
+  "name": "Nanas segar ganti jus nanas",
+  "kcal": 80,
+  "why": "Buah segar lebih kenyang kerana ada serat, dan tiada gula tambahan seperti dalam jus."
+ },
+ "faq": [
+  {
+   "q": "Kenapa mulut rasa gatal lepas makan nanas?",
+   "a": "Nanas ada enzim bromelain yang boleh buat mulut rasa pedih atau gatal. Rendam dalam air garam sekejap boleh kurangkan rasa itu."
+  },
+  {
+   "q": "Ibu mengandung boleh makan nanas?",
+   "a": "Ramai ibu makan nanas dalam jumlah biasa. Kalau ada kebimbangan, tanya doktor anda dulu."
+  },
+  {
+   "q": "Boleh makan nanas waktu perut kosong?",
+   "a": "Sesetengah orang rasa pedih perut sebab nanas berasid. Kalau begitu, makan selepas makan utama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

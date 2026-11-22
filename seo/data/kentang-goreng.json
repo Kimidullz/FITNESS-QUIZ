@@ -1,0 +1,62 @@
+{
+ "slug": "kentang-goreng",
+ "intro": "Satu bekas kentang goreng sederhana ada anggaran 340 kcal. Kebanyakan kalori datang daripada kentang itu sendiri dan minyak gorengan.",
+ "protein_g": 4,
+ "carbs_g": 44,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Kentang",
+   "kcal": 180
+  },
+  {
+   "part": "Minyak gorengan",
+   "kcal": 140
+  },
+  {
+   "part": "Sos cili/tomato (2 paket)",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kentang goreng kecil",
+   "kcal": 230
+  },
+  {
+   "name": "Kentang goreng besar",
+   "kcal": 450
+  },
+  {
+   "name": "Kentang goreng dengan sos cheese",
+   "kcal": 420
+  }
+ ],
+ "diet": "Boleh, tapi kentang goreng mudah 'termakan lebih' sebab sedap dan tak kenyang lama. Saiz sederhana dah hampir sama dengan satu cawan nasi lebih. Kalau nak, ambil saiz kecil atau kongsi. Pastikan ada protein dalam hidangan yang sama.",
+ "tips": [
+  "Pilih saiz kecil, atau kongsi bekas sederhana.",
+  "Jangan upsize set walaupun tambah sikit duit saja.",
+  "Makan burger atau ayam dulu, kentang kemudian supaya kurang terlebih makan."
+ ],
+ "swap": {
+  "name": "Jagung cawan kecil",
+  "kcal": 130,
+  "why": "Masih karbohidrat dan mengenyangkan, tapi tak digoreng. Jimat lebih 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Kentang goreng air fryer lebih baik?",
+   "a": "Air fryer guna kurang minyak, jadi lemaknya lebih rendah. Tekstur sedikit berbeza tapi masih rangup."
+  },
+  {
+   "q": "Kenapa kentang goreng fast food lebih rangup?",
+   "a": "Biasanya digoreng dua kali dan disalut sedikit tepung atau gula. Itu buat ia kekal rangup."
+  },
+  {
+   "q": "Kentang goreng sejuk boleh dipanaskan?",
+   "a": "Boleh guna air fryer atau kuali tanpa minyak selama beberapa minit. Elak microwave."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "oat-dengan-susu",
+ "intro": "Semangkuk oat dengan susu ada anggaran 250 kcal. Kalori datang daripada oat (karbohidrat kompleks) dan susu.",
+ "protein_g": 11,
+ "carbs_g": 36,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Oat 40 g (kira-kira 4 sudu besar)",
+   "kcal": 150
+  },
+  {
+   "part": "Susu rendah lemak 200 ml",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Oat dengan susu penuh krim",
+   "kcal": 290
+  },
+  {
+   "name": "Oat dengan susu + 1 biji pisang",
+   "kcal": 350
+  },
+  {
+   "name": "Oat dengan susu + 1 sudu madu",
+   "kcal": 310
+  },
+  {
+   "name": "Oat dengan air sahaja",
+   "kcal": 150
+  }
+ ],
+ "diet": "Ya, oat dengan susu antara sarapan yang mesra diet. Ia mengenyangkan, mudah disediakan dan senang kawal porsi. Yang perlu hati-hati ialah topping macam madu, gula, kismis dan granola. Kalau tambah topping, sukat, jangan main tuang.",
+ "tips": [
+  "Sukat oat guna sudu, jangan tuang terus dari bungkusan.",
+  "Tambah sebiji telur rebus di sisi untuk lebih protein.",
+  "Guna buah potong untuk rasa manis, bukan gula atau susu pekat."
+ ],
+ "swap": {
+  "name": "Oat dengan susu rendah lemak + telur rebus",
+  "kcal": 320,
+  "why": "Tambah protein supaya kenyang sampai tengah hari, kurang snek di pejabat."
+ },
+ "faq": [
+  {
+   "q": "Oat segera atau rolled oat, mana lebih bagus?",
+   "a": "Dua-dua okay. Rolled oat lambat sikit dihadam, jadi kenyang lebih lama. Elak oat segera berperisa yang ada gula tambahan."
+  },
+  {
+   "q": "Boleh makan oat waktu malam?",
+   "a": "Boleh. Ia sesuai sebagai makan malam ringan kalau porsi dan topping dijaga."
+  },
+  {
+   "q": "Overnight oat sama ke dengan oat masak?",
+   "a": "Nilai pemakanan lebih kurang sama. Overnight oat cuma direndam dalam susu semalaman, senang untuk orang sibuk pagi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

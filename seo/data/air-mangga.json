@@ -1,0 +1,66 @@
+{
+ "slug": "air-mangga",
+ "intro": "Segelas air mangga dari gerai ada anggaran 200 kcal. Kebanyakan kalori datang dari sirap gula yang ditambah, bukan dari mangga sahaja.",
+ "protein_g": 1,
+ "carbs_g": 47,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Isi mangga blend (~1/2 biji)",
+   "kcal": 80
+  },
+  {
+   "part": "Sirap gula",
+   "kcal": 100
+  },
+  {
+   "part": "Susu pekat / perisa tambahan",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air mangga tanpa gula tambahan",
+   "kcal": 90
+  },
+  {
+   "name": "Mango smoothie dengan susu/aiskrim",
+   "kcal": 320
+  },
+  {
+   "name": "Air mangga saiz besar (gelas plastik besar)",
+   "kcal": 300
+  },
+  {
+   "name": "Mangga segar 1 cawan potong",
+   "kcal": 100
+  }
+ ],
+ "diet": "Boleh, terutamanya kalau minta kurang manis. Mangga sendiri ada vitamin, tapi gerai selalunya tambah sirap yang banyak. Segelas biasa masih okay sekali-sekala. Kalau nak lebih kenyang dengan kalori rendah, makan mangga potong lebih membantu.",
+ "tips": [
+  "Minta 'tak nak gula' atau 'kurang manis', mangga masak dah cukup manis.",
+  "Elak tambah susu pekat atau aiskrim.",
+  "Pilih saiz kecil, atau kongsi gelas besar dengan pasangan."
+ ],
+ "swap": {
+  "name": "Air mangga tanpa gula tambahan",
+  "kcal": 90,
+  "why": "Rasa mangga masih kuat, tapi gula tambahan dibuang dan kalori kurang separuh."
+ },
+ "faq": [
+  {
+   "q": "Air mangga gerai guna mangga betul ke?",
+   "a": "Banyak gerai guna mangga segar, tapi ada juga yang guna pes atau sirap perisa mangga. Boleh tanya penjual."
+  },
+  {
+   "q": "Mangga jenis apa paling sedap untuk dibuat jus?",
+   "a": "Mangga harumanis dan chokanan popular sebab manis dan wangi, jadi tak perlu banyak gula."
+  },
+  {
+   "q": "Boleh buat air mangga sendiri di rumah?",
+   "a": "Boleh. Blend isi mangga masak dengan ais dan air. Tak perlu tambah gula kalau mangga dah manis."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

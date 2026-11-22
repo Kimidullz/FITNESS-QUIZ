@@ -1,0 +1,70 @@
+{
+ "slug": "kurma",
+ "intro": "Tiga biji kurma saiz biasa ada anggaran 70 kcal. Hampir semuanya daripada gula semula jadi yang padat, sebab kurma ialah buah kering.",
+ "protein_g": 1,
+ "carbs_g": 17,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi (biji pertama)",
+   "kcal": 22
+  },
+  {
+   "part": "Gula semula jadi (biji kedua)",
+   "kcal": 22
+  },
+  {
+   "part": "Gula semula jadi (biji ketiga)",
+   "kcal": 22
+  },
+  {
+   "part": "Serat dan protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kurma besar jenis medjool (3 biji)",
+   "kcal": 200
+  },
+  {
+   "name": "Kurma isi badam (3 biji)",
+   "kcal": 110
+  },
+  {
+   "name": "Kurma salut coklat (3 biji)",
+   "kcal": 150
+  },
+  {
+   "name": "Air kurma susu (1 gelas)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh. Tiga biji kurma ialah snek kecil yang beri tenaga cepat, contohnya sebelum bersenam atau masa berbuka. Masalahnya kurma senang dimakan banyak tanpa sedar. Kira biji, jangan makan terus dari bekas.",
+ "tips": [
+  "Ambil 3 biji, letak atas piring kecil, dan tutup bekas.",
+  "Makan 2-3 biji kurma 30-60 minit sebelum bersenam untuk tenaga.",
+  "Gandingkan dengan segelas susu rendah lemak atau sebiji telur untuk tambah protein."
+ ],
+ "swap": {
+  "name": "Kurma saiz biasa (bukan medjool besar)",
+  "kcal": 70,
+  "why": "Kurma kecil kalorinya kira-kira sepertiga daripada kurma medjool besar untuk bilangan biji yang sama."
+ },
+ "faq": [
+  {
+   "q": "Berapa biji kurma elok dimakan sehari?",
+   "a": "Untuk kebanyakan orang, 3 biji sehari sudah memadai sebagai snek. Lebih daripada itu, kira dalam kalori harian."
+  },
+  {
+   "q": "Kurma sesuai untuk berbuka puasa?",
+   "a": "Ya, kurma beri tenaga cepat selepas seharian berpuasa. Ikut dengan air kosong dan makanan berprotein."
+  },
+  {
+   "q": "Kurma bagus untuk ibu mengandung?",
+   "a": "Ramai ibu makan kurma terutama pada trimester akhir. Untuk nasihat khusus, tanya doktor anda."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

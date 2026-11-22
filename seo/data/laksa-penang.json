@@ -1,0 +1,66 @@
+{
+ "slug": "laksa-penang",
+ "intro": "Semangkuk laksa Penang (asam laksa) ada anggaran 450 kcal. Kebanyakan kalori datang daripada mi laksa tebal, kuah ikan asamnya sendiri agak ringan.",
+ "protein_g": 20,
+ "carbs_g": 75,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Mi laksa 1.5 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah ikan asam",
+   "kcal": 120
+  },
+  {
+   "part": "Petis udang (haeko)",
+   "kcal": 60
+  },
+  {
+   "part": "Timun, nanas, daun pudina dan bawang",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Asam laksa + telur rebus",
+   "kcal": 525
+  },
+  {
+   "name": "Asam laksa tanpa petis",
+   "kcal": 400
+  },
+  {
+   "name": "Laksa Kedah",
+   "kcal": 420
+  }
+ ],
+ "diet": "Ya, ini antara laksa paling mesra diet. Tiada santan, lemak rendah dan ada protein daripada ikan. Yang perlu jaga cuma petis udang yang manis dan portion mi. Sesuai sebagai lunch hujung minggu.",
+ "tips": [
+  "Minta petis sikit atau letak di tepi.",
+  "Minta lebih sayur seperti timun dan bawang.",
+  "Tambah telur rebus untuk protein lebih."
+ ],
+ "swap": {
+  "name": "Asam laksa saiz kecil + telur",
+  "kcal": 380,
+  "why": "Rasa sama, kurang mi dan protein lebih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza laksa Penang dengan laksa kari?",
+   "a": "Laksa Penang guna kuah ikan masam tanpa santan. Laksa kari guna kuah kari bersantan yang pekat."
+  },
+  {
+   "q": "Ikan apa yang digunakan dalam asam laksa?",
+   "a": "Biasanya ikan kembung atau sardin yang direbus dan diracik halus dalam kuah."
+  },
+  {
+   "q": "Kenapa asam laksa rasa masam?",
+   "a": "Datang daripada asam keping atau asam jawa yang dimasak dalam kuah."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

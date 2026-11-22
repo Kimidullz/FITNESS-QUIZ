@@ -1,0 +1,66 @@
+{
+ "slug": "air-tebu",
+ "intro": "Segelas air tebu ada anggaran 180 kcal. Semua kalorinya datang dari gula semula jadi dalam jus tebu.",
+ "protein_g": 0,
+ "carbs_g": 45,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Jus tebu tulen (~300 ml)",
+   "kcal": 175
+  },
+  {
+   "part": "Perahan limau",
+   "kcal": 5
+  },
+  {
+   "part": "Ais",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air tebu separuh gelas",
+   "kcal": 90
+  },
+  {
+   "name": "Air tebu limau",
+   "kcal": 185
+  },
+  {
+   "name": "Air tebu asam boi",
+   "kcal": 190
+  },
+  {
+   "name": "Air tebu plastik ikat besar",
+   "kcal": 280
+  }
+ ],
+ "diet": "Boleh, tapi jangan tertipu dengan label 'semula jadi'. Gula dalam air tebu tetap gula, dan ia tak mengenyangkan. Satu gelas kecil sesekali, terutama hari panas, masih okay. Elak plastik ikat besar dan jangan jadikan ia minuman setiap hari.",
+ "tips": [
+  "Pilih saiz kecil atau kongsi segelas dengan kawan.",
+  "Minta lebih ais supaya jus tebu kurang dalam gelas.",
+  "Minum bersama makanan berat, bukan sebagai minuman tambahan antara waktu makan."
+ ],
+ "swap": {
+  "name": "Air kelapa tanpa gula",
+  "kcal": 60,
+  "why": "Masih segar dan manis semula jadi, tapi kalori sepertiga sahaja."
+ },
+ "faq": [
+  {
+   "q": "Air tebu lebih sihat dari air bergula biasa?",
+   "a": "Ia ada sedikit mineral, tapi kandungan gulanya tetap tinggi. Anggap sama macam minuman manis lain."
+  },
+  {
+   "q": "Kenapa air tebu cepat basi?",
+   "a": "Jus segar mudah teroksida dan ditapai. Elok minum dalam masa sejam dua selepas diperah."
+  },
+  {
+   "q": "Kenapa letak limau atau asam boi dalam air tebu?",
+   "a": "Untuk seimbangkan rasa manis dan beri rasa masam segar. Kalorinya bertambah sedikit sahaja."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

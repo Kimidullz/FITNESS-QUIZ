@@ -1,0 +1,66 @@
+{
+ "slug": "kopi-o",
+ "intro": "Secawan kopi O bergula ada anggaran 60 kcal. Kalori hampir semuanya dari gula, kopi hitam sendiri hampir tiada kalori.",
+ "protein_g": 0,
+ "carbs_g": 15,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula (~1 sudu besar)",
+   "kcal": 50
+  },
+  {
+   "part": "Serbuk kopi tradisional (digoreng dengan gula & marjerin)",
+   "kcal": 8
+  },
+  {
+   "part": "Air panas",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kopi O kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Kopi O ais (bergula)",
+   "kcal": 80
+  },
+  {
+   "name": "Kopi C (susu cair + gula)",
+   "kcal": 90
+  },
+  {
+   "name": "Kopi (susu pekat manis)",
+   "kcal": 120
+  }
+ ],
+ "diet": "Boleh, kopi O antara minuman kedai yang paling rendah kalori. Secawan sehari memang senang masuk dalam bajet kalori. Kalau nak lagi jimat, kurangkan gula sikit-sikit. Cuma jaga apa yang dimakan bersama, contohnya roti bakar kaya dan telur separuh masak.",
+ "tips": [
+  "Order 'kopi O kurang manis', jimat anggaran separuh kalori.",
+  "Minum panas dalam cawan kecil, lebih kecil dari gelas ais.",
+  "Pasangkan dengan telur separuh masak untuk protein, kurangkan roti bakar berkaya."
+ ],
+ "swap": {
+  "name": "Kopi O kurang manis",
+  "kcal": 30,
+  "why": "Rasa kopi kaw masih ada, gula separuh."
+ },
+ "faq": [
+  {
+   "q": "Kopi O boleh minum masa perut kosong?",
+   "a": "Ramai okay, tapi sesetengah orang rasa pedih perut. Lebih selesa kalau minum bersama sarapan."
+  },
+  {
+   "q": "Kopi O kosong pahit sangat, macam mana nak biasa?",
+   "a": "Kurangkan gula berperingkat, dari biasa ke kurang manis, kemudian sedikit sangat. Tekak akan adjust."
+  },
+  {
+   "q": "Berapa cawan kopi sehari okay?",
+   "a": "Kebanyakan orang dewasa sihat okay dengan 2-3 cawan. Kalau susah tidur atau berdebar, kurangkan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

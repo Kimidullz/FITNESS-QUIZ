@@ -1,0 +1,62 @@
+{
+ "slug": "telur-separuh-masak",
+ "intro": "Dua biji telur separuh masak ada anggaran 140 kcal. Kebanyakan kalori datang dari kuning telur, yang ada lemak dan protein.",
+ "protein_g": 12,
+ "carbs_g": 1,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Kuning telur 2 biji",
+   "kcal": 105
+  },
+  {
+   "part": "Putih telur 2 biji",
+   "kcal": 30
+  },
+  {
+   "part": "Kicap dan lada sulah",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Set dengan roti bakar kaya mentega",
+   "kcal": 440
+  },
+  {
+   "name": "Telur separuh masak 3 biji",
+   "kcal": 210
+  },
+  {
+   "name": "Dengan kicap manis lebih",
+   "kcal": 160
+  }
+ ],
+ "diet": "Boleh sangat. Telur separuh masak tinggi protein dan rendah kalori. Ia bantu rasa kenyang lebih lama. Yang perlu jaga hanyalah apa yang dimakan bersama, macam roti dan air manis.",
+ "tips": [
+  "Guna kicap biasa sikit, kurangkan kicap manis.",
+  "Makan dengan roti wholemeal sekeping, bukan dua.",
+  "Buat sendiri di rumah dengan air panas, siap dalam 6 hingga 7 minit."
+ ],
+ "swap": {
+  "name": "Telur rebus 2 biji",
+  "kcal": 140,
+  "why": "Kalori sama, senang bawa ke pejabat dan tak perlu kicap."
+ },
+ "faq": [
+  {
+   "q": "Selamat ke makan telur separuh masak?",
+   "a": "Secara umum okay kalau telur segar dan disimpan dengan betul. Ibu mengandung, kanak-kanak kecil dan warga emas mungkin lebih baik pilih telur masak penuh."
+  },
+  {
+   "q": "Macam mana nak buat telur separuh masak tanpa mesin?",
+   "a": "Didihkan air, tutup api, masukkan telur dan tutup periuk 6 hingga 7 minit. Angkat dan pecahkan ke dalam mangkuk."
+  },
+  {
+   "q": "Makan 2 biji telur sehari okay ke?",
+   "a": "Bagi kebanyakan orang sihat, 1 hingga 2 biji sehari biasanya okay. Kalau ada masalah kolesterol, bincang dengan doktor."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

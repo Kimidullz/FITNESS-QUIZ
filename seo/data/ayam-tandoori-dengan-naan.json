@@ -1,0 +1,70 @@
+{
+ "slug": "ayam-tandoori-dengan-naan",
+ "intro": "Satu set ayam tandoori dengan naan ada anggaran 650 kcal. Naan menyumbang paling banyak kalori, manakala ayam tandoori pula sumber protein utama.",
+ "protein_g": 40,
+ "carbs_g": 65,
+ "fat_g": 25,
+ "breakdown": [
+  {
+   "part": "Naan kosong (1 keping)",
+   "kcal": 280
+  },
+  {
+   "part": "Ayam tandoori (1 bahagian peha)",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah dal atau kari",
+   "kcal": 80
+  },
+  {
+   "part": "Salad bawang dan chutney pudina",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam tandoori dengan salad, tanpa naan",
+   "kcal": 300
+  },
+  {
+   "name": "Set dengan naan garlic",
+   "kcal": 700
+  },
+  {
+   "name": "Set dengan naan butter",
+   "kcal": 720
+  },
+  {
+   "name": "Set dengan naan cheese",
+   "kcal": 850
+  }
+ ],
+ "diet": "Boleh, ini antara pilihan terbaik di kedai mamak. Ayam tandoori dipanggang, bukan digoreng, dan tinggi protein. Kalori naik kalau pilih naan cheese atau butter. Kekalkan naan kosong dan anda dapat hidangan yang seimbang.",
+ "tips": [
+  "Pilih naan kosong, bukan naan cheese atau butter.",
+  "Buang kulit ayam kalau nak kurangkan lemak.",
+  "Minta salad bawang lebih dan guna chutney pudina sebagai sos."
+ ],
+ "swap": {
+  "name": "Ayam tandoori dengan chapati",
+  "kcal": 480,
+  "why": "Chapati lebih nipis dan kurang minyak dari naan, tapi protein ayam tetap sama."
+ },
+ "faq": [
+  {
+   "q": "Kenapa ayam tandoori warna merah?",
+   "a": "Warna merah datang dari serbuk cili Kashmir, rempah dan kadang-kadang pewarna makanan. Ayam diperap dalam yogurt dan rempah sebelum dibakar."
+  },
+  {
+   "q": "Ayam tandoori dimasak macam mana?",
+   "a": "Secara tradisional ia dibakar dalam ketuhar tanah liat yang dipanggil tandoor. Di rumah, anda boleh guna oven atau air fryer."
+  },
+  {
+   "q": "Chutney hijau tu apa?",
+   "a": "Itu chutney pudina, dibuat dari daun pudina, ketumbar, cili hijau dan kadang-kadang yogurt. Ia segar dan rendah kalori."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

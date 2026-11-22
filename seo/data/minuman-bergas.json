@@ -1,0 +1,66 @@
+{
+ "slug": "minuman-bergas",
+ "intro": "Satu tin minuman bergas 325 ml ada anggaran 140 kcal. Semua kalori datang dari gula, lebih kurang 35 g atau 7 sudu teh.",
+ "protein_g": 0,
+ "carbs_g": 35,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula tambahan (~35 g)",
+   "kcal": 140
+  },
+  {
+   "part": "Air berkarbonat",
+   "kcal": 0
+  },
+  {
+   "part": "Perisa, pewarna & asid",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Versi zero / tanpa gula",
+   "kcal": 2
+  },
+  {
+   "name": "Botol 500 ml biasa",
+   "kcal": 215
+  },
+  {
+   "name": "Botol 1.5 L (dikongsi, 1 gelas 250 ml)",
+   "kcal": 105
+  },
+  {
+   "name": "Air soda kosong (tanpa gula)",
+   "kcal": 0
+  }
+ ],
+ "diet": "Boleh sekali-sekala, contohnya masa kenduri atau makan dengan kawan. Masalahnya ia kalori 'kosong' yang tak bagi kenyang langsung. Kalau minum satu tin setiap hari, itu lebih 4,000 kcal sebulan. Kurangkan kekerapan dulu, itu antara cara paling senang nak jimat kalori.",
+ "tips": [
+  "Kalau nak rasa bergas, cuba air soda kosong dengan perahan limau.",
+  "Pilih tin kecil, jangan botol besar untuk seorang.",
+  "Simpan minuman bergas untuk hujung minggu atau majlis sahaja."
+ ],
+ "swap": {
+  "name": "Air soda kosong + limau nipis + ais",
+  "kcal": 5,
+  "why": "Masih dapat rasa bergas dan segar tanpa 35 g gula."
+ },
+ "faq": [
+  {
+   "q": "Minuman bergas zero okay ke untuk diet?",
+   "a": "Ia hampir tiada kalori, jadi boleh bantu kurangkan gula. Tapi air kosong tetap pilihan utama untuk minum harian."
+  },
+  {
+   "q": "Kenapa lepas minum air bergas rasa kembung?",
+   "a": "Gas karbon dioksida dalam minuman boleh buat perut rasa penuh dan kembung buat sementara."
+  },
+  {
+   "q": "Minuman bergas ada kafein ke?",
+   "a": "Sesetengah jenis kola ada kafein. Minuman bergas perisa buah biasanya tiada, tapi semak label."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

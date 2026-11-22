@@ -1,0 +1,66 @@
+{
+ "slug": "betik",
+ "intro": "Satu mangkuk kecil betik (anggaran 150 g) ada lebih kurang 60 kcal. Hampir semua kalorinya datang daripada gula semula jadi buah, jadi ia ringan dan mengenyangkan.",
+ "protein_g": 1,
+ "carbs_g": 15,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi (karbohidrat) dalam isi betik",
+   "kcal": 52
+  },
+  {
+   "part": "Serat dan karbohidrat lain",
+   "kcal": 4
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Betik + serbuk asam boi (1 sudu teh)",
+   "kcal": 75
+  },
+  {
+   "name": "Rojak buah dengan betik dan kuah kacang",
+   "kcal": 250
+  },
+  {
+   "name": "Jus betik segar dengan gula (1 gelas)",
+   "kcal": 150
+  },
+  {
+   "name": "Betik 1 piring besar (~300 g)",
+   "kcal": 120
+  }
+ ],
+ "diet": "Boleh, malah betik antara buah paling mesra diet. Kalorinya rendah tapi isinya banyak, jadi perut rasa penuh. Seratnya juga bantu pencernaan. Cuma hati-hati dengan tambahan macam kuah rojak atau jus bergula, sebab itu yang naikkan kalori.",
+ "tips": [
+  "Makan betik sebagai pencuci mulut selepas makan tengah hari, ganti kuih atau air manis.",
+  "Beli betik potong di pasar atau kedai buah, simpan dalam bekas untuk snek pejabat.",
+  "Gandingkan dengan yogurt tanpa gula atau sebiji telur rebus kalau nak tambah protein."
+ ],
+ "swap": {
+  "name": "Betik segar, bukan jus betik bergula",
+  "kcal": 60,
+  "why": "Buah segar kekalkan serat dan tiada gula tambahan, jadi lebih kenyang dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Betul ke betik bagus untuk sembelit?",
+   "a": "Betik ada serat dan enzim semula jadi yang ramai rasa bantu pencernaan. Makan bersama air kosong yang cukup untuk kesan lebih baik."
+  },
+  {
+   "q": "Boleh makan betik waktu malam?",
+   "a": "Boleh. Ia ringan dan rendah kalori, sesuai jadi snek malam berbanding makanan bergoreng."
+  },
+  {
+   "q": "Ibu mengandung boleh makan betik?",
+   "a": "Betik masak biasanya dimakan ramai ibu. Betik muda atau mentah lebih baik ditanya dulu kepada doktor anda."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

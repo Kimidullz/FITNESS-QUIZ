@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-putih",
+ "intro": "Secawan nasi putih ada anggaran 200 kcal. Hampir semua kalorinya datang daripada karbohidrat (kanji).",
+ "protein_g": 4,
+ "carbs_g": 44,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Karbohidrat (kanji) ~44 g",
+   "kcal": 176
+  },
+  {
+   "part": "Protein ~4 g",
+   "kcal": 16
+  },
+  {
+   "part": "Lemak (sangat sedikit)",
+   "kcal": 8
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi putih separuh cawan",
+   "kcal": 100
+  },
+  {
+   "name": "Nasi putih 1.5 cawan (senduk penuh kedai)",
+   "kcal": 300
+  },
+  {
+   "name": "Nasi perang 1 cawan",
+   "kcal": 215
+  },
+  {
+   "name": "Nasi minyak 1 cawan",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, anda tak perlu buang nasi untuk turun berat. Nasi sendiri tak gemuk, yang penting berapa banyak. Kat kedai, senduk biasa boleh jadi 1.5 hingga 2 cawan. Ambil secawan, tambah lauk protein dan sayur, dan anda masih boleh makan nasi setiap hari.",
+ "tips": [
+  "Minta 'nasi separuh' atau 'nasi sikit' di kedai nasi campur.",
+  "Penuhkan separuh pinggan dengan sayur, suku dengan lauk protein.",
+  "Kurangkan kuah gulai yang disiram atas nasi, itu yang tambah kalori."
+ ],
+ "swap": {
+  "name": "Nasi putih separuh cawan + sayur lebih",
+  "kcal": 130,
+  "why": "Pinggan tetap penuh dan kenyang, tapi kalori nasi berkurang separuh."
+ },
+ "faq": [
+  {
+   "q": "Nasi perang lebih bagus untuk diet?",
+   "a": "Kalori hampir sama, tapi nasi perang ada lebih serat. Ramai rasa lebih kenyang. Pilih yang anda suka dan boleh konsisten."
+  },
+  {
+   "q": "Makan nasi waktu malam buat gemuk?",
+   "a": "Tidak. Yang penting jumlah kalori sehari, bukan jam berapa makan nasi."
+  },
+  {
+   "q": "Nasi sejuk semalam lebih rendah kalori?",
+   "a": "Nasi yang disejukkan ada sedikit kanji rintang, tapi beza kalorinya kecil. Porsi tetap lebih penting."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

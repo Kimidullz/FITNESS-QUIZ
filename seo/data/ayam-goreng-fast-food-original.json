@@ -1,0 +1,66 @@
+{
+ "slug": "ayam-goreng-fast-food-original",
+ "intro": "Satu ketul ayam goreng fast food original ada anggaran 320 kcal. Kebanyakan kalori datang daripada kulit bersalut tepung dan minyak gorengan.",
+ "protein_g": 25,
+ "carbs_g": 10,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Daging ayam",
+   "kcal": 150
+  },
+  {
+   "part": "Kulit & salutan tepung",
+   "kcal": 120
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Drumstick (peha bawah)",
+   "kcal": 180
+  },
+  {
+   "name": "Thigh (peha atas)",
+   "kcal": 290
+  },
+  {
+   "name": "Breast (dada)",
+   "kcal": 380
+  },
+  {
+   "name": "Hot & spicy (seketul)",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, ayam goreng ada protein yang tinggi. Cuma kalori naik cepat bila makan 3-4 ketul dengan nasi, kentang dan air manis. Satu atau dua ketul dengan coleslaw atau sayur masih okay. Kulit ialah bahagian paling tinggi lemak.",
+ "tips": [
+  "Pilih drumstick kalau nak kalori lebih rendah.",
+  "Buang separuh kulit kalau nak jimat lemak.",
+  "Padankan dengan coleslaw saiz kecil atau jagung, bukan kentang goreng besar."
+ ],
+ "swap": {
+  "name": "Ayam goreng original, buang kulit",
+  "kcal": 200,
+  "why": "Protein masih ada, tapi lemak dari tepung dan minyak berkurang banyak."
+ },
+ "faq": [
+  {
+   "q": "Bahagian ayam mana paling banyak protein?",
+   "a": "Bahagian dada (breast) paling banyak protein dan paling besar saiznya."
+  },
+  {
+   "q": "Original dan hot & spicy, apa beza?",
+   "a": "Hot & spicy ada salutan lebih tebal dan pedas. Original lebih nipis dan berperisa rempah."
+  },
+  {
+   "q": "Boleh panaskan semula ayam goreng?",
+   "a": "Boleh guna air fryer atau oven supaya kulit kembali rangup. Microwave akan buat kulit lembik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

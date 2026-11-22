@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-dagang",
+ "intro": "Sepinggan nasi dagang ada anggaran 600 kcal. Kalori paling banyak datang dari nasi yang dimasak dengan santan dan kuah gulai.",
+ "protein_g": 22,
+ "carbs_g": 75,
+ "fat_g": 24,
+ "breakdown": [
+  {
+   "part": "Nasi dagang santan (lebih kurang 1.5 cawan)",
+   "kcal": 340
+  },
+  {
+   "part": "Gulai ikan tongkol 1 ketul",
+   "kcal": 200
+  },
+  {
+   "part": "Kuah gulai tambahan",
+   "kcal": 30
+  },
+  {
+   "part": "Acar timun",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi dagang gulai ayam",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi dagang tambah telur rebus",
+   "kcal": 670
+  },
+  {
+   "name": "Nasi dagang separuh nasi",
+   "kcal": 430
+  }
+ ],
+ "diet": "Boleh, tapi nasi dagang termasuk sarapan yang padat kalori. Satu pinggan dah hampir sama dengan makan tengah hari biasa. Kalau makan pagi, pilih lunch yang lebih ringan. Ikan tongkol pula bagi protein yang bagus.",
+ "tips": [
+  "Minta nasi separuh atau kurang sikit.",
+  "Pilih gulai ikan, bukan ayam, dan kurangkan kuah.",
+  "Tambah acar timun lebih untuk rasa segar dan volume."
+ ],
+ "swap": {
+  "name": "Nasi dagang separuh nasi dengan ikan dan acar lebih",
+  "kcal": 450,
+  "why": "Masih dapat rasa nasi dagang, tapi jimat lebih kurang 150 kcal."
+ },
+ "faq": [
+  {
+   "q": "Nasi dagang ni makanan negeri mana?",
+   "a": "Nasi dagang terkenal di Terengganu dan Kelantan. Biasanya dimakan waktu sarapan."
+  },
+  {
+   "q": "Kenapa nasi dagang ada halba?",
+   "a": "Halba memberi aroma khas pada nasi. Beras pulut dan beras biasa dicampur supaya tekstur lebih lembut."
+  },
+  {
+   "q": "Apa beza nasi dagang Terengganu dan Kelantan?",
+   "a": "Versi Terengganu guna beras putih dicampur pulut, versi Kelantan selalunya guna beras merah. Lauk utama dua-dua biasanya gulai ikan tongkol."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "kuih-lapis",
+ "intro": "Sepotong kuih lapis ada anggaran 130 kcal. Kebanyakan kalori datang daripada tepung beras, tepung ubi, gula dan santan.",
+ "protein_g": 1,
+ "carbs_g": 22,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Tepung beras & tepung ubi",
+   "kcal": 70
+  },
+  {
+   "part": "Santan",
+   "kcal": 40
+  },
+  {
+   "part": "Gula",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuih lapis potong kecil (pasar malam)",
+   "kcal": 90
+  },
+  {
+   "name": "Kuih lapis potong besar",
+   "kcal": 180
+  },
+  {
+   "name": "Kek lapis Sarawak 1 hiris",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, kalau satu potong dan bukan setiap hari. 130 kcal masih kecil untuk snek petang. Cuma protein hampir tiada, jadi cepat lapar semula. Elok makan bersama sesuatu yang ada protein.",
+ "tips": [
+  "Ambil satu potong sahaja, jangan beli satu bekas penuh untuk diri sendiri.",
+  "Pasangkan dengan telur rebus atau segelas susu tanpa gula supaya lebih kenyang.",
+  "Minum teh o kosong atau kopi o kosong, bukan teh tarik."
+ ],
+ "swap": {
+  "name": "Seketul pisang + 1 telur rebus",
+  "kcal": 170,
+  "why": "Lebih kurang sama kalori tapi ada protein dan serat, jadi kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Kuih lapis diperbuat daripada apa?",
+   "a": "Biasanya tepung beras, tepung ubi atau tepung sagu, santan, gula dan pewarna. Lapisan dikukus satu demi satu."
+  },
+  {
+   "q": "Kuih lapis tahan berapa lama?",
+   "a": "Pada suhu bilik biasanya sehari. Dalam peti sejuk boleh 2-3 hari, tapi tekstur jadi keras sedikit."
+  },
+  {
+   "q": "Kenapa kuih lapis jadi keras?",
+   "a": "Biasanya sebab disimpan dalam peti sejuk. Kukus semula sekejap untuk lembutkan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-lemak-kukus-ayam",
+ "intro": "Satu pinggan nasi lemak kukus ayam ada anggaran 700 kcal. Kebanyakan kalori datang dari nasi santan yang banyak dan ayam goreng, diikuti sambal yang berminyak.",
+ "protein_g": 30,
+ "carbs_g": 75,
+ "fat_g": 31,
+ "breakdown": [
+  {
+   "part": "Nasi lemak kukus 1 pinggan (lebih kurang 1.5 cawan)",
+   "kcal": 330
+  },
+  {
+   "part": "Ayam goreng 1 ketul",
+   "kcal": 260
+  },
+  {
+   "part": "Sambal 2 sudu",
+   "kcal": 100
+  },
+  {
+   "part": "Timun dan hiasan",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak kukus ayam + telur goreng",
+   "kcal": 790
+  },
+  {
+   "name": "Nasi lemak kukus daging",
+   "kcal": 750
+  },
+  {
+   "name": "Siram kuah kari banjir",
+   "kcal": 780
+  },
+  {
+   "name": "Nasi lemak kukus biasa (tanpa lauk)",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia satu hidangan besar, bukan makan ringan. Satu pinggan dah ambil lebih kurang separuh kalori harian ramai orang yang nak turun berat. Kalau makan tengah hari, buat sarapan dan makan malam yang lebih ringan dan tinggi protein. Sekali dua seminggu memang okay, yang penting saiz nasi dan kuah tambahan.",
+ "tips": [
+  "Minta nasi separuh atau kongsi nasi dengan pasangan, ayam tetap makan penuh.",
+  "Sambal ambil sikit di tepi, jangan minta kuah kari banjir.",
+  "Tambah timun lebih dan minum air kosong atau teh o kosong."
+ ],
+ "swap": {
+  "name": "Nasi lemak kukus separuh nasi + ayam goreng buang kulit",
+  "kcal": 530,
+  "why": "Kurang nasi santan dan kulit berminyak, tapi protein ayam masih ada. Rasa nasi lemak tetap dapat."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi lemak kukus dengan nasi lemak biasa?",
+   "a": "Nasi lemak kukus dimasak dengan cara dikukus, jadi bijinya lebih gebu dan tak melekat. Biasanya dihidang dengan ayam goreng atau daging dan kuah kari, dan saiz nasinya lebih besar."
+  },
+  {
+   "q": "Kenapa nasi lemak kukus selalu disiram kuah kari?",
+   "a": "Itu gaya biasa kedai nasi kukus supaya nasi lebih lembap dan sedap. Kalau nak lebih ringan, minta kuah sikit atau letak di mangkuk asing."
+  },
+  {
+   "q": "Bila waktu terbaik makan nasi lemak kukus?",
+   "a": "Ramai makan waktu sarapan atau tengah hari. Lebih senang kawal jumlah kalori kalau makan siang dan makan malam lebih ringan selepas itu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

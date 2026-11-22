@@ -1,0 +1,66 @@
+{
+ "slug": "pasembur",
+ "intro": "Sepinggan pasembur ada anggaran 500 kcal. Kalori paling banyak datang dari kuah kacang manis dan cucur atau keropok goreng.",
+ "protein_g": 18,
+ "carbs_g": 60,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Kuah kacang manis",
+   "kcal": 180
+  },
+  {
+   "part": "Cucur udang dan keropok goreng",
+   "kcal": 150
+  },
+  {
+   "part": "Tauhu goreng dan telur rebus",
+   "kcal": 120
+  },
+  {
+   "part": "Sayur dan sotong rebus",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pasembur dengan kuah separuh",
+   "kcal": 400
+  },
+  {
+   "name": "Pasembur tambah sotong rebus",
+   "kcal": 550
+  },
+  {
+   "name": "Pasembur tambah cucur atau ketam goreng",
+   "kcal": 650
+  }
+ ],
+ "diet": "Boleh, pasembur ada sayur, telur dan tauhu yang bagus. Yang perlu dijaga ialah kuah kacang dan bahan goreng. Kalau anda kawal dua benda ini, pasembur boleh jadi hidangan yang mengenyangkan. Sesuai untuk makan tengah hari atau malam.",
+ "tips": [
+  "Minta kuah di tepi dan celup sedikit demi sedikit.",
+  "Pilih lebih telur rebus, tauhu dan sotong rebus, kurangkan cucur.",
+  "Tambah timun dan sengkuang lebih untuk rasa rangup dan kenyang."
+ ],
+ "swap": {
+  "name": "Rojak buah dengan kuah sikit",
+  "kcal": 250,
+  "why": "Masih rasa manis pedas, tapi tiada bahan goreng dan lebih banyak buah."
+ },
+ "faq": [
+  {
+   "q": "Apa beza pasembur dengan rojak mamak?",
+   "a": "Kedua-duanya hampir sama. Di Pulau Pinang ia dipanggil pasembur, di tempat lain ramai panggil rojak mamak."
+  },
+  {
+   "q": "Apa isi dalam pasembur?",
+   "a": "Biasanya timun, sengkuang, taugeh, telur rebus, tauhu goreng, cucur udang, keropok dan kentang. Ada juga sotong dan ketam ikut pilihan."
+  },
+  {
+   "q": "Kuah pasembur dibuat dari apa?",
+   "a": "Kuah dibuat dari kacang tanah, ubi keledek, cili, gula dan rempah. Sebab itu rasanya manis, pedas dan pekat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

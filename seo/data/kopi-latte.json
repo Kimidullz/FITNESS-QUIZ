@@ -1,0 +1,66 @@
+{
+ "slug": "kopi-latte",
+ "intro": "Secawan kopi latte 350 ml ada anggaran 190 kcal. Kebanyakan kalori datang dari susu segar penuh krim, bukan dari kopi.",
+ "protein_g": 10,
+ "carbs_g": 15,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Susu segar penuh krim (~260 ml)",
+   "kcal": 170
+  },
+  {
+   "part": "Espresso 2 shot",
+   "kcal": 5
+  },
+  {
+   "part": "Gula 1 paket",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Latte susu rendah lemak, tanpa gula",
+   "kcal": 110
+  },
+  {
+   "name": "Latte susu oat",
+   "kcal": 180
+  },
+  {
+   "name": "Latte berperisa (karamel/vanila sirap)",
+   "kcal": 260
+  },
+  {
+   "name": "Americano tanpa gula",
+   "kcal": 10
+  }
+ ],
+ "diet": "Boleh, latte sebenarnya pilihan kopi yang agak okay. Susu bagi sedikit protein dan rasa kenyang. Yang naikkan kalori ialah sirap perisa, whipped cream dan saiz besar. Pilih saiz biasa dan elak sirap, latte masih senang muat dalam diet.",
+ "tips": [
+  "Minta susu rendah lemak atau 'skim' kalau ada.",
+  "Skip sirap perisa, atau minta separuh pump sahaja.",
+  "Pilih saiz kecil atau sederhana, bukan venti/besar."
+ ],
+ "swap": {
+  "name": "Latte susu rendah lemak, tanpa gula",
+  "kcal": 110,
+  "why": "Rasa latte masih sama, protein hampir sama, tapi lemak dan kalori turun banyak."
+ },
+ "faq": [
+  {
+   "q": "Beza latte dengan cappuccino?",
+   "a": "Latte lebih banyak susu dan sedikit buih. Cappuccino kurang susu dan lebih banyak buih, jadi kalorinya biasanya lebih rendah."
+  },
+  {
+   "q": "Latte ada berapa banyak kafein?",
+   "a": "Bergantung bilangan shot espresso. Kebanyakan kafe guna 1-2 shot untuk saiz biasa."
+  },
+  {
+   "q": "Susu oat lebih sihat dari susu biasa?",
+   "a": "Tak semestinya. Susu oat kalorinya hampir sama, protein lebih rendah. Pilih ikut selera dan keperluan, contohnya kalau tak tahan laktosa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

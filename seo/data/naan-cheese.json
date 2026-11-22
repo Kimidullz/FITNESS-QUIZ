@@ -1,0 +1,66 @@
+{
+ "slug": "naan-cheese",
+ "intro": "Satu keping naan cheese ada anggaran 450 kcal. Kebanyakan kalori datang dari doh naan dan keju di dalamnya, ditambah sapuan butter atau ghee.",
+ "protein_g": 15,
+ "carbs_g": 50,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Doh naan (1 keping)",
+   "kcal": 260
+  },
+  {
+   "part": "Keju di dalam",
+   "kcal": 130
+  },
+  {
+   "part": "Sapuan butter atau ghee",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Naan kosong",
+   "kcal": 280
+  },
+  {
+   "name": "Naan garlic",
+   "kcal": 320
+  },
+  {
+   "name": "Naan cheese garlic",
+   "kcal": 500
+  },
+  {
+   "name": "Naan cheese dengan kuah dal",
+   "kcal": 520
+  }
+ ],
+ "diet": "Boleh, tapi jadikan ia hidangan sesekali. Naan cheese padat kalori dan protein agak rendah berbanding saiznya. Kalau nak makan, kongsi dan padankan dengan ayam tandoori atau tikka. Cara ini anda dapat rasa keju tanpa terlebih kalori.",
+ "tips": [
+  "Kongsi satu keping naan cheese, separuh seorang.",
+  "Minta tanpa sapuan butter di atas.",
+  "Makan bersama ayam tandoori untuk tambah protein dan kenyang lebih lama."
+ ],
+ "swap": {
+  "name": "Chapati dengan kuah dal",
+  "kcal": 230,
+  "why": "Chapati kurang minyak dan dal beri sedikit protein. Sesuai untuk hari biasa."
+ },
+ "faq": [
+  {
+   "q": "Keju apa yang digunakan dalam naan cheese?",
+   "a": "Kebanyakan kedai di Malaysia guna keju krim atau keju lapis yang mudah cair. Ada juga yang guna mozzarella."
+  },
+  {
+   "q": "Naan cheese dimakan dengan apa?",
+   "a": "Paling popular dengan ayam tandoori atau ayam butter. Ada juga yang makan begitu saja sebagai snek."
+  },
+  {
+   "q": "Boleh buat naan cheese di rumah?",
+   "a": "Boleh, guna doh roti beryis dan isi dengan keju. Masak dalam kuali leper bertutup atau oven sampai kembang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

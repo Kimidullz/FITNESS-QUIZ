@@ -1,0 +1,66 @@
+{
+ "slug": "rambutan",
+ "intro": "Sepuluh biji rambutan ada anggaran 120 kcal. Hampir semua kalorinya daripada gula semula jadi dalam isi buah.",
+ "protein_g": 1,
+ "carbs_g": 29,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Rambutan biji 1-5 (gula semula jadi)",
+   "kcal": 58
+  },
+  {
+   "part": "Rambutan biji 6-10 (gula semula jadi)",
+   "kcal": 58
+  },
+  {
+   "part": "Protein dan serat",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Rambutan 5 biji",
+   "kcal": 60
+  },
+  {
+   "name": "Rambutan 20 biji (selonggok musim buah)",
+   "kcal": 240
+  },
+  {
+   "name": "Rambutan dalam tin bersirap (1 mangkuk kecil)",
+   "kcal": 150
+  },
+  {
+   "name": "Rambutan isi nanas dalam tin",
+   "kcal": 170
+  }
+ ],
+ "diet": "Boleh. Rambutan memang sedap dan sederhana kalori kalau dikira biji. Cabarannya musim buah, bila selonggok atas meja dan kita makan sambil berbual. Ambil 10 biji dalam pinggan, kemudian berhenti.",
+ "tips": [
+  "Kira 10 biji dan letak dalam mangkuk sendiri, jangan makan dari tangkai.",
+  "Jadikan rambutan pencuci mulut ganti kuih atau air manis.",
+  "Makan bersama segenggam kecil kacang atau telur rebus kalau nak lebih kenyang."
+ ],
+ "swap": {
+  "name": "Rambutan segar ganti rambutan dalam tin",
+  "kcal": 120,
+  "why": "Versi tin biasanya direndam dalam sirap gula, jadi kalori lebih tinggi untuk jumlah buah yang sama."
+ },
+ "faq": [
+  {
+   "q": "Rambutan panas badan ke?",
+   "a": "Ramai percaya begitu, tapi tiada bukti kukuh. Kalau rasa tak selesa, kurangkan bilangan dan minum air yang cukup."
+  },
+  {
+   "q": "Boleh makan biji rambutan?",
+   "a": "Biji rambutan mentah tidak disyorkan untuk dimakan. Makan isi sahaja."
+  },
+  {
+   "q": "Bila musim rambutan di Malaysia?",
+   "a": "Biasanya sekitar pertengahan tahun, lebih kurang Jun hingga Ogos, dan ada kalanya hujung tahun bergantung pada kawasan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

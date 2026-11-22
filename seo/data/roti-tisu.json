@@ -1,0 +1,62 @@
+{
+ "slug": "roti-tisu",
+ "intro": "Satu keping roti tisu ada anggaran 500 kcal. Kebanyakan kalori datang dari minyak atau marjerin yang disapu masa memasak, serta gula dan susu pekat di atasnya.",
+ "protein_g": 8,
+ "carbs_g": 60,
+ "fat_g": 26,
+ "breakdown": [
+  {
+   "part": "Doh roti (1 keping besar, nipis)",
+   "kcal": 250
+  },
+  {
+   "part": "Minyak, marjerin atau ghee",
+   "kcal": 150
+  },
+  {
+   "part": "Gula pasir dan susu pekat",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti tisu kosong tanpa gula",
+   "kcal": 400
+  },
+  {
+   "name": "Roti tisu dengan kuah dal",
+   "kcal": 550
+  },
+  {
+   "name": "Roti tisu dengan susu pekat lebih",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, tapi anggap roti tisu sebagai pencuci mulut, bukan makanan utama. Ia tinggi gula dan minyak, tapi sangat rendah protein, jadi cepat lapar semula. Kalau nak makan, kongsi dengan kawan atau keluarga. Pastikan hidangan lain pada hari itu lebih ringan dan cukup protein.",
+ "tips": [
+  "Kongsi satu keping dengan 2-3 orang, ambil sedikit untuk rasa saja.",
+  "Minta kurang gula atau tanpa susu pekat di atas.",
+  "Makan selepas hidangan berprotein seperti telur atau ayam tandoori, bukan sebagai sarapan seorang diri."
+ ],
+ "swap": {
+  "name": "Tosai kosong dengan sambar",
+  "kcal": 220,
+  "why": "Masih rangup dan ringan, tapi kurang minyak dan gula. Sambar pula beri sedikit protein dan sayur."
+ },
+ "faq": [
+  {
+   "q": "Apa beza roti tisu dengan roti canai?",
+   "a": "Doh roti tisu ditebar sangat nipis dan besar, kemudian dimasak sampai rangup. Biasanya ia dimakan manis dengan gula dan susu pekat, manakala roti canai lebih tebal dan dimakan dengan kuah."
+  },
+  {
+   "q": "Kenapa roti tisu dibentuk tinggi macam kon?",
+   "a": "Itu cara persembahan klasik di kedai mamak supaya nampak menarik. Bentuk kon juga senang dipecah dan dikongsi ramai-ramai."
+  },
+  {
+   "q": "Roti tisu sesuai dimakan bila?",
+   "a": "Ramai makan masa minum petang atau lepak malam di mamak sebagai snek manis. Sesuai dikongsi, bukan untuk ganti makanan utama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

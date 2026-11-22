@@ -1,0 +1,70 @@
+{
+ "slug": "shawarma-ayam",
+ "intro": "Satu gulung shawarma ayam ada anggaran 550 kcal. Kalori datang dari roti pita atau tortilla, ayam berperap dan sos bawang putih atau mayonis.",
+ "protein_g": 30,
+ "carbs_g": 55,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Roti pita / tortilla (1 keping besar)",
+   "kcal": 200
+  },
+  {
+   "part": "Ayam shawarma berperap (anggaran 100 g)",
+   "kcal": 200
+  },
+  {
+   "part": "Sos bawang putih / mayonis",
+   "kcal": 130
+  },
+  {
+   "part": "Sayur dan jeruk",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kurang sos, lebih sayur",
+   "kcal": 450
+  },
+  {
+   "name": "Tambah kentang goreng dalam gulung",
+   "kcal": 650
+  },
+  {
+   "name": "Saiz besar / jumbo",
+   "kcal": 750
+  },
+  {
+   "name": "Shawarma pinggan dengan nasi",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, shawarma ayam boleh masuk dalam plan turun berat. Proteinnya agak tinggi dan ada sayur. Yang buat kalori melambung ialah sos dan tambahan kentang goreng dalam gulung. Pilih saiz biasa dan minta sos sikit, dan ia jadi satu hidangan yang okay.",
+ "tips": [
+  "Minta sos sikit saja atau sos diasingkan.",
+  "Elak tambah kentang goreng dalam gulung, minta lebih sayur.",
+  "Minum air kosong atau teh tanpa gula, bukan air bergas."
+ ],
+ "swap": {
+  "name": "Ayam shawarma pinggan tanpa nasi, dengan salad dan sos asing",
+  "kcal": 400,
+  "why": "Kekal protein yang sama, tapi tiada roti dan sos boleh dikawal sendiri."
+ },
+ "faq": [
+  {
+   "q": "Apa beza shawarma dengan kebab?",
+   "a": "Shawarma ialah daging yang dipanggang berlapis pada pemanggang menegak, kemudian dihiris. Kebab ialah istilah lebih luas untuk daging panggang, termasuk yang dicucuk. Di Malaysia, dua nama ni selalu bertukar-tukar."
+  },
+  {
+   "q": "Sos putih dalam shawarma tu apa?",
+   "a": "Biasanya sos bawang putih (toum) atau campuran mayonis dengan bawang putih. Ia sedap tapi tinggi minyak."
+  },
+  {
+   "q": "Shawarma daging atau ayam, mana lebih ringan?",
+   "a": "Biasanya ayam lebih ringan sebab daging lembu atau kambing selalunya lebih berlemak. Tapi sos dan saiz lebih banyak beri kesan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

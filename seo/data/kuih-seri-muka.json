@@ -1,0 +1,66 @@
+{
+ "slug": "kuih-seri-muka",
+ "intro": "Sepotong kuih seri muka ada anggaran 150 kcal. Kebanyakan kalori datang dari pulut, santan dan gula dalam lapisan kastard pandan.",
+ "protein_g": 2,
+ "carbs_g": 24,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Lapisan pulut (beras pulut + santan)",
+   "kcal": 70
+  },
+  {
+   "part": "Lapisan kastard pandan (gula, santan, telur)",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak sapuan loyang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Potongan kecil (kuih kenduri)",
+   "kcal": 100
+  },
+  {
+   "name": "Potongan besar (gerai pasar)",
+   "kcal": 200
+  },
+  {
+   "name": "Seri muka durian",
+   "kcal": 180
+  },
+  {
+   "name": "2 potong biasa",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh. Satu potong seri muka dengan secawan kopi O masih okay sebagai snek petang. Ia padat dengan karbohidrat dan santan, jadi senang terlebih kalau ambil dua tiga potong. Kuncinya, ambil satu, makan perlahan-lahan dan nikmati.",
+ "tips": [
+  "Ambil satu potong sahaja dan letak dalam piring, jangan makan terus dari bekas.",
+  "Pasangkan dengan teh O atau kopi O kosong, bukan minuman manis.",
+  "Kalau makan kuih waktu petang, kurangkan sedikit nasi masa makan malam."
+ ],
+ "swap": {
+  "name": "Kuih seri muka 1 potong kecil + teh O kosong",
+  "kcal": 100,
+  "why": "Masih dapat rasa kuih kegemaran, tapi saiz lebih kecil dan minuman tanpa gula."
+ },
+ "faq": [
+  {
+   "q": "Kenapa dipanggil seri muka?",
+   "a": "Dikatakan nama itu merujuk kepada lapisan atas yang licin dan berkilat, macam muka yang berseri."
+  },
+  {
+   "q": "Warna hijau seri muka dari mana?",
+   "a": "Warna hijau asli datang dari jus daun pandan. Sesetengah penjual tambah pewarna supaya lebih terang."
+  },
+  {
+   "q": "Seri muka tahan berapa lama?",
+   "a": "Sebab ada santan dan telur, elok habiskan dalam hari yang sama. Kalau simpan dalam peti sejuk, makan dalam 1-2 hari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

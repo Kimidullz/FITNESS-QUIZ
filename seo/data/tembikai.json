@@ -1,0 +1,66 @@
+{
+ "slug": "tembikai",
+ "intro": "Satu potong tembikai ada anggaran 50 kcal. Kalorinya datang daripada gula semula jadi, dan lebih 90% tembikai sebenarnya air.",
+ "protein_g": 1,
+ "carbs_g": 12,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi",
+   "kcal": 42
+  },
+  {
+   "part": "Serat dan karbohidrat lain",
+   "kcal": 4
+  },
+  {
+   "part": "Protein dan lain-lain",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tembikai kuning (1 potong)",
+   "kcal": 50
+  },
+  {
+   "name": "Potong besar",
+   "kcal": 85
+  },
+  {
+   "name": "Tembikai potong dadu (1 pinggan)",
+   "kcal": 90
+  },
+  {
+   "name": "Jus tembikai bergula (1 gelas)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, tembikai memang sesuai masa nak turun berat. Banyak air, kalori rendah dan menyegarkan, terutamanya cuaca panas Malaysia. Cuma ia tak tinggi protein atau serat, jadi tak kenyang lama sangat. Pilih buah potong berbanding jus bergula.",
+ "tips": [
+  "Pilih tembikai potong berbanding jus tembikai di gerai, sebab jus selalunya tambah gula.",
+  "Jadikan pencuci mulut selepas makan tengah hari ganti air manis.",
+  "Simpan tembikai potong dalam peti sejuk sebagai snek segar bila craving manis."
+ ],
+ "swap": {
+  "name": "Betik 1 potong",
+  "kcal": 55,
+  "why": "Kalori lebih kurang sama, tapi serat lebih tinggi, jadi kenyang sedikit lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Biji tembikai boleh dimakan?",
+   "a": "Boleh. Biji hitam boleh ditelan atau dibuang ikut selera. Ada juga yang makan kuaci tembikai yang dah dikeringkan."
+  },
+  {
+   "q": "Macam mana nak pilih tembikai yang manis?",
+   "a": "Pilih yang terasa berat untuk saiznya, ada tompok kuning di bahagian bawah dan berbunyi bergema bila diketuk."
+  },
+  {
+   "q": "Tembikai merah dan kuning, ada beza?",
+   "a": "Rasa dan warna saja yang berbeza. Tembikai merah ada likopen, pigmen yang beri warna merah. Kalori lebih kurang sama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

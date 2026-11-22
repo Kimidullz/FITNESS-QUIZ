@@ -1,0 +1,66 @@
+{
+ "slug": "teh-tarik",
+ "intro": "Segelas teh tarik mamak ada anggaran 120 kcal. Kebanyakan kalori datang dari susu pekat manis, bukan dari teh itu sendiri.",
+ "protein_g": 3,
+ "carbs_g": 18,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis (~1.5 sudu besar)",
+   "kcal": 90
+  },
+  {
+   "part": "Susu cair (sedikit)",
+   "kcal": 25
+  },
+  {
+   "part": "Teh pekat",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh tarik kurang manis",
+   "kcal": 80
+  },
+  {
+   "name": "Teh tarik ais (gelas besar)",
+   "kcal": 150
+  },
+  {
+   "name": "Teh tarik kaw (extra susu)",
+   "kcal": 160
+  },
+  {
+   "name": "Teh C (susu cair + gula)",
+   "kcal": 100
+  }
+ ],
+ "diet": "Boleh, teh tarik masih boleh masuk dalam plan turun berat. Satu gelas sehari tak jadi masalah besar kalau jumlah kalori harian terkawal. Yang selalu tak perasan ialah bila minum 2-3 gelas sehari, ia boleh tambah 300 kcal lebih tanpa rasa kenyang. Jadi kawal kekerapan, bukan haramkan terus.",
+ "tips": [
+  "Order 'teh tarik kurang manis', terus jimat anggaran 40 kcal.",
+  "Pilih gelas kecil atau cawan panas, bukan gelas besar ais.",
+  "Kalau dah minum teh tarik waktu pagi, pilih air kosong atau teh O kosong untuk minuman seterusnya."
+ ],
+ "swap": {
+  "name": "Teh C kosong (susu cair, tanpa gula)",
+  "kcal": 45,
+  "why": "Masih ada rasa berlemak susu, tapi tanpa gula dan susu pekat manis."
+ },
+ "faq": [
+  {
+   "q": "Apa beza teh tarik dengan teh susu biasa?",
+   "a": "Teh tarik 'ditarik' dari satu bekas ke bekas lain sampai berbuih. Bahan asasnya sama: teh pekat dan susu pekat manis."
+  },
+  {
+   "q": "Teh tarik ada kafein banyak tak?",
+   "a": "Ada, lebih kurang sama atau sedikit kurang dari secawan kopi. Kalau sensitif kafein, elak minum lewat petang."
+  },
+  {
+   "q": "Boleh minta teh tarik guna susu cair saja?",
+   "a": "Boleh, kebanyakan mamak faham kalau minta 'teh C'. Rasa kurang manis tapi tetap berkrim."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

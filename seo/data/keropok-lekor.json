@@ -1,0 +1,66 @@
+{
+ "slug": "keropok-lekor",
+ "intro": "Lima batang keropok lekor ada anggaran 250 kcal. Kebanyakan kalori datang daripada tepung sagu dan minyak goreng, bukan ikan.",
+ "protein_g": 9,
+ "carbs_g": 30,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Tepung sagu",
+   "kcal": 110
+  },
+  {
+   "part": "Ikan",
+   "kcal": 50
+  },
+  {
+   "part": "Minyak goreng",
+   "kcal": 70
+  },
+  {
+   "part": "Sos cili",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Keropok lekor rebus (5 batang)",
+   "kcal": 180
+  },
+  {
+   "name": "Keropok lekor 10 batang",
+   "kcal": 500
+  },
+  {
+   "name": "Keropok keping goreng (1 genggam)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh. Keropok lekor ada sedikit protein dari ikan, lebih baik daripada banyak snek goreng lain. Cuma 5 batang dah cukup, sebab satu bungkus penuh senang cecah 500 kcal. Kalau ada pilihan rebus, itu lagi ringan.",
+ "tips": [
+  "Pilih keropok lekor rebus atau yang dibakar kalau ada.",
+  "Ambil 5 batang dan kongsi selebihnya.",
+  "Guna sos cili sikit sahaja, elak sos manis yang pekat."
+ ],
+ "swap": {
+  "name": "Keropok lekor rebus 5 batang",
+  "kcal": 180,
+  "why": "Rasa ikan yang sama tanpa minyak goreng, jimat sekitar 70 kcal."
+ },
+ "faq": [
+  {
+   "q": "Keropok lekor dibuat daripada ikan apa?",
+   "a": "Selalunya ikan tamban, ikan parang atau ikan selayang, dicampur dengan tepung sagu dan garam."
+  },
+  {
+   "q": "Keropok lekor asal dari mana?",
+   "a": "Paling terkenal dari Terengganu, terutamanya kawasan pantai seperti Kuala Terengganu dan Losong."
+  },
+  {
+   "q": "Macam mana nak goreng keropok lekor beku?",
+   "a": "Rebus sekejap atau cairkan dulu, kemudian potong serong dan goreng dalam minyak sederhana panas."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

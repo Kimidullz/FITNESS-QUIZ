@@ -1,0 +1,68 @@
+{
+ "slug": "air-kelapa",
+ "intro": "Segelas air kelapa (anggaran 250 ml) ada lebih kurang 60 kcal. Hampir semua kalorinya datang dari gula semula jadi dalam air kelapa itu sendiri, dengan sedikit tambahan dari isi kelapa muda.",
+ "protein_g": 1,
+ "carbs_g": 14,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Air kelapa tulen (anggaran 200 ml)",
+   "kcal": 45
+  },
+  {
+   "part": "Isi kelapa muda sedikit (2-3 sudu)",
+   "kcal": 15
+  },
+  {
+   "part": "Ais",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air kelapa terus dari buah (1 biji, anggaran 350 ml)",
+   "kcal": 70
+  },
+  {
+   "name": "Air kelapa dengan isi penuh",
+   "kcal": 120
+  },
+  {
+   "name": "Air kelapa tambah sirap atau gula",
+   "kcal": 130
+  },
+  {
+   "name": "Kelapa shake (dengan aiskrim atau susu)",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, air kelapa memang antara minuman yang ringan kalori. Segelas biasa cuma anggaran 60 kcal, jauh lebih rendah dari teh tarik atau air sirap. Tapi ia tetap ada gula semula jadi, jadi jangan minum macam air kosong sepanjang hari. Pilih yang tulen, tanpa sirap atau gula tambahan, dan satu gelas sehari pun dah cukup.",
+ "tips": [
+  "Masa order di warung, minta air kelapa tanpa gula atau sirap. Ada kedai yang tambah gula untuk bagi lebih manis.",
+  "Pilih gelas kecil atau kongsi satu biji kelapa dengan pasangan kalau makan tengah hari di luar.",
+  "Kurangkan isi kelapa kalau nak jimat kalori, dan jangan pilih kelapa shake bila tengah nak turun berat."
+ ],
+ "swap": {
+  "name": "Air kosong ais dengan hirisan limau nipis",
+  "kcal": 2,
+  "why": "Masih segar dan rasa ada 'kick', tapi hampir tiada kalori. Sesuai kalau dah minum air kelapa awal hari dan nak hilangkan dahaga lagi."
+ },
+ "faq": [
+  {
+   "q": "Air kelapa bagus ke diminum lepas bersenam?",
+   "a": "Air kelapa ada kalium dan sedikit karbohidrat, jadi ramai suka minum lepas bersenam. Untuk senaman biasa sejam ke bawah, air kosong pun dah cukup. Air kelapa boleh jadi pilihan kalau nak rasa lebih segar."
+  },
+  {
+   "q": "Boleh minum air kelapa setiap hari?",
+   "a": "Boleh untuk kebanyakan orang dewasa sihat, dalam kuantiti sederhana macam segelas sehari. Kalau ada masalah buah pinggang atau kena hadkan kalium, tanya doktor dulu."
+  },
+  {
+   "q": "Air kelapa sesuai untuk orang yang ada kencing manis?",
+   "a": "Air kelapa tetap ada gula semula jadi, jadi ia boleh naikkan gula dalam darah. Kalau ada kencing manis, minum sikit sahaja, elakkan yang tambah gula, dan ikut nasihat doktor atau dietitian anda."
+  }
+ ],
+ "check": "",
+ "problems": [
+  "banned words: shake"
+ ]
+}

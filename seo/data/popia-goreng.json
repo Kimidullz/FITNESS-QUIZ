@@ -1,0 +1,66 @@
+{
+ "slug": "popia-goreng",
+ "intro": "Dua batang popia goreng ada anggaran 200 kcal. Kalori paling banyak datang daripada kulit popia dan minyak goreng.",
+ "protein_g": 4,
+ "carbs_g": 24,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Kulit popia",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 80
+  },
+  {
+   "part": "Inti sengkuang & sayur",
+   "kcal": 30
+  },
+  {
+   "part": "Sos cili",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Popia goreng mini (5 batang)",
+   "kcal": 250
+  },
+  {
+   "name": "Popia goreng inti ayam / daging",
+   "kcal": 240
+  },
+  {
+   "name": "Popia basah 1 batang",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, kalau kawal bilangan. Dua batang masih okay sebagai snek. Masalahnya popia mini senang dimakan berbelas-belas batang masa berbuka atau majlis. Kira dulu berapa batang sebelum mula makan.",
+ "tips": [
+  "Ambil 2 batang dan letak dalam pinggan, jangan makan terus dari bekas.",
+  "Pilih popia basah kalau ada, sebab tak digoreng.",
+  "Kalau buat di rumah, guna air fryer dan banyakkan sayur dalam inti."
+ ],
+ "swap": {
+  "name": "Popia basah 1 batang",
+  "kcal": 150,
+  "why": "Inti sayur sama tapi tak digoreng, jadi kurang minyak."
+ },
+ "faq": [
+  {
+   "q": "Apa inti popia goreng yang biasa?",
+   "a": "Sengkuang, lobak merah, taugeh dan kadang-kadang udang kering atau ayam cincang."
+  },
+  {
+   "q": "Macam mana nak elak popia goreng berminyak?",
+   "a": "Pastikan inti kering dan minyak panas. Toskan atas rak atau tisu dapur selepas goreng."
+  },
+  {
+   "q": "Boleh simpan popia goreng dalam freezer?",
+   "a": "Boleh simpan yang belum digoreng. Goreng terus dari beku tanpa perlu cairkan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

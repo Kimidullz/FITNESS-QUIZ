@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-briyani-ayam",
+ "intro": "Sepinggan nasi briyani ayam ialah anggaran 750 kcal. Kebanyakan kalori datang daripada nasi briyani yang dimasak dengan minyak sapi dan rempah, serta ayam masala berkuah pekat.",
+ "protein_g": 33,
+ "carbs_g": 90,
+ "fat_g": 29,
+ "breakdown": [
+  {
+   "part": "Nasi briyani 1.5 cawan",
+   "kcal": 420
+  },
+  {
+   "part": "Ayam masala 1 ketul",
+   "kcal": 230
+  },
+  {
+   "part": "Dalca dan acar",
+   "kcal": 60
+  },
+  {
+   "part": "Papadom 1 keping",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Briyani kambing",
+   "kcal": 850
+  },
+  {
+   "name": "Briyani gam ayam (Johor)",
+   "kcal": 800
+  },
+  {
+   "name": "Tambah telur rebus",
+   "kcal": 80
+  },
+  {
+   "name": "Briyani ayam nasi separuh",
+   "kcal": 550
+  }
+ ],
+ "diet": "Boleh, terutama untuk majlis atau hari istimewa. Nasi briyani memang tinggi kalori sebab minyak sapi dan santan atau susu dalam masakan. Kalau makan, jaga portion nasi dan jangan ulang tambah. Seimbangkan dengan makanan ringan dan banyak sayur pada waktu makan lain.",
+ "tips": [
+  "Minta nasi briyani separuh dan tambah acar timun atau salad.",
+  "Ambil ayam bahagian dada dan kurangkan kuah masala.",
+  "Langkau papadom atau kongsi dengan kawan."
+ ],
+ "swap": {
+  "name": "Nasi briyani separuh + ayam tandoori + salad",
+  "kcal": 550,
+  "why": "Ayam tandoori dibakar tanpa banyak minyak, jadi protein tinggi kekal tapi lemak dan kalori berkurang."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi briyani dengan nasi minyak?",
+   "a": "Nasi briyani biasanya guna lebih banyak rempah seperti kunyit, kayu manis dan bunga lawang, kadang dimasak berlapis dengan lauk. Nasi minyak lebih ringan rempahnya dan biasanya dimakan dengan lauk berasingan."
+  },
+  {
+   "q": "Briyani guna beras apa?",
+   "a": "Kebanyakan guna beras basmathi yang bijinya panjang dan tak melekit. Kenyangnya hampir sama dengan beras biasa."
+  },
+  {
+   "q": "Briyani gam tu apa?",
+   "a": "Briyani gam ialah versi Johor di mana nasi dan lauk dimasak bersama dalam periuk yang ditutup rapat. Rasanya lebih meresap dan biasanya dihidang di kenduri."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

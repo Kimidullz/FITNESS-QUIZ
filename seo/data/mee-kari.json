@@ -1,0 +1,66 @@
+{
+ "slug": "mee-kari",
+ "intro": "Semangkuk mee kari ada anggaran 650 kcal. Kebanyakan kalori datang daripada kuah kari santan dan mee kuning.",
+ "protein_g": 22,
+ "carbs_g": 65,
+ "fat_g": 34,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1.5 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah kari santan",
+   "kcal": 270
+  },
+  {
+   "part": "Ayam",
+   "kcal": 90
+  },
+  {
+   "part": "Tauhu pok dan kentang",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee kari ayam drumstick",
+   "kcal": 750
+  },
+  {
+   "name": "Mee kari, kuah separuh",
+   "kcal": 520
+  },
+  {
+   "name": "Mee hoon kari",
+   "kcal": 620
+  }
+ ],
+ "diet": "Boleh, cuma perlu kawal kuah. Santan dan minyak kari buat kalori tinggi. Ayam memang bagus untuk protein. Sekali seminggu dengan kuah separuh tak jadi masalah untuk kebanyakan orang.",
+ "tips": [
+  "Jangan hirup semua kuah, makan isi dan mee sahaja.",
+  "Pilih ayam isi dada, bukan bahagian berkulit.",
+  "Minta tambah sayur seperti kacang panjang atau terung."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 400,
+  "why": "Kuah jernih tanpa santan. Protein sama, kalori jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Mee kari pedas tak?",
+   "a": "Bergantung kedai. Kebanyakan sederhana pedas, dan sambal biasa diberi di tepi."
+  },
+  {
+   "q": "Mee kari sesuai untuk sarapan?",
+   "a": "Ramai di Malaysia makan untuk sarapan. Cuma ia berat, jadi buat lunch lebih ringan."
+  },
+  {
+   "q": "Boleh simpan kuah kari esok hari?",
+   "a": "Boleh, simpan dalam peti sejuk dan panaskan sampai mendidih. Ramai kata lebih sedap hari kedua."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

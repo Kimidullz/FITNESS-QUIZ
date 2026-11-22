@@ -1,0 +1,70 @@
+{
+ "slug": "pan-mee-sup",
+ "intro": "Satu mangkuk pan mee sup ada anggaran 450 kcal. Kebanyakan kalori datang dari mee tepung buatan tangan, diikuti ikan bilis goreng dan daging cincang.",
+ "protein_g": 22,
+ "carbs_g": 60,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Mee tepung buatan tangan",
+   "kcal": 270
+  },
+  {
+   "part": "Daging cincang dan cendawan",
+   "kcal": 80
+  },
+  {
+   "part": "Ikan bilis goreng",
+   "kcal": 70
+  },
+  {
+   "part": "Kuah dan sayur",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chili pan mee (kering)",
+   "kcal": 600
+  },
+  {
+   "name": "Pan mee sup tambah telur",
+   "kcal": 525
+  },
+  {
+   "name": "Pan mee saiz besar",
+   "kcal": 600
+  },
+  {
+   "name": "Pan mee tanpa ikan bilis goreng",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, pan mee sup antara pilihan mi yang agak seimbang. Ada protein dari daging cincang dan kuahnya jernih. Yang perlu jaga ialah ikan bilis goreng dan versi chili pan mee yang lebih berminyak. Pilih saiz biasa dan tambah telur kalau nak lebih kenyang.",
+ "tips": [
+  "Minta ikan bilis diasingkan supaya boleh ambil sikit sahaja.",
+  "Tambah telur separuh masak untuk lebih protein.",
+  "Pilih versi sup berbanding chili pan mee kalau nak lebih ringan."
+ ],
+ "swap": {
+  "name": "Bihun sup",
+  "kcal": 300,
+  "why": "Kuah jernih yang sama, tapi bihun lebih ringan dan tiada ikan bilis goreng."
+ },
+ "faq": [
+  {
+   "q": "Apa beza pan mee dan mee hoon kueh?",
+   "a": "Pan mee biasanya dipotong panjang macam mi, manakala mee hoon kueh dicubit kepingan kecil. Doh dan kuahnya hampir sama."
+  },
+  {
+   "q": "Pan mee diperbuat daripada apa?",
+   "a": "Pan mee dibuat dari tepung gandum, telur, air dan sedikit garam yang diuli dan digelek nipis."
+  },
+  {
+   "q": "Chili pan mee tu apa?",
+   "a": "Ia versi kering dengan cili goreng, daging cincang, ikan bilis dan telur separuh masak, biasanya dihidang dengan sup berasingan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

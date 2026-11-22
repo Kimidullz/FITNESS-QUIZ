@@ -1,0 +1,66 @@
+{
+ "slug": "roti-putih",
+ "intro": "2 keping roti putih ada anggaran 160 kcal. Hampir semua kalori datang daripada karbohidrat dalam tepung gandum.",
+ "protein_g": 5,
+ "carbs_g": 30,
+ "fat_g": 2,
+ "breakdown": [
+  {
+   "part": "Tepung gandum (2 keping)",
+   "kcal": 135
+  },
+  {
+   "part": "Gula dalam adunan",
+   "kcal": 10
+  },
+  {
+   "part": "Lemak/marjerin dalam adunan",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti bakar mentega + kaya (2 keping)",
+   "kcal": 300
+  },
+  {
+   "name": "Roti + planta + gula (2 keping)",
+   "kcal": 250
+  },
+  {
+   "name": "Roti telur goreng (2 keping)",
+   "kcal": 330
+  },
+  {
+   "name": "Roti gandum penuh 2 keping",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh makan roti putih masa nak turun berat. Yang selalu naikkan kalori ialah sapuan dia, macam mentega, kaya, marjerin dan gula. Roti putih juga kurang serat, jadi cepat lapar. Pastikan ada protein sekali.",
+ "tips": [
+  "Isi roti dengan telur rebus, tuna dalam air atau ayam rebus, bukan kaya dan mentega tebal.",
+  "Kalau nak kaya, sapu nipis saja dan skip mentega.",
+  "Tukar ke roti gandum penuh bila boleh untuk lebih serat."
+ ],
+ "swap": {
+  "name": "Sandwich telur rebus (2 keping roti + 1 telur + timun)",
+  "kcal": 240,
+  "why": "Lebih rendah dari roti bakar kaya mentega, dan ada protein yang buat kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Roti gandum penuh lebih rendah kalori ke?",
+   "a": "Kalori lebih kurang sama. Kelebihannya, serat lebih tinggi jadi lebih kenyang dan tenaga lebih stabil."
+  },
+  {
+   "q": "Makan roti waktu malam buat gemuk ke?",
+   "a": "Bukan waktu makan yang buat naik berat, tapi jumlah kalori sehari. Kalau masih dalam bajet kalori, roti waktu malam pun okay."
+  },
+  {
+   "q": "Roti putih bakar kurang kalori ke?",
+   "a": "Tak. Membakar cuma buang sedikit air, kalori sama. Yang tambah kalori ialah sapuan atas roti."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

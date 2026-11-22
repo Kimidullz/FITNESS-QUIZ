@@ -1,0 +1,70 @@
+{
+ "slug": "mangga",
+ "intro": "Sebiji mangga sederhana ada anggaran 200 kcal. Kebanyakan kalori datang daripada gula semula jadi, sebab mangga masak memang manis dan isinya banyak.",
+ "protein_g": 3,
+ "carbs_g": 46,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi mangga",
+   "kcal": 170
+  },
+  {
+   "part": "Serat dan kanji",
+   "kcal": 14
+  },
+  {
+   "part": "Protein",
+   "kcal": 12
+  },
+  {
+   "part": "Lemak",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Setengah biji mangga",
+   "kcal": 100
+  },
+  {
+   "name": "Mangga muda + kuah asam/rojak",
+   "kcal": 180
+  },
+  {
+   "name": "Pulut mangga (pulut santan + mangga)",
+   "kcal": 450
+  },
+  {
+   "name": "Jus mangga bergula (1 gelas)",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh, cuma jaga saiz hidangan. Sebiji mangga besar boleh sama kalori dengan sepinggan kecil nasi. Kongsi sebiji dengan pasangan atau anak, setengah biji pun dah cukup puas. Yang perlu lebih berhati-hati ialah pulut mangga dan jus bergula.",
+ "tips": [
+  "Potong mangga dan bahagi dua, simpan separuh untuk esok.",
+  "Makan mangga sebagai pencuci mulut ganti air manis atau kuih, bukan sebagai tambahan.",
+  "Gandingkan dengan yogurt tanpa gula untuk snek yang lebih tinggi protein."
+ ],
+ "swap": {
+  "name": "Setengah biji mangga + setengah mangkuk betik",
+  "kcal": 130,
+  "why": "Masih dapat rasa manis mangga tapi jumlah kalori turun dan isi pinggan tetap banyak."
+ },
+ "faq": [
+  {
+   "q": "Mangga panas badan ke?",
+   "a": "Ramai orang rasa begitu, tapi tiada bukti kukuh. Kalau makan terlalu banyak sekali gus, perut mungkin tak selesa, jadi makan sederhana."
+  },
+  {
+   "q": "Pesakit diabetes boleh makan mangga?",
+   "a": "Ramai boleh makan dalam porsi kecil, contohnya beberapa hiris, bersama makanan lain. Sebaiknya ikut nasihat doktor atau pakar diet anda."
+  },
+  {
+   "q": "Mangga muda atau masak, mana lebih rendah gula?",
+   "a": "Mangga muda biasanya kurang manis. Tapi kalau dicicah kuah rojak atau gula, kalori boleh jadi lebih tinggi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

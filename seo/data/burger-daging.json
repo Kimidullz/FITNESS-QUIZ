@@ -1,0 +1,66 @@
+{
+ "slug": "burger-daging",
+ "intro": "Satu biji burger daging fast food biasa ada anggaran 300 kcal. Kebanyakan kalori datang daripada roti dan patty daging.",
+ "protein_g": 15,
+ "carbs_g": 33,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Roti burger",
+   "kcal": 150
+  },
+  {
+   "part": "Patty daging",
+   "kcal": 110
+  },
+  {
+   "part": "Sos tomato & mustard",
+   "kcal": 25
+  },
+  {
+   "part": "Jeruk timun & bawang",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cheeseburger",
+   "kcal": 340
+  },
+  {
+   "name": "Double cheeseburger",
+   "kcal": 450
+  },
+  {
+   "name": "Set burger + kentang sederhana + air bergas",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, burger daging biasa sebenarnya antara pilihan lebih ringan di restoran fast food. Yang buat kalori melonjak ialah set: kentang goreng dan air bergas. Kalau order burger sahaja dengan air kosong, ia muat dalam diet. Tambah sayur atau buah di rumah untuk lebih kenyang.",
+ "tips": [
+  "Order burger ala carte, bukan set.",
+  "Tukar air bergas kepada air kosong atau minuman zero gula.",
+  "Kalau lapar, ambil dua burger biasa berbanding satu burger besar bersos."
+ ],
+ "swap": {
+  "name": "Burger daging + jagung cawan + air kosong",
+  "kcal": 420,
+  "why": "Berbanding set biasa sekitar 800 kcal, ini jimat hampir separuh dan masih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Burger daging fast food guna daging lembu sebenar?",
+   "a": "Kebanyakan restoran besar guna patty daging lembu. Perisa dan bahan tambahan berbeza ikut jenama."
+  },
+  {
+   "q": "Apa beza hamburger dan cheeseburger?",
+   "a": "Cheeseburger ada sekeping keju tambahan. Rasa lebih lemak dan sedikit lebih tinggi kalori."
+  },
+  {
+   "q": "Burger sesuai untuk budak-budak?",
+   "a": "Sesekali okay. Pilih saiz biasa dan padankan dengan air kosong atau susu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

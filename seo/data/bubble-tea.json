@@ -1,0 +1,66 @@
+{
+ "slug": "bubble-tea",
+ "intro": "Satu cawan besar bubble tea susu dengan gula biasa ada anggaran 350 kcal. Kebanyakan kalori datang dari sirap gula, mutiara tapioka dan krimer susu.",
+ "protein_g": 4,
+ "carbs_g": 62,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Teh susu (krimer + susu)",
+   "kcal": 120
+  },
+  {
+   "part": "Sirap gula (gula biasa 100%)",
+   "kcal": 130
+  },
+  {
+   "part": "Mutiara tapioka (boba)",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Gula 50%, dengan mutiara",
+   "kcal": 280
+  },
+  {
+   "name": "Gula 0%, tanpa mutiara",
+   "kcal": 130
+  },
+  {
+   "name": "Brown sugar milk tea dengan mutiara",
+   "kcal": 450
+  },
+  {
+   "name": "Tambah pudding atau cheese foam",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, tapi anggap bubble tea sebagai snek, bukan sekadar air. 350 kcal tu lebih kurang sama dengan sepinggan kecil nasi. Kalau minum seminggu sekali dan kurangkan gula, ia masih muat dalam bajet kalori harian. Yang buat berat susah turun ialah bila minum hampir setiap hari tanpa sedar.",
+ "tips": [
+  "Pilih tahap gula 25% atau 50%. Lepas seminggu, lidah akan biasa.",
+  "Pilih saiz sederhana atau share cawan besar dengan kawan.",
+  "Tukar mutiara kepada jeli atau tiada topping untuk jimat kalori."
+ ],
+ "swap": {
+  "name": "Teh susu saiz sederhana, gula 25%, tanpa mutiara",
+  "kcal": 150,
+  "why": "Rasa teh susu masih ada, tapi kalori kurang lebih separuh sebab gula dan mutiara dikurangkan."
+ },
+ "faq": [
+  {
+   "q": "Mutiara bubble tea diperbuat daripada apa?",
+   "a": "Mutiara dibuat daripada kanji ubi kayu (tapioka). Ia hampir semuanya karbohidrat dan biasanya direndam dalam sirap gula."
+  },
+  {
+   "q": "Gula 0% maksudnya langsung tiada gula ke?",
+   "a": "Biasanya tiada sirap gula tambahan. Tapi krimer, susu dan topping masih ada gula sendiri."
+  },
+  {
+   "q": "Bubble tea ada kafein ke?",
+   "a": "Ya, kalau berasaskan teh hitam, teh hijau atau oolong. Kalau sensitif kafein, elak minum lewat petang atau malam."
+  }
+ ],
+ "check": "For a large 700 ml cup with full sugar and pearls, many shops land around 400-500 kcal. 350 kcal fits better for a regular 500 ml cup; consider noting that larger cups can be higher.",
+ "problems": []
+}

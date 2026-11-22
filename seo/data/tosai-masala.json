@@ -1,0 +1,66 @@
+{
+ "slug": "tosai-masala",
+ "intro": "Satu keping tosai masala ada anggaran 350 kcal. Kebanyakan kalori datang dari tosai beras dan inti kentang masala yang dimasak dengan minyak.",
+ "protein_g": 8,
+ "carbs_g": 55,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Tosai (1 keping)",
+   "kcal": 150
+  },
+  {
+   "part": "Inti masala kentang",
+   "kcal": 120
+  },
+  {
+   "part": "Minyak atau ghee di kuali",
+   "kcal": 40
+  },
+  {
+   "part": "Chutney kelapa dan sambar",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tosai kosong",
+   "kcal": 180
+  },
+  {
+   "name": "Tosai telur",
+   "kcal": 280
+  },
+  {
+   "name": "Ghee tosai masala",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, ini antara pilihan yang lebih ringan di kedai mamak. Tosai dibuat dari beras dan kacang dal yang ditapai, jadi tak sebanyak minyak roti canai. Cuma protein agak rendah. Tambah telur atau dal supaya lebih kenyang lama.",
+ "tips": [
+  "Tambah telur separuh masak atau pesan tosai telur untuk naikkan protein.",
+  "Ambil lebih sambar, kurangkan chutney kelapa.",
+  "Minta tak guna ghee kalau nak jimat kalori."
+ ],
+ "swap": {
+  "name": "Idli 3 biji dengan sambar",
+  "kcal": 230,
+  "why": "Idli dikukus tanpa minyak, jadi lebih ringan tapi tetap mengenyangkan dengan sambar."
+ },
+ "faq": [
+  {
+   "q": "Tosai dibuat dari apa?",
+   "a": "Tosai dibuat dari adunan beras dan kacang urad dal yang direndam, dikisar dan ditapai semalaman. Sebab itu rasanya sedikit masam."
+  },
+  {
+   "q": "Apa beza tosai dengan tosai masala?",
+   "a": "Tosai masala ada inti kentang bersama bawang, kunyit dan rempah. Tosai biasa dimakan kosong dengan chutney dan sambar."
+  },
+  {
+   "q": "Sambar tu apa sebenarnya?",
+   "a": "Sambar ialah kuah dal bersama sayur seperti lobak, terung dan kacang panjang. Ia beri sedikit protein dan serat kepada hidangan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

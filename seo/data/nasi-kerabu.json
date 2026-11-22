@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-kerabu",
+ "intro": "Sepinggan nasi kerabu dengan ikan goreng ada anggaran 550 kcal. Kebanyakan kalori datang dari nasi, ikan goreng dan kerisik.",
+ "protein_g": 25,
+ "carbs_g": 70,
+ "fat_g": 19,
+ "breakdown": [
+  {
+   "part": "Nasi biru (lebih kurang 1.5 cawan)",
+   "kcal": 280
+  },
+  {
+   "part": "Ikan goreng 1 ketul",
+   "kcal": 150
+  },
+  {
+   "part": "Ulam, kerisik dan serunding",
+   "kcal": 80
+  },
+  {
+   "part": "Sambal dan budu",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kerabu ayam percik",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi kerabu dengan solok lada",
+   "kcal": 750
+  },
+  {
+   "name": "Nasi kerabu ikan bakar",
+   "kcal": 500
+  }
+ ],
+ "diet": "Boleh, nasi kerabu antara pilihan nasi yang agak okay. Ulamnya banyak, jadi serat tinggi dan lebih kenyang. Yang naikkan kalori ialah lauk goreng, kerisik dan solok lada. Pilih lauk bakar kalau ada.",
+ "tips": [
+  "Pilih ikan bakar atau ayam bakar berbanding goreng.",
+  "Minta ulam lebih dan kerisik sikit.",
+  "Kurangkan nasi sikit, ganti dengan ulam."
+ ],
+ "swap": {
+  "name": "Nasi kerabu ikan bakar, ulam lebih",
+  "kcal": 480,
+  "why": "Kurang minyak, protein masih tinggi dan ulam bagi rasa kenyang."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nasi kerabu warna biru?",
+   "a": "Warna biru datang dari bunga telang yang direndam bersama beras. Ia pewarna semula jadi."
+  },
+  {
+   "q": "Ulam apa yang biasa ada dalam nasi kerabu?",
+   "a": "Antaranya daun kesum, pucuk kadok, taugeh, kacang botol dan serai. Setiap gerai ada campuran sendiri."
+  },
+  {
+   "q": "Nasi kerabu wajib makan dengan budu ke?",
+   "a": "Tak wajib, tapi budu memang pasangan tradisional. Kalau tak biasa, guna sambal kelapa atau sambal tumis."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

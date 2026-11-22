@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-ayam-penyet",
+ "intro": "Satu set nasi ayam penyet ialah anggaran 800 kcal. Kebanyakan kalori datang daripada ayam goreng berkulit yang digoreng dalam minyak banyak dan sambal yang dimasak dengan minyak.",
+ "protein_g": 38,
+ "carbs_g": 75,
+ "fat_g": 39,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.25 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Ayam goreng penyet 1 ketul (dengan kulit)",
+   "kcal": 350
+  },
+  {
+   "part": "Sambal penyet",
+   "kcal": 120
+  },
+  {
+   "part": "Tahu, tempe goreng dan ulam",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam penyet bahagian dada, buang kulit",
+   "kcal": 650
+  },
+  {
+   "name": "Ikan penyet (ikan keli/siakap)",
+   "kcal": 750
+  },
+  {
+   "name": "Tambah kuah sup",
+   "kcal": 40
+  },
+  {
+   "name": "Tambah telur penyet",
+   "kcal": 120
+  }
+ ],
+ "diet": "Boleh, ayam penyet memang tinggi protein. Cabarannya ialah lemak dari ayam goreng dan sambal berminyak. Kalau pilih bahagian dada, buang kulit dan kawal sambal, kalori turun ketara. Makan sekali-sekala sambil jaga waktu makan lain, masih boleh muat dalam diet.",
+ "tips": [
+  "Pilih ayam bahagian dada dan buang kulit, protein tinggi dan lemak kurang.",
+  "Ambil sambal secubit dan cicah, jangan sapu seluruh ayam.",
+  "Habiskan ulam timun dan kobis, minta tambah kalau boleh."
+ ],
+ "swap": {
+  "name": "Nasi separuh + ayam bakar (dada) + sambal sikit + ulam",
+  "kcal": 550,
+  "why": "Ayam bakar tak digoreng, jadi lemak jauh kurang, dan anda masih dapat rasa sambal serta protein yang tinggi."
+ },
+ "faq": [
+  {
+   "q": "Kenapa dipanggil ayam penyet?",
+   "a": "Penyet maksudnya dipenyekkan. Ayam goreng ditekan dengan anak lesung atas sambal supaya rasa sambal meresap."
+  },
+  {
+   "q": "Ayam penyet asal dari mana?",
+   "a": "Ayam penyet berasal dari Indonesia, terutama Jawa Timur. Sekarang ia sangat popular di Malaysia."
+  },
+  {
+   "q": "Sambal penyet tu pedas sangat?",
+   "a": "Kebanyakan sambal penyet guna cili padi dan memang agak pedas. Anda boleh minta sambal diasingkan supaya senang kawal."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

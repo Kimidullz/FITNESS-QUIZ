@@ -1,0 +1,70 @@
+{
+ "slug": "ais-kacang",
+ "intro": "Satu mangkuk ais kacang (ABC) ada anggaran 300 kcal. Kebanyakan kalori datang daripada sirap, gula dan susu pekat manis.",
+ "protein_g": 5,
+ "carbs_g": 62,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis",
+   "kcal": 100
+  },
+  {
+   "part": "Sirap ros & gula melaka",
+   "kcal": 90
+  },
+  {
+   "part": "Kacang merah & jagung",
+   "kcal": 70
+  },
+  {
+   "part": "Cincau, jeli & attap chee",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "ABC dengan aiskrim",
+   "kcal": 420
+  },
+  {
+   "name": "ABC extra susu pekat",
+   "kcal": 360
+  },
+  {
+   "name": "ABC kurang manis",
+   "kcal": 220
+  },
+  {
+   "name": "ABC durian",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, kalau sekali-sekala. Ais kacang hampir semua gula, jadi ia tak kenyangkan lama. Tak perlu elak terus, cuma jangan jadikan rutin selepas makan tengah hari. Kawal saiz dan topping, itu kuncinya.",
+ "tips": [
+  "Minta 'susu sikit' atau 'tak nak susu pekat'.",
+  "Skip aiskrim dan topping kacang tanah.",
+  "Kongsi dengan kawan selepas makan nasi."
+ ],
+ "swap": {
+  "name": "Buah potong (tembikai/betik) sepinggan",
+  "kcal": 90,
+  "why": "Masih manis dan sejuk, tapi ada serat dan air. Jimat lebih kurang 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Apa maksud ABC?",
+   "a": "ABC ialah singkatan 'Air Batu Campur'. Ia nama lain untuk ais kacang."
+  },
+  {
+   "q": "Apa beza ais kacang dan cendol?",
+   "a": "Ais kacang guna sirap dan susu pekat dengan pelbagai topping. Cendol pula guna santan dan gula melaka."
+  },
+  {
+   "q": "Ais kacang boleh buat sendiri di rumah?",
+   "a": "Boleh. Guna kacang merah tin, jagung, cincau dan sirap. Anda boleh kawal sendiri jumlah gula."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

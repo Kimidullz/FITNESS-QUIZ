@@ -1,0 +1,66 @@
+{
+ "slug": "bubur-ayam",
+ "intro": "Semangkuk bubur ayam ada anggaran 250 kcal. Kebanyakan kalori datang dari nasi bubur, diikuti ayam dan bawang goreng.",
+ "protein_g": 14,
+ "carbs_g": 35,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Bubur nasi (lebih kurang 1.5 cawan)",
+   "kcal": 140
+  },
+  {
+   "part": "Ayam carik",
+   "kcal": 60
+  },
+  {
+   "part": "Bawang goreng dan minyak bawang",
+   "kcal": 35
+  },
+  {
+   "part": "Daun bawang, halia dan kicap",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bubur ayam tambah cakwe",
+   "kcal": 400
+  },
+  {
+   "name": "Bubur ayam tambah telur",
+   "kcal": 320
+  },
+  {
+   "name": "Bubur ikan",
+   "kcal": 230
+  }
+ ],
+ "diet": "Boleh, bubur ayam antara pilihan paling ringan. Kalori rendah dan senang hadam. Tapi bubur banyak air, jadi kadang cepat lapar. Tambah protein supaya lebih kenyang.",
+ "tips": [
+  "Minta ayam lebih atau tambah telur.",
+  "Skip cakwe, ia tambah kalori tanpa banyak kenyang.",
+  "Kurangkan bawang goreng dan minyak bawang."
+ ],
+ "swap": {
+  "name": "Bubur ayam tambah telur, tanpa cakwe",
+  "kcal": 320,
+  "why": "Protein lebih tinggi, jadi tahan kenyang lebih lama dengan kalori yang masih rendah."
+ },
+ "faq": [
+  {
+   "q": "Bubur ayam sesuai untuk orang demam?",
+   "a": "Ramai pilih bubur masa tak sihat sebab lembut dan senang ditelan. Minum air secukupnya juga penting."
+  },
+  {
+   "q": "Apa beza bubur ayam Melayu dan Cina?",
+   "a": "Bubur Melayu selalu ada rempah dan sayur, bubur Cina (congee) lebih licin dengan halia dan kicap."
+  },
+  {
+   "q": "Boleh buat bubur guna nasi lebihan?",
+   "a": "Boleh. Rebus nasi dengan stok atau air sampai lembut, dalam 15 hingga 20 minit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

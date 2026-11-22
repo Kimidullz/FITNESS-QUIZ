@@ -1,0 +1,62 @@
+{
+ "slug": "pulut-kuning-dengan-rendang",
+ "intro": "Sepinggan pulut kuning dengan rendang ada anggaran 550 kcal. Kebanyakan kalori datang dari pulut bersantan dan rendang yang berminyak.",
+ "protein_g": 20,
+ "carbs_g": 65,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Pulut kuning santan (lebih kurang 1 cawan)",
+   "kcal": 320
+  },
+  {
+   "part": "Rendang daging 2 ketul dengan kuah",
+   "kcal": 200
+  },
+  {
+   "part": "Serunding atau acar sedikit",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pulut kuning dengan rendang ayam",
+   "kcal": 520
+  },
+  {
+   "name": "Pulut kuning tambah serunding",
+   "kcal": 620
+  },
+  {
+   "name": "Separuh pulut dengan rendang",
+   "kcal": 390
+  }
+ ],
+ "diet": "Boleh, terutama masa majlis atau Hari Raya. Pulut lebih padat dari nasi, jadi sedikit pun dah tinggi kalori. Ambil satu senduk pulut dan fokus pada daging. Lepas tu, makan ringan untuk hidangan seterusnya.",
+ "tips": [
+  "Ambil pulut separuh dan daging rendang lebih.",
+  "Kurangkan kuah rendang yang berminyak.",
+  "Tambah sayur atau timun di tepi pinggan."
+ ],
+ "swap": {
+  "name": "Separuh pulut kuning dengan rendang dan timun",
+  "kcal": 390,
+  "why": "Masih dapat rasa raya, tapi jimat lebih kurang 160 kcal."
+ },
+ "faq": [
+  {
+   "q": "Kenapa pulut kuning warna kuning?",
+   "a": "Warna datang dari kunyit yang dicampur masa merendam atau mengukus pulut."
+  },
+  {
+   "q": "Pulut kuning selalu dihidang bila?",
+   "a": "Biasanya masa majlis kesyukuran, perkahwinan, akikah dan Hari Raya."
+  },
+  {
+   "q": "Berapa lama nak rendam pulut?",
+   "a": "Kebanyakan resepi rendam sekurang-kurangnya 4 jam atau semalaman supaya pulut masak sekata."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

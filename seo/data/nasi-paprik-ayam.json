@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-paprik-ayam",
+ "intro": "Sepinggan nasi paprik ayam ialah anggaran 650 kcal. Kebanyakan kalori datang daripada nasi putih dan ayam yang digoreng dulu sebelum ditumis dengan sos paprik pedas manis.",
+ "protein_g": 30,
+ "carbs_g": 80,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.5 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Ayam paprik dengan sos",
+   "kcal": 250
+  },
+  {
+   "part": "Sayur campur dalam paprik",
+   "kcal": 60
+  },
+  {
+   "part": "Minyak tumisan",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi paprik daging",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi paprik campur (ayam, sotong, udang)",
+   "kcal": 700
+  },
+  {
+   "name": "Tambah telur mata",
+   "kcal": 90
+  },
+  {
+   "name": "Nasi paprik ayam nasi separuh",
+   "kcal": 500
+  }
+ ],
+ "diet": "Boleh, nasi paprik antara pilihan sederhana di kedai tomyam. Ia ada sayur dan protein yang agak cukup. Kalori naik bila ayam digoreng dalam tepung dan minyak tumis banyak. Minta kurang minyak dan nasi kurang, dan ia boleh jadi menu mingguan yang okay.",
+ "tips": [
+  "Minta ayam tak bersalut tepung atau tak digoreng dulu, terus tumis.",
+  "Minta tambah sayur dalam paprik, contohnya kobis, lobak merah dan kacang panjang.",
+  "Ambil nasi separuh dan habiskan sayur dan ayam dulu."
+ ],
+ "swap": {
+  "name": "Nasi separuh + ayam paprik kurang minyak + sayur lebih",
+  "kcal": 480,
+  "why": "Rasa sama pedas manis, tapi kurang nasi dan minyak, protein tetap terjaga."
+ },
+ "faq": [
+  {
+   "q": "Paprik tu apa sebenarnya?",
+   "a": "Paprik ialah masakan gaya Thai di mana lauk ditumis dengan cili, pes cili, sos tiram dan sayur. Rasanya pedas, masin dan sedikit manis."
+  },
+  {
+   "q": "Nasi paprik pedas sangat ke?",
+   "a": "Bergantung kedai. Kalau tak tahan pedas, minta kurang cili masa order."
+  },
+  {
+   "q": "Boleh masak paprik ayam sendiri di rumah?",
+   "a": "Boleh dan mudah. Tumis bawang, cili kisar, sos tiram, masukkan ayam hiris dan sayur. Guna sesudu minyak sahaja dan tak perlu goreng ayam dulu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-goreng-usa",
+ "intro": "Sepinggan nasi goreng USA ialah anggaran 800 kcal. Kebanyakan kalori datang daripada nasi goreng berminyak, lauk udang, sotong dan ayam bersalut tepung, serta sos pekat yang manis.",
+ "protein_g": 32,
+ "carbs_g": 95,
+ "fat_g": 32,
+ "breakdown": [
+  {
+   "part": "Nasi goreng 1.5 cawan",
+   "kcal": 420
+  },
+  {
+   "part": "Ayam, sotong dan udang goreng tepung",
+   "kcal": 280
+  },
+  {
+   "part": "Sos masam manis atau sos pekat",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng USA + telur mata",
+   "kcal": 890
+  },
+  {
+   "name": "Nasi goreng kampung biasa",
+   "kcal": 600
+  },
+  {
+   "name": "Nasi goreng USA nasi separuh",
+   "kcal": 620
+  },
+  {
+   "name": "Nasi goreng USA tanpa tepung (lauk tumis)",
+   "kcal": 680
+  }
+ ],
+ "diet": "Boleh, tapi ia antara pilihan paling tinggi kalori di kedai tomyam. Nasi goreng dah ada minyak, kemudian lauk goreng tepung dan sos pula. Kalau nak makan, buat sekali-sekala dan pastikan waktu makan lain lebih ringan. Kalau ikutkan selera setiap minggu, lebih baik pilih versi yang tak bersalut tepung.",
+ "tips": [
+  "Minta lauk USA ditumis atau dimasak tanpa tepung jika kedai boleh buat.",
+  "Minta nasi kurang dan tambah sayur campur di tepi.",
+  "Kongsi sepinggan dengan kawan dan tambah satu sup sayur atau tomyam jernih."
+ ],
+ "swap": {
+  "name": "Nasi putih + tomyam campur jernih + telur dadar kecil",
+  "kcal": 550,
+  "why": "Tomyam jernih beri protein dari udang, sotong dan ayam tanpa tepung dan sos pekat, jadi kalori turun banyak."
+ },
+ "faq": [
+  {
+   "q": "USA dalam nasi goreng USA tu apa?",
+   "a": "USA ialah singkatan Udang, Sotong, Ayam. Ketiga-tiga lauk ni biasanya disalut tepung dan digoreng, kemudian disaluti sos."
+  },
+  {
+   "q": "Nasi goreng USA ada di mana?",
+   "a": "Paling mudah jumpa di kedai tomyam atau kedai makan gaya Thai di Malaysia, terutama waktu malam."
+  },
+  {
+   "q": "Boleh minta kurang pedas atau kurang manis?",
+   "a": "Boleh. Kebanyakan tukang masak terima permintaan kurang manis, kurang minyak atau kurang pedas. Cakap awal masa order."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

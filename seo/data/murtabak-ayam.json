@@ -1,0 +1,70 @@
+{
+ "slug": "murtabak-ayam",
+ "intro": "Satu keping murtabak ayam (4 potong) ada anggaran 700 kcal. Kalori paling banyak datang dari doh roti yang digoreng dengan minyak, diikuti telur dan inti ayam.",
+ "protein_g": 35,
+ "carbs_g": 65,
+ "fat_g": 33,
+ "breakdown": [
+  {
+   "part": "Doh roti dan minyak goreng",
+   "kcal": 350
+  },
+  {
+   "part": "Ayam cincang dan bawang",
+   "kcal": 150
+  },
+  {
+   "part": "Telur (2 biji)",
+   "kcal": 150
+  },
+  {
+   "part": "Kuah kari atau dal",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Separuh murtabak (2 potong)",
+   "kcal": 350
+  },
+  {
+   "name": "Murtabak sardin",
+   "kcal": 650
+  },
+  {
+   "name": "Murtabak daging",
+   "kcal": 750
+  },
+  {
+   "name": "Murtabak ayam dengan kuah kari penuh",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, terutama kalau anda kongsi. Murtabak sebenarnya ada protein yang agak baik dari ayam dan telur. Masalahnya ialah minyak dan saiznya yang besar. Makan 2 potong dengan bawang jeruk atau salad, dan anda masih boleh kekal dalam bajet kalori.",
+ "tips": [
+  "Pesan satu keping untuk dua orang, setiap orang ambil 2 potong.",
+  "Minta kuah dal sedikit di tepi, celup saja, jangan banjir.",
+  "Minum teh o kosong atau air suam, bukan teh tarik, supaya tak tambah kalori."
+ ],
+ "swap": {
+  "name": "Roti telur dengan kuah dal",
+  "kcal": 400,
+  "why": "Masih dapat roti dan telur yang mengenyangkan, tapi saiz lebih kecil dan kurang minyak."
+ },
+ "faq": [
+  {
+   "q": "Apa beza murtabak mamak dengan murtabak Arab?",
+   "a": "Murtabak mamak biasanya inti daging cincang dengan telur dan bawang, dimakan dengan kuah kari. Murtabak gaya Timur Tengah lebih tebal dan inti berbeza ikut negara."
+  },
+  {
+   "q": "Murtabak boleh simpan untuk makan esok?",
+   "a": "Boleh, simpan dalam peti sejuk dan makan dalam 1-2 hari. Panaskan semula dalam air fryer atau kuali tanpa minyak supaya rangup semula."
+  },
+  {
+   "q": "Kenapa murtabak dimakan dengan bawang jeruk?",
+   "a": "Bawang jeruk yang masam dan segar mengimbangi rasa berminyak murtabak. Ia juga tambah rasa tanpa banyak kalori."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

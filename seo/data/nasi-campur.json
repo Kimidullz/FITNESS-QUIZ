@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-campur",
+ "intro": "Sepinggan nasi campur dengan ayam goreng dan 2 jenis sayur ialah anggaran 650 kcal. Kalori paling banyak datang daripada nasi dan ayam goreng, sayur bermasak biasanya menyumbang sedikit sahaja.",
+ "protein_g": 28,
+ "carbs_g": 80,
+ "fat_g": 24,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.25 cawan",
+   "kcal": 260
+  },
+  {
+   "part": "Ayam goreng 1 ketul",
+   "kcal": 250
+  },
+  {
+   "part": "2 jenis sayur bermasak",
+   "kcal": 100
+  },
+  {
+   "part": "Kuah atau sambal sedikit",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi campur ikan goreng + 2 sayur",
+   "kcal": 580
+  },
+  {
+   "name": "Nasi campur ayam masak lemak cili api",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi campur telur dadar + 2 sayur",
+   "kcal": 550
+  },
+  {
+   "name": "Tambah sambal tumis 1 sudu",
+   "kcal": 60
+  }
+ ],
+ "diet": "Boleh, malah nasi campur antara pilihan paling mudah dikawal bila nak turun berat. Anda sendiri pilih lauk dan berapa banyak nasi. Kalau pilih protein yang tak terlalu berminyak dan sayur lebih, sepinggan boleh jadi bawah 550 kcal. Yang buat kalori naik selalunya ayam goreng tepung, lauk bersantan dan kuah banjir.",
+ "tips": [
+  "Ambil nasi separuh pinggan sahaja, isi separuh lagi dengan sayur dan lauk.",
+  "Pilih ayam bakar, ikan masak asam atau telur rebus sebagai ganti ayam goreng.",
+  "Pilih sayur tumis air atau sayur rebus berbanding sayur bersantan."
+ ],
+ "swap": {
+  "name": "Nasi campur nasi separuh + ikan masak asam + 2 sayur tumis",
+  "kcal": 480,
+  "why": "Masak asam guna kurang minyak dan tiada santan, jadi protein tetap tinggi tapi kalori turun banyak."
+ },
+ "faq": [
+  {
+   "q": "Lauk apa paling sesuai dalam nasi campur kalau nak protein tinggi?",
+   "a": "Ikan bakar, ayam bakar, telur rebus, tauhu dan ikan masak asam. Ambil sekurang-kurangnya satu ketul atau satu potong yang besar."
+  },
+  {
+   "q": "Nasi campur ni dikira mahal kalau ambil banyak sayur?",
+   "a": "Bergantung pada kedai, tapi sayur biasanya lebih murah daripada lauk daging. Jadi tambah sayur ialah cara jimat duit dan jimat kalori."
+  },
+  {
+   "q": "Boleh tak bawa nasi campur ke pejabat untuk dinner?",
+   "a": "Boleh. Simpan dalam peti sejuk dan panaskan betul-betul sebelum makan, terutama lauk berkuah dan nasi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

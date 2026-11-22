@@ -1,0 +1,70 @@
+{
+ "slug": "coklat-susu",
+ "intro": "Satu bar kecil coklat susu (40 g) ada anggaran 210 kcal. Kalorinya datang daripada gabungan lemak koko dan susu serta gula.",
+ "protein_g": 3,
+ "carbs_g": 23,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Lemak koko dan lemak susu",
+   "kcal": 108
+  },
+  {
+   "part": "Gula",
+   "kcal": 88
+  },
+  {
+   "part": "Pepejal susu (protein)",
+   "kcal": 12
+  },
+  {
+   "part": "Karbohidrat lain",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Coklat gelap 70% (40 g)",
+   "kcal": 230
+  },
+  {
+   "name": "Coklat susu dengan kacang (40 g)",
+   "kcal": 220
+  },
+  {
+   "name": "Coklat wafer (1 bar 40 g)",
+   "kcal": 205
+  },
+  {
+   "name": "Coklat susu 2 petak kecil (10 g)",
+   "kcal": 55
+  }
+ ],
+ "diet": "Boleh. Coklat bukan musuh, yang penting saiz dan kekerapan. Dua petak kecil selepas makan sudah cukup puaskan keinginan manis dengan kalori sekitar 55. Masalahnya bila sebar besar habis sekali duduk.",
+ "tips": [
+  "Pecahkan bar kepada petak kecil dan makan 2 petak sahaja, simpan baki dalam peti sejuk.",
+  "Makan coklat selepas makan utama, bukan masa perut kosong supaya tak berlebihan.",
+  "Gandingkan 2 petak coklat dengan buah seperti pisang atau strawberi untuk rasa lebih puas."
+ ],
+ "swap": {
+  "name": "2 petak coklat gelap + 1 biji pisang kecil",
+  "kcal": 140,
+  "why": "Rasa manis dan coklat tetap ada, porsi lebih besar, tapi kalori lebih rendah daripada sebar coklat susu."
+ },
+ "faq": [
+  {
+   "q": "Coklat gelap lebih sihat daripada coklat susu?",
+   "a": "Coklat gelap kurang gula dan lebih banyak koko. Kalorinya hampir sama, jadi porsi tetap penting."
+  },
+  {
+   "q": "Kenapa susah nak berhenti makan coklat?",
+   "a": "Gabungan gula dan lemak memang buat kita nak lagi. Bahagikan dulu porsi kecil supaya senang berhenti."
+  },
+  {
+   "q": "Coklat menyebabkan jerawat?",
+   "a": "Kesannya berbeza ikut individu. Sesetengah orang perasan perubahan, ada yang tidak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

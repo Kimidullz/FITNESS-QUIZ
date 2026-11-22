@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-kerabu-ayam-percik",
+ "intro": "Satu pinggan nasi kerabu ayam percik ada anggaran 650 kcal. Kalori paling banyak dari nasi, ayam percik dengan kuah santan, dan kerisik serta solok lada.",
+ "protein_g": 35,
+ "carbs_g": 75,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Nasi kerabu (nasi biru) 1 pinggan",
+   "kcal": 280
+  },
+  {
+   "part": "Ayam percik 1 ketul + kuah percik",
+   "kcal": 250
+  },
+  {
+   "part": "Kerisik dan solok lada",
+   "kcal": 90
+  },
+  {
+   "part": "Ulam-ulaman dan budu",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kerabu ayam goreng",
+   "kcal": 720
+  },
+  {
+   "name": "Nasi kerabu ikan bakar",
+   "kcal": 550
+  },
+  {
+   "name": "Nasi kerabu daging bakar",
+   "kcal": 680
+  },
+  {
+   "name": "Tambah keropok keping",
+   "kcal": 710
+  }
+ ],
+ "diet": "Boleh, malah ini antara pilihan nasi campur yang lebih seimbang. Ulam yang banyak beri serat dan bantu rasa kenyang lebih lama. Yang buat kalori naik ialah kerisik, solok lada dan kuah percik santan. Kawal tiga benda ini, ia sesuai untuk makan tengah hari masa diet.",
+ "tips": [
+  "Minta ulam lebih dan kerisik sikit sahaja.",
+  "Kuah percik minta letak tepi, cicah sikit-sikit.",
+  "Pilih ikan bakar atau ayam percik, elak tambah keropok dan telur masin."
+ ],
+ "swap": {
+  "name": "Nasi kerabu ikan bakar, ulam lebih, kerisik sikit",
+  "kcal": 500,
+  "why": "Ikan bakar kurang lemak tapi tinggi protein. Ulam banyak buat pinggan penuh tanpa tambah kalori."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nasi kerabu warna biru?",
+   "a": "Warna biru datang dari bunga telang yang direndam dan dimasak bersama nasi. Ia pewarna semula jadi, bukan bahan tambahan kimia."
+  },
+  {
+   "q": "Apa itu solok lada dalam nasi kerabu?",
+   "a": "Solok lada ialah cili hijau besar yang disumbat dengan inti ikan dan kelapa, kemudian dimasak dengan santan. Ia lauk sampingan tradisional Kelantan."
+  },
+  {
+   "q": "Budu tu apa dan kenapa wajib ada?",
+   "a": "Budu ialah sos ikan bilis yang diperam, rasa masin dan umami. Ia digaul dengan nasi dan ulam, tapi ambil sikit sebab tinggi garam."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

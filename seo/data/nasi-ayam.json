@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-ayam",
+ "intro": "Sepinggan nasi ayam ada anggaran 600 kcal. Kebanyakan kalori datang daripada nasi yang dimasak dengan lemak ayam serta kulit ayam.",
+ "protein_g": 28,
+ "carbs_g": 70,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Nasi ayam berlemak 1.5 cawan",
+   "kcal": 380
+  },
+  {
+   "part": "Ayam (dengan kulit)",
+   "kcal": 170
+  },
+  {
+   "part": "Sos cili, kicap dan halia",
+   "kcal": 30
+  },
+  {
+   "part": "Sup ayam",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi ayam panggang (char siu style)",
+   "kcal": 650
+  },
+  {
+   "name": "Nasi ayam goreng",
+   "kcal": 750
+  },
+  {
+   "name": "Nasi ayam rebus, buang kulit",
+   "kcal": 530
+  },
+  {
+   "name": "Nasi ayam dengan nasi putih",
+   "kcal": 480
+  }
+ ],
+ "diet": "Boleh. Nasi ayam sebenarnya pilihan yang agak okay di kedai sebab proteinnya tinggi. Yang buat kalori naik ialah nasi berlemak dan kulit ayam. Pilih ayam rebus atau panggang, dan minta nasi kurang.",
+ "tips": [
+  "Minta 'nasi sikit, ayam lebih' atau tambah sepinggan ayam.",
+  "Buang kulit ayam, protein tetap sama tapi lemak kurang.",
+  "Tambah sayur sawi atau taugeh rebus kalau kedai ada."
+ ],
+ "swap": {
+  "name": "Nasi putih separuh + ayam rebus tanpa kulit + sayur",
+  "kcal": 400,
+  "why": "Protein tetap tinggi, tapi lemak dari nasi dan kulit ayam jauh berkurang."
+ },
+ "faq": [
+  {
+   "q": "Ayam rebus atau ayam panggang, mana lebih baik?",
+   "a": "Ayam rebus biasanya kurang lemak. Ayam panggang ada sos manis, jadi kalori lebih sedikit."
+  },
+  {
+   "q": "Kenapa nasi ayam wangi?",
+   "a": "Nasi dimasak dengan air rebusan ayam, lemak ayam, halia, bawang putih dan daun pandan."
+  },
+  {
+   "q": "Boleh minta nasi putih di kedai nasi ayam?",
+   "a": "Banyak kedai ada nasi putih kalau anda minta. Ini cara mudah kurangkan kalori tanpa ubah lauk."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

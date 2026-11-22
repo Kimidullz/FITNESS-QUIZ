@@ -1,0 +1,66 @@
+{
+ "slug": "epal",
+ "intro": "Sebiji epal sederhana ada anggaran 90 kcal. Hampir semua kalorinya datang daripada gula semula jadi, dengan serat yang agak tinggi.",
+ "protein_g": 0,
+ "carbs_g": 23,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi",
+   "kcal": 72
+  },
+  {
+   "part": "Serat (kebanyakannya di kulit)",
+   "kcal": 10
+  },
+  {
+   "part": "Kanji dan lain-lain",
+   "kcal": 8
+  }
+ ],
+ "variants": [
+  {
+   "name": "Epal kecil",
+   "kcal": 60
+  },
+  {
+   "name": "Epal besar",
+   "kcal": 120
+  },
+  {
+   "name": "Jus epal (1 gelas)",
+   "kcal": 120
+  },
+  {
+   "name": "Epal + 1 sudu makan peanut butter",
+   "kcal": 185
+  }
+ ],
+ "diet": "Boleh, epal antara snek paling mesra diet. Seratnya bantu rasa kenyang, dan kena kunyah lama, jadi tak cepat habis. Makan sebiji buah utuh lebih baik daripada jus. Jus hilang serat dan senang minum banyak sekali gus.",
+ "tips": [
+  "Makan dengan kulit sekali untuk serat lebih.",
+  "Bawa sebiji epal ke ofis sebagai snek petang ganti kuih.",
+  "Pilih buah utuh, bukan jus epal dalam kotak."
+ ],
+ "swap": {
+  "name": "Jambu batu 1 biji sederhana",
+  "kcal": 70,
+  "why": "Kalori lebih rendah, serat dan vitamin C lebih tinggi. Mudah dapat di pasar dan gerai buah."
+ },
+ "faq": [
+  {
+   "q": "Epal hijau atau merah, mana lebih baik?",
+   "a": "Dua-dua bagus. Epal hijau kurang manis sikit, tapi beza kalori sangat kecil. Pilih yang anda suka."
+  },
+  {
+   "q": "Perlu kupas kulit epal?",
+   "a": "Tak perlu. Kulit ada banyak serat. Basuh betul-betul dengan air mengalir sebelum makan."
+  },
+  {
+   "q": "Macam mana nak elak epal potong jadi perang?",
+   "a": "Perah sedikit limau nipis atau rendam sekejap dalam air bergaram ringan. Simpan dalam bekas tertutup."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

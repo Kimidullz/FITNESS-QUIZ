@@ -1,0 +1,70 @@
+{
+ "slug": "chicken-chop-dengan-kentang",
+ "intro": "Satu set chicken chop dengan kentang goreng ada anggaran 850 kcal. Kebanyakan kalori datang dari ayam bersalut tepung yang digoreng, kentang goreng dan sos.",
+ "protein_g": 40,
+ "carbs_g": 75,
+ "fat_g": 43,
+ "breakdown": [
+  {
+   "part": "Ayam peha bersalut tepung, goreng (1 keping)",
+   "kcal": 420
+  },
+  {
+   "part": "Kentang goreng (1 hidangan)",
+   "kcal": 250
+  },
+  {
+   "part": "Coleslaw (1 senduk)",
+   "kcal": 100
+  },
+  {
+   "part": "Sos black pepper (1 senduk)",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chicken chop grill (tanpa tepung)",
+   "kcal": 650
+  },
+  {
+   "name": "Chicken chop sos cendawan",
+   "kcal": 880
+  },
+  {
+   "name": "Tambah 1 telur mata",
+   "kcal": 940
+  },
+  {
+   "name": "Tukar kentang goreng kepada kentang lecek",
+   "kcal": 780
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia sebagai satu hidangan besar, bukan makanan harian. 850 kcal tu dah hampir separuh keperluan sehari ramai orang yang nak turun berat. Proteinnya tinggi, jadi ia mengenyangkan. Kalau nak makan, pilih versi grill dan ringankan sarapan atau makan malam hari tu.",
+ "tips": [
+  "Minta chicken chop grill, bukan yang bersalut tepung goreng. Jimat anggaran 150-200 kcal.",
+  "Minta sos diasingkan dan guna separuh saja.",
+  "Tukar kentang goreng kepada salad atau sayur kalau kedai ada pilihan, atau kongsi kentang dengan kawan."
+ ],
+ "swap": {
+  "name": "Chicken chop grill dengan salad (sos asing)",
+  "kcal": 500,
+  "why": "Protein ayam masih penuh, tapi kurang minyak goreng dan kentang. Kenyang lama dengan kalori jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Chicken chop guna ayam bahagian mana?",
+   "a": "Biasanya peha ayam tanpa tulang. Peha lebih lembut dan juicy, tapi lemaknya lebih tinggi berbanding dada ayam."
+  },
+  {
+   "q": "Sos black pepper atau sos cendawan, mana lebih ringan?",
+   "a": "Kedua-duanya lebih kurang sama. Sos cendawan kadang guna krim atau susu, jadi boleh jadi lebih berat sedikit. Yang penting, jangan tuang terlalu banyak."
+  },
+  {
+   "q": "Boleh buat chicken chop sendiri di rumah dengan air fryer?",
+   "a": "Boleh. Perap peha ayam dengan lada hitam, bawang putih dan sedikit kicap, kemudian air fry atau bakar. Hidang dengan kentang bakar dan sayur."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

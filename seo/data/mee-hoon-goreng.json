@@ -1,0 +1,66 @@
+{
+ "slug": "mee-hoon-goreng",
+ "intro": "Sepinggan mee hoon goreng ada anggaran 450 kcal. Kebanyakan kalori datang dari mee hoon dan minyak masa menggoreng.",
+ "protein_g": 12,
+ "carbs_g": 62,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Mee hoon (lebih kurang 1.5 cawan masak)",
+   "kcal": 250
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 120
+  },
+  {
+   "part": "Telur dan sedikit ayam atau tauhu",
+   "kcal": 50
+  },
+  {
+   "part": "Sayur, cili dan sos",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee hoon goreng tambah telur mata",
+   "kcal": 540
+  },
+  {
+   "name": "Mee hoon goreng Singapore",
+   "kcal": 500
+  },
+  {
+   "name": "Mee hoon sup",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, tapi mee hoon goreng tinggi karbohidrat dan rendah protein. Minyak juga banyak bergantung pada gerai. Jadikan ia hidangan seimbang dengan tambah protein dan sayur. Kalau nak lebih ringan, mee hoon sup pilihan bagus.",
+ "tips": [
+  "Minta kurang minyak dan sayur lebih.",
+  "Tambah telur rebus atau ayam untuk protein.",
+  "Ambil pinggan kecil atau kongsi kalau beli bungkus besar."
+ ],
+ "swap": {
+  "name": "Mee hoon sup dengan ayam atau bebola ikan",
+  "kcal": 300,
+  "why": "Tak digoreng, jadi kurang minyak, tapi tetap kenyang dengan kuah panas."
+ },
+ "faq": [
+  {
+   "q": "Mee hoon diperbuat daripada apa?",
+   "a": "Mee hoon dibuat dari tepung beras. Ia secara semula jadi tak ada gluten, tapi sos yang digunakan mungkin ada."
+  },
+  {
+   "q": "Kenapa mee hoon goreng mudah melekat?",
+   "a": "Biasanya sebab rendam terlalu lama atau kuali tak cukup panas. Rendam sekejap sampai lembut sahaja."
+  },
+  {
+   "q": "Mee hoon goreng tahan berapa lama?",
+   "a": "Sebaiknya habiskan dalam beberapa jam. Kalau simpan, masukkan peti sejuk dan makan dalam 1 hari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

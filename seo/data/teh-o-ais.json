@@ -1,0 +1,62 @@
+{
+ "slug": "teh-o-ais",
+ "intro": "Segelas teh O ais bergula ada anggaran 90 kcal. Hampir semua kalori datang dari gula atau air gula yang dicampur.",
+ "protein_g": 0,
+ "carbs_g": 22,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula / air gula (~2 sudu besar)",
+   "kcal": 85
+  },
+  {
+   "part": "Teh pekat",
+   "kcal": 5
+  },
+  {
+   "part": "Ais dan air",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh O ais kurang manis",
+   "kcal": 50
+  },
+  {
+   "name": "Teh O ais kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Teh O ais gelas jumbo",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh, tapi sedar yang 90 kcal ini semuanya dari gula. Ia tak beri rasa kenyang langsung. Kalau minum dua kali sehari, itu dah hampir 200 kcal yang senang dijimatkan. Cara paling mudah ialah turunkan kemanisan sikit demi sikit.",
+ "tips": [
+  "Mula dengan 'kurang manis' seminggu dua, kemudian cuba 'kosong'.",
+  "Minta lebih ais supaya rasa tak terlalu pekat bila kurang gula.",
+  "Elak gelas jumbo atau plastik ikat besar, pilih gelas biasa."
+ ],
+ "swap": {
+  "name": "Teh O ais kosong",
+  "kcal": 5,
+  "why": "Rasa teh dan sejuk masih ada, tapi hampir tiada kalori."
+ },
+ "faq": [
+  {
+   "q": "Teh O ais kosong ada rasa ke?",
+   "a": "Ada rasa teh yang sedikit pahit. Ramai yang biasa dalam 1-2 minggu bila tekak dah adjust."
+  },
+  {
+   "q": "Teh O baik untuk hidrasi?",
+   "a": "Ia tetap cecair, tapi ada kafein. Masih elok selang-selikan dengan air kosong sepanjang hari."
+  },
+  {
+   "q": "Kenapa teh O di kedai lagi manis dari buat sendiri?",
+   "a": "Kedai selalunya guna air gula yang dah dimasak pekat. Satu senduk boleh sama dengan 2-3 sudu teh gula."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

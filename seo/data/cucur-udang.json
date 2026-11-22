@@ -1,0 +1,62 @@
+{
+ "slug": "cucur-udang",
+ "intro": "Dua biji cucur udang ada anggaran 200 kcal. Kebanyakan kalori datang daripada adunan tepung dan minyak goreng.",
+ "protein_g": 5,
+ "carbs_g": 24,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Adunan tepung",
+   "kcal": 90
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 80
+  },
+  {
+   "part": "Udang, taugeh & sayur",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cucur udang 1 biji besar (mamak)",
+   "kcal": 150
+  },
+  {
+   "name": "Cucur udang dengan sos kacang",
+   "kcal": 260
+  },
+  {
+   "name": "Cucur bawang / cucur sayur (2 biji)",
+   "kcal": 180
+  }
+ ],
+ "diet": "Boleh, tapi jangan jadikan ia makanan utama. Protein dari udang sedikit sangat, kebanyakannya tepung dan minyak. Dua biji sebagai snek masih okay. Tambah sumber protein lain supaya tak lapar cepat.",
+ "tips": [
+  "Pilih sos cili, bukan sos kacang, untuk jimat kalori.",
+  "Kongsi dengan kawan kalau beli satu bungkus.",
+  "Kalau buat sendiri, banyakkan taugeh dan udang, kurangkan tepung."
+ ],
+ "swap": {
+  "name": "Udang rebus atau tauhu bakar sepinggan kecil",
+  "kcal": 150,
+  "why": "Lebih banyak protein dan kurang minyak, lebih mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Kenapa cucur udang jadi lembik?",
+   "a": "Biasanya minyak tak cukup panas atau adunan terlalu cair. Tambah sedikit tepung beras untuk rangup."
+  },
+  {
+   "q": "Cucur udang sesuai dicicah dengan apa?",
+   "a": "Paling popular sos cili atau sos kacang. Di utara ramai suka cicah kuah kacang pedas."
+  },
+  {
+   "q": "Boleh guna udang kering?",
+   "a": "Boleh, rasa lebih kuat. Cuma kurangkan garam sebab udang kering sudah masin."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

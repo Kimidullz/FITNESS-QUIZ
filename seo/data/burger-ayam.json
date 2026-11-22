@@ -1,0 +1,70 @@
+{
+ "slug": "burger-ayam",
+ "intro": "Satu biji burger ayam gerai dengan telur ada anggaran 500 kcal. Kebanyakan kalori datang daripada patty, telur goreng, majerin dan mayonis.",
+ "protein_g": 22,
+ "carbs_g": 45,
+ "fat_g": 26,
+ "breakdown": [
+  {
+   "part": "Roti burger (dibakar dengan majerin)",
+   "kcal": 150
+  },
+  {
+   "part": "Patty ayam",
+   "kcal": 150
+  },
+  {
+   "part": "Telur goreng/bungkus",
+   "kcal": 90
+  },
+  {
+   "part": "Sos cili, mayonis & sos lain",
+   "kcal": 110
+  }
+ ],
+ "variants": [
+  {
+   "name": "Burger ayam biasa (tanpa telur)",
+   "kcal": 400
+  },
+  {
+   "name": "Burger ayam double special",
+   "kcal": 700
+  },
+  {
+   "name": "Burger daging special",
+   "kcal": 550
+  },
+  {
+   "name": "Burger ayam + cheese",
+   "kcal": 570
+  }
+ ],
+ "diet": "Boleh, burger malam tu tak semestinya rosakkan diet. 500 kcal masih muat sebagai satu hidangan makan malam. Masalah biasanya bila tambah air manis dan makan dua biji. Satu biji, air kosong, dan anda masih on track.",
+ "tips": [
+  "Minta 'mayo sikit' dan 'tak nak majerin banyak'.",
+  "Kalau nak protein lebih, double telur lebih baik daripada double patty.",
+  "Minta tambah salad dan timun, makan dengan air kosong atau teh o kosong."
+ ],
+ "swap": {
+  "name": "Burger ayam biasa tanpa telur, kurang mayo",
+  "kcal": 360,
+  "why": "Masih dapat rasa burger gerai. Kurang minyak dan sos, jimat sekitar 140 kcal."
+ },
+ "faq": [
+  {
+   "q": "Burger telur bungkus dan telur goreng, mana lagi sedap?",
+   "a": "Telur bungkus lebih popular di gerai sebab patty dibalut telur. Dari segi khasiat, lebih kurang sama."
+  },
+  {
+   "q": "Burger ayam gerai halal tak?",
+   "a": "Kebanyakan gerai guna patty berlogo halal. Kalau ragu, tengok bungkusan patty atau tanya peniaga."
+  },
+  {
+   "q": "Boleh simpan burger untuk makan esok?",
+   "a": "Boleh simpan dalam peti sejuk dan panaskan semula. Tapi roti akan jadi lembik, lebih sedap makan segera."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

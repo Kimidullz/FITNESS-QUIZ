@@ -1,0 +1,66 @@
+{
+ "slug": "tauhu-bakar",
+ "intro": "1 pinggan tauhu bakar ada anggaran 300 kcal. Kebanyakan kalori datang daripada tauhu yang digoreng atau dibakar dengan minyak, dan kuah kacang.",
+ "protein_g": 14,
+ "carbs_g": 20,
+ "fat_g": 18,
+ "breakdown": [
+  {
+   "part": "Tauhu (digoreng/dibakar)",
+   "kcal": 150
+  },
+  {
+   "part": "Kuah kacang manis pedas",
+   "kcal": 120
+  },
+  {
+   "part": "Sayur (timun, taugeh, sengkuang)",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tauhu bakar kuah kacang lebih",
+   "kcal": 420
+  },
+  {
+   "name": "Tauhu sumbat goreng 1 pinggan",
+   "kcal": 380
+  },
+  {
+   "name": "Tauhu bakar + nasi putih 1 cawan",
+   "kcal": 500
+  },
+  {
+   "name": "Tauhu bakar kuah asing, guna separuh",
+   "kcal": 240
+  }
+ ],
+ "diet": "Boleh, tauhu bakar pilihan yang okay masa turun berat. Ia ada protein dari tauhu dan sayur segar. Kalori naik terutamanya dari kuah kacang dan minyak. Kawal kuah dan ia senang masuk dalam bajet kalori.",
+ "tips": [
+  "Minta kuah kacang diasingkan, cicah sikit-sikit dan tak perlu habiskan.",
+  "Minta lebih timun dan taugeh untuk isi pinggan.",
+  "Kalau masak di rumah, bakar tauhu dalam air fryer atau oven dengan sedikit minyak."
+ ],
+ "swap": {
+  "name": "Tauhu kukus/air fryer + sayur + kuah separuh",
+  "kcal": 220,
+  "why": "Kurang minyak dan kuah, tapi protein tauhu masih sama."
+ },
+ "faq": [
+  {
+   "q": "Tauhu bakar sesuai untuk vegetarian?",
+   "a": "Biasanya ya, tapi tanya dulu sebab sesetengah kuah ada udang kering atau belacan."
+  },
+  {
+   "q": "Tauhu bakar tinggi protein ke?",
+   "a": "Sederhana. 1 pinggan ada anggaran 14 g protein. Tambah telur rebus kalau nak lebih."
+  },
+  {
+   "q": "Kuah kacang tauhu bakar sama dengan kuah satay?",
+   "a": "Hampir sama, berasaskan kacang tanah, tapi kuah tauhu bakar biasanya lebih manis pedas dan ada kicap manis."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

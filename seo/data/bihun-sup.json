@@ -1,0 +1,70 @@
+{
+ "slug": "bihun-sup",
+ "intro": "Satu mangkuk bihun sup ada anggaran 300 kcal. Kebanyakan kalori datang dari bihun, manakala kuah jernih dan sayur hampir tidak menambah kalori.",
+ "protein_g": 15,
+ "carbs_g": 45,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Bihun 1 hidangan",
+   "kcal": 180
+  },
+  {
+   "part": "Ayam atau bebola ikan",
+   "kcal": 70
+  },
+  {
+   "part": "Kuah sup",
+   "kcal": 30
+  },
+  {
+   "part": "Sayur dan bawang goreng",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bihun sup tulang",
+   "kcal": 400
+  },
+  {
+   "name": "Bihun sup daging",
+   "kcal": 380
+  },
+  {
+   "name": "Tambah bebola ikan",
+   "kcal": 360
+  },
+  {
+   "name": "Kuey teow sup",
+   "kcal": 350
+  }
+ ],
+ "diet": "Ya, bihun sup antara pilihan paling mesra untuk turun berat di gerai. Kalori rendah dan kuahnya buat perut rasa penuh. Cuma protein agak sederhana, jadi mungkin cepat lapar. Tambah lauk protein supaya tahan sampai waktu makan seterusnya.",
+ "tips": [
+  "Tambah ayam, daging atau bebola ikan untuk protein lebih.",
+  "Minta sayur lebih seperti sawi dan taugeh.",
+  "Kurangkan bawang goreng dan sambal kicap kalau nak lebih ringan."
+ ],
+ "swap": {
+  "name": "Sup ayam dengan nasi separuh",
+  "kcal": 350,
+  "why": "Protein lebih tinggi dan masih guna kuah jernih yang mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Bihun diperbuat daripada apa?",
+   "a": "Bihun dibuat dari tepung beras dan air. Sebab itu teksturnya lebih ringan dari mee kuning."
+  },
+  {
+   "q": "Bihun sup sesuai untuk orang tak sihat?",
+   "a": "Ramai orang pilih bihun sup bila tak sedap badan sebab kuahnya ringan dan panas. Untuk nasihat kesihatan, rujuk doktor."
+  },
+  {
+   "q": "Apa beza bihun sup dan bihun sup tulang?",
+   "a": "Bihun sup tulang guna kuah yang direbus dari tulang lembu dan biasanya lebih berlemak dan berempah."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

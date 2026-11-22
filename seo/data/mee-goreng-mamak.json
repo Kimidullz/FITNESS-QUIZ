@@ -1,0 +1,70 @@
+{
+ "slug": "mee-goreng-mamak",
+ "intro": "Sepinggan mee goreng mamak ada anggaran 600 kcal. Kebanyakan kalori datang daripada mee kuning dan minyak yang banyak masa digoreng.",
+ "protein_g": 18,
+ "carbs_g": 80,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1.5 cawan",
+   "kcal": 280
+  },
+  {
+   "part": "Minyak, sos cili dan kicap",
+   "kcal": 180
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 80
+  },
+  {
+   "part": "Tauhu, udang sikit dan sayur",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee goreng mamak + telur mata",
+   "kcal": 690
+  },
+  {
+   "name": "Mee goreng mamak ayam",
+   "kcal": 700
+  },
+  {
+   "name": "Mee goreng basah",
+   "kcal": 560
+  },
+  {
+   "name": "Mee hoon goreng mamak",
+   "kcal": 520
+  }
+ ],
+ "diet": "Boleh, asalkan bukan setiap hari. 600 kcal untuk satu pinggan masih okay kalau makan lain hari tu lebih ringan. Masalahnya protein agak rendah, jadi cepat lapar balik. Pilih masa lunch dan seimbangkan dengan dinner yang banyak sayur dan protein.",
+ "tips": [
+  "Minta 'kurang minyak' masa order, ramai tukang masak mamak boleh buat.",
+  "Tambah telur rebus atau ayam untuk protein lebih, bukan telur mata goreng.",
+  "Minum teh o ais kosong atau air suam, bukan teh tarik."
+ ],
+ "swap": {
+  "name": "Mee hoon sup",
+  "kcal": 330,
+  "why": "Kuah sup, bukan goreng. Jimat hampir separuh kalori dan masih rasa mamak."
+ },
+ "faq": [
+  {
+   "q": "Apa beza mee goreng mamak dengan mee goreng biasa?",
+   "a": "Mee goreng mamak guna sos cili, kicap dan rempah kari sikit, plus kentang rebus atau tauhu. Rasa lebih pedas manis berbanding mee goreng Cina."
+  },
+  {
+   "q": "Kenapa mee goreng mamak ada kentang?",
+   "a": "Kentang rebus dihancurkan sikit masa goreng supaya mee jadi lebih pekat dan lembap. Ia memang ciri khas versi mamak."
+  },
+  {
+   "q": "Mee goreng mamak sesuai untuk sarapan?",
+   "a": "Boleh, tapi ia agak berat. Kalau makan pagi, buat lunch lebih ringan seperti nasi dengan lauk sayur dan ikan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

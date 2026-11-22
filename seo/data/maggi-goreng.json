@@ -1,0 +1,74 @@
+{
+ "slug": "maggi-goreng",
+ "intro": "Satu pinggan maggi goreng mamak ada anggaran 600 kcal. Kebanyakan kalori datang dari mi segera yang memang dah digoreng, ditambah minyak masa masak dan telur.",
+ "protein_g": 18,
+ "carbs_g": 72,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Mi segera (1-1.5 keping)",
+   "kcal": 280
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 135
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Kicap, sos dan cili",
+   "kcal": 60
+  },
+  {
+   "part": "Sayur dan ayam sikit",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Maggi goreng telur mata",
+   "kcal": 690
+  },
+  {
+   "name": "Maggi goreng ayam",
+   "kcal": 680
+  },
+  {
+   "name": "Maggi goreng kurang minyak",
+   "kcal": 520
+  },
+  {
+   "name": "Maggi goreng cheese",
+   "kcal": 720
+  }
+ ],
+ "diet": "Boleh, tapi jadikan ia makanan sekali-sekala, bukan rutin lepak malam. Kalori agak padat dan protein rendah, jadi cepat lapar semula. Kalau makan, pastikan itu hidangan utama, bukan supper tambahan selepas makan malam. Bahagi dua dengan kawan pun satu cara yang mudah.",
+ "tips": [
+  "Minta kurang minyak dan tambah sayur masa order.",
+  "Tambah telur rebus atau ayam untuk naikkan protein.",
+  "Pilih air kosong atau teh O ais kosong, bukan milo ais."
+ ],
+ "swap": {
+  "name": "Mee soto",
+  "kcal": 400,
+  "why": "Masih mi dan masih sedap, tapi tak digoreng, jadi lemak jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Kenapa maggi goreng mamak sedap sangat?",
+   "a": "Biasanya mamak guna minyak, kicap, sos cili dan rempah sendiri, dan masak dalam kuali panas. Itu yang beri rasa wangi dan sedikit hangit."
+  },
+  {
+   "q": "Maggi goreng boleh buat sendiri di rumah?",
+   "a": "Boleh. Rebus mi sekejap, toskan, kemudian goreng dengan bawang, sayur, telur dan sedikit kicap. Guna minyak sedikit sahaja."
+  },
+  {
+   "q": "Maggi goreng sesuai untuk supper?",
+   "a": "Ramai orang makan untuk supper, tapi ia agak berat. Kalau dah makan malam, lebih baik pilih sesuatu yang ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

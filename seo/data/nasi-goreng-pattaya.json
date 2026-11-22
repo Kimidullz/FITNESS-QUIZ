@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-goreng-pattaya",
+ "intro": "Sepinggan nasi goreng pattaya ada anggaran 700 kcal. Kalori datang daripada nasi goreng berminyak dan telur dadar yang membalutnya.",
+ "protein_g": 26,
+ "carbs_g": 80,
+ "fat_g": 31,
+ "breakdown": [
+  {
+   "part": "Nasi goreng 1.5 cawan (dengan minyak)",
+   "kcal": 430
+  },
+  {
+   "part": "Telur dadar balut (2 biji)",
+   "kcal": 180
+  },
+  {
+   "part": "Ayam dalam nasi",
+   "kcal": 60
+  },
+  {
+   "part": "Sos cili dan sos tomato",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng pattaya + ayam goreng",
+   "kcal": 950
+  },
+  {
+   "name": "Nasi goreng pattaya seafood",
+   "kcal": 720
+  },
+  {
+   "name": "Nasi goreng pattaya separuh pinggan",
+   "kcal": 400
+  },
+  {
+   "name": "Nasi goreng pattaya + teh ais",
+   "kcal": 830
+  }
+ ],
+ "diet": "Boleh, sesekali. Ini antara menu kedai tomyam yang paling tinggi kalori sebab nasi goreng dan telur dadar dua-dua guna minyak. Kalau nak makan, buat jadi makan utama hari tu dan pilih menu ringan untuk waktu lain. Kongsi dengan kawan pun satu cara.",
+ "tips": [
+  "Makan semua telur dan ayam, tinggalkan separuh nasi.",
+  "Kurangkan sos tomato dan sos cili, ia ada gula.",
+  "Pilih minuman kosong, bukan teh ais atau sirap."
+ ],
+ "swap": {
+  "name": "Telur dadar + tomyam ayam + nasi putih 1 cawan",
+  "kcal": 500,
+  "why": "Masih rasa kedai tomyam, tapi nasi tak digoreng dan protein lebih banyak."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama dia nasi goreng pattaya?",
+   "a": "Namanya diambil sempena Pattaya di Thailand. Ia popular di kedai tomyam Malaysia dan dikenali dengan balutan telur."
+  },
+  {
+   "q": "Macam mana nak balut telur pattaya supaya cantik?",
+   "a": "Dadar telur nipis dalam kuali, letak nasi di tengah, lipat tepi dan terbalikkan ke atas pinggan."
+  },
+  {
+   "q": "Nasi goreng pattaya pedas ke?",
+   "a": "Biasanya tidak terlalu pedas. Rasanya lebih ke manis masam daripada sos tomato dan sos cili."
+  }
+ ],
+ "check": "",
+ "problems": []
+}
