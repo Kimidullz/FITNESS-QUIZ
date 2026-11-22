@@ -96,6 +96,10 @@
   .intro{max-width:820px}
   .intro video.wide{width:100%;aspect-ratio:16/9;background:#000;border-radius:6px;display:block}
   .intro .vnote{max-width:820px}
+  #intro{padding-top:calc(var(--sc-gutter,16px) + 72px)}
+  .vwrap{position:relative}
+  .unmute{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#E30613;color:#fff;border:0;border-radius:999px;padding:.8rem 1.3rem;font:700 1rem Montserrat,sans-serif;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.5)}
+  .unmute[hidden]{display:none}
   .vlabel{font-size:var(--sc-t-lg,1.6rem);margin-bottom:1rem;line-height:1.1}
   .vnote{max-width:360px;margin-top:.6rem;font-size:var(--sc-t-xs);color:var(--sc-ink-soft)}
   .block+.block{margin-top:clamp(3rem,8vh,5rem)}
@@ -162,6 +166,17 @@
 </header>
 
 <main>
+  <!-- 0 INTRO: flow, first thing on the page; autoplays muted (Malay captions burned in). Jorge's 4-minute introduction to the opportunity. -->
+  <section id="intro" class="sc-section" data-sc-act="flow">
+    <div class="sc-wrap intro" data-sc-in>
+      <p class="pf vlabel" data-t="vlabel2"></p>
+      <div class="vwrap"><video id="jorgeVid" class="wide" autoplay muted playsinline controls preload="auto" poster="video/jorge-wdt-poster.jpg">
+        <source src="video/jorge-wdt-ms.mp4" type="video/mp4">
+      </video><button type="button" id="unmute" class="unmute" data-t="unmute"></button></div>
+      <p class="vnote" data-t="vnote2"></p>
+    </div>
+  </section>
+
   <!-- 1 CURIOSITY: pin. The promise lands whole, then the picker takes its place. -->
   <section id="a1" data-sc-act="pin" data-sc-span="1.9" data-sc-drift="#0B0B0B">
     <div data-sc-stage>
@@ -180,17 +195,6 @@
         <div class="types" id="types"></div>
         <p class="pickline" aria-live="polite"><span data-rw="pick"></span></p>
       </div>
-    </div>
-  </section>
-
-  <!-- 1b INTRO: flow. Jorge's 4-minute introduction to the opportunity. -->
-  <section id="intro" class="sc-section" data-sc-act="flow">
-    <div class="sc-wrap intro" data-sc-in>
-      <p class="pf vlabel" data-t="vlabel2"></p>
-      <video class="wide" controls playsinline preload="metadata" poster="video/jorge-wdt-poster.jpg">
-        <source src="video/jorge-wdt-ms.mp4" type="video/mp4">
-      </video>
-      <p class="vnote" data-t="vnote2"></p>
     </div>
   </section>
 
@@ -274,7 +278,7 @@ ms:{
   chipFor:"Untuk:", chipChange:"tukar", gapLabel:"Satu soalan untuk anda.",
   nextT:"Langkah seterusnya", pickTime:"Bila lebih sesuai?", otherTime:"Masa lain? Tanya di WhatsApp",
   slotHint:"Tekan satu masa. WhatsApp akan buka dengan mesej yang siap ditulis.",
-  vlabel1:"Apa coach buat", vlabel2:"Mula di sini: apa itu peluang ni?",
+  vlabel1:"Apa coach buat", unmute:"Tekan untuk bunyi", vlabel2:"Mula di sini: apa itu peluang ni?",
   vnote:"Video 80 saat: apa yang coach dapat dalam app (meal plan, resipi, senarai barang dapur, workout).",
   vnote2:"Video 4 minit dari Jorge, pengasas WeDoTransformations (sari kata Bahasa Melayu): apa itu WDT, kenapa Herbalife, dan cara coach dapat pendapatan. Angka dalam video dalam USD; untuk Malaysia, kami terangkan dalam Zoom. Keputusan setiap orang berbeza dan bergantung pada usaha.",
   whatT:"Apa ni sebenarnya?", whyT:"Kenapa bisnes ini", faqT:"Soalan biasa",
@@ -360,7 +364,7 @@ en:{
   chipFor:"For:", chipChange:"change", gapLabel:"One question for you.",
   nextT:"Next step", pickTime:"Which time suits you?", otherTime:"Another time? Ask on WhatsApp",
   slotHint:"Tap a time. WhatsApp opens with the message ready.",
-  vlabel1:"What coaches do", vlabel2:"Start here: what is this opportunity?",
+  vlabel1:"What coaches do", unmute:"Tap for sound", vlabel2:"Start here: what is this opportunity?",
   vnote:"80-second video (Malay captions): what coaches get in the app (meal plans, recipes, grocery lists, workouts).",
   vnote2:"4-minute video from Jorge, founder of WeDoTransformations (Malay captions): what WDT is, why Herbalife, and how coaches earn. Figures are in USD; for Malaysia we explain on Zoom. Results vary and depend on effort.",
   whatT:"So what is this, actually?", whyT:"Why this business", faqT:"Common questions",
@@ -511,6 +515,11 @@ document.querySelectorAll(".lang button").forEach(b => b.onclick = () => {
 });
 </script>
 <script src="sc/scrollcraft.js"></script>
-<script>ScrollCraft.mount(document.body);</script>
+<script>ScrollCraft.mount(document.body);
+(() => { const v = document.getElementById("jorgeVid"), b = document.getElementById("unmute"); if (!v || !b) return;
+  const p = v.play(); if (p && p.catch) p.catch(() => {});
+  const on = () => { v.muted = false; v.play().catch(() => {}); b.hidden = true; };
+  b.addEventListener("click", on); v.addEventListener("volumechange", () => { if (!v.muted) b.hidden = true; }); })();
+</script>
 </body>
 </html>
