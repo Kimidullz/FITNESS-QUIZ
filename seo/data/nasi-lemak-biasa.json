@@ -1,0 +1,74 @@
+{
+ "slug": "nasi-lemak-biasa",
+ "intro": "Sebungkus nasi lemak biasa ada anggaran 400 kcal. Kebanyakan kalori datang dari nasi santan dan minyak dalam sambal.",
+ "protein_g": 12,
+ "carbs_g": 50,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Nasi santan (bungkus kecil, ~1 cawan)",
+   "kcal": 230
+  },
+  {
+   "part": "Sambal 1 sudu besar",
+   "kcal": 60
+  },
+  {
+   "part": "Telur rebus 1/2 biji",
+   "kcal": 40
+  },
+  {
+   "part": "Ikan bilis goreng",
+   "kcal": 35
+  },
+  {
+   "part": "Kacang tanah goreng",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak biasa + telur goreng",
+   "kcal": 490
+  },
+  {
+   "name": "Nasi lemak bungkus besar",
+   "kcal": 550
+  },
+  {
+   "name": "Nasi lemak + sambal sotong",
+   "kcal": 520
+  },
+  {
+   "name": "Nasi lemak separuh nasi",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, nasi lemak biasa memang antara pilihan sarapan yang lebih senang dikawal. Saiz bungkus biasa sekitar 400 kcal, masih muat dalam kalori harian kebanyakan orang. Cuma protein dia rendah, jadi cepat lapar balik. Pasangkan dengan sumber protein dan jaga berapa kali seminggu, okay.",
+ "tips": [
+  "Minta tambah telur rebus, bukan telur goreng, untuk protein lebih tanpa minyak banyak.",
+  "Ambil sambal sikit sahaja, sebab minyak sambal tu yang naikkan kalori.",
+  "Minum kopi o atau teh o kosong, elakkan teh tarik manis bersama."
+ ],
+ "swap": {
+  "name": "Nasi lemak separuh nasi + telur rebus extra",
+  "kcal": 330,
+  "why": "Kurang nasi santan, protein naik, jadi lebih kenyang dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Nasi lemak sesuai untuk sarapan setiap hari ke?",
+   "a": "Boleh sekali-sekala, tapi lebih baik selang-selikan dengan sarapan lain seperti roti bakar telur atau thosai. Ini bantu kawal lemak dan garam harian."
+  },
+  {
+   "q": "Kenapa nasi lemak bungkus kecil cepat lapar?",
+   "a": "Sebab protein dan serat dia rendah. Tambah telur rebus atau makan dengan timun lebih untuk rasa kenyang lebih lama."
+  },
+  {
+   "q": "Nasi lemak santan kurang ke santan penuh lebih bagus?",
+   "a": "Santan kurang biasanya lebih rendah lemak, tapi beza dia tak besar sangat. Kawal saiz nasi dan sambal lagi beri kesan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

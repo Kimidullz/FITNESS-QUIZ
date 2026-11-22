@@ -1,0 +1,66 @@
+{
+ "slug": "roti-planta",
+ "intro": "Sekeping roti planta ada anggaran 420 kcal. Kebanyakan kalori datang dari doh roti canai dan marjerin yang disapu banyak, ditambah gula tabur.",
+ "protein_g": 7,
+ "carbs_g": 42,
+ "fat_g": 25,
+ "breakdown": [
+  {
+   "part": "Doh roti canai dengan minyak",
+   "kcal": 300
+  },
+  {
+   "part": "Marjerin 1-2 sudu besar",
+   "kcal": 100
+  },
+  {
+   "part": "Gula tabur",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti planta tanpa gula",
+   "kcal": 400
+  },
+  {
+   "name": "Roti bom",
+   "kcal": 450
+  },
+  {
+   "name": "Roti planta + susu pekat",
+   "kcal": 480
+  },
+  {
+   "name": "Roti planta telur",
+   "kcal": 500
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia sebagai treat, bukan sarapan biasa. Lemak dan gula dia tinggi, sedangkan protein rendah. Jadi cepat lapar walaupun kalori dah banyak. Sekali-sekala dengan minuman kosong, tak ada masalah.",
+ "tips": [
+  "Minta tanpa gula atau gula sikit untuk jimat kalori.",
+  "Kongsi sekeping dengan pasangan atau anak kalau sekadar nak rasa.",
+  "Pasangkan dengan telur separuh masak untuk tambah protein."
+ ],
+ "swap": {
+  "name": "Roti canai kosong + kuah dal",
+  "kcal": 360,
+  "why": "Tak ada marjerin dan gula tambahan, jadi lemak dan gula lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Roti planta dengan roti bom sama ke?",
+   "a": "Hampir sama. Roti bom biasanya lebih tebal dan kecil, disapu marjerin dan gula. Roti planta lebih nipis dan lebar."
+  },
+  {
+   "q": "Roti planta sesuai untuk budak-budak?",
+   "a": "Sesekali okay sebagai treat. Untuk sarapan harian, pilih yang ada protein seperti roti telur atau capati dengan dal."
+  },
+  {
+   "q": "Roti planta dimakan dengan kuah ke?",
+   "a": "Ramai makan begitu sahaja sebab rasa manis. Ada juga yang cicah kuah kari untuk rasa manis masin."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

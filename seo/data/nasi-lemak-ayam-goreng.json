@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-lemak-ayam-goreng",
+ "intro": "Sepinggan nasi lemak ayam goreng ada anggaran 650 kcal. Kalori paling banyak datang dari nasi santan dan ayam goreng yang menyerap minyak, terutama bahagian kulit.",
+ "protein_g": 30,
+ "carbs_g": 65,
+ "fat_g": 30,
+ "breakdown": [
+  {
+   "part": "Nasi santan 1 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Ayam goreng 1 ketul (peha)",
+   "kcal": 250
+  },
+  {
+   "part": "Sambal 1 senduk kecil",
+   "kcal": 70
+  },
+  {
+   "part": "Telur rebus 1/2, ikan bilis, kacang",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam goreng bahagian dada",
+   "kcal": 600
+  },
+  {
+   "name": "Buang kulit ayam",
+   "kcal": 560
+  },
+  {
+   "name": "Ayam goreng berempah dengan rempah tabur",
+   "kcal": 720
+  },
+  {
+   "name": "Tambah telur goreng",
+   "kcal": 740
+  }
+ ],
+ "diet": "Boleh, tapi ini dah kira satu hidangan besar. Kalau makan tengah hari, malam nanti pilih yang lebih ringan. Bagusnya, protein dari ayam bantu kenyang lebih lama. Kuncinya kawal kulit ayam, sambal dan berapa kali seminggu.",
+ "tips": [
+  "Buang kulit ayam goreng, boleh jimat sekitar 80-100 kcal.",
+  "Pilih ketul dada ayam kalau ada, protein lebih tinggi dan lemak lebih rendah.",
+  "Minta nasi kurang dan tambah timun atau ulam di tepi."
+ ],
+ "swap": {
+  "name": "Nasi lemak ayam bakar / ayam panggang",
+  "kcal": 520,
+  "why": "Ayam tak digoreng, jadi kurang minyak tapi protein tetap tinggi."
+ },
+ "faq": [
+  {
+   "q": "Ayam goreng peha atau dada lebih okay untuk diet?",
+   "a": "Dada lebih tinggi protein dan rendah lemak. Peha lebih juicy tapi lemak lebih tinggi. Dua-dua boleh, asalkan kulit dibuang."
+  },
+  {
+   "q": "Rempah tabur ayam goreng tu ada kalori ke?",
+   "a": "Ada, sebab rempah tu digoreng dan menyerap minyak. Kalau nak jimat kalori, kurangkan rempah tabur."
+  },
+  {
+   "q": "Boleh makan nasi lemak ayam goreng waktu malam?",
+   "a": "Boleh, waktu makan tak menentukan berat badan. Yang penting jumlah kalori sehari. Cuma kalau dah makan berat tengah hari, malam pilih yang ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

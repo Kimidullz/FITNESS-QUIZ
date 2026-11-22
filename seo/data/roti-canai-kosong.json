@@ -1,0 +1,66 @@
+{
+ "slug": "roti-canai-kosong",
+ "intro": "Sekeping roti canai kosong ada anggaran 300 kcal, belum termasuk kuah. Kalori datang dari tepung dan minyak atau marjerin yang digunakan masa menguli dan menebar.",
+ "protein_g": 7,
+ "carbs_g": 40,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Doh tepung gandum",
+   "kcal": 170
+  },
+  {
+   "part": "Minyak / marjerin dalam doh",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak masa tebar dan masak",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti canai + kuah dal 1 senduk",
+   "kcal": 360
+  },
+  {
+   "name": "Roti canai + kuah kari campur",
+   "kcal": 370
+  },
+  {
+   "name": "Roti bawang",
+   "kcal": 340
+  },
+  {
+   "name": "Roti canai 2 keping",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, sekeping roti canai masih muat dalam bajet kalori kebanyakan orang. Masalahnya, protein rendah dan ramai order dua keping dengan teh tarik. Satu keping dengan kuah dal dan minuman kosong adalah pilihan yang okay. Tambah protein supaya tak lapar sebelum tengah hari.",
+ "tips": [
+  "Order satu keping sahaja, tambah telur separuh masak atau telur rebus untuk protein.",
+  "Pilih kuah dal berbanding kuah kari yang lebih berminyak.",
+  "Tukar teh tarik ke teh o kosong atau kopi o kurang manis."
+ ],
+ "swap": {
+  "name": "Capati + kuah dal",
+  "kcal": 190,
+  "why": "Capati dimasak tanpa banyak minyak, jadi kalori jauh lebih rendah dengan rasa mamak yang sama."
+ },
+ "faq": [
+  {
+   "q": "Roti canai dibuat guna minyak apa?",
+   "a": "Kebanyakan kedai guna campuran minyak sayur, marjerin atau ghee. Itu yang beri tekstur rangup dan lembut."
+  },
+  {
+   "q": "Roti canai sesuai untuk sarapan sebelum workout?",
+   "a": "Boleh, tapi beri masa 1-2 jam untuk hadam sebab agak berminyak. Kalau nak ringan, capati atau thosai lebih selesa."
+  },
+  {
+   "q": "Kuah dal atau kuah kari lebih baik?",
+   "a": "Kuah dal biasanya kurang minyak dan ada sedikit protein dari kekacang. Kuah kari lebih berminyak terutama yang ada santan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

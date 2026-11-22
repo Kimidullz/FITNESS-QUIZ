@@ -1,0 +1,66 @@
+{
+ "slug": "thosai-kosong",
+ "intro": "Sekeping thosai kosong ada anggaran 170 kcal. Kebanyakan kalori datang dari adunan beras dan kacang urad dal, dengan sedikit minyak atau ghee masa masak.",
+ "protein_g": 5,
+ "carbs_g": 30,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Beras dalam adunan",
+   "kcal": 110
+  },
+  {
+   "part": "Kacang urad dal",
+   "kcal": 35
+  },
+  {
+   "part": "Minyak / ghee sapu",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Thosai + chutney kelapa",
+   "kcal": 230
+  },
+  {
+   "name": "Thosai rava",
+   "kcal": 250
+  },
+  {
+   "name": "Thosai telur",
+   "kcal": 260
+  },
+  {
+   "name": "Thosai masala",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, thosai kosong antara pilihan paling ringan di kedai mamak. Kalori rendah dan kurang minyak berbanding roti canai. Cuma protein dia rendah, jadi tambah telur atau dal. Hati-hati dengan chutney kelapa yang boleh tambah kalori.",
+ "tips": [
+  "Order thosai telur kalau nak protein lebih tanpa banyak minyak.",
+  "Cicah dengan sambar atau kuah dal, kurangkan chutney kelapa.",
+  "Minta kurang ghee kalau kedai sapu banyak."
+ ],
+ "swap": {
+  "name": "Thosai telur",
+  "kcal": 260,
+  "why": "Kalori naik sedikit, tapi protein telur buat anda kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Thosai diperbuat dari apa?",
+   "a": "Adunan beras dan kacang urad dal yang diperam semalaman. Proses peram tu yang beri rasa masam sikit dan tekstur ringan."
+  },
+  {
+   "q": "Thosai dengan idli apa beza?",
+   "a": "Dua-dua guna adunan yang hampir sama. Thosai dimasak nipis atas kuali, idli dikukus jadi lembut dan tebal."
+  },
+  {
+   "q": "Chutney mana paling ringan untuk thosai?",
+   "a": "Chutney tomato atau sambar biasanya lebih ringan. Chutney kelapa lebih tinggi lemak sebab guna kelapa parut."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

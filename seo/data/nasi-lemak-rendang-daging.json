@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-lemak-rendang-daging",
+ "intro": "Sepinggan nasi lemak rendang daging ada anggaran 700 kcal. Kebanyakan kalori datang dari nasi santan dan kuah rendang yang pekat dengan santan dan minyak.",
+ "protein_g": 28,
+ "carbs_g": 68,
+ "fat_g": 35,
+ "breakdown": [
+  {
+   "part": "Nasi santan 1 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Rendang daging 3-4 ketul dengan kuah",
+   "kcal": 300
+  },
+  {
+   "part": "Sambal 1 senduk kecil",
+   "kcal": 70
+  },
+  {
+   "part": "Telur rebus 1/2, ikan bilis, kacang",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak rendang ayam",
+   "kcal": 650
+  },
+  {
+   "name": "Rendang daging kuah sikit",
+   "kcal": 620
+  },
+  {
+   "name": "Tambah telur goreng",
+   "kcal": 790
+  },
+  {
+   "name": "Tambah nasi",
+   "kcal": 820
+  }
+ ],
+ "diet": "Boleh, tapi anggap ini hidangan yang padat kalori. Daging beri protein yang bagus, tapi kuah rendang tu banyak lemak. Sesuai untuk sekali-sekala, contohnya hujung minggu. Hari biasa, pilih lauk yang tak bersantan.",
+ "tips": [
+  "Ambil ketul daging, kurangkan kuah rendang yang berminyak.",
+  "Skip sambal sebab rendang pun dah cukup rasa.",
+  "Minta nasi separuh dan tambah timun atau ulam."
+ ],
+ "swap": {
+  "name": "Nasi putih + rendang daging kuah sikit + ulam",
+  "kcal": 520,
+  "why": "Tukar nasi santan ke nasi putih dan kurang kuah, protein daging masih dapat."
+ },
+ "faq": [
+  {
+   "q": "Rendang daging tinggi kolesterol ke?",
+   "a": "Daging dan santan ada lemak tepu. Makan sekali-sekala dalam portion sederhana biasanya okay. Kalau ada masalah kesihatan, rujuk doktor anda."
+  },
+  {
+   "q": "Rendang ayam atau daging lebih ringan?",
+   "a": "Rendang ayam biasanya sedikit lebih rendah lemak, terutama kalau kulit dibuang. Tapi kuah tetap faktor utama."
+  },
+  {
+   "q": "Rendang tahan berapa lama dalam peti sejuk?",
+   "a": "Biasanya 3-4 hari dalam bekas tertutup dalam peti sejuk. Panaskan sampai betul-betul panas sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "capati",
+ "intro": "Sekeping capati ada anggaran 120 kcal, belum termasuk kuah. Kebanyakan kalori datang dari tepung atta, dengan sedikit minyak atau ghee.",
+ "protein_g": 4,
+ "carbs_g": 20,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Tepung atta (~30 g)",
+   "kcal": 100
+  },
+  {
+   "part": "Minyak sikit dalam doh",
+   "kcal": 10
+  },
+  {
+   "part": "Ghee / minyak sapu atas",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Capati sapu ghee banyak",
+   "kcal": 160
+  },
+  {
+   "name": "Capati + kuah dal",
+   "kcal": 190
+  },
+  {
+   "name": "Capati + kari ayam",
+   "kcal": 370
+  },
+  {
+   "name": "Capati 2 keping + dal",
+   "kcal": 310
+  }
+ ],
+ "diet": "Boleh, capati memang antara pilihan terbaik di kedai mamak bila nak turun berat. Dimasak hampir tanpa minyak, jadi kalori rendah. Yang perlu jaga ialah kuah dan lauk yang dipasangkan. Tambah protein seperti ayam tandoori atau dal supaya lebih kenyang.",
+ "tips": [
+  "Pasangkan dengan ayam tandoori atau dal untuk protein.",
+  "Minta tak sapu ghee atau ghee sikit sahaja.",
+  "Ambil kuah dal berbanding kuah kari bersantan yang berminyak."
+ ],
+ "swap": {
+  "name": "Capati + ayam tandoori + dal",
+  "kcal": 360,
+  "why": "Sarapan atau makan tengah hari yang tinggi protein tapi kalori masih terkawal."
+ },
+ "faq": [
+  {
+   "q": "Capati lebih baik dari nasi untuk diet?",
+   "a": "Tak semestinya. Dua-dua sumber karbohidrat. Capati senang dikawal portion sebab dikira ikut keping."
+  },
+  {
+   "q": "Tepung atta tu wholemeal ke?",
+   "a": "Ya, atta ialah tepung gandum penuh, jadi ada lebih serat dari tepung biasa."
+  },
+  {
+   "q": "Boleh buat capati sendiri di rumah?",
+   "a": "Boleh, cuma perlukan tepung atta, air dan garam sikit. Masak atas kuali leper tanpa minyak, mudah untuk meal prep."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "roti-telur",
+ "intro": "Sekeping roti telur ada anggaran 400 kcal, belum termasuk kuah. Kalori utama datang dari doh roti canai dan minyak, dengan telur menambah protein.",
+ "protein_g": 14,
+ "carbs_g": 42,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Doh roti canai dengan minyak",
+   "kcal": 300
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Minyak tambahan masa masak",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti telur bawang",
+   "kcal": 430
+  },
+  {
+   "name": "Roti telur + kuah dal",
+   "kcal": 460
+  },
+  {
+   "name": "Roti sardin",
+   "kcal": 450
+  },
+  {
+   "name": "Roti double telur",
+   "kcal": 480
+  }
+ ],
+ "diet": "Boleh, dan roti telur sebenarnya pilihan lebih baik dari dua keping roti kosong. Telur beri protein yang bantu rasa kenyang. Satu keping dengan kuah dal dan minuman kosong cukup untuk sarapan. Cuma jangan jadikan menu harian setiap pagi.",
+ "tips": [
+  "Pilih roti telur satu keping berbanding roti kosong dua keping.",
+  "Ambil kuah dal, elakkan kuah kari bersantan.",
+  "Tambah telur rebus atau air suam, bukan minuman manis."
+ ],
+ "swap": {
+  "name": "Thosai telur",
+  "kcal": 260,
+  "why": "Protein telur masih ada, tapi thosai guna kurang minyak dari roti canai."
+ },
+ "faq": [
+  {
+   "q": "Roti telur atau roti canai kosong lebih okay untuk diet?",
+   "a": "Satu roti telur lebih mengenyangkan dari satu roti kosong sebab ada protein. Ini bantu elak snacking awal."
+  },
+  {
+   "q": "Roti double telur berbaloi tak?",
+   "a": "Kalau nak protein lebih, boleh. Tapi kalori naik sekitar 80 kcal, jadi kira dalam bajet harian anda."
+  },
+  {
+   "q": "Boleh minta roti telur kurang minyak?",
+   "a": "Boleh cuba minta tukang roti kurangkan minyak masa masak. Ada kedai yang okay je, terutama kalau anda regular."
+  }
+ ],
+ "check": "",
+ "problems": []
+}
