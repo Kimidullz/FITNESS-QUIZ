@@ -2,13 +2,13 @@
 
   python seo/build.py        -> kalori/index.html, kalori/<slug>/index.html, sitemap.xml, robots.txt
 
-PUBLISH = False keeps the pages out of Google (noindex, no sitemap) until Kimi approves them.
+PUBLISH = True keeps the pages out of Google (noindex, no sitemap) until Kimi approves them.
 """
 import html
 import json
 import pathlib
 
-PUBLISH = False
+PUBLISH = True
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SEO = ROOT / "seo"
