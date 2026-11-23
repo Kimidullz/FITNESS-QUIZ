@@ -1,5 +1,5 @@
 """Third batch of pages (no API): wanita/<slug>/ guides for working women (Coach Zara's audience).
-PUBLISH3 = False keeps them noindex and out of the sitemap until Kimi approves.
+PUBLISH3 = True keeps them noindex and out of the sitemap until Kimi approves.
 """
 import json
 import pathlib
@@ -10,7 +10,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import build2  # noqa: E402
 from build import BASE, E  # noqa: E402
 
-PUBLISH3 = False
+PUBLISH3 = True
 build2.PUBLISH2 = PUBLISH3  # head() reads this for the noindex tag
 SEO = build2.SEO
 ZARA = build2.COACH["f"][1]
