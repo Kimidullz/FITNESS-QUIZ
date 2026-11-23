@@ -217,6 +217,10 @@
   .up-times{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
   .up-times button{padding:9px 12px;border:2px solid var(--line);border-radius:99px;background:#fff;font:inherit;font-size:14px;font-weight:700;cursor:pointer;color:var(--ink)}
   .up-times button.sel{border-color:var(--ink);background:var(--ink);color:#fff}
+  .up-times button:disabled{opacity:.45;text-decoration:line-through;cursor:not-allowed}
+  .up-slotday{display:flex;flex-wrap:wrap;align-items:center;gap:8px;width:100%}
+  .up-confirm{width:100%;margin:2px 0 0;font-size:13px;color:var(--muted)}
+  .up-slotday span{flex-basis:100%;font-size:13px;font-weight:700;color:var(--muted,#666)}
   .up-hard{width:100%;font:inherit;font-size:15px;padding:10px 12px;border:2px solid var(--line);border-radius:8px;margin:0 0 14px;box-sizing:border-box}
   .up-day{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
   .up-day h4{margin:0 0 6px;font-size:15px}.up-day ul{margin:0;padding-left:18px}.up-day li{margin:3px 0}
@@ -836,7 +840,9 @@ const CONFIG = {
     m: { name:"Coach Kimi", whatsapp:"60127040268", label:{en:"👨 Male coach",ms:"👨 Coach lelaki"}, pref:{en:"Male coach",ms:"Coach lelaki"} },
     f: { name:"Coach Zara", whatsapp:"60123520097", label:{en:"👩 Female coach",ms:"👩 Coach perempuan"}, pref:{en:"Female coach",ms:"Coach perempuan"} }
   },
-  funnel: false,   // true = log quiz start / halfway / result to the Sheet "Funnel" tab (needs quiz-funnel snippet in Apps Script)
+  funnel: false,
+  booking: false,  // true = call slots someone booked show as Penuh for everyone (needs the quiz-funnel snippet with listSlots/saveSlot in Apps Script)
+  slotTimes: ["13:00","20:30","21:30"], slotDays: 3,   // call slots, Malaysia time; a slot closes 2 hours before   // true = log quiz start / halfway / result to the Sheet "Funnel" tab (needs quiz-funnel snippet in Apps Script)
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
 // where the visitor came from: ?src=tiktok / ig / threads on the bio link, else the app's in-app browser, else "website"
@@ -1372,7 +1378,7 @@ function applyLang(){
   Object.keys(CONFIG.coaches).forEach(k=>{
     const b = document.createElement("button");
     b.textContent = L(CONFIG.coaches[k].label); b.dataset.c = k; if(k===coach) b.classList.add("sel");
-    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); if(UP){ upVoice(); upStory(isGain()); } };
+    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); if(UP){ upTimes(); upVoice(); upStory(isGain()); } updateWa(); };
     $("coachpick").appendChild(b);
   });
   if(view==="quiz") render();
@@ -1526,7 +1532,12 @@ function showResult(relang){
 const UP = true;   // live since 23 Nov 2026 (Kimi: "Go: both quizzes")
 const UPT = {
   timeH:{ms:"Bila senang untuk call 15 minit dengan coach?",en:"When suits you for a 15-minute call with your coach?"},
-  times:[{ms:"Malam ni, 9pm",en:"Tonight, 9pm"},{ms:"Esok tengah hari, 1pm",en:"Tomorrow, 1pm"},{ms:"Esok malam, 9pm",en:"Tomorrow, 9pm"},{ms:"Chat dulu",en:"Chat first"}],
+  extra:[{ms:"Bincang masa call dengan %C% dulu",en:"Agree a call time with %C% first"},{ms:"Chat dulu",en:"Chat first"}],
+  confirm:{ms:"Masa ni belum muktamad. %C% akan sahkan dengan anda dulu di WhatsApp.",en:"This time isn't final yet. %C% will confirm it with you on WhatsApp first."},
+  waConfirm:{ms:"(tunggu coach sahkan)",en:"(waiting for coach to confirm)"},
+  full:{ms:"Penuh",en:"Booked"}, today:{ms:"Hari ni",en:"Today"}, tmrw:{ms:"Esok",en:"Tomorrow"},
+  dow:{ms:["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"],en:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},
+  mon:{ms:["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"],en:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},
   hardH:{ms:"Apa paling susah untuk anda sekarang? (tak wajib)",en:"What's hardest for you right now? (optional)"},
   hardPh:{ms:"Contoh: lapar malam, tak ada masa masak",en:"e.g. late-night hunger, no time to cook"},
   waTime:{ms:"Masa call",en:"Call time"}, waHard:{ms:"Paling susah",en:"Hardest part"},
@@ -1545,7 +1556,7 @@ const UP_LINKS = {
 };
 // client story that matches the goal (loss path only)
 const UP_STORY = {0:["11kg","nurse"],1:["68-58","nurse"],2:["eka","alya"],3:["alya","eka"],5:["sakeenah","nurse"]};
-let upTime = null, upWeak = "none", STARTER = null;
+let upTime = null, upTaken = new Set(), upWeak = "none", STARTER = null;
 // WDT 21-Day Challenge stories (Kimi, 23 Nov): picked by coach (men/women) + goal; img/story/<id>-<view>.jpg
 const UP_WDT = {
   teodora:{name:"Teodora", coach:"Katina Nedeva",
@@ -1556,6 +1567,40 @@ const UP_WDT = {
     why:{ms:"Perut besar dan banyak berat nak turun. Dalam 21 hari perut nampak lebih kecil dan badan lebih tegap.",en:"A big belly and a lot of weight to lose. In 21 days his belly looks smaller and his frame stronger."}}
 };
 const UP_VIEWS=[["front",{ms:"Depan",en:"Front"}],["side",{ms:"Sisi",en:"Side"}],["back",{ms:"Belakang",en:"Back"}]];
+// call slots: next CONFIG.slotDays days in Malaysia time; upTime = slot id "YYYY-MM-DD HH:MM" or "x0"/"x1" (extra options)
+function upSlots(){
+  const now=Date.now(), t=new Date(now+8*3600e3), days=[];
+  for(let d=0; days.length<CONFIG.slotDays && d<7; d++){
+    const day=new Date(Date.UTC(t.getUTCFullYear(),t.getUTCMonth(),t.getUTCDate()+d)), ymd=day.toISOString().slice(0,10);
+    const slots=CONFIG.slotTimes.map(hm=>{ const [h,m]=hm.split(":").map(Number);
+      return {id:ymd+" "+hm, at:Date.UTC(day.getUTCFullYear(),day.getUTCMonth(),day.getUTCDate(),h-8,m), h, m}; }).filter(x=>x.at-now>=2*3600e3);
+    if(slots.length) days.push({d, day, slots});
+  }
+  return days;
+}
+const upHm=(h,m)=>`${h%12||12}${m?"."+String(m).padStart(2,"0"):""}${h<12?"am":"pm"}`;
+const upDayName=(day,d,full)=>{ const dn=`${L(UPT.dow)[day.getUTCDay()]} ${day.getUTCDate()} ${L(UPT.mon)[day.getUTCMonth()]}`;
+  return full||d>1 ? dn : `${L(d?UPT.tmrw:UPT.today)} · ${dn}`; };
+const upCoachName=()=> coach ? CONFIG.coaches[coach].name : (LANG==="en"?"your coach":"coach");
+const upIsTaken=id=> coach ? upTaken.has(id+"|"+coach) : (upTaken.has(id+"|m") && upTaken.has(id+"|f"));
+function upCallLabel(){
+  if(upTime===null) return "";
+  if(upTime[0]==="x") return L(UPT.extra[+upTime[1]]).replace("%C%",upCoachName());
+  const [ymd,hm]=upTime.split(" "), day=new Date(ymd+"T00:00:00Z"), [h,m]=hm.split(":").map(Number);
+  return `${upDayName(day,2,true)}, ${upHm(h,m)} ${L(UPT.waConfirm)}`;
+}
+function upTimes(){
+  const days=upSlots(), ids=days.flatMap(x=>x.slots.map(s=>s.id));
+  if(upTime && upTime[0]!=="x" && (!ids.includes(upTime) || upIsTaken(upTime))) upTime=null;
+  $("up-times").innerHTML=days.map(x=>`<div class="up-slotday"><span>${upDayName(x.day,x.d)}</span>${x.slots.map(s=>{ const tk=upIsTaken(s.id);
+      return `<button type="button" data-k="${s.id}" class="${upTime===s.id?"sel":""}"${tk?" disabled":""}>${upHm(s.h,s.m)}${tk?" · "+L(UPT.full):""}</button>`; }).join("")}</div>`).join("")
+    + `<div class="up-slotday">${UPT.extra.map((x,k)=>`<button type="button" data-k="x${k}" class="${upTime==="x"+k?"sel":""}">${L(x).replace("%C%",upCoachName())}</button>`).join("")}</div>`
+    + `<p class="up-confirm">${L(UPT.confirm).replace("%C%",upCoachName()).replace(/(^|\. )([a-z])/g,(m,a,b)=>a+b.toUpperCase())}</p>`;
+}
+function upLoadTaken(){
+  if(!CONFIG.booking || !CONFIG.sheetUrl) return;
+  fetch(CONFIG.sheetUrl+"?type=slots").then(r=>r.json()).then(j=>{ upTaken=new Set((j&&j.taken)||[]); if(view==="result"){ upTimes(); updateWa(); } }).catch(()=>{});
+}
 function upWdtPick(gain){
   if(gain || !coach) return null;
   if(coach==="m") return "sanjay";
@@ -1599,7 +1644,7 @@ function upResult(gain, weakest, weakestPct){
   upWeak = weakestPct ? weakest : "none";
   $("up-ask").hidden=false;
   $("up-timeH").textContent=L(UPT.timeH); $("up-hardH").textContent=L(UPT.hardH); $("up-hard").placeholder=L(UPT.hardPh);
-  $("up-times").innerHTML=UPT.times.map((x,k)=>`<button type="button" data-k="${k}" class="${upTime===k?"sel":""}">${L(x)}</button>`).join("");
+  upTimes(); upLoadTaken();
   upStory(gain); upVoice();
   let worst=null; QUESTIONS.forEach((q,k)=>{ if(q.type!=="score") return; const s=q.a[answers[k]].s; if(s && (!worst||s>worst.s)) worst={k,a:answers[k],s}; });
   upStarter((gain?"gain":"loss")+"|"+answers[0]+"|"+(worst?worst.k+"|"+worst.a:"none"));
@@ -1607,14 +1652,14 @@ function upResult(gain, weakest, weakestPct){
 function upSheet(){
   if(!UP) return {};
   const h=($("up-hard").value||"").trim().replace(/\s+/g," ");
-  return {call: upTime!==null ? L(UPT.times[upTime]) : "", hard: h};
+  return {call: upCallLabel(), hard: h, ...(upTime && upTime[0]!=="x" && coach ? {slot: upTime+"|"+coach} : {})};
 }
 function upLines(){
   if(!UP) return [];
   const h=($("up-hard").value||"").trim().replace(/\s+/g," ");
-  return [upTime!==null?`${L(UPT.waTime)}: ${L(UPT.times[upTime])}`:null, h?`${L(UPT.waHard)}: ${h}`:null].filter(Boolean);
+  return [upTime!==null?`${L(UPT.waTime)}: ${upCallLabel()}`:null, h?`${L(UPT.waHard)}: ${h}`:null].filter(Boolean);
 }
-$("up-times").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b) return; upTime=+b.dataset.k;
+$("up-times").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b||b.disabled) return; upTime=b.dataset.k;
   document.querySelectorAll("#up-times button").forEach(x=>x.classList.toggle("sel",x===b)); updateWa();});
 $("up-hard").addEventListener("input",()=>updateWa());
 
