@@ -40,7 +40,7 @@ jobs:
           esac
       - name: Build pages
         if: always()
-        run: python seo/build.py
+        run: python seo/build.py && python seo/build2.py
       - name: Keep private plans as a download (not committed)
         if: always() && hashFiles('private-out/plans.json') != ''
         uses: actions/upload-artifact@v4
@@ -53,7 +53,7 @@ jobs:
         run: |
           git config user.name "api-build"
           git config user.email "api-build@users.noreply.github.com"
-          for f in seo/data seo/data-en seo/exercises seo/ramadan.json results kalori calories senaman ramadan sitemap.xml; do [ -e "$f" ] && git add -A "$f" || true; done
+          for f in seo/data seo/data-en seo/exercises seo/ramadan.json results kalori calories senaman ramadan semak workout sitemap.xml; do [ -e "$f" ] && git add -A "$f" || true; done
           git diff --cached --quiet && exit 0
           git commit -m "API build: ${{ inputs.job }}"
           git pull --rebase && git push
