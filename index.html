@@ -203,6 +203,17 @@
   .steps strong{display:block}
   .all-inc{font-size:14px;margin-top:14px;background:var(--bg);border-radius:6px;padding:12px 14px;border-left:4px solid #111}
   .all-inc strong{display:block;margin-bottom:4px}
+  .up-card{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px;margin:0 0 16px}
+  .up-card img{width:72px;height:96px;object-fit:cover;border-radius:6px;flex:none}
+  .up-card b{display:block}.up-card small{color:var(--muted)}.up-card q{display:block;font-size:14px;margin-top:4px}
+  .up-voice{background:#111;color:#fff;border-radius:10px;padding:12px 14px;margin:0 0 14px;font-size:15px;line-height:1.5}
+  .up-voice a{color:#FFD200;font-weight:700}
+  .up-times{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+  .up-times button{padding:9px 12px;border:2px solid var(--line);border-radius:99px;background:#fff;font:inherit;font-size:14px;font-weight:700;cursor:pointer;color:var(--ink)}
+  .up-times button.sel{border-color:var(--ink);background:var(--ink);color:#fff}
+  .up-hard{width:100%;font:inherit;font-size:15px;padding:10px 12px;border:2px solid var(--line);border-radius:8px;margin:0 0 14px;box-sizing:border-box}
+  .up-day{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  .up-day h4{margin:0 0 6px;font-size:15px}.up-day ul{margin:0;padding-left:18px}.up-day li{margin:3px 0}
   .coach-note{font-size:15.5px;line-height:1.55;background:#FFF8D6;border-left:5px solid var(--yellow);border-radius:8px;padding:12px 14px;margin:-4px 0 16px;color:var(--ink)}
   .tell-goal{font-size:15px;background:var(--bg);border-radius:6px;padding:12px 14px;margin-bottom:12px}
   .tell{list-style:none;display:grid;gap:10px}
@@ -587,6 +598,7 @@
           <h1 id="r-title"></h1>
           <p class="lead" id="r-text"></p>
           <p class="coach-note" id="r-note" hidden></p>
+          <div class="up-card" id="up-story" hidden></div>
 
           <div class="section">
             <h3 id="cta-title"></h3>
@@ -594,6 +606,13 @@
             <a class="btn" id="kit-first" href="#kalori" data-t="kitFirstBtn" style="margin-bottom:20px" hidden></a>
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
+            <div id="up-ask" hidden>
+              <div class="up-voice" id="up-voice" hidden></div>
+              <p class="pick-label" id="up-timeH"></p>
+              <div class="up-times" id="up-times"></div>
+              <p class="pick-label" id="up-hardH"></p>
+              <input class="up-hard" id="up-hard" maxlength="160" autocomplete="off">
+            </div>
             <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
             <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px;font-weight:700;color:var(--ink)"></p>
@@ -614,6 +633,12 @@
             <h3 data-t="tellH"></h3>
             <p class="tell-goal" id="tell-goal"></p>
             <ul class="tell" id="tell"></ul>
+          </div>
+
+          <div class="section" id="up-starter" hidden>
+            <h3 id="up-starterH"></h3>
+            <div id="up-days"></div>
+            <p class="meta-s" id="up-day3"></p>
           </div>
 
           <div class="section">
@@ -805,6 +830,7 @@ const CONFIG = {
     m: { name:"Coach Kimi", whatsapp:"60127040268", label:{en:"👨 Male coach",ms:"👨 Coach lelaki"}, pref:{en:"Male coach",ms:"Coach lelaki"} },
     f: { name:"Coach Zara", whatsapp:"60123520097", label:{en:"👩 Female coach",ms:"👩 Coach perempuan"}, pref:{en:"Female coach",ms:"Coach perempuan"} }
   },
+  funnel: false,   // true = log quiz start / halfway / result to the Sheet "Funnel" tab (needs quiz-funnel snippet in Apps Script)
   sheetUrl: "https://script.google.com/macros/s/AKfycbzVA9DJ61_K5eopg_FUl_XJhPNcfAcYsSWvABGqG0T2RYFm4b5G7RR--fcg7nuKtj8xbQ/exec"  // saves each lead to the tracker Leads tab first (empty = off)
 };
 // where the visitor came from: ?src=tiktok / ig / threads on the bio link, else the app's in-app browser, else "website"
@@ -1340,7 +1366,7 @@ function applyLang(){
   Object.keys(CONFIG.coaches).forEach(k=>{
     const b = document.createElement("button");
     b.textContent = L(CONFIG.coaches[k].label); b.dataset.c = k; if(k===coach) b.classList.add("sel");
-    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); };
+    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); updateWa(); if(UP) upVoice(); };
     $("coachpick").appendChild(b);
   });
   if(view==="quiz") render();
@@ -1400,7 +1426,7 @@ function render(){
     const b = document.createElement("button");
     b.className = "opt"+(answers[i]===idx?" sel":"");
     b.textContent = L(opt);
-    b.onclick = ()=>{ if(locked) return; locked = true; answers[i]=idx;
+    b.onclick = ()=>{ if(locked) return; locked = true; answers[i]=idx; if(i===0) funnel("start"); if(i===Math.floor(QUESTIONS.length/2)) funnel("half");
       if(i===0){ const nq = opt.v==="gain" ? Q_GAIN : Q_LOSS; if(nq!==QUESTIONS){ QUESTIONS = nq; answers.length = 1; } }   // Q1 picks the path; a new path clears Q2-Q10
       b.classList.add("sel"); setTimeout(next,180); };
     $("opts").appendChild(b);
@@ -1470,6 +1496,7 @@ function showResult(relang){
   $("share").href = shareLink(gain);
 
   coachNote((gain ? "gain" : ans("goal").v) + "|" + answers[1] + "|" + (weakestPct ? weakest : "none"));
+  upResult(gain, weakest, weakestPct); if(!relang) funnel("result");
   ctx = { tier, total, maxTotal, weakestLabel: weakestPct ? pLabel[weakest] : "-" };
   // not ready yet ("just exploring" or 1-4): the free kit is the main button, WhatsApp stays below it
   const low = !doc && (ans("when").low || ans("commit").low);
@@ -1488,6 +1515,80 @@ function showResult(relang){
   },100));
 }
 
+
+// ---------- quiz upgrade (23 Nov 2026): preview with ?beta=1 until Kimi says go ----------
+const UP = /[?&]beta=1/.test(location.search) || (()=>{try{return sessionStorage.getItem("upbeta")==="1"}catch(e){return false}})();
+try{ if(UP) sessionStorage.setItem("upbeta","1"); }catch(e){}
+const UPT = {
+  timeH:{ms:"Bila senang untuk call 15 minit dengan coach?",en:"When suits you for a 15-minute call with your coach?"},
+  times:[{ms:"Malam ni, 9pm",en:"Tonight, 9pm"},{ms:"Esok tengah hari, 1pm",en:"Tomorrow, 1pm"},{ms:"Esok malam, 9pm",en:"Tomorrow, 9pm"},{ms:"Chat dulu",en:"Chat first"}],
+  hardH:{ms:"Apa paling susah untuk anda sekarang? (tak wajib)",en:"What's hardest for you right now? (optional)"},
+  hardPh:{ms:"Contoh: lapar malam, tak ada masa masak",en:"e.g. late-night hunger, no time to cook"},
+  waTime:{ms:"Masa call",en:"Call time"}, waHard:{ms:"Paling susah",en:"Hardest part"},
+  starterH:{ms:"Pelan 3 hari anda, mula esok",en:"Your 3-day plan, starting tomorrow"},
+  day:{ms:"Hari",en:"Day"},
+  voice:{
+    m:{ms:"Saya Coach Kimi. Dulu saya 84 kg, lepas tu jadi skinny fat. Sekarang 70 kg, body fat 19%. Saya tengok jawapan anda sendiri dalam WhatsApp, bukan bot.",
+       en:"I'm Coach Kimi. I was 84 kg, then skinny fat. Now I'm 70 kg at 19% body fat. I read your answers myself on WhatsApp, not a bot."},
+    f:{ms:"Saya Coach Zara. Saya bantu wanita bekerja turun lemak tanpa diet ekstrem, ikut jadual dan makanan harian anda. Saya baca jawapan anda sendiri.",
+       en:"I'm Coach Zara. I help working women lose fat without crash diets, around your schedule and everyday food. I read your answers myself."}},
+  read:{ms:"Baca dulu:",en:"Read first:"}
+};
+const UP_LINKS = {
+  m:{Nutrition:["semak/",{ms:"Semak makan semalam",en:"Check what you ate yesterday"}],Workout:["workout/",{ms:"Pelan workout 7 hari",en:"7-day workout plan"}],"Mindset & Method":["senaman/jalan-kaki-turun-berat/",{ms:"Jalan kaki untuk turun berat",en:"Walking for weight loss"}],none:["kalori/",{ms:"Kalori makanan Malaysia",en:"Malaysian food calories"}]},
+  f:{Nutrition:["wanita/snek-pejabat-sihat/",{ms:"Snek pejabat yang selamat",en:"Office snacks that are safe"}],Workout:["wanita/tiada-masa-bersenam/",{ms:"Tiada masa bersenam: pelan 20 minit",en:"No time to exercise: a 20-minute plan"}],"Mindset & Method":["wanita/stress-kerja-makan-banyak/",{ms:"Stress kerja buat makan banyak",en:"Work stress and overeating"}],none:["wanita/",{ms:"Panduan wanita bekerja",en:"Guides for working women"}]}
+};
+// client story that matches the goal (loss path only)
+const UP_STORY = {0:["11kg","nurse"],1:["68-58","nurse"],2:["eka","alya"],3:["alya","eka"],5:["sakeenah","nurse"]};
+let upTime = null, upWeak = "none", STARTER = null;
+function upStory(gain){
+  const el=$("up-story"); const ids = !gain && UP_STORY[answers[0]];
+  const tm = ids && TESTIMONIALS.find(x=>x.id===ids[0]) || ids && TESTIMONIALS.find(x=>x.id===ids[1]);
+  if(!tm){ el.hidden=true; return; }
+  const nm = typeof tm.name==="string" ? tm.name : L(tm.name);
+  el.innerHTML = `<img src="${tm.photo}" alt="" loading="lazy"><div><small>${LANG==="en"?"Someone with a goal like yours":"Orang dengan goal macam anda"}</small><b>${nm}${tm.result?" · "+tm.result:""}</b>${tm.quote?`<q>${L(tm.quote)}</q>`:""}</div>`;
+  el.hidden=false;
+}
+function upVoice(){
+  const el=$("up-voice"); if(!coach){ el.hidden=true; return; }
+  const ln=(UP_LINKS[coach]||{})[upWeak]||UP_LINKS[coach].none;
+  el.innerHTML=`${L(UPT.voice[coach])}<br><span style="opacity:.8">${L(UPT.read)}</span> <a href="${ln[0]}" target="_blank" rel="noopener">${L(ln[1])} →</a>`;
+  el.hidden=false;
+}
+function upStarter(key){
+  const box=$("up-starter");
+  const put=()=>{ const s=STARTER&&STARTER[key]; box.hidden=!s; if(!s) return;
+    $("up-starterH").textContent=L(UPT.starterH);
+    $("up-days").innerHTML=s.d.map((d,k)=>`<div class="up-day"><h4>${L(UPT.day)} ${k+1}: ${L(d.f)}</h4><ul>${d.x.map(x=>`<li>${L(x)}</li>`).join("")}</ul></div>`).join("");
+    $("up-day3").textContent=L(s.e); };
+  if(STARTER) return put();
+  box.hidden=true;
+  fetch("results/starter.json").then(r=>r.ok?r.json():null).then(j=>{STARTER=j||{}; if(view==="result") put();}).catch(()=>{STARTER={};});
+}
+function upResult(gain, weakest, weakestPct){
+  if(!UP) return;
+  upWeak = weakestPct ? weakest : "none";
+  $("up-ask").hidden=false;
+  $("up-timeH").textContent=L(UPT.timeH); $("up-hardH").textContent=L(UPT.hardH); $("up-hard").placeholder=L(UPT.hardPh);
+  $("up-times").innerHTML=UPT.times.map((x,k)=>`<button type="button" data-k="${k}" class="${upTime===k?"sel":""}">${L(x)}</button>`).join("");
+  upStory(gain); upVoice();
+  let worst=null; QUESTIONS.forEach((q,k)=>{ if(q.type!=="score") return; const s=q.a[answers[k]].s; if(s && (!worst||s>worst.s)) worst={k,a:answers[k],s}; });
+  upStarter((gain?"gain":"loss")+"|"+answers[0]+"|"+(worst?worst.k+"|"+worst.a:"none"));
+}
+function upSheet(){
+  if(!UP) return {};
+  const h=($("up-hard").value||"").trim().replace(/\s+/g," ");
+  return {call: upTime!==null ? L(UPT.times[upTime]) : "", hard: h};
+}
+function upLines(){
+  if(!UP) return [];
+  const h=($("up-hard").value||"").trim().replace(/\s+/g," ");
+  return [upTime!==null?`${L(UPT.waTime)}: ${L(UPT.times[upTime])}`:null, h?`${L(UPT.waHard)}: ${h}`:null].filter(Boolean);
+}
+$("up-times").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b) return; upTime=+b.dataset.k;
+  document.querySelectorAll("#up-times button").forEach(x=>x.classList.toggle("sel",x===b)); updateWa();});
+$("up-hard").addEventListener("input",()=>updateWa());
+
 // everything you need for the consultation, sent by both buttons
 function profileLines(){
   const w = T.wa;
@@ -1502,7 +1603,8 @@ function profileLines(){
     `${w.when}: ${L(ans("when"))}`,
     `${w.commit}: ${L(ans("commit"))}`,
     `${w.budget}: ${L(ans("budget"))}`,
-    `${w.coach}: ${L(CONFIG.coaches[coach].pref)}`
+    `${w.coach}: ${L(CONFIG.coaches[coach].pref)}`,
+    ...upLines()
   ].filter(Boolean);
 }
 
@@ -1519,6 +1621,12 @@ function updateWa(){
 }
 
 // Log a tap to the Google Sheet in the background (the link itself opens directly)
+// drop-off tracking: each step once per visit, its own id so it never makes a Leads row
+const FUNNEL_ID = Math.random().toString(36).slice(2,8).toUpperCase(), funnelSent = {};
+function funnel(step){
+  if(!CONFIG.funnel || funnelSent[step]) return; funnelSent[step] = 1;
+  logTap({type:"step", step, fid:FUNNEL_ID, path:isGain()?"gain":"loss", src:SRC});
+}
 function logTap(params){
   if(CONFIG.sheetUrl) fetch(CONFIG.sheetUrl + "?" + new URLSearchParams(params), {mode:"no-cors", keepalive:true}).catch(()=>{});
 }
@@ -1528,7 +1636,7 @@ function sheetParams(url, via){
   const routine = QUESTIONS.map((q,k)=>({q,o:q.a[answers[k]]})).filter(x=>x.q.type==="score").map(x=>`${L(x.q.short)}: ${L(x.o)}`).join("; ");
   return ({ type:"quiz", qid:quizId, name:firstName||"", result:`${L(ctx.tier.badge)} (${ctx.total}/${ctx.maxTotal})`,
     weak:ctx.weakestLabel, goal:L(ans("goal")), why:L(ans("why")), when:L(ans("when")), commit:L(ans("commit")), budget:L(ans("budget")),
-    coach:L(CONFIG.coaches[coach].pref), via, src:SRC, answers:routine, go:url });
+    coach:L(CONFIG.coaches[coach].pref), via, src:SRC, answers:routine, go:url, ...upSheet() });
 }
 
 // ---------- meal calculator ----------
