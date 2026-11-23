@@ -8,7 +8,7 @@ on:
       job:
         description: "What to make"
         type: choice
-        options: [foods, notes, all, extras, foods-en, exercises, ramadan, plans, wanita, build-only]
+        options: [foods, notes, all, extras, foods-en, exercises, ramadan, plans, wanita, starter, build-only]
         default: foods
       limit:
         description: "Foods only: how many new foods at most (empty = all)"
@@ -37,6 +37,7 @@ jobs:
           case "${{ inputs.job }}" in
             foods|notes|all) python seo/generate.py ${{ inputs.job }} ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }} ;;
             wanita) python seo/generate3.py wanita ;;
+            starter) python seo/generate4.py ;;
             *) python seo/generate2.py ${{ inputs.job }} ;;
           esac
       - name: Build pages

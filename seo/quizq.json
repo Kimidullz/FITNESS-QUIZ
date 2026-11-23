@@ -1,0 +1,594 @@
+{
+ "loss": [
+  {
+   "k": 0,
+   "key": "goal",
+   "type": "profile",
+   "q": "Pertama, apa matlamat utama anda?",
+   "a": [
+    {
+     "ms": "Turun kurang 5 kg",
+     "en": "Lose under 5 kg",
+     "v": "<5"
+    },
+    {
+     "ms": "Turun 5 hingga 10 kg",
+     "en": "Lose 5 to 10 kg",
+     "v": "5-10"
+    },
+    {
+     "ms": "Turun 10 hingga 20 kg",
+     "en": "Lose 10 to 20 kg",
+     "v": "10-20"
+    },
+    {
+     "ms": "Turun lebih 20 kg",
+     "en": "Lose more than 20 kg",
+     "v": "20+"
+    },
+    {
+     "ms": "Naik berat dan nampak lebih berisi",
+     "en": "Gain weight and look fuller",
+     "v": "gain"
+    },
+    {
+     "ms": "Bukan pasal berat. Saya nak lebih bertenaga dan sihat",
+     "en": "Not about weight. I want more energy and better health",
+     "v": "health"
+    }
+   ]
+  },
+  {
+   "k": 1,
+   "key": "why",
+   "type": "profile",
+   "q": "Kenapa perkara ini penting untuk anda sekarang?",
+   "a": [
+    {
+     "ms": "Kesihatan (gula, darah tinggi, kolesterol, sakit sendi)",
+     "en": "My health (sugar, blood pressure, cholesterol, joint pain)"
+    },
+    {
+     "ms": "Nak rasa yakin dan muat baju lama semula",
+     "en": "I want to feel confident and fit my old clothes again"
+    },
+    {
+     "ms": "Ada majlis penting tak lama lagi (kahwin, raya, bercuti)",
+     "en": "I have a big event coming (wedding, raya, holiday)"
+    },
+    {
+     "ms": "Nak lebih bertenaga untuk keluarga dan kerja",
+     "en": "I want more energy for my family and work"
+    },
+    {
+     "ms": "Orang terdekat (atau doktor) suruh saya",
+     "en": "Someone close to me (or my doctor) told me to"
+    }
+   ]
+  },
+  {
+   "k": 2,
+   "key": null,
+   "type": "score",
+   "pillar": "Nutrition",
+   "short": "Makan",
+   "q": "Pada hari bekerja biasa, macam mana waktu makan anda?",
+   "a": [
+    {
+     "ms": "Makan 3 kali sehari dengan protein, kebanyakan hari",
+     "en": "I eat 3 planned meals with protein most days",
+     "s": 0
+    },
+    {
+     "ms": "Makan ikut waktu, tapi ambil apa saja yang cepat",
+     "en": "I eat regularly but grab whatever is quick",
+     "s": 1
+    },
+    {
+     "ms": "Selalu skip sarapan atau lunch, lepas tu makan banyak waktu malam",
+     "en": "I often skip breakfast or lunch, then overeat at night",
+     "s": 3
+    },
+    {
+     "ms": "Kebanyakannya mamak, fast food atau delivery, campur snek dan air manis",
+     "en": "Mostly mamak, fast food or delivery, plus snacks and sweet drinks",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "k": 3,
+   "key": null,
+   "type": "score",
+   "pillar": "Nutrition",
+   "short": "Minuman",
+   "q": "Berapa banyak air kosong anda minum, dan apa lagi yang anda minum?",
+   "a": [
+    {
+     "ms": "2 liter air kosong atau lebih, jarang minum air manis",
+     "en": "2 litres or more of plain water, few sweet drinks",
+     "s": 0
+    },
+    {
+     "ms": "Lebih kurang 1 liter, sesekali teh tarik atau kopi",
+     "en": "About 1 litre, with a teh tarik or kopi here and there",
+     "s": 1
+    },
+    {
+     "ms": "Jarang minum air kosong, hampir setiap hari minum air manis",
+     "en": "Barely any water, sweet drinks most days",
+     "s": 3
+    },
+    {
+     "ms": "Jujurnya, tak pernah ambil tahu pun",
+     "en": "Honestly, I've never paid attention",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "k": 4,
+   "key": null,
+   "type": "score",
+   "pillar": "Workout",
+   "short": "Senaman",
+   "q": "Berapa kerap anda bersenam atau aktif secara sengaja?",
+   "a": [
+    {
+     "ms": "3 kali seminggu atau lebih",
+     "en": "3 or more workouts a week",
+     "s": 0
+    },
+    {
+     "ms": "1 hingga 2 kali seminggu, bila ada masa",
+     "en": "1 to 2 times a week when I can",
+     "s": 1
+    },
+    {
+     "ms": "Mula semangat, tapi bila kerja sibuk terus berhenti",
+     "en": "I start strong, then work gets busy and I stop",
+     "s": 2
+    },
+    {
+     "ms": "Hampir tak pernah. Kerja dan urusan rumah, memang tak ada masa",
+     "en": "Almost never. Between work and home, there's no time",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "k": 5,
+   "key": null,
+   "type": "score",
+   "pillar": "Mindset & Method",
+   "short": "Tidur & stres",
+   "q": "Macam mana tidur dan tahap stres anda kebelakangan ini?",
+   "a": [
+    {
+     "ms": "Tidur 7 jam atau lebih, stres masih terkawal",
+     "en": "7+ hours of sleep, stress is manageable",
+     "s": 0
+    },
+    {
+     "ms": "Lebih kurang 6 jam, stres datang dan pergi",
+     "en": "Around 6 hours, stress comes and goes",
+     "s": 1
+    },
+    {
+     "ms": "Kurang 6 jam dan stres hampir setiap hari",
+     "en": "Under 6 hours and I'm stressed most days",
+     "s": 3
+    },
+    {
+     "ms": "Tidur cukup, tapi bangun masih penat dan teringin benda manis atau kopi",
+     "en": "I sleep, but wake up tired and crave sugar or coffee",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "k": 6,
+   "key": null,
+   "type": "score",
+   "pillar": "Mindset & Method",
+   "short": "Cubaan lepas",
+   "q": "Apa jadi kali terakhir anda cuba turunkan berat badan?",
+   "a": [
+    {
+     "ms": "Ada hasil, cuma nak pergi lebih jauh",
+     "en": "It's working, I just want to go further",
+     "s": 0
+    },
+    {
+     "ms": "Ada turun sikit, tapi naik balik",
+     "en": "I lost some, then it crept back",
+     "s": 2
+    },
+    {
+     "ms": "Dah cuba diet, gym atau produk, tapi semua tak kekal",
+     "en": "I tried diets, the gym or products but nothing stuck",
+     "s": 2
+    },
+    {
+     "ms": "Cepat putus asa sebab tak ada pelan dan tak ada sokongan",
+     "en": "I gave up fast because I had no plan and no support",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "k": 7,
+   "key": "when",
+   "type": "profile",
+   "q": "Bila anda nak mula?",
+   "a": [
+    {
+     "ms": "Minggu ini. Saya dah sedia",
+     "en": "This week. I'm ready now"
+    },
+    {
+     "ms": "Dalam bulan ini",
+     "en": "Within this month"
+    },
+    {
+     "ms": "Dalam 2 hingga 3 bulan lagi",
+     "en": "In the next 2 to 3 months"
+    },
+    {
+     "ms": "Saja tengok-tengok dulu",
+     "en": "Just exploring for now"
+    }
+   ]
+  },
+  {
+   "k": 8,
+   "key": "commit",
+   "type": "profile",
+   "q": "Dari skala 1 hingga 10, sejauh mana anda komited untuk berubah?",
+   "a": [
+    {
+     "ms": "9 hingga 10: Saya betul-betul serius",
+     "en": "9 to 10: I'm all in"
+    },
+    {
+     "ms": "7 hingga 8: Serius, cuma perlukan pelan yang betul",
+     "en": "7 to 8: Very serious, just need the right plan"
+    },
+    {
+     "ms": "5 hingga 6: Berminat, tapi masih ragu-ragu",
+     "en": "5 to 6: Interested, but a bit unsure"
+    },
+    {
+     "ms": "1 hingga 4: Masih fikir-fikir",
+     "en": "1 to 4: Still thinking about it"
+    }
+   ]
+  },
+  {
+   "k": 9,
+   "key": "budget",
+   "type": "profile",
+   "q": "Berapa bajet sebulan yang selesa untuk anda labur pada kesihatan?",
+   "a": [
+    {
+     "ms": "Bawah RM300",
+     "en": "Under RM300"
+    },
+    {
+     "ms": "RM300 hingga RM500",
+     "en": "RM300 to RM500"
+    },
+    {
+     "ms": "RM500 hingga RM900",
+     "en": "RM500 to RM900"
+    },
+    {
+     "ms": "RM900 hingga RM1,300",
+     "en": "RM900 to RM1,300"
+    },
+    {
+     "ms": "Lebih RM1,300. Saya nak transformasi penuh",
+     "en": "Above RM1,300. I want the full transformation"
+    }
+   ]
+  }
+ ],
+ "gain": [
+  {
+   "k": 0,
+   "key": "goal",
+   "type": "profile",
+   "q": "Pertama, apa matlamat utama anda?",
+   "a": [
+    {
+     "ms": "Turun kurang 5 kg",
+     "en": "Lose under 5 kg",
+     "v": "<5"
+    },
+    {
+     "ms": "Turun 5 hingga 10 kg",
+     "en": "Lose 5 to 10 kg",
+     "v": "5-10"
+    },
+    {
+     "ms": "Turun 10 hingga 20 kg",
+     "en": "Lose 10 to 20 kg",
+     "v": "10-20"
+    },
+    {
+     "ms": "Turun lebih 20 kg",
+     "en": "Lose more than 20 kg",
+     "v": "20+"
+    },
+    {
+     "ms": "Naik berat dan nampak lebih berisi",
+     "en": "Gain weight and look fuller",
+     "v": "gain"
+    },
+    {
+     "ms": "Bukan pasal berat. Saya nak lebih bertenaga dan sihat",
+     "en": "Not about weight. I want more energy and better health",
+     "v": "health"
+    }
+   ]
+  },
+  {
+   "k": 1,
+   "key": "why",
+   "type": "profile",
+   "q": "Kenapa perkara ini penting untuk anda sekarang?",
+   "a": [
+    {
+     "ms": "Kesihatan (doktor kata saya kurang berat badan)",
+     "en": "My health (my doctor says I'm underweight)"
+    },
+    {
+     "ms": "Nak rasa yakin dan baju muat elok",
+     "en": "I want to feel confident and fill out my clothes"
+    },
+    {
+     "ms": "Nak lebih kuat dan bertenaga",
+     "en": "I want to feel stronger and have more energy"
+    },
+    {
+     "ms": "Nak bina otot untuk sukan atau gym",
+     "en": "I want to build muscle for sport or the gym"
+    },
+    {
+     "ms": "Asyik kena tegur “kurusnya, tak makan ke?”",
+     "en": "People keep saying “you're so thin, don't you eat?”"
+    },
+    {
+     "ms": "Berat saya turun sendiri kebelakangan ini",
+     "en": "My weight has been dropping on its own lately"
+    }
+   ]
+  },
+  {
+   "k": 2,
+   "key": null,
+   "type": "score",
+   "pillar": "Nutrition",
+   "short": "Makan",
+   "q": "Pada hari biasa, berapa kali anda makan?",
+   "a": [
+    {
+     "ms": "5 kali atau lebih, termasuk snek",
+     "en": "5 or more times, snacks included",
+     "s": 0
+    },
+    {
+     "ms": "3 kali, ikut waktu",
+     "en": "3 meals at regular times",
+     "s": 1
+    },
+    {
+     "ms": "Selalu skip sebab sibuk, terlupa atau nak jimat duit",
+     "en": "I often skip meals because I'm busy, forget or want to save money",
+     "s": 3
+    },
+    {
+     "ms": "Cepat kenyang, tak larat makan banyak",
+     "en": "I get full fast and can't eat much",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "k": 3,
+   "key": null,
+   "type": "score",
+   "pillar": "Nutrition",
+   "short": "Protein",
+   "q": "Berapa kerap anda makan protein? (telur, ayam, ikan, susu, tempe, tauhu, dhal)",
+   "a": [
+    {
+     "ms": "Setiap kali makan",
+     "en": "At every meal",
+     "s": 0
+    },
+    {
+     "ms": "1 hingga 2 kali sehari",
+     "en": "1 to 2 times a day",
+     "s": 1
+    },
+    {
+     "ms": "Jarang. Kebanyakannya nasi, roti atau mi segera",
+     "en": "Rarely. Mostly rice, bread or instant noodles",
+     "s": 3
+    },
+    {
+     "ms": "Kurang. Saya banyakkan snek dan air manis",
+     "en": "Not much. I fill up on snacks and sweet drinks",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "k": 4,
+   "key": null,
+   "type": "score",
+   "pillar": "Workout",
+   "short": "Latihan kekuatan",
+   "q": "Macam mana latihan kekuatan anda sekarang? (angkat beban, push-up, squat)",
+   "a": [
+    {
+     "ms": "3 kali seminggu atau lebih, ikut pelan",
+     "en": "3 or more times a week, with a plan",
+     "s": 0
+    },
+    {
+     "ms": "Ada buat, tapi tak tetap atau tak ikut pelan",
+     "en": "I do some, but not regularly or without a plan",
+     "s": 1
+    },
+    {
+     "ms": "Cardio atau sukan saja (lari, futsal, badminton, zumba)",
+     "en": "Only cardio or sports (running, futsal, badminton, zumba)",
+     "s": 2
+    },
+    {
+     "ms": "Tak pernah atau jarang. Tak tahu nak mula, atau segan",
+     "en": "Never or rarely. I don't know how to start, or feel shy",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "k": 5,
+   "key": null,
+   "type": "score",
+   "pillar": "Mindset & Method",
+   "short": "Tidur & stres",
+   "q": "Macam mana tidur dan tahap stres anda kebelakangan ini?",
+   "a": [
+    {
+     "ms": "Tidur 7 jam atau lebih, stres masih terkawal",
+     "en": "7+ hours of sleep, stress is manageable",
+     "s": 0
+    },
+    {
+     "ms": "Lebih kurang 6 jam, stres datang dan pergi",
+     "en": "Around 6 hours, stress comes and goes",
+     "s": 1
+    },
+    {
+     "ms": "Kurang 6 jam dan stres hampir setiap hari",
+     "en": "Under 6 hours and I'm stressed most days",
+     "s": 3
+    },
+    {
+     "ms": "Tidur lewat atau bangun penat, sampai sarapan pun skip",
+     "en": "I sleep late or wake up tired, so I skip breakfast",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "k": 6,
+   "key": null,
+   "type": "score",
+   "pillar": "Mindset & Method",
+   "short": "Cubaan lepas",
+   "q": "Apa jadi kali terakhir anda cuba naikkan berat badan?",
+   "a": [
+    {
+     "ms": "Ada hasil, cuma nak naik lagi",
+     "en": "It worked, I just want more",
+     "s": 0
+    },
+    {
+     "ms": "Belum pernah cuba betul-betul",
+     "en": "I've never really tried properly",
+     "s": 1
+    },
+    {
+     "ms": "Dah makan banyak, tapi berat tetap tak naik",
+     "en": "I eat a lot, but the scale won't move",
+     "s": 2
+    },
+    {
+     "ms": "Cepat putus asa sebab tak ada pelan dan tak ada sokongan",
+     "en": "I gave up fast because I had no plan and no support",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "k": 7,
+   "key": "when",
+   "type": "profile",
+   "q": "Bila anda nak mula?",
+   "a": [
+    {
+     "ms": "Minggu ini. Saya dah sedia",
+     "en": "This week. I'm ready now"
+    },
+    {
+     "ms": "Dalam bulan ini",
+     "en": "Within this month"
+    },
+    {
+     "ms": "Dalam 2 hingga 3 bulan lagi",
+     "en": "In the next 2 to 3 months"
+    },
+    {
+     "ms": "Saja tengok-tengok dulu",
+     "en": "Just exploring for now"
+    }
+   ]
+  },
+  {
+   "k": 8,
+   "key": "commit",
+   "type": "profile",
+   "q": "Dari skala 1 hingga 10, sejauh mana anda komited untuk berubah?",
+   "a": [
+    {
+     "ms": "9 hingga 10: Saya betul-betul serius",
+     "en": "9 to 10: I'm all in"
+    },
+    {
+     "ms": "7 hingga 8: Serius, cuma perlukan pelan yang betul",
+     "en": "7 to 8: Very serious, just need the right plan"
+    },
+    {
+     "ms": "5 hingga 6: Berminat, tapi masih ragu-ragu",
+     "en": "5 to 6: Interested, but a bit unsure"
+    },
+    {
+     "ms": "1 hingga 4: Masih fikir-fikir",
+     "en": "1 to 4: Still thinking about it"
+    }
+   ]
+  },
+  {
+   "k": 9,
+   "key": "budget",
+   "type": "profile",
+   "q": "Berapa bajet sebulan yang selesa untuk anda labur pada kesihatan?",
+   "a": [
+    {
+     "ms": "Bawah RM300",
+     "en": "Under RM300"
+    },
+    {
+     "ms": "RM300 hingga RM500",
+     "en": "RM300 to RM500"
+    },
+    {
+     "ms": "RM500 hingga RM900",
+     "en": "RM500 to RM900"
+    },
+    {
+     "ms": "RM900 hingga RM1,300",
+     "en": "RM900 to RM1,300"
+    },
+    {
+     "ms": "Lebih RM1,300. Saya nak transformasi penuh",
+     "en": "Above RM1,300. I want the full transformation"
+    }
+   ]
+  }
+ ]
+}
