@@ -1,0 +1,59 @@
+{
+ "slug": "oat-dengan-susu",
+ "name_en": "Oats with milk",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of oats with milk is about 250 kcal (estimate). The calories come from the oats (complex carbs) and the milk.",
+ "breakdown": [
+  {
+   "part": "Oats 40 g (about 4 tablespoons)",
+   "kcal": 150
+  },
+  {
+   "part": "Low-fat milk 200 ml",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Oats with full cream milk",
+   "kcal": 290
+  },
+  {
+   "name": "Oats with milk + 1 banana",
+   "kcal": 350
+  },
+  {
+   "name": "Oats with milk + 1 spoon honey",
+   "kcal": 310
+  },
+  {
+   "name": "Oats with water only",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, oats with milk is one of the more diet-friendly breakfasts. It's filling, easy to prepare and easy to portion. Just be careful with toppings like honey, sugar, raisins and granola. If you add toppings, measure them, don't simply pour.",
+ "tips": [
+  "Measure your oats with a spoon, don't pour straight from the packet.",
+  "Add a boiled egg on the side for more protein.",
+  "Use cut fruit for sweetness, not sugar or condensed milk."
+ ],
+ "swap": {
+  "name": "Oats with low-fat milk + boiled egg",
+  "kcal": 320,
+  "why": "Extra protein keeps you full until lunch, so less snacking at the office."
+ },
+ "faq": [
+  {
+   "q": "Instant oats or rolled oats, which is better?",
+   "a": "Both are okay. Rolled oats digest a bit slower, so you stay full longer. Avoid flavoured instant oats with added sugar."
+  },
+  {
+   "q": "Can I eat oats at night?",
+   "a": "Yes. It works as a light dinner if you watch the portion and toppings."
+  },
+  {
+   "q": "Are overnight oats the same as cooked oats?",
+   "a": "Nutrition is about the same. Overnight oats are just soaked in milk overnight, handy for busy mornings."
+  }
+ ]
+}

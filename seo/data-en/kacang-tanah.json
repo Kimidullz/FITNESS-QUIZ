@@ -1,0 +1,67 @@
+{
+ "slug": "kacang-tanah",
+ "name_en": "Fried peanuts (kacang tanah goreng)",
+ "serving_en": "1 handful (30 g)",
+ "intro": "A handful of fried peanuts (30 g) has about 170 kcal. Most of the calories come from fat, both the peanut's natural oil and the frying oil.",
+ "breakdown": [
+  {
+   "part": "Natural fat in peanuts",
+   "kcal": 110
+  },
+  {
+   "part": "Absorbed frying oil",
+   "kcal": 25
+  },
+  {
+   "part": "Peanut protein",
+   "kcal": 28
+  },
+  {
+   "part": "Carbs and salt",
+   "kcal": 7
+  }
+ ],
+ "variants": [
+  {
+   "name": "Boiled peanuts (1 handful, in shell)",
+   "kcal": 100
+  },
+  {
+   "name": "Dry-roasted peanuts, no oil (30 g)",
+   "kcal": 160
+  },
+  {
+   "name": "Spicy flour-coated peanuts (30 g)",
+   "kcal": 160
+  },
+  {
+   "name": "Peanuts in nasi lemak (1 tbsp)",
+   "kcal": 60
+  }
+ ],
+ "diet": "Yes, peanuts have protein and fat that keep you full longer. But they're calorie-dense, so a small handful is enough. The problem is eating straight from the jar in front of the TV. Portion them into a small container first.",
+ "tips": [
+  "Fill a small 30 g container (about a handful) for your office snack, don't bring the whole jar.",
+  "Choose boiled or roasted peanuts when you can, they have less oil.",
+  "Sprinkle a few peanuts over veggies or salad for flavour, instead of eating them as a separate snack."
+ ],
+ "swap": {
+  "name": "1 handful of boiled peanuts",
+  "kcal": 100,
+  "why": "Boiled peanuts use no oil and have more water, so fewer calories while still being just as filling."
+ },
+ "faq": [
+  {
+   "q": "Are peanuts high in protein?",
+   "a": "They do have protein, about 7 g per handful. But they have more fat, so don't make them your main protein source."
+  },
+  {
+   "q": "Do peanuts cause pimples?",
+   "a": "Some people feel that way, but it differs from person to person. Watch how your own skin reacts."
+  },
+  {
+   "q": "Boiled or fried peanuts, which is healthier?",
+   "a": "Boiled peanuts are lower in calories and oil. Fried peanuts are crunchier but more energy-dense."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "char-kuey-teow",
+ "name_en": "Char kuey teow",
+ "serving_en": "1 plate",
+ "intro": "A plate of char kuey teow is roughly 740 kcal (estimate). The high calories come from the slippery, oily flat noodles and the lots of oil used for high-heat frying.",
+ "breakdown": [
+  {
+   "part": "Kuey teow, 1.5 cups",
+   "kcal": 300
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 250
+  },
+  {
+   "part": "1 egg",
+   "kcal": 80
+  },
+  {
+   "part": "Prawns and cockles",
+   "kcal": 60
+  },
+  {
+   "part": "Sauce, bean sprouts and chives",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Char kuey teow with duck egg",
+   "kcal": 800
+  },
+  {
+   "name": "Char kuey teow special (extra prawns)",
+   "kcal": 850
+  },
+  {
+   "name": "Char kuey teow basah",
+   "kcal": 650
+  }
+ ],
+ "diet": "Yes, but treat it as a 'treat' meal. 740 kcal is close to half the daily needs of many women trying to lose weight. Once a week is plenty. On CKT days, keep your other meals light and high in protein.",
+ "tips": [
+  "Share one plate with a friend and add a plate of veg.",
+  "Ask for less oil and more bean sprouts.",
+  "Go for the small size if there is one. The difference can be nearly 200 kcal."
+ ],
+ "swap": {
+  "name": "Kuey teow sup",
+  "kcal": 350,
+  "why": "Same kuey teow, but in soup. Less than half the calories."
+ },
+ "faq": [
+  {
+   "q": "Why does Penang char kuey teow taste different?",
+   "a": "Penang hawkers usually cook over very high heat to get 'wok hei', add cockles and prawns, and use less sweet kicap than other versions."
+  },
+  {
+   "q": "Is there halal char kuey teow?",
+   "a": "Plenty. Some original versions use pork lard, so choose halal-certified shops or Malay and mamak stalls."
+  },
+  {
+   "q": "Can I make char kuey teow at home?",
+   "a": "Yes. Use a non-stick pan and just 1 tablespoon of oil. It may have less 'wok hei' but it's still tasty."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "keropok-lekor",
+ "name_en": "Keropok lekor",
+ "serving_en": "5 pieces",
+ "intro": "Five pieces of keropok lekor have an estimated 250 kcal. Most of the calories come from sago flour and frying oil, not the fish.",
+ "breakdown": [
+  {
+   "part": "Sago flour",
+   "kcal": 110
+  },
+  {
+   "part": "Fish",
+   "kcal": 50
+  },
+  {
+   "part": "Frying oil",
+   "kcal": 70
+  },
+  {
+   "part": "Chilli sauce",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Boiled keropok lekor (5 pieces)",
+   "kcal": 180
+  },
+  {
+   "name": "Keropok lekor, 10 pieces",
+   "kcal": 500
+  },
+  {
+   "name": "Fried keropok keping (1 handful)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes. Keropok lekor has a bit of protein from the fish, better than many other fried snacks. But 5 pieces is enough, because a full pack can easily hit 500 kcal. If there's a boiled option, that's lighter.",
+ "tips": [
+  "Pick boiled or grilled keropok lekor if available.",
+  "Take 5 pieces and share the rest.",
+  "Go easy on the chilli sauce and skip thick sweet sauces."
+ ],
+ "swap": {
+  "name": "Boiled keropok lekor, 5 pieces",
+  "kcal": 180,
+  "why": "Same fishy taste without frying oil, saving about 70 kcal."
+ },
+ "faq": [
+  {
+   "q": "What fish is keropok lekor made from?",
+   "a": "Usually ikan tamban, ikan parang or ikan selayang, mixed with sago flour and salt."
+  },
+  {
+   "q": "Where does keropok lekor come from?",
+   "a": "It's most famous from Terengganu, especially coastal areas like Kuala Terengganu and Losong."
+  },
+  {
+   "q": "How do I fry frozen keropok lekor?",
+   "a": "Boil briefly or thaw first, then slice diagonally and fry in medium-hot oil."
+  }
+ ]
+}

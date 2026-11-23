@@ -1,0 +1,63 @@
+{
+ "slug": "sandwich-telur",
+ "name_en": "Egg sandwich",
+ "serving_en": "1 sandwich",
+ "intro": "One egg sandwich is about 300 kcal (estimate). Most of the calories come from the bread and the mayonnaise in the egg filling.",
+ "breakdown": [
+  {
+   "part": "White bread, 2 slices",
+   "kcal": 150
+  },
+  {
+   "part": "Egg, 1",
+   "kcal": 75
+  },
+  {
+   "part": "Mayonnaise, 1 tablespoon",
+   "kcal": 75
+  }
+ ],
+ "variants": [
+  {
+   "name": "Egg sandwich on wholemeal bread",
+   "kcal": 290
+  },
+  {
+   "name": "Egg sandwich + cheese",
+   "kcal": 380
+  },
+  {
+   "name": "Egg sandwich without mayo (boiled egg + cucumber)",
+   "kcal": 230
+  },
+  {
+   "name": "Convenience store egg sandwich (more mayo)",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes. An egg sandwich is easy to bring to the office and has protein from the egg. Calories go up when the mayo is thick, or when cheese and butter are added. If you make it yourself, you can easily control all of that.",
+ "tips": [
+  "Use 2 eggs and half a spoon of mayo for more protein, less fat.",
+  "Add cucumber, lettuce or tomato for crunch and to feel fuller.",
+  "Choose wholemeal bread if available, more fibre."
+ ],
+ "swap": {
+  "name": "Sandwich with 2 boiled eggs + cucumber, a little mayo",
+  "kcal": 300,
+  "why": "Same calories, but almost double the protein because you swap mayo for egg."
+ },
+ "faq": [
+  {
+   "q": "How long can an egg sandwich last?",
+   "a": "At room temperature, eat within 2 hours. In the fridge, it can last up to a day."
+  },
+  {
+   "q": "Can I use yogurt instead of mayo?",
+   "a": "Yes. Plain yogurt keeps the filling creamy, with less fat."
+  },
+  {
+   "q": "Is an egg sandwich good for my kid's lunchbox?",
+   "a": "Yes. Pack it in a cool container and add some fruit for a balanced bekal."
+  }
+ ]
+}

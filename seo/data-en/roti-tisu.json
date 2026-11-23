@@ -1,0 +1,59 @@
+{
+ "slug": "roti-tisu",
+ "name_en": "Roti tisu",
+ "serving_en": "1 piece",
+ "intro": "One roti tisu is roughly 500 kcal. Most of the calories come from the oil or margarine brushed on while cooking, plus the sugar and condensed milk on top.",
+ "breakdown": [
+  {
+   "part": "Roti dough (1 large, thin piece)",
+   "kcal": 250
+  },
+  {
+   "part": "Oil, margarine or ghee",
+   "kcal": 150
+  },
+  {
+   "part": "Sugar and condensed milk",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain roti tisu, no sugar",
+   "kcal": 400
+  },
+  {
+   "name": "Roti tisu with kuah dal",
+   "kcal": 550
+  },
+  {
+   "name": "Roti tisu with extra condensed milk",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes, but think of roti tisu as dessert, not a main meal. It's high in sugar and oil but very low in protein, so you'll be hungry again soon. If you want it, share with friends or family. Keep your other meals that day lighter and with enough protein.",
+ "tips": [
+  "Share one piece among 2-3 people and just take a bit for the taste.",
+  "Ask for less sugar or no condensed milk on top.",
+  "Have it after a protein dish like egg or ayam tandoori, not as breakfast on its own."
+ ],
+ "swap": {
+  "name": "Plain tosai with sambar",
+  "kcal": 220,
+  "why": "Still crispy and light, but with less oil and sugar. The sambar also gives some protein and vegetables."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between roti tisu and roti canai?",
+   "a": "Roti tisu dough is stretched very thin and wide, then cooked until crispy. It's usually eaten sweet with sugar and condensed milk. Roti canai is thicker and eaten with curry."
+  },
+  {
+   "q": "Why is roti tisu shaped like a tall cone?",
+   "a": "It's the classic mamak way of serving it so it looks impressive. The cone shape is also easy to break apart and share."
+  },
+  {
+   "q": "When is a good time to eat roti tisu?",
+   "a": "Many people have it at tea time or during a late-night mamak lepak as a sweet snack. It's best shared, not as a replacement for a main meal."
+  }
+ ]
+}

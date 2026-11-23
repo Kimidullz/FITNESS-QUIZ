@@ -1,0 +1,71 @@
+{
+ "slug": "nasi-lemak-biasa",
+ "name_en": "Nasi lemak biasa (sambal, egg, ikan bilis, peanuts)",
+ "serving_en": "1 bungkus",
+ "intro": "One bungkus of nasi lemak biasa has an estimated 400 kcal. Most of the calories come from the santan rice and the oil in the sambal.",
+ "breakdown": [
+  {
+   "part": "Santan rice (small bungkus, ~1 cup)",
+   "kcal": 230
+  },
+  {
+   "part": "Sambal, 1 tablespoon",
+   "kcal": 60
+  },
+  {
+   "part": "Boiled egg, 1/2",
+   "kcal": 40
+  },
+  {
+   "part": "Fried ikan bilis",
+   "kcal": 35
+  },
+  {
+   "part": "Fried peanuts",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak biasa + fried egg",
+   "kcal": 490
+  },
+  {
+   "name": "Nasi lemak, big bungkus",
+   "kcal": 550
+  },
+  {
+   "name": "Nasi lemak + sambal sotong",
+   "kcal": 520
+  },
+  {
+   "name": "Nasi lemak, half rice",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes, you can. Plain nasi lemak is actually one of the easier breakfasts to control. A normal bungkus is around 400 kcal, which still fits most people's daily calories. But it's low in protein, so you get hungry again fast. Pair it with some protein and watch how many times a week you have it, okay.",
+ "tips": [
+  "Ask for an extra boiled egg, not fried, for more protein without much oil.",
+  "Take just a little sambal. The oil in the sambal is what pushes the calories up.",
+  "Drink kopi o or teh o kosong instead of sweet teh tarik."
+ ],
+ "swap": {
+  "name": "Nasi lemak half rice + extra boiled egg",
+  "kcal": 330,
+  "why": "Less santan rice and more protein, so you stay full longer with fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is nasi lemak okay for breakfast every day?",
+   "a": "Once in a while is fine, but it's better to rotate with other breakfasts like roti bakar with egg or thosai. This helps you manage your daily fat and salt."
+  },
+  {
+   "q": "Why do I get hungry so fast after a small nasi lemak?",
+   "a": "Because it's low in protein and fibre. Add a boiled egg or extra cucumber to stay full longer."
+  },
+  {
+   "q": "Is less santan nasi lemak better than full santan?",
+   "a": "Less santan is usually lower in fat, but the difference isn't that big. Controlling the rice and sambal portion makes more difference."
+  }
+ ]
+}

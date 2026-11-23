@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-briyani-ayam",
+ "name_en": "Nasi briyani ayam (chicken biryani)",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi briyani ayam is about 750 kcal. Most calories come from briyani rice cooked with ghee and spices, plus the thick chicken masala.",
+ "breakdown": [
+  {
+   "part": "Briyani rice, 1.5 cups",
+   "kcal": 420
+  },
+  {
+   "part": "1 piece ayam masala",
+   "kcal": 230
+  },
+  {
+   "part": "Dalca and acar",
+   "kcal": 60
+  },
+  {
+   "part": "1 papadom",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mutton briyani",
+   "kcal": 850
+  },
+  {
+   "name": "Briyani gam ayam (Johor)",
+   "kcal": 800
+  },
+  {
+   "name": "Add boiled egg",
+   "kcal": 80
+  },
+  {
+   "name": "Chicken briyani, half rice",
+   "kcal": 550
+  }
+ ],
+ "diet": "Yes, especially for events or special days. Nasi briyani is high in calories because of the ghee and santan or milk used in cooking. If you have it, watch the rice portion and skip second helpings. Balance it with lighter meals and lots of vegetables at other times.",
+ "tips": [
+  "Ask for half briyani rice and add acar timun or salad.",
+  "Take the chicken breast and use less masala gravy.",
+  "Skip the papadom or share it with a friend."
+ ],
+ "swap": {
+  "name": "Half briyani rice + ayam tandoori + salad",
+  "kcal": 550,
+  "why": "Ayam tandoori is grilled without much oil, so you keep the protein but cut fat and calories."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi briyani and nasi minyak?",
+   "a": "Nasi briyani usually uses more spices like turmeric, cinnamon and star anise, and is sometimes layered with the meat. Nasi minyak is lighter on spices and usually eaten with separate dishes."
+  },
+  {
+   "q": "What rice is used for briyani?",
+   "a": "Most use basmathi rice, which has long, non-sticky grains. It's about as filling as normal rice."
+  },
+  {
+   "q": "What is briyani gam?",
+   "a": "Briyani gam is the Johor version where rice and meat are cooked together in a tightly sealed pot. The flavour soaks in more, and it's usually served at kenduri."
+  }
+ ]
+}

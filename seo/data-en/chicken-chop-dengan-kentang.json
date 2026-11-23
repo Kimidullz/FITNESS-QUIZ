@@ -1,0 +1,67 @@
+{
+ "slug": "chicken-chop-dengan-kentang",
+ "name_en": "Chicken chop with fries",
+ "serving_en": "1 set",
+ "intro": "One chicken chop set with fries is an estimated 850 kcal. Most of the calories come from the deep-fried floured chicken, fries and sauce.",
+ "breakdown": [
+  {
+   "part": "Floured fried chicken thigh (1 piece)",
+   "kcal": 420
+  },
+  {
+   "part": "Fries (1 serving)",
+   "kcal": 250
+  },
+  {
+   "part": "Coleslaw (1 scoop)",
+   "kcal": 100
+  },
+  {
+   "part": "Black pepper sauce (1 ladle)",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Grilled chicken chop (no flour)",
+   "kcal": 650
+  },
+  {
+   "name": "Chicken chop with mushroom sauce",
+   "kcal": 880
+  },
+  {
+   "name": "Add 1 telur mata",
+   "kcal": 940
+  },
+  {
+   "name": "Swap fries for mashed potato",
+   "kcal": 780
+  }
+ ],
+ "diet": "Yes, but treat it as one big meal, not an everyday thing. 850 kcal is almost half the daily needs of many people trying to lose weight. It's high in protein, so it's filling. If you want it, choose the grilled version and go lighter at breakfast or dinner that day.",
+ "tips": [
+  "Ask for grilled chicken chop, not the floured fried one. Saves an estimated 150-200 kcal.",
+  "Ask for the sauce on the side and use only half.",
+  "Swap the fries for salad or veg if the shop has it, or share the fries with a friend."
+ ],
+ "swap": {
+  "name": "Grilled chicken chop with salad (sauce on the side)",
+  "kcal": 500,
+  "why": "You still get the full chicken protein, with less frying oil and no fries. Keeps you full with far fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Which part of the chicken is used for chicken chop?",
+   "a": "Usually boneless thigh. Thigh is softer and juicier, but higher in fat than chicken breast."
+  },
+  {
+   "q": "Black pepper or mushroom sauce, which is lighter?",
+   "a": "Both are about the same. Mushroom sauce sometimes uses cream or milk, so it can be a little heavier. The key is not to pour too much."
+  },
+  {
+   "q": "Can I make chicken chop at home with an air fryer?",
+   "a": "Yes. Marinate chicken thigh with black pepper, garlic and a bit of soy sauce, then air fry or bake. Serve with baked potato and veg."
+  }
+ ]
+}

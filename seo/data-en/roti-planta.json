@@ -1,0 +1,63 @@
+{
+ "slug": "roti-planta",
+ "name_en": "Roti planta",
+ "serving_en": "1 piece",
+ "intro": "One piece of roti planta has an estimated 420 kcal. Most of the calories come from the roti canai dough and the generous margarine spread, plus sprinkled sugar.",
+ "breakdown": [
+  {
+   "part": "Roti canai dough with oil",
+   "kcal": 300
+  },
+  {
+   "part": "Margarine, 1-2 tablespoons",
+   "kcal": 100
+  },
+  {
+   "part": "Sprinkled sugar",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti planta without sugar",
+   "kcal": 400
+  },
+  {
+   "name": "Roti bom",
+   "kcal": 450
+  },
+  {
+   "name": "Roti planta + condensed milk",
+   "kcal": 480
+  },
+  {
+   "name": "Roti planta telur",
+   "kcal": 500
+  }
+ ],
+ "diet": "Yes, but think of it as a treat, not a regular breakfast. It's high in fat and sugar but low in protein. So you get hungry fast even though the calories are already high. Once in a while with a kosong drink, no problem.",
+ "tips": [
+  "Ask for no sugar or less sugar to save calories.",
+  "Share one piece with your partner or kids if you just want a taste.",
+  "Pair it with a half-boiled egg for extra protein."
+ ],
+ "swap": {
+  "name": "Roti canai kosong + kuah dal",
+  "kcal": 360,
+  "why": "No extra margarine and sugar, so lower in fat and sugar."
+ },
+ "faq": [
+  {
+   "q": "Are roti planta and roti bom the same?",
+   "a": "Almost. Roti bom is usually thicker and smaller, spread with margarine and sugar. Roti planta is thinner and wider."
+  },
+  {
+   "q": "Is roti planta okay for kids?",
+   "a": "Once in a while as a treat is fine. For daily breakfast, choose something with protein like roti telur or capati with dal."
+  },
+  {
+   "q": "Do you eat roti planta with kuah?",
+   "a": "Many people eat it on its own because it's sweet. Some like to dip it in kuah kari for a sweet-salty taste."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-goreng-kampung",
+ "name_en": "Nasi goreng kampung",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi goreng kampung has about 600 kcal. Most of the calories come from the rice and cooking oil.",
+ "breakdown": [
+  {
+   "part": "Rice, 1.5 cups",
+   "kcal": 300
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 160
+  },
+  {
+   "part": "1 egg",
+   "kcal": 80
+  },
+  {
+   "part": "Ikan bilis and kangkung",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng kampung + telur mata",
+   "kcal": 690
+  },
+  {
+   "name": "Nasi goreng kampung + ayam goreng",
+   "kcal": 850
+  },
+  {
+   "name": "Nasi goreng kampung, half plate",
+   "kcal": 350
+  },
+  {
+   "name": "Plain nasi goreng (no ikan bilis)",
+   "kcal": 550
+  }
+ ],
+ "diet": "Yes, but don't make it your daily meal. Shop fried rice usually uses more oil and a big portion of rice. Having it once in a while is okay, just balance it with lighter meals that day. Add protein so you stay full longer.",
+ "tips": [
+  "Ask for 'kurang minyak' when you order. Most shops can do it.",
+  "Add a boiled egg or ayam bakar instead of ayam goreng.",
+  "Ask for extra vegetables, and share or leave some rice if the portion is big."
+ ],
+ "swap": {
+  "name": "1 cup white rice + ikan bakar + vegetables",
+  "kcal": 450,
+  "why": "Less oil, more protein, and you still get your rice."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi goreng kampung and normal nasi goreng?",
+   "a": "Nasi goreng kampung has ikan bilis, chilli and usually kangkung. It's spicier and smells of sambal."
+  },
+  {
+   "q": "Can I cook nasi goreng kampung with less oil?",
+   "a": "Yes. Use a non-stick pan and 1 teaspoon of oil. Fry the ikan bilis with just a little oil."
+  },
+  {
+   "q": "Is nasi goreng okay for breakfast?",
+   "a": "Sure, lots of Malaysians eat nasi goreng in the morning. Just take a smaller portion if you're having rice again for lunch."
+  }
+ ]
+}

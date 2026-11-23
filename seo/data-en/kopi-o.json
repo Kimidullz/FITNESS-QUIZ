@@ -1,0 +1,63 @@
+{
+ "slug": "kopi-o",
+ "name_en": "Kopi O (with sugar)",
+ "serving_en": "1 cup",
+ "intro": "One cup of sweetened kopi O has about 60 kcal (estimate). Almost all the calories come from sugar. Black coffee itself has almost no calories.",
+ "breakdown": [
+  {
+   "part": "Sugar (~1 tbsp)",
+   "kcal": 50
+  },
+  {
+   "part": "Traditional coffee powder (roasted with sugar & margarine)",
+   "kcal": 8
+  },
+  {
+   "part": "Hot water",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kopi O kosong (no sugar)",
+   "kcal": 5
+  },
+  {
+   "name": "Kopi O ais (with sugar)",
+   "kcal": 80
+  },
+  {
+   "name": "Kopi C (evaporated milk + sugar)",
+   "kcal": 90
+  },
+  {
+   "name": "Kopi (condensed milk)",
+   "kcal": 120
+  }
+ ],
+ "diet": "Yes, kopi O is one of the lowest-calorie drinks at the kedai. One cup a day fits easily into your calorie budget. To save more, cut the sugar slowly. Just watch what you eat with it, like roti bakar kaya and half-boiled eggs.",
+ "tips": [
+  "Order 'kopi O kurang manis' and save about half the calories.",
+  "Drink it hot in a small cup, which is smaller than an iced glass.",
+  "Pair it with half-boiled eggs for protein, and have less roti bakar kaya."
+ ],
+ "swap": {
+  "name": "Kopi O kurang manis",
+  "kcal": 30,
+  "why": "Still strong kaw coffee taste, with half the sugar."
+ },
+ "faq": [
+  {
+   "q": "Can I drink kopi O on an empty stomach?",
+   "a": "Many people are okay, but some get stomach discomfort. It's more comfortable with breakfast."
+  },
+  {
+   "q": "Kopi O kosong is too bitter, how do I get used to it?",
+   "a": "Reduce sugar in stages, from normal to kurang manis, then very little. Your taste buds will adjust."
+  },
+  {
+   "q": "How many cups of coffee a day is okay?",
+   "a": "Most healthy adults are fine with 2-3 cups. If you have trouble sleeping or feel your heart racing, cut down."
+  }
+ ]
+}

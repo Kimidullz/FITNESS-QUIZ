@@ -1,0 +1,63 @@
+{
+ "slug": "bubur-ayam",
+ "name_en": "Bubur ayam (chicken porridge)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of bubur ayam is about 250 kcal (estimate). Most of the calories come from the rice porridge, followed by the chicken and fried shallots.",
+ "breakdown": [
+  {
+   "part": "Rice porridge (about 1.5 cups)",
+   "kcal": 140
+  },
+  {
+   "part": "Shredded chicken",
+   "kcal": 60
+  },
+  {
+   "part": "Fried shallots and shallot oil",
+   "kcal": 35
+  },
+  {
+   "part": "Spring onion, ginger and soy sauce",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bubur ayam with cakwe",
+   "kcal": 400
+  },
+  {
+   "name": "Bubur ayam with egg",
+   "kcal": 320
+  },
+  {
+   "name": "Fish porridge",
+   "kcal": 230
+  }
+ ],
+ "diet": "Yes, bubur ayam is one of the lightest options. Low in calories and easy to digest. But porridge is mostly water, so sometimes you get hungry fast. Add protein so it keeps you full longer.",
+ "tips": [
+  "Ask for extra chicken or add an egg.",
+  "Skip the cakwe, it adds calories without filling you up much.",
+  "Go easy on the fried shallots and shallot oil."
+ ],
+ "swap": {
+  "name": "Bubur ayam with egg, no cakwe",
+  "kcal": 320,
+  "why": "More protein, so you stay full longer, and calories are still low."
+ },
+ "faq": [
+  {
+   "q": "Is bubur ayam good when you have a fever?",
+   "a": "Many people choose porridge when unwell because it's soft and easy to swallow. Drinking enough water is important too."
+  },
+  {
+   "q": "What's the difference between Malay and Chinese porridge?",
+   "a": "Malay bubur usually has spices and vegetables. Chinese porridge (congee) is smoother, with ginger and soy sauce."
+  },
+  {
+   "q": "Can I make bubur from leftover rice?",
+   "a": "Yes. Boil the rice with stock or water until soft, about 15 to 20 minutes."
+  }
+ ]
+}

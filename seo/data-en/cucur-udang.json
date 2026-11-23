@@ -1,0 +1,59 @@
+{
+ "slug": "cucur-udang",
+ "name_en": "Cucur udang",
+ "serving_en": "2 pieces",
+ "intro": "Two pieces of cucur udang have an estimated 200 kcal. Most of the calories come from the flour batter and frying oil.",
+ "breakdown": [
+  {
+   "part": "Flour batter",
+   "kcal": 90
+  },
+  {
+   "part": "Oil absorbed",
+   "kcal": 80
+  },
+  {
+   "part": "Prawns, taugeh & vegetables",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cucur udang, 1 big piece (mamak)",
+   "kcal": 150
+  },
+  {
+   "name": "Cucur udang with peanut sauce",
+   "kcal": 260
+  },
+  {
+   "name": "Cucur bawang / cucur sayur (2 pieces)",
+   "kcal": 180
+  }
+ ],
+ "diet": "Yes, but don't make it your main meal. There's very little protein from the prawns. It's mostly flour and oil. Two pieces as a snack is still okay. Add another protein source so you don't get hungry fast.",
+ "tips": [
+  "Pick chilli sauce, not peanut sauce, to save calories.",
+  "Share with friends if you buy a whole pack.",
+  "If you make it at home, add more taugeh and prawns, less flour."
+ ],
+ "swap": {
+  "name": "Small plate of boiled prawns or tauhu bakar",
+  "kcal": 150,
+  "why": "More protein and less oil, so it's more filling."
+ },
+ "faq": [
+  {
+   "q": "Why does my cucur udang turn soft?",
+   "a": "Usually the oil isn't hot enough or the batter is too runny. Add a bit of rice flour for crispiness."
+  },
+  {
+   "q": "What's the best dip for cucur udang?",
+   "a": "Chilli sauce or peanut sauce are the most popular. Up north, many like it with spicy kuah kacang."
+  },
+  {
+   "q": "Can I use dried prawns?",
+   "a": "Yes, the flavour is stronger. Just use less salt because dried prawns are already salty."
+  }
+ ]
+}

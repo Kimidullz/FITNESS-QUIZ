@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-paprik-ayam",
+ "name_en": "Nasi paprik ayam",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi paprik ayam is about 650 kcal (estimate). Most of the calories come from the white rice and the chicken. The chicken is usually fried first, then stir-fried in a spicy-sweet paprik sauce.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.5 cups",
+   "kcal": 300
+  },
+  {
+   "part": "Paprik chicken with sauce",
+   "kcal": 250
+  },
+  {
+   "part": "Mixed vegetables in the paprik",
+   "kcal": 60
+  },
+  {
+   "part": "Stir-fry oil",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi paprik daging (beef)",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi paprik campur (chicken, squid, prawn)",
+   "kcal": 700
+  },
+  {
+   "name": "Add a fried egg (telur mata)",
+   "kcal": 90
+  },
+  {
+   "name": "Nasi paprik ayam with half rice",
+   "kcal": 500
+  }
+ ],
+ "diet": "Yes, you can. Nasi paprik is one of the more moderate choices at a tomyam shop. It has vegetables and a decent amount of protein. Calories go up when the chicken is battered and fried, and when there is a lot of stir-fry oil. Ask for less oil and less rice, and it can be an okay weekly meal.",
+ "tips": [
+  "Ask for the chicken without flour coating, or stir-fried straight without deep-frying first.",
+  "Ask for extra vegetables in the paprik, like cabbage, carrot and long beans.",
+  "Take half rice and finish your vegetables and chicken first."
+ ],
+ "swap": {
+  "name": "Half rice + less-oil paprik chicken + extra vegetables",
+  "kcal": 480,
+  "why": "Same spicy-sweet taste, but less rice and oil. Your protein stays the same."
+ },
+ "faq": [
+  {
+   "q": "What exactly is paprik?",
+   "a": "Paprik is a Thai-style dish. The meat is stir-fried with chilli, chilli paste, oyster sauce and vegetables. It tastes spicy, salty and a little sweet."
+  },
+  {
+   "q": "Is nasi paprik very spicy?",
+   "a": "Depends on the shop. If you can't take spicy food, ask for less chilli when you order."
+  },
+  {
+   "q": "Can I cook paprik ayam at home?",
+   "a": "Yes, and it's easy. Sauté onion, blended chilli and oyster sauce, then add sliced chicken and vegetables. Use just one spoon of oil and no need to fry the chicken first."
+  }
+ ]
+}

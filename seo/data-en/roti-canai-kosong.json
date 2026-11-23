@@ -1,0 +1,63 @@
+{
+ "slug": "roti-canai-kosong",
+ "name_en": "Roti canai kosong",
+ "serving_en": "1 piece",
+ "intro": "One piece of roti canai kosong has an estimated 300 kcal, not including kuah. The calories come from the flour and the oil or margarine used when kneading and flipping the dough.",
+ "breakdown": [
+  {
+   "part": "Wheat flour dough",
+   "kcal": 170
+  },
+  {
+   "part": "Oil / margarine in the dough",
+   "kcal": 70
+  },
+  {
+   "part": "Oil for flipping and cooking",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti canai + kuah dal, 1 ladle",
+   "kcal": 360
+  },
+  {
+   "name": "Roti canai + kuah kari campur",
+   "kcal": 370
+  },
+  {
+   "name": "Roti bawang",
+   "kcal": 340
+  },
+  {
+   "name": "Roti canai, 2 pieces",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes. One piece of roti canai still fits most people's calorie budget. The problem is it's low in protein, and many people order two pieces with teh tarik. One piece with kuah dal and a kosong drink is an okay choice. Add some protein so you don't get hungry before lunch.",
+ "tips": [
+  "Order just one piece and add a half-boiled or boiled egg for protein.",
+  "Choose kuah dal over kuah kari, which is oilier.",
+  "Switch teh tarik to teh o kosong or kopi o kurang manis."
+ ],
+ "swap": {
+  "name": "Capati + kuah dal",
+  "kcal": 190,
+  "why": "Capati is cooked without much oil, so it's much lower in calories with the same mamak feel."
+ },
+ "faq": [
+  {
+   "q": "What oil is used to make roti canai?",
+   "a": "Most shops use a mix of vegetable oil, margarine or ghee. That's what gives it the crispy and soft texture."
+  },
+  {
+   "q": "Is roti canai okay for breakfast before a workout?",
+   "a": "Yes, but give it 1-2 hours to digest since it's quite oily. If you want something lighter, capati or thosai feels better."
+  },
+  {
+   "q": "Kuah dal or kuah kari, which is better?",
+   "a": "Kuah dal usually has less oil and a bit of protein from the lentils. Kuah kari is oilier, especially if it has santan."
+  }
+ ]
+}

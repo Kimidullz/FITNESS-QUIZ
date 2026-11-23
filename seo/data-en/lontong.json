@@ -1,0 +1,67 @@
+{
+ "slug": "lontong",
+ "name_en": "Lontong",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of lontong has an estimated 450 kcal. Most of the calories come from the santan-based kuah lodeh and the nasi impit.",
+ "breakdown": [
+  {
+   "part": "Nasi impit (about 2 cups of cubes)",
+   "kcal": 150
+  },
+  {
+   "part": "Santan kuah lodeh with vegetables",
+   "kcal": 180
+  },
+  {
+   "part": "Sambal tumis, 1 tablespoon",
+   "kcal": 50
+  },
+  {
+   "part": "Boiled egg, 1",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Lontong with rendang ayam",
+   "kcal": 650
+  },
+  {
+   "name": "Lontong with extra serunding",
+   "kcal": 520
+  },
+  {
+   "name": "Lontong with extra kerupuk",
+   "kcal": 500
+  },
+  {
+   "name": "Lontong with less kuah, more vegetables",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, lontong can still fit into a weight loss plan. The thing to watch is the santan kuah, because that's where most calories are. If you take just enough kuah and skip heavy lauk, one bowl is still okay for breakfast. Have it once in a while, not every day.",
+ "tips": [
+  "Ask for less kuah but more lodeh vegetables.",
+  "Add a boiled egg for protein so you stay full longer.",
+  "Skip the kerupuk and serunding if you already took rendang."
+ ],
+ "swap": {
+  "name": "Lontong with less kuah and 2 boiled eggs",
+  "kcal": 420,
+  "why": "Less santan but more protein, so you're fuller for about the same calories."
+ },
+ "faq": [
+  {
+   "q": "Where does lontong come from?",
+   "a": "Lontong is popular in Malaysia and Indonesia, especially in Johor and the Javanese community. It's often served at breakfast and during Hari Raya."
+  },
+  {
+   "q": "What's the difference between lontong and ketupat?",
+   "a": "Lontong is usually cooked in banana leaves or plastic, while ketupat is cooked in woven coconut leaves. The taste and texture are almost the same, just a different shape."
+  },
+  {
+   "q": "How long can I keep kuah lodeh?",
+   "a": "Keep it in the fridge and finish it within 1 to 2 days. Reheat until boiling before eating."
+  }
+ ]
+}

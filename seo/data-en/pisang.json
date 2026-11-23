@@ -1,0 +1,63 @@
+{
+ "slug": "pisang",
+ "name_en": "Banana (pisang)",
+ "serving_en": "1 medium banana",
+ "intro": "One medium banana has about 100 kcal. Almost all of it comes from carbs, which means natural sugar and starch.",
+ "breakdown": [
+  {
+   "part": "Natural sugar",
+   "kcal": 60
+  },
+  {
+   "part": "Starch",
+   "kcal": 30
+  },
+  {
+   "part": "Fibre, protein and others",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pisang emas (1 small)",
+   "kcal": 60
+  },
+  {
+   "name": "Pisang berangan (1 piece)",
+   "kcal": 90
+  },
+  {
+   "name": "Pisang goreng (1 piece)",
+   "kcal": 150
+  },
+  {
+   "name": "Banana + 1 tbsp peanut butter",
+   "kcal": 195
+  }
+ ],
+ "diet": "Yes, bananas are great when you're trying to lose weight. They're light, easy to carry and give you energy, for example before a workout. No single food makes you fat on its own, and bananas are no different. Just count it as a snack, and go easy on the fried version.",
+ "tips": [
+  "Make a banana your tea-time snack instead of kuih or biscuits.",
+  "Pair it with a boiled egg or yogurt for extra protein so you stay full longer.",
+  "Choose fresh bananas over pisang goreng. Save the fried ones for once in a while."
+ ],
+ "swap": {
+  "name": "1 pisang emas",
+  "kcal": 60,
+  "why": "Smaller size, still sweet. Good if you just want to settle a sweet craving."
+ },
+ "faq": [
+  {
+   "q": "Is it better to eat a banana before or after exercise?",
+   "a": "Both are okay. Before exercise, it gives quick energy. After exercise, pair it with protein like eggs or milk."
+  },
+  {
+   "q": "Are riper bananas sweeter?",
+   "a": "Yes. As a banana ripens, the starch turns into sugar, so it tastes sweeter. The calories stay about the same."
+  },
+  {
+   "q": "Can people with diabetes eat bananas?",
+   "a": "Many can, in small portions, but everyone is different. Best to follow your doctor or dietitian's advice."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "bubble-tea",
+ "name_en": "Bubble tea (milk tea, normal sugar)",
+ "serving_en": "1 regular cup (500 ml)",
+ "intro": "One large cup of milk bubble tea with normal sugar has about 350 kcal (estimate). Most of it comes from sugar syrup, tapioca pearls and milk creamer.",
+ "breakdown": [
+  {
+   "part": "Milk tea (creamer + milk)",
+   "kcal": 120
+  },
+  {
+   "part": "Sugar syrup (100% normal sugar)",
+   "kcal": 130
+  },
+  {
+   "part": "Tapioca pearls (boba)",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "50% sugar, with pearls",
+   "kcal": 280
+  },
+  {
+   "name": "0% sugar, no pearls",
+   "kcal": 130
+  },
+  {
+   "name": "Brown sugar milk tea with pearls",
+   "kcal": 450
+  },
+  {
+   "name": "With pudding or cheese foam added",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, but treat bubble tea as a snack, not just a drink. 350 kcal is roughly the same as a small plate of rice. Once a week with less sugar can still fit into your daily calories. What makes weight loss hard is drinking it almost every day without realising.",
+ "tips": [
+  "Choose 25% or 50% sugar. After a week, your tongue will get used to it.",
+  "Pick a medium size, or share a large cup with a friend.",
+  "Swap pearls for jelly, or go without toppings to save calories."
+ ],
+ "swap": {
+  "name": "Medium milk tea, 25% sugar, no pearls",
+  "kcal": 150,
+  "why": "You still get the milk tea taste, but with less than half the calories because the sugar and pearls are cut down."
+ },
+ "faq": [
+  {
+   "q": "What are bubble tea pearls made of?",
+   "a": "They're made from tapioca (cassava) starch. They're almost all carbohydrate and are usually soaked in sugar syrup."
+  },
+  {
+   "q": "Does 0% sugar mean no sugar at all?",
+   "a": "Usually it means no added sugar syrup. But the creamer, milk and toppings still have their own sugar."
+  },
+  {
+   "q": "Does bubble tea have caffeine?",
+   "a": "Yes, if it's made with black tea, green tea or oolong. If you're sensitive to caffeine, avoid drinking it late afternoon or at night."
+  }
+ ]
+}

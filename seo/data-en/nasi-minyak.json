@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-minyak",
+ "name_en": "Nasi minyak",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi minyak with a little dalca and acar is about 600 kcal. Most calories come from the rice itself, cooked with ghee, milk and santan.",
+ "breakdown": [
+  {
+   "part": "Nasi minyak, 1.5 cups",
+   "kcal": 450
+  },
+  {
+   "part": "Vegetable dalca",
+   "kcal": 70
+  },
+  {
+   "part": "Acar buah or acar timun",
+   "kcal": 60
+  },
+  {
+   "part": "Fried shallots and raisins garnish",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Add 1 piece ayam masak merah",
+   "kcal": 250
+  },
+  {
+   "name": "Add daging masak kurma",
+   "kcal": 300
+  },
+  {
+   "name": "Full kenduri nasi minyak set (chicken, beef, acar, dalca)",
+   "kcal": 950
+  },
+  {
+   "name": "Nasi minyak, 1 cup only",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes. We usually see nasi minyak at kenduri, so it's not a daily food anyway. Nasi minyak on its own is already high in calories but low in protein. The real issue is adding two or three dishes and going for a second plate. Have one plate with one protein dish, and enjoy it without guilt.",
+ "tips": [
+  "Take a bit less rice and pick just one protein dish, like chicken.",
+  "Add acar timun or salad to feel fuller.",
+  "At kenduri, eat slowly and skip the second plate. Have fruit or plain water after."
+ ],
+ "swap": {
+  "name": "1 cup nasi minyak + skinless ayam masak merah + acar timun",
+  "kcal": 550,
+  "why": "Smaller rice portion and more protein, so you feel fuller for about the same calories."
+ },
+ "faq": [
+  {
+   "q": "Why is nasi minyak always at weddings?",
+   "a": "Nasi minyak is seen as a special dish because it's fragrant and rich. It became a tradition for weddings and big kenduri."
+  },
+  {
+   "q": "What oil is used in nasi minyak?",
+   "a": "Usually minyak sapi or ghee, with spices like star anise, cinnamon and cardamom. Some recipes add evaporated milk or santan."
+  },
+  {
+   "q": "Can I cook a lighter nasi minyak at home?",
+   "a": "Yes. Cut the ghee by half and use low-fat milk. It still smells great if you use enough spices."
+  }
+ ]
+}

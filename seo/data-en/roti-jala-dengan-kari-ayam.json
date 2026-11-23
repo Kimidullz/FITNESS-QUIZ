@@ -1,0 +1,63 @@
+{
+ "slug": "roti-jala-dengan-kari-ayam",
+ "name_en": "Roti jala with chicken curry",
+ "serving_en": "3 pieces + curry",
+ "intro": "3 pieces of roti jala with chicken curry are about 450 kcal per serving (estimate). Most of the calories come from the santan curry gravy and the roti jala batter itself.",
+ "breakdown": [
+  {
+   "part": "Roti jala, 3 pieces",
+   "kcal": 210
+  },
+  {
+   "part": "Santan curry gravy (1 ladle)",
+   "kcal": 120
+  },
+  {
+   "part": "Chicken, 1 small piece",
+   "kcal": 120
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti jala 5 pieces + chicken curry",
+   "kcal": 600
+  },
+  {
+   "name": "Roti jala 3 pieces + beef curry",
+   "kcal": 500
+  },
+  {
+   "name": "Roti jala 3 pieces + curry gravy only (no chicken)",
+   "kcal": 330
+  },
+  {
+   "name": "Roti jala 3 pieces + chicken curry + teh tarik",
+   "kcal": 580
+  }
+ ],
+ "diet": "Yes, as long as you control the portion. 3 pieces with one piece of chicken is still okay for breakfast or tea time. Calories go up when you add more pieces and dip in lots of gravy. Choose more chicken, less gravy, and balance it with a lighter lunch.",
+ "tips": [
+  "Ask for chicken breast and remove the skin for more protein, less fat.",
+  "Dip the roti jala into the gravy, don't pour gravy all over the plate.",
+  "Drink teh o kosong or warm water, not teh tarik."
+ ],
+ "swap": {
+  "name": "Roti jala 2 pieces + chicken curry (more chicken, less gravy)",
+  "kcal": 330,
+  "why": "Less flour and santan, but you still get the chicken protein to keep you full."
+ },
+ "faq": [
+  {
+   "q": "Is roti jala okay for breakfast?",
+   "a": "Yes. Make sure there's protein like chicken so you stay full until lunch."
+  },
+  {
+   "q": "Is roti jala healthier than roti canai?",
+   "a": "Roti jala usually has less oil since it's not fried in much oil. But you still need to watch the santan curry."
+  },
+  {
+   "q": "Can I make lower-calorie roti jala at home?",
+   "a": "Yes. Use low-fat milk and brush the pan with a very thin layer of oil. For the curry, use thin santan or half milk."
+  }
+ ]
+}

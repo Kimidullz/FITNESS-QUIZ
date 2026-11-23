@@ -1,0 +1,67 @@
+{
+ "slug": "bihun-sup",
+ "name_en": "Bihun sup",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of bihun sup is roughly 300 kcal. Most of the calories come from the bihun. The clear soup and vegetables add almost nothing.",
+ "breakdown": [
+  {
+   "part": "Bihun, 1 serving",
+   "kcal": 180
+  },
+  {
+   "part": "Chicken or fishballs",
+   "kcal": 70
+  },
+  {
+   "part": "Soup",
+   "kcal": 30
+  },
+  {
+   "part": "Vegetables and fried shallots",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bihun sup tulang",
+   "kcal": 400
+  },
+  {
+   "name": "Bihun sup daging",
+   "kcal": 380
+  },
+  {
+   "name": "With extra fishballs",
+   "kcal": 360
+  },
+  {
+   "name": "Kuey teow sup",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, bihun sup is one of the most weight-loss-friendly options at the stall. It's low in calories and the soup fills you up. Protein is only moderate though, so you might get hungry sooner. Add a protein side so you can last until your next meal.",
+ "tips": [
+  "Add chicken, beef or fishballs for more protein.",
+  "Ask for extra vegetables like sawi and taugeh.",
+  "Go easy on the fried shallots and sambal kicap for a lighter bowl."
+ ],
+ "swap": {
+  "name": "Sup ayam with half portion of rice",
+  "kcal": 350,
+  "why": "Higher in protein and still a clear, filling soup."
+ },
+ "faq": [
+  {
+   "q": "What is bihun made of?",
+   "a": "Rice flour and water. That's why it feels lighter than yellow mee."
+  },
+  {
+   "q": "Is bihun sup good when you're feeling unwell?",
+   "a": "Many people choose bihun sup when they're under the weather because the soup is light and warm. For health advice, please see a doctor."
+  },
+  {
+   "q": "What's the difference between bihun sup and bihun sup tulang?",
+   "a": "Bihun sup tulang uses a soup boiled from beef bones. It's usually fattier and more spiced."
+  }
+ ]
+}

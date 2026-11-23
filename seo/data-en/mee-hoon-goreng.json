@@ -1,0 +1,63 @@
+{
+ "slug": "mee-hoon-goreng",
+ "name_en": "Mee hoon goreng (fried rice vermicelli)",
+ "serving_en": "1 plate",
+ "intro": "A plate of mee hoon goreng is about 450 kcal (estimate). Most of the calories come from the mee hoon and the oil used for frying.",
+ "breakdown": [
+  {
+   "part": "Mee hoon (about 1.5 cups cooked)",
+   "kcal": 250
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 120
+  },
+  {
+   "part": "Egg and a bit of chicken or tauhu",
+   "kcal": 50
+  },
+  {
+   "part": "Vegetables, chilli and sauces",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee hoon goreng with telur mata (fried egg)",
+   "kcal": 540
+  },
+  {
+   "name": "Singapore mee hoon goreng",
+   "kcal": 500
+  },
+  {
+   "name": "Mee hoon sup",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes, but mee hoon goreng is high in carbs and low in protein. The oil also depends a lot on the stall. Make it a balanced meal by adding protein and vegetables. For something lighter, mee hoon sup is a good choice.",
+ "tips": [
+  "Ask for less oil and more vegetables.",
+  "Add a boiled egg or chicken for protein.",
+  "Use a smaller plate, or share if you buy a big bungkus."
+ ],
+ "swap": {
+  "name": "Mee hoon sup with chicken or fish balls",
+  "kcal": 300,
+  "why": "Not fried, so less oil, but the hot soup still fills you up."
+ },
+ "faq": [
+  {
+   "q": "What is mee hoon made of?",
+   "a": "Mee hoon is made from rice flour. It's naturally gluten-free, but the sauces used might contain gluten."
+  },
+  {
+   "q": "Why does my mee hoon goreng stick together?",
+   "a": "Usually because it was soaked too long or the wok wasn't hot enough. Soak it just until soft."
+  },
+  {
+   "q": "How long does mee hoon goreng last?",
+   "a": "Best to finish it within a few hours. If keeping it, put it in the fridge and eat within 1 day."
+  }
+ ]
+}

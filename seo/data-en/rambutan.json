@@ -1,0 +1,63 @@
+{
+ "slug": "rambutan",
+ "name_en": "Rambutan",
+ "serving_en": "10 pieces",
+ "intro": "Ten rambutans have about 120 kcal. Almost all the calories come from the natural sugar in the flesh.",
+ "breakdown": [
+  {
+   "part": "Rambutan 1-5 (natural sugar)",
+   "kcal": 58
+  },
+  {
+   "part": "Rambutan 6-10 (natural sugar)",
+   "kcal": 58
+  },
+  {
+   "part": "Protein and fibre",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "5 rambutans",
+   "kcal": 60
+  },
+  {
+   "name": "20 rambutans (a fruit-season pile)",
+   "kcal": 240
+  },
+  {
+   "name": "Canned rambutan in syrup (1 small bowl)",
+   "kcal": 150
+  },
+  {
+   "name": "Canned pineapple-stuffed rambutan",
+   "kcal": 170
+  }
+ ],
+ "diet": "Yes. Rambutan is delicious and moderate in calories if you count them. The challenge is fruit season, when there's a big pile on the table and we keep eating while chatting. Take 10 on a plate, then stop.",
+ "tips": [
+  "Count 10 and put them in your own bowl, don't eat straight off the bunch.",
+  "Have rambutan as dessert instead of kuih or a sweet drink.",
+  "Eat them with a small handful of nuts or a boiled egg if you want to feel fuller."
+ ],
+ "swap": {
+  "name": "Fresh rambutan instead of canned",
+  "kcal": 120,
+  "why": "The canned version is usually soaked in sugar syrup, so it has more calories for the same amount of fruit."
+ },
+ "faq": [
+  {
+   "q": "Is rambutan 'heaty'?",
+   "a": "Many people believe so, but there's no strong evidence. If you feel uncomfortable, eat fewer and drink enough water."
+  },
+  {
+   "q": "Can I eat rambutan seeds?",
+   "a": "Raw rambutan seeds are not recommended. Just eat the flesh."
+  },
+  {
+   "q": "When is rambutan season in Malaysia?",
+   "a": "Usually around mid-year, roughly June to August, and sometimes at year-end depending on the area."
+  }
+ ]
+}

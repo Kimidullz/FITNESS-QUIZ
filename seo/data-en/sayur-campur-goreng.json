@@ -1,0 +1,63 @@
+{
+ "slug": "sayur-campur-goreng",
+ "name_en": "Sayur campur goreng (stir-fried mixed vegetables)",
+ "serving_en": "1 scoop",
+ "intro": "One scoop of stir-fried mixed vegetables is about 100 kcal (estimate). Most of the calories actually come from the stir-fry oil, not the vegetables.",
+ "breakdown": [
+  {
+   "part": "Vegetables (cabbage, carrot, long beans, mushrooms)",
+   "kcal": 35
+  },
+  {
+   "part": "Stir-fry oil",
+   "kcal": 55
+  },
+  {
+   "part": "Oyster sauce, garlic and starch",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Blanched or boiled vegetables",
+   "kcal": 30
+  },
+  {
+   "name": "Mixed vegetables with prawns or squid",
+   "kcal": 130
+  },
+  {
+   "name": "Kangkung goreng belacan",
+   "kcal": 120
+  },
+  {
+   "name": "Sayur lemak (cooked in coconut milk)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, and it should be on every plate. Vegetables give you fibre and fill up your plate, so you feel fuller for fewer calories. Even stir-fried, one scoop is still low in calories. Just pick ones that aren't too oily or swimming in thick starchy sauce.",
+ "tips": [
+  "Take vegetables first and fill half your plate before adding other lauk.",
+  "Let the oily sauce drip off the scoop before putting it on your rice.",
+  "Cooking at home? Stir-fry with a little oil, then add a splash of water to steam in the pan."
+ ],
+ "swap": {
+  "name": "Blanched vegetables with a little oyster sauce",
+  "kcal": 40,
+  "why": "Almost no oil, so you can take two scoops. More fibre and more filling."
+ },
+ "faq": [
+  {
+   "q": "Do stir-fried vegetables still have nutrients?",
+   "a": "Yes, a quick stir-fry keeps a lot of the fibre and vitamins. Just don't overcook them until they're soggy."
+  },
+  {
+   "q": "What vegetables are usually in sayur campur?",
+   "a": "Usually cabbage, carrot, long beans, mushrooms, baby corn and cauliflower. Some shops add fishballs or prawns."
+  },
+  {
+   "q": "Why do shop vegetables always have thick sauce?",
+   "a": "Shops usually add cornflour or starch so the sauce sticks and looks glossy. It adds a few calories, so take the vegetables and leave most of the sauce."
+  }
+ ]
+}

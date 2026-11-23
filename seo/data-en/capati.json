@@ -1,0 +1,63 @@
+{
+ "slug": "capati",
+ "name_en": "Capati",
+ "serving_en": "1 piece",
+ "intro": "One piece of capati has an estimated 120 kcal, not including kuah. Most of the calories come from atta flour, with a little oil or ghee.",
+ "breakdown": [
+  {
+   "part": "Atta flour (~30 g)",
+   "kcal": 100
+  },
+  {
+   "part": "A little oil in the dough",
+   "kcal": 10
+  },
+  {
+   "part": "Ghee / oil brushed on top",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Capati with lots of ghee",
+   "kcal": 160
+  },
+  {
+   "name": "Capati + kuah dal",
+   "kcal": 190
+  },
+  {
+   "name": "Capati + kari ayam",
+   "kcal": 370
+  },
+  {
+   "name": "Capati 2 pieces + dal",
+   "kcal": 310
+  }
+ ],
+ "diet": "Yes. Capati is one of the best choices at the mamak when you want to lose weight. It's cooked with almost no oil, so the calories are low. What you need to watch is the kuah and lauk you pair it with. Add protein like ayam tandoori or dal so you stay full longer.",
+ "tips": [
+  "Pair it with ayam tandoori or dal for protein.",
+  "Ask for no ghee or just a little.",
+  "Take kuah dal over oily santan-based kuah kari."
+ ],
+ "swap": {
+  "name": "Capati + ayam tandoori + dal",
+  "kcal": 360,
+  "why": "A high-protein breakfast or lunch with calories still under control."
+ },
+ "faq": [
+  {
+   "q": "Is capati better than rice for diet?",
+   "a": "Not necessarily. Both are carbs. Capati is just easier to portion because you count it by pieces."
+  },
+  {
+   "q": "Is atta flour wholemeal?",
+   "a": "Yes, atta is whole wheat flour, so it has more fibre than regular flour."
+  },
+  {
+   "q": "Can I make capati at home?",
+   "a": "Yes, you only need atta flour, water and a bit of salt. Cook it on a flat pan without oil. Easy for meal prep."
+  }
+ ]
+}

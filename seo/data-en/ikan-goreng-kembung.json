@@ -1,0 +1,63 @@
+{
+ "slug": "ikan-goreng-kembung",
+ "name_en": "Ikan kembung goreng (fried mackerel)",
+ "serving_en": "1 fish",
+ "intro": "One medium fried ikan kembung is about 200 kcal (estimate). Most of the calories come from the fish itself, plus the oil absorbed during frying.",
+ "breakdown": [
+  {
+   "part": "Ikan kembung flesh",
+   "kcal": 140
+  },
+  {
+   "part": "Absorbed oil",
+   "kcal": 50
+  },
+  {
+   "part": "Turmeric and salt marinade",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ikan kembung bakar (grilled)",
+   "kcal": 160
+  },
+  {
+   "name": "Ikan kembung goreng berlada",
+   "kcal": 260
+  },
+  {
+   "name": "Ikan kembung asam pedas (with gravy)",
+   "kcal": 170
+  },
+  {
+   "name": "Ikan kembung stuffed with fried sambal",
+   "kcal": 280
+  }
+ ],
+ "diet": "Yes, you can. Ikan kembung is a very diet-friendly lauk. It's high in protein and has good omega-3 fats. Even the plain turmeric-fried version is still low in calories compared to many other dishes. Just watch the oily berlada sauce and too much rice.",
+ "tips": [
+  "Choose plain turmeric-fried ikan kembung over the sambal-coated one.",
+  "If there's a choice, go for ikan bakar or asam pedas.",
+  "Pair it with vegetables and half rice for a balanced plate."
+ ],
+ "swap": {
+  "name": "Ikan kembung bakar with air asam",
+  "kcal": 170,
+  "why": "No frying oil but still tasty. Air asam adds flavour without many extra calories."
+ },
+ "faq": [
+  {
+   "q": "Does ikan kembung have a lot of bones?",
+   "a": "It has some fine bones, but not too many. The middle bone is easy to remove, so it's okay for kids too with supervision."
+  },
+  {
+   "q": "How do I fry ikan kembung so it doesn't break apart?",
+   "a": "Pat the fish dry, marinate with turmeric and salt, and make sure the oil is hot. Don't flip it too early."
+  },
+  {
+   "q": "Ikan kembung or salmon, which is better?",
+   "a": "Both are rich in omega-3. Ikan kembung is much cheaper and easy to find at Malaysian markets, so it's a great everyday choice."
+  }
+ ]
+}

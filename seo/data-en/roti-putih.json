@@ -1,0 +1,63 @@
+{
+ "slug": "roti-putih",
+ "name_en": "White bread (roti putih)",
+ "serving_en": "2 slices",
+ "intro": "2 slices of white bread have about 160 kcal. Almost all the calories come from carbs in the wheat flour.",
+ "breakdown": [
+  {
+   "part": "Wheat flour (2 slices)",
+   "kcal": 135
+  },
+  {
+   "part": "Sugar in the dough",
+   "kcal": 10
+  },
+  {
+   "part": "Fat/margarine in the dough",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti bakar with butter + kaya (2 slices)",
+   "kcal": 300
+  },
+  {
+   "name": "Bread + planta + sugar (2 slices)",
+   "kcal": 250
+  },
+  {
+   "name": "Roti telur goreng (2 slices)",
+   "kcal": 330
+  },
+  {
+   "name": "Wholemeal bread, 2 slices",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, you can eat white bread while losing weight. What usually pushes the calories up is the spread, like butter, kaya, margarine and sugar. White bread is also low in fibre, so you get hungry fast. Make sure there's protein with it.",
+ "tips": [
+  "Fill your bread with boiled egg, tuna in water or boiled chicken, instead of thick kaya and butter.",
+  "If you want kaya, spread it thin and skip the butter.",
+  "Switch to wholemeal bread when you can for more fibre."
+ ],
+ "swap": {
+  "name": "Boiled egg sandwich (2 slices bread + 1 egg + cucumber)",
+  "kcal": 240,
+  "why": "Lower than roti bakar with kaya and butter, plus protein that keeps you full longer."
+ },
+ "faq": [
+  {
+   "q": "Is wholemeal bread lower in calories?",
+   "a": "Calories are about the same. The plus point is more fibre, so you feel fuller and your energy is more stable."
+  },
+  {
+   "q": "Does eating bread at night make you fat?",
+   "a": "It's not the time you eat that causes weight gain, it's your total calories for the day. If it fits your calorie budget, bread at night is okay."
+  },
+  {
+   "q": "Does toasting white bread reduce calories?",
+   "a": "No. Toasting only removes a bit of water, the calories stay the same. What adds calories is the spread on top."
+  }
+ ]
+}

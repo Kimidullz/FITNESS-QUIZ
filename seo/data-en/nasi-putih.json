@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-putih",
+ "name_en": "Nasi putih (white rice)",
+ "serving_en": "1 cup",
+ "intro": "One cup of nasi putih has about 200 kcal. Almost all of it comes from carbs (starch).",
+ "breakdown": [
+  {
+   "part": "Carbs (starch) ~44 g",
+   "kcal": 176
+  },
+  {
+   "part": "Protein ~4 g",
+   "kcal": 16
+  },
+  {
+   "part": "Fat (very little)",
+   "kcal": 8
+  }
+ ],
+ "variants": [
+  {
+   "name": "White rice, half cup",
+   "kcal": 100
+  },
+  {
+   "name": "White rice, 1.5 cups (full shop scoop)",
+   "kcal": 300
+  },
+  {
+   "name": "Brown rice, 1 cup",
+   "kcal": 215
+  },
+  {
+   "name": "Nasi minyak, 1 cup",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, you don't need to cut out rice to lose weight. Rice itself doesn't make you fat. What matters is how much. At the shop, one normal scoop can be 1.5 to 2 cups. Stick to one cup, add protein and vegetables, and you can still eat rice every day.",
+ "tips": [
+  "Ask for 'nasi separuh' or 'nasi sikit' at the nasi campur stall.",
+  "Fill half your plate with vegetables and a quarter with protein.",
+  "Go easy on the gulai poured over the rice. That's what adds the calories."
+ ],
+ "swap": {
+  "name": "Half cup white rice + extra vegetables",
+  "kcal": 130,
+  "why": "Your plate still looks full and you stay full, but the rice calories are cut by half."
+ },
+ "faq": [
+  {
+   "q": "Is brown rice better for losing weight?",
+   "a": "Calories are almost the same, but brown rice has more fibre. Many people feel fuller with it. Pick the one you like and can stick with."
+  },
+  {
+   "q": "Does eating rice at night make you fat?",
+   "a": "No. What matters is your total calories for the day, not what time you eat rice."
+  },
+  {
+   "q": "Is cold overnight rice lower in calories?",
+   "a": "Chilled rice has a bit of resistant starch, but the calorie difference is small. Portion size still matters more."
+  }
+ ]
+}

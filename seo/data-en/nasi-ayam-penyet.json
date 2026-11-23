@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-ayam-penyet",
+ "name_en": "Nasi ayam penyet",
+ "serving_en": "1 set",
+ "intro": "One set of nasi ayam penyet is about 800 kcal (estimate). Most of the calories come from the skin-on fried chicken, which is deep-fried in lots of oil, and the sambal cooked in oil.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.25 cups",
+   "kcal": 250
+  },
+  {
+   "part": "Fried penyet chicken, 1 piece (with skin)",
+   "kcal": 350
+  },
+  {
+   "part": "Sambal penyet",
+   "kcal": 120
+  },
+  {
+   "part": "Fried tofu, tempeh and ulam",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam penyet, breast part, skin removed",
+   "kcal": 650
+  },
+  {
+   "name": "Ikan penyet (catfish/siakap)",
+   "kcal": 750
+  },
+  {
+   "name": "Add soup",
+   "kcal": 40
+  },
+  {
+   "name": "Add telur penyet",
+   "kcal": 120
+  }
+ ],
+ "diet": "Yes, you can. Ayam penyet is high in protein. The challenge is the fat from the fried chicken and oily sambal. Choose the breast, remove the skin and control the sambal, and the calories drop a lot. Have it once in a while and keep your other meals in check, and it still fits your diet.",
+ "tips": [
+  "Choose the breast part and remove the skin. High protein, less fat.",
+  "Take just a little sambal and dip, don't spread it over the whole chicken.",
+  "Finish the cucumber and cabbage ulam, and ask for more if you can."
+ ],
+ "swap": {
+  "name": "Half rice + ayam bakar (breast) + a little sambal + ulam",
+  "kcal": 550,
+  "why": "Ayam bakar isn't fried, so much less fat. You still get the sambal taste and plenty of protein."
+ },
+ "faq": [
+  {
+   "q": "Why is it called ayam penyet?",
+   "a": "Penyet means smashed. The fried chicken is pressed with a pestle onto the sambal so the flavour soaks in."
+  },
+  {
+   "q": "Where does ayam penyet come from?",
+   "a": "Ayam penyet comes from Indonesia, mainly East Java. Now it's very popular in Malaysia."
+  },
+  {
+   "q": "Is sambal penyet very spicy?",
+   "a": "Most sambal penyet uses cili padi, so yes, it's quite spicy. You can ask for the sambal on the side so it's easier to control."
+  }
+ ]
+}

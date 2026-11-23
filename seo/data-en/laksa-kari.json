@@ -1,0 +1,63 @@
+{
+ "slug": "laksa-kari",
+ "name_en": "Laksa kari (curry laksa)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of laksa kari is roughly 650 kcal (estimate). Almost half the calories come from the thick santan curry broth.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles and bihun",
+   "kcal": 250
+  },
+  {
+   "part": "Santan curry broth",
+   "kcal": 280
+  },
+  {
+   "part": "Tauhu pok and chicken",
+   "kcal": 90
+  },
+  {
+   "part": "Cockles or prawns",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Laksa kari + extra cockles",
+   "kcal": 690
+  },
+  {
+   "name": "Laksa kari, half broth",
+   "kcal": 520
+  },
+  {
+   "name": "Laksa lemak Nyonya",
+   "kcal": 700
+  }
+ ],
+ "diet": "Yes, but be smart with the broth. Santan makes the fat high, so calories climb fast. If you don't finish the broth, you can save about 100 kcal. Make it an occasional pick, not a fixed weekly menu.",
+ "tips": [
+  "Eat the noodles and toppings, leave half the broth.",
+  "Choose bihun only, instead of mixing with yellow noodles.",
+  "Ask for more chicken and less tauhu pok, which soaks up the broth."
+ ],
+ "swap": {
+  "name": "Laksa Penang (asam laksa)",
+  "kcal": 450,
+  "why": "No santan. Still a laksa, but saves about 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Is laksa kari the same as curry mee?",
+   "a": "Pretty much. In Penang and the north people call it curry mee, while many in KL call it laksa kari."
+  },
+  {
+   "q": "Why is tauhu pok in laksa so good?",
+   "a": "Tauhu pok is spongy, so it soaks up lots of curry broth. That's also why it's high in calories."
+  },
+  {
+   "q": "Can laksa kari broth be made with less santan?",
+   "a": "Yes, at home. Use thin santan or mix in low-fat milk. It stays creamy but lighter."
+  }
+ ]
+}

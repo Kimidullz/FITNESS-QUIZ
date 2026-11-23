@@ -1,0 +1,67 @@
+{
+ "slug": "ayam-goreng",
+ "name_en": "Ayam goreng (thigh)",
+ "serving_en": "1 piece",
+ "intro": "One piece of fried chicken thigh is about 300 kcal (estimate). Most of the calories come from fat, meaning the chicken skin and the oil absorbed during frying.",
+ "breakdown": [
+  {
+   "part": "Chicken thigh meat",
+   "kcal": 150
+  },
+  {
+   "part": "Chicken skin",
+   "kcal": 70
+  },
+  {
+   "part": "Absorbed oil",
+   "kcal": 50
+  },
+  {
+   "part": "Flour coating and spices",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam goreng berempah (thigh)",
+   "kcal": 330
+  },
+  {
+   "name": "Crispy flour-coated fried chicken (thigh)",
+   "kcal": 380
+  },
+  {
+   "name": "Fried chicken drumstick",
+   "kcal": 200
+  },
+  {
+   "name": "Ayam goreng kunyit, skin removed",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, you can. Fried chicken is still a good protein source. The issue isn't the chicken, it's the skin, thick batter and oil. One piece with rice and vegetables still fits your daily calorie budget. Just avoid taking two or three pieces at once, or the thick crispy battered kind.",
+ "tips": [
+  "Remove some of the skin, especially the oiliest parts.",
+  "Choose ayam goreng kunyit or berempah over crispy battered chicken.",
+  "Frying at home? Use an air fryer or fry with just a little oil."
+ ],
+ "swap": {
+  "name": "Ayam bakar or roast chicken (thigh, skin removed)",
+  "kcal": 200,
+  "why": "No frying oil and no skin, but almost the same protein. Still filling and tasty with rice."
+ },
+ "faq": [
+  {
+   "q": "Thigh or breast, which is better for dieting?",
+   "a": "Breast is lower in fat and higher in protein. Thigh is juicier and tastier, so it's still okay as long as you remove the skin and watch how it's cooked."
+  },
+  {
+   "q": "How do I fry chicken so it's not too oily?",
+   "a": "Make sure the oil is hot enough before adding the chicken, and drain it on tissue after frying. An air fryer can also give a crispy result with very little oil."
+  },
+  {
+   "q": "Can I eat fried chicken every day?",
+   "a": "For protein, yes. But it's better to alternate with ayam bakar, boiled chicken or ayam masak kicap. This cuts down the frying oil you take in every day."
+  }
+ ]
+}

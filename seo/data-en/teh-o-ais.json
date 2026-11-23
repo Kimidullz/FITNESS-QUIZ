@@ -1,0 +1,59 @@
+{
+ "slug": "teh-o-ais",
+ "name_en": "Teh O ais (with sugar)",
+ "serving_en": "1 glass",
+ "intro": "One glass of sweetened teh O ais has about 90 kcal (estimate). Almost all the calories come from the sugar or sugar syrup added.",
+ "breakdown": [
+  {
+   "part": "Sugar / sugar syrup (~2 tbsp)",
+   "kcal": 85
+  },
+  {
+   "part": "Strong tea",
+   "kcal": 5
+  },
+  {
+   "part": "Ice and water",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh O ais kurang manis (less sweet)",
+   "kcal": 50
+  },
+  {
+   "name": "Teh O ais kosong (no sugar)",
+   "kcal": 5
+  },
+  {
+   "name": "Teh O ais jumbo glass",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes, but know that these 90 kcal are all from sugar. It doesn't fill you up at all. Two glasses a day is almost 200 kcal you could easily save. The easiest way is to cut the sweetness bit by bit.",
+ "tips": [
+  "Start with 'kurang manis' for a week or two, then try 'kosong'.",
+  "Ask for more ice so it doesn't taste too strong with less sugar.",
+  "Avoid the jumbo glass or big plastic bag, pick a normal glass."
+ ],
+ "swap": {
+  "name": "Teh O ais kosong",
+  "kcal": 5,
+  "why": "You still get the tea taste and the cold refreshment, with almost zero calories."
+ },
+ "faq": [
+  {
+   "q": "Does teh O ais kosong have any taste?",
+   "a": "It has a slightly bitter tea taste. Most people get used to it within 1-2 weeks once their taste buds adjust."
+  },
+  {
+   "q": "Is teh O good for hydration?",
+   "a": "It's still a fluid, but it has caffeine. Better to alternate with plain water throughout the day."
+  },
+  {
+   "q": "Why is shop teh O sweeter than homemade?",
+   "a": "Shops usually use thick cooked sugar syrup. One ladle can equal 2-3 teaspoons of sugar."
+  }
+ ]
+}

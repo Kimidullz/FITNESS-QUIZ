@@ -1,0 +1,63 @@
+{
+ "slug": "wantan-mee-kering",
+ "name_en": "Wantan mee kering (dry wonton noodles)",
+ "serving_en": "1 plate",
+ "intro": "A plate of dry wantan mee is roughly 450 kcal (estimate). Most of the calories come from the egg noodles and the oily sauce they're tossed in.",
+ "breakdown": [
+  {
+   "part": "Egg noodles, 1.5 cups",
+   "kcal": 250
+  },
+  {
+   "part": "Tossing sauce and oil",
+   "kcal": 90
+  },
+  {
+   "part": "Chicken char siu",
+   "kcal": 70
+  },
+  {
+   "part": "Boiled wantan and veg",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Wantan mee sup",
+   "kcal": 380
+  },
+  {
+   "name": "Wantan mee + fried wantan",
+   "kcal": 550
+  },
+  {
+   "name": "Wantan mee kering, large",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes, it's a moderate choice when eating out. Calories are still reasonable, with protein from the char siu and wantan. What usually pushes calories up is the sauce and fried wantan. Go for the regular size, not large.",
+ "tips": [
+  "Choose boiled wantan, not fried.",
+  "Ask for less sauce or 'kurang minyak'.",
+  "Add extra sawi if the stall has it."
+ ],
+ "swap": {
+  "name": "Wantan mee sup",
+  "kcal": 380,
+  "why": "Noodles in soup, not tossed in oil. Saves about 70 kcal and feels more filling."
+ },
+ "faq": [
+  {
+   "q": "Is there halal wantan mee?",
+   "a": "Yes. Many shops use chicken char siu and chicken or prawn wantan filling. Choose halal-certified shops."
+  },
+  {
+   "q": "What's inside wantan?",
+   "a": "Usually minced chicken or prawn with a little seasoning, wrapped in thin wantan skin."
+  },
+  {
+   "q": "Dry or soup, which is nicer?",
+   "a": "Up to you. Dry has more sauce aroma, soup is lighter and perfect for rainy days."
+  }
+ ]
+}

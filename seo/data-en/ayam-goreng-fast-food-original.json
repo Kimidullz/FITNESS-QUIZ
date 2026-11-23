@@ -1,0 +1,63 @@
+{
+ "slug": "ayam-goreng-fast-food-original",
+ "name_en": "Fried chicken (fast food, original)",
+ "serving_en": "1 piece",
+ "intro": "One piece of original fast food fried chicken is an estimated 320 kcal. Most of the calories come from the floured skin and frying oil.",
+ "breakdown": [
+  {
+   "part": "Chicken meat",
+   "kcal": 150
+  },
+  {
+   "part": "Skin & flour coating",
+   "kcal": 120
+  },
+  {
+   "part": "Absorbed oil",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Drumstick",
+   "kcal": 180
+  },
+  {
+   "name": "Thigh",
+   "kcal": 290
+  },
+  {
+   "name": "Breast",
+   "kcal": 380
+  },
+  {
+   "name": "Hot & spicy (1 piece)",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, fried chicken is high in protein. But calories climb fast when you eat 3-4 pieces with rice, fries and a sweet drink. One or two pieces with coleslaw or veg is still okay. The skin is the highest-fat part.",
+ "tips": [
+  "Choose a drumstick if you want fewer calories.",
+  "Remove half the skin to cut down on fat.",
+  "Pair it with a small coleslaw or corn, not large fries."
+ ],
+ "swap": {
+  "name": "Original fried chicken, skin removed",
+  "kcal": 200,
+  "why": "You keep the protein, but cut a lot of fat from the flour and oil."
+ },
+ "faq": [
+  {
+   "q": "Which chicken part has the most protein?",
+   "a": "The breast has the most protein and is also the biggest piece."
+  },
+  {
+   "q": "Original vs hot & spicy, what's the difference?",
+   "a": "Hot & spicy has a thicker, spicier coating. Original is thinner and seasoned with herbs and spices."
+  },
+  {
+   "q": "Can I reheat fried chicken?",
+   "a": "Yes, use an air fryer or oven so the skin gets crispy again. The microwave will make the skin soggy."
+  }
+ ]
+}

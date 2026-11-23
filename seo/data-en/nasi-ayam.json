@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-ayam",
+ "name_en": "Nasi ayam (chicken rice)",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi ayam has about 600 kcal. Most of the calories come from rice cooked with chicken fat and the chicken skin.",
+ "breakdown": [
+  {
+   "part": "Chicken-fat rice, 1.5 cups",
+   "kcal": 380
+  },
+  {
+   "part": "Chicken (with skin)",
+   "kcal": 170
+  },
+  {
+   "part": "Chilli sauce, soy sauce and ginger",
+   "kcal": 30
+  },
+  {
+   "part": "Chicken soup",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roasted chicken rice (char siu style)",
+   "kcal": 650
+  },
+  {
+   "name": "Fried chicken rice",
+   "kcal": 750
+  },
+  {
+   "name": "Steamed chicken rice, skin removed",
+   "kcal": 530
+  },
+  {
+   "name": "Chicken rice with plain white rice",
+   "kcal": 480
+  }
+ ],
+ "diet": "Yes. Nasi ayam is actually a pretty okay choice when eating out because it's high in protein. What pushes the calories up is the oily rice and the chicken skin. Go for steamed or roasted chicken, and ask for less rice.",
+ "tips": [
+  "Ask for 'nasi sikit, ayam lebih' or add an extra plate of chicken.",
+  "Remove the chicken skin. Same protein, less fat.",
+  "Add boiled sawi or taugeh if the stall has it."
+ ],
+ "swap": {
+  "name": "Half portion white rice + skinless steamed chicken + vegetables",
+  "kcal": 400,
+  "why": "Protein stays high, but you cut a lot of fat from the rice and chicken skin."
+ },
+ "faq": [
+  {
+   "q": "Steamed or roasted chicken, which is better?",
+   "a": "Steamed chicken usually has less fat. Roasted chicken has a sweet sauce, so it's a bit higher in calories."
+  },
+  {
+   "q": "Why does chicken rice smell so good?",
+   "a": "The rice is cooked with chicken stock, chicken fat, ginger, garlic and pandan leaves."
+  },
+  {
+   "q": "Can I ask for plain white rice at a chicken rice stall?",
+   "a": "Many stalls have white rice if you ask. It's an easy way to cut calories without changing your dish."
+  }
+ ]
+}

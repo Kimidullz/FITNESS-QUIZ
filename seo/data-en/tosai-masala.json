@@ -1,0 +1,63 @@
+{
+ "slug": "tosai-masala",
+ "name_en": "Tosai masala",
+ "serving_en": "1 piece",
+ "intro": "One tosai masala is roughly 350 kcal. Most of the calories come from the rice tosai and the potato masala filling cooked with oil.",
+ "breakdown": [
+  {
+   "part": "Tosai (1 piece)",
+   "kcal": 150
+  },
+  {
+   "part": "Potato masala filling",
+   "kcal": 120
+  },
+  {
+   "part": "Oil or ghee on the griddle",
+   "kcal": 40
+  },
+  {
+   "part": "Coconut chutney and sambar",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain tosai",
+   "kcal": 180
+  },
+  {
+   "name": "Tosai telur",
+   "kcal": 280
+  },
+  {
+   "name": "Ghee tosai masala",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, this is one of the lighter options at the mamak. Tosai is made from fermented rice and dal, so it uses less oil than roti canai. Protein is a bit low though. Add an egg or dal so you stay full longer.",
+ "tips": [
+  "Add a half-boiled egg or order tosai telur for more protein.",
+  "Take more sambar and less coconut chutney.",
+  "Ask for no ghee if you want to save calories."
+ ],
+ "swap": {
+  "name": "3 idli with sambar",
+  "kcal": 230,
+  "why": "Idli is steamed without oil, so it's lighter but still filling with sambar."
+ },
+ "faq": [
+  {
+   "q": "What is tosai made of?",
+   "a": "A batter of rice and urad dal that's soaked, ground and fermented overnight. That's why it tastes slightly sour."
+  },
+  {
+   "q": "What's the difference between tosai and tosai masala?",
+   "a": "Tosai masala has a potato filling with onion, turmeric and spices. Plain tosai is eaten on its own with chutney and sambar."
+  },
+  {
+   "q": "What exactly is sambar?",
+   "a": "Sambar is a dal gravy with vegetables like carrot, brinjal and long beans. It adds some protein and fibre to the meal."
+  }
+ ]
+}

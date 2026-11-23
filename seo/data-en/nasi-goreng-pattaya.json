@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-goreng-pattaya",
+ "name_en": "Nasi goreng pattaya",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi goreng pattaya has about 700 kcal. The calories come from the oily fried rice and the omelette wrapped around it.",
+ "breakdown": [
+  {
+   "part": "Fried rice, 1.5 cups (with oil)",
+   "kcal": 430
+  },
+  {
+   "part": "Omelette wrap (2 eggs)",
+   "kcal": 180
+  },
+  {
+   "part": "Chicken in the rice",
+   "kcal": 60
+  },
+  {
+   "part": "Chilli sauce and tomato sauce",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng pattaya + ayam goreng",
+   "kcal": 950
+  },
+  {
+   "name": "Seafood nasi goreng pattaya",
+   "kcal": 720
+  },
+  {
+   "name": "Nasi goreng pattaya, half plate",
+   "kcal": 400
+  },
+  {
+   "name": "Nasi goreng pattaya + teh ais",
+   "kcal": 830
+  }
+ ],
+ "diet": "Yes, once in a while. This is one of the highest-calorie dishes at a tomyam shop because both the fried rice and the omelette use oil. If you want it, make it your main meal of the day and keep other meals light. Sharing with a friend works too.",
+ "tips": [
+  "Finish all the egg and chicken, leave half the rice.",
+  "Use less tomato and chilli sauce. They contain sugar.",
+  "Choose plain water, not teh ais or sirap."
+ ],
+ "swap": {
+  "name": "Telur dadar + tomyam ayam + 1 cup white rice",
+  "kcal": 500,
+  "why": "Still tastes like a tomyam shop meal, but the rice isn't fried and you get more protein."
+ },
+ "faq": [
+  {
+   "q": "Why is it called nasi goreng pattaya?",
+   "a": "It's named after Pattaya in Thailand. It's popular at Malaysian tomyam shops and known for its egg wrap."
+  },
+  {
+   "q": "How do I wrap the pattaya egg nicely?",
+   "a": "Make a thin omelette in the pan, put the rice in the middle, fold in the sides and flip it onto a plate."
+  },
+  {
+   "q": "Is nasi goreng pattaya spicy?",
+   "a": "Usually not too spicy. It tastes more sweet and sour from the tomato and chilli sauce."
+  }
+ ]
+}

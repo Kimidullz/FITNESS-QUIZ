@@ -1,0 +1,63 @@
+{
+ "slug": "onde-onde",
+ "name_en": "Onde-onde",
+ "serving_en": "3 pieces",
+ "intro": "Three pieces of onde-onde have about 120 kcal (estimate). Most of it comes from the glutinous rice flour and the gula melaka filling.",
+ "breakdown": [
+  {
+   "part": "Glutinous rice flour (skin)",
+   "kcal": 60
+  },
+  {
+   "part": "Gula melaka (filling)",
+   "kcal": 40
+  },
+  {
+   "part": "Grated coconut (coating)",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "1 piece onde-onde",
+   "kcal": 40
+  },
+  {
+   "name": "5 pieces onde-onde",
+   "kcal": 200
+  },
+  {
+   "name": "Sweet potato onde-onde",
+   "kcal": 110
+  },
+  {
+   "name": "Large onde-onde (3 pieces)",
+   "kcal": 180
+  }
+ ],
+ "diet": "Yes. Onde-onde is one of the lighter kuih if you watch how many you eat. Three pieces is around 120 kcal, fine for a tea-time snack. The problem is they're small and easy to pop one after another without noticing. Decide how many you'll have before you start.",
+ "tips": [
+  "Put 2-3 pieces on a plate and keep the rest in the container.",
+  "Have it with teh O or plain water so you don't add more sugar.",
+  "Eat it after something with protein, like a boiled egg, to feel fuller."
+ ],
+ "swap": {
+  "name": "2 pieces onde-onde + teh O kosong",
+  "kcal": 80,
+  "why": "You still get that satisfying burst of gula melaka, with fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Are onde-onde and buah melaka the same?",
+   "a": "Yes, same kuih. In some places it's called buah melaka because of the gula melaka inside."
+  },
+  {
+   "q": "Why does my onde-onde burst when boiling?",
+   "a": "Usually the dough is too dry or there's too much filling. Add a little water to the dough and seal the balls properly."
+  },
+  {
+   "q": "How do I keep the grated coconut from spoiling so fast?",
+   "a": "Steam the grated coconut with a pinch of salt before using it. It helps the kuih last a little longer."
+  }
+ ]
+}

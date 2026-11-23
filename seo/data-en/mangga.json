@@ -1,0 +1,67 @@
+{
+ "slug": "mangga",
+ "name_en": "Mango",
+ "serving_en": "1 medium mango",
+ "intro": "One medium mango has about 200 kcal. Most of the calories come from natural sugar, because ripe mango is very sweet and has a lot of flesh.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in mango flesh",
+   "kcal": 170
+  },
+  {
+   "part": "Fibre and starch",
+   "kcal": 14
+  },
+  {
+   "part": "Protein",
+   "kcal": 12
+  },
+  {
+   "part": "Fat",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half a mango",
+   "kcal": 100
+  },
+  {
+   "name": "Young mango + asam/rojak sauce",
+   "kcal": 180
+  },
+  {
+   "name": "Mango sticky rice (pulut santan + mango)",
+   "kcal": 450
+  },
+  {
+   "name": "Sweetened mango juice (1 glass)",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, just watch the portion. One big mango can have the same calories as a small plate of rice. Share one with your partner or kids, half is already very satisfying. The ones to be more careful with are mango sticky rice and sweetened juice.",
+ "tips": [
+  "Cut the mango in half and keep the other half for tomorrow.",
+  "Eat mango as dessert instead of a sweet drink or kuih, not on top of them.",
+  "Pair it with unsweetened yogurt for a higher-protein snack."
+ ],
+ "swap": {
+  "name": "Half a mango + half a bowl of papaya",
+  "kcal": 130,
+  "why": "You still get the sweet mango taste, but total calories drop and your plate still looks full."
+ },
+ "faq": [
+  {
+   "q": "Is mango 'heaty'?",
+   "a": "Many people feel that way, but there's no strong evidence. If you eat too much at once, your stomach may feel uncomfortable, so eat in moderation."
+  },
+  {
+   "q": "Can people with diabetes eat mango?",
+   "a": "Many can eat small portions, like a few slices, together with other food. Best to follow your doctor or dietitian's advice."
+  },
+  {
+   "q": "Young or ripe mango, which has less sugar?",
+   "a": "Young mango is usually less sweet. But if you dip it in rojak sauce or sugar, the calories can end up higher."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "pisang-goreng",
+ "name_en": "Pisang goreng",
+ "serving_en": "2 pieces",
+ "intro": "Two pieces of pisang goreng have an estimated 200 kcal. Most of the calories come from the oil soaked up by the batter.",
+ "breakdown": [
+  {
+   "part": "Banana, 2 pieces",
+   "kcal": 80
+  },
+  {
+   "part": "Batter",
+   "kcal": 50
+  },
+  {
+   "part": "Oil absorbed",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pisang goreng, 1 piece",
+   "kcal": 100
+  },
+  {
+   "name": "Pisang goreng cheese (2 pieces)",
+   "kcal": 320
+  },
+  {
+   "name": "Pisang goreng with sambal kicap",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, as long as you watch how many. Two pieces are still okay as an occasional tea-time snack. Calories usually go up when you eat 4-5 pieces while lepak. Pick the crispy ones that aren't too oily.",
+ "tips": [
+  "Buy just 2 pieces, not a big bag for the whole table.",
+  "Press with kitchen towel to remove extra oil.",
+  "Skip the cheese and condensed milk versions if you're in a deficit."
+ ],
+ "swap": {
+  "name": "1 large fresh banana",
+  "kcal": 110,
+  "why": "Same sweet taste without the oil, saving almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "Which banana is best for frying?",
+   "a": "Pisang raja, pisang nangka and pisang tanduk are most popular because they're sweet and don't go mushy when fried."
+  },
+  {
+   "q": "How do I make pisang goreng crispy?",
+   "a": "Use a mix of rice flour and a little cornflour, and make sure the oil is really hot before frying."
+  },
+  {
+   "q": "Can I make pisang goreng in an air fryer?",
+   "a": "Yes. Coat lightly with batter, spray a little oil and cook for about 10-12 minutes."
+  }
+ ]
+}

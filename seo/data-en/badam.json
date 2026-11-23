@@ -1,0 +1,63 @@
+{
+ "slug": "badam",
+ "name_en": "Almonds (badam)",
+ "serving_en": "1 handful (30 g)",
+ "intro": "1 handful of almonds (30 g) has about 170 kcal. Most of the calories come from fat, mainly unsaturated fat.",
+ "breakdown": [
+  {
+   "part": "Natural almond fat",
+   "kcal": 126
+  },
+  {
+   "part": "Protein",
+   "kcal": 24
+  },
+  {
+   "part": "Carbs & fibre",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Salted roasted almonds 30 g",
+   "kcal": 175
+  },
+  {
+   "name": "Chocolate-coated almonds 30 g",
+   "kcal": 160
+  },
+  {
+   "name": "Honey almonds 30 g",
+   "kcal": 165
+  },
+  {
+   "name": "Almonds 15 g (half handful)",
+   "kcal": 85
+  }
+ ],
+ "diet": "Yes, almonds are a good snack because they have healthy fat, fibre and some protein. But they're calorie-dense. Eating straight from the jar, you can easily finish 300-500 kcal without noticing. The key is portion.",
+ "tips": [
+  "Pack almonds into small 30 g containers for the week and bring them to the office.",
+  "Choose almonds without salt or coating.",
+  "Pair with fruit like an apple for a more filling snack."
+ ],
+ "swap": {
+  "name": "Almonds 15 g + 1 apple",
+  "kcal": 160,
+  "why": "Same calories but more food, extra fibre and a fresh sweet taste."
+ },
+ "faq": [
+  {
+   "q": "How many almonds are in 30 g?",
+   "a": "About 20-23 almonds, depending on size."
+  },
+  {
+   "q": "Raw or roasted almonds, which is better?",
+   "a": "Both are okay. Choose roasted ones without too much oil and salt."
+  },
+  {
+   "q": "Are almonds okay as a night snack?",
+   "a": "Can, as long as you stick to the portion. A small handful is enough to ease hunger."
+  }
+ ]
+}

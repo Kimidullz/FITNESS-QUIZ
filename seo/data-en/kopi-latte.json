@@ -1,0 +1,63 @@
+{
+ "slug": "kopi-latte",
+ "name_en": "Caffe latte",
+ "serving_en": "1 cup, 350 ml",
+ "intro": "A 350 ml cup of latte has about 190 kcal (estimate). Most of it comes from full cream fresh milk, not the coffee.",
+ "breakdown": [
+  {
+   "part": "Full cream fresh milk (~260 ml)",
+   "kcal": 170
+  },
+  {
+   "part": "Espresso, 2 shots",
+   "kcal": 5
+  },
+  {
+   "part": "Sugar, 1 sachet",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Low-fat milk latte, no sugar",
+   "kcal": 110
+  },
+  {
+   "name": "Oat milk latte",
+   "kcal": 180
+  },
+  {
+   "name": "Flavoured latte (caramel/vanilla syrup)",
+   "kcal": 260
+  },
+  {
+   "name": "Americano, no sugar",
+   "kcal": 10
+  }
+ ],
+ "diet": "Yes. Latte is actually a fairly okay coffee choice. The milk gives some protein and helps you feel full. What pushes the calories up is flavoured syrup, whipped cream and large sizes. Stick to a regular size and skip the syrup, and a latte fits into your diet easily.",
+ "tips": [
+  "Ask for low-fat or skim milk if they have it.",
+  "Skip the flavoured syrup, or ask for just half a pump.",
+  "Choose a small or medium size, not large."
+ ],
+ "swap": {
+  "name": "Low-fat milk latte, no sugar",
+  "kcal": 110,
+  "why": "Tastes like a latte with almost the same protein, but much less fat and calories."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between a latte and a cappuccino?",
+   "a": "A latte has more milk and a little foam. A cappuccino has less milk and more foam, so it's usually lower in calories."
+  },
+  {
+   "q": "How much caffeine is in a latte?",
+   "a": "It depends on the number of espresso shots. Most cafes use 1-2 shots for a regular size."
+  },
+  {
+   "q": "Is oat milk healthier than normal milk?",
+   "a": "Not necessarily. Oat milk has about the same calories but less protein. Choose based on taste and needs, for example if you're lactose intolerant."
+  }
+ ]
+}

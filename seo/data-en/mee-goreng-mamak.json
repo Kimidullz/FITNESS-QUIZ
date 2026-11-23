@@ -1,0 +1,67 @@
+{
+ "slug": "mee-goreng-mamak",
+ "name_en": "Mee goreng mamak",
+ "serving_en": "1 plate",
+ "intro": "A plate of mee goreng mamak is roughly 600 kcal (estimate). Most of the calories come from the yellow noodles and the generous oil used for frying.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1.5 cups",
+   "kcal": 280
+  },
+  {
+   "part": "Oil, chilli sauce and kicap",
+   "kcal": 180
+  },
+  {
+   "part": "1 egg",
+   "kcal": 80
+  },
+  {
+   "part": "Tofu, a few prawns and veg",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee goreng mamak + telur mata (fried egg)",
+   "kcal": 690
+  },
+  {
+   "name": "Mee goreng mamak ayam",
+   "kcal": 700
+  },
+  {
+   "name": "Mee goreng basah",
+   "kcal": 560
+  },
+  {
+   "name": "Mee hoon goreng mamak",
+   "kcal": 520
+  }
+ ],
+ "diet": "Yes, just not every day. 600 kcal for one plate is still okay if the rest of your day is lighter. The issue is the protein is quite low, so you get hungry again fast. Have it for lunch, then balance it with a dinner full of veg and protein.",
+ "tips": [
+  "Ask for 'kurang minyak' when you order. Most mamak cooks can do it.",
+  "Add a boiled egg or chicken for extra protein, instead of a fried egg.",
+  "Drink teh o ais kosong or warm water, not teh tarik."
+ ],
+ "swap": {
+  "name": "Mee hoon sup",
+  "kcal": 330,
+  "why": "Soup instead of fried. Saves almost half the calories and still tastes like mamak food."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between mee goreng mamak and regular mee goreng?",
+   "a": "Mee goreng mamak uses chilli sauce, kicap and a bit of curry spice, plus boiled potato or tofu. It tastes spicier and sweeter than Chinese-style mee goreng."
+  },
+  {
+   "q": "Why is there potato in mee goreng mamak?",
+   "a": "Boiled potato is mashed a little while frying so the noodles turn thicker and moister. It's a signature of the mamak version."
+  },
+  {
+   "q": "Is mee goreng mamak okay for breakfast?",
+   "a": "Sure, but it's quite heavy. If you have it in the morning, keep lunch lighter, like rice with vegetables and fish."
+  }
+ ]
+}

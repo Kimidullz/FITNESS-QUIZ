@@ -1,0 +1,63 @@
+{
+ "slug": "popia-goreng",
+ "name_en": "Popia goreng (fried spring roll)",
+ "serving_en": "2 rolls",
+ "intro": "Two popia goreng have an estimated 200 kcal. Most of the calories come from the popia skin and frying oil.",
+ "breakdown": [
+  {
+   "part": "Popia skin",
+   "kcal": 70
+  },
+  {
+   "part": "Oil absorbed",
+   "kcal": 80
+  },
+  {
+   "part": "Sengkuang & vegetable filling",
+   "kcal": 30
+  },
+  {
+   "part": "Chilli sauce",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mini popia goreng (5 rolls)",
+   "kcal": 250
+  },
+  {
+   "name": "Popia goreng with chicken / beef filling",
+   "kcal": 240
+  },
+  {
+   "name": "Popia basah, 1 roll",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, if you watch how many. Two rolls are still okay as a snack. The problem is mini popia are easy to eat by the dozen during buka puasa or at events. Count how many before you start eating.",
+ "tips": [
+  "Take 2 rolls and put them on a plate. Don't eat straight from the container.",
+  "Pick popia basah if available, because it's not fried.",
+  "At home, use an air fryer and add more vegetables to the filling."
+ ],
+ "swap": {
+  "name": "Popia basah, 1 roll",
+  "kcal": 150,
+  "why": "Same vegetable filling but not fried, so less oil."
+ },
+ "faq": [
+  {
+   "q": "What's the usual popia goreng filling?",
+   "a": "Sengkuang, carrot, taugeh and sometimes dried prawns or minced chicken."
+  },
+  {
+   "q": "How do I stop popia goreng from being oily?",
+   "a": "Make sure the filling is dry and the oil is hot. Drain on a rack or kitchen towel after frying."
+  },
+  {
+   "q": "Can I freeze popia goreng?",
+   "a": "Yes, freeze them before frying. Fry straight from frozen, no need to thaw."
+  }
+ ]
+}

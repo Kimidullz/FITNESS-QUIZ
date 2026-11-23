@@ -1,0 +1,67 @@
+{
+ "slug": "spaghetti-bolognese",
+ "name_en": "Spaghetti bolognese",
+ "serving_en": "1 plate",
+ "intro": "One plate of spaghetti bolognese is an estimated 600 kcal. Most of the calories come from the pasta and the oily minced meat sauce.",
+ "breakdown": [
+  {
+   "part": "Cooked spaghetti (about 1.5 cups)",
+   "kcal": 320
+  },
+  {
+   "part": "Minced meat bolognese sauce",
+   "kcal": 200
+  },
+  {
+   "part": "Cooking oil/butter",
+   "kcal": 50
+  },
+  {
+   "part": "Parmesan cheese",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Large café/western stall portion",
+   "kcal": 750
+  },
+  {
+   "name": "Minced chicken bolognese",
+   "kcal": 550
+  },
+  {
+   "name": "Small homemade portion",
+   "kcal": 450
+  },
+  {
+   "name": "With 2 slices garlic bread",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, spaghetti bolognese is actually a fairly balanced meal with protein from the meat. But shop portions are usually big with lots of pasta. Eat half the pasta with the full sauce, and calories drop while protein stays. Skip the garlic bread and sweet drinks.",
+ "tips": [
+  "Ask for less pasta, or tapau half for tomorrow.",
+  "At home, use lean minced beef or chicken and add mushrooms or carrots.",
+  "Have it with salad or boiled veg so your plate looks fuller."
+ ],
+ "swap": {
+  "name": "Spaghetti bolognese with half pasta + salad",
+  "kcal": 450,
+  "why": "You keep the protein from the meat sauce, cut the pasta, and the salad fills up your plate."
+ },
+ "faq": [
+  {
+   "q": "Where does bolognese come from?",
+   "a": "Bolognese sauce comes from the city of Bologna in Italy. The original uses minced meat that's slow-cooked."
+  },
+  {
+   "q": "Can I use chicken for bolognese?",
+   "a": "Yes. Minced chicken is lighter and great for the whole family."
+  },
+  {
+   "q": "How long does bolognese sauce keep?",
+   "a": "About 3 days in the fridge. It lasts longer in the freezer, so it's good for cooking in big batches."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "milo-ais",
+ "name_en": "Milo ais",
+ "serving_en": "1 glass",
+ "intro": "One glass of Milo ais from a kedai has about 200 kcal (estimate). Calories come from the chocolate malt powder and condensed milk mixed in.",
+ "breakdown": [
+  {
+   "part": "Sweetened condensed milk (~1.5 tbsp)",
+   "kcal": 95
+  },
+  {
+   "part": "Chocolate malt powder (~3 tbsp)",
+   "kcal": 80
+  },
+  {
+   "part": "Evaporated milk (a little)",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Milo ais kurang manis (less sweet)",
+   "kcal": 150
+  },
+  {
+   "name": "Milo without condensed milk (Milo O ais)",
+   "kcal": 110
+  },
+  {
+   "name": "Milo panas (hot)",
+   "kcal": 180
+  },
+  {
+   "name": "Milo dinosaur (powder sprinkled on top)",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes, but treat Milo ais like a snack, not just a drink. 200 kcal is about the same as one roti canai kosong. If you love it, enjoy it a few times a week and count it in your daily calories. The ones to really watch are the dinosaur version and the jumbo glass.",
+ "tips": [
+  "Order 'Milo kurang manis' or ask for no condensed milk.",
+  "Make Milo ais your 'afternoon snack', don't add kuih on top.",
+  "Make it at home with low-fat fresh milk and less powder."
+ ],
+ "swap": {
+  "name": "Milo O ais (no condensed milk)",
+  "kcal": 110,
+  "why": "Still chocolatey, but almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "Is Milo ais good after exercise?",
+   "a": "It has carbs and a little protein, but the sugar is high. Real food like rice with a protein dish is more filling."
+  },
+  {
+   "q": "What's the difference between Milo ais and Milo dinosaur?",
+   "a": "Milo dinosaur has a thick layer of powder sprinkled on top. Calories can go up to about 300 kcal."
+  },
+  {
+   "q": "Is Milo okay for kids every day?",
+   "a": "Okay once in a while, but the sugar is high for a daily drink. Alternate with plain milk or plain water."
+  }
+ ]
+}

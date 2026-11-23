@@ -1,0 +1,63 @@
+{
+ "slug": "apam-balik",
+ "name_en": "Apam balik (peanut)",
+ "serving_en": "1 large piece",
+ "intro": "One large piece of peanut apam balik has an estimated 250 kcal. The calories come from the pancake, crushed peanuts, sugar and margarine.",
+ "breakdown": [
+  {
+   "part": "Pancake",
+   "kcal": 130
+  },
+  {
+   "part": "Crushed peanuts",
+   "kcal": 60
+  },
+  {
+   "part": "Sugar",
+   "kcal": 35
+  },
+  {
+   "part": "Margarine / butter",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Thin crispy apam balik (1 piece)",
+   "kcal": 150
+  },
+  {
+   "name": "Apam balik peanut + corn",
+   "kcal": 270
+  },
+  {
+   "name": "Apam balik cheese / chocolate",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, but control the size. One large piece is already like a full snack. If you buy a whole one and finish it alone, it can hit 700-1000 kcal. Sharing with the family is the safer way.",
+ "tips": [
+  "Ask the seller to cut it into small pieces and share with the family.",
+  "Pick the plain peanut filling, skip extra cheese and chocolate.",
+  "Ask for less margarine on top if you can."
+ ],
+ "swap": {
+  "name": "Thin crispy apam balik, 1 piece",
+  "kcal": 150,
+  "why": "Same taste, but thinner so less flour and sugar."
+ },
+ "faq": [
+  {
+   "q": "Are apam balik and martabak manis the same?",
+   "a": "More or less. Martabak manis is the Indonesian name, apam balik is the Malaysian name."
+  },
+  {
+   "q": "Why doesn't my apam balik turn fluffy?",
+   "a": "Usually not enough baking soda or the batter wasn't rested. Rest the batter for at least an hour."
+  },
+  {
+   "q": "Can I keep apam balik for tomorrow?",
+   "a": "Yes, in a closed container. Reheat briefly in a pan or air fryer to soften it again."
+  }
+ ]
+}

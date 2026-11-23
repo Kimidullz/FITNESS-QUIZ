@@ -1,0 +1,63 @@
+{
+ "slug": "kerepek-ubi",
+ "name_en": "Kerepek ubi (cassava chips)",
+ "serving_en": "1 small pack (30 g)",
+ "intro": "One small pack of kerepek ubi (30 g) has about 160 kcal. Almost half the calories come from the frying oil soaked up by the cassava slices.",
+ "breakdown": [
+  {
+   "part": "Cassava starch",
+   "kcal": 76
+  },
+  {
+   "part": "Absorbed frying oil",
+   "kcal": 81
+  },
+  {
+   "part": "Salt, seasoning and protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kerepek ubi pedas manis (30 g)",
+   "kcal": 170
+  },
+  {
+   "name": "Kerepek pisang (30 g)",
+   "kcal": 155
+  },
+  {
+   "name": "Kerepek ubi, 1 big pack (100 g)",
+   "kcal": 530
+  },
+  {
+   "name": "Potato chips (30 g)",
+   "kcal": 160
+  }
+ ],
+ "diet": "Yes, once in a while and in a small pack. Kerepek doesn't fill you up much, so it's easy to eat a lot. One big pack can go above 500 kcal, same as a plate of rice. If you buy a big pack, portion it into a bowl first.",
+ "tips": [
+  "Buy small packs, not the big pack 'to keep at home'.",
+  "Pour some into a small bowl and keep the rest. Don't eat straight from the packet.",
+  "Eat it with fruit or cucumber so you feel fuller with fewer calories."
+ ],
+ "swap": {
+  "name": "1 handful boiled groundnuts (kacang tanah rebus)",
+  "kcal": 100,
+  "why": "Still salty and fun to munch, but less oil and a bit of protein to keep you fuller."
+ },
+ "faq": [
+  {
+   "q": "Is homemade kerepek ubi healthier?",
+   "a": "If you make it yourself, you can control the oil and salt. Try baking it or using an air fryer with a little oil."
+  },
+  {
+   "q": "Is spicy kerepek ubi higher in calories?",
+   "a": "Only slightly higher because of the sugar and seasoning. The main difference is still the pack size."
+  },
+  {
+   "q": "How long does kerepek ubi last?",
+   "a": "Usually a few weeks if kept in an airtight container in a dry place. Check the expiry date on the pack."
+  }
+ ]
+}

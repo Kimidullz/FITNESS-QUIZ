@@ -1,0 +1,63 @@
+{
+ "slug": "thosai-kosong",
+ "name_en": "Thosai kosong",
+ "serving_en": "1 piece",
+ "intro": "One piece of thosai kosong has an estimated 170 kcal. Most of the calories come from the rice and urad dal batter, with a little oil or ghee during cooking.",
+ "breakdown": [
+  {
+   "part": "Rice in the batter",
+   "kcal": 110
+  },
+  {
+   "part": "Urad dal",
+   "kcal": 35
+  },
+  {
+   "part": "Oil / ghee brushed on",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Thosai + coconut chutney",
+   "kcal": 230
+  },
+  {
+   "name": "Thosai rava",
+   "kcal": 250
+  },
+  {
+   "name": "Thosai telur",
+   "kcal": 260
+  },
+  {
+   "name": "Thosai masala",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes. Thosai kosong is one of the lightest options at the mamak. Low in calories and less oily than roti canai. But it's low in protein, so add egg or dal. Watch the coconut chutney, which can add calories.",
+ "tips": [
+  "Order thosai telur if you want more protein without much oil.",
+  "Dip it in sambar or kuah dal and take less coconut chutney.",
+  "Ask for less ghee if the shop brushes on a lot."
+ ],
+ "swap": {
+  "name": "Thosai telur",
+  "kcal": 260,
+  "why": "Slightly more calories, but the egg protein keeps you full longer."
+ },
+ "faq": [
+  {
+   "q": "What is thosai made of?",
+   "a": "A rice and urad dal batter that's fermented overnight. The fermentation gives it a slightly sour taste and light texture."
+  },
+  {
+   "q": "What's the difference between thosai and idli?",
+   "a": "Both use almost the same batter. Thosai is cooked thin on a pan, while idli is steamed until soft and thick."
+  },
+  {
+   "q": "Which chutney is lightest for thosai?",
+   "a": "Tomato chutney or sambar is usually lighter. Coconut chutney is higher in fat because it uses grated coconut."
+  }
+ ]
+}

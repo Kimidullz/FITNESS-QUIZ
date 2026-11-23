@@ -1,0 +1,63 @@
+{
+ "slug": "karipap",
+ "name_en": "Karipap (curry puff)",
+ "serving_en": "1 piece",
+ "intro": "One medium karipap is about 130 kcal (estimate). The calories come from the pastry and the oil it absorbs during frying.",
+ "breakdown": [
+  {
+   "part": "Pastry skin",
+   "kcal": 60
+  },
+  {
+   "part": "Absorbed frying oil",
+   "kcal": 40
+  },
+  {
+   "part": "Potato and chicken filling",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Karipap pusing (layered pastry)",
+   "kcal": 170
+  },
+  {
+   "name": "Large karipap",
+   "kcal": 200
+  },
+  {
+   "name": "Sardine karipap",
+   "kcal": 140
+  },
+  {
+   "name": "Baked karipap",
+   "kcal": 100
+  }
+ ],
+ "diet": "Yes, karipap is not the enemy. The problem is it's hard to stop at one. Two or three with teh tarik is already like a plate of rice. If you want one, take one piece and pair it with a plain drink.",
+ "tips": [
+  "Buy just one piece, not a whole bag for yourself.",
+  "Dab off extra oil with a tissue before eating.",
+  "Pair it with a boiled egg or a glass of milk so you feel fuller."
+ ],
+ "swap": {
+  "name": "Pau kacang merah or pau ayam",
+  "kcal": 180,
+  "why": "Steamed, not fried, so lower in fat and more filling."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between karipap pusing and normal karipap?",
+   "a": "Karipap pusing has layered pastry that uses more fat, so it's usually crispier and higher in calories."
+  },
+  {
+   "q": "Can I cook karipap in an air fryer?",
+   "a": "Yes. Brush with a thin layer of oil and air fry at 180°C for about 12 to 15 minutes. It comes out less oily."
+  },
+  {
+   "q": "How long can frozen karipap keep?",
+   "a": "Usually a few months in the freezer. Fry or bake straight from frozen, no need to thaw."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "minuman-bergas",
+ "name_en": "Soft drink (can)",
+ "serving_en": "1 can, 325 ml",
+ "intro": "One 325 ml can of soft drink has about 140 kcal (estimate). All of it comes from sugar, roughly 35 g or 7 teaspoons.",
+ "breakdown": [
+  {
+   "part": "Added sugar (~35 g)",
+   "kcal": 140
+  },
+  {
+   "part": "Carbonated water",
+   "kcal": 0
+  },
+  {
+   "part": "Flavouring, colouring & acid",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Zero / sugar-free version",
+   "kcal": 2
+  },
+  {
+   "name": "Regular 500 ml bottle",
+   "kcal": 215
+  },
+  {
+   "name": "1.5 L bottle (shared, 1 glass 250 ml)",
+   "kcal": 105
+  },
+  {
+   "name": "Plain soda water (no sugar)",
+   "kcal": 0
+  }
+ ],
+ "diet": "Yes, once in a while, like at a kenduri or when eating with friends. The problem is these are 'empty' calories that don't fill you up at all. One can every day adds up to more than 4,000 kcal a month. Cutting down how often you drink it is one of the easiest ways to save calories.",
+ "tips": [
+  "If you want something fizzy, try plain soda water with a squeeze of limau.",
+  "Pick a small can, not a big bottle just for yourself.",
+  "Save soft drinks for weekends or functions only."
+ ],
+ "swap": {
+  "name": "Plain soda water + limau nipis + ice",
+  "kcal": 5,
+  "why": "Still fizzy and refreshing, without the 35 g of sugar."
+ },
+ "faq": [
+  {
+   "q": "Are zero soft drinks okay for dieting?",
+   "a": "They have almost no calories, so they can help cut sugar. But plain water is still the best choice for daily drinking."
+  },
+  {
+   "q": "Why do I feel bloated after a fizzy drink?",
+   "a": "The carbon dioxide gas in the drink can make your stomach feel full and bloated for a while."
+  },
+  {
+   "q": "Do soft drinks have caffeine?",
+   "a": "Some colas do. Fruit-flavoured fizzy drinks usually don't, but check the label."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "yogurt",
+ "name_en": "Yogurt (flavoured)",
+ "serving_en": "1 cup",
+ "intro": "1 cup of flavoured yogurt has about 150 kcal. Most of the calories come from the milk and added sugar for flavour.",
+ "breakdown": [
+  {
+   "part": "Base yogurt (milk)",
+   "kcal": 85
+  },
+  {
+   "part": "Added sugar",
+   "kcal": 50
+  },
+  {
+   "part": "Flavouring/fruit jam",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain yogurt, 1 cup",
+   "kcal": 110
+  },
+  {
+   "name": "Plain Greek yogurt, 1 cup",
+   "kcal": 120
+  },
+  {
+   "name": "Flavoured yogurt + 2 tbsp granola",
+   "kcal": 230
+  },
+  {
+   "name": "Drinking yogurt, 1 small bottle",
+   "kcal": 120
+  }
+ ],
+ "diet": "Yes, yogurt is an okay snack while losing weight. But flavoured yogurt is usually high in added sugar. If you eat it often, go for plain or less-sugar versions. Greek yogurt has more protein and is more filling.",
+ "tips": [
+  "Buy plain yogurt and add your own cut fruit for sweetness.",
+  "Read the label and pick one with less sugar per cup.",
+  "Add a small handful of almonds or oats for a more filling afternoon snack."
+ ],
+ "swap": {
+  "name": "Plain Greek yogurt + cut papaya",
+  "kcal": 160,
+  "why": "Almost the same calories but nearly double the protein and less added sugar."
+ },
+ "faq": [
+  {
+   "q": "Is flavoured yogurt healthy?",
+   "a": "It has protein and calcium, but many are high in sugar. Okay once in a while, but plain or less-sugar is better for daily eating."
+  },
+  {
+   "q": "When is the best time to eat yogurt?",
+   "a": "Any time. Many people like it as a light breakfast or an afternoon snack so they don't overeat at dinner."
+  },
+  {
+   "q": "What's the difference between normal yogurt and Greek yogurt?",
+   "a": "Greek yogurt is strained longer, so it's thicker and higher in protein. It tastes a bit more sour."
+  }
+ ]
+}

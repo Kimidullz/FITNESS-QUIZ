@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-campur",
+ "name_en": "Nasi campur (rice, fried chicken, 2 vegetables)",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi campur with fried chicken and 2 vegetables is about 650 kcal. Most calories come from the rice and fried chicken. Cooked vegetables usually add only a little.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.25 cups",
+   "kcal": 260
+  },
+  {
+   "part": "1 piece ayam goreng",
+   "kcal": 250
+  },
+  {
+   "part": "2 cooked vegetable dishes",
+   "kcal": 100
+  },
+  {
+   "part": "A little gravy or sambal",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi campur ikan goreng + 2 vegetables",
+   "kcal": 580
+  },
+  {
+   "name": "Nasi campur ayam masak lemak cili api",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi campur telur dadar + 2 vegetables",
+   "kcal": 550
+  },
+  {
+   "name": "Add 1 spoon sambal tumis",
+   "kcal": 60
+  }
+ ],
+ "diet": "Yes, nasi campur is actually one of the easiest meals to control when losing weight. You choose the dishes and how much rice. Pick protein that isn't too oily and more vegetables, and a plate can be under 550 kcal. What usually pushes calories up is floured fried chicken, santan dishes and too much gravy.",
+ "tips": [
+  "Take only half a plate of rice, fill the rest with vegetables and lauk.",
+  "Choose ayam bakar, ikan masak asam or boiled egg instead of ayam goreng.",
+  "Pick stir-fried or boiled vegetables over santan-based ones."
+ ],
+ "swap": {
+  "name": "Nasi campur half rice + ikan masak asam + 2 stir-fried vegetables",
+  "kcal": 480,
+  "why": "Masak asam uses less oil and no santan, so protein stays high but calories drop a lot."
+ },
+ "faq": [
+  {
+   "q": "Which nasi campur dishes are best for high protein?",
+   "a": "Ikan bakar, ayam bakar, boiled egg, tauhu and ikan masak asam. Take at least one big piece."
+  },
+  {
+   "q": "Will nasi campur cost more if I take lots of vegetables?",
+   "a": "Depends on the shop, but vegetables are usually cheaper than meat. So adding vegetables saves both money and calories."
+  },
+  {
+   "q": "Can I bring nasi campur to the office for dinner?",
+   "a": "Yes. Keep it in the fridge and heat it up properly before eating, especially the rice and gravy dishes."
+  }
+ ]
+}

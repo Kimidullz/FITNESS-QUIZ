@@ -1,0 +1,71 @@
+{
+ "slug": "maggi-goreng",
+ "name_en": "Maggi goreng",
+ "serving_en": "1 plate",
+ "intro": "One plate of mamak-style maggi goreng is roughly 600 kcal. Most of the calories come from the instant noodles, which are already fried at the factory. The cooking oil and egg add the rest.",
+ "breakdown": [
+  {
+   "part": "Instant noodles (1-1.5 blocks)",
+   "kcal": 280
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 135
+  },
+  {
+   "part": "1 egg",
+   "kcal": 75
+  },
+  {
+   "part": "Soy sauce, sauces and chilli",
+   "kcal": 60
+  },
+  {
+   "part": "A bit of vegetables and chicken",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Maggi goreng with telur mata (fried egg)",
+   "kcal": 690
+  },
+  {
+   "name": "Maggi goreng ayam",
+   "kcal": 680
+  },
+  {
+   "name": "Maggi goreng, less oil",
+   "kcal": 520
+  },
+  {
+   "name": "Maggi goreng cheese",
+   "kcal": 720
+  }
+ ],
+ "diet": "Yes, you can. Just make it a once-in-a-while meal, not your usual late-night lepak order. It's quite calorie-dense and low in protein, so you get hungry again fast. If you have it, let it be your main meal, not an extra supper after dinner. Sharing one plate with a friend is an easy option too.",
+ "tips": [
+  "Ask for less oil and extra vegetables when you order.",
+  "Add a boiled egg or chicken to bump up the protein.",
+  "Go for plain water or teh O ais kosong instead of a sweet iced drink."
+ ],
+ "swap": {
+  "name": "Mee soto",
+  "kcal": 400,
+  "why": "Still noodles and still tasty, but not fried, so it's much lower in fat."
+ },
+ "faq": [
+  {
+   "q": "Why is mamak maggi goreng so good?",
+   "a": "Mamak stalls usually use their own mix of oil, soy sauce, chilli sauce and spices. They cook it in a very hot wok. That's what gives it that fragrant, slightly smoky taste."
+  },
+  {
+   "q": "Can I make maggi goreng at home?",
+   "a": "Yes. Boil the noodles briefly and drain. Then fry with onion, vegetables, egg and a little soy sauce. Use just a small amount of oil."
+  },
+  {
+   "q": "Is maggi goreng okay for supper?",
+   "a": "Lots of people eat it for supper, but it's quite heavy. If you've already had dinner, a lighter option is better."
+  }
+ ]
+}

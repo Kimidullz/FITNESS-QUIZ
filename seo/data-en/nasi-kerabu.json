@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-kerabu",
+ "name_en": "Nasi kerabu",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi kerabu with fried fish is about 550 kcal (estimate). Most of the calories come from the rice, fried fish and kerisik.",
+ "breakdown": [
+  {
+   "part": "Blue rice (about 1.5 cups)",
+   "kcal": 280
+  },
+  {
+   "part": "Fried fish, 1 piece",
+   "kcal": 150
+  },
+  {
+   "part": "Ulam, kerisik and serunding",
+   "kcal": 80
+  },
+  {
+   "part": "Sambal and budu",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kerabu ayam percik",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi kerabu with solok lada",
+   "kcal": 750
+  },
+  {
+   "name": "Nasi kerabu ikan bakar",
+   "kcal": 500
+  }
+ ],
+ "diet": "Yes, nasi kerabu is one of the better rice options. It comes with lots of ulam, so it's high in fibre and keeps you full longer. What pushes the calories up is fried lauk, kerisik and solok lada. Go for grilled lauk if they have it.",
+ "tips": [
+  "Choose ikan bakar or ayam bakar instead of fried.",
+  "Ask for more ulam and less kerisik.",
+  "Take a bit less rice and fill up with ulam instead."
+ ],
+ "swap": {
+  "name": "Nasi kerabu ikan bakar, extra ulam",
+  "kcal": 480,
+  "why": "Less oil, still high in protein, and the ulam helps you feel full."
+ },
+ "faq": [
+  {
+   "q": "Why is nasi kerabu blue?",
+   "a": "The blue comes from bunga telang (butterfly pea flower) soaked with the rice. It's a natural colouring."
+  },
+  {
+   "q": "What ulam usually comes with nasi kerabu?",
+   "a": "Things like daun kesum, pucuk kadok, taugeh, kacang botol and serai. Every stall has its own mix."
+  },
+  {
+   "q": "Must I eat nasi kerabu with budu?",
+   "a": "Not a must, but budu is the traditional pairing. If you're not used to it, use sambal kelapa or sambal tumis."
+  }
+ ]
+}

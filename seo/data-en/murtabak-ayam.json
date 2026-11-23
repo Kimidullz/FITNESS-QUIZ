@@ -1,0 +1,67 @@
+{
+ "slug": "murtabak-ayam",
+ "name_en": "Murtabak ayam",
+ "serving_en": "1 piece (4 slices)",
+ "intro": "One murtabak ayam (4 slices) is roughly 700 kcal. Most of the calories come from the roti dough fried in oil, followed by the egg and chicken filling.",
+ "breakdown": [
+  {
+   "part": "Roti dough and frying oil",
+   "kcal": 350
+  },
+  {
+   "part": "Minced chicken and onion",
+   "kcal": 150
+  },
+  {
+   "part": "Eggs (2)",
+   "kcal": 150
+  },
+  {
+   "part": "Curry or dal gravy",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half murtabak (2 slices)",
+   "kcal": 350
+  },
+  {
+   "name": "Murtabak sardin",
+   "kcal": 650
+  },
+  {
+   "name": "Murtabak daging",
+   "kcal": 750
+  },
+  {
+   "name": "Murtabak ayam with full curry gravy",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, especially if you share. Murtabak actually has decent protein from the chicken and eggs. The issue is the oil and the big portion. Have 2 slices with pickled onions or salad, and you can still stay within your calorie budget.",
+ "tips": [
+  "Order one murtabak for two people, 2 slices each.",
+  "Ask for kuah dal on the side and just dip, don't flood it.",
+  "Drink teh O kosong or warm water, not teh tarik, so you don't add extra calories."
+ ],
+ "swap": {
+  "name": "Roti telur with kuah dal",
+  "kcal": 400,
+  "why": "You still get filling roti and egg, but a smaller portion with less oil."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between mamak murtabak and Arab murtabak?",
+   "a": "Mamak murtabak usually has a minced meat filling with egg and onion, eaten with curry. The Middle Eastern style is thicker, and the filling depends on the country."
+  },
+  {
+   "q": "Can I keep murtabak to eat the next day?",
+   "a": "Yes. Keep it in the fridge and eat within 1-2 days. Reheat in an air fryer or a dry pan without oil so it gets crispy again."
+  },
+  {
+   "q": "Why is murtabak eaten with pickled onions?",
+   "a": "The sour, fresh pickled onions balance out the oiliness of the murtabak. They also add flavour without many calories."
+  }
+ ]
+}

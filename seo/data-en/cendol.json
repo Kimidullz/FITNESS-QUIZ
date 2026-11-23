@@ -1,0 +1,67 @@
+{
+ "slug": "cendol",
+ "name_en": "Cendol",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of cendol has an estimated 350 kcal. Most of the calories come from santan and gula melaka.",
+ "breakdown": [
+  {
+   "part": "Santan (about 1/2 cup)",
+   "kcal": 130
+  },
+  {
+   "part": "Gula melaka syrup (2-3 tablespoons)",
+   "kcal": 120
+  },
+  {
+   "part": "Green cendol (rice flour/hun kwe)",
+   "kcal": 50
+  },
+  {
+   "part": "Red beans",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cendol pulut",
+   "kcal": 450
+  },
+  {
+   "name": "Cendol durian",
+   "kcal": 480
+  },
+  {
+   "name": "Cendol red beans + corn",
+   "kcal": 400
+  },
+  {
+   "name": "Cendol less sweet",
+   "kcal": 280
+  }
+ ],
+ "diet": "Yes, but think of cendol as a treat, not a daily drink. 350 kcal is about the same as a small meal. If you want it, pick a day when your other meals are lighter. Once or twice a week is still okay if your daily calories are under control.",
+ "tips": [
+  "Ask for 'gula melaka sikit' or 'kurang manis' when you order.",
+  "Share one bowl between two. Still satisfying.",
+  "Let cendol be your sweet drink for that meal. Don't add teh tarik too."
+ ],
+ "swap": {
+  "name": "Cendol shared between two, less sweet",
+  "kcal": 140,
+  "why": "Same taste, but half the sugar and santan. Saves over 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "What is cendol made of?",
+   "a": "The green cendol is made from rice flour or hun kwe flour with pandan. It's served with santan, gula melaka and shaved ice."
+  },
+  {
+   "q": "Why is cendol green?",
+   "a": "The natural green comes from pandan leaves. Some stalls use food colouring."
+  },
+  {
+   "q": "When is the best time to eat cendol?",
+   "a": "Best on a hot afternoon. Avoid it late at night because it's high in sugar."
+  }
+ ]
+}

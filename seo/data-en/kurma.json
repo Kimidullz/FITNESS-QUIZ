@@ -1,0 +1,67 @@
+{
+ "slug": "kurma",
+ "name_en": "Dates (kurma)",
+ "serving_en": "3 dates",
+ "intro": "Three regular-sized dates have about 70 kcal. Almost all of it is concentrated natural sugar, because dates are a dried fruit.",
+ "breakdown": [
+  {
+   "part": "Natural sugar (1st date)",
+   "kcal": 22
+  },
+  {
+   "part": "Natural sugar (2nd date)",
+   "kcal": 22
+  },
+  {
+   "part": "Natural sugar (3rd date)",
+   "kcal": 22
+  },
+  {
+   "part": "Fibre and protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Large medjool dates (3 pieces)",
+   "kcal": 200
+  },
+  {
+   "name": "Almond-stuffed dates (3 pieces)",
+   "kcal": 110
+  },
+  {
+   "name": "Chocolate-coated dates (3 pieces)",
+   "kcal": 150
+  },
+  {
+   "name": "Air kurma susu / date milk (1 glass)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Yes. Three dates make a small snack that gives quick energy, for example before a workout or when breaking fast. The catch is that dates are easy to overeat without noticing. Count them, and don't eat straight from the container.",
+ "tips": [
+  "Take 3 dates, put them on a small plate, and close the container.",
+  "Eat 2-3 dates 30-60 minutes before exercise for energy.",
+  "Pair them with a glass of low-fat milk or an egg for extra protein."
+ ],
+ "swap": {
+  "name": "Regular-sized dates (not big medjool)",
+  "kcal": 70,
+  "why": "Small dates have about one-third the calories of large medjool dates for the same number of pieces."
+ },
+ "faq": [
+  {
+   "q": "How many dates should I eat a day?",
+   "a": "For most people, 3 a day is enough as a snack. If you eat more, count them in your daily calories."
+  },
+  {
+   "q": "Are dates good for breaking fast?",
+   "a": "Yes, dates give quick energy after a full day of fasting. Follow up with plain water and some protein."
+  },
+  {
+   "q": "Are dates good for pregnant mums?",
+   "a": "Many mums eat dates, especially in the last trimester. For specific advice, ask your doctor."
+  }
+ ]
+}

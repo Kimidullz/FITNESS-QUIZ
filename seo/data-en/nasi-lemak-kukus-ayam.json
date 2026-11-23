@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-lemak-kukus-ayam",
+ "name_en": "Nasi lemak kukus ayam",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi lemak kukus ayam is about 700 kcal (estimate). Most of the calories come from the big portion of coconut rice and the fried chicken, followed by the oily sambal.",
+ "breakdown": [
+  {
+   "part": "Nasi lemak kukus, 1 plate (about 1.5 cups)",
+   "kcal": 330
+  },
+  {
+   "part": "Fried chicken, 1 piece",
+   "kcal": 260
+  },
+  {
+   "part": "Sambal, 2 spoons",
+   "kcal": 100
+  },
+  {
+   "part": "Cucumber and garnish",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak kukus ayam + fried egg",
+   "kcal": 790
+  },
+  {
+   "name": "Nasi lemak kukus daging",
+   "kcal": 750
+  },
+  {
+   "name": "With kuah kari banjir",
+   "kcal": 780
+  },
+  {
+   "name": "Plain nasi lemak kukus (no lauk)",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, you can, but treat it as a big meal, not a light bite. One plate already takes up about half the daily calories of many people trying to lose weight. If you have it for lunch, keep breakfast and dinner lighter and higher in protein. Once or twice a week is fine. What matters is the rice portion and extra curry.",
+ "tips": [
+  "Ask for half rice or share the rice with your partner, but eat the whole chicken.",
+  "Take a little sambal on the side, and skip the kuah kari banjir.",
+  "Add extra cucumber and drink plain water or teh o kosong."
+ ],
+ "swap": {
+  "name": "Nasi lemak kukus with half rice + fried chicken, skin removed",
+  "kcal": 530,
+  "why": "Less coconut rice and oily skin, but you still get the chicken protein. Still tastes like nasi lemak."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi lemak kukus and normal nasi lemak?",
+   "a": "Nasi lemak kukus is steamed, so the grains are fluffier and less sticky. It's usually served with fried chicken or beef and curry, and the rice portion is bigger."
+  },
+  {
+   "q": "Why is nasi lemak kukus always drenched in curry?",
+   "a": "That's the usual style at nasi kukus shops, to make the rice moist and tasty. For a lighter plate, ask for less curry or have it in a separate bowl."
+  },
+  {
+   "q": "When is the best time to eat nasi lemak kukus?",
+   "a": "Many people have it for breakfast or lunch. It's easier to manage your total calories if you eat it earlier and have a lighter dinner after."
+  }
+ ]
+}

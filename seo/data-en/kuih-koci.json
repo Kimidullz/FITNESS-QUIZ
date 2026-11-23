@@ -1,0 +1,63 @@
+{
+ "slug": "kuih-koci",
+ "name_en": "Kuih koci",
+ "serving_en": "1 piece",
+ "intro": "One kuih koci has an estimated 130 kcal. Most of the calories come from the glutinous rice flour and the coconut filling with gula melaka.",
+ "breakdown": [
+  {
+   "part": "Glutinous rice flour skin",
+   "kcal": 60
+  },
+  {
+   "part": "Coconut & gula melaka filling",
+   "kcal": 55
+  },
+  {
+   "part": "Santan",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuih koci pulut hitam",
+   "kcal": 140
+  },
+  {
+   "name": "Kuih koci, large",
+   "kcal": 180
+  },
+  {
+   "name": "Kuih koci with peanut filling",
+   "kcal": 150
+  },
+  {
+   "name": "Kuih koci, standard",
+   "kcal": 130
+  }
+ ],
+ "diet": "Yes. One kuih koci isn't high in calories and it's steamed, not fried. But it's mostly carbs and sugar. One piece with an unsweetened drink is enough for a snack.",
+ "tips": [
+  "Pick just one piece as your tea-time snack.",
+  "Have it with teh o kosong to avoid double sugar.",
+  "Still hungry? Add nuts or a boiled egg, not a second kuih."
+ ],
+ "swap": {
+  "name": "1 medium piece boiled ubi (tapioca)",
+  "kcal": 120,
+  "why": "Almost the same calories, but no added sugar and more fibre."
+ },
+ "faq": [
+  {
+   "q": "What leaf is kuih koci wrapped in?",
+   "a": "Usually banana leaf, folded into a pyramid. The banana leaf gives a nice aroma when steamed."
+  },
+  {
+   "q": "Why does kuih koci stick to the leaf?",
+   "a": "Brush a little oil on the banana leaf before wrapping so it's easy to open."
+  },
+  {
+   "q": "How long does kuih koci last?",
+   "a": "Best finished within a day. The coconut filling spoils quickly at room temperature."
+  }
+ ]
+}

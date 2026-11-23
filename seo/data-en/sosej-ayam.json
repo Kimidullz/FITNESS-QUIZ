@@ -1,0 +1,63 @@
+{
+ "slug": "sosej-ayam",
+ "name_en": "Chicken sausage (sosej ayam)",
+ "serving_en": "2 sausages",
+ "intro": "2 chicken sausages have about 180 kcal. Most of the calories come from the fat in the sausage mix and a bit of flour binder.",
+ "breakdown": [
+  {
+   "part": "Chicken meat",
+   "kcal": 80
+  },
+  {
+   "part": "Chicken fat/skin in the mix",
+   "kcal": 70
+  },
+  {
+   "part": "Flour/starch binder",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Fried chicken sausage, 2 pieces",
+   "kcal": 240
+  },
+  {
+   "name": "Cheese chicken sausage, 2 pieces",
+   "kcal": 220
+  },
+  {
+   "name": "Battered fried sosej cucuk, 2 pieces",
+   "kcal": 300
+  },
+  {
+   "name": "Boiled/air-fried chicken sausage, 2 pieces",
+   "kcal": 180
+  }
+ ],
+ "diet": "Okay once in a while. Chicken sausages are easy and kids love them, but they're not as high in protein as normal chicken and are quite high in salt and fat. For daily meals, chicken, eggs or fish keep you fuller. If you eat sausages, watch how they're cooked and the portion.",
+ "tips": [
+  "Boil, bake or air fry instead of deep frying.",
+  "Eat with eggs and veg for a more balanced breakfast.",
+  "Stick to 2 sausages and add another protein if you're still hungry."
+ ],
+ "swap": {
+  "name": "Grilled chicken breast 100 g",
+  "kcal": 165,
+  "why": "Fewer calories but almost 4 times the protein, and less salt."
+ },
+ "faq": [
+  {
+   "q": "Are processed chicken sausages unhealthy?",
+   "a": "Processed meat is best eaten once in a while, not every day. It's high in salt and preservatives."
+  },
+  {
+   "q": "Are chicken sausages high in protein?",
+   "a": "Only moderate. 2 sausages have about 8 g protein, less than a piece of chicken."
+  },
+  {
+   "q": "What's the lowest-calorie way to cook sausages?",
+   "a": "Boil or air fry. No extra oil, so the calories stay close to the original."
+  }
+ ]
+}

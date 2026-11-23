@@ -1,0 +1,67 @@
+{
+ "slug": "burger-ayam",
+ "name_en": "Burger ayam (stall-style, with egg)",
+ "serving_en": "1 burger",
+ "intro": "One stall-style burger ayam with egg is an estimated 500 kcal. Most of the calories come from the patty, fried egg, margarine and mayo.",
+ "breakdown": [
+  {
+   "part": "Burger bun (toasted with margarine)",
+   "kcal": 150
+  },
+  {
+   "part": "Chicken patty",
+   "kcal": 150
+  },
+  {
+   "part": "Fried egg / telur bungkus",
+   "kcal": 90
+  },
+  {
+   "part": "Chilli sauce, mayo & other sauces",
+   "kcal": 110
+  }
+ ],
+ "variants": [
+  {
+   "name": "Burger ayam biasa (no egg)",
+   "kcal": 400
+  },
+  {
+   "name": "Burger ayam double special",
+   "kcal": 700
+  },
+  {
+   "name": "Burger daging special",
+   "kcal": 550
+  },
+  {
+   "name": "Burger ayam + cheese",
+   "kcal": 570
+  }
+ ],
+ "diet": "Yes, a late-night burger won't automatically ruin your diet. 500 kcal still fits as one dinner. The usual problem is adding a sweet drink and eating two. One burger with plain water, and you're still on track.",
+ "tips": [
+  "Ask for 'mayo sikit' and less margarine.",
+  "Want more protein? Double egg is a better pick than double patty.",
+  "Ask for extra salad and cucumber, and have it with plain water or teh o kosong."
+ ],
+ "swap": {
+  "name": "Burger ayam biasa, no egg, less mayo",
+  "kcal": 360,
+  "why": "You still get that stall burger taste. Less oil and sauce, saving about 140 kcal."
+ },
+ "faq": [
+  {
+   "q": "Telur bungkus or fried egg, which one is nicer?",
+   "a": "Telur bungkus is more popular at stalls because the patty is wrapped in egg. Nutrition-wise, they're about the same."
+  },
+  {
+   "q": "Is stall burger ayam halal?",
+   "a": "Most stalls use patties with a halal logo. If you're unsure, check the patty packaging or ask the seller."
+  },
+  {
+   "q": "Can I keep the burger and eat it tomorrow?",
+   "a": "Yes, keep it in the fridge and reheat it. But the bun will go soggy, so it's nicer eaten right away."
+  }
+ ]
+}

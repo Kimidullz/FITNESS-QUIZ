@@ -1,0 +1,63 @@
+{
+ "slug": "epal",
+ "name_en": "Apple",
+ "serving_en": "1 medium apple",
+ "intro": "One medium apple has about 90 kcal. Almost all the calories come from natural sugar, and it's quite high in fibre.",
+ "breakdown": [
+  {
+   "part": "Natural sugar",
+   "kcal": 72
+  },
+  {
+   "part": "Fibre (mostly in the skin)",
+   "kcal": 10
+  },
+  {
+   "part": "Starch and others",
+   "kcal": 8
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small apple",
+   "kcal": 60
+  },
+  {
+   "name": "Large apple",
+   "kcal": 120
+  },
+  {
+   "name": "Apple juice (1 glass)",
+   "kcal": 120
+  },
+  {
+   "name": "Apple + 1 tbsp peanut butter",
+   "kcal": 185
+  }
+ ],
+ "diet": "Yes, apples are one of the most diet-friendly snacks. The fibre keeps you full, and you need to chew a lot, so you don't finish it too fast. A whole apple is better than juice. Juice loses the fibre and it's easy to drink a lot in one go.",
+ "tips": [
+  "Eat it with the skin on for more fibre.",
+  "Bring an apple to the office as a tea-time snack instead of kuih.",
+  "Go for the whole fruit, not boxed apple juice."
+ ],
+ "swap": {
+  "name": "1 medium jambu batu (guava)",
+  "kcal": 70,
+  "why": "Fewer calories, more fibre and vitamin C. Easy to find at the pasar and fruit stalls."
+ },
+ "faq": [
+  {
+   "q": "Green or red apple, which is better?",
+   "a": "Both are good. Green apples are a bit less sweet, but the calorie difference is very small. Pick the one you like."
+  },
+  {
+   "q": "Do I need to peel the apple?",
+   "a": "No need. The skin has a lot of fibre. Just wash it well under running water first."
+  },
+  {
+   "q": "How do I stop cut apples from turning brown?",
+   "a": "Squeeze a little limau nipis on it, or soak it briefly in lightly salted water. Keep it in a covered container."
+  }
+ ]
+}

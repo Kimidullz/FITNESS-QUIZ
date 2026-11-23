@@ -1,0 +1,63 @@
+{
+ "slug": "roti-bakar-kaya-mentega",
+ "name_en": "Roti bakar kaya mentega (kaya butter toast)",
+ "serving_en": "2 slices",
+ "intro": "Two slices of roti bakar kaya mentega are about 300 kcal (estimate). The calories come from white bread, sweet kaya and butter.",
+ "breakdown": [
+  {
+   "part": "White bread, 2 slices",
+   "kcal": 145
+  },
+  {
+   "part": "Kaya, about 1.5 tablespoons",
+   "kcal": 80
+  },
+  {
+   "part": "Butter, about 10 g",
+   "kcal": 75
+  }
+ ],
+ "variants": [
+  {
+   "name": "Wholemeal roti bakar kaya mentega",
+   "kcal": 280
+  },
+  {
+   "name": "Toasted bun with kaya butter",
+   "kcal": 400
+  },
+  {
+   "name": "Roti bakar set with 2 half-boiled eggs",
+   "kcal": 440
+  },
+  {
+   "name": "Roti bakar with kaya only, no butter",
+   "kcal": 230
+  }
+ ],
+ "diet": "Yes, 300 kcal for breakfast is actually not much. The problem is it's low in protein, so you get hungry again fast. Pair it with half-boiled eggs to stay full longer. Watch your sweet drinks too.",
+ "tips": [
+  "Order the set with half-boiled eggs for protein.",
+  "Choose kopi or teh kosong, or kurang manis.",
+  "Ask for thin butter, or kaya only."
+ ],
+ "swap": {
+  "name": "1 slice roti bakar kaya + 2 half-boiled eggs",
+  "kcal": 290,
+  "why": "About the same calories but more protein, so you stay full until lunch."
+ },
+ "faq": [
+  {
+   "q": "What is kaya made of?",
+   "a": "Kaya is made from eggs, santan, sugar and pandan leaves. There's the green Nyonya kaya and the brown Hainanese kaya."
+  },
+  {
+   "q": "Is charcoal-toasted bread different from normal toast?",
+   "a": "Charcoal toast is crispier and has a smoky aroma. Calories are about the same."
+  },
+  {
+   "q": "Why is the butter so thick at kopitiams?",
+   "a": "Kopitiams usually use a cold slab of butter for the texture. You can ask for less butter if you want."
+  }
+ ]
+}

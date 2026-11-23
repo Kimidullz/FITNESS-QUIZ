@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-goreng-usa",
+ "name_en": "Nasi goreng USA",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi goreng USA is about 800 kcal. Most calories come from the oily fried rice, the floured prawns, squid and chicken, and the thick sweet sauce.",
+ "breakdown": [
+  {
+   "part": "Fried rice, 1.5 cups",
+   "kcal": 420
+  },
+  {
+   "part": "Floured fried chicken, squid and prawns",
+   "kcal": 280
+  },
+  {
+   "part": "Sweet sour sauce or thick sauce",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng USA + telur mata",
+   "kcal": 890
+  },
+  {
+   "name": "Normal nasi goreng kampung",
+   "kcal": 600
+  },
+  {
+   "name": "Nasi goreng USA, half rice",
+   "kcal": 620
+  },
+  {
+   "name": "Nasi goreng USA without flour (stir-fried toppings)",
+   "kcal": 680
+  }
+ ],
+ "diet": "Yes, but it's one of the highest-calorie choices at a tomyam shop. The fried rice already has oil, then you add floured fried toppings and sauce. If you want it, have it once in a while and keep your other meals lighter. If you crave it every week, better to pick the version without flour coating.",
+ "tips": [
+  "Ask for the USA toppings to be stir-fried or cooked without flour if the shop can do it.",
+  "Ask for less rice and add mixed vegetables on the side.",
+  "Share one plate with a friend and add a vegetable soup or clear tomyam."
+ ],
+ "swap": {
+  "name": "White rice + clear tomyam campur + small telur dadar",
+  "kcal": 550,
+  "why": "Clear tomyam gives you protein from prawns, squid and chicken without flour and thick sauce, so calories drop a lot."
+ },
+ "faq": [
+  {
+   "q": "What does USA in nasi goreng USA mean?",
+   "a": "USA stands for Udang, Sotong, Ayam (prawn, squid, chicken). All three are usually coated in flour, fried, then tossed in sauce."
+  },
+  {
+   "q": "Where can I find nasi goreng USA?",
+   "a": "Easiest to find at tomyam shops or Thai-style eateries in Malaysia, especially at night."
+  },
+  {
+   "q": "Can I ask for less spicy or less sweet?",
+   "a": "Yes. Most cooks are fine with less sweet, less oil or less spicy requests. Just tell them when you order."
+  }
+ ]
+}

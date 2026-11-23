@@ -1,0 +1,63 @@
+{
+ "slug": "laksa-penang",
+ "name_en": "Laksa Penang (asam laksa)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of laksa Penang (asam laksa) is roughly 450 kcal (estimate). Most of the calories come from the thick laksa noodles. The sour fish broth itself is quite light.",
+ "breakdown": [
+  {
+   "part": "Laksa noodles, 1.5 cups",
+   "kcal": 250
+  },
+  {
+   "part": "Sour fish broth",
+   "kcal": 120
+  },
+  {
+   "part": "Prawn paste (petis / haeko)",
+   "kcal": 60
+  },
+  {
+   "part": "Cucumber, pineapple, mint and onion",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Asam laksa + boiled egg",
+   "kcal": 525
+  },
+  {
+   "name": "Asam laksa without petis",
+   "kcal": 400
+  },
+  {
+   "name": "Laksa Kedah",
+   "kcal": 420
+  }
+ ],
+ "diet": "Yes, this is one of the most diet-friendly laksas. No santan, low fat, and protein from the fish. Just watch the sweet prawn paste and the noodle portion. Great for a weekend lunch.",
+ "tips": [
+  "Ask for less petis or have it on the side.",
+  "Ask for more veg like cucumber and onion.",
+  "Add a boiled egg for more protein."
+ ],
+ "swap": {
+  "name": "Small asam laksa + egg",
+  "kcal": 380,
+  "why": "Same taste, fewer noodles and more protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between laksa Penang and laksa kari?",
+   "a": "Laksa Penang uses a sour fish broth with no santan. Laksa kari uses a thick curry broth with santan."
+  },
+  {
+   "q": "What fish is used in asam laksa?",
+   "a": "Usually ikan kembung or sardines, boiled and flaked finely into the broth."
+  },
+  {
+   "q": "Why is asam laksa sour?",
+   "a": "It comes from asam keping or tamarind cooked in the broth."
+  }
+ ]
+}

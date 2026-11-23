@@ -1,0 +1,67 @@
+{
+ "slug": "pan-mee-sup",
+ "name_en": "Pan mee (soup)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of pan mee soup is roughly 450 kcal. Most of the calories come from the handmade flour noodles, followed by the fried ikan bilis and minced meat.",
+ "breakdown": [
+  {
+   "part": "Handmade flour noodles",
+   "kcal": 270
+  },
+  {
+   "part": "Minced meat and mushrooms",
+   "kcal": 80
+  },
+  {
+   "part": "Fried ikan bilis",
+   "kcal": 70
+  },
+  {
+   "part": "Soup and vegetables",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chilli pan mee (dry)",
+   "kcal": 600
+  },
+  {
+   "name": "Pan mee soup with egg",
+   "kcal": 525
+  },
+  {
+   "name": "Large pan mee",
+   "kcal": 600
+  },
+  {
+   "name": "Pan mee without fried ikan bilis",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, pan mee soup is one of the more balanced noodle options. There's protein from the minced meat and the soup is clear. Just watch the fried ikan bilis and the oilier chilli pan mee version. Go for the regular size and add an egg if you want to feel fuller.",
+ "tips": [
+  "Ask for the ikan bilis on the side so you can take just a little.",
+  "Add a half-boiled egg for more protein.",
+  "Choose the soup version over chilli pan mee if you want something lighter."
+ ],
+ "swap": {
+  "name": "Bihun sup",
+  "kcal": 300,
+  "why": "Same kind of clear soup, but bihun is lighter and there's no fried ikan bilis."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between pan mee and mee hoon kueh?",
+   "a": "Pan mee is usually cut into long strips like noodles. Mee hoon kueh is pinched into small pieces. The dough and soup are almost the same."
+  },
+  {
+   "q": "What is pan mee made of?",
+   "a": "Wheat flour, egg, water and a bit of salt, kneaded and rolled out thin."
+  },
+  {
+   "q": "What is chilli pan mee?",
+   "a": "It's the dry version with fried chilli, minced meat, ikan bilis and a half-boiled egg. It usually comes with soup on the side."
+  }
+ ]
+}

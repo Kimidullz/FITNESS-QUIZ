@@ -1,0 +1,63 @@
+{
+ "slug": "mee-rebus",
+ "name_en": "Mee rebus",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee rebus is roughly 550 kcal (estimate). Most of the calories come from the yellow noodles and the thick sweet potato and peanut gravy.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1.5 cups",
+   "kcal": 250
+  },
+  {
+   "part": "Thick sweet potato and peanut gravy",
+   "kcal": 180
+  },
+  {
+   "part": "1 boiled egg",
+   "kcal": 75
+  },
+  {
+   "part": "Fried tofu and cucur udang",
+   "kcal": 45
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee rebus tulang",
+   "kcal": 750
+  },
+  {
+   "name": "Mee rebus + extra egg",
+   "kcal": 625
+  },
+  {
+   "name": "Mee rebus without cucur",
+   "kcal": 500
+  }
+ ],
+ "diet": "Yes, in moderate amounts. The gravy is thick and starchy, so carbs are quite high. The boiled egg really helps with protein. Skip the fatty tulang version if you're watching calories.",
+ "tips": [
+  "Ask for less gravy, or don't finish it.",
+  "Add a boiled egg instead of fried cucur.",
+  "Squeeze lots of limau kasturi for flavour instead of adding oily sambal."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 400,
+  "why": "Clear soup, not thick and starchy. Saves about 150 kcal."
+ },
+ "faq": [
+  {
+   "q": "What is mee rebus gravy made of?",
+   "a": "Usually blended boiled sweet potato or potato, mixed with spices, dried shrimp and peanuts."
+  },
+  {
+   "q": "Is Johor mee rebus different from Kedah mee rebus?",
+   "a": "Yes. The Johor version is thicker and sweeter, and some use beef bones. Northern versions are sometimes thinner and spicier."
+  },
+  {
+   "q": "Can mee rebus be frozen?",
+   "a": "The gravy can be frozen in a container. Noodles are better cooked fresh so they don't go soggy."
+  }
+ ]
+}

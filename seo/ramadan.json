@@ -1,0 +1,281 @@
+{
+ "title": "Panduan Ramadan: Puasa Tanpa Naik Berat",
+ "intro": "Ramadan bulan ibadah, bukan bulan diet ketat. Tapi ramai yang terkejut bila naik 2-4 kg selepas Raya. Dalam panduan ini, Coach Kimi dan Coach Zara kongsi menu sahur dan berbuka yang realistik, anggaran kalori makanan bazar dan kuih raya, serta tips mudah untuk orang bekerja dan mak-mak. Tak perlu tinggal nasi. Tak perlu elak bazar. Cuma bijak pilih portion dan kekerapan. Semua nombor kalori dan protein ialah anggaran untuk hidangan biasa di Malaysia. Saiz sebenar boleh berbeza ikut kedai dan resepi. Penting: jika anda ada diabetes, sedang mengandung atau menyusukan anak, sila berbincang dengan doktor dahulu sebelum ubah cara puasa atau pemakanan anda.",
+ "why_gain": [
+  "Berbuka cara 'balas dendam'. Lapar seharian, jadi kita makan laju dan banyak sekali gus. Ditambah gorengan dan air manis, kalori berbuka sahaja boleh lebih 1,500 kcal.",
+  "Kalori cair dan snek malam tak dikira. Air bandung, air tebu, cendol, moreh selepas terawih dan kuih masa tengok TV. Satu-satu nampak kecil, tapi bila dicampur memang banyak.",
+  "Kurang tidur dan kurang bergerak. Bangun sahur, tidur lewat, badan penat, jadi kita kurang berjalan dan bersenam. Bila kurang tidur, selera pun biasanya naik."
+ ],
+ "sahur": [
+  {
+   "name": "Sahur Nasi Telur Simple",
+   "items": "Nasi putih 1 senduk (anggaran 150 g), 2 biji telur goreng sikit minyak atau rebus, sayur campur 1 senduk, 1 biji pisang, air kosong 2 gelas",
+   "kcal": 500,
+   "protein_g": 19,
+   "why": "Nasi dan pisang bagi tenaga. Telur bantu kenyang lebih lama. Siap dalam 10 minit."
+  },
+  {
+   "name": "Sahur Oat Susu + Telur",
+   "items": "Oat 4 sudu besar (40 g) dimasak dengan susu rendah lemak 1 gelas, 1 biji pisang dihiris, 2 biji telur rebus",
+   "kcal": 490,
+   "protein_g": 26,
+   "why": "Oat dan susu lembut di perut. Serat dalam oat bantu rasa kenyang. Sesuai untuk yang tak lalu makan nasi waktu pagi buta."
+  },
+  {
+   "name": "Sahur Roti Telur Dadar",
+   "items": "2 keping roti gandum penuh, telur dadar 2 biji dengan bawang dan cili, hirisan timun dan tomato, 1 gelas susu rendah lemak",
+   "kcal": 450,
+   "protein_g": 29,
+   "why": "Cepat disediakan, protein tinggi. Roti gandum penuh lebih banyak serat berbanding roti putih."
+  },
+  {
+   "name": "Sahur Nasi Ikan Kunyit",
+   "items": "Nasi putih 1 senduk, 1 ekor ikan kembung goreng kunyit, bayam masak air, 2 biji kurma",
+   "kcal": 490,
+   "protein_g": 28,
+   "why": "Menu kampung yang mengenyangkan. Ikan beri protein dan lemak baik. Kurma sebagai pencuci mulut manis."
+  },
+  {
+   "name": "Sahur Lauk Berbuka Semalam",
+   "items": "Nasi putih 1 senduk, 1 ketul ayam masak kicap, 3 keping tempe goreng, sayur lebihan berbuka",
+   "kcal": 550,
+   "protein_g": 32,
+   "why": "Tak membazir dan tak perlu masak baru. Simpan lauk berbuka dalam peti sejuk, panaskan masa sahur."
+  }
+ ],
+ "berbuka": [
+  {
+   "name": "Berbuka Ayam Percik",
+   "items": "3 biji kurma + air kosong dulu, kemudian nasi putih 1 senduk, 1 ketul ayam percik (buang kulit jika mahu), ulam-ulaman, sambal sikit",
+   "kcal": 580,
+   "protein_g": 35,
+   "why": "Mula dengan kurma dan air, bagi badan masa 5-10 minit. Ayam percik boleh dibeli di bazar, cuma tambah ulam dari rumah."
+  },
+  {
+   "name": "Berbuka Nasi Campur Warung",
+   "items": "2 biji kurma, nasi putih 1 senduk, ikan masak asam pedas 1 ketul, kangkung belacan, air kosong atau teh O kosong",
+   "kcal": 540,
+   "protein_g": 31,
+   "why": "Formula pinggan seimbang: suku nasi, suku lauk protein, separuh sayur. Asam pedas berkuah, kurang minyak berbanding lauk goreng."
+  },
+  {
+   "name": "Berbuka Ala Mamak",
+   "items": "2 biji kurma, 2 keping capati, kuah dal, 1 ketul ayam tandoori, salad timun bawang, teh O ais kurang manis",
+   "kcal": 630,
+   "protein_g": 37,
+   "why": "Capati dan tandoori pilihan lebih ringan di mamak berbanding roti canai dan ayam goreng. Protein tinggi, kenyang lama."
+  },
+  {
+   "name": "Berbuka Bihun Sup",
+   "items": "2 biji kurma, 1 mangkuk bihun sup ayam, 1 biji telur rebus, sayur sawi dalam sup",
+   "kcal": 510,
+   "protein_g": 27,
+   "why": "Sup suam sesuai untuk perut yang kosong seharian. Kuah bantu tambah cecair badan."
+  },
+  {
+   "name": "Berbuka Bubur Lambuk",
+   "items": "2 biji kurma, 1 mangkuk bubur lambuk, 1 ketul ayam bakar kecil, 2 potong tembikai",
+   "kcal": 570,
+   "protein_g": 35,
+   "why": "Bubur lambuk tradisi Ramadan yang lembut di perut. Tambah ayam bakar supaya protein cukup."
+  }
+ ],
+ "bazar": [
+  {
+   "name": "Murtabak daging",
+   "serving": "1/4 keping (2-3 potong)",
+   "kcal": 250
+  },
+  {
+   "name": "Ayam percik",
+   "serving": "1 ketul peha",
+   "kcal": 300
+  },
+  {
+   "name": "Nasi kerabu",
+   "serving": "1 bungkus lengkap",
+   "kcal": 550
+  },
+  {
+   "name": "Roti john",
+   "serving": "1/2 batang",
+   "kcal": 400
+  },
+  {
+   "name": "Popia goreng",
+   "serving": "1 batang",
+   "kcal": 120
+  },
+  {
+   "name": "Karipap",
+   "serving": "1 biji sederhana",
+   "kcal": 130
+  },
+  {
+   "name": "Satay ayam",
+   "serving": "10 cucuk + kuah kacang",
+   "kcal": 450
+  },
+  {
+   "name": "Tepung pelita",
+   "serving": "1 bekas daun",
+   "kcal": 120
+  },
+  {
+   "name": "Akok",
+   "serving": "1 biji",
+   "kcal": 80
+  },
+  {
+   "name": "Seri muka",
+   "serving": "1 potong",
+   "kcal": 180
+  },
+  {
+   "name": "Cendol",
+   "serving": "1 mangkuk",
+   "kcal": 350
+  },
+  {
+   "name": "Air tebu",
+   "serving": "1 cawan (anggaran 350 ml)",
+   "kcal": 200
+  },
+  {
+   "name": "Air bandung",
+   "serving": "1 cawan (anggaran 350 ml)",
+   "kcal": 250
+  },
+  {
+   "name": "Putu piring",
+   "serving": "1 biji",
+   "kcal": 110
+  },
+  {
+   "name": "Otak-otak",
+   "serving": "1 keping",
+   "kcal": 60
+  }
+ ],
+ "kuih_raya": [
+  {
+   "name": "Tart nenas",
+   "serving": "1 biji",
+   "kcal": 70
+  },
+  {
+   "name": "Kuih bangkit",
+   "serving": "1 biji",
+   "kcal": 25
+  },
+  {
+   "name": "Biskut semperit",
+   "serving": "1 biji",
+   "kcal": 40
+  },
+  {
+   "name": "Cornflakes madu",
+   "serving": "1 cawan kertas kecil",
+   "kcal": 50
+  },
+  {
+   "name": "Biskut dahlia",
+   "serving": "1 biji",
+   "kcal": 40
+  },
+  {
+   "name": "Kuih makmur",
+   "serving": "1 biji",
+   "kcal": 60
+  },
+  {
+   "name": "Almond london",
+   "serving": "1 biji",
+   "kcal": 55
+  },
+  {
+   "name": "Kuih suji",
+   "serving": "1 biji",
+   "kcal": 50
+  },
+  {
+   "name": "Biskut mazola",
+   "serving": "1 biji",
+   "kcal": 35
+  },
+  {
+   "name": "Rempeyek kacang",
+   "serving": "1 keping",
+   "kcal": 70
+  },
+  {
+   "name": "Kerepek pisang",
+   "serving": "1 genggam (anggaran 20 g)",
+   "kcal": 100
+  },
+  {
+   "name": "Kek lapis Sarawak",
+   "serving": "1 potong nipis",
+   "kcal": 200
+  },
+  {
+   "name": "Kuih bahulu",
+   "serving": "1 biji",
+   "kcal": 40
+  },
+  {
+   "name": "Dodol",
+   "serving": "1 potong kecil",
+   "kcal": 100
+  },
+  {
+   "name": "Kuih siput",
+   "serving": "1 genggam kecil (anggaran 20 g)",
+   "kcal": 100
+  }
+ ],
+ "exercise": "Waktu paling sesuai ialah 30-60 minit sebelum berbuka (contohnya jalan laju atau senaman ringan), atau 1-2 jam selepas berbuka untuk senaman lebih berat seperti angkat beban. Kurangkan intensiti berbanding biasa dan pendekkan sesi kepada 20-40 minit sahaja. Kalau rasa pening, berdebar atau terlalu lemah, berhenti dan berehat. Selain senaman, terus aktif seharian: jalan kaki ke surau untuk terawih dan naik tangga di pejabat pun dikira.",
+ "tips": [
+  "Buka dengan kurma dan air kosong dulu. Solat Maghrib, kemudian baru makan nasi. Rehat 10 minit ini bantu elak makan berlebihan.",
+  "Guna formula pinggan: separuh sayur, suku nasi, suku lauk protein seperti ayam, ikan, telur atau tauhu.",
+  "Ke bazar dengan senarai. Pilih 1 lauk utama dan 1 kuih sahaja. Elak beli masa terlalu lapar.",
+  "Tukar air manis kepada air kosong, teh O kurang manis atau air kosong dengan hirisan limau. Air bandung dan air tebu simpan untuk 2-3 kali seminggu.",
+  "Jangan ponteng sahur. Sahur yang ada protein bantu kawal lapar dan elak berbuka secara berlebihan.",
+  "Minum air sedikit demi sedikit dari berbuka hingga sahur. Letak botol air di meja supaya senang ingat.",
+  "Moreh selepas terawih? Ambil 1 potong kecil atau buah sahaja. Tak perlu jadi makan malam kedua.",
+  "Cuba tidur sekurang-kurangnya 6 jam semalaman, contohnya tidur awal selepas terawih dan tidur sekejap waktu rehat tengah hari jika boleh."
+ ],
+ "raya": [
+  "Makan sesuatu yang ada protein sebelum keluar beraya, contohnya telur rebus. Perut tak kosong, lebih mudah kawal portion.",
+  "Di setiap rumah, ambil 1 pinggan kecil sahaja. Pilih lauk yang paling anda suka, tak perlu rasa semua.",
+  "Kuih raya: pilih 2-3 biji kegemaran, letak dalam piring, kemudian jauhkan diri dari meja kuih. Elak makan terus dari balang.",
+  "Air sirap dan minuman manis boleh minta separuh gelas, atau minta air kosong. Tuan rumah biasanya faham.",
+  "Raya bukan sehari sahaja, jadi rancang. Bila ada jemputan petang, makan ringan waktu tengah hari dan jalan-jalan selepas makan bersama keluarga."
+ ],
+ "faq": [
+  {
+   "q": "Boleh ke bersenam masa puasa?",
+   "a": "Boleh, untuk kebanyakan orang dewasa yang sihat. Pilih senaman ringan sebelum berbuka atau senaman lebih berat selepas berbuka. Dengar badan anda. Jika pening atau terlalu lemah, berhenti dan berehat."
+  },
+  {
+   "q": "Berapa banyak air perlu minum?",
+   "a": "Panduan umum ialah sekitar 8 gelas dari berbuka hingga sahur. Contohnya 2 gelas waktu berbuka, 4 gelas antara terawih dan tidur, 2 gelas waktu sahur. Keperluan setiap orang berbeza, jadi perhatikan warna air kencing. Warna kuning muda biasanya tanda okay."
+  },
+  {
+   "q": "Kurma tinggi gula, boleh makan ke?",
+   "a": "Boleh. Anggaran 20 kcal sebiji kecil. 2-3 biji ketika berbuka memang sesuai untuk naikkan tenaga dengan cepat. Yang perlu jaga ialah bila makan segenggam demi segenggam sepanjang malam."
+  },
+  {
+   "q": "Kalau saya tak sahur, kalori kurang, lagi cepat turun berat?",
+   "a": "Tak semestinya. Ramai yang ponteng sahur akhirnya terlalu lapar dan makan berlebihan waktu berbuka. Sahur ringkas dengan protein lebih membantu anda kawal selera."
+  },
+  {
+   "q": "Makan nasi waktu malam buat gemuk ke?",
+   "a": "Tidak. Berat badan dipengaruhi jumlah kalori sepanjang hari, bukan waktu makan nasi. 1 senduk nasi dengan lauk dan sayur boleh masuk dalam pelan anda."
+  },
+  {
+   "q": "Saya ada diabetes, atau sedang mengandung atau menyusukan anak. Boleh ikut panduan ini?",
+   "a": "Sila berjumpa doktor anda dahulu sebelum mengubah cara berpuasa atau pemakanan. Keperluan gula darah, ubat dan nutrisi anda berbeza, jadi nasihat doktor perlu didahulukan. Panduan ini adalah maklumat umum sahaja."
+  }
+ ]
+}

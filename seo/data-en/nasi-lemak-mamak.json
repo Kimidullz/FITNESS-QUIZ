@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-lemak-mamak",
+ "name_en": "Nasi lemak mamak (with fried egg)",
+ "serving_en": "1 plate",
+ "intro": "A plate of mamak nasi lemak with fried egg is roughly 550 kcal. Most of the calories come from the coconut rice and the sweet, oily sambal.",
+ "breakdown": [
+  {
+   "part": "Coconut rice (1 cup)",
+   "kcal": 250
+  },
+  {
+   "part": "Sambal",
+   "kcal": 120
+  },
+  {
+   "part": "Fried egg (1)",
+   "kcal": 100
+  },
+  {
+   "part": "Ikan bilis and fried peanuts",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak without egg",
+   "kcal": 450
+  },
+  {
+   "name": "Nasi lemak with sambal sotong",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi lemak with ayam goreng",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, you don't need to cut nasi lemak out of your life. A regular plate with egg can still fit into your daily budget. What makes the calories jump is extra sides like ayam goreng or rendang. Stick to a regular portion and go easy on the add-ons.",
+ "tips": [
+  "Swap the fried egg for a boiled egg to save some oil.",
+  "Ask for less sambal and extra cucumber.",
+  "If you want more protein, pick ayam bakar or a small ayam rempah, not a big piece of ayam goreng."
+ ],
+ "swap": {
+  "name": "Nasi lemak with boiled egg, less sambal",
+  "kcal": 430,
+  "why": "You still get the nasi lemak taste, but with less oil from the fried egg and sambal."
+ },
+ "faq": [
+  {
+   "q": "Why does mamak nasi lemak taste different from Malay stall nasi lemak?",
+   "a": "Every shop has its own sambal recipe and way of cooking the coconut rice. Mamak nasi lemak usually has a sweeter sambal and is sometimes eaten with curry."
+  },
+  {
+   "q": "Is nasi lemak a good breakfast?",
+   "a": "Many Malaysians eat nasi lemak in the morning and it can keep you full until lunch. Make sure there's protein like egg so you stay full longer."
+  },
+  {
+   "q": "Can I make a lighter nasi lemak at home?",
+   "a": "Yes. Use light coconut milk, or half coconut milk and half water. You can also cook the sambal with less oil and sugar."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "mee-soto",
+ "name_en": "Mee soto",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee soto is roughly 400 kcal (estimate). Most of the calories come from the yellow noodles, while the soto broth and shredded chicken add a smaller share.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1 serving",
+   "kcal": 220
+  },
+  {
+   "part": "Shredded chicken",
+   "kcal": 70
+  },
+  {
+   "part": "Spiced soto broth",
+   "kcal": 60
+  },
+  {
+   "part": "Bean sprouts, sambal kicap, fried shallots",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee soto + bergedil",
+   "kcal": 520
+  },
+  {
+   "name": "Soto nasi impit",
+   "kcal": 350
+  },
+  {
+   "name": "Bihun soto",
+   "kcal": 370
+  },
+  {
+   "name": "Mee soto extra chicken",
+   "kcal": 460
+  }
+ ],
+ "diet": "Yes, and mee soto is one of the lighter options at the stall. The broth has no santan, so fat is lower. What usually pushes calories up is bergedil and crackers. If you want one, take just one bergedil and count it in that day's budget.",
+ "tips": [
+  "Ask for extra chicken for more protein and to stay full longer.",
+  "Add more bean sprouts and daun sup if available. More volume, few calories.",
+  "Have bergedil once in a while, not every time you order."
+ ],
+ "swap": {
+  "name": "Soto nasi impit",
+  "kcal": 350,
+  "why": "Nasi impit is usually a bit lower in calories than noodles, but the soto taste is the same."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between soto Johor and regular soto?",
+   "a": "Soto Johor is usually more spiced with a thicker broth. Other versions may be clearer and lighter."
+  },
+  {
+   "q": "What is soto bergedil made of?",
+   "a": "Mashed potato mixed with onions, spices and sometimes meat, then fried."
+  },
+  {
+   "q": "Is mee soto good for breakfast?",
+   "a": "Yes, lots of people have it for breakfast because the broth is warm and not too heavy."
+  }
+ ]
+}

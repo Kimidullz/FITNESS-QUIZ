@@ -1,0 +1,67 @@
+{
+ "slug": "ais-kacang",
+ "name_en": "Ais kacang (ABC)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of ais kacang (ABC) has an estimated 300 kcal. Most of the calories come from syrup, sugar and sweetened condensed milk.",
+ "breakdown": [
+  {
+   "part": "Sweetened condensed milk",
+   "kcal": 100
+  },
+  {
+   "part": "Rose syrup & gula melaka",
+   "kcal": 90
+  },
+  {
+   "part": "Red beans & corn",
+   "kcal": 70
+  },
+  {
+   "part": "Cincau, jelly & attap chee",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "ABC with ice cream",
+   "kcal": 420
+  },
+  {
+   "name": "ABC extra condensed milk",
+   "kcal": 360
+  },
+  {
+   "name": "ABC less sweet",
+   "kcal": 220
+  },
+  {
+   "name": "ABC durian",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, once in a while. Ais kacang is almost all sugar, so it won't keep you full for long. No need to avoid it completely. Just don't make it a routine after lunch. Watch the size and toppings, that's the key.",
+ "tips": [
+  "Ask for 'susu sikit' or no condensed milk.",
+  "Skip the ice cream and peanut toppings.",
+  "Share with a friend after a rice meal."
+ ],
+ "swap": {
+  "name": "A plate of cut fruit (watermelon/papaya)",
+  "kcal": 90,
+  "why": "Still sweet and cold, but with fibre and water. Saves about 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "What does ABC stand for?",
+   "a": "ABC is short for 'Air Batu Campur'. It's another name for ais kacang."
+  },
+  {
+   "q": "What's the difference between ais kacang and cendol?",
+   "a": "Ais kacang uses syrup and condensed milk with lots of toppings. Cendol uses santan and gula melaka."
+  },
+  {
+   "q": "Can I make ais kacang at home?",
+   "a": "Yes. Use canned red beans, corn, cincau and syrup. You get to control how much sugar goes in."
+  }
+ ]
+}

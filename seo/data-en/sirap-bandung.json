@@ -1,0 +1,63 @@
+{
+ "slug": "sirap-bandung",
+ "name_en": "Sirap bandung",
+ "serving_en": "1 glass",
+ "intro": "One glass of sirap bandung has about 180 kcal (estimate). Calories come from the sweet rose syrup and condensed milk.",
+ "breakdown": [
+  {
+   "part": "Rose syrup (~2 tbsp)",
+   "kcal": 90
+  },
+  {
+   "part": "Sweetened condensed milk (~1 tbsp)",
+   "kcal": 65
+  },
+  {
+   "part": "Evaporated milk (a little)",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bandung kurang manis (less sweet)",
+   "kcal": 120
+  },
+  {
+   "name": "Sirap ais (no milk)",
+   "kcal": 100
+  },
+  {
+   "name": "Bandung soda",
+   "kcal": 200
+  },
+  {
+   "name": "Bandung cincau",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, especially for buka puasa or a kenduri. But it's one of the sweetest drinks at the kedai, so make it a treat, not a daily habit. One glass is okay if your main meal is controlled. Avoid going for a second glass or the soda and cincau versions too often.",
+ "tips": [
+  "Ask for 'bandung kurang manis' or half the syrup.",
+  "Ask for more ice so the glass is full but with less syrup.",
+  "If making at home, use low-fat fresh milk and less syrup."
+ ],
+ "swap": {
+  "name": "Bandung kurang manis",
+  "kcal": 120,
+  "why": "Same pink colour and rose flavour, just less sugar."
+ },
+ "faq": [
+  {
+   "q": "Why is it called bandung?",
+   "a": "'Bandung' refers to mixing two things together, which is syrup and milk. It's not from the city of Bandung."
+  },
+  {
+   "q": "Is bandung soda nice, and how do I make it?",
+   "a": "Mix syrup, condensed milk and soda water. It's more refreshing and fizzy, but slightly higher in calories."
+  },
+  {
+   "q": "Can I make bandung with fresh milk?",
+   "a": "Yes. It's less rich and sweet, but lighter and lower in calories."
+  }
+ ]
+}

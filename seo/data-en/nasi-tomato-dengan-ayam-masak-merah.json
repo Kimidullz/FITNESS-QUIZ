@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-tomato-dengan-ayam-masak-merah",
+ "name_en": "Nasi tomato with ayam masak merah",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi tomato with ayam masak merah is about 700 kcal. Most calories come from the nasi tomato cooked with butter or ghee, and the sweet, oily masak merah gravy.",
+ "breakdown": [
+  {
+   "part": "Nasi tomato, 1.5 cups",
+   "kcal": 400
+  },
+  {
+   "part": "1 piece ayam masak merah with gravy",
+   "kcal": 230
+  },
+  {
+   "part": "Acar buah",
+   "kcal": 40
+  },
+  {
+   "part": "A little dalca",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi tomato + daging masak merah",
+   "kcal": 750
+  },
+  {
+   "name": "Nasi tomato + ayam goreng berempah",
+   "kcal": 750
+  },
+  {
+   "name": "Half nasi tomato + ayam masak merah",
+   "kcal": 500
+  },
+  {
+   "name": "Add boiled egg",
+   "kcal": 80
+  }
+ ],
+ "diet": "Yes, especially when it's served at a jamuan or kenduri. The chicken gives good protein, but the nasi tomato and masak merah gravy have oil and sugar. Control the rice and take just enough gravy for flavour. One moderate plate can still fit your diet.",
+ "tips": [
+  "Take the chicken breast and remove the skin for more protein, less fat.",
+  "Use less masak merah gravy. A spoon or two is enough for flavour.",
+  "Add salad or cucumber on the side so your plate looks fuller without many calories."
+ ],
+ "swap": {
+  "name": "1 cup nasi tomato + skinless ayam masak merah + cucumber",
+  "kcal": 520,
+  "why": "Less rice and no chicken skin cuts almost 200 kcal, and protein stays high."
+ },
+ "faq": [
+  {
+   "q": "What is nasi tomato cooked with?",
+   "a": "Usually basmathi rice cooked with tomato sauce or fresh tomatoes, evaporated milk, ghee and spices. That's why it's reddish orange."
+  },
+  {
+   "q": "Why is ayam masak merah sweet?",
+   "a": "The gravy uses blended chilli, tomato sauce and sugar. Some recipes use quite a lot of sugar, so it tastes sweet and spicy."
+  },
+  {
+   "q": "Can I keep nasi tomato for tomorrow?",
+   "a": "Yes. Store it in a closed container in the fridge and finish it within 1-2 days. Heat it until it's properly hot."
+  }
+ ]
+}

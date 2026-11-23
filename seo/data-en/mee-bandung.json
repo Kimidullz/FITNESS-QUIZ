@@ -1,0 +1,67 @@
+{
+ "slug": "mee-bandung",
+ "name_en": "Mee bandung",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee bandung is roughly 550 kcal (estimate). Most of the calories come from the yellow noodles and the thick gravy cooked with dried shrimp, chilli and oil.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1 serving",
+   "kcal": 250
+  },
+  {
+   "part": "Bandung gravy (chilli, dried shrimp, oil)",
+   "kcal": 150
+  },
+  {
+   "part": "1 egg",
+   "kcal": 75
+  },
+  {
+   "part": "Beef, prawns or squid",
+   "kcal": 75
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee bandung Muar (beef + prawns)",
+   "kcal": 600
+  },
+  {
+   "name": "Mee bandung + extra egg",
+   "kcal": 625
+  },
+  {
+   "name": "Mee bandung ayam",
+   "kcal": 520
+  },
+  {
+   "name": "Bihun bandung",
+   "kcal": 500
+  }
+ ],
+ "diet": "Yes, as long as you count it as one full main meal. 550 kcal still fits most people's daily budget when trying to lose weight. The problem usually comes when we add sweet drinks and kuih too. Go for more protein, drink plain, and eat slowly so you stay full longer.",
+ "tips": [
+  "Ask for an extra egg or more beef, and a bit less noodles, to bump up protein.",
+  "Don't finish all the gravy, since a lot of the oil collects there.",
+  "Pair it with teh O kosong or warm water, not sirap or teh tarik."
+ ],
+ "swap": {
+  "name": "Mee soto (without bergedil)",
+  "kcal": 400,
+  "why": "Soto broth is thinner with less oil, but still spiced and filling."
+ },
+ "faq": [
+  {
+   "q": "Why is mee bandung famous in Muar?",
+   "a": "Mee bandung Muar is known for its thick, spiced gravy made with dried shrimp and beef. Many people travel far just to taste the original there."
+  },
+  {
+   "q": "What is mee bandung gravy made of?",
+   "a": "Usually blended chilli, dried shrimp, onions, spices, beef or prawn stock, and sometimes tomato sauce. That's why it's red and thick."
+  },
+  {
+   "q": "Is mee bandung spicy?",
+   "a": "Usually medium spicy. If you can't take the heat, ask for less chilli when you order."
+  }
+ ]
+}

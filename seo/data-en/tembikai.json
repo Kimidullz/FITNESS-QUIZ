@@ -1,0 +1,67 @@
+{
+ "slug": "tembikai",
+ "name_en": "Watermelon (tembikai)",
+ "serving_en": "1 slice",
+ "intro": "One slice of watermelon has about 50 kcal. The calories come from natural sugar, and more than 90% of watermelon is actually water.",
+ "breakdown": [
+  {
+   "part": "Natural sugar",
+   "kcal": 42
+  },
+  {
+   "part": "Fibre and other carbs",
+   "kcal": 4
+  },
+  {
+   "part": "Protein and others",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Yellow watermelon (1 slice)",
+   "kcal": 50
+  },
+  {
+   "name": "Large slice",
+   "kcal": 85
+  },
+  {
+   "name": "Cubed watermelon (1 plate)",
+   "kcal": 90
+  },
+  {
+   "name": "Sweetened watermelon juice (1 glass)",
+   "kcal": 150
+  },
+  {
+   "name": "",
+   "kcal": 0
+  }
+ ],
+ "diet": "Yes, watermelon is great when you're trying to lose weight. Lots of water, low in calories and refreshing, especially in hot Malaysian weather. But it's not high in protein or fibre, so it won't keep you full for very long. Pick sliced fruit over sweetened juice.",
+ "tips": [
+  "At the stall, choose sliced watermelon over watermelon juice, because the juice usually has added sugar.",
+  "Have it as dessert after lunch instead of a sweet drink.",
+  "Keep cut watermelon in the fridge as a fresh snack for sweet cravings."
+ ],
+ "swap": {
+  "name": "1 slice of papaya (betik)",
+  "kcal": 55,
+  "why": "About the same calories, but more fibre, so you stay full a bit longer."
+ },
+ "faq": [
+  {
+   "q": "Can I eat watermelon seeds?",
+   "a": "Yes. You can swallow the black seeds or spit them out, up to you. Some people also eat dried watermelon seeds (kuaci)."
+  },
+  {
+   "q": "How do I pick a sweet watermelon?",
+   "a": "Choose one that feels heavy for its size, has a yellow patch underneath and sounds hollow when you knock on it."
+  },
+  {
+   "q": "Red vs yellow watermelon, any difference?",
+   "a": "Just the taste and colour. Red watermelon has lycopene, the pigment that gives it the red colour. Calories are about the same."
+  }
+ ]
+}

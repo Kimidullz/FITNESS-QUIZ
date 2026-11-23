@@ -1,0 +1,63 @@
+{
+ "slug": "telur-dadar",
+ "name_en": "Telur dadar (omelette)",
+ "serving_en": "1 egg",
+ "intro": "One telur dadar is about 150 kcal (estimate). Half the calories come from the egg itself, and the other half from the frying oil.",
+ "breakdown": [
+  {
+   "part": "1 egg",
+   "kcal": 75
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 65
+  },
+  {
+   "part": "Onion, chilli and spring onion",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Boiled egg",
+   "kcal": 75
+  },
+  {
+   "name": "Fried egg (telur mata)",
+   "kcal": 110
+  },
+  {
+   "name": "Telur dadar, 2 eggs",
+   "kcal": 280
+  },
+  {
+   "name": "Telur dadar with filling (vegetables or minced meat)",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, you can. Eggs are a cheap and easy protein source. What pushes the calories up is the oil, because telur dadar soaks up oil fast. Cook it yourself with a little oil, and it's a great lauk while dieting. At a shop, share it or pick a boiled egg if available.",
+ "tips": [
+  "Use a non-stick pan and just one teaspoon of oil.",
+  "Add vegetables like onion, tomato and spring onion so it's more filling.",
+  "At a shop, pick a boiled egg or telur mata over a thick telur dadar."
+ ],
+ "swap": {
+  "name": "2 boiled eggs",
+  "kcal": 150,
+  "why": "Same calories as one telur dadar, but double the protein. Keeps you full longer."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between telur dadar and a fried egg?",
+   "a": "Telur dadar is beaten before frying, usually with onion and chilli. Telur mata is fried straight without beating."
+  },
+  {
+   "q": "How do I make a fluffy telur dadar?",
+   "a": "Beat the eggs well and cook on medium heat. A little water or milk helps make it softer."
+  },
+  {
+   "q": "How many eggs a day can I eat?",
+   "a": "For most healthy people, 1 to 2 eggs a day is normal. If you have a specific health condition, check with your doctor or a dietitian."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "kuey-teow-sup",
+ "name_en": "Kuey teow sup",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of kuey teow sup is roughly 350 kcal (estimate). Most of the calories come from the kuey teow itself. The soup is light.",
+ "breakdown": [
+  {
+   "part": "Kuey teow, 1 cup",
+   "kcal": 200
+  },
+  {
+   "part": "Sliced chicken or fish balls",
+   "kcal": 80
+  },
+  {
+   "part": "Soup broth",
+   "kcal": 40
+  },
+  {
+   "part": "Fried shallots and shallot oil",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow sup + beef balls",
+   "kcal": 400
+  },
+  {
+   "name": "Kuey teow sup tulang",
+   "kcal": 480
+  },
+  {
+   "name": "Mee hoon sup",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, one of the best choices when eating out. Moderate calories with some protein. The soup also keeps you full longer. Just watch the sodium in the broth if you bloat easily.",
+ "tips": [
+  "Ask for extra chicken or fish balls for more protein.",
+  "Add sawi or bean sprouts if the stall has them.",
+  "No need to finish all the soup if it's too salty."
+ ],
+ "swap": {
+  "name": "Sup ayam + half portion rice",
+  "kcal": 380,
+  "why": "Almost the same calories but more protein. Good if you want to stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Is kuey teow sup good when you have a fever?",
+   "a": "Many people like it because the soup is warm and easy to swallow. But if you're sick, follow your doctor's advice, okay."
+  },
+  {
+   "q": "Kuey teow or mee hoon in soup, which is better?",
+   "a": "Both are okay. Mee hoon is slightly lighter, while kuey teow feels more filling for some people."
+  },
+  {
+   "q": "Can I eat kuey teow sup at night?",
+   "a": "Yes. It's light and easy to digest, good for a late dinner."
+  }
+ ]
+}

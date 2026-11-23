@@ -1,0 +1,63 @@
+{
+ "slug": "air-kelapa",
+ "name_en": "Air kelapa (coconut water)",
+ "serving_en": "1 glass",
+ "intro": "A glass of air kelapa (about 250 ml) has roughly 60 kcal (estimate). Almost all of it comes from the natural sugar in the coconut water itself, plus a little from the young coconut flesh.",
+ "breakdown": [
+  {
+   "part": "Pure coconut water (about 200 ml)",
+   "kcal": 45
+  },
+  {
+   "part": "A little young coconut flesh (2-3 spoons)",
+   "kcal": 15
+  },
+  {
+   "part": "Ice",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Coconut water straight from the fruit (1 coconut, about 350 ml)",
+   "kcal": 70
+  },
+  {
+   "name": "Coconut water with full flesh",
+   "kcal": 120
+  },
+  {
+   "name": "Coconut water with added syrup or sugar",
+   "kcal": 130
+  },
+  {
+   "name": "Coconut shake (with ice cream or milk)",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes. Air kelapa is one of the lighter drinks around. A normal glass is only about 60 kcal, much lower than teh tarik or air sirap. But it still has natural sugar, so don't drink it like plain water all day. Choose the pure one with no syrup or added sugar. One glass a day is enough.",
+ "tips": [
+  "When ordering at a warung, ask for air kelapa without sugar or syrup. Some stalls add sugar to make it sweeter.",
+  "Pick a small glass, or share one coconut with your partner when eating out at lunch.",
+  "Have less flesh if you want to save calories, and skip the coconut shake while you're trying to lose weight."
+ ],
+ "swap": {
+  "name": "Iced plain water with slices of limau nipis",
+  "kcal": 2,
+  "why": "Still fresh with a bit of a 'kick', but almost no calories. Good if you already had air kelapa earlier and are still thirsty."
+ },
+ "faq": [
+  {
+   "q": "Is air kelapa good after exercise?",
+   "a": "Coconut water has potassium and a little carbohydrate, so many people like it after a workout. For normal exercise of an hour or less, plain water is enough. Air kelapa is an option if you want something more refreshing."
+  },
+  {
+   "q": "Can I drink air kelapa every day?",
+   "a": "For most healthy adults, yes, in moderate amounts like one glass a day. If you have kidney problems or need to limit potassium, check with your doctor first."
+  },
+  {
+   "q": "Is air kelapa suitable for people with diabetes?",
+   "a": "Coconut water still has natural sugar, so it can raise your blood sugar. If you have diabetes, drink only a little, avoid the ones with added sugar, and follow your doctor's or dietitian's advice."
+  }
+ ]
+}

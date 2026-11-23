@@ -1,0 +1,63 @@
+{
+ "slug": "air-mangga",
+ "name_en": "Air mangga (mango juice, stall)",
+ "serving_en": "1 glass",
+ "intro": "A glass of air mangga from a stall has about 200 kcal (estimate). Most of it comes from added sugar syrup, not just the mango.",
+ "breakdown": [
+  {
+   "part": "Blended mango flesh (~1/2 fruit)",
+   "kcal": 80
+  },
+  {
+   "part": "Sugar syrup",
+   "kcal": 100
+  },
+  {
+   "part": "Condensed milk / extra flavouring",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air mangga, no added sugar",
+   "kcal": 90
+  },
+  {
+   "name": "Mango smoothie with milk/ice cream",
+   "kcal": 320
+  },
+  {
+   "name": "Air mangga, large size (big plastic cup)",
+   "kcal": 300
+  },
+  {
+   "name": "Fresh mango, 1 cup cut",
+   "kcal": 100
+  }
+ ],
+ "diet": "Yes, especially if you ask for kurang manis. Mango itself has vitamins, but stalls often add a lot of syrup. A normal glass once in a while is still okay. If you want something more filling with fewer calories, cut mango helps more.",
+ "tips": [
+  "Ask for 'no sugar' or 'kurang manis'. Ripe mango is already sweet enough.",
+  "Skip the condensed milk or ice cream.",
+  "Pick a small size, or share a big cup with your partner."
+ ],
+ "swap": {
+  "name": "Air mangga, no added sugar",
+  "kcal": 90,
+  "why": "The mango taste is still strong, but the added sugar is gone and the calories drop by more than half."
+ },
+ "faq": [
+  {
+   "q": "Do stalls use real mango for air mangga?",
+   "a": "Many stalls use fresh mango, but some use mango paste or flavoured syrup. You can ask the seller."
+  },
+  {
+   "q": "Which mango is best for juice?",
+   "a": "Harumanis and chokanan are popular because they're sweet and fragrant, so you don't need much sugar."
+  },
+  {
+   "q": "Can I make air mangga at home?",
+   "a": "Yes. Blend ripe mango with ice and water. No need to add sugar if the mango is already sweet."
+  }
+ ]
+}

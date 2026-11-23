@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-kandar",
+ "name_en": "Nasi kandar (rice, chicken, mixed curry)",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi kandar with chicken and kuah campur is about 750 kcal. Most of the calories come from the big rice portion, the fried or curried chicken, and the oily mixed gravy.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.5 cups",
+   "kcal": 300
+  },
+  {
+   "part": "1 piece ayam goreng or ayam kari",
+   "kcal": 260
+  },
+  {
+   "part": "Kuah campur (curry, dalca, kuah kicap)",
+   "kcal": 140
+  },
+  {
+   "part": "Vegetables (okra, cabbage or brinjal)",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kandar kuah banjir + ayam goreng",
+   "kcal": 850
+  },
+  {
+   "name": "Nasi kandar ikan goreng + a little gravy",
+   "kcal": 600
+  },
+  {
+   "name": "Add telur dadar",
+   "kcal": 150
+  },
+  {
+   "name": "Nasi kandar sotong + kuah campur",
+   "kcal": 700
+  }
+ ],
+ "diet": "Yes, but not every day. One plate of nasi kandar is almost half the daily calories for many people trying to lose weight. If you have nasi kandar for lunch, keep dinner lighter with protein and vegetables. The key is to control the rice and gravy, not to give up the food you love.",
+ "tips": [
+  "Ask for half rice and extra vegetables. Many shops can do this.",
+  "Choose just one type of gravy or ask for 'kuah sikit'. Skip the banjir.",
+  "Pick chicken without flour coating or remove the skin, for more protein and fewer calories."
+ ],
+ "swap": {
+  "name": "Nasi kandar half rice + ikan bakar/gulai ikan + vegetables, little gravy",
+  "kcal": 550,
+  "why": "Fish is lower in fat than fried chicken, and less rice and gravy saves almost 200 kcal without feeling like you didn't eat enough."
+ },
+ "faq": [
+  {
+   "q": "Why is it called nasi kandar?",
+   "a": "Last time, sellers carried rice and dishes in baskets hung on a pole over their shoulder (mengandar). The name stuck, especially in Penang."
+  },
+  {
+   "q": "What does kuah campur mean?",
+   "a": "Kuah campur is a mix of gravies like chicken curry, fish curry, dalca and kuah kicap poured over the rice. Very tasty, but it adds more oil and santan."
+  },
+  {
+   "q": "Is nasi kandar okay for breakfast?",
+   "a": "Lots of people eat nasi kandar in the morning, and that's fine. It's heavy though, so keep lunch and dinner lighter to manage your daily total."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "ayam-tandoori-dengan-naan",
+ "name_en": "Ayam tandoori with naan",
+ "serving_en": "1 set",
+ "intro": "One set of ayam tandoori with naan has about 650 kcal (estimate). The naan gives the most calories. The ayam tandoori is your main protein source.",
+ "breakdown": [
+  {
+   "part": "Plain naan (1 piece)",
+   "kcal": 280
+  },
+  {
+   "part": "Ayam tandoori (1 thigh portion)",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah dal or curry",
+   "kcal": 80
+  },
+  {
+   "part": "Onion salad and mint chutney",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam tandoori with salad, no naan",
+   "kcal": 300
+  },
+  {
+   "name": "Set with garlic naan",
+   "kcal": 700
+  },
+  {
+   "name": "Set with butter naan",
+   "kcal": 720
+  },
+  {
+   "name": "Set with cheese naan",
+   "kcal": 850
+  }
+ ],
+ "diet": "Yes, this is one of the best choices at a mamak. Ayam tandoori is grilled, not fried, and high in protein. Calories go up if you pick cheese or butter naan. Stick to plain naan and you get a balanced meal.",
+ "tips": [
+  "Go for plain naan, not cheese or butter naan.",
+  "Remove the chicken skin if you want less fat.",
+  "Ask for extra onion salad and use mint chutney as your sauce."
+ ],
+ "swap": {
+  "name": "Ayam tandoori with chapati",
+  "kcal": 480,
+  "why": "Chapati is thinner and less oily than naan, but you still get the same chicken protein."
+ },
+ "faq": [
+  {
+   "q": "Why is ayam tandoori red?",
+   "a": "The red colour comes from Kashmiri chilli powder, spices and sometimes food colouring. The chicken is marinated in yogurt and spices before grilling."
+  },
+  {
+   "q": "How is ayam tandoori cooked?",
+   "a": "Traditionally it's cooked in a clay oven called a tandoor. At home, you can use an oven or air fryer."
+  },
+  {
+   "q": "What's the green chutney?",
+   "a": "That's mint chutney, made from mint leaves, coriander, green chilli and sometimes yogurt. It's fresh and low in calories."
+  }
+ ]
+}

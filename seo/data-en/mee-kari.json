@@ -1,0 +1,63 @@
+{
+ "slug": "mee-kari",
+ "name_en": "Mee kari (curry mee)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee kari is roughly 650 kcal (estimate). Most of the calories come from the santan curry broth and the yellow noodles.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1.5 cups",
+   "kcal": 250
+  },
+  {
+   "part": "Santan curry broth",
+   "kcal": 270
+  },
+  {
+   "part": "Chicken",
+   "kcal": 90
+  },
+  {
+   "part": "Tauhu pok and potato",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee kari with chicken drumstick",
+   "kcal": 750
+  },
+  {
+   "name": "Mee kari, half broth",
+   "kcal": 520
+  },
+  {
+   "name": "Mee hoon kari",
+   "kcal": 620
+  }
+ ],
+ "diet": "Yes, just control the broth. Santan and curry oil push the calories up. The chicken is great for protein. Once a week with half the broth is fine for most people.",
+ "tips": [
+  "Don't slurp all the broth. Eat the toppings and noodles only.",
+  "Choose chicken breast, not the skin-on parts.",
+  "Ask for extra veg like long beans or brinjal."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 400,
+  "why": "Clear soup without santan. Same protein, much lower calories."
+ },
+ "faq": [
+  {
+   "q": "Is mee kari spicy?",
+   "a": "Depends on the shop. Most are medium spicy, and sambal is usually served on the side."
+  },
+  {
+   "q": "Is mee kari okay for breakfast?",
+   "a": "Lots of Malaysians eat it for breakfast. It's heavy though, so keep lunch lighter."
+  },
+  {
+   "q": "Can I keep leftover curry broth for the next day?",
+   "a": "Yes. Store it in the fridge and reheat until boiling. Many say it tastes better on day two."
+  }
+ ]
+}

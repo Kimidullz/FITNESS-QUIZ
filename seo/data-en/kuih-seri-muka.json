@@ -1,0 +1,63 @@
+{
+ "slug": "kuih-seri-muka",
+ "name_en": "Kuih seri muka",
+ "serving_en": "1 piece",
+ "intro": "A piece of kuih seri muka has about 150 kcal (estimate). Most of it comes from the glutinous rice, santan and the sugar in the pandan custard layer.",
+ "breakdown": [
+  {
+   "part": "Glutinous rice layer (pulut + santan)",
+   "kcal": 70
+  },
+  {
+   "part": "Pandan custard layer (sugar, santan, egg)",
+   "kcal": 70
+  },
+  {
+   "part": "Oil for greasing the tray",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small piece (kenduri kuih)",
+   "kcal": 100
+  },
+  {
+   "name": "Large piece (pasar stall)",
+   "kcal": 200
+  },
+  {
+   "name": "Durian seri muka",
+   "kcal": 180
+  },
+  {
+   "name": "2 normal pieces",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes. One piece of seri muka with a cup of kopi O is still okay as a tea-time snack. It's dense in carbs and santan, so it's easy to overdo if you have two or three pieces. The key is to take one, eat it slowly and enjoy it.",
+ "tips": [
+  "Take just one piece and put it on a small plate. Don't eat straight from the container.",
+  "Pair it with teh O or kopi O kosong, not a sweet drink.",
+  "If you have kuih in the afternoon, take a bit less rice at dinner."
+ ],
+ "swap": {
+  "name": "1 small piece of kuih seri muka + teh O kosong",
+  "kcal": 100,
+  "why": "You still enjoy your favourite kuih, just in a smaller portion with a sugar-free drink."
+ },
+ "faq": [
+  {
+   "q": "Why is it called seri muka?",
+   "a": "It's said the name refers to the smooth, shiny top layer, like a glowing face."
+  },
+  {
+   "q": "Where does the green colour come from?",
+   "a": "The natural green comes from pandan leaf juice. Some sellers add colouring to make it brighter."
+  },
+  {
+   "q": "How long does seri muka last?",
+   "a": "Because it has santan and egg, it's best finished on the same day. If kept in the fridge, eat it within 1-2 days."
+  }
+ ]
+}

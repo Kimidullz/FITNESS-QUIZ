@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-kerabu-ayam-percik",
+ "name_en": "Nasi kerabu ayam percik",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi kerabu ayam percik is about 650 kcal (estimate). Most of the calories come from the rice, the ayam percik with its coconut milk sauce, and the kerisik and solok lada.",
+ "breakdown": [
+  {
+   "part": "Nasi kerabu (blue rice), 1 plate",
+   "kcal": 280
+  },
+  {
+   "part": "Ayam percik, 1 piece + percik sauce",
+   "kcal": 250
+  },
+  {
+   "part": "Kerisik and solok lada",
+   "kcal": 90
+  },
+  {
+   "part": "Ulam and budu",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kerabu ayam goreng",
+   "kcal": 720
+  },
+  {
+   "name": "Nasi kerabu ikan bakar",
+   "kcal": 550
+  },
+  {
+   "name": "Nasi kerabu daging bakar",
+   "kcal": 680
+  },
+  {
+   "name": "With keropok keping added",
+   "kcal": 710
+  }
+ ],
+ "diet": "Yes, you can. In fact, it's one of the more balanced rice plates. All that ulam gives you fibre and keeps you full longer. What pushes the calories up is the kerisik, solok lada and coconut percik sauce. Control these three, and it's a good lunch while dieting.",
+ "tips": [
+  "Ask for extra ulam and just a little kerisik.",
+  "Ask for the percik sauce on the side and dip a little at a time.",
+  "Go for ikan bakar or ayam percik, and skip extra keropok and salted egg."
+ ],
+ "swap": {
+  "name": "Nasi kerabu ikan bakar, extra ulam, less kerisik",
+  "kcal": 500,
+  "why": "Grilled fish is lower in fat but high in protein. Lots of ulam fills your plate without adding many calories."
+ },
+ "faq": [
+  {
+   "q": "Why is nasi kerabu blue?",
+   "a": "The blue comes from butterfly pea flowers (bunga telang) soaked and cooked with the rice. It's a natural colouring, not a chemical additive."
+  },
+  {
+   "q": "What is solok lada in nasi kerabu?",
+   "a": "Solok lada is big green chilli stuffed with fish and coconut filling, then cooked in coconut milk. It's a traditional Kelantan side dish."
+  },
+  {
+   "q": "What is budu and why is it a must?",
+   "a": "Budu is fermented anchovy sauce, salty and full of umami. It's mixed with the rice and ulam, but take just a little because it's high in salt."
+  }
+ ]
+}

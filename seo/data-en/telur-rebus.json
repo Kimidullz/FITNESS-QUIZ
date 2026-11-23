@@ -1,0 +1,63 @@
+{
+ "slug": "telur-rebus",
+ "name_en": "Boiled egg (telur rebus)",
+ "serving_en": "1 egg",
+ "intro": "1 boiled egg has about 75 kcal. Most of the calories come from the yolk, while the egg white is almost all protein.",
+ "breakdown": [
+  {
+   "part": "Egg yolk",
+   "kcal": 55
+  },
+  {
+   "part": "Egg white",
+   "kcal": 17
+  },
+  {
+   "part": "A little soy sauce/pepper (optional)",
+   "kcal": 3
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half-boiled egg + soy sauce",
+   "kcal": 80
+  },
+  {
+   "name": "Telur mata (sunny side up)",
+   "kcal": 110
+  },
+  {
+   "name": "Telur dadar (omelette), 1 egg",
+   "kcal": 120
+  },
+  {
+   "name": "Telur masin (salted egg), 1 egg",
+   "kcal": 90
+  }
+ ],
+ "diet": "Definitely yes. Boiled eggs are one of the easiest snacks to add protein with low calories. They help you stay full longer and are easy to bring to the office. Just don't replace all your meals with eggs. Still eat your veg and carbs in the right portion.",
+ "tips": [
+  "Boil 6-8 eggs at once on the weekend and keep them in the fridge as snacks for the week.",
+  "Add 1-2 boiled eggs to your nasi lemak or breakfast for more protein.",
+  "At the mamak, ask for boiled or half-boiled eggs instead of telur dadar or fried egg."
+ ],
+ "swap": {
+  "name": "Boiled egg instead of fried egg in nasi lemak",
+  "kcal": 75,
+  "why": "Saves about 35-50 kcal because there's no oil, with the same protein."
+ },
+ "faq": [
+  {
+   "q": "How many eggs can I eat a day?",
+   "a": "For most healthy people, 1-2 eggs a day is okay as part of a balanced diet. If you have cholesterol or other health issues, check with your doctor."
+  },
+  {
+   "q": "Do I need to remove the yolk when dieting?",
+   "a": "No need. The yolk has important nutrients. If you want more protein with fewer calories, you can add extra egg whites."
+  },
+  {
+   "q": "How long do boiled eggs last in the fridge?",
+   "a": "Usually about a week if kept in the fridge with the shell on."
+  }
+ ]
+}

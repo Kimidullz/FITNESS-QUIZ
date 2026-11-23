@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-dagang",
+ "name_en": "Nasi dagang",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi dagang has an estimated 600 kcal. Most of the calories come from the rice cooked with santan and the gulai gravy.",
+ "breakdown": [
+  {
+   "part": "Santan nasi dagang (about 1.5 cups)",
+   "kcal": 340
+  },
+  {
+   "part": "Gulai ikan tongkol, 1 piece",
+   "kcal": 200
+  },
+  {
+   "part": "Extra gulai gravy",
+   "kcal": 30
+  },
+  {
+   "part": "Acar timun",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi dagang with gulai ayam",
+   "kcal": 700
+  },
+  {
+   "name": "Nasi dagang with extra boiled egg",
+   "kcal": 670
+  },
+  {
+   "name": "Nasi dagang, half rice",
+   "kcal": 430
+  }
+ ],
+ "diet": "Yes, but nasi dagang is a calorie-dense breakfast. One plate is almost the same as a normal lunch. If you have it in the morning, choose a lighter lunch. The ikan tongkol gives good protein too.",
+ "tips": [
+  "Ask for half rice or a bit less.",
+  "Choose gulai ikan, not ayam, and take less gravy.",
+  "Add more acar timun for freshness and volume."
+ ],
+ "swap": {
+  "name": "Nasi dagang half rice with fish and extra acar",
+  "kcal": 450,
+  "why": "You still get the nasi dagang taste, but save about 150 kcal."
+ },
+ "faq": [
+  {
+   "q": "Which state is nasi dagang from?",
+   "a": "Nasi dagang is famous in Terengganu and Kelantan. It's usually eaten for breakfast."
+  },
+  {
+   "q": "Why does nasi dagang have halba?",
+   "a": "Halba (fenugreek) gives the rice its special aroma. Glutinous rice and normal rice are mixed so the texture is softer."
+  },
+  {
+   "q": "What's the difference between Terengganu and Kelantan nasi dagang?",
+   "a": "The Terengganu version uses white rice mixed with glutinous rice, while the Kelantan version often uses red rice. Both usually come with gulai ikan tongkol as the main lauk."
+  }
+ ]
+}

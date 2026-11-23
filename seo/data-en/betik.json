@@ -1,0 +1,63 @@
+{
+ "slug": "betik",
+ "name_en": "Papaya (betik)",
+ "serving_en": "1 small bowl",
+ "intro": "One small bowl of papaya (about 150 g) has roughly 60 kcal. Almost all of it comes from the fruit's natural sugar, so it's light but filling.",
+ "breakdown": [
+  {
+   "part": "Natural sugar (carbs) in papaya flesh",
+   "kcal": 52
+  },
+  {
+   "part": "Fibre and other carbs",
+   "kcal": 4
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Papaya + asam boi powder (1 tsp)",
+   "kcal": 75
+  },
+  {
+   "name": "Rojak buah with papaya and peanut sauce",
+   "kcal": 250
+  },
+  {
+   "name": "Fresh papaya juice with sugar (1 glass)",
+   "kcal": 150
+  },
+  {
+   "name": "1 large plate of papaya (~300 g)",
+   "kcal": 120
+  }
+ ],
+ "diet": "Yes, in fact papaya is one of the most diet-friendly fruits. Low in calories but you get a big portion, so your stomach feels full. The fibre also helps digestion. Just watch the add-ons like rojak sauce or sweetened juice, because that's what pushes the calories up.",
+ "tips": [
+  "Have papaya as dessert after lunch, instead of kuih or a sweet drink.",
+  "Buy cut papaya at the pasar or fruit shop, and keep it in a container as an office snack.",
+  "Pair it with unsweetened yogurt or a boiled egg if you want more protein."
+ ],
+ "swap": {
+  "name": "Fresh papaya, not sweetened papaya juice",
+  "kcal": 60,
+  "why": "Fresh fruit keeps the fibre and has no added sugar, so it's more filling with fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is papaya really good for constipation?",
+   "a": "Papaya has fibre and natural enzymes that many people feel help digestion. Drink enough plain water with it for a better effect."
+  },
+  {
+   "q": "Can I eat papaya at night?",
+   "a": "Yes. It's light and low in calories, a good night snack compared to fried food."
+  },
+  {
+   "q": "Can pregnant mums eat papaya?",
+   "a": "Ripe papaya is commonly eaten by many mums. For young or unripe papaya, better to check with your doctor first."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "teh-ais-limau",
+ "name_en": "Teh ais limau (iced lime tea)",
+ "serving_en": "1 glass",
+ "intro": "A glass of teh ais limau has about 100 kcal (estimate). Almost all of it comes from sugar or sugar syrup.",
+ "breakdown": [
+  {
+   "part": "Sugar / sugar syrup",
+   "kcal": 90
+  },
+  {
+   "part": "Strong tea",
+   "kcal": 5
+  },
+  {
+   "part": "Squeezed limau kasturi",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh O ais limau kurang manis",
+   "kcal": 55
+  },
+  {
+   "name": "Teh O ais limau kosong",
+   "kcal": 10
+  },
+  {
+   "name": "Teh ais limau with asam boi",
+   "kcal": 120
+  },
+  {
+   "name": "Teh ais limau, jumbo glass",
+   "kcal": 160
+  }
+ ],
+ "diet": "Yes, you can. It's lighter than milky drinks like teh tarik or chocolate malt drinks. But the calories still come from sugar, so it won't fill you up. One glass with lunch is okay. Once you're used to it, try the kurang manis or kosong version.",
+ "tips": [
+  "Order 'kurang manis'. The sourness of the lime hides the lower sugar quite well.",
+  "Ask for extra limau. It tastes fresh even with little sugar.",
+  "Skip the jumbo size and go for a normal glass."
+ ],
+ "swap": {
+  "name": "Teh O ais limau kosong",
+  "kcal": 10,
+  "why": "You still get that fresh, sour lime taste, with almost zero sugar."
+ },
+ "faq": [
+  {
+   "q": "Is teh ais limau the same as lemon tea?",
+   "a": "Almost. Malaysian shops usually use limau kasturi, not lemon."
+  },
+  {
+   "q": "Does the lime in the tea help burn fat?",
+   "a": "No. Lime adds flavour and a bit of vitamin C, but it doesn't burn fat."
+  },
+  {
+   "q": "Does teh ais limau kosong still taste good?",
+   "a": "Many people like it because the sour lime makes it refreshing. It's easier to get used to than plain teh O kosong."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "mi-segera",
+ "name_en": "Instant noodles (soup)",
+ "serving_en": "1 packet",
+ "intro": "One packet of instant noodles in soup is roughly 380 kcal. Most of the calories come from the noodle block, which is fried at the factory. The seasoning packet adds only a little.",
+ "breakdown": [
+  {
+   "part": "1 noodle block",
+   "kcal": 320
+  },
+  {
+   "part": "Seasoning packet and flavoured oil",
+   "kcal": 45
+  },
+  {
+   "part": "Soup and a bit of vegetables",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Instant noodles with egg",
+   "kcal": 455
+  },
+  {
+   "name": "Curry flavour instant noodles",
+   "kcal": 420
+  },
+  {
+   "name": "Dry-style instant noodles",
+   "kcal": 450
+  },
+  {
+   "name": "Non-fried instant noodles",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes, you can. But on its own it's low in protein and you'll get hungry quickly. 380 kcal isn't high, it just lacks nutrients for a full meal. The usual problem is eating two packets or adding keropok. If you want it, build a fuller meal with egg and vegetables.",
+ "tips": [
+  "Add egg and vegetables like sawi or cabbage so you feel fuller.",
+  "Use only half the seasoning packet and don't finish all the soup.",
+  "Add protein like shredded chicken, fishballs or tofu."
+ ],
+ "swap": {
+  "name": "Bihun sup",
+  "kcal": 300,
+  "why": "Lower in fat, has protein and vegetables, and still easy to find at any shop."
+ },
+ "faq": [
+  {
+   "q": "Why are instant noodles so quick to cook?",
+   "a": "They're already cooked and dried at the factory, usually by frying. So they just need a few minutes in boiling water."
+  },
+  {
+   "q": "Should I throw away the first boiling water?",
+   "a": "Some people do this to reduce the oil. It's personal choice. The taste may be a bit less rich."
+  },
+  {
+   "q": "How long should I cook instant noodles?",
+   "a": "Usually 2 to 3 minutes in boiling water. Don't overcook or the noodles will turn soggy."
+  }
+ ]
+}

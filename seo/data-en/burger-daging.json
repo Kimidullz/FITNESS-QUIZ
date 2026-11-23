@@ -1,0 +1,63 @@
+{
+ "slug": "burger-daging",
+ "name_en": "Beef burger (fast food, regular)",
+ "serving_en": "1 burger",
+ "intro": "One regular fast food beef burger is an estimated 300 kcal. Most of the calories come from the bun and beef patty.",
+ "breakdown": [
+  {
+   "part": "Burger bun",
+   "kcal": 150
+  },
+  {
+   "part": "Beef patty",
+   "kcal": 110
+  },
+  {
+   "part": "Ketchup & mustard",
+   "kcal": 25
+  },
+  {
+   "part": "Pickles & onion",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cheeseburger",
+   "kcal": 340
+  },
+  {
+   "name": "Double cheeseburger",
+   "kcal": 450
+  },
+  {
+   "name": "Burger set + medium fries + soft drink",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, a regular beef burger is actually one of the lighter options at fast food places. What makes calories shoot up is the set: fries and soft drink. Order just the burger with plain water and it fits your diet. Add some veg or fruit at home to feel fuller.",
+ "tips": [
+  "Order the burger ala carte, not the set.",
+  "Swap the soft drink for plain water or a zero-sugar drink.",
+  "If you're hungry, get two regular burgers instead of one big saucy burger."
+ ],
+ "swap": {
+  "name": "Beef burger + corn cup + plain water",
+  "kcal": 420,
+  "why": "Compared to the usual set at about 800 kcal, this saves almost half and still keeps you full."
+ },
+ "faq": [
+  {
+   "q": "Do fast food beef burgers use real beef?",
+   "a": "Most big chains use beef patties. Seasoning and other ingredients differ by brand."
+  },
+  {
+   "q": "What's the difference between a hamburger and a cheeseburger?",
+   "a": "A cheeseburger has an extra slice of cheese. It tastes richer and is slightly higher in calories."
+  },
+  {
+   "q": "Are burgers okay for kids?",
+   "a": "Once in a while is okay. Pick the regular size and pair it with plain water or milk."
+  }
+ ]
+}

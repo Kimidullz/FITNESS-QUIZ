@@ -1,0 +1,59 @@
+{
+ "slug": "kuih-lapis",
+ "name_en": "Kuih lapis",
+ "serving_en": "1 piece",
+ "intro": "One piece of kuih lapis has an estimated 130 kcal. Most of the calories come from rice flour, tapioca flour, sugar and santan.",
+ "breakdown": [
+  {
+   "part": "Rice flour & tapioca flour",
+   "kcal": 70
+  },
+  {
+   "part": "Santan",
+   "kcal": 40
+  },
+  {
+   "part": "Sugar",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuih lapis, small piece (pasar malam)",
+   "kcal": 90
+  },
+  {
+   "name": "Kuih lapis, big piece",
+   "kcal": 180
+  },
+  {
+   "name": "Kek lapis Sarawak, 1 slice",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, if it's one piece and not every day. 130 kcal is still small for a tea-time snack. But there's almost no protein, so you'll get hungry again fast. Better to eat it with something that has protein.",
+ "tips": [
+  "Take just one piece. Don't buy a whole box for yourself.",
+  "Pair it with a boiled egg or a glass of unsweetened milk so you stay full longer.",
+  "Drink teh o kosong or kopi o kosong, not teh tarik."
+ ],
+ "swap": {
+  "name": "1 banana + 1 boiled egg",
+  "kcal": 170,
+  "why": "Roughly the same calories, but with protein and fibre, so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "What is kuih lapis made of?",
+   "a": "Usually rice flour, tapioca or sago flour, santan, sugar and food colouring. Each layer is steamed one by one."
+  },
+  {
+   "q": "How long does kuih lapis last?",
+   "a": "About a day at room temperature. In the fridge it can last 2-3 days, but it gets a bit hard."
+  },
+  {
+   "q": "Why does kuih lapis go hard?",
+   "a": "Usually because it was kept in the fridge. Steam it again for a short while to soften it."
+  }
+ ]
+}

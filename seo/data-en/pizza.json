@@ -1,0 +1,67 @@
+{
+ "slug": "pizza",
+ "name_en": "Pizza (pepperoni)",
+ "serving_en": "1 slice",
+ "intro": "One slice of pepperoni pizza is an estimated 300 kcal. Most of the calories come from the crust, cheese and pepperoni.",
+ "breakdown": [
+  {
+   "part": "Crust",
+   "kcal": 150
+  },
+  {
+   "part": "Mozzarella cheese",
+   "kcal": 80
+  },
+  {
+   "part": "Pepperoni",
+   "kcal": 50
+  },
+  {
+   "part": "Tomato sauce",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Thin crust pepperoni",
+   "kcal": 230
+  },
+  {
+   "name": "Pan/thick crust pepperoni",
+   "kcal": 350
+  },
+  {
+   "name": "Stuffed crust cheese",
+   "kcal": 380
+  },
+  {
+   "name": "Chicken & pineapple pizza",
+   "kcal": 270
+  }
+ ],
+ "diet": "Yes, one or two slices of pizza fit your diet. The problem is it's easy to finish 4-5 slices without noticing. Decide your number first, say two slices, and add a salad. Go for thin crust to save calories.",
+ "tips": [
+  "Put two slices on your plate, then close the box.",
+  "Choose thin crust with chicken or veggie toppings.",
+  "Have a salad or soup before the pizza."
+ ],
+ "swap": {
+  "name": "Thin crust chicken & veggie pizza (1 slice)",
+  "kcal": 220,
+  "why": "Thinner crust and leaner toppings. You can have two slices for about the same calories as one and a half regular slices."
+ },
+ "faq": [
+  {
+   "q": "What is pepperoni made of?",
+   "a": "In Malaysia, pepperoni at halal restaurants is usually made from beef or chicken."
+  },
+  {
+   "q": "Can I eat leftover pizza the next day?",
+   "a": "Yes, keep it in the fridge. Reheat in a pan or air fryer so the crust gets crispy again."
+  },
+  {
+   "q": "Thin crust or pan, which is more filling?",
+   "a": "Pan is thicker and fills you up faster, but it's higher in calories. Thin crust is lighter."
+  }
+ ]
+}

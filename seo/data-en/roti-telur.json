@@ -1,0 +1,63 @@
+{
+ "slug": "roti-telur",
+ "name_en": "Roti telur",
+ "serving_en": "1 piece",
+ "intro": "One piece of roti telur has an estimated 400 kcal, not including kuah. Most calories come from the roti canai dough and oil, while the egg adds protein.",
+ "breakdown": [
+  {
+   "part": "Roti canai dough with oil",
+   "kcal": 300
+  },
+  {
+   "part": "Egg, 1",
+   "kcal": 75
+  },
+  {
+   "part": "Extra oil for cooking",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti telur bawang",
+   "kcal": 430
+  },
+  {
+   "name": "Roti telur + kuah dal",
+   "kcal": 460
+  },
+  {
+   "name": "Roti sardin",
+   "kcal": 450
+  },
+  {
+   "name": "Roti double telur",
+   "kcal": 480
+  }
+ ],
+ "diet": "Yes, and roti telur is actually a better choice than two pieces of roti kosong. The egg gives protein that helps you feel full. One piece with kuah dal and a kosong drink is enough for breakfast. Just don't make it your daily menu every morning.",
+ "tips": [
+  "Choose one roti telur over two roti kosong.",
+  "Take kuah dal and avoid kuah kari with santan.",
+  "Add a boiled egg or have warm water, not a sweet drink."
+ ],
+ "swap": {
+  "name": "Thosai telur",
+  "kcal": 260,
+  "why": "You still get the egg protein, but thosai uses less oil than roti canai."
+ },
+ "faq": [
+  {
+   "q": "Roti telur or roti canai kosong, which is better for diet?",
+   "a": "One roti telur keeps you fuller than one roti kosong because of the protein. This helps you avoid snacking early."
+  },
+  {
+   "q": "Is roti double telur worth it?",
+   "a": "If you want more protein, sure. But calories go up by about 80 kcal, so count it in your daily budget."
+  },
+  {
+   "q": "Can I ask for roti telur with less oil?",
+   "a": "You can try asking the roti man to use less oil when cooking. Some shops are okay with it, especially if you're a regular."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "air-tebu",
+ "name_en": "Air tebu (sugarcane juice)",
+ "serving_en": "1 glass",
+ "intro": "One glass of air tebu has about 180 kcal (estimate). All the calories come from the natural sugar in sugarcane juice.",
+ "breakdown": [
+  {
+   "part": "Pure sugarcane juice (~300 ml)",
+   "kcal": 175
+  },
+  {
+   "part": "Squeeze of lime",
+   "kcal": 5
+  },
+  {
+   "part": "Ice",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air tebu half glass",
+   "kcal": 90
+  },
+  {
+   "name": "Air tebu limau (with lime)",
+   "kcal": 185
+  },
+  {
+   "name": "Air tebu asam boi",
+   "kcal": 190
+  },
+  {
+   "name": "Air tebu large plastic bag",
+   "kcal": 280
+  }
+ ],
+ "diet": "Yes, but don't be fooled by the 'natural' label. Sugar in air tebu is still sugar, and it won't fill you up. A small glass once in a while, especially on a hot day, is still okay. Avoid the big plastic bag and don't make it an everyday drink.",
+ "tips": [
+  "Pick a small size or share a glass with a friend.",
+  "Ask for more ice so there's less juice in the glass.",
+  "Drink it with a proper meal, not as an extra drink between meals."
+ ],
+ "swap": {
+  "name": "Unsweetened coconut water",
+  "kcal": 60,
+  "why": "Still refreshing and naturally sweet, but only one-third of the calories."
+ },
+ "faq": [
+  {
+   "q": "Is air tebu healthier than other sugary drinks?",
+   "a": "It has a few minerals, but the sugar is still high. Treat it like any other sweet drink."
+  },
+  {
+   "q": "Why does air tebu go bad so fast?",
+   "a": "Fresh juice oxidises and ferments easily. Best to drink it within an hour or two after it's pressed."
+  },
+  {
+   "q": "Why add lime or asam boi to air tebu?",
+   "a": "To balance the sweetness and give a fresh sour taste. It only adds a few calories."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "nanas",
+ "name_en": "Pineapple (nanas)",
+ "serving_en": "1 small bowl",
+ "intro": "One small bowl of pineapple (about 150 g) has roughly 80 kcal. Nearly all the calories come from the fruit's natural sugar.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in pineapple flesh",
+   "kcal": 66
+  },
+  {
+   "part": "Fibre and other carbs",
+   "kcal": 10
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pineapple + asam boi powder",
+   "kcal": 95
+  },
+  {
+   "name": "Canned pineapple in syrup, 1 small bowl",
+   "kcal": 130
+  },
+  {
+   "name": "Sweetened pineapple juice (1 glass)",
+   "kcal": 180
+  },
+  {
+   "name": "Rojak buah with peanut sauce",
+   "kcal": 250
+  }
+ ],
+ "diet": "Yes. Fresh pineapple is low in calories, juicy and refreshing. It's a good swap for sweet drinks or kuih in the afternoon. Skip the canned-in-syrup version and sweetened juice if you want to save calories.",
+ "tips": [
+  "Buy cut pineapple at the fruit stall and have it as an afternoon snack at the office.",
+  "Choose fresh pineapple or canned in its own juice, not syrup.",
+  "Add pineapple to a chicken salad or stir-fry it with prawns for a more protein-rich dish."
+ ],
+ "swap": {
+  "name": "Fresh pineapple instead of pineapple juice",
+  "kcal": 80,
+  "why": "Fresh fruit is more filling because of the fibre, and it has no added sugar like juice does."
+ },
+ "faq": [
+  {
+   "q": "Why does my mouth feel itchy after eating pineapple?",
+   "a": "Pineapple has an enzyme called bromelain that can make your mouth sting or itch. Soaking it in salt water for a bit can reduce that."
+  },
+  {
+   "q": "Can pregnant mums eat pineapple?",
+   "a": "Many mums eat pineapple in normal amounts. If you have concerns, ask your doctor first."
+  },
+  {
+   "q": "Can I eat pineapple on an empty stomach?",
+   "a": "Some people get a sore stomach because pineapple is acidic. If that's you, eat it after a main meal."
+  }
+ ]
+}

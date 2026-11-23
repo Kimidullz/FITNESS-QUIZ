@@ -1,0 +1,59 @@
+{
+ "slug": "donut-gula",
+ "name_en": "Donut gula (sugar donut)",
+ "serving_en": "1 piece",
+ "intro": "One sugar donut has an estimated 250 kcal. The calories come from the fried dough and the sugar coating.",
+ "breakdown": [
+  {
+   "part": "Dough",
+   "kcal": 130
+  },
+  {
+   "part": "Frying oil",
+   "kcal": 90
+  },
+  {
+   "part": "Sugar coating",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small sugar donut",
+   "kcal": 160
+  },
+  {
+   "name": "Chocolate-coated donut",
+   "kcal": 300
+  },
+  {
+   "name": "Jam / cream-filled donut",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, once in a while. One donut has almost the same calories as a small plate of rice, but it's not very filling. The problem is it's easy to eat two or three at once. Enjoy one slowly and treat it as a treat.",
+ "tips": [
+  "Buy just one, not a box of 6 for yourself.",
+  "Eat it after a meal with protein, not on an empty stomach.",
+  "Drink plain water or kopi o kosong, skip sweet drinks with it."
+ ],
+ "swap": {
+  "name": "2 slices wholemeal bread + a little kaya",
+  "kcal": 200,
+  "why": "Still sweet, but less oil and more fibre."
+ },
+ "faq": [
+  {
+   "q": "Why do donuts deflate after frying?",
+   "a": "Usually the dough was over-proofed or the oil wasn't hot enough. Fry on medium-high heat."
+  },
+  {
+   "q": "How long do donuts last?",
+   "a": "Best eaten the same day. In an airtight container, they can last a day or two."
+  },
+  {
+   "q": "What's the difference between potato donuts and normal donuts?",
+   "a": "Potato donuts have mashed potato in the dough, so they're softer and fluffier."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "sup-kambing",
+ "name_en": "Sup kambing (mutton soup)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of sup kambing has about 300 kcal (estimate). Most calories come from the mutton and the fat that melts into the soup.",
+ "breakdown": [
+  {
+   "part": "Mutton on the bone",
+   "kcal": 180
+  },
+  {
+   "part": "Soup broth and fat",
+   "kcal": 80
+  },
+  {
+   "part": "Potato and carrot",
+   "kcal": 30
+  },
+  {
+   "part": "Fried shallots and celery leaves",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup tulang kambing (mutton bone soup)",
+   "kcal": 350
+  },
+  {
+   "name": "Sup kambing with white rice",
+   "kcal": 500
+  },
+  {
+   "name": "Sup kambing with roti canai",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes, sup kambing is actually a good choice at the mamak. It's high in protein and not fried. There is mutton fat, but it's still reasonable for one bowl. Just watch what you eat with it, like roti canai or rice.",
+ "tips": [
+  "Pick half a plate of white rice or chapati instead of roti canai.",
+  "Skim off the oil layer on top if you see a lot.",
+  "Ask for more meat and fewer fatty bones."
+ ],
+ "swap": {
+  "name": "Sup ayam (chicken soup)",
+  "kcal": 200,
+  "why": "Same spiced flavour, but chicken has less fat than mutton."
+ },
+ "faq": [
+  {
+   "q": "Why doesn't sup kambing smell gamey?",
+   "a": "Spices like star anise, cinnamon, cardamom and ginger help reduce the mutton smell. The meat is also usually simmered for a long time."
+  },
+  {
+   "q": "When is the best time to eat sup kambing?",
+   "a": "Many people like it at night or when it's cold and rainy. It's also popular for breakfast at some mamak shops."
+  },
+  {
+   "q": "Can I cook sup kambing in a pressure cooker?",
+   "a": "Yes, a pressure cooker can make the meat tender in about 30-40 minutes. It still tastes great if you sauté the spices first."
+  }
+ ]
+}

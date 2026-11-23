@@ -1,0 +1,59 @@
+{
+ "slug": "kentang-goreng",
+ "name_en": "French fries (medium)",
+ "serving_en": "1 medium pack",
+ "intro": "One medium pack of fries is an estimated 340 kcal. Most of the calories come from the potato itself and the frying oil.",
+ "breakdown": [
+  {
+   "part": "Potato",
+   "kcal": 180
+  },
+  {
+   "part": "Frying oil",
+   "kcal": 140
+  },
+  {
+   "part": "Chilli/tomato sauce (2 sachets)",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small fries",
+   "kcal": 230
+  },
+  {
+   "name": "Large fries",
+   "kcal": 450
+  },
+  {
+   "name": "Fries with cheese sauce",
+   "kcal": 420
+  }
+ ],
+ "diet": "Yes, but fries are easy to overeat because they're tasty and don't keep you full long. A medium size is already close to more than a cup of rice. If you want some, get a small or share. Make sure there's protein in the same meal.",
+ "tips": [
+  "Pick small, or share a medium.",
+  "Don't upsize your set, even if it's just a bit extra.",
+  "Eat your burger or chicken first, then the fries, so you're less likely to overeat."
+ ],
+ "swap": {
+  "name": "Small corn cup",
+  "kcal": 130,
+  "why": "Still carbs and filling, but not fried. Saves over 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Are air fryer fries better?",
+   "a": "Air fryers use less oil, so the fat is lower. The texture is a bit different but still crispy."
+  },
+  {
+   "q": "Why are fast food fries so crispy?",
+   "a": "They're usually fried twice and lightly coated with a bit of flour or sugar. That keeps them crispy."
+  },
+  {
+   "q": "Can cold fries be reheated?",
+   "a": "Yes, use an air fryer or a dry pan for a few minutes. Avoid the microwave."
+  }
+ ]
+}

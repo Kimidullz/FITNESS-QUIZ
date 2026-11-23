@@ -1,0 +1,67 @@
+{
+ "slug": "mee-hailam",
+ "name_en": "Mee hailam",
+ "serving_en": "1 plate",
+ "intro": "One plate of mee hailam is roughly 550 kcal. Most of the calories come from the yellow mee and the thick gravy made with flour, soy sauce and oil.",
+ "breakdown": [
+  {
+   "part": "Yellow mee, 1 serving",
+   "kcal": 240
+  },
+  {
+   "part": "Thick gravy (flour, soy sauce, oil)",
+   "kcal": 140
+  },
+  {
+   "part": "Chicken, prawns or squid",
+   "kcal": 100
+  },
+  {
+   "part": "Egg and sawi",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Seafood mee hailam",
+   "kcal": 600
+  },
+  {
+   "name": "Fried mee hailam (less gravy, more oil)",
+   "kcal": 650
+  },
+  {
+   "name": "Bihun hailam",
+   "kcal": 520
+  },
+  {
+   "name": "Kuey teow hailam",
+   "kcal": 580
+  }
+ ],
+ "diet": "Yes, and it has decent protein from the chicken, prawns or squid. Calories are moderately high because the thick gravy has oil and flour. As a lunch with plain water, it can still fit. Watch the portion and skip extra fried sides.",
+ "tips": [
+  "Ask for extra seafood or chicken to boost protein.",
+  "Add more sawi and leave some of the gravy.",
+  "Choose bihun hailam if you want a slightly lighter version."
+ ],
+ "swap": {
+  "name": "Bihun sup",
+  "kcal": 300,
+  "why": "Clear soup with no flour or oil, so almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "Why is it called mee hailam?",
+   "a": "The name is linked to the Hainanese community, known for this style of cooking. In Malaysia, it's a common dish at tomyam shops and restaurants."
+  },
+  {
+   "q": "What's the difference between mee hailam and mee goreng?",
+   "a": "Mee hailam usually has a thick, dark gravy. Mee goreng is stir-fried dry."
+  },
+  {
+   "q": "Why is mee hailam gravy so thick?",
+   "a": "It's thickened with cornflour and egg, and flavoured with dark soy sauce and oyster sauce."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "durian",
+ "name_en": "Durian",
+ "serving_en": "4 seeds (ulas)",
+ "intro": "Four ulas of durian have about 260 kcal. The calories come from natural sugar and a bit of fat in the creamy flesh.",
+ "breakdown": [
+  {
+   "part": "Ulas 1",
+   "kcal": 65
+  },
+  {
+   "part": "Ulas 2",
+   "kcal": 65
+  },
+  {
+   "part": "Ulas 3",
+   "kcal": 65
+  },
+  {
+   "part": "Ulas 4",
+   "kcal": 65
+  }
+ ],
+ "variants": [
+  {
+   "name": "1 medium ulas",
+   "kcal": 65
+  },
+  {
+   "name": "Musang King, 4 ulas (creamier)",
+   "kcal": 300
+  },
+  {
+   "name": "Pengat durian (1 bowl)",
+   "kcal": 350
+  },
+  {
+   "name": "1 whole durian kampung (about 12 ulas)",
+   "kcal": 780
+  }
+ ],
+ "diet": "Yes, even the king of fruits can fit into your plan. The problem isn't the durian. It's when we lepak and finish one or two whole fruits without realising. Decide how many ulas from the start. Share with friends or family so the portion gets split.",
+ "tips": [
+  "Set a limit of 3 to 4 ulas and put them on your own plate.",
+  "If you've planned a durian session, eat less rice at dinner that day.",
+  "Drink plenty of plain water and avoid sweet drinks with it."
+ ],
+ "swap": {
+  "name": "2 ulas durian + plain water",
+  "kcal": 130,
+  "why": "You still get the durian taste and feel satisfied, at half the calories."
+ },
+ "faq": [
+  {
+   "q": "Is it true you shouldn't eat durian with alcohol?",
+   "a": "Many experts advise avoiding this combo because it can make your body feel unwell. Safer to just avoid it."
+  },
+  {
+   "q": "Why do I feel 'heaty' after eating durian?",
+   "a": "Many people feel this, maybe because durian is very energy-dense. Drink enough plain water. Some people drink water from the durian husk, following the old folks' practice."
+  },
+  {
+   "q": "How do I store durian so the smell doesn't spread?",
+   "a": "Take out the flesh, put it in an airtight container, wrap it in plastic and keep it in the fridge. You can also freeze it."
+  }
+ ]
+}

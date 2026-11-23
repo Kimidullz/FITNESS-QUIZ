@@ -1,0 +1,67 @@
+{
+ "slug": "satay-ayam",
+ "name_en": "Satay ayam (chicken satay)",
+ "serving_en": "10 sticks + sauce",
+ "intro": "10 sticks of satay ayam with sauce have about 450 kcal. Most of the calories come from the chicken marinated with oil and sugar, followed by the peanut sauce.",
+ "breakdown": [
+  {
+   "part": "Chicken meat, 10 sticks",
+   "kcal": 280
+  },
+  {
+   "part": "Oil brushed on while grilling",
+   "kcal": 30
+  },
+  {
+   "part": "Peanut sauce (3-4 tbsp)",
+   "kcal": 130
+  },
+  {
+   "part": "Cucumber & onion",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Satay ayam 10 sticks + 4 pieces nasi impit",
+   "kcal": 580
+  },
+  {
+   "name": "Satay daging 10 sticks + sauce",
+   "kcal": 500
+  },
+  {
+   "name": "Satay ayam 5 sticks + a little sauce",
+   "kcal": 220
+  },
+  {
+   "name": "Satay ayam 10 sticks, no sauce",
+   "kcal": 320
+  }
+ ],
+ "diet": "Yes, satay ayam is actually one of the better options because it's high in protein. What usually makes the calories jump is lots of peanut sauce, nasi impit and not counting the sticks. Decide how many sticks you want from the start. Then enjoy it without guilt.",
+ "tips": [
+  "Order a set number, like 8-10 sticks, instead of taking from a shared plate without counting.",
+  "Just dip lightly in the sauce, don't pour it over the satay.",
+  "Take more cucumber and onion, and less nasi impit."
+ ],
+ "swap": {
+  "name": "Satay ayam 8 sticks + 2 tbsp sauce + cucumber",
+  "kcal": 330,
+  "why": "Still a satisfying satay meal with high protein, but saves about 120 kcal from the sauce and sticks."
+ },
+ "faq": [
+  {
+   "q": "Chicken or beef satay, which is lower in calories?",
+   "a": "Chicken satay is usually slightly lower because chicken has less fat, especially the lean meat."
+  },
+  {
+   "q": "Is satay okay for dinner when dieting?",
+   "a": "Yes. Pick a sensible number of sticks and eat with cucumber. Go easy on the sauce and nasi impit."
+  },
+  {
+   "q": "Is nasi impit high in calories?",
+   "a": "About 25-30 kcal per small piece. Not much on its own, but it adds up fast when dipped in peanut sauce."
+  }
+ ]
+}

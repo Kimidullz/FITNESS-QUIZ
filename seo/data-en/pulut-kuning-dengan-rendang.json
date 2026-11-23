@@ -1,0 +1,59 @@
+{
+ "slug": "pulut-kuning-dengan-rendang",
+ "name_en": "Pulut kuning with rendang",
+ "serving_en": "1 plate",
+ "intro": "A plate of pulut kuning with rendang is about 550 kcal (estimate). Most of the calories come from the santan-cooked pulut and the oily rendang.",
+ "breakdown": [
+  {
+   "part": "Pulut kuning with santan (about 1 cup)",
+   "kcal": 320
+  },
+  {
+   "part": "Beef rendang, 2 pieces with gravy",
+   "kcal": 200
+  },
+  {
+   "part": "A little serunding or acar",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pulut kuning with chicken rendang",
+   "kcal": 520
+  },
+  {
+   "name": "Pulut kuning with extra serunding",
+   "kcal": 620
+  },
+  {
+   "name": "Half portion pulut with rendang",
+   "kcal": 390
+  }
+ ],
+ "diet": "Yes, especially at kenduri or Hari Raya. Pulut is denser than rice, so even a little is high in calories. Take one scoop of pulut and focus on the meat. Then keep your next meal light.",
+ "tips": [
+  "Take half the pulut and more rendang meat.",
+  "Go easy on the oily rendang gravy.",
+  "Add some vegetables or cucumber on the side of your plate."
+ ],
+ "swap": {
+  "name": "Half pulut kuning with rendang and cucumber",
+  "kcal": 390,
+  "why": "You still get the raya feel, but save about 160 kcal."
+ },
+ "faq": [
+  {
+   "q": "Why is pulut kuning yellow?",
+   "a": "The colour comes from turmeric mixed in when soaking or steaming the pulut."
+  },
+  {
+   "q": "When is pulut kuning usually served?",
+   "a": "Usually at kenduri kesyukuran, weddings, akikah and Hari Raya."
+  },
+  {
+   "q": "How long should I soak the pulut?",
+   "a": "Most recipes soak it at least 4 hours or overnight so it cooks evenly."
+  }
+ ]
+}

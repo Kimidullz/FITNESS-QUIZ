@@ -1,0 +1,63 @@
+{
+ "slug": "neslo-ais",
+ "name_en": "Neslo ais",
+ "serving_en": "1 glass",
+ "intro": "A glass of neslo ais at the mamak has about 200 kcal (estimate). Most of it comes from sweetened condensed milk, chocolate malt powder and sugar.",
+ "breakdown": [
+  {
+   "part": "Sweetened condensed milk",
+   "kcal": 90
+  },
+  {
+   "part": "Chocolate malt powder",
+   "kcal": 60
+  },
+  {
+   "part": "Coffee + added sugar",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Neslo ais kurang manis",
+   "kcal": 150
+  },
+  {
+   "name": "Neslo ais kosong (no milk, no sugar)",
+   "kcal": 60
+  },
+  {
+   "name": "Hot neslo",
+   "kcal": 190
+  },
+  {
+   "name": "Neslo ais, jug / large size",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, if it's once in a while and you control the sweetness. 200 kcal per glass is easy to overlook because it's 'just a drink'. Two glasses a day is already 400 kcal without feeling full. Try making neslo a treat, not your usual drink every time you lepak.",
+ "tips": [
+  "Order 'kurang manis' or 'kurang susu' at the mamak.",
+  "Ask for neslo 'kosong' and add a little evaporated milk yourself.",
+  "If you're thirsty, ask for a glass of warm water too, so you don't finish the neslo too fast."
+ ],
+ "swap": {
+  "name": "Kopi O ais kurang manis",
+  "kcal": 60,
+  "why": "You still get the cold coffee taste, without the condensed milk and sugary chocolate malt powder."
+ },
+ "faq": [
+  {
+   "q": "What exactly is neslo?",
+   "a": "Neslo is a mix of instant coffee and chocolate malt drink, usually with condensed milk. It's popular at mamak shops."
+  },
+  {
+   "q": "Does neslo have more caffeine than normal coffee?",
+   "a": "Usually about the same or a bit less than normal coffee, depending on how much coffee the shop puts in."
+  },
+  {
+   "q": "Is it okay to drink neslo before exercise?",
+   "a": "Some people like it because the caffeine and sugar give quick energy. Just pick the kurang manis version so you don't overdo the calories."
+  }
+ ]
+}

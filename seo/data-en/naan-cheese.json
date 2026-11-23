@@ -1,0 +1,63 @@
+{
+ "slug": "naan-cheese",
+ "name_en": "Cheese naan",
+ "serving_en": "1 piece",
+ "intro": "One piece of cheese naan has about 450 kcal (estimate). Most calories come from the naan dough and the cheese inside, plus the butter or ghee brushed on top.",
+ "breakdown": [
+  {
+   "part": "Naan dough (1 piece)",
+   "kcal": 260
+  },
+  {
+   "part": "Cheese filling",
+   "kcal": 130
+  },
+  {
+   "part": "Butter or ghee brushed on top",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain naan",
+   "kcal": 280
+  },
+  {
+   "name": "Garlic naan",
+   "kcal": 320
+  },
+  {
+   "name": "Cheese garlic naan",
+   "kcal": 500
+  },
+  {
+   "name": "Cheese naan with kuah dal",
+   "kcal": 520
+  }
+ ],
+ "diet": "Yes, but make it an occasional treat. Cheese naan is calorie-dense and quite low in protein for its size. If you want it, share it and pair it with ayam tandoori or tikka. That way you enjoy the cheese without going over on calories.",
+ "tips": [
+  "Share one cheese naan, half each.",
+  "Ask for no butter brushed on top.",
+  "Eat it with ayam tandoori for more protein and to stay full longer."
+ ],
+ "swap": {
+  "name": "Chapati with kuah dal",
+  "kcal": 230,
+  "why": "Chapati uses less oil and dal gives you some protein. Good for everyday meals."
+ },
+ "faq": [
+  {
+   "q": "What cheese is used in cheese naan?",
+   "a": "Most shops in Malaysia use cream cheese or cheese slices that melt easily. Some use mozzarella."
+  },
+  {
+   "q": "What do you eat cheese naan with?",
+   "a": "Most popular with ayam tandoori or butter chicken. Some people just eat it on its own as a snack."
+  },
+  {
+   "q": "Can I make cheese naan at home?",
+   "a": "Yes, use a yeasted bread dough and fill it with cheese. Cook it in a covered flat pan or oven until it puffs up."
+  }
+ ]
+}

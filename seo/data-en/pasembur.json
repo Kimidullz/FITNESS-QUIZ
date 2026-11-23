@@ -1,0 +1,63 @@
+{
+ "slug": "pasembur",
+ "name_en": "Pasembur",
+ "serving_en": "1 plate",
+ "intro": "One plate of pasembur has about 500 kcal (estimate). Most calories come from the sweet peanut sauce and the fried cucur or keropok.",
+ "breakdown": [
+  {
+   "part": "Sweet peanut sauce",
+   "kcal": 180
+  },
+  {
+   "part": "Cucur udang and fried keropok",
+   "kcal": 150
+  },
+  {
+   "part": "Fried tofu and boiled egg",
+   "kcal": 120
+  },
+  {
+   "part": "Vegetables and boiled squid",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pasembur with half the sauce",
+   "kcal": 400
+  },
+  {
+   "name": "Pasembur with extra boiled squid",
+   "kcal": 550
+  },
+  {
+   "name": "Pasembur with extra cucur or fried crab",
+   "kcal": 650
+  }
+ ],
+ "diet": "Yes, pasembur has good stuff like vegetables, egg and tofu. The things to watch are the peanut sauce and the fried items. If you control those two, pasembur can be a filling meal. Good for lunch or dinner.",
+ "tips": [
+  "Ask for sauce on the side and dip little by little.",
+  "Pick more boiled egg, tofu and boiled squid, and less cucur.",
+  "Add extra cucumber and sengkuang for crunch and to feel fuller."
+ ],
+ "swap": {
+  "name": "Rojak buah with a little sauce",
+  "kcal": 250,
+  "why": "Still sweet and spicy, but no fried items and more fruit."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between pasembur and rojak mamak?",
+   "a": "They're almost the same. In Penang it's called pasembur, elsewhere many people call it rojak mamak."
+  },
+  {
+   "q": "What's in pasembur?",
+   "a": "Usually cucumber, sengkuang, taugeh, boiled egg, fried tofu, cucur udang, keropok and potato. Some add squid and crab too."
+  },
+  {
+   "q": "What is pasembur sauce made of?",
+   "a": "It's made from peanuts, sweet potato, chilli, sugar and spices. That's why it's sweet, spicy and thick."
+  }
+ ]
+}

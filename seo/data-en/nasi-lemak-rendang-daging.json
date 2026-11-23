@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-lemak-rendang-daging",
+ "name_en": "Nasi lemak rendang daging",
+ "serving_en": "1 plate",
+ "intro": "One plate of nasi lemak rendang daging has an estimated 700 kcal. Most of the calories come from the santan rice and the thick rendang gravy full of santan and oil.",
+ "breakdown": [
+  {
+   "part": "Santan rice, 1 cup",
+   "kcal": 250
+  },
+  {
+   "part": "Rendang daging, 3-4 pieces with gravy",
+   "kcal": 300
+  },
+  {
+   "part": "Sambal, 1 small ladle",
+   "kcal": 70
+  },
+  {
+   "part": "Boiled egg 1/2, ikan bilis, peanuts",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak rendang ayam",
+   "kcal": 650
+  },
+  {
+   "name": "Rendang daging, less gravy",
+   "kcal": 620
+  },
+  {
+   "name": "Add fried egg",
+   "kcal": 790
+  },
+  {
+   "name": "Add extra rice",
+   "kcal": 820
+  }
+ ],
+ "diet": "Yes, but treat this as a calorie-dense meal. The beef gives good protein, but the rendang gravy has a lot of fat. Best for once in a while, like on weekends. On normal days, pick dishes without santan.",
+ "tips": [
+  "Take the meat pieces and go easy on the oily rendang gravy.",
+  "Skip the sambal. The rendang already has plenty of flavour.",
+  "Ask for half rice and add cucumber or ulam."
+ ],
+ "swap": {
+  "name": "White rice + rendang daging with less gravy + ulam",
+  "kcal": 520,
+  "why": "Switch santan rice to white rice and take less gravy. You still get the beef protein."
+ },
+ "faq": [
+  {
+   "q": "Is rendang daging high in cholesterol?",
+   "a": "Beef and santan have saturated fat. Having it once in a while in a moderate portion is usually okay. If you have health issues, check with your doctor."
+  },
+  {
+   "q": "Which is lighter, rendang ayam or rendang daging?",
+   "a": "Rendang ayam is usually slightly lower in fat, especially without the skin. But the gravy is still the main factor."
+  },
+  {
+   "q": "How long can rendang last in the fridge?",
+   "a": "Usually 3-4 days in a closed container in the fridge. Reheat until properly hot before eating."
+  }
+ ]
+}

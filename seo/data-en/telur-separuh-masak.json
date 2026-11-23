@@ -1,0 +1,59 @@
+{
+ "slug": "telur-separuh-masak",
+ "name_en": "Telur separuh masak (half-boiled eggs)",
+ "serving_en": "2 eggs",
+ "intro": "Two half-boiled eggs are about 140 kcal (estimate). Most of the calories come from the yolks, which have fat and protein.",
+ "breakdown": [
+  {
+   "part": "Egg yolks, 2",
+   "kcal": 105
+  },
+  {
+   "part": "Egg whites, 2",
+   "kcal": 30
+  },
+  {
+   "part": "Soy sauce and white pepper",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Set with roti bakar kaya mentega",
+   "kcal": 440
+  },
+  {
+   "name": "3 half-boiled eggs",
+   "kcal": 210
+  },
+  {
+   "name": "With extra kicap manis",
+   "kcal": 160
+  }
+ ],
+ "diet": "Very much yes. Half-boiled eggs are high in protein and low in calories. They help you stay full longer. Just watch what you eat with them, like toast and sweet drinks.",
+ "tips": [
+  "Use a little normal soy sauce, less kicap manis.",
+  "Eat with one slice of wholemeal bread, not two.",
+  "Make them at home with hot water, ready in 6 to 7 minutes."
+ ],
+ "swap": {
+  "name": "2 hard-boiled eggs",
+  "kcal": 140,
+  "why": "Same calories, easy to bring to the office, and no soy sauce needed."
+ },
+ "faq": [
+  {
+   "q": "Is it safe to eat half-boiled eggs?",
+   "a": "Generally okay if the eggs are fresh and stored properly. Pregnant mums, young kids and the elderly may be better off with fully cooked eggs."
+  },
+  {
+   "q": "How do I make half-boiled eggs without a machine?",
+   "a": "Boil water, turn off the fire, put in the eggs and cover the pot for 6 to 7 minutes. Take them out and crack into a bowl."
+  },
+  {
+   "q": "Is eating 2 eggs a day okay?",
+   "a": "For most healthy people, 1 to 2 eggs a day is usually okay. If you have cholesterol issues, talk to your doctor."
+  }
+ ]
+}

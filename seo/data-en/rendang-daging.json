@@ -1,0 +1,63 @@
+{
+ "slug": "rendang-daging",
+ "name_en": "Rendang daging (beef rendang)",
+ "serving_en": "1 scoop",
+ "intro": "One scoop of rendang daging is about 300 kcal (estimate). Most of the calories come from the beef, plus the santan and kerisik cooked down until thick.",
+ "breakdown": [
+  {
+   "part": "Beef",
+   "kcal": 170
+  },
+  {
+   "part": "Santan and kerisik",
+   "kcal": 100
+  },
+  {
+   "part": "Oil and spices",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Rendang ayam",
+   "kcal": 260
+  },
+  {
+   "name": "Rendang tok (drier and thicker)",
+   "kcal": 330
+  },
+  {
+   "name": "Daging masak hitam",
+   "kcal": 260
+  },
+  {
+   "name": "Fatty beef rendang",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, you can. Rendang daging is high in protein and has iron. But it's calorie-dense because the santan and kerisik are cooked down until thick. One scoop with plain rice and vegetables is still okay for your diet. Watch out during raya season, when it's easy to go for a second and third scoop.",
+ "tips": [
+  "Take just one scoop and pick the leaner pieces of beef.",
+  "Eat it with plain white rice, not lemang and nasi minyak at the same time.",
+  "Add ulam or boiled vegetables to balance your plate."
+ ],
+ "swap": {
+  "name": "Daging masak kicap or daging bakar",
+  "kcal": 220,
+  "why": "No santan or kerisik, so lower in fat. Same beef protein."
+ },
+ "faq": [
+  {
+   "q": "Why does rendang need to be cooked for so long?",
+   "a": "Long cooking makes the beef tender and reduces the santan until it turns oily and thick. That's what gives rendang its flavour and dark colour."
+  },
+  {
+   "q": "How long does rendang keep?",
+   "a": "In the fridge, usually 3 to 5 days. In the freezer it lasts longer. Reheat until piping hot before eating."
+  },
+  {
+   "q": "Which cut of beef is best for rendang?",
+   "a": "Many people use batang pinang or topside because it's leaner and turns tender with long cooking. Pick a leaner cut if you want it lighter."
+  }
+ ]
+}

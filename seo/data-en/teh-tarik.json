@@ -1,0 +1,63 @@
+{
+ "slug": "teh-tarik",
+ "name_en": "Teh tarik",
+ "serving_en": "1 glass",
+ "intro": "One glass of mamak teh tarik has about 120 kcal (estimate). Most calories come from the condensed milk, not the tea itself.",
+ "breakdown": [
+  {
+   "part": "Sweetened condensed milk (~1.5 tbsp)",
+   "kcal": 90
+  },
+  {
+   "part": "Evaporated milk (a little)",
+   "kcal": 25
+  },
+  {
+   "part": "Strong tea",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh tarik kurang manis (less sweet)",
+   "kcal": 80
+  },
+  {
+   "name": "Teh tarik ais (large glass)",
+   "kcal": 150
+  },
+  {
+   "name": "Teh tarik kaw (extra milk)",
+   "kcal": 160
+  },
+  {
+   "name": "Teh C (evaporated milk + sugar)",
+   "kcal": 100
+  }
+ ],
+ "diet": "Yes, teh tarik can still fit into a weight loss plan. One glass a day is no big deal if your daily calories are under control. What people often miss is that 2-3 glasses a day can add 300+ kcal without making you full. So control how often, no need to ban it completely.",
+ "tips": [
+  "Order 'teh tarik kurang manis' and save about 40 kcal straight away.",
+  "Pick a small glass or hot cup, not the big iced glass.",
+  "If you already had teh tarik in the morning, go for plain water or teh O kosong for your next drink."
+ ],
+ "swap": {
+  "name": "Teh C kosong (evaporated milk, no sugar)",
+  "kcal": 45,
+  "why": "Still has that creamy milk taste, but no sugar and no condensed milk."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between teh tarik and regular milk tea?",
+   "a": "Teh tarik is 'pulled' from one jug to another until it's frothy. The base is the same: strong tea and condensed milk."
+  },
+  {
+   "q": "Does teh tarik have a lot of caffeine?",
+   "a": "Yes, about the same or a bit less than a cup of coffee. If you're sensitive to caffeine, avoid it late in the afternoon."
+  },
+  {
+   "q": "Can I ask for teh tarik with evaporated milk only?",
+   "a": "Yes, most mamak understand if you ask for 'teh C'. Less sweet but still creamy."
+  }
+ ]
+}

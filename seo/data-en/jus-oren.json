@@ -1,0 +1,63 @@
+{
+ "slug": "jus-oren",
+ "name_en": "Orange juice (packet)",
+ "serving_en": "1 packet, 250 ml",
+ "intro": "A 250 ml packet of orange juice has about 110 kcal (estimate). Almost all of it comes from sugar, either natural fruit sugar or added sugar.",
+ "breakdown": [
+  {
+   "part": "Natural sugar from orange",
+   "kcal": 85
+  },
+  {
+   "part": "Added sugar (depends on type)",
+   "kcal": 20
+  },
+  {
+   "part": "Protein & others",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "100% orange juice, no added sugar",
+   "kcal": 100
+  },
+  {
+   "name": "Orange-flavoured drink (not full juice)",
+   "kcal": 130
+  },
+  {
+   "name": "1 medium fresh orange",
+   "kcal": 60
+  },
+  {
+   "name": "Freshly squeezed orange juice (stall), 1 glass",
+   "kcal": 120
+  }
+ ],
+ "diet": "Yes, but don't treat juice the same as eating fruit. Juice has little fibre, so it's less filling and easy to drink a lot. One packet once in a while is okay. If you want to lose weight, eating a real orange usually helps more.",
+ "tips": [
+  "Read the label: choose '100% juice' and avoid 'flavoured drink'.",
+  "Mix half juice with half cold water for a lighter taste.",
+  "Eat one orange and drink plain water instead. More filling, fewer calories."
+ ],
+ "swap": {
+  "name": "1 fresh orange + plain water",
+  "kcal": 60,
+  "why": "It has fibre, takes time to eat and is more filling than packet juice."
+ },
+ "faq": [
+  {
+   "q": "Does packet orange juice have vitamin C?",
+   "a": "Yes, usually quite a lot. But a fresh orange also gives vitamin C, plus fibre."
+  },
+  {
+   "q": "What's the difference between 100% orange juice and an orange drink?",
+   "a": "100% juice is made only from fruit juice. Orange drinks usually have water, sugar and flavouring, with a low percentage of juice."
+  },
+  {
+   "q": "Can I give my kids packet orange juice every day?",
+   "a": "Once in a while is okay. For daily drinks, plain water, milk and fresh fruit are better because juice is still high in sugar."
+  }
+ ]
+}

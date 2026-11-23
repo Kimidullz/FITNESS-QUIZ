@@ -1,0 +1,67 @@
+{
+ "slug": "kuey-teow-kungfu",
+ "name_en": "Kuey teow kungfu (ladna)",
+ "serving_en": "1 plate",
+ "intro": "One plate of kuey teow kungfu (ladna) is roughly 650 kcal. Most of the calories come from the fried kuey teow and the thick egg gravy made with cornflour and oil.",
+ "breakdown": [
+  {
+   "part": "Fried kuey teow",
+   "kcal": 300
+  },
+  {
+   "part": "Thick egg gravy",
+   "kcal": 150
+  },
+  {
+   "part": "Chicken, prawns or squid",
+   "kcal": 100
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Seafood kungfu",
+   "kcal": 680
+  },
+  {
+   "name": "Yin yong (kuey teow + fried bihun)",
+   "kcal": 700
+  },
+  {
+   "name": "Kuey teow ladna, not fried",
+   "kcal": 520
+  },
+  {
+   "name": "Bihun kungfu",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes, you can, but it's one of the higher-calorie noodle dishes at the tomyam shop. The kuey teow is fried first, then topped with thick gravy. If you have it, make it your lunch and keep the rest of the day lighter. Sharing or leaving some kuey teow already helps a lot.",
+ "tips": [
+  "Ask for the kuey teow not fried, or with less oil.",
+  "Pick the seafood version or ask for extra chicken for more protein.",
+  "Ask for extra sawi or kailan so your plate looks full with fewer calories."
+ ],
+ "swap": {
+  "name": "Kuey teow sup",
+  "kcal": 350,
+  "why": "Same kuey teow, but not fried and in clear soup, so almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "Why is it called kuey teow kungfu?",
+   "a": "Many say the name comes from the cook's skill, since it needs very high heat and fast cooking. In Thailand, it's known as ladna."
+  },
+  {
+   "q": "What's the difference between kuey teow kungfu and char kuey teow?",
+   "a": "Char kuey teow is stir-fried dry with soy sauce. Kuey teow kungfu has thick egg gravy poured over the kuey teow."
+  },
+  {
+   "q": "Where can I get kuey teow kungfu?",
+   "a": "Usually at tomyam shops, Thai eateries and Chinese restaurants."
+  }
+ ]
+}

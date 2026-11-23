@@ -1,0 +1,63 @@
+{
+ "slug": "biskut-krim",
+ "name_en": "Cream crackers (biskut krim)",
+ "serving_en": "3 pieces",
+ "intro": "3 pieces of cream crackers have about 160 kcal. Most of the calories come from wheat flour and vegetable oil in the dough.",
+ "breakdown": [
+  {
+   "part": "Wheat flour (3 pieces)",
+   "kcal": 100
+  },
+  {
+   "part": "Vegetable oil/fat in the dough",
+   "kcal": 55
+  },
+  {
+   "part": "Sugar, salt & other ingredients",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "3 cream crackers + 1 tbsp peanut butter",
+   "kcal": 255
+  },
+  {
+   "name": "3 cream crackers + margarine & sugar",
+   "kcal": 230
+  },
+  {
+   "name": "Cream crackers dipped in teh tarik (1 glass)",
+   "kcal": 290
+  },
+  {
+   "name": "3 wholemeal crackers",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes, cream crackers can fit into a weight loss plan. The catch is they're low in protein, so you get hungry again fast. Eating straight from the tin, 3 can easily become 6-8 pieces. Count them as a snack, not a full breakfast.",
+ "tips": [
+  "Take 3 pieces, put them on a plate, then close the tin and keep it away.",
+  "Eat with a boiled egg or a glass of less-sugar milk for protein so you stay fuller.",
+  "Dip in kopi O or teh O kurang manis, not teh tarik or thick milo."
+ ],
+ "swap": {
+  "name": "2 cream crackers + 1 boiled egg",
+  "kcal": 180,
+  "why": "Almost the same calories, but with protein from the egg. Keeps you full until your next meal."
+ },
+ "faq": [
+  {
+   "q": "Are cream crackers good for breakfast?",
+   "a": "Can, but on their own they're low in protein. Add an egg, milk or a little peanut butter for a more balanced breakfast."
+  },
+  {
+   "q": "Are cream crackers healthier than white bread?",
+   "a": "About the same in calories. Cream crackers usually have more fat and salt, white bread has more carbs. Both are okay if the portion is controlled."
+  },
+  {
+   "q": "Why do cream crackers make me hungry fast?",
+   "a": "They're mostly refined carbs, low in fibre and protein. Pair them with a protein source to stay full longer."
+  }
+ ]
+}

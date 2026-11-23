@@ -1,0 +1,67 @@
+{
+ "slug": "coklat-susu",
+ "name_en": "Milk chocolate (coklat susu)",
+ "serving_en": "1 small bar (40 g)",
+ "intro": "One small bar of milk chocolate (40 g) has about 210 kcal. The calories come from cocoa butter, milk fat and sugar.",
+ "breakdown": [
+  {
+   "part": "Cocoa butter and milk fat",
+   "kcal": 108
+  },
+  {
+   "part": "Sugar",
+   "kcal": 88
+  },
+  {
+   "part": "Milk solids (protein)",
+   "kcal": 12
+  },
+  {
+   "part": "Other carbs",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dark chocolate 70% (40 g)",
+   "kcal": 230
+  },
+  {
+   "name": "Milk chocolate with nuts (40 g)",
+   "kcal": 220
+  },
+  {
+   "name": "Chocolate wafer (1 bar, 40 g)",
+   "kcal": 205
+  },
+  {
+   "name": "Milk chocolate, 2 small squares (10 g)",
+   "kcal": 55
+  }
+ ],
+ "diet": "Yes. Chocolate is not the enemy. What matters is the size and how often. Two small squares after a meal is enough to satisfy a sweet craving, at around 55 kcal. The problem is when a big bar is finished in one sitting.",
+ "tips": [
+  "Break the bar into small squares, eat just 2 and keep the rest in the fridge.",
+  "Have chocolate after a main meal, not on an empty stomach, so you don't overdo it.",
+  "Pair 2 squares with fruit like banana or strawberries so it feels more satisfying."
+ ],
+ "swap": {
+  "name": "2 squares dark chocolate + 1 small banana",
+  "kcal": 140,
+  "why": "You still get the sweet chocolate taste and a bigger portion, but fewer calories than a milk chocolate bar."
+ },
+ "faq": [
+  {
+   "q": "Is dark chocolate healthier than milk chocolate?",
+   "a": "Dark chocolate has less sugar and more cocoa. The calories are about the same, so portion still matters."
+  },
+  {
+   "q": "Why is it so hard to stop eating chocolate?",
+   "a": "The mix of sugar and fat naturally makes us want more. Portion out a small amount first so it's easier to stop."
+  },
+  {
+   "q": "Does chocolate cause pimples?",
+   "a": "It differs from person to person. Some people notice a change, some don't."
+  }
+ ]
+}

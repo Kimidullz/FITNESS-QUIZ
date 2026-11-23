@@ -1,0 +1,67 @@
+{
+ "slug": "shawarma-ayam",
+ "name_en": "Chicken shawarma",
+ "serving_en": "1 wrap",
+ "intro": "One chicken shawarma wrap is an estimated 550 kcal. The calories come from the pita or tortilla, marinated chicken and garlic sauce or mayo.",
+ "breakdown": [
+  {
+   "part": "Pita / tortilla (1 large piece)",
+   "kcal": 200
+  },
+  {
+   "part": "Marinated shawarma chicken (about 100 g)",
+   "kcal": 200
+  },
+  {
+   "part": "Garlic sauce / mayo",
+   "kcal": 130
+  },
+  {
+   "part": "Veg and pickles",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Less sauce, more veg",
+   "kcal": 450
+  },
+  {
+   "name": "With fries inside the wrap",
+   "kcal": 650
+  },
+  {
+   "name": "Large / jumbo size",
+   "kcal": 750
+  },
+  {
+   "name": "Shawarma plate with rice",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, chicken shawarma can fit into a weight loss plan. It's fairly high in protein and has some veg. What sends calories soaring is the sauce and fries inside the wrap. Choose the regular size and ask for less sauce, and it's a decent meal.",
+ "tips": [
+  "Ask for less sauce, or sauce on the side.",
+  "Skip the fries in the wrap and ask for more veg.",
+  "Drink plain water or unsweetened tea instead of a soft drink."
+ ],
+ "swap": {
+  "name": "Chicken shawarma plate without rice, with salad and sauce on the side",
+  "kcal": 400,
+  "why": "Same protein, but no bread, and you control the sauce yourself."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between shawarma and kebab?",
+   "a": "Shawarma is meat roasted in layers on a vertical grill, then shaved off. Kebab is a broader term for grilled meat, including skewers. In Malaysia, the two names are often used interchangeably."
+  },
+  {
+   "q": "What's the white sauce in shawarma?",
+   "a": "Usually garlic sauce (toum) or a mix of mayo and garlic. It's tasty but high in oil."
+  },
+  {
+   "q": "Beef or chicken shawarma, which is lighter?",
+   "a": "Chicken is usually lighter because beef or lamb tends to be fattier. But the sauce and size make a bigger difference."
+  }
+ ]
+}

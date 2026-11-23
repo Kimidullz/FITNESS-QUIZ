@@ -1,0 +1,63 @@
+{
+ "slug": "tauhu-bakar",
+ "name_en": "Tauhu bakar",
+ "serving_en": "1 plate",
+ "intro": "1 plate of tauhu bakar has about 300 kcal. Most of the calories come from the tofu, fried or grilled with oil, and the peanut sauce.",
+ "breakdown": [
+  {
+   "part": "Tofu (fried/grilled)",
+   "kcal": 150
+  },
+  {
+   "part": "Sweet spicy peanut sauce",
+   "kcal": 120
+  },
+  {
+   "part": "Veg (cucumber, bean sprouts, sengkuang)",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tauhu bakar with extra peanut sauce",
+   "kcal": 420
+  },
+  {
+   "name": "Fried tauhu sumbat, 1 plate",
+   "kcal": 380
+  },
+  {
+   "name": "Tauhu bakar + 1 cup white rice",
+   "kcal": 500
+  },
+  {
+   "name": "Tauhu bakar, sauce on the side, use half",
+   "kcal": 240
+  }
+ ],
+ "diet": "Yes, tauhu bakar is an okay choice while losing weight. You get protein from the tofu plus fresh veg. The calories go up mainly from the peanut sauce and oil. Control the sauce and it fits easily into your calorie budget.",
+ "tips": [
+  "Ask for the peanut sauce on the side, dip a little at a time and no need to finish it.",
+  "Ask for extra cucumber and bean sprouts to fill the plate.",
+  "At home, grill the tofu in an air fryer or oven with a little oil."
+ ],
+ "swap": {
+  "name": "Steamed/air-fried tofu + veg + half sauce",
+  "kcal": 220,
+  "why": "Less oil and sauce, but the same tofu protein."
+ },
+ "faq": [
+  {
+   "q": "Is tauhu bakar suitable for vegetarians?",
+   "a": "Usually yes, but ask first because some sauces have dried shrimp or belacan."
+  },
+  {
+   "q": "Is tauhu bakar high in protein?",
+   "a": "Moderate. 1 plate has about 14 g protein. Add a boiled egg if you want more."
+  },
+  {
+   "q": "Is tauhu bakar sauce the same as satay sauce?",
+   "a": "Quite similar, both peanut-based, but tauhu bakar sauce is usually sweeter and spicier, with kicap manis."
+  }
+ ]
+}

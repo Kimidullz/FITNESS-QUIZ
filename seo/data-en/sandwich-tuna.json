@@ -1,0 +1,67 @@
+{
+ "slug": "sandwich-tuna",
+ "name_en": "Tuna sandwich",
+ "serving_en": "1 sandwich",
+ "intro": "One tuna sandwich is an estimated 350 kcal. Most of the calories come from the bread and the mayo mixed with the tuna.",
+ "breakdown": [
+  {
+   "part": "White bread (2 slices)",
+   "kcal": 140
+  },
+  {
+   "part": "Mayo (1.5 tbsp)",
+   "kcal": 130
+  },
+  {
+   "part": "Tuna (1/2 small can)",
+   "kcal": 70
+  },
+  {
+   "part": "Cucumber, lettuce, onion",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "With wholemeal bread",
+   "kcal": 330
+  },
+  {
+   "name": "Add a slice of cheese",
+   "kcal": 430
+  },
+  {
+   "name": "Buttered toasted tuna sandwich",
+   "kcal": 420
+  },
+  {
+   "name": "Tuna in water, less mayo",
+   "kcal": 260
+  }
+ ],
+ "diet": "Yes, in fact this is one of the easier breakfast or lunch options to control. Tuna gives you good protein. What pushes calories up is the mayo and butter. Cut down on those two and a tuna sandwich becomes very diet-friendly.",
+ "tips": [
+  "Use tuna in water, not in oil.",
+  "Mix the tuna with half the mayo plus a bit of plain yogurt or a squeeze of lime.",
+  "Add lots of cucumber, lettuce and tomato to feel fuller."
+ ],
+ "swap": {
+  "name": "Tuna sandwich on wholemeal, tuna in water, half mayo",
+  "kcal": 270,
+  "why": "About the same protein, more fibre, and saves an estimated 80 kcal."
+ },
+ "faq": [
+  {
+   "q": "Is canned tuna safe to eat every day?",
+   "a": "Tuna has a little mercury. For adults, a few times a week is usually okay. Rotate with sardines, eggs or chicken. Pregnant mums should check with their doctor."
+  },
+  {
+   "q": "How long does a tuna sandwich last if I bring it to the office?",
+   "a": "Best eaten within 2 to 4 hours if there's no fridge. Mayo spoils fast in hot weather, so pack it in a container with an ice pack."
+  },
+  {
+   "q": "How do I make tuna filling that isn't watery?",
+   "a": "Drain the tuna well and press it with a spoon. Keep the cucumber and tomato separate and add them when you're about to eat."
+  }
+ ]
+}
