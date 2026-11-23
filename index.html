@@ -1522,9 +1522,8 @@ function showResult(relang){
 }
 
 
-// ---------- quiz upgrade (23 Nov 2026): preview with ?beta=1 until Kimi says go ----------
-const UP = /[?&]beta=1/.test(location.search) || (()=>{try{return sessionStorage.getItem("upbeta")==="1"}catch(e){return false}})();
-try{ if(UP) sessionStorage.setItem("upbeta","1"); }catch(e){}
+// ---------- quiz upgrade (23 Nov 2026): call time, hardest part, coach voice, stories, starter plans ----------
+const UP = true;   // live since 23 Nov 2026 (Kimi: "Go: both quizzes")
 const UPT = {
   timeH:{ms:"Bila senang untuk call 15 minit dengan coach?",en:"When suits you for a 15-minute call with your coach?"},
   times:[{ms:"Malam ni, 9pm",en:"Tonight, 9pm"},{ms:"Esok tengah hari, 1pm",en:"Tomorrow, 1pm"},{ms:"Esok malam, 9pm",en:"Tomorrow, 9pm"},{ms:"Chat dulu",en:"Chat first"}],
