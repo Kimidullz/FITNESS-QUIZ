@@ -15,7 +15,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from build import BASE, CSS, E, FONTS, WALK_KCAL_MIN  # noqa: E402
 
-PUBLISH2 = False
+PUBLISH2 = True
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SEO = ROOT / "seo"
 COACH = {"m": ("Coach Kimi", "60127040268"), "f": ("Coach Zara", "60123520097")}
