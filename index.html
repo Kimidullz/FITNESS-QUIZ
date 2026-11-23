@@ -1589,7 +1589,7 @@ function upStarter(key){
   const box=$("up-starter");
   const put=()=>{ const s=STARTER&&STARTER[key]; box.hidden=!s; if(!s) return;
     $("up-starterH").textContent=L(UPT.starterH);
-    $("up-days").innerHTML=s.d.map((d,k)=>`<div class="up-day"><h4>${L(UPT.day)} ${k+1}: ${L(d.f)}</h4><ul>${d.x.map(x=>`<li>${L(x)}</li>`).join("")}</ul></div>`).join("");
+    $("up-days").innerHTML=s.d.map((d,k)=>`<div class="up-day"><h4>${L(UPT.day)} ${k+1}: ${L(d.f).replace(/^(Hari|Day)\s*\d+\s*[:.\-]\s*/i,"")}</h4><ul>${d.x.map(x=>`<li>${L(x)}</li>`).join("")}</ul></div>`).join("");
     $("up-day3").textContent=L(s.e); };
   if(STARTER) return put();
   box.hidden=true;
