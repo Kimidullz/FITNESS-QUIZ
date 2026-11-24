@@ -1,0 +1,24 @@
+{
+ "id": "burger-ayam-vs-burger-daging",
+ "winner": "burger-daging",
+ "verdict": "Burger daging fast food biasa lebih ringan, anggaran ~300 kcal berbanding burger ayam gerai dengan telur ~500 kcal. Burger gerai lebih tinggi protein, tapi kalori dan lemaknya pun jauh lebih tinggi.",
+ "why": [
+  "Burger daging fast food biasa anggaran ~300 kcal, burger ayam gerai dengan telur ~500 kcal. Beza kira-kira 200 kcal.",
+  "Burger gerai ada 22 g protein, burger fast food 15 g. Telur dan patty ayam yang tambah protein.",
+  "Lemak burger gerai 26 g, lebih dua kali ganda burger fast food (12 g). Mayonis, marjerin dan minyak atas plat yang banyak menyumbang.",
+  "Burger fast food biasa datang sebagai set dengan kentang goreng dan air bergas. Set penuh boleh jadi lebih tinggi daripada burger gerai."
+ ],
+ "when_a": "Burger ayam gerai okay sebagai makan malam penuh, bukan sebagai snek. Proteinnya membantu anda kenyang sampai tidur.",
+ "when_b": "Burger daging fast food sesuai bila anda nak makan cepat. Order burger sahaja, bukan set besar.",
+ "tip": "Di gerai, minta 'kurang mayo, kurang sos' dan tambah salad atau timun. Di fast food, ambil burger dengan air kosong atau teh kosong.",
+ "faq": [
+  {
+   "q": "Burger gerai tanpa telur lebih okay?",
+   "a": "Kalori turun sedikit, tapi anda juga hilang protein. Lebih berkesan kurangkan mayonis, sos dan marjerin pada roti."
+  },
+  {
+   "q": "Kalau saya order set fast food, macam mana?",
+   "a": "Tukar kentang goreng kepada saiz kecil atau kongsi, dan pilih minuman tanpa gula. Itu cara mudah jimat beberapa ratus kalori."
+  }
+ ]
+}

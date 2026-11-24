@@ -1,0 +1,82 @@
+{
+ "slug": "buffet-hotel",
+ "title": "Apa nak ambil di buffet hotel bila nak turun berat",
+ "intro": "Buffet hotel memang penuh godaan. Ada sushi, kambing golek, pastri dan air coklat yang mengalir. Anda boleh nikmati semuanya tanpa rasa 'rugi duit'. Kuncinya ialah strategi pusingan dan saiz pinggan. Angka kalori di bawah ialah anggaran sahaja.",
+ "best": [
+  {
+   "name": "Salad bar dengan dressing minyak zaitun atau limau (1 pinggan)",
+   "kcal": 120,
+   "why": "Mula dengan sayur. Perut terisi dan anda kurang terburu-buru untuk lauk berat."
+  },
+  {
+   "name": "Ikan atau ayam panggang (1 ketul sederhana)",
+   "kcal": 220,
+   "why": "Protein tinggi dan tak bergoreng. Pilihan terbaik di bahagian lauk."
+  },
+  {
+   "name": "Daging panggang dari stesen carving (3 keping nipis)",
+   "kcal": 200,
+   "why": "Protein yang padat. Minta sos sedikit atau letak tepi."
+  },
+  {
+   "name": "Sup sayur atau sup jernih (1 mangkuk)",
+   "kcal": 80,
+   "why": "Hangat dan mengenyangkan. Pilih yang jernih, bukan yang berkrim."
+  },
+  {
+   "name": "Sayur tumis atau stim (1 senduk besar)",
+   "kcal": 100,
+   "why": "Tambah serat dan volume dalam pinggan dengan kalori rendah."
+  },
+  {
+   "name": "Buah-buahan segar (1 pinggan kecil)",
+   "kcal": 90,
+   "why": "Pencuci mulut manis semula jadi. Bagus untuk penutup selepas sedikit dessert."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Pastri dan kek mini (3 keping)",
+   "kcal": 450,
+   "why": "Saiz kecil, tapi mentega dan gula banyak. Pilih 1 atau 2 yang paling menarik."
+  },
+  {
+   "name": "Sup cendawan berkrim (1 mangkuk)",
+   "kcal": 250,
+   "why": "Krim dan mentega menaikkan kalori. Ganti dengan sup jernih."
+  },
+  {
+   "name": "Makanan bergoreng: tempura, kentang goreng, nuget (1 pinggan kecil)",
+   "kcal": 450,
+   "why": "Senang ambil banyak sebab kecil-kecil. Ambil sedikit sebagai rasa sahaja."
+  },
+  {
+   "name": "Pasta carbonara (1 pinggan)",
+   "kcal": 550,
+   "why": "Sos krim dan keju. Kalau nak pasta, pilih sos tomato dan ambil separuh."
+  },
+  {
+   "name": "Nasi beriani kambing (1 pinggan)",
+   "kcal": 600,
+   "why": "Nasi berminyak dan kambing berlemak. Ambil 2 sudu nasi dan sepotong daging sahaja."
+  }
+ ],
+ "hacks": [
+  "Buat satu pusingan 'tinjau' dulu tanpa pinggan. Pilih apa yang betul-betul anda nak makan.",
+  "Guna pinggan kecil atau pinggan pencuci mulut untuk lauk utama.",
+  "Pusingan pertama: salad, sup jernih dan protein. Pusingan kedua baru makanan kegemaran.",
+  "Duduk jauh sedikit dari meja buffet, supaya tak senang bangun berulang kali.",
+  "Untuk dessert, ambil 2 jenis dan kongsi. Rasa semua tanpa rasa terlalu kenyang."
+ ],
+ "drink": "Air kosong atau teh panas tanpa gula. Kalau nak jus, pilih satu gelas kecil sahaja.",
+ "faq": [
+  {
+   "q": "Saya bayar mahal, rasa rugi kalau makan sikit. Macam mana?",
+   "a": "Anda bayar untuk pengalaman dan pilihan, bukan untuk makan sampai sakit perut. Pilih item yang jarang anda dapat di rumah, contohnya seafood atau daging panggang, dan nikmati perlahan-lahan."
+  },
+  {
+   "q": "Perlu ke saya puasa sebelum pergi buffet?",
+   "a": "Tak digalakkan. Kalau terlalu lapar, anda cenderung makan lebih banyak. Makan seperti biasa pada waktu sebelumnya, cuma lebih ringan dan tinggi protein."
+  }
+ ]
+}

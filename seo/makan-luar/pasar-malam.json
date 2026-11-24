@@ -1,0 +1,82 @@
+{
+ "slug": "pasar-malam",
+ "title": "Apa nak beli di pasar malam bila nak turun berat",
+ "intro": "Pasar malam memang syurga makanan. Semua nampak sedap, semua nak beli. Anda tak perlu elak pasar malam. Cuma pergi dengan plan dan pilih lauk yang dibakar atau direbus lebih banyak daripada yang digoreng. Kalori di bawah ialah anggaran untuk satu bahagian biasa. Saiz di setiap gerai mungkin berbeza.",
+ "best": [
+  {
+   "name": "Ayam golek atau ayam panggang (suku ekor, buang kulit)",
+   "kcal": 280,
+   "why": "Protein tinggi. Bawa balik dan makan dengan nasi dan sayur di rumah."
+  },
+  {
+   "name": "Sate ayam 5 cucuk + sedikit kuah",
+   "kcal": 280,
+   "why": "Dibakar, bukan digoreng. Kawal kuah kacang, cicah sikit saja."
+  },
+  {
+   "name": "Otak-otak bakar 4 keping",
+   "kcal": 160,
+   "why": "Ringan, ada protein ikan. Sedap untuk snek."
+  },
+  {
+   "name": "Jagung rebus 1 batang",
+   "kcal": 150,
+   "why": "Ada serat dan mengenyangkan. Minta kurang mentega."
+  },
+  {
+   "name": "Popiah basah 1 gulung",
+   "kcal": 150,
+   "why": "Banyak sayur, tak digoreng. Pilihan baik untuk makan ringan."
+  },
+  {
+   "name": "Buah potong 1 bekas",
+   "kcal": 90,
+   "why": "Tembikai, betik, nanas. Pencuci mulut yang ringan dan segar."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Ayam goreng crispy besar 1 keping",
+   "kcal": 450,
+   "why": "Tepung salut menyerap banyak minyak. Kongsi atau buang sebahagian kulit."
+  },
+  {
+   "name": "Murtabak 1 keping penuh",
+   "kcal": 750,
+   "why": "Banyak minyak dan telur. Separuh sudah cukup untuk satu makan."
+  },
+  {
+   "name": "Apam balik 1 potong besar",
+   "kcal": 400,
+   "why": "Mentega, gula dan kacang. Beli saiz kecil atau kongsi satu keluarga."
+  },
+  {
+   "name": "Takoyaki 6 biji",
+   "kcal": 300,
+   "why": "Sos dan mayo tambah kalori. Minta sos sikit."
+  },
+  {
+   "name": "Air balang manis 1 cawan besar",
+   "kcal": 200,
+   "why": "Kalori cair. Kalau beli tiga cawan, dah macam satu hidangan."
+  }
+ ],
+ "hacks": [
+  "Pusing satu round dulu sebelum beli. Pilih 2-3 benda yang paling anda nak, bukan semua.",
+  "Pilih yang bakar, rebus atau kukus dulu: ayam panggang, sate, otak-otak, jagung.",
+  "Beli lauk saja, makan di rumah dengan nasi dan sayur. Jadi makan malam yang lengkap.",
+  "Kongsi kuih dan makanan goreng dengan family. Rasa semua, tapi sikit-sikit.",
+  "Minta kuah, sos atau mayo asing atau sikit. Cicah, jangan tuang."
+ ],
+ "drink": "Bawa botol air kosong sendiri. Kalau nak beli, pilih air kelapa tanpa gula tambah atau teh o ais kosong.",
+ "faq": [
+  {
+   "q": "Boleh makan murtabak masa tengah diet?",
+   "a": "Boleh. Makan separuh, simpan separuh untuk esok atau kongsi. Padankan dengan timun atau acar dan air kosong, bukan air manis."
+  },
+  {
+   "q": "Macam mana nak elak beli terlalu banyak?",
+   "a": "Makan sedikit di rumah dulu, contohnya buah atau telur rebus, supaya tak pergi dalam keadaan lapar. Bawa tunai dalam jumlah tetap. Bila duit habis, balik."
+  }
+ ]
+}

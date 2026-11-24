@@ -1,0 +1,82 @@
+{
+ "slug": "pizza",
+ "title": "Apa nak order di kedai pizza (Domino's, Pizza Hut) bila nak turun berat",
+ "intro": "Malam Jumaat, family nak pizza. Tak perlu jadi orang yang makan salad sorang-sorang. Pizza boleh muat dalam plan anda kalau pandai pilih crust, topping dan bilangan keping. Kalori di bawah ialah anggaran untuk saiz regular atau medium. Nilai sebenar berbeza ikut kedai dan topping.",
+ "best": [
+  {
+   "name": "2 keping pizza crust nipis ayam (medium)",
+   "kcal": 380,
+   "why": "Crust nipis kurang tepung dan minyak. Topping ayam beri protein."
+  },
+  {
+   "name": "2 keping pizza sayur crust nipis",
+   "kcal": 340,
+   "why": "Ringan dan banyak sayur. Sesuai kalau anda nak tambah wings atau sup."
+  },
+  {
+   "name": "2 keping pizza ayam crust biasa (hand tossed)",
+   "kcal": 440,
+   "why": "Kalau tak ada crust nipis, ini pilihan tengah yang okay."
+  },
+  {
+   "name": "Wings bakar 4 ketul",
+   "kcal": 300,
+   "why": "Protein tinggi. Makan bersama 1-2 keping pizza supaya lebih kenyang."
+  },
+  {
+   "name": "Sup cendawan 1 mangkuk",
+   "kcal": 170,
+   "why": "Panas dan mengenyangkan. Makan dulu sebelum pizza supaya tak terlebih keping."
+  },
+  {
+   "name": "Salad sayur (jika ada), dressing asing",
+   "kcal": 120,
+   "why": "Tambah serat dan isi perut. Guna separuh dressing sahaja."
+  }
+ ],
+ "careful": [
+  {
+   "name": "2 keping pizza stuffed crust keju",
+   "kcal": 700,
+   "why": "Keju dalam crust tambah kalori yang banyak. Sedap, tapi kira betul-betul."
+  },
+  {
+   "name": "2 keping pan pizza daging/pepperoni",
+   "kcal": 620,
+   "why": "Crust tebal berminyak dan daging proses. Kalori cepat naik."
+  },
+  {
+   "name": "Garlic bread 4 keping",
+   "kcal": 350,
+   "why": "Mentega dan roti. Selalu orang makan sebelum pizza sampai, terus terlebih."
+  },
+  {
+   "name": "Pasta bakar berkrim (1 hidangan)",
+   "kcal": 700,
+   "why": "Sos krim dan keju. Kalori sama macam 3-4 keping pizza."
+  },
+  {
+   "name": "Lava cake coklat 1 biji",
+   "kcal": 350,
+   "why": "Pencuci mulut padat kalori. Kongsi berdua kalau nak rasa."
+  }
+ ],
+ "hacks": [
+  "Tetapkan dari awal: 2 keping saja. Letak dalam pinggan, jangan makan terus dari kotak.",
+  "Pilih crust nipis atau crust biasa. Elak cheese crust dan pan kalau tengah fokus turun berat.",
+  "Tambah topping sayur seperti cendawan, capsicum, bawang. Jimat kalori dan tambah isi.",
+  "Mula dengan sup atau salad dulu, baru ambil pizza. Perut dah separuh kenyang.",
+  "Order untuk kongsi, bukan set individu. Lebih mudah kawal dan tak rasa rugi nak habiskan."
+ ],
+ "drink": "Air kosong atau minuman berkarbonat tanpa gula. Satu gelas air manis besar boleh tambah 200 kcal atau lebih.",
+ "faq": [
+  {
+   "q": "Kalau nak makan pizza, perlu skip makan tengah hari ke?",
+   "a": "Tak perlu. Skip makan selalunya buat anda lebih lapar dan makan lebih banyak malam itu. Makan tengah hari macam biasa, cuma kurangkan sedikit nasi kalau nak beri ruang."
+  },
+  {
+   "q": "Kalau terlebih 4-5 keping, macam mana?",
+   "a": "Tak apa, satu malam tak rosakkan progress. Esok sambung makan seperti biasa, minum air cukup dan teruskan jalan kaki. Yang penting ialah konsistensi minggu ke minggu."
+  }
+ ]
+}

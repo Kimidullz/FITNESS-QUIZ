@@ -1,0 +1,82 @@
+{
+ "slug": "restoran-thai",
+ "title": "Apa nak order di restoran Thai dan kedai tomyam bila nak turun berat",
+ "intro": "Kedai tomyam adalah port lepak makan malam ramai orang Malaysia. Berita baiknya, masakan Thai ada banyak pilihan yang segar, berasid dan pedas tanpa banyak minyak. Anda cuma perlu tahu mana yang ringan dan mana yang padat. Kalori di bawah ialah anggaran untuk hidangan biasa.",
+ "best": [
+  {
+   "name": "Tomyam jernih seafood (1 mangkuk)",
+   "kcal": 180,
+   "why": "Kuah jernih tanpa santan atau susu. Udang, sotong dan ikan memberi protein yang baik."
+  },
+  {
+   "name": "Ikan siakap stim limau (separuh ekor)",
+   "kcal": 250,
+   "why": "Dikukus, jadi minyak minimum. Rasa masam pedas buat anda puas hati."
+  },
+  {
+   "name": "Kerabu mangga (1 pinggan kecil)",
+   "kcal": 150,
+   "why": "Segar dan banyak sayur. Minta gula sedikit kalau boleh."
+  },
+  {
+   "name": "Somtam (1 pinggan)",
+   "kcal": 120,
+   "why": "Betik muda dengan limau dan cili. Ringan tapi penuh rasa."
+  },
+  {
+   "name": "Ayam bakar ala Thai (1 ketul paha)",
+   "kcal": 250,
+   "why": "Dibakar, bukan digoreng. Sos cicah ambil sikit sahaja."
+  },
+  {
+   "name": "Kangkung belacan (1 pinggan kongsi)",
+   "kcal": 150,
+   "why": "Sayur hijau yang sedap. Kongsi dengan kawan supaya minyaknya terbahagi."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Tomyam merah pekat dengan susu (1 mangkuk)",
+   "kcal": 350,
+   "why": "Susu atau santan menaikkan kalori. Sesekali okay, tapi jernih lebih ringan."
+  },
+  {
+   "name": "Nasi goreng pattaya (1 pinggan)",
+   "kcal": 750,
+   "why": "Nasi goreng dibalut telur, ada sos. Kalau order, kongsi atau tambah sayur tepi."
+  },
+  {
+   "name": "Pad Thai (1 pinggan)",
+   "kcal": 600,
+   "why": "Mi bergoreng dengan gula dan kacang. Sedap tapi padat."
+  },
+  {
+   "name": "Sotong goreng tepung (1 pinggan kongsi)",
+   "kcal": 450,
+   "why": "Tepung menyerap minyak. Ambil beberapa keping sahaja sebagai rasa."
+  },
+  {
+   "name": "Pulut mangga (1 pinggan)",
+   "kcal": 450,
+   "why": "Pulut dan santan manis. Kongsi berdua sebagai pencuci mulut."
+  }
+ ],
+ "hacks": [
+  "Order cara kongsi: tomyam jernih, satu ikan stim, satu sayur dan nasi putih ikut bilangan orang.",
+  "Nasi putih minta 1 senduk sahaja, bukan pinggan penuh.",
+  "Pilih 'stim', 'bakar' atau 'kerabu' berbanding 'goreng tepung'.",
+  "Kalau nak goreng juga, order satu untuk kongsi semeja, jangan seorang satu.",
+  "Minta kurang manis untuk kerabu dan sos cicah."
+ ],
+ "drink": "Air limau suam kosong atau air kosong. Teh O ais limau kurang manis pun boleh jika nak ada rasa.",
+ "faq": [
+  {
+   "q": "Kuah tomyam boleh minum habis ke?",
+   "a": "Tomyam jernih memang ringan kalori, jadi tak ada masalah. Cuma kuahnya agak masin, jadi minum air kosong yang cukup. Untuk tomyam berkrim, makan isi dan kurangkan kuah."
+  },
+  {
+   "q": "Cha yen atau teh Thai boleh ke?",
+   "a": "Boleh sesekali. Satu gelas anggaran 250 kcal sebab susu pekat dan gula. Kalau anda minum selalu, minta kurang manis atau tukar kepada teh O ais limau."
+  }
+ ]
+}

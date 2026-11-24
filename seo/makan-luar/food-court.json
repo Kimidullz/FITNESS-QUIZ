@@ -1,0 +1,82 @@
+{
+ "slug": "food-court",
+ "title": "Apa nak order di food court dan medan selera bila nak turun berat",
+ "intro": "Food court ialah syurga pilihan. Nasi ayam, yong tau foo, ekonomi rice, char kuey teow, chicken chop. Banyak pilihan bermakna anda boleh pilih yang sesuai dengan matlamat. Cari hidangan yang ada protein jelas, sayur, dan cara masak sup, kukus atau panggang. Semua nombor ialah anggaran hidangan biasa.",
+ "best": [
+  {
+   "name": "Nasi ayam (ayam kukus atau panggang, tanpa kulit), nasi putih",
+   "kcal": 500,
+   "why": "Protein jelas. Tukar nasi minyak ke nasi putih dan buang kulit untuk jimat banyak kalori."
+  },
+  {
+   "name": "Yong tau foo sup (6-8 keping, pilih sayur dan tauhu)",
+   "kcal": 350,
+   "why": "Anda pilih sendiri isinya. Banyak sayur dan tauhu, kuah jernih."
+  },
+  {
+   "name": "Bihun sup ikan atau sup ikan dengan nasi",
+   "kcal": 380,
+   "why": "Ikan hiris rendah lemak dan kuah ringan. Sangat mengenyangkan."
+  },
+  {
+   "name": "Nasi ekonomi: nasi separuh, 1 lauk protein, 2 sayur",
+   "kcal": 500,
+   "why": "Fleksibel. Pilih ayam, ikan atau tauhu yang tak bergoreng tepung."
+  },
+  {
+   "name": "Popiah basah 2 gulung",
+   "kcal": 250,
+   "why": "Penuh sayur seperti sengkuang. Ringan untuk makan tengah hari yang cepat."
+  },
+  {
+   "name": "Mee kari ayam tanpa tauhu pok, kuah separuh",
+   "kcal": 500,
+   "why": "Kalau teringin berkuah pekat, kurangkan kuah dan elak tauhu pok yang serap santan."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Char kuey teow biasa",
+   "kcal": 750,
+   "why": "Digoreng dengan minyak banyak dan api besar. Sedap, tapi kalori padat."
+  },
+  {
+   "name": "Chicken chop goreng sos lada hitam dengan kentang goreng",
+   "kcal": 850,
+   "why": "Ayam bersalut tepung, digoreng, sos berkrim dan kentang goreng. Kalori tinggi satu pinggan."
+  },
+  {
+   "name": "Nasi goreng kampung atau nasi goreng pattaya",
+   "kcal": 700,
+   "why": "Nasi digoreng serap minyak. Bahagian food court selalunya besar."
+  },
+  {
+   "name": "Laksa kari atau mee kari penuh kuah",
+   "kcal": 650,
+   "why": "Santan dalam kuah. Kalau habiskan kuah, kalori naik."
+  },
+  {
+   "name": "Cendol atau ais kacang",
+   "kcal": 350,
+   "why": "Gula melaka, susu dan santan. Pencuci mulut yang sedap untuk dikongsi."
+  }
+ ],
+ "hacks": [
+  "Nasi ayam: 'nasi putih, buang kulit, sup lebih'. Ramai gerai boleh buat.",
+  "Nasi ekonomi: elak lauk bergoreng tepung, ambil lauk masak kicap, kukus atau sayur tumis.",
+  "Yong tau foo: pilih kuah sup jernih, ambil lebih sayur dan tauhu putih, kurangkan item goreng.",
+  "Kalau nak char kuey teow, minta 'kurang minyak' dan kongsi dengan kawan, atau tambah sayur dari gerai lain.",
+  "Air: pilih air kosong, teh O ais kurang manis atau air limau kurang manis. Simpan cendol untuk hujung minggu."
+ ],
+ "drink": "Air kosong atau teh O ais limau kurang manis. Kalau nak berkrim, teh tarik kurang manis saiz kecil sekali-sekala.",
+ "faq": [
+  {
+   "q": "Nasi ekonomi pun boleh jadi kalori tinggi ke?",
+   "a": "Boleh, ikut lauk yang anda ambil. Ayam goreng tepung, telur dadar berminyak dan kuah lemak campur akan cepat naikkan kalori. Formula mudah: nasi separuh, satu protein, dua sayur, kuah sikit."
+  },
+  {
+   "q": "Saya makan di food court hampir setiap hari kerja. Okay ke untuk turun berat?",
+   "a": "Okay. Ramai klien kami makan luar setiap hari. Rotasi beberapa pilihan 'selamat' seperti nasi ayam tanpa kulit, yong tau foo sup dan sup ikan. Lepas itu, selitkan makanan kegemaran 1-2 kali seminggu supaya anda tak rasa terseksa."
+  }
+ ]
+}

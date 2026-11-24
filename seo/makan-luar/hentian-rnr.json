@@ -1,0 +1,82 @@
+{
+ "slug": "hentian-rnr",
+ "title": "Apa nak order di hentian R&R lebuhraya bila nak turun berat",
+ "intro": "Balik kampung atau outstation, mesti singgah R&R. Penat memandu dan lapar buat kita senang order apa saja. Ditambah pula dengan snek dan air manis dalam kereta. Anda masih boleh makan sedap di R&R. Pilih lauk bakar atau sup, tambah sayur, dan kawal snek. Semua nombor ialah anggaran hidangan biasa.",
+ "best": [
+  {
+   "name": "Nasi campur: nasi putih separuh, ikan atau ayam bakar, 2 sayur",
+   "kcal": 500,
+   "why": "Ada protein, sayur dan karbohidrat. Lauk bakar kurang minyak berbanding lauk goreng."
+  },
+  {
+   "name": "Sup ayam atau sup tulang dengan nasi putih separuh",
+   "kcal": 450,
+   "why": "Mengenyangkan dan panas, sesuai lepas lama dalam kereta. Pilih kuah jernih."
+  },
+  {
+   "name": "Satay ayam 6 cucuk dengan nasi impit, kuah sikit",
+   "kcal": 400,
+   "why": "Satay dipanggang dan tinggi protein. Kawal kuah kacang supaya kalori tak melambung."
+  },
+  {
+   "name": "Ikan bakar dengan air asam dan nasi putih",
+   "kcal": 450,
+   "why": "Ikan bakar rendah lemak. Air asam beri rasa tanpa banyak kalori."
+  },
+  {
+   "name": "Jagung rebus 1 batang",
+   "kcal": 130,
+   "why": "Snek perjalanan yang lebih mengenyangkan dari keropok. Ada serat."
+  },
+  {
+   "name": "Buah potong (tembikai, betik, nanas) 1 bekas",
+   "kcal": 70,
+   "why": "Segar dan manis semula jadi. Bagus untuk elak mengantuk lepas makan berat."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Nasi ayam goreng berempah",
+   "kcal": 800,
+   "why": "Ayam goreng dengan rempah goreng dan nasi berminyak. Kalori tinggi dalam satu pinggan."
+  },
+  {
+   "name": "Char kuey teow atau mee goreng basah",
+   "kcal": 700,
+   "why": "Banyak minyak dan sos. Lepas makan pun senang rasa mengantuk masa memandu."
+  },
+  {
+   "name": "Keropok lekor goreng 6 batang dengan sos",
+   "kcal": 400,
+   "why": "Snek goreng yang mudah dimakan banyak dalam kereta tanpa sedar."
+  },
+  {
+   "name": "Pisang goreng atau cempedak goreng (4 keping)",
+   "kcal": 400,
+   "why": "Tepung dan minyak. Sedap panas-panas, tapi kongsi lebih baik."
+  },
+  {
+   "name": "Air tebu, air kotak atau air bergas manis",
+   "kcal": 200,
+   "why": "Gula cair yang tak buat kenyang. Bila minum sepanjang perjalanan, total jadi tinggi."
+  }
+ ],
+ "hacks": [
+  "Di gerai nasi campur, cakap 'nasi separuh, sayur lebih'. Pilih lauk bakar, gulai atau sup.",
+  "Siram kuah sikit sahaja di tepi nasi, jangan banjir satu pinggan.",
+  "Kalau order satay, minta kuah kacang dalam mangkuk kecil dan cicah sikit-sikit.",
+  "Snek dalam kereta: pilih jagung, buah atau kacang rebus. Beli satu bungkus, bukan tiga.",
+  "Bawa botol air kosong sendiri dan isi semula. Kurang beli air manis setiap kali berhenti."
+ ],
+ "drink": "Air kosong. Kalau nak berasa, teh O ais limau kurang manis atau kopi O kurang manis untuk kekal segar memandu.",
+ "faq": [
+  {
+   "q": "Perjalanan jauh, saya takut mengantuk kalau lapar. Patut makan banyak ke?",
+   "a": "Makan cukup kenyang, bukan sampai sendat. Hidangan berat dan berminyak biasanya buat lebih mengantuk. Pilih nasi separuh dengan lauk protein dan sayur, dan bawa snek ringan untuk perjalanan."
+  },
+  {
+   "q": "Kalau saya dah terlajak makan masa balik kampung, macam mana?",
+   "a": "Okay sahaja. Satu atau dua hari makan lebih tak akan padam progress anda. Bila balik rutin, sambung makan macam biasa. Tak perlu ikat perut atau berlapar untuk 'tebus'."
+  }
+ ]
+}
