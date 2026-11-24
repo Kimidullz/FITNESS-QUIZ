@@ -1,0 +1,281 @@
+{
+ "title": "Ramadan Guide: Fasting Without Gaining Weight",
+ "intro": "Ramadan is a month of worship, not a month of strict dieting. But many people are shocked when they gain 2-4 kg after Raya. In this guide, Coach Kimi and Coach Zara share realistic sahur and berbuka menus, estimated calories for bazar food and kuih raya, plus easy tips for working adults and mums. No need to give up rice. No need to avoid the bazar. Just choose your portions and frequency wisely. All calorie and protein numbers are estimates for a typical serving in Malaysia. Actual sizes can differ by shop and recipe. Important: if you have diabetes, are pregnant or breastfeeding, please talk to your doctor first before changing how you fast or eat.",
+ "why_gain": [
+  "'Revenge' berbuka. Hungry the whole day, so we eat fast and a lot in one go. Add fried food and sweet drinks, and berbuka alone can go over 1,500 kcal.",
+  "Liquid calories and night snacks are not counted. Air bandung, air tebu, cendol, moreh after terawih and kuih while watching TV. Each one looks small, but added together it really adds up.",
+  "Less sleep and less movement. Waking up for sahur, sleeping late, the body is tired, so we walk and exercise less. When we sleep less, our appetite usually goes up too."
+ ],
+ "sahur": [
+  {
+   "name": "Simple Nasi Telur Sahur",
+   "items": "White rice 1 scoop (estimated 150 g), 2 eggs fried with a little oil or boiled, 1 scoop mixed vegetables, 1 banana, 2 glasses of plain water",
+   "why": "Rice and banana give energy. Eggs help you stay full longer. Ready in 10 minutes.",
+   "kcal": 500,
+   "protein_g": 19
+  },
+  {
+   "name": "Oats with Milk + Eggs Sahur",
+   "items": "4 tablespoons oats (40 g) cooked with 1 glass low-fat milk, 1 sliced banana, 2 boiled eggs",
+   "why": "Oats and milk are gentle on the stomach. The fibre in oats helps you feel full. Good for those who can't stomach rice in the early morning.",
+   "kcal": 490,
+   "protein_g": 26
+  },
+  {
+   "name": "Bread with Telur Dadar Sahur",
+   "items": "2 slices wholemeal bread, 2-egg telur dadar with onion and chilli, sliced cucumber and tomato, 1 glass low-fat milk",
+   "why": "Quick to prepare, high in protein. Wholemeal bread has more fibre than white bread.",
+   "kcal": 450,
+   "protein_g": 29
+  },
+  {
+   "name": "Nasi Ikan Kunyit Sahur",
+   "items": "White rice 1 scoop, 1 ikan kembung fried with kunyit, bayam masak air, 2 dates (kurma)",
+   "why": "A filling kampung-style menu. Fish gives protein and good fats. Kurma as a sweet dessert.",
+   "kcal": 490,
+   "protein_g": 28
+  },
+  {
+   "name": "Last Night's Berbuka Leftovers Sahur",
+   "items": "White rice 1 scoop, 1 piece ayam masak kicap, 3 pieces fried tempe, leftover vegetables from berbuka",
+   "why": "No waste and no need to cook again. Keep berbuka dishes in the fridge, reheat at sahur.",
+   "kcal": 550,
+   "protein_g": 32
+  }
+ ],
+ "berbuka": [
+  {
+   "name": "Ayam Percik Berbuka",
+   "items": "3 kurma + plain water first, then white rice 1 scoop, 1 piece ayam percik (remove skin if you want), ulam, a little sambal",
+   "why": "Start with kurma and water, give your body 5-10 minutes. You can buy ayam percik at the bazar, just add ulam from home.",
+   "kcal": 580,
+   "protein_g": 35
+  },
+  {
+   "name": "Warung Nasi Campur Berbuka",
+   "items": "2 kurma, white rice 1 scoop, 1 piece ikan masak asam pedas, kangkung belacan, plain water or teh O kosong",
+   "why": "Balanced plate formula: quarter rice, quarter protein, half vegetables. Asam pedas has gravy and less oil than fried dishes.",
+   "kcal": 540,
+   "protein_g": 31
+  },
+  {
+   "name": "Mamak-Style Berbuka",
+   "items": "2 kurma, 2 pieces capati, dal gravy, 1 piece ayam tandoori, cucumber onion salad, teh O ais kurang manis",
+   "why": "Capati and tandoori are lighter choices at the mamak compared to roti canai and fried chicken. High protein, keeps you full longer.",
+   "kcal": 630,
+   "protein_g": 37
+  },
+  {
+   "name": "Bihun Sup Berbuka",
+   "items": "2 kurma, 1 bowl bihun sup ayam, 1 boiled egg, sawi in the soup",
+   "why": "Warm soup suits a stomach that has been empty all day. The broth helps add fluids to the body.",
+   "kcal": 510,
+   "protein_g": 27
+  },
+  {
+   "name": "Bubur Lambuk Berbuka",
+   "items": "2 kurma, 1 bowl bubur lambuk, 1 small piece ayam bakar, 2 slices watermelon",
+   "why": "Bubur lambuk is a Ramadan tradition that is gentle on the stomach. Add ayam bakar so you get enough protein.",
+   "kcal": 570,
+   "protein_g": 35
+  }
+ ],
+ "bazar": [
+  {
+   "name": "Murtabak daging",
+   "serving": "1/4 piece (2-3 slices)",
+   "kcal": 250
+  },
+  {
+   "name": "Ayam percik",
+   "serving": "1 thigh piece",
+   "kcal": 300
+  },
+  {
+   "name": "Nasi kerabu",
+   "serving": "1 full packet",
+   "kcal": 550
+  },
+  {
+   "name": "Roti john",
+   "serving": "1/2 loaf",
+   "kcal": 400
+  },
+  {
+   "name": "Popia goreng",
+   "serving": "1 roll",
+   "kcal": 120
+  },
+  {
+   "name": "Karipap",
+   "serving": "1 medium piece",
+   "kcal": 130
+  },
+  {
+   "name": "Satay ayam",
+   "serving": "10 sticks + peanut sauce",
+   "kcal": 450
+  },
+  {
+   "name": "Tepung pelita",
+   "serving": "1 leaf cup",
+   "kcal": 120
+  },
+  {
+   "name": "Akok",
+   "serving": "1 piece",
+   "kcal": 80
+  },
+  {
+   "name": "Seri muka",
+   "serving": "1 slice",
+   "kcal": 180
+  },
+  {
+   "name": "Cendol",
+   "serving": "1 bowl",
+   "kcal": 350
+  },
+  {
+   "name": "Air tebu",
+   "serving": "1 cup (estimated 350 ml)",
+   "kcal": 200
+  },
+  {
+   "name": "Air bandung",
+   "serving": "1 cup (estimated 350 ml)",
+   "kcal": 250
+  },
+  {
+   "name": "Putu piring",
+   "serving": "1 piece",
+   "kcal": 110
+  },
+  {
+   "name": "Otak-otak",
+   "serving": "1 piece",
+   "kcal": 60
+  }
+ ],
+ "kuih_raya": [
+  {
+   "name": "Tart nenas",
+   "serving": "1 piece",
+   "kcal": 70
+  },
+  {
+   "name": "Kuih bangkit",
+   "serving": "1 piece",
+   "kcal": 25
+  },
+  {
+   "name": "Biskut semperit",
+   "serving": "1 piece",
+   "kcal": 40
+  },
+  {
+   "name": "Cornflakes madu",
+   "serving": "1 small paper cup",
+   "kcal": 50
+  },
+  {
+   "name": "Biskut dahlia",
+   "serving": "1 piece",
+   "kcal": 40
+  },
+  {
+   "name": "Kuih makmur",
+   "serving": "1 piece",
+   "kcal": 60
+  },
+  {
+   "name": "Almond london",
+   "serving": "1 piece",
+   "kcal": 55
+  },
+  {
+   "name": "Kuih suji",
+   "serving": "1 piece",
+   "kcal": 50
+  },
+  {
+   "name": "Biskut mazola",
+   "serving": "1 piece",
+   "kcal": 35
+  },
+  {
+   "name": "Rempeyek kacang",
+   "serving": "1 piece",
+   "kcal": 70
+  },
+  {
+   "name": "Kerepek pisang",
+   "serving": "1 handful (estimated 20 g)",
+   "kcal": 100
+  },
+  {
+   "name": "Kek lapis Sarawak",
+   "serving": "1 thin slice",
+   "kcal": 200
+  },
+  {
+   "name": "Kuih bahulu",
+   "serving": "1 piece",
+   "kcal": 40
+  },
+  {
+   "name": "Dodol",
+   "serving": "1 small piece",
+   "kcal": 100
+  },
+  {
+   "name": "Kuih siput",
+   "serving": "1 small handful (estimated 20 g)",
+   "kcal": 100
+  }
+ ],
+ "exercise": "The best time is 30-60 minutes before berbuka (for example brisk walking or light exercise), or 1-2 hours after berbuka for heavier exercise like weight training. Lower the intensity compared to usual and keep sessions short, just 20-40 minutes. If you feel dizzy, your heart is racing or you feel too weak, stop and rest. Besides exercise, stay active through the day: walking to the surau for terawih and taking the stairs at the office also count.",
+ "tips": [
+  "Break your fast with kurma and plain water first. Pray Maghrib, then only eat rice. This 10-minute break helps you avoid overeating.",
+  "Use the plate formula: half vegetables, quarter rice, quarter protein like chicken, fish, eggs or tauhu.",
+  "Go to the bazar with a list. Choose just 1 main dish and 1 kuih. Avoid shopping when you are too hungry.",
+  "Swap sweet drinks for plain water, teh O kurang manis or plain water with lime slices. Save air bandung and air tebu for 2-3 times a week.",
+  "Don't skip sahur. A sahur with protein helps control hunger and prevents overeating at berbuka.",
+  "Drink water little by little from berbuka until sahur. Keep a water bottle on the table so it's easy to remember.",
+  "Moreh after terawih? Take 1 small piece or just fruit. It doesn't need to be a second dinner.",
+  "Try to get at least 6 hours of sleep per night, for example sleep early after terawih and take a short nap during your lunch break if you can."
+ ],
+ "raya": [
+  "Eat something with protein before going out to beraya, for example a boiled egg. With a stomach that's not empty, it's easier to control portions.",
+  "At each house, take just 1 small plate. Choose the dishes you like most, no need to taste everything.",
+  "Kuih raya: pick 2-3 favourite pieces, put them on a small plate, then move away from the kuih table. Avoid eating straight from the jar.",
+  "For air sirap and sweet drinks, you can ask for half a glass, or ask for plain water. Hosts usually understand.",
+  "Raya is not just one day, so plan ahead. When you have an evening invitation, eat light at lunch and go for a walk after eating with the family."
+ ],
+ "faq": [
+  {
+   "q": "Can I exercise while fasting?",
+   "a": "Yes, for most healthy adults. Choose light exercise before berbuka or heavier exercise after berbuka. Listen to your body. If you feel dizzy or too weak, stop and rest."
+  },
+  {
+   "q": "How much water should I drink?",
+   "a": "A general guide is around 8 glasses from berbuka to sahur. For example 2 glasses at berbuka, 4 glasses between terawih and bedtime, 2 glasses at sahur. Everyone's needs are different, so watch the colour of your urine. Light yellow is usually a sign you're okay."
+  },
+  {
+   "q": "Kurma is high in sugar, can I eat it?",
+   "a": "Yes. Roughly 20 kcal per small kurma. 2-3 kurma at berbuka is suitable to raise your energy quickly. What you need to watch is eating handful after handful throughout the night."
+  },
+  {
+   "q": "If I skip sahur, I eat fewer calories, so will I lose weight faster?",
+   "a": "Not necessarily. Many people who skip sahur end up too hungry and overeat at berbuka. A simple sahur with protein helps you control your appetite better."
+  },
+  {
+   "q": "Does eating rice at night make you fat?",
+   "a": "No. Body weight is affected by total calories throughout the day, not the time you eat rice. 1 scoop of rice with a protein dish and vegetables can fit into your plan."
+  },
+  {
+   "q": "I have diabetes, or I'm pregnant or breastfeeding. Can I follow this guide?",
+   "a": "Please see your doctor first before changing how you fast or eat. Your blood sugar, medication and nutrition needs are different, so your doctor's advice comes first. This guide is general information only."
+  }
+ ]
+}
