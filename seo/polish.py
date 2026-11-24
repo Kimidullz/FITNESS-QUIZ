@@ -16,6 +16,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import build2  # noqa: E402
 import build4  # noqa: E402
+import build5  # noqa: E402
 from build import BASE  # noqa: E402
 
 ROOT = build2.ROOT
@@ -72,7 +73,8 @@ footer{border-top:1px solid #222}
 def nav(lang, sec):
     if lang == "en":
         items = [("calories", "calories/", "Food calories"), ("en/women", "en/women/", "Working women"),
-                 ("en/exercises", "en/exercises/", "Exercises"), ("en/ramadan", "en/ramadan/", "Ramadan"),
+                 ("en/compare", "en/compare/", "Food comparisons"), ("en/eat-out", "en/eat-out/", "Eating out"),
+                 ("en/exercises", "en/exercises/", "Exercises"), ("en/over-50", "en/over-50/", "Age 50+"), ("en/ramadan", "en/ramadan/", "Ramadan"),
                  ("semak", "semak/", "Food check (BM)"), ("workout", "workout/", "7-day workout (BM)")]
     else:
         items = [("kalori", "kalori/", "Kalori makanan"), ("semak", "semak/", "Semak makan"), ("workout", "workout/", "Workout 7 hari"),
@@ -126,6 +128,7 @@ def twin(rel):
         return "calories"
     m = build4.en_map()
     m.update({"wanita": "en/women", "senaman": "en/exercises"})
+    m.update(build5.en_map5())
     t = m.get(rel)
     return t if t and (ROOT / t / "index.html").exists() else None
 
