@@ -20,9 +20,8 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230B0B0B'/%3E%3Cpath d='M38 64 64 30v14L52 64z' fill='%23E30613'/%3E%3Cpath d='M50 64 64 46v10l-6 8z' fill='%23FFD200'/%3E%3Ctext x='8' y='40' font-family='Arial Black,Arial' font-weight='900' font-style='italic' font-size='20' fill='%23fff'%3EWDT%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <!-- Scroll Craft engine (nateherkai/scroll-craft 75d81f7), copied unedited -->
-<link rel="stylesheet" href="sc/scrollcraft.css">
 <style>
   :root{
     --black:#0B0B0B; --ink:#111; --white:#fff;
@@ -477,6 +476,302 @@
   footer .fine{opacity:1}
   .lang button{min-height:36px}
   footer .links a,footer .socials a{display:inline-block;padding:10px 0}
+
+  /* ===================== PREMIUM LAYER (25 Nov 2026) =====================
+     One calm dark column, Anton italic headlines + Manrope body, red only on the main action.
+     Replaces the Scroll Craft scenes; every tool section (quiz, calculator, day 7, kit) keeps its markup. */
+  :root{
+    --p-ink:#0b0b0c; --p-ink2:#131315; --p-ink3:#1c1c1f; --p-line:#2a2a2e; --p-paper:#f4f2ee; --p-mute:#a3a09a;
+    --p-red:#e30613; --p-red-hi:#ff2b36; --p-gold:#ffd200;
+    --p-display:Anton,Impact,"Arial Narrow",sans-serif;
+    --p-body:Manrope,Montserrat,system-ui,-apple-system,"Segoe UI",sans-serif;
+    --p-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+    --p-ease:cubic-bezier(.2,.8,.2,1);
+    color-scheme:dark;
+  }
+  body{background:var(--p-ink);color:var(--p-paper);font-family:var(--p-body)}
+  body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:70;opacity:.035;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+  .container{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+  :focus-visible{outline:2px solid var(--p-gold);outline-offset:3px}
+
+  /* top bar */
+  .top{background:rgba(11,11,12,.72);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid transparent;transition:border-color .4s;top:env(safe-area-inset-top,0px)}
+  .top.scrolled{border-color:var(--p-line)}
+  .top .container{height:62px}
+  .logo{letter-spacing:.14em;font-size:13px}
+  .lang{border:1px solid var(--p-line);padding:3px;gap:2px}
+  .lang button{border-radius:999px;opacity:1;color:var(--p-mute);transition:background .3s,color .3s}
+  .lang button.on{background:var(--p-paper);color:var(--p-ink)}
+  .top-cta{border-radius:999px;padding:10px 16px;box-shadow:0 8px 20px -8px rgba(227,6,19,.7)}
+  .p-bar{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:2px;z-index:65;background:linear-gradient(90deg,var(--p-red),var(--p-gold));transform-origin:left;transform:scaleX(0);pointer-events:none}
+
+  /* buttons */
+  .pbtn{--h:58px;position:relative;display:inline-flex;align-items:center;justify-content:center;gap:12px;height:var(--h);padding:0 26px;border-radius:999px;font:800 16px/1 var(--p-body);text-decoration:none;cursor:pointer;border:0;overflow:hidden;isolation:isolate;white-space:nowrap;transition:transform .35s var(--p-ease),box-shadow .35s var(--p-ease),background .35s}
+  .pbtn .arr{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;flex:none;transition:transform .45s var(--p-ease)}
+  .pbtn .arr svg{width:14px;height:14px}
+  .pbtn:active{transform:scale(.965)}
+  .pbtn-main{background:var(--p-red);color:#fff;box-shadow:0 10px 30px -10px rgba(227,6,19,.7),inset 0 1px 0 rgba(255,255,255,.25)}
+  .pbtn-main .arr{background:rgba(255,255,255,.16)}
+  .pbtn-main::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);transform:translateX(-120%);animation:pshine 4.5s var(--p-ease) infinite 1.2s}
+  .pbtn-main::after{content:"";position:absolute;inset:-2px;border-radius:inherit;z-index:-2;animation:pring 2.8s ease-out infinite 2s}
+  @keyframes pshine{0%,62%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+  @keyframes pring{0%{box-shadow:0 0 0 0 rgba(227,6,19,.5)}70%,100%{box-shadow:0 0 0 14px rgba(227,6,19,0)}}
+  .pbtn-ghost{background:transparent;color:var(--p-paper);box-shadow:inset 0 0 0 1.5px var(--p-line)}
+  .pbtn-ghost::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--p-paper);transform:translateY(101%);transition:transform .5s var(--p-ease)}
+  .pbtn-ghost .arr{background:var(--p-ink3)}
+  @media (hover:hover){
+    .pbtn-main:hover{background:var(--p-red-hi);box-shadow:0 18px 40px -12px rgba(227,6,19,.85),inset 0 1px 0 rgba(255,255,255,.3);transform:translateY(-2px)}
+    .pbtn:hover .arr{transform:translateX(4px) rotate(-45deg)}
+    .pbtn-ghost:hover{color:var(--p-ink)}
+    .pbtn-ghost:hover::before{transform:none}
+    .pbtn-ghost:hover .arr{background:var(--p-ink);color:var(--p-paper)}
+  }
+  .p-ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.35);transform:scale(0);animation:prip .7s var(--p-ease) forwards;pointer-events:none;z-index:-1}
+  @keyframes prip{to{transform:scale(1);opacity:0}}
+  /* the old red buttons inside the tools get the same pill shape and press */
+  .btn{border-radius:999px;font-family:var(--p-body);transition:transform .3s var(--p-ease),background .3s,box-shadow .3s;box-shadow:0 10px 26px -12px rgba(227,6,19,.7)}
+  .btn:hover{background:var(--p-red-hi)}
+  .btn.wa{box-shadow:0 10px 26px -12px rgba(37,211,102,.6)}
+  .btn.ghost,.btn.jump{box-shadow:none}
+
+  /* shared type */
+  .p-eyebrow,.eyebrow{font:500 11.5px/1 var(--p-mono);letter-spacing:.18em;text-transform:uppercase;color:var(--p-gold);display:flex;align-items:center;gap:10px;margin-bottom:0}
+  .p-eyebrow::before,.eyebrow::before{content:"";width:22px;height:1px;background:var(--p-gold);flex:none}
+  .p-h2,h2.title{font-family:var(--p-display);font-style:italic;font-weight:400;text-transform:uppercase;line-height:.98;text-wrap:balance;font-size:clamp(38px,7vw,72px);margin:18px 0 0}
+  .p-h2 em,h2.title em{color:var(--p-gold);font-style:inherit}
+  .p-lede,.lede{color:var(--p-mute);font-size:17px;max-width:56ch}
+  section.block .lede{margin-top:18px}
+  .p-sec{padding-block:clamp(72px,11vw,128px)}
+  section.block,.kit{padding-block:clamp(72px,11vw,120px);background:transparent}
+  .p-fine{font-size:12px;color:#77746f;margin-top:10px}
+  .js-on .rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--p-ease),transform .9s var(--p-ease)}
+  .js-on .rv.in{opacity:1;transform:none}
+
+  /* hero */
+  .p-hero{position:relative;padding-block:28px 72px;overflow:hidden}
+  .p-hero::before{content:"";position:absolute;width:900px;height:900px;right:-300px;top:-240px;background:radial-gradient(closest-side,rgba(227,6,19,.30),rgba(227,6,19,.12) 50%,transparent);pointer-events:none}
+  .p-hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}
+  .p-hero-grid>*{min-width:0}
+  .p-h1{font-family:var(--p-display);font-style:italic;font-weight:400;text-transform:uppercase;line-height:.96;font-size:clamp(50px,8.2vw,96px);margin:22px 0 22px;text-wrap:balance}
+  .p-h1 em{color:var(--p-red);font-style:inherit;display:inline}
+  .js-on .p-h1{animation:pup 1.1s var(--p-ease) both}
+  @keyframes pup{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+  .p-hero .p-lede{margin-bottom:30px}
+  .p-ctas{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  .p-note{font-size:13.5px;color:var(--p-mute);margin-top:16px;max-width:56ch}
+  .p-ticks{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:22px;color:var(--p-mute);font-size:14px}
+  .p-ticks span{display:flex;gap:8px;align-items:center}
+  .p-ticks span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--p-gold);flex:none}
+  .p-zara{display:inline-block;margin-top:18px;color:var(--p-gold);font-weight:700;font-size:14.5px;text-underline-offset:4px}
+  .p-photo-wrap{position:relative}
+  .p-photo{position:relative;margin:0;border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:var(--p-ink2);box-shadow:0 40px 80px -30px rgba(0,0,0,.9)}
+  .p-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 32%;transform:scale(1.04);transition:transform 1.6s var(--p-ease)}
+  .p-photo:hover img{transform:scale(1.08)}
+  .p-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(11,11,12,.92))}
+  .p-photo figcaption{position:absolute;left:20px;right:20px;bottom:18px;z-index:1;display:flex;justify-content:space-between;align-items:end;gap:12px}
+  .p-photo figcaption b{font:italic 26px/1 var(--p-display);text-transform:uppercase}
+  .p-photo figcaption small{display:block;color:var(--p-mute);font-size:12.5px;margin-top:4px}
+  .p-live{font:500 11px var(--p-mono);letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:7px;background:rgba(11,11,12,.6);backdrop-filter:blur(6px);padding:7px 10px;border-radius:999px;border:1px solid var(--p-line);white-space:nowrap}
+  .p-live i{width:7px;height:7px;border-radius:50%;background:#2fd36b;animation:pdot 2s infinite}
+  @keyframes pdot{0%{box-shadow:0 0 0 0 rgba(47,211,107,.6)}70%,100%{box-shadow:0 0 0 8px rgba(47,211,107,0)}}
+  .p-chip{position:absolute;z-index:2;display:flex;align-items:center;gap:10px;background:rgba(20,20,22,.78);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:10px 14px 10px 10px;box-shadow:0 20px 40px -16px rgba(0,0,0,.9);animation:pfloat 6s ease-in-out infinite}
+  .p-chip img{width:38px;height:38px;border-radius:10px;object-fit:cover}
+  .p-chip b{display:block;font:italic 20px/1 var(--p-display);color:var(--p-gold)}
+  .p-chip small{display:block;font-size:11.5px;color:var(--p-mute);margin-top:3px}
+  .p-chip.c1{left:-26px;top:16%}
+  .p-chip.c2{right:-22px;top:48%;animation-delay:-3s}
+  @keyframes pfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+
+  /* marquee */
+  .p-strip{border-block:1px solid var(--p-line);padding-block:18px;overflow:hidden;background:var(--p-ink2)}
+  .p-track{display:flex;gap:48px;width:max-content;animation:pmq 38s linear infinite}
+  .p-track span{font:italic 22px/1 var(--p-display);text-transform:uppercase;white-space:nowrap;display:flex;gap:48px;align-items:center}
+  .p-track span::after{content:"";width:8px;height:8px;background:var(--p-red);transform:rotate(45deg)}
+  .p-track b{color:var(--p-gold);font-weight:400}
+  @keyframes pmq{to{transform:translateX(-50%)}}
+
+  /* story */
+  .p-story{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+  .p-story>*{min-width:0}
+  .p-quote{font:italic clamp(30px,4.4vw,46px)/1.06 var(--p-display);text-transform:uppercase;margin:22px 0}
+  .p-quote em{color:var(--p-gold);font-style:inherit}
+  .p-story .p-lede+.p-lede{margin-top:12px}
+  .p-scale{background:var(--p-ink2);border:1px solid var(--p-line);border-radius:28px;padding:32px 28px}
+  .p-num{font:italic clamp(110px,20vw,190px)/.85 var(--p-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums;display:flex;align-items:baseline;gap:10px}
+  .p-num small{font:500 16px var(--p-mono);letter-spacing:.1em;color:var(--p-mute);font-style:normal}
+  .p-kgbar{height:6px;border-radius:6px;background:var(--p-ink3);margin-top:14px;overflow:hidden}
+  .p-kgbar i{display:block;height:100%;background:linear-gradient(90deg,var(--p-red),var(--p-gold));transform-origin:left;transition:transform 2s var(--p-ease)}
+  .js-on .p-kgbar i{transform:scaleX(.02)}
+  .js-on .p-scale.in .p-kgbar i{transform:none}
+  .p-steps-kg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:22px;font:500 12px var(--p-mono);color:var(--p-mute);letter-spacing:.04em}
+  .p-steps-kg b{display:block;color:var(--p-paper);font:italic 26px/1.1 var(--p-display)}
+  .p-steps-kg>:last-child{text-align:right}
+  .p-cmp{position:relative;margin-top:22px;border-radius:18px;overflow:hidden;aspect-ratio:1;user-select:none;touch-action:pan-y;--p:50%}
+  .p-cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+  .p-cmp .after{clip-path:inset(0 0 0 var(--p))}
+  .p-cmp .cover{position:absolute;left:0;right:0;top:72%;height:22%;background:#000;display:grid;place-items:center;font:italic 22px/1 var(--p-display);color:var(--p-gold);pointer-events:none}
+  .p-cmp .handle{position:absolute;top:0;bottom:0;left:var(--p);width:2px;background:var(--p-paper);transform:translateX(-1px);pointer-events:none}
+  .p-cmp .handle::after{content:"";position:absolute;top:50%;left:50%;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%;background:var(--p-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230b0b0c' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l-5 6 5 6M15 6l5 6-5 6'/%3E%3C/svg%3E") center/20px no-repeat;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+  .p-cmp .tg{position:absolute;top:12px;font:500 10.5px var(--p-mono);letter-spacing:.12em;text-transform:uppercase;background:rgba(11,11,12,.7);padding:5px 8px;border-radius:999px;pointer-events:none}
+  .p-cmp .tg.l{left:12px}.p-cmp .tg.r{right:12px}
+  .p-cmp input{position:absolute;inset:0;opacity:0;cursor:ew-resize;width:100%;height:100%;margin:0}
+  .p-cmp:has(input:focus-visible){outline:2px solid var(--p-gold);outline-offset:3px}
+
+  /* usual diet vs ours */
+  .p-switch{display:inline-flex;background:var(--p-ink2);border:1px solid var(--p-line);border-radius:999px;padding:4px;position:relative;max-width:100%;margin-top:28px}
+  .p-switch button{all:unset;cursor:pointer;position:relative;z-index:1;padding:12px 20px;font:700 14px var(--p-body);border-radius:999px;color:var(--p-mute);transition:color .4s;white-space:nowrap}
+  .p-switch button[aria-pressed="true"]{color:var(--p-ink)}
+  .p-switch .pill{position:absolute;top:4px;bottom:4px;left:4px;border-radius:999px;background:var(--p-paper);transition:transform .55s var(--p-ease),width .55s var(--p-ease),background .4s}
+  .p-switch.us .pill{background:var(--p-gold)}
+  .p-vs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+  .p-vs>div{background:var(--p-ink2);border:1px solid var(--p-line);border-radius:18px;padding:20px;display:grid;gap:8px;transition:border-color .5s}
+  .p-vs .k{font:500 11px var(--p-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--p-mute)}
+  .p-vs .v{font-weight:700;font-size:17px;line-height:1.35;transition:opacity .25s,transform .4s var(--p-ease)}
+  .p-vs .v.swap{opacity:0;transform:translateY(8px)}
+  .p-vs .v.bad{color:#ff6b6b}
+  .p-vs.us>div{border-color:rgba(255,210,0,.35)}
+
+  /* big outline strip */
+  .p-outline{overflow:hidden}
+  .p-outline .row{display:flex;width:max-content;animation:pmq 50s linear infinite reverse}
+  .p-outline span{font:italic clamp(64px,12vw,150px)/1 var(--p-display);text-transform:uppercase;color:transparent;-webkit-text-stroke:1px #34343a;padding-right:40px;white-space:nowrap}
+  .p-outline span b{color:var(--p-red);-webkit-text-stroke:0;font-weight:400}
+
+  /* how it works */
+  .p-how{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+  .p-how article{background:var(--p-ink2);border:1px solid var(--p-line);border-radius:22px;padding:28px 24px 26px;display:grid;gap:12px;align-content:start;transition:transform .5s var(--p-ease),border-color .5s,background .5s}
+  .p-how .n{font:500 12px var(--p-mono);color:var(--p-gold);letter-spacing:.14em}
+  .p-how h3{font:800 20px/1.25 var(--p-body)}
+  .p-how p{color:var(--p-mute);font-size:15px}
+  @media (hover:hover){.p-how article:hover{transform:translateY(-6px);border-color:#3a3a40;background:var(--p-ink3)}}
+  .spot{position:relative}
+  .spot::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .4s;background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(255,210,0,.10),transparent 45%)}
+  @media (hover:hover){.spot:hover::after{opacity:1}}
+
+  /* results rail (posters from TESTIMONIALS) */
+  .p-head-row{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+  .p-arrows{display:flex;gap:8px}
+  .p-icon{all:unset;cursor:pointer;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--p-line);transition:background .3s,border-color .3s,transform .2s}
+  .p-icon:active{transform:scale(.92)}
+  .p-icon svg{width:16px;height:16px}
+  @media (hover:hover){.p-icon:hover{background:var(--p-paper);color:var(--p-ink);border-color:var(--p-paper)}}
+  .p-rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:28px max(20px,calc((100vw - 1080px)/2 + 20px)) 14px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .p-rail::-webkit-scrollbar{display:none}
+  .p-rail .tcard{flex:0 0 auto;width:min(68vw,280px);aspect-ratio:9/16;padding:0;margin:0;border-radius:20px;overflow:hidden;background:#000;border:1px solid var(--p-line);scroll-snap-align:start;transition:transform .6s var(--p-ease)}
+  .p-rail .tcard img{width:100%;height:100%;aspect-ratio:9/16;object-fit:cover;margin:0;border-radius:0;transition:transform 1.2s var(--p-ease)}
+  @media (hover:hover){.p-rail .tcard:hover img{transform:scale(1.04)}}
+  .p-dots{display:flex;gap:6px;flex-wrap:wrap}
+  .p-dots i{width:18px;height:3px;border-radius:3px;background:var(--p-line)}
+  .p-dots i.on{background:var(--p-gold)}
+
+  /* kit */
+  .kit-steps{gap:12px;margin-top:30px}
+  .kit-steps a{background:var(--p-ink2);border:1px solid var(--p-line);border-radius:20px;padding:18px;color:var(--p-mute);transition:transform .45s var(--p-ease),border-color .4s}
+  .kit-steps strong{color:var(--p-paper)}
+  .kit-steps i{background:var(--p-ink3);color:var(--p-gold);border:1px solid var(--p-line);font-family:var(--p-mono);font-weight:500}
+  .kit-steps a.done i{background:var(--p-gold);color:var(--p-ink)}
+  @media (hover:hover){.kit-steps a:hover{transform:translateY(-4px);border-color:#3a3a40}}
+  .kit .p-ctas{margin-top:26px}
+
+  /* every white card becomes a dark card: re-point the old tokens inside them */
+  .card,.calc,.offer,.cc,details,.up-card,.up-day,.up-more,.c-next{--ink:#f4f2ee;--line:#2e2e33;--bg:#1c1c1f;--tint:#1c1c1f;--muted:#a3a09a;color:var(--p-paper)}
+  .card,.calc,.offer,.cc{background:var(--p-ink2);border:1px solid var(--p-line);border-radius:24px;box-shadow:0 30px 60px -30px rgba(0,0,0,.8)}
+  .quiz-zone{background:transparent}
+  .calc{padding:26px 22px}
+  .calc .tnote{color:var(--p-mute)}
+  input[type=text],.calc input[type=number],.calc select,.up-hard{background:var(--p-ink3);color:var(--p-paper);border:1.5px solid var(--p-line);border-radius:12px}
+  input[type=text]:focus,.calc input:focus,.calc select:focus{border-color:var(--p-gold)}
+  .seg button,.opt,.up-times button,.coachpick button,.btn.jump,.up-card,.up-day,.up-more{background:var(--p-ink3);color:var(--p-paper);border-color:var(--p-line)}
+  .seg button,.opt,.coachpick button{border-radius:14px;transition:border-color .3s,background .3s,transform .2s}
+  .opt:active,.seg button:active{transform:scale(.98)}
+  .seg button.sel,.coachpick button.sel,.up-times button.sel{background:var(--p-gold);color:var(--p-ink);border-color:var(--p-gold)}
+  .opt.sel{background:#2a2410;border-color:var(--p-gold)}
+  .opt:hover,.seg button:hover{border-color:#4a4a50}
+  .btn.ghost{color:var(--p-paper);border-color:var(--p-paper);background:transparent}
+  .btn.ghost:hover{background:var(--p-paper);color:var(--p-ink)}
+  .btn.jump{border:1.5px solid var(--p-line)}
+  .btn.off{background:var(--p-ink3);color:var(--p-mute);border-color:#555}
+  .gauge i{background:var(--p-ink);border-color:var(--p-paper)}
+  .coach-note{background:#2a2410;color:var(--p-paper)}
+  .doc-box{background:#2a2410;color:var(--p-paper)}
+  .steps li::before{background:var(--p-ink3);border:1px solid var(--p-line)}
+  .card h1 em{background:none;color:var(--p-gold)}
+  .badge{border-radius:999px;transform:none}
+  .phase{border-radius:999px;transform:none}
+  .meta-s,.pdpa,.disclaimer,p.lead{color:var(--p-mute)}
+  .c-big b{color:var(--p-gold)}
+
+  /* program card: the coaching offer gets the moving gold border */
+  .offers{gap:16px;margin-top:40px}
+  .offer{padding:28px 24px}
+  .offer.p-gold{position:relative;border:0;padding:2px;background:linear-gradient(140deg,var(--p-gold),#6b5a00 30%,var(--p-line) 55%,var(--p-red));overflow:hidden}
+  .offer.p-gold::before{content:"";position:absolute;inset:-60%;background:conic-gradient(from 0deg,transparent 0 70%,rgba(255,210,0,.7) 80%,transparent 90%);animation:pspin 7s linear infinite}
+  @keyframes pspin{to{transform:rotate(360deg)}}
+  .offer.p-gold>.p-gold-in{position:relative;background:linear-gradient(180deg,#151517,#0e0e10);border-radius:22px;padding:28px 24px}
+  .otag{background:var(--p-ink3);border:1px solid var(--p-line);color:var(--p-gold);font:500 11px var(--p-mono);letter-spacing:.12em}
+  .offer h3{font:italic 30px/1 var(--p-display);text-transform:uppercase;margin:6px 0 10px}
+  .offer>p,.p-gold-in>p{color:var(--p-mute)}
+  .checks li::before{content:"";display:inline-block;width:18px;height:18px;margin-right:10px;vertical-align:-3px;border-radius:50%;background:rgba(255,210,0,.12) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffd200' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center/10px no-repeat}
+  .oprice{font:italic clamp(46px,7vw,64px)/1 var(--p-display);color:var(--p-paper);text-transform:uppercase}
+  .oprice small{font:600 13px var(--p-body);text-transform:none;color:var(--p-gold);margin-top:8px}
+  .slots span{background:var(--p-ink3);border:1px solid var(--p-line)}
+  .addr,.from,.oterms{color:var(--p-mute)}
+  .offer .btn{border-radius:999px}
+
+  /* coaches */
+  .coach-intro{grid-template-columns:1fr}
+  .couple{display:none}
+  .coaches{gap:14px}
+  .cc .body{padding:22px}
+  .cc .role{color:var(--p-gold);font:500 11px var(--p-mono);letter-spacing:.12em;text-transform:uppercase}
+  .cc h3{font:italic 28px/1 var(--p-display);text-transform:uppercase}
+  .cc blockquote{color:var(--p-paper);border-left-color:var(--p-gold)}
+  .avatar{border:0;border-radius:16px;width:64px;height:64px}
+  .ba-stats{background:var(--p-ink3);border-bottom:1px solid var(--p-line)}
+  .ba.one{background:#000}
+
+  /* faq */
+  .faq{display:grid;gap:10px;max-width:780px;margin-top:36px}
+  .faq details{background:var(--p-ink2);border:1px solid var(--p-line);border-radius:18px;margin:0;padding:0 22px;transition:border-color .3s}
+  .faq details[open]{border-color:#3a3a40}
+  .faq summary{padding:20px 0;font-size:16.5px;align-items:center}
+  .faq summary::after{content:"";flex:none;width:28px;height:28px;border-radius:50%;border:1px solid var(--p-line);background:linear-gradient(var(--p-paper),var(--p-paper)) center/11px 1.5px no-repeat,linear-gradient(var(--p-paper),var(--p-paper)) center/1.5px 11px no-repeat;transition:transform .45s var(--p-ease),background-color .3s}
+  .faq details[open] summary::after{content:"";transform:rotate(45deg);background-color:var(--p-red);border-color:var(--p-red)}
+  .faq details p{color:var(--p-mute);padding-bottom:22px;max-width:64ch}
+  .faq details[open] p{animation:fade .45s var(--p-ease)}
+
+  /* final */
+  .p-final{position:relative;overflow:hidden;border-top:1px solid var(--p-line)}
+  .p-final::before{content:"";position:absolute;inset:auto -20% -60% -20%;height:520px;background:radial-gradient(closest-side,rgba(227,6,19,.35),transparent);pointer-events:none}
+  .p-final .p-h2{font-size:clamp(46px,9vw,104px);max-width:12ch;position:relative}
+  .p-final .p-h2 em{color:var(--p-gold);font-style:inherit}
+  .p-final .p-ctas{margin-top:30px;position:relative}
+  .p-final .p-note{position:relative}
+  footer{background:var(--p-ink);border-top:1px solid var(--p-line)}
+
+  /* floats */
+  .wa-float{border-radius:999px;box-shadow:0 14px 30px -10px rgba(37,211,102,.6)}
+  .as-float{border-radius:999px!important;background:var(--p-red)!important;box-shadow:0 14px 30px -10px rgba(227,6,19,.8);overflow:hidden;isolation:isolate}
+  .as-float::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.4) 50%,transparent 70%);transform:translateX(-120%);animation:pshine 4.5s var(--p-ease) infinite 1.2s}
+
+  @media (max-width:860px){
+    .p-hero-grid,.p-story{grid-template-columns:1fr}
+    .p-how,.p-vs{grid-template-columns:1fr}
+    .p-photo{aspect-ratio:4/3.6}
+    .p-photo figcaption{flex-direction:column;align-items:flex-start}
+    .p-hero{padding-top:18px}
+    .p-ctas .pbtn{width:100%}
+    .p-chip.c1{left:10px;top:12px}.p-chip.c2{right:10px;top:auto;bottom:86px}
+    .p-chip{padding:8px 12px 8px 8px}.p-chip img{width:32px;height:32px}.p-chip b{font-size:17px}
+    .p-switch button{padding:11px 14px;font-size:13px}
+  }
+  @media (max-width:420px){.pbtn{font-size:15px;padding:0 18px}}
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    .js-on .rv{opacity:1;transform:none}
+    .js-on .p-kgbar i{transform:none}
+  }
 </style>
 </head>
 <body>
@@ -494,59 +789,99 @@
 </header>
 
 <main id="top">
-  <!-- STORY 1: hero (flow). Thesis at poster scale, the body assessment button usable on landing -->
-  <section class="sx sx-hero" id="sx-hero" data-sc-act="flow">
-    <svg class="sx-plane sx-neq" viewBox="0 0 100 100" aria-hidden="true"><path d="M8 30h84v12H8zM8 58h84v12H8zM60 4l11 4-31 88-11-4z"/></svg>
-    <div class="sx-plane sx-bars" aria-hidden="true"><i></i><i></i></div>
+  <!-- HERO: the thesis, the free assessment button usable on landing -->
+  <section class="p-hero" id="sx-hero">
+    <div class="container p-hero-grid">
+      <div>
+        <p class="p-eyebrow" data-t="heroKicker"></p>
+        <h1 class="p-h1" data-t="heroH"></h1>
+        <p class="p-lede" data-t="heroSub"></p>
+        <div class="p-ctas">
+          <a class="pbtn pbtn-main assess" target="_blank" rel="noopener"><span data-t="assessBtnS"></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a>
+          <a class="pbtn pbtn-ghost" href="#kit"><span data-t="heroKitBtn"></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a>
+        </div>
+        <p class="p-note" data-t="assessNote"></p>
+        <div class="p-ticks" data-t="heroTicks"></div>
+        <a class="p-zara" href="#zara" data-t="heroZara"></a>
+      </div>
+      <div class="p-photo-wrap rv">
+        <div class="p-chip c1"><img src="img/t-eka.jpg" alt="" width="38" height="38"><div><b>−21 kg</b><small data-t="chip1"></small></div></div>
+        <div class="p-chip c2"><img src="img/t-alya.jpg" alt="" width="38" height="38" style="object-position:50% 30%"><div><b>−17 kg</b><small>Alya · 102 → 85 kg</small></div></div>
+        <figure class="p-photo" id="p-photo">
+          <img src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200">
+          <figcaption><div><b>Kimi &amp; Zara</b><small data-t="heroPhotoCap"></small></div><span class="p-live"><i></i><span data-t="heroLive"></span></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="p-strip" aria-hidden="true"><div class="p-track" id="p-track">
+    <span>Eka <b>75 → 54 kg</b></span><span>Alya <b>102 → 85 kg</b></span><span data-t="stripTeam"></span><span><b>68 → 57 kg</b></span><span>Coach Kimi <b>84 → 70 kg</b></span><span>Coach Zara <b>56 → 47 kg</b></span><span data-t="stripRice"></span>
+  </div></div>
+
+  <!-- STORY: Kimi 84 -> 60 (skinny fat) -> 70 kg -->
+  <section class="p-sec" id="sx-scale">
+    <div class="container p-story">
+      <div class="rv">
+        <p class="p-eyebrow" data-t="sxLabel"></p>
+        <p class="p-quote" data-t="storyQ"></p>
+        <p class="p-lede" data-t="sx3"></p>
+        <p class="p-lede" data-t="sx4"></p>
+      </div>
+      <div class="p-scale rv" id="p-scale">
+        <div class="p-num"><span id="p-kg">70</span><small>KG</small></div>
+        <div class="p-kgbar"><i></i></div>
+        <div class="p-steps-kg"><div><b>84</b><span data-t="kgStart"></span></div><div><b>60</b>skinny fat</div><div><b>70</b><span data-t="kgNow"></span></div></div>
+        <div class="p-cmp" id="p-cmp">
+          <img src="img/kimi-before.jpg" alt="Coach Kimi at 60 kg, skinny fat" width="600" height="600" loading="lazy">
+          <span class="cover">60 KG · SKINNY FAT</span>
+          <img class="after" src="img/kimi-after.jpg" alt="Coach Kimi now, deadlifting" width="600" height="600" loading="lazy">
+          <span class="tg l" data-t="kgBefore"></span><span class="tg r" data-t="kgNow2"></span>
+          <span class="handle"></span>
+          <input type="range" id="p-cmp-range" min="0" max="100" value="50" aria-label="Before and after">
+        </div>
+        <p class="p-fine" data-t="coachNote"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- USUAL DIET vs OUR WAY -->
+  <section class="p-sec" id="p-vs-sec" style="padding-top:0">
     <div class="container">
-      <p class="sx-kick" data-t="heroKicker"></p>
-      <h1 class="display sx-h1" data-t="heroH"></h1>
-      <p class="sx-sub" data-t="heroSub"></p>
-      <div class="ticks-hero" data-t="heroTicks"></div>
-      <div class="hero-ctas">
-        <a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a>
-        <p class="price-s" data-t="assessNote" style="opacity:.9;font-size:14px;margin-top:0;flex-basis:100%"></p>
-        <a class="quiz-link" href="#kit" data-t="heroQuizLink"></a>
-        <a class="quiz-link" href="#zara" data-t="heroZara" style="flex-basis:100%;font-weight:600;font-size:14px"></a>
+      <div class="rv"><p class="p-eyebrow" data-t="vsEyebrow"></p><h2 class="p-h2" data-t="vsH"></h2></div>
+      <div class="p-switch" id="p-switch" role="group" aria-label="Compare"><span class="pill" id="p-pill"></span>
+        <button type="button" id="p-vs-a" aria-pressed="true" data-t="vsA"></button>
+        <button type="button" id="p-vs-b" aria-pressed="false" data-t="vsB"></button>
       </div>
-      <p class="price-s" data-t="priceLine"></p>
+      <div class="p-vs" id="p-vs"></div>
     </div>
   </section>
 
-  <!-- STORY 2 (peak): pin. The scale falls 84 to 60, then climbs to 70 and that is the good ending -->
-  <section class="sx" id="sx-scale" data-sc-act="pin" data-sc-span="3">
-    <div data-sc-stage>
-      <figure class="sx-ph">
-        <img src="img/kimi-before.jpg" data-sc-cue="0.26 0.62 0.15 0.06" alt="Coach Kimi at 60 kg, skinny fat" width="600" height="600" loading="lazy">
-        <img src="img/kimi-after.jpg" data-sc-cue="0.62 1 0.06 0" alt="Coach Kimi now, deadlifting" width="600" height="600" loading="lazy">
-      </figure>
-      <div class="sx-st">
-        <p class="sx-label" data-t="sxLabel"></p>
-        <div class="sx-read">
-          <div class="sx-nums">
-            <span data-sc-cue="0 0.64 0 0.03" data-sc-count="84 60" data-sc-count-at="0.12 0.3">84</span>
-            <span class="sx-num--up" data-sc-cue="0.62 1 0.04 0" data-sc-count="60 70" data-sc-count-at="0.62 0.68">60</span>
-          </div>
-          <span class="sx-kg">KG</span>
-        </div>
-        <div class="sx-caps">
-          <p class="sx-cap" data-sc-cue="0 0.32 0 0.1"><span data-t="sx1"></span> <span data-t="sx2"></span></p>
-          <p class="sx-cap" data-sc-cue="0.32 0.62 0.1 0.1" data-t="sx3"></p>
-          <div class="sx-cap" data-sc-cue="0.62 1 0.08 0"><p class="display sx-turn" data-t="kimiHead"></p><p data-t="sx4"></p><p class="sx-vary" data-t="coachNote"></p></div>
-        </div>
+  <div class="p-outline" aria-hidden="true"><div class="row"><span>We do <b>transformations</b></span><span>We do <b>transformations</b></span></div></div>
+
+  <!-- HOW IT WORKS: a real sequence -->
+  <section class="p-sec" id="p-how">
+    <div class="container">
+      <div class="rv"><p class="p-eyebrow" data-t="howEyebrow"></p><h2 class="p-h2" data-t="howH"></h2></div>
+      <div class="p-how">
+        <article class="spot rv"><span class="n">01</span><h3 data-t="how1H"></h3><p data-t="how1P"></p></article>
+        <article class="spot rv"><span class="n">02</span><h3 data-t="how2H"></h3><p data-t="how2P"></p></article>
+        <article class="spot rv"><span class="n">03</span><h3 data-t="how3H"></h3><p data-t="how3P"></p></article>
       </div>
     </div>
   </section>
 
-  <!-- STORY 3: pan. Real client posters travel sideways (same list and posters as before) -->
-  <section class="sx" id="testimonials" data-sc-act="pan" data-sc-span="3">
-    <div data-sc-stage>
-      <div class="sx-pan">
-        <div class="container"><h2 class="display sx-h2" data-t="testiH"></h2><p class="sx-pan__p" data-t="sxProofP"></p></div>
-        <div class="sx-rail" id="tgrid" data-sc-pan="0.04"></div>
-        <p class="container sx-pan__note" data-t="testiNote"></p>
+  <!-- RESULTS: the same posters as before, in a swipe rail -->
+  <section class="p-sec" id="testimonials" style="padding-top:0">
+    <div class="container">
+      <div class="p-head-row rv">
+        <div><p class="p-eyebrow" data-t="resEyebrow"></p><h2 class="p-h2" data-t="testiH"></h2></div>
+        <div class="p-arrows"><button class="p-icon" id="p-prev" type="button" aria-label="Previous"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 8H3M7 4L3 8l4 4"/></svg></button><button class="p-icon" id="p-next" type="button" aria-label="Next"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button></div>
       </div>
+      <p class="p-lede" data-t="sxProofP" style="margin-top:14px;font-size:14px"></p>
     </div>
+    <div class="p-rail" id="tgrid"></div>
+    <div class="container"><div class="p-dots" id="p-dots"></div><p class="p-fine" data-t="testiNote"></p></div>
   </section>
 
   <!-- DAY 7 CHECK-IN: opened from the PDF tracker (#hari7) or from day 7 after the PDF download -->
@@ -572,8 +907,8 @@
   </section>
 
   <!-- FREE STARTER KIT: 3 free steps; ticks are saved in this browser only -->
-  <section class="sx kit" id="kit" data-sc-act="flow">
-    <div class="container" data-sc-in data-sc-stagger="80">
+  <section class="sx kit" id="kit">
+    <div class="container" data-sc-in>
       <div class="eyebrow" data-t="kitEyebrow"></div>
       <h2 class="title display" data-t="kitH"></h2>
       <div class="kit-steps">
@@ -583,12 +918,11 @@
       </div>
       <p class="kit-note" id="kit-note"></p>
     </div>
-    <div class="container"><div class="hero-ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div></div>
+    <div class="container"><div class="p-ctas"><a class="pbtn pbtn-main assess" target="_blank" rel="noopener"><span data-t="assessBtnS"></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></div></div>
   </section>
 
   <!-- QUIZ -->
-  <section class="quiz-zone fold" id="quiz-zone" data-sc-act="flow">
-    <svg class="sx-plane sx-qmark" viewBox="0 0 60 100" aria-hidden="true" data-sc-parallax="-2.4"><text x="2" y="92">?</text></svg>
+  <section class="quiz-zone fold" id="quiz-zone">
     <div class="container">
       <div class="wrap">
         <div class="card fade" id="intro">
@@ -682,8 +1016,8 @@
   </section>
 
   <!-- MEAL CALCULATOR: daily calorie range, protein and the free 8-page meal plan PDF (Kit Mula 7 Hari) -->
-  <section class="block fold" id="kalori" data-sc-act="flow">
-    <div class="container" data-sc-in data-sc-stagger="90">
+  <section class="block fold" id="kalori">
+    <div class="container" data-sc-in>
       <div class="eyebrow" data-t="calEyebrow"></div>
       <h2 class="title display" data-t="calH"></h2>
       <p class="lede" data-t="calLede"></p>
@@ -719,27 +1053,14 @@
 
   <!-- TESTIMONIALS moved up into the story (#testimonials pan act) -->
 
-  <!-- PRICE: pin. The starting price holds on screen (ground), the terms build up under it -->
-  <section class="sx sx-price" data-sc-act="pin" data-sc-span="1.6">
-    <div data-sc-stage>
-      <div class="sx-c">
-        <p class="sx-label" data-sc-cue="0 1 0 0" data-t="sxP1"></p>
-        <p class="sx-big"><span>RM</span>259</p>
-        <p class="sx-line" data-sc-cue="0.28 1 0.15 0" data-t="sxP2"></p>
-        <p class="sx-line" data-sc-cue="0.46 1 0.15 0" style="font-weight:500;color:#C9C6C0" data-t="sxP3"></p>
-        <p class="sx-line" data-sc-cue="0.6 1 0.15 0" style="font-weight:600;color:#FFD200;font-size:clamp(15px,2.2vw,20px)" data-t="sxP4"></p>
-      </div>
-    </div>
-  </section>
-
   <!-- OPTIONS -->
-  <section class="block" id="pilihan" data-sc-act="flow">
-    <div class="container" data-sc-in data-sc-stagger="90">
+  <section class="block" id="pilihan">
+    <div class="container" data-sc-in>
       <div class="eyebrow" data-t="offEyebrow"></div>
       <h2 class="title display" data-t="offH"></h2>
       <p class="lede" data-t="offLede"></p>
       <div class="offers">
-        <article class="offer">
+        <article class="offer p-gold"><div class="p-gold-in">
           <span class="otag" data-t="o1Tag"></span>
           <h3 data-t="o1H"></h3>
           <p data-t="o1P"></p>
@@ -748,7 +1069,7 @@
           <div class="oprice" data-t="o1Price"></div>
           <p class="oterms" data-t="terms"></p>
           <a class="btn assess" target="_blank" rel="noopener" data-t="o1Btn"></a>
-        </article>
+        </div></article>
         <article class="offer ladies" id="ladies">
           <span class="otag" data-t="o2Tag"></span>
           <h3>Private Ladies Workout</h3>
@@ -764,7 +1085,7 @@
   </section>
 
   <!-- COACHES -->
-  <section class="block" id="coaches" data-sc-act="flow">
+  <section class="block" id="coaches">
     <div class="container">
       <div class="coach-intro">
         <div>
@@ -772,17 +1093,17 @@
           <h2 class="title display" data-t="coachH"></h2>
           <p class="lede" data-t="coachLede"></p>
         </div>
-        <img class="couple" data-sc-reveal="up" data-sc-reveal-at="0.04 0.26" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
+        <img class="couple" src="img/kimi-zara.jpg" alt="Coach Kimi and Coach Zara" width="800" height="1200" loading="lazy">
       </div>
       <div class="coaches">
-        <article class="cc" data-sc-tilt="3">
+        <article class="cc">
           <div class="body">
             <div class="who-row"><img class="avatar" src="img/kimi.jpg" alt="" width="160" height="240" loading="lazy"><div><h3>Coach Kimi</h3>
             <div class="role" data-t="kimiRole"></div></div></div>
             <blockquote><p data-t="kimiP1"></p></blockquote>
           </div>
         </article>
-        <article class="cc" id="zara" data-sc-tilt="3">
+        <article class="cc" id="zara">
           <div class="ba one"><figure><img src="img/zara-ba.jpg" alt="Coach Zara at 35 weeks pregnant and 55 days after giving birth" width="675" height="1200" loading="lazy"></figure></div>
           <div class="ba-stats"><div><b>56 → 47 KG</b><span data-t="zaraCard"></span></div></div>
           <div class="body">
@@ -797,23 +1118,23 @@
   </section>
 
   <!-- FAQ -->
-  <section class="block" data-sc-act="flow">
-    <div class="container" data-sc-in data-sc-stagger="90">
+  <section class="block">
+    <div class="container" data-sc-in>
       <div class="eyebrow">FAQ</div>
       <h2 class="title display" data-t="faqH"></h2>
       <div class="faq" id="faq"></div>
     </div>
   </section>
 
-  <!-- FINAL: pin. The page stops on the button and holds -->
-  <section class="sx sx-final" data-sc-act="pin" data-sc-span="1.3">
-    <div data-sc-stage>
-      <div class="sx-final__wrap">
-        <div class="sx-final__in" data-sc-cue="0 1 0 0">
-          <h2 class="display" data-t="finalH"></h2>
-          <div class="ctas"><a class="big assess" target="_blank" rel="noopener"><span data-t="assessBtn"></span></a></div>
-          <p class="price-s" data-t="priceLine"></p>
-        </div>
+  <!-- FINAL: one more chance to start, then the footer -->
+  <section class="p-sec p-final" id="final">
+    <div class="container">
+      <p class="p-eyebrow rv" data-t="finalEyebrow"></p>
+      <h2 class="p-h2 rv" data-t="finalH"></h2>
+      <p class="p-lede rv" data-t="finalP" style="margin-top:18px"></p>
+      <div class="p-ctas rv"><a class="pbtn pbtn-main assess" target="_blank" rel="noopener"><span data-t="assessBtnS"></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a></div>
+      <p class="p-note" data-t="priceLine"></p>
+    </div>
         <footer>
         <div class="container">
           <div class="hash">#WEDOTRANSFORMATIONS</div>
@@ -839,8 +1160,6 @@
           <p class="fine" data-t="footFine"></p>
         </div>
       </footer>
-      </div>
-    </div>
   </section>
 </main>
 <a class="wa-float wa-link" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg><span>WhatsApp</span></a>
@@ -949,10 +1268,10 @@ const TXT = {
     calAssess:"or do the free online body assessment first →",
     navCta:"Free body assessment",
     heroKicker:"Free online body assessment",
-    heroH:"Losing weight isn't the same as losing fat. <em>Check your body first, for free.</em>",
-    heroSub:"Start with our free online body assessment and find out where you stand and what to fix first. No crash diet, no 2-hour gym, and you can still eat rice.",
+    heroH:"Losing weight isn't the same as <em>losing fat.</em>",
+    heroSub:"Check your body first, for free. Find out where you stand and what to fix first. No crash diet, no 2-hour gym, and you can still eat rice.",
     waText:"or WhatsApp us first",
-    heroTicks:"<span>✓ No crash diet</span><span>✓ Still eat rice</span><span>✓ Male &amp; female coach</span>",
+    heroTicks:"<span>No crash diet</span><span>Still eat rice</span><span>Male &amp; female coach</span>",
     offEyebrow:"Start here",
     offH:"Pick what suits you",
     offLede:"Want online coaching from home, or a ladies-only class in person? Both work.",
@@ -970,7 +1289,7 @@ const TXT = {
     heroBtn:"Start the free quiz →",
     priceLine:"Programs start from RM259 a month, supplements included.",
     assessNote:"Fill in a free form on the WeDoTransformations website (our team), then Coach Kimi, or Coach Zara for women, contacts you within 1 hour (8am to 10pm) to explain your result. No pressure.",
-    assessBtn:"Free Online Body Assessment →", heroZara:"Prefer a female coach? Meet Coach Zara ↓", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
+    assessBtn:"Free Online Body Assessment →", heroZara:"Prefer a female coach? Meet Coach Zara", heroQuizLink:"or try the free 7-Day Starter Kit (quiz + meal plan) ↓",
     waShort:"💬 WhatsApp us",
     stat1:"realistic first goal", stat2:"free quiz", stat3:"coaches, male and female",
     howEyebrow:"How it works",
@@ -1019,7 +1338,19 @@ const TXT = {
       ["What happens in the first month?","Week 1: your coach goes through your habits and food, sets your calories and protein, and gives you a meal and workout plan that fits your schedule. Every week: a check-in on your weight, measurements and how the week went, and the plan is adjusted. Every day: you can WhatsApp your coach with questions (what to order, missed a workout, a bad day) and get a reply within 1 hour (8am to 10pm)."],
       ["What if it doesn't work for me?","If your weight hasn't moved after 2 weeks, we look at what isn't working together and change the plan. We don't blame you. If something doesn't fit your life (work, family, food you love), tell your coach at the weekly check-in and the plan is changed with you. Most people who struggle just need a smaller first step, and that's your coach's job."]
     ],
-    finalH:"Know your body first. It's free.",
+    finalH:"Know your body first. <em>It's free.</em>",
+    assessBtnS:"Free body assessment", heroKitBtn:"Free 7-day starter kit", chip1:"Eka · still ate rice", heroPhotoCap:"Husband-and-wife online coaches · Malaysia", heroLive:"Replies 8am-10pm",
+    stripTeam:"Team client", stripRice:"Still eating rice",
+    storyQ:"I was 84 kg. Got down to 60 kg but <em>skinny fat</em>. Now 70 kg, and stronger.", kgStart:"Start", kgNow:"Now · 19% fat", kgBefore:"Before", kgNow2:"Now",
+    vsEyebrow:"Why this is different", vsH:"Usual diet vs <em>our way.</em>", vsA:"Usual diet", vsB:"The ARAMI way",
+    vsK:["Food","Rice","When hungry","Exercise","When stuck","After 3 months"],
+    vsAL:["Counting calories alone","Cut it out completely","Just hold on","1-2 hours at the gym","Give up","Weight comes back"],
+    vsBL:["Plan built on Malaysian food","Still fine, with the right portion","Protein + the right snacks","20-30 minutes at home","Coach adjusts that week's plan","Habits that last"],
+    howEyebrow:"How it works", howH:"3 steps. <em>No pressure.</em>",
+    how1H:"Free body check", how1P:"Fill in the online body assessment. Your coach looks at your body and habits.",
+    how2H:"15-30 minute call", how2P:"Talk about what's holding you back most and a plan that fits your work and budget.",
+    how3H:"Your coach, every week", how3P:"Weekly check-ins, daily questions on WhatsApp, and your plan adjusted to your progress.",
+    resEyebrow:"Real results", finalEyebrow:"First step", finalP:"It takes a few minutes. Your coach will reach out with the easiest first step for you.",
     footFine:"This site is for general wellness guidance only and is not medical advice. Results vary from person to person.",
     h1:"Busy, tired, and the weight <em>won't move?</em>",
     introLead:"Take the 2-minute “Why Can't I Lose Weight?” quiz. Ten quick questions show you which part of your routine is quietly holding your results back, and what to do next.",
@@ -1137,10 +1468,10 @@ const TXT = {
     calAssess:"atau buat online body assessment percuma dulu →",
     navCta:"Semak badan PERCUMA",
     heroKicker:"Online body assessment percuma",
-    heroH:"Turun berat tak sama dengan turun lemak. <em>Semak badan anda dulu, percuma.</em>",
-    heroSub:"Mula dengan online body assessment percuma: tahu keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Tanpa crash diet, tanpa gym 2 jam, masih boleh makan nasi.",
+    heroH:"Turun berat tak sama dengan <em>turun lemak.</em>",
+    heroSub:"Semak badan anda dulu, percuma. Tahu keadaan badan sekarang dan apa yang perlu dibaiki dulu. Tanpa crash diet, tanpa gym 2 jam, masih boleh makan nasi.",
     waText:"atau WhatsApp kami dulu",
-    heroTicks:"<span>✓ Tiada crash diet</span><span>✓ Boleh makan nasi</span><span>✓ Coach lelaki &amp; perempuan</span>",
+    heroTicks:"<span>Tiada crash diet</span><span>Boleh makan nasi</span><span>Coach lelaki &amp; perempuan</span>",
     offEyebrow:"Mula di sini",
     offH:"Pilih cara yang sesuai",
     offLede:"Nak coaching online dari rumah, atau kelas wanita sahaja secara bersemuka? Dua-dua boleh.",
@@ -1158,7 +1489,7 @@ const TXT = {
     heroBtn:"Mula kuiz percuma →",
     priceLine:"Program bermula dari RM259 sebulan, termasuk supplement.",
     assessNote:"Isi borang percuma di website WeDoTransformations (team kami), lepas tu Coach Kimi, atau Coach Zara untuk wanita, akan hubungi anda dalam masa 1 jam (8 pagi hingga 10 malam) untuk terangkan result. Tiada paksaan.",
-    assessBtn:"Online Body Assessment PERCUMA →", heroZara:"Lebih selesa dengan coach perempuan? Kenali Coach Zara ↓", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
+    assessBtn:"Online Body Assessment PERCUMA →", heroZara:"Lebih selesa dengan coach perempuan? Kenali Coach Zara", heroQuizLink:"atau cuba Kit Mula 7 Hari percuma (kuiz + meal plan) ↓",
     waShort:"💬 WhatsApp kami",
     stat1:"matlamat pertama yang realistik", stat2:"kuiz percuma", stat3:"coach, lelaki dan perempuan",
     howEyebrow:"Macam mana ia berfungsi",
@@ -1207,7 +1538,19 @@ const TXT = {
       ["Apa jadi dalam bulan pertama?","Minggu 1: coach semak tabiat dan makan anda, tetapkan kalori dan protein, dan bagi pelan makan dan senaman ikut jadual anda. Setiap minggu: check-in berat, ukuran dan macam mana minggu anda, dan pelan diubah ikut progress. Setiap hari: anda boleh WhatsApp coach bila ada soalan (nak order apa, terlepas senaman, hari yang teruk) dan dapat balasan dalam masa 1 jam (8 pagi hingga 10 malam)."],
       ["Kalau tak menjadi untuk saya macam mana?","Kalau berat tak bergerak selepas 2 minggu, kita semak bersama apa yang tak kena dan ubah pelan, bukan salahkan anda. Kalau ada yang tak sesuai dengan hidup anda (kerja, keluarga, makanan kegemaran), beritahu coach masa check-in mingguan dan pelan diubah bersama anda. Kebanyakan yang susah cuma perlukan langkah pertama yang lebih kecil, dan itu kerja coach."]
     ],
-    finalH:"Kenal badan anda dulu. Percuma.",
+    finalH:"Kenal badan anda dulu. <em>Percuma.</em>",
+    assessBtnS:"Semak badan PERCUMA", heroKitBtn:"Kit Mula 7 Hari percuma", chip1:"Eka · masih makan nasi", heroPhotoCap:"Pasangan coach online · Malaysia", heroLive:"Balas 8am-10pm",
+    stripTeam:"Klien team", stripRice:"Masih makan nasi",
+    storyQ:"Saya pernah 84 kg. Turun ke 60 kg tapi <em>skinny fat</em>. Sekarang 70 kg, lebih kuat.", kgStart:"Mula", kgNow:"Sekarang · 19% lemak", kgBefore:"Dulu", kgNow2:"Sekarang",
+    vsEyebrow:"Kenapa cara ni lain", vsH:"Diet biasa vs <em>cara kami.</em>", vsA:"Diet biasa", vsB:"Cara ARAMI",
+    vsK:["Makan","Nasi","Bila lapar","Senaman","Bila stuck","Lepas 3 bulan"],
+    vsAL:["Kira kalori sorang-sorang","Kena buang terus","Tahan je","Gym 1-2 jam","Give up","Naik balik"],
+    vsBL:["Pelan ikut makanan Malaysia","Masih boleh, ikut porsi","Protein + snek yang betul","20-30 minit di rumah","Coach laras pelan minggu tu","Tabiat kekal"],
+    howEyebrow:"Cara ia berjalan", howH:"3 langkah. <em>Tiada paksaan.</em>",
+    how1H:"Semak badan percuma", how1P:"Isi body assessment online. Coach tengok keadaan badan dan tabiat anda.",
+    how2H:"Call 15-30 minit", how2P:"Bincang apa yang paling menghalang anda dan pelan yang sesuai dengan kerja dan bajet.",
+    how3H:"Coach teman setiap minggu", how3P:"Check-in mingguan, soalan harian di WhatsApp, pelan dilaras ikut progress.",
+    resEyebrow:"Result sebenar", finalEyebrow:"Langkah pertama", finalP:"Ambil beberapa minit sahaja. Coach akan hubungi anda dengan langkah paling senang untuk mula.",
     footFine:"Laman ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result berbeza mengikut individu.",
     h1:"Sibuk, penat, tapi berat badan <em>tak turun-turun?</em>",
     introLead:"Jawab Kuiz “Kenapa Berat Tak Turun?” dalam 2 minit. Sepuluh soalan ringkas akan tunjuk bahagian mana dalam rutin harian anda yang diam-diam menghalang result, apa yang perlu dibaiki dulu, dan apa langkah seterusnya.",
@@ -1381,7 +1724,7 @@ function applyLang(){
   T = TXT[LANG];
   document.documentElement.lang = LANG;
   document.title = LANG==="ms" ? "Kenapa Berat Tak Turun? | Arami · Coach Kimi & Coach Zara" : "Why Can't I Lose Weight? | Arami · Coach Kimi & Coach Zara";
-  document.querySelectorAll("[data-t]").forEach(el => { el.innerHTML = T[el.dataset.t]; });
+  document.querySelectorAll("[data-t]").forEach(el => { if(T[el.dataset.t]!==undefined) el.innerHTML = T[el.dataset.t]; });
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===LANG));
   $("name").placeholder = T.namePh;
   waFloat();
@@ -1407,6 +1750,7 @@ function applyLang(){
   });
   if(view==="quiz") render();
   if(view==="result") showResult(true);
+  pLang();
 }
 function shareLink(gain){
   const msg = gain ? T.shareG : LANG==="ms" ? "Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak turun. Cuba la: " : "I just took this 2-minute quiz that shows why your weight won't budge. Try it: ";
@@ -1899,14 +2243,99 @@ if(QONLY){ document.body.classList.add("qonly"); openFold("quiz-zone"); }   // #
 window.addEventListener("load", ()=>document.documentElement.classList.add("loaded"));
 const onScreen = {};
 const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.id||e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -15% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe($("kalori")); floatObs.observe($("faq")); floatObs.observe($("pilihan")); floatObs.observe(document.querySelector(".sx-final"));
+floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe($("kalori")); floatObs.observe($("faq")); floatObs.observe($("pilihan")); floatObs.observe($("final"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; QUESTIONS = Q_LOSS; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });
 $("back").onclick = ()=>{ if(i>0){ i--; render(); } };
 $("retake").onclick = ()=>{ i=0; answers=[]; quizId=null; ctx={}; show("intro"); };
+
+// ===================== PREMIUM LAYER (25 Nov 2026) =====================
+// Reveal on scroll, button ripple/magnetic, 84 -> 70 count, before/after slider, diet-vs-us switch, results rail.
+// pLang() re-draws the parts that hold language text; applyLang() calls it.
+function pLang(){
+  const P = window.__p; if(!P) return;
+  P.drawVs(false);
+  P.dots();
+}
+(function(){
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const hover = matchMedia("(hover:hover)").matches;
+  document.documentElement.classList.add("js-on");
+  const tr = $("p-track"); tr.innerHTML += tr.innerHTML;
+
+  // reveal (content stays visible without JS; failsafe after 2.5 s)
+  const els = [...document.querySelectorAll(".rv")];
+  if(reduce || !("IntersectionObserver" in window)) els.forEach(e=>e.classList.add("in"));
+  else {
+    const io = new IntersectionObserver(es=>es.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); } }), {rootMargin:"0px 0px -8% 0px"});
+    els.forEach(e=>{ const sib = [...e.parentElement.children].filter(x=>x.classList.contains("rv")); e.style.transitionDelay = (sib.indexOf(e) % 3) * 90 + "ms"; io.observe(e); });
+    setTimeout(()=>els.forEach(e=>e.classList.add("in")), 2500);
+  }
+
+  // top bar border, progress line, gentle hero parallax
+  const bar = document.createElement("div"); bar.className = "p-bar"; document.body.appendChild(bar);
+  const top = document.querySelector(".top"), ph = $("p-photo");
+  const onScroll = ()=>{ const h = document.documentElement.scrollHeight - innerHeight; bar.style.transform = `scaleX(${h>0 ? scrollY/h : 0})`;
+    top.classList.toggle("scrolled", scrollY > 8); if(!reduce && scrollY < 900) ph.style.transform = `translateY(${scrollY*.08}px)`; };
+  addEventListener("scroll", onScroll, {passive:true}); onScroll();
+
+  // buttons: ripple on press, magnetic pull with a mouse
+  document.addEventListener("pointerdown", e=>{
+    const b = e.target.closest && e.target.closest(".pbtn"); if(!b || reduce) return;
+    const r = b.getBoundingClientRect(), s = Math.max(r.width, r.height) * 2.2, d = document.createElement("span");
+    d.className = "p-ripple"; d.style.cssText = `width:${s}px;height:${s}px;left:${e.clientX-r.left-s/2}px;top:${e.clientY-r.top-s/2}px`; b.appendChild(d); setTimeout(()=>d.remove(), 700);
+  });
+  if(hover && !reduce) document.querySelectorAll(".pbtn").forEach(b=>{
+    b.addEventListener("pointermove", e=>{ const r = b.getBoundingClientRect(); b.style.translate = `${(e.clientX-r.left-r.width/2)*.12}px ${(e.clientY-r.top-r.height/2)*.18}px`; });
+    b.addEventListener("pointerleave", ()=>{ b.style.translate = ""; });
+  });
+  document.querySelectorAll(".spot").forEach(c=>c.addEventListener("pointermove", e=>{ const r = c.getBoundingClientRect(); c.style.setProperty("--mx", (e.clientX-r.left)+"px"); c.style.setProperty("--my", (e.clientY-r.top)+"px"); }));
+
+  // 84 -> 70 kg when the card shows
+  const kg = $("p-kg"), sc = $("p-scale");
+  if(!reduce && "IntersectionObserver" in window){
+    kg.textContent = "84";
+    const o = new IntersectionObserver(es=>{ if(!es[0].isIntersecting) return; o.disconnect();
+      const t0 = performance.now(); const f = t=>{ const p = Math.min(1,(t-t0)/2000), e = 1-Math.pow(1-p,3); kg.textContent = Math.round(84-14*e); if(p<1) requestAnimationFrame(f); }; requestAnimationFrame(f); }, {threshold:.4});
+    o.observe(sc);
+    setTimeout(()=>{ if(!sc.classList.contains("in")) kg.textContent = "70"; }, 6000);
+  }
+
+  // before/after slider (hint sweep the first time)
+  const cmp = $("p-cmp"), rng = $("p-cmp-range"), setP = v=>cmp.style.setProperty("--p", v+"%");
+  rng.addEventListener("input", ()=>setP(rng.value));
+  if(!reduce && "IntersectionObserver" in window){ const o = new IntersectionObserver(es=>{ if(!es[0].isIntersecting) return; o.disconnect();
+    const t0 = performance.now(); const f = t=>{ const k = Math.min(1,(t-t0)/1600), v = 50 + Math.sin(k*Math.PI*2)*22*(1-k); setP(v); rng.value = v; if(k<1) requestAnimationFrame(f); }; setTimeout(()=>requestAnimationFrame(f), 500); }, {threshold:.6}); o.observe(cmp); }
+
+  // usual diet vs our way
+  let side = "a"; const vs = $("p-vs"), sw = $("p-switch"), pill = $("p-pill"), ba = $("p-vs-a"), bb = $("p-vs-b");
+  const drawVs = anim=>{
+    const K = T.vsK, A = T.vsAL, B = T.vsBL;
+    if(vs.children.length !== K.length) vs.innerHTML = K.map(()=>'<div><span class="k"></span><span class="v"></span></div>').join("");
+    [...vs.children].forEach((it,i)=>{ it.querySelector(".k").textContent = K[i]; const v = it.querySelector(".v");
+      const put = ()=>{ v.textContent = (side==="a" ? A : B)[i]; v.classList.toggle("bad", side==="a"); v.classList.remove("swap"); };
+      if(anim && !reduce){ v.classList.add("swap"); setTimeout(put, 180 + i*50); } else put(); });
+    const btn = side==="a" ? ba : bb; pill.style.width = btn.offsetWidth + "px"; pill.style.transform = `translateX(${btn.offsetLeft-4}px)`;
+    vs.classList.toggle("us", side==="b"); sw.classList.toggle("us", side==="b");
+    ba.setAttribute("aria-pressed", side==="a"); bb.setAttribute("aria-pressed", side==="b");
+  };
+  ba.onclick = ()=>{ side = "a"; drawVs(true); }; bb.onclick = ()=>{ side = "b"; drawVs(true); };
+  addEventListener("resize", ()=>drawVs(false));
+  if(!reduce && "IntersectionObserver" in window){ const o = new IntersectionObserver(es=>{ if(es[0].isIntersecting){ o.disconnect(); setTimeout(()=>{ side = "b"; drawVs(true); }, 1400); } }, {threshold:.5}); o.observe(vs); }
+
+  // results rail: arrows + dots
+  const rail = $("tgrid"), dotsEl = $("p-dots");
+  const step = ()=>{ const c = rail.firstElementChild; return c ? c.getBoundingClientRect().width + 14 : 300; };
+  $("p-next").onclick = ()=>rail.scrollBy({left:step(), behavior:"smooth"});
+  $("p-prev").onclick = ()=>rail.scrollBy({left:-step(), behavior:"smooth"});
+  const mark = ()=>{ const i = Math.round(rail.scrollLeft/step()); [...dotsEl.children].forEach((d,j)=>d.classList.toggle("on", j===i)); };
+  const dots = ()=>{ dotsEl.innerHTML = [...rail.children].map(()=>"<i></i>").join(""); mark(); };
+  rail.addEventListener("scroll", mark, {passive:true});
+
+  window.__p = {drawVs, dots};
+  pLang();
+})();
 </script>
-<script src="sc/scrollcraft.js"></script>
-<script>ScrollCraft.mount(document.body);</script>
 </body>
 </html>
