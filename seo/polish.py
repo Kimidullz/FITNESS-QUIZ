@@ -75,7 +75,7 @@ def nav(lang, sec):
         items = [("calories", "calories/", "Food calories"), ("en/women", "en/women/", "Working women"),
                  ("en/compare", "en/compare/", "Food comparisons"), ("en/eat-out", "en/eat-out/", "Eating out"),
                  ("en/exercises", "en/exercises/", "Exercises"), ("en/over-50", "en/over-50/", "Age 50+"), ("en/ramadan", "en/ramadan/", "Ramadan"),
-                 ("semak", "semak/", "Food check (BM)"), ("workout", "workout/", "7-day workout (BM)")]
+                 ("en/food-check", "en/food-check/", "Food check"), ("en/workout", "en/workout/", "7-day workout")]
     else:
         items = [("kalori", "kalori/", "Kalori makanan"), ("semak", "semak/", "Semak makan"), ("workout", "workout/", "Workout 7 hari"),
                  ("banding", "banding/", "Banding makanan"), ("makan-luar", "makan-luar/", "Makan luar"),
@@ -129,6 +129,7 @@ def twin(rel):
     m = build4.en_map()
     m.update({"wanita": "en/women", "senaman": "en/exercises"})
     m.update(build5.en_map5())
+    m.update({"semak": "en/food-check", "workout": "en/workout"})
     t = m.get(rel)
     return t if t and (ROOT / t / "index.html").exists() else None
 

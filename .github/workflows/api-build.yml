@@ -46,7 +46,7 @@ jobs:
           esac
       - name: Build pages
         if: always()
-        run: python seo/build.py && python seo/build2.py && python seo/build3.py && python seo/build4.py && python seo/build5.py && python seo/polish.py
+        run: python seo/build.py && python seo/build2.py && python seo/build3.py && python seo/build4.py && python seo/build5.py && python seo/build6.py && python seo/polish.py
       - name: Keep private plans as a download (not committed)
         if: always() && hashFiles('private-out/*.json') != ''
         uses: actions/upload-artifact@v4
