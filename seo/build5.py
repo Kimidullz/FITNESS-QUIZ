@@ -122,7 +122,7 @@ def senior_pages():
         msg = urllib.parse.quote(f"Hi Coach, saya baca panduan \"{d['title']}\". Saya nak tanya pasal turun berat dan kesihatan.")
         build2.write(f"umur-50/{d['slug']}", build2.head(d["title"], d["intro"][:155], f"umur-50/{d['slug']}/", "ms", faq_ld(d) + CSS5) + f"""<main class="w">
 <p class="crumb"><a href="../">Umur 50 ke atas</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
-<div class="doc"><b>Jumpa doktor dulu kalau:</b> {E(d['doctor'])}</div>
+<div class="doc"><b>Penting:</b> {E(d['doctor'])}</div>
 {''.join(f'<h2>{E(s["h"])}</h2><p>{E(s["p"])}</p>' for s in d['sections'])}
 <h2>Cuba minggu ini</h2><ul class="tips">{''.join(f'<li>{E(a)}</li>' for a in d['action'])}</ul>
 <div class="box"><h2>Nak coach yang faham keadaan anda?</h2><p>Coach susun pelan ikut umur, ubat dan sendi anda, bukan diet ekstrem. Ada soalan? Tanya terus.</p>
@@ -255,7 +255,7 @@ def senior_en():
                                                    {"ms": f"umur-50/{d['slug']}/", "en": path}) + f"""<main class="w">
 <p class="crumb"><a href="../">Age 50 and above</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
 <p class="lang">Read in Malay: <a href="{BASE}umur-50/{d['slug']}/">versi Bahasa Melayu</a></p>
-<div class="doc"><b>See your doctor first if:</b> {E(d['doctor'])}</div>
+<div class="doc"><b>Important:</b> {E(d['doctor'])}</div>
 {''.join(f'<h2>{E(s["h"])}</h2><p>{E(s["p"])}</p>' for s in d['sections'])}
 <h2>Try this week</h2><ul class="tips">{''.join(f'<li>{E(a)}</li>' for a in d['action'])}</ul>
 <div class="box"><h2>Want a coach who understands your situation?</h2><p>Your coach builds the plan around your age, medicine and joints, not an extreme diet. Got a question? Just ask.</p>
