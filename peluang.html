@@ -517,8 +517,7 @@ document.querySelectorAll(".lang button").forEach(b => b.onclick = () => {
 <script src="sc/scrollcraft.js"></script>
 <script>ScrollCraft.mount(document.body);
 (() => { const v = document.getElementById("jorgeVid"), b = document.getElementById("unmute"); if (!v || !b) return;
-  // start only when the video is on screen, so phones don't download 17 MB on page load
-  const io = new IntersectionObserver(es => { if (es[0].isIntersecting) { v.play().catch(() => {}); io.disconnect(); } }, {threshold: .4}); io.observe(v);
+  // no autoplay: the 17 MB video loads only when the visitor taps play
   const on = () => { v.muted = false; v.play().catch(() => {}); b.hidden = true; };
   b.addEventListener("click", on); v.addEventListener("volumechange", () => { if (!v.muted) b.hidden = true; }); })();
 </script>

@@ -76,10 +76,10 @@ def main():
         r = rel_src.get(f"wanita/{d['slug']}", {})
         rel = rel_en(r.get("same", []) + r.get("other", []), m, women, ex) or "".join(
             [f'<a href="{BASE}en/women/{x["slug_en"]}/">{E(x["title"])}</a>' for x in women if x is not d][:6])
-        build2.write(path.rstrip("/"), build2.head(f"{d['title']} | Coach Zara", d["intro"][:155], path, "en", faq_ld(d),
+        build2.write(path.rstrip("/"), build2.head(d["title"] if len(d["title"]) > 50 else f"{d['title']} | Coach Zara", d["intro"][:155], path, "en", faq_ld(d),
                                                    {"ms": f"wanita/{d['slug']}/", "en": path}) + f"""<main class="w">
 <p class="crumb"><a href="../">Fat loss for working women</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
-<p class="lang">Baca dalam BM: <a href="{BASE}wanita/{d['slug']}/">versi Bahasa Melayu</a></p>
+<p class="lang">Read in Malay: <a href="{BASE}wanita/{d['slug']}/">versi Bahasa Melayu</a></p>
 {''.join(f'<h2>{E(s["h"])}</h2><p>{E(s["p"])}</p>' for s in d['sections'])}
 <h2>Try this week</h2><ul class="tips">{''.join(f'<li>{E(a)}</li>' for a in d['action'])}</ul>
 <div class="card"><b>Myth:</b> {E(d['myth'])}</div>
@@ -96,7 +96,7 @@ def main():
 <p class="lead">Busy at work, eating whenever you can, tried everything but the scale won't move? Start here.</p>
 <div class="list">{''.join(f'<a href="{x["slug_en"]}/"><span>{E(x["title"])}</span><b>→</b></a>' for x in women)}</div>
 {zara_box("Fat loss for working women")}
-<p class="lang">Baca dalam BM: <a href="{BASE}wanita/">Turun lemak untuk wanita bekerja</a></p></main>""" + build2.foot("en"))
+<p class="lang">Read in Malay: <a href="{BASE}wanita/">Turun lemak untuk wanita bekerja</a></p></main>""" + build2.foot("en"))
         urls.append("en/women/")
     for d in ex:
         path = f"en/exercises/{d['slug_en']}/"
@@ -105,10 +105,10 @@ def main():
         r = rel_src.get(f"senaman/{d['slug']}", {})
         rel = rel_en(r.get("same", []) + r.get("other", []), m, women, ex) or "".join(
             [f'<a href="{BASE}en/exercises/{x["slug_en"]}/">{E(x["title"])}</a>' for x in ex if x is not d][:6])
-        build2.write(path.rstrip("/"), build2.head(f"{d['title']} | Exercise guide", d["intro"][:155], path, "en", faq_ld(d),
+        build2.write(path.rstrip("/"), build2.head(d["title"] if len(d["title"]) > 50 else f"{d['title']} | Exercise guide", d["intro"][:155], path, "en", faq_ld(d),
                                                    {"ms": f"senaman/{d['slug']}/", "en": path}) + f"""<main class="w">
 <p class="crumb"><a href="../">Home workouts</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
-<p class="lang">Baca dalam BM: <a href="{BASE}senaman/{d['slug']}/">versi Bahasa Melayu</a></p>{vid}
+<p class="lang">Read in Malay: <a href="{BASE}senaman/{d['slug']}/">versi Bahasa Melayu</a></p>{vid}
 <div class="card"><b>Works:</b> {E(d['muscles'])}<br><b>For beginners:</b> {E(d['dose'])}</div>
 <h2>How to do it</h2><ol class="steps">{''.join(f'<li>{E(s)}</li>' for s in d['steps'])}</ol>
 <h2>Common mistakes</h2><ul class="tips">{''.join(f'<li>{E(s)}</li>' for s in d['mistakes'])}</ul>
@@ -127,7 +127,7 @@ def main():
 <p class="crumb"><a href="{BASE}?lang=en">Coach Kimi &amp; Coach Zara</a> › Exercises</p><h1>Home workouts</h1>
 <p class="lead">Short guides for beginners, no equipment needed.</p>
 <div class="list">{''.join(f'<a href="{x["slug_en"]}/"><span>{E(x["title"])}</span><b>→</b></a>' for x in ex)}</div>
-<p class="lang">Baca dalam BM: <a href="{BASE}senaman/">Senaman di rumah</a></p></main>""" + build2.foot("en"))
+<p class="lang">Read in Malay: <a href="{BASE}senaman/">Senaman di rumah</a></p></main>""" + build2.foot("en"))
         urls.append("en/exercises/")
     rp = SEO / "en" / "ramadan.json"
     if rp.exists():
@@ -137,7 +137,7 @@ def main():
         build2.write("en/ramadan", build2.head(d["title"] + " | Coach Kimi & Coach Zara", d["intro"][:155], "en/ramadan/", "en", faq_ld(d),
                                                {"ms": "ramadan/", "en": "en/ramadan/"}) + f"""<main class="w">
 <p class="crumb"><a href="{BASE}?lang=en">Coach Kimi &amp; Coach Zara</a> › Ramadan</p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
-<p class="lang">Baca dalam BM: <a href="{BASE}ramadan/">Panduan Ramadan</a></p>
+<p class="lang">Read in Malay: <a href="{BASE}ramadan/">Panduan Ramadan</a></p>
 <h2>Why many people gain weight while fasting</h2><ul class="tips">{''.join(f'<li>{E(x)}</li>' for x in d['why_gain'])}</ul>
 <h2>5 sahur menus</h2>{menus(d['sahur'])}
 <h2>5 berbuka menus</h2>{menus(d['berbuka'])}

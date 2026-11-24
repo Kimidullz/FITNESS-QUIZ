@@ -16,6 +16,7 @@
 <meta property="og:url" content="https://kimidullz.github.io/FITNESS-QUIZ/">
 <link rel="canonical" href="https://kimidullz.github.io/FITNESS-QUIZ/">
 <meta name="theme-color" content="#0B0B0B">
+<link rel="apple-touch-icon" href="https://kimidullz.github.io/FITNESS-QUIZ/img/icon-180.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230B0B0B'/%3E%3Cpath d='M38 64 64 30v14L52 64z' fill='%23E30613'/%3E%3Cpath d='M50 64 64 46v10l-6 8z' fill='%23FFD200'/%3E%3Ctext x='8' y='40' font-family='Arial Black,Arial' font-weight='900' font-style='italic' font-size='20' fill='%23fff'%3EWDT%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -232,9 +233,10 @@
   .pdpa{font-size:12px;color:var(--muted);margin-top:12px;text-align:center}
   .pick-label{font-size:14px;font-weight:700;margin-bottom:8px}
   .coachpick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
-  .coachpick button{display:flex;align-items:center;gap:8px;text-align:left;line-height:1.25;padding:8px 10px;border:2px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
+  .coachpick button{min-width:0;display:flex;align-items:center;gap:8px;text-align:left;line-height:1.25;padding:8px 10px;border:2px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
   .btn.off{background:#fff;color:#333;border:2px dashed #999;pointer-events:none}
   .coachpick b{display:block;white-space:nowrap;font-size:15px}.coachpick span{min-width:0}.coachpick small{display:block;font-weight:600;font-size:13px;opacity:.75}
+  .top a:focus-visible,.lang button:focus-visible,.assess:focus-visible{outline:3px solid #FFD200;outline-offset:2px}
   .coachpick img{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:top;flex:none}
   .up-more{margin:4px 0 14px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:#fff}
   .up-more summary{cursor:pointer;font-weight:700;font-size:15px}
@@ -616,7 +618,6 @@
           <p class="lead" id="r-text"></p>
           <button type="button" class="btn jump" id="r-jump" onclick="document.getElementById('cta-title').scrollIntoView({behavior:'smooth',block:'start'})"></button>
           <p class="coach-note" id="r-note" hidden></p>
-          <div class="up-card" id="up-story" hidden></div>
 
           <div class="section">
             <h3 id="cta-title"></h3>
@@ -624,20 +625,22 @@
             <a class="btn" id="kit-first" href="#kalori" data-t="kitFirstBtn" style="margin-bottom:20px" hidden></a>
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
-            <div class="up-voice" id="up-voice" hidden></div>
             <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
-            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
+            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 12px"></p>
+            <div class="up-voice" id="up-voice" hidden></div>
             <details class="up-more" id="up-ask" hidden>
               <summary id="up-moreS"></summary>
               <p class="pick-label" id="up-timeH"></p>
               <div class="up-times" id="up-times"></div>
               <p class="pick-label" id="up-hardH"></p>
               <input class="up-hard" id="up-hard" maxlength="160" autocomplete="off">
+              <a class="btn wa" id="wa3" target="_blank" rel="noopener" style="margin-top:12px"></a>
             </details>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px;font-weight:700;color:var(--ink)"></p>
             <p class="pdpa" data-t="pdpa"></p>
             <p class="meta-s" style="margin-top:12px" id="res-kalori"><a href="#kalori" data-t="resKalori"></a></p>
           </div>
+          <div class="up-card" id="up-story" hidden></div>
 
           <div class="gauge"><i id="r-dot"></i></div>
           <div class="gauge-labels"><span data-t="g1"></span><span data-t="g2"></span><span data-t="g3"></span></div>
@@ -1001,6 +1004,7 @@ const TXT = {
     faqH:"Questions people ask",
     faq:[
       ["What is the free online body assessment?","You fill in a form online on the WeDoTransformations page (it opens in a new tab). Then Coach Kimi, or Coach Zara for women, contacts you within 1 hour (8am to 10pm) to explain where your body is now and what to fix first. It's free, and there's no pressure to join. Programs start from RM259 a month, supplements included."],
+      ["Is this MLM? What is the shake?","Herbalife is a direct selling company, and we are independent Herbalife members. As a client you only buy coaching: the shake and supplements are Herbalife. They are a tool to make your journey easier, not something you depend on: your plan is built on normal Malaysian food and habits you can keep without them. You never have to sell anything or recruit anyone to join the program. The shake is food (a meal replacement), not a slimming product."],
       ["Why start with 3 to 5 kg?","Because it's realistic. A small first goal is easier to reach while working full time, and once you see it happen it's much easier to keep going."],
       ["How long does it take to lose 3 to 5 kg?","It depends on your starting point and your routine. A healthy pace is usually around 0.5 to 1 kg a week. We'll give you an honest estimate on the call. Results vary."],
       ["I'm really busy. Do I need the gym?","No. The workouts are about 20 minutes and can be done at home."],
@@ -1009,9 +1013,8 @@ const TXT = {
       ["How much does coaching cost?","Packages start from RM259 for one month. That includes supplements, 1-to-1 coaching, group coaching, accountability (a coach who keeps you on track), and a meal plan and workout plan built around your lifestyle. It's one payment for one month: no contract, no auto-renew, no membership. If you rejoin later you get 25-50% off (T&C apply). There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
       ["I want to gain weight. Can you help?","Yes. Take the <a href='#quiz-zone'>2-minute quiz</a> and pick “Gain weight and look fuller” in question 1 to see what's stopping your weight from going up. Or in the <a href='#kalori'>calculator</a>, pick “Gain weight” for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). Our weight gain coaching uses normal food and strength training. Programs start from RM259 a month, supplements included. For ages 18 and up. Losing weight without trying? See a doctor first."],
       ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."],
-      ["Is this MLM? What is the shake?","The shake and supplements are Herbalife. They are a tool to make your journey easier, not something you depend on: your plan is built on normal Malaysian food and habits you can keep without them. You never have to sell anything or recruit anyone to join the program. The shake is food (a meal replacement), not a slimming product."],
-      ["What happens in the first month?","Week 1: your coach goes through your habits and food, sets your calories and protein, and gives you a meal and workout plan that fits your schedule. Every week: a check-in on your weight, measurements and how the week went, and the plan is adjusted. Every day: you can WhatsApp your coach with questions (what to order, missed a workout, a bad day) and get help."],
-      ["What if it doesn't work for me?","Results come from following the plan, so we make the plan easy to follow. If something doesn't fit your life (work, family, food you love), tell your coach at the weekly check-in and the plan is changed with you. Most people who struggle just need a smaller first step, and that's your coach's job."]
+      ["What happens in the first month?","Week 1: your coach goes through your habits and food, sets your calories and protein, and gives you a meal and workout plan that fits your schedule. Every week: a check-in on your weight, measurements and how the week went, and the plan is adjusted. Every day: you can WhatsApp your coach with questions (what to order, missed a workout, a bad day) and get a reply within 1 hour (8am to 10pm)."],
+      ["What if it doesn't work for me?","If your weight hasn't moved after 2 weeks, we look at what isn't working together and change the plan. We don't blame you. If something doesn't fit your life (work, family, food you love), tell your coach at the weekly check-in and the plan is changed with you. Most people who struggle just need a smaller first step, and that's your coach's job."]
     ],
     finalH:"Know your body first. It's free.",
     footFine:"This site is for general wellness guidance only and is not medical advice. Results vary from person to person.",
@@ -1129,7 +1132,7 @@ const TXT = {
     calAssessG:"Buat body assessment percuma →",
     calKit:"<li>Menu 3 hari ikut kalori anda</li><li>8 resipi rumah, bawah 20 minit</li><li>Makan luar: mamak, nasi campur, kopitiam, fast food, 7-Eleven</li><li>Senarai barang dapur seminggu + anggaran kos</li><li>Meal prep Ahad 30 minit</li><li>Tracker Cabaran 7 Hari</li>",
     calAssess:"atau buat online body assessment percuma dulu →",
-    navCta:"Body assessment percuma",
+    navCta:"Semak badan PERCUMA",
     heroKicker:"Online body assessment percuma",
     heroH:"Turun berat tak sama dengan turun lemak. <em>Semak badan anda dulu, percuma.</em>",
     heroSub:"Mula dengan online body assessment percuma: tahu keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Tanpa crash diet, tanpa gym 2 jam, masih boleh makan nasi.",
@@ -1189,6 +1192,7 @@ const TXT = {
     faqH:"Soalan yang selalu ditanya",
     faq:[
       ["Apa itu online body assessment percuma?","Anda isi borang online di page WeDoTransformations (dibuka di tab baru). Lepas tu Coach Kimi, atau Coach Zara untuk wanita, akan hubungi anda dalam masa 1 jam (8 pagi hingga 10 malam) untuk terangkan keadaan badan anda sekarang dan apa yang perlu dibaiki dulu. Percuma, dan tiada paksaan untuk join. Program bermula dari RM259 sebulan, termasuk supplement."],
+      ["Ini MLM ke? Shake tu apa?","Herbalife memang syarikat jualan langsung (direct selling), dan kami ahli bebas Herbalife. Sebagai klien, anda cuma beli coaching: shake dan supplement tu Herbalife. Ia alat untuk bantu perjalanan anda jadi lebih mudah, bukan benda yang anda bergantung: pelan anda tetap berasaskan makanan Malaysia biasa dan tabiat yang anda boleh kekalkan tanpanya. Anda tak perlu jual apa-apa atau ajak sesiapa untuk sertai program. Shake ialah makanan (pengganti hidangan), bukan produk pelangsing."],
       ["Kenapa mula dengan 3 hingga 5 kg?","Sebab ia realistik. Matlamat kecil lebih senang dicapai walaupun kerja sepenuh masa, dan bila dah nampak hasil, lebih senang nak teruskan."],
       ["Berapa lama nak turun 3 hingga 5 kg?","Bergantung pada titik mula dan rutin anda. Kadar yang sihat biasanya lebih kurang 0.5 hingga 1 kg seminggu. Kami bagi anggaran yang jujur dalam call nanti. Result berbeza mengikut individu."],
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
@@ -1197,9 +1201,8 @@ const TXT = {
       ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Bayar sekali untuk sebulan: tiada kontrak, tiada auto-renew, tiada keahlian. Kalau sambung semula nanti, dapat diskaun 25-50% (tertakluk syarat). Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
       ["Saya nak naik berat. Boleh tolong?","Boleh. Jawab <a href='#quiz-zone'>kuiz 2 minit</a> dan pilih “Naik berat dan nampak lebih berisi” di soalan 1 untuk tahu apa yang menghalang berat anda naik. Atau dalam <a href='#kalori'>kalkulator</a>, pilih “Naik berat” untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Coaching naik berat kami guna makanan biasa dan latihan kekuatan. Program bermula dari RM259 sebulan, termasuk supplement. Untuk umur 18 tahun ke atas. Berat turun tanpa sebab? Jumpa doktor dulu."],
       ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."],
-      ["Ini MLM ke? Shake tu apa?","Shake dan supplement tu Herbalife. Ia alat untuk bantu perjalanan anda jadi lebih mudah, bukan benda yang anda bergantung: pelan anda tetap berasaskan makanan Malaysia biasa dan tabiat yang anda boleh kekalkan tanpanya. Anda tak perlu jual apa-apa atau ajak sesiapa untuk sertai program. Shake ialah makanan (pengganti hidangan), bukan produk pelangsing."],
-      ["Apa jadi dalam bulan pertama?","Minggu 1: coach semak tabiat dan makan anda, tetapkan kalori dan protein, dan bagi pelan makan dan senaman ikut jadual anda. Setiap minggu: check-in berat, ukuran dan macam mana minggu anda, dan pelan diubah ikut progress. Setiap hari: anda boleh WhatsApp coach bila ada soalan (nak order apa, terlepas senaman, hari yang teruk) dan dapat bantuan."],
-      ["Kalau tak menjadi untuk saya macam mana?","Result datang dari ikut pelan, jadi kami buat pelan yang senang diikut. Kalau ada yang tak sesuai dengan hidup anda (kerja, keluarga, makanan kegemaran), beritahu coach masa check-in mingguan dan pelan diubah bersama anda. Kebanyakan yang susah cuma perlukan langkah pertama yang lebih kecil, dan itu kerja coach."]
+      ["Apa jadi dalam bulan pertama?","Minggu 1: coach semak tabiat dan makan anda, tetapkan kalori dan protein, dan bagi pelan makan dan senaman ikut jadual anda. Setiap minggu: check-in berat, ukuran dan macam mana minggu anda, dan pelan diubah ikut progress. Setiap hari: anda boleh WhatsApp coach bila ada soalan (nak order apa, terlepas senaman, hari yang teruk) dan dapat balasan dalam masa 1 jam (8 pagi hingga 10 malam)."],
+      ["Kalau tak menjadi untuk saya macam mana?","Kalau berat tak bergerak selepas 2 minggu, kita semak bersama apa yang tak kena dan ubah pelan, bukan salahkan anda. Kalau ada yang tak sesuai dengan hidup anda (kerja, keluarga, makanan kegemaran), beritahu coach masa check-in mingguan dan pelan diubah bersama anda. Kebanyakan yang susah cuma perlukan langkah pertama yang lebih kecil, dan itu kerja coach."]
     ],
     finalH:"Kenal badan anda dulu. Percuma.",
     footFine:"Laman ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result berbeza mengikut individu.",
@@ -1270,7 +1273,7 @@ const L = o => o[LANG];
    type "profile": not scored; sent to you on WhatsApp for the consultation. */
 const Q_LOSS = [
   { type:"profile", key:"goal", q:{en:"First, what's your main goal?",ms:"Pertama, apa matlamat utama anda?"}, a:[
-    {en:"Lose under 5 kg",ms:"Turun kurang 5 kg",v:"<5"},
+    {en:"Lose under 5 kg",ms:"Turun bawah 5 kg",v:"<5"},
     {en:"Lose 5 to 10 kg",ms:"Turun 5 hingga 10 kg",v:"5-10"},
     {en:"Lose 10 to 20 kg",ms:"Turun 10 hingga 20 kg",v:"10-20"},
     {en:"Lose more than 20 kg",ms:"Turun lebih 20 kg",v:"20+"},
@@ -1396,7 +1399,7 @@ function applyLang(){
   Object.keys(CONFIG.coaches).forEach(k=>{
     const b = document.createElement("button");
     b.innerHTML = `<img src="${CONFIG.coaches[k].photo}" alt="" width="40" height="40"><span><b>${CONFIG.coaches[k].name}</b><small>${L(CONFIG.coaches[k].label)}</small></span>`; b.dataset.c = k; if(k===coach) b.classList.add("sel");
-    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); if(UP){ upTimes(); upVoice(); upStory(isGain()); } updateWa(); };
+    b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); if(UP){ upTimes(); upVoice(); upStory(isGain()); } updateWa(); if(view==="result") setTimeout(()=>$("wa").scrollIntoView({behavior:"smooth",block:"nearest"}),50); };
     $("coachpick").appendChild(b);
   });
   if(view==="quiz") render();
@@ -1580,11 +1583,11 @@ let upTime = null, upTaken = new Set(), upWeak = "none", STARTER = null;
 // WDT 21-Day Challenge stories (Kimi, 23 Nov): picked by coach (men/women) + goal; img/story/<id>-<view>.jpg
 const UP_WDT = {
   teodora:{name:"Teodora", coach:"Katina Nedeva",
-    why:{ms:"Tak banyak berat nak turun, tapi perut dan pinggang yang nak dikemaskan. Tengok beza perut dan bentuk badan dalam 21 hari.",en:"Not a lot of weight to lose, just a belly and waist to tighten up. See the change in her belly and shape in 21 days."}},
+    why:{ms:"Tak banyak berat nak turun, tapi perut dan pinggang yang nak dikemaskan. Tengok beza perut dan bentuk badannya.",en:"Not a lot of weight to lose, just a belly and waist to tighten up. See the change in her belly and shape."}},
   sandra:{name:"Sandra", coach:"Angelica Parada",
-    why:{ms:"Lemak keliling perut dan pinggang yang susah nak turun. Tengok beza perut dan pinggang dalam 21 hari.",en:"Fat around the belly and waist that was hard to shift. See the change in 21 days."}},
+    why:{ms:"Lemak keliling perut dan pinggang yang susah nak turun. Tengok beza perut dan pinggangnya.",en:"Fat around the belly and waist that was hard to shift. See the change in her belly and waist."}},
   sanjay:{name:"Sanjay", coach:"Kimberley Joe",
-    why:{ms:"Perut besar dan banyak berat nak turun. Dalam 21 hari perut nampak lebih kecil dan badan lebih tegap.",en:"A big belly and a lot of weight to lose. In 21 days his belly looks smaller and his frame stronger."}}
+    why:{ms:"Perut besar dan banyak berat nak turun. Tengok beza perut dan badannya.",en:"A big belly and a lot of weight to lose. See the change in his belly and frame."}}
 };
 const UP_VIEWS=[["front",{ms:"Depan",en:"Front"}],["side",{ms:"Sisi",en:"Side"}],["back",{ms:"Belakang",en:"Back"}]];
 // call slots: next CONFIG.slotDays days in Malaysia time; upTime = slot id "YYYY-MM-DD HH:MM" or "x0"/"x1" (extra options)
@@ -1632,7 +1635,7 @@ function upStory(gain){
   if(w){ const t=UP_WDT[w];
     el.className="up-wdt";
     el.innerHTML=`<img src="img/story/${w}-front.jpg" alt="${t.name}: Day 1 vs Day 21" width="632" height="528"><div class="up-views">${UP_VIEWS.map((v,k)=>`<button type="button" data-v="${v[0]}" class="${k?"":"sel"}">${L(v[1])}</button>`).join("")}</div>
-      <div><small>${LANG==="en"?"Same problem as you? · Team WDT 21-Day Challenge":"Masalah sama macam anda? · Team WDT 21-Day Challenge"}</small><b>${t.name}</b><p>${L(t.why)}</p><i>${LANG==="en"?"Results vary from person to person.":"Keputusan berbeza mengikut individu."}</i></div>`;
+      <div><small>${LANG==="en"?"Same problem as you? · WDT 21-Day Challenge participant overseas":"Masalah sama macam anda? · Peserta WDT 21-Day Challenge di luar negara"}</small><b>${t.name}</b><p>${L(t.why)}</p><i>${LANG==="en"?"Results vary from person to person.":"Keputusan berbeza mengikut individu."}</i></div>`;
     el.querySelector(".up-views").onclick=e=>{const b=e.target.closest("button"); if(!b) return; el.querySelector("img").src=`img/story/${w}-${b.dataset.v}.jpg`;
       el.querySelectorAll(".up-views button").forEach(x=>x.classList.toggle("sel",x===b));};
     el.hidden=false; return; }
@@ -1668,7 +1671,8 @@ function upResult(gain, weakest, weakestPct){
   upTimes(); upLoadTaken();
   upStory(gain); upVoice();
   let worst=null; QUESTIONS.forEach((q,k)=>{ if(q.type!=="score") return; const s=q.a[answers[k]].s; if(s && (!worst||s>worst.s)) worst={k,a:answers[k],s}; });
-  upStarter((gain?"gain":"loss")+"|"+answers[0]+"|"+(worst?worst.k+"|"+worst.a:"none"));
+  // "why = my health" (sugar, blood pressure, joint pain) gets the joint-safe health plans
+  upStarter((gain?"gain":"loss")+"|"+(!gain && answers[1]===0 ? 5 : answers[0])+"|"+(worst?worst.k+"|"+worst.a:"none"));
 }
 function upSheet(){
   if(!UP) return {};
@@ -1705,14 +1709,14 @@ function profileLines(){
 
 function updateWa(){
   if(!ctx.tier) return;
-  const w2 = $("wa2");   // same button again under "what to do next"
+  const w2 = $("wa2"), w3 = $("wa3");   // same button again under "what to do next" and in the call-time box
   $("wa").classList.toggle("off", !coach);
-  $("wa").textContent = w2.textContent = coach ? T.waBtn : T.pickFirst;
-  if(!coach){ $("wa").removeAttribute("href"); w2.removeAttribute("href"); $("wa").onclick = null; w2.onclick = ()=>$("coachpick").scrollIntoView({behavior:"smooth",block:"center"}); return; }
+  $("wa").textContent = w2.textContent = w3.textContent = coach ? T.waBtn : T.pickFirst;
+  if(!coach){ $("wa").removeAttribute("href"); w2.removeAttribute("href"); w3.removeAttribute("href"); $("wa").onclick = null; w2.onclick = w3.onclick = ()=>$("coachpick").scrollIntoView({behavior:"smooth",block:"center"}); return; }
   const c = CONFIG.coaches[coach];
   const url = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent([isGain() ? T.wa.hiG : T.wa.hi, ...profileLines(), isGain() ? T.wa.endG : T.wa.end].join("\n").replace("%COACH%", c.name))}`;
-  $("wa").href = w2.href = url;
-  $("wa").onclick = w2.onclick = ()=>{ if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase(); logTap(sheetParams(url, "WhatsApp")); };
+  $("wa").href = w2.href = w3.href = url;
+  $("wa").onclick = w2.onclick = w3.onclick = ()=>{ if(!quizId) quizId = Math.random().toString(36).slice(2,8).toUpperCase(); logTap(sheetParams(url, "WhatsApp")); };
 }
 
 // Log a tap to the Google Sheet in the background (the link itself opens directly)
@@ -1891,8 +1895,8 @@ foldFromHash(); window.addEventListener("load", foldFromHash);
 if(QONLY){ document.body.classList.add("qonly"); openFold("quiz-zone"); }   // #quiz-zone / #kalori links (shares, PDFs) open the folded section   // again after fonts/images settle
 window.addEventListener("load", ()=>document.documentElement.classList.add("loaded"));
 const onScreen = {};
-const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.id||e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe($("kalori")); floatObs.observe($("faq")); floatObs.observe(document.querySelector(".sx-final"));
+const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.id||e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -15% 0px"});
+floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe($("kalori")); floatObs.observe($("faq")); floatObs.observe($("pilihan")); floatObs.observe(document.querySelector(".sx-final"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; QUESTIONS = Q_LOSS; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });

@@ -29,6 +29,7 @@ SECTIONS = ["kalori", "calories", "semak", "workout", "senaman", "wanita", "rama
 
 CSS = """<style>
 .snav{background:#111;border-bottom:3px solid var(--yellow)}
+.snav{position:relative}.snav:after{content:'';position:absolute;right:0;top:0;bottom:0;width:28px;background:linear-gradient(90deg,transparent,#111);pointer-events:none}
 .snav .w{display:flex;gap:6px;overflow-x:auto;padding-top:8px;padding-bottom:8px;scrollbar-width:none}
 .snav a{flex:none;color:#fff;text-decoration:none;font:700 13px Montserrat,sans-serif;padding:7px 12px;border-radius:99px;border:1px solid #333}
 .snav a.on{background:var(--yellow);color:#000;border-color:var(--yellow)}
@@ -41,7 +42,7 @@ CSS = """<style>
 .pstrip p{margin:0;font-size:14px;font-weight:600;flex:1 1 260px}.pstrip b{color:var(--yellow)}
 .pstrip a{background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:14px;padding:10px 16px;border-radius:99px;white-space:nowrap}
 .nores{display:none;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:15px}
-:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px;box-shadow:0 0 0 6px #000}
 .fine{font-size:14px}
 </style>"""
 
@@ -50,14 +51,14 @@ def nav(lang, sec):
     if lang == "en":
         items = [("calories", "calories/", "Food calories"), ("en/women", "en/women/", "Working women"),
                  ("en/exercises", "en/exercises/", "Exercises"), ("en/ramadan", "en/ramadan/", "Ramadan"),
-                 ("semak", "semak/", "Food check (BM)"), ("workout", "workout/", "7-day workout (BM)"), ("quiz", "kuiz/?lang=en&amp;src=menu", "Quiz 2 min")]
+                 ("semak", "semak/", "Food check (BM)"), ("workout", "workout/", "7-day workout (BM)")]
     else:
         items = [("kalori", "kalori/", "Kalori makanan"), ("semak", "semak/", "Semak makan"), ("workout", "workout/", "Workout 7 hari"),
-                 ("senaman", "senaman/", "Senaman"), ("wanita", "wanita/", "Wanita bekerja"), ("ramadan", "ramadan/", "Ramadan"),
-                 ("quiz", "kuiz/?src=menu", "Kuiz 2 minit")]
+                 ("senaman", "senaman/", "Senaman"), ("wanita", "wanita/", "Wanita bekerja"), ("ramadan", "ramadan/", "Ramadan")]
     lab = "Menu" if lang == "en" else "Menu bahagian"
     return f'<nav class="snav" aria-label="{lab}"><div class="w">' + "".join(
-        f'<a href="{BASE}{h}"{" class=on" if k == sec else ""}>{t}</a>' for k, h, t in items) + "</div></nav>"
+        f'<a href="{BASE}{h}"{" class=on aria-current=page" if k == sec else ""}>{t}</a>' for k, h, t in items) + "</div></nav>" + \
+        "<script>(()=>{const a=document.querySelector('.snav a.on');if(a)a.parentNode.scrollLeft=a.offsetLeft-16})()</script>"
 
 
 def coaches(lang):
