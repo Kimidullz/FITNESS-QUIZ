@@ -1,0 +1,23 @@
+{
+ "id": "mi-segera-vs-maggi-goreng",
+ "verdict": "Instant noodle soup is lower in calories, but low in protein. Add egg or chicken to make it more filling.",
+ "why": [
+  "Instant noodle soup is about 380 kcal per packet. Maggi goreng from a shop is about 600 kcal.",
+  "Instant noodle soup has about 15 g fat, Maggi goreng 27 g, because it's fried again in oil.",
+  "Maggi goreng has more protein (about 18 g vs 8 g) because of the egg and chicken. Plain noodle soup makes you hungry again quickly.",
+  "When you cook at home, you control what goes in. At a shop, the portion and oil depend on the cook."
+ ],
+ "when_a": "Instant noodle soup is okay as a quick dinner at home. Add egg, vegetables and use half the seasoning if you like.",
+ "when_b": "Maggi goreng is okay for a lepak session at the mamak once in a while. Ask for less oil and add an egg.",
+ "tip": "Cook instant noodle soup with 1-2 eggs and a handful of vegetables. Calories go up a little, but you stay full longer.",
+ "faq": [
+  {
+   "q": "Can I eat instant noodles while trying to lose weight?",
+   "a": "Yes, once in a while. Add protein and vegetables, and don't make it your main meal every day."
+  },
+  {
+   "q": "Why is Maggi goreng higher in calories?",
+   "a": "It's fried in oil and usually has egg and chicken. So calories and fat go up, even though protein goes up too."
+  }
+ ]
+}

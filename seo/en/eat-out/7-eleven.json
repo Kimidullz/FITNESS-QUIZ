@@ -1,0 +1,83 @@
+{
+ "slug": "7-eleven",
+ "slug_en": "7-eleven-convenience-store",
+ "title": "What to buy at 7-Eleven or a convenience store when you want to lose weight",
+ "intro": "You left the office late, you're hungry, and the only thing open is 7-Eleven or the convenience store downstairs. Don't worry. There are plenty of options that work for a quick meal or snack. The key is to look for protein first, then carbs. The calories below are estimates. Check the label on the pack for more accurate values.",
+ "best": [
+  {
+   "name": "2 hard-boiled eggs",
+   "kcal": 140,
+   "why": "Easy, cheap protein. Keeps you full longer. Good as a snack or added to breakfast."
+  },
+  {
+   "name": "Tuna or chicken onigiri",
+   "kcal": 200,
+   "why": "Controlled portion with some protein. Pair it with hard-boiled eggs for a quick meal."
+  },
+  {
+   "name": "Chicken or egg sandwich (triangle pack)",
+   "kcal": 280,
+   "why": "A quick lunch. Pick one that isn't loaded with mayo."
+  },
+  {
+   "name": "Low-fat or unsweetened fresh milk 250ml",
+   "kcal": 110,
+   "why": "Has protein and calcium. Better than sweet flavoured packet drinks."
+  },
+  {
+   "name": "Unsweetened or less sweet yogurt",
+   "kcal": 120,
+   "why": "A light afternoon snack with some protein."
+  },
+  {
+   "name": "1 banana or cut fruit",
+   "kcal": 100,
+   "why": "Naturally sweet with fibre. Easy to bring to the office."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Hotdog bun with sauce",
+   "kcal": 350,
+   "why": "Processed sausage and sweet bread. Okay once in a while, but not very filling for the calories."
+  },
+  {
+   "name": "Cup noodles",
+   "kcal": 330,
+   "why": "Mostly flour and oil, little protein. You get hungry again fast."
+  },
+  {
+   "name": "Cream bread or filled bun",
+   "kcal": 350,
+   "why": "Sweet and fatty. Easy to eat two without noticing."
+  },
+  {
+   "name": "1 small packet of chips",
+   "kcal": 250,
+   "why": "Salty, crunchy and not filling. If you want some, buy the smallest packet."
+  },
+  {
+   "name": "Large sweet iced drink",
+   "kcal": 250,
+   "why": "Liquid calories that don't make you feel full at all."
+  }
+ ],
+ "hacks": [
+  "Easy formula: 1 protein (egg, milk, yogurt, chicken sandwich) + 1 carb (onigiri, banana, bread). Done.",
+  "Read the calorie label on the pack. If one pack has 2 servings, the real calories are double.",
+  "Buy the smallest size of your favourite snack. You still get the taste, with calories under control.",
+  "Look away from the 'buy 2, cheaper' promo counter. It's cheaper, but you end up eating two.",
+  "Don't walk into the shop starving. Keep hard-boiled eggs or fruit in your bag as backup."
+ ],
+ "drink": "Plain water, unsweetened green tea, or unsweetened milk. Avoid flavoured packet drinks and sugary energy drinks.",
+ "faq": [
+  {
+   "q": "It's late at night and all I have is instant noodles. Can I eat it?",
+   "a": "Yes. For a more balanced meal, add 2 hard-boiled eggs or a bottle of milk. Use half the seasoning to cut down the salt. Tomorrow, try to prepare a backup snack."
+  },
+  {
+   "q": "What snacks are best to keep at my office desk?",
+   "a": "Pick ones with protein or fibre, like small packs of roasted nuts, fruit, or yogurt in the office fridge. Portion them out early so you don't finish a big pack in one go."
+  }
+ ]
+}

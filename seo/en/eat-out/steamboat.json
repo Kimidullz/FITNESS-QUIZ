@@ -1,0 +1,83 @@
+{
+ "slug": "steamboat",
+ "slug_en": "steamboat-bbq",
+ "title": "What to order at steamboat or BBQ when you want to lose weight",
+ "intro": "Steamboat and BBQ are great for eating with a big group. Good news: steamboat can be one of the most diet-friendly ways to eat out. Lots of vegetables, seafood and protein cooked in soup. What usually sends the calories up are santan-based soups, processed balls, fatty meats, noodles and dipping sauces. All numbers are estimates for a typical serving.",
+ "best": [
+  {
+   "name": "Mixed vegetables (sawi, cauliflower, kangkung, spinach) 2 bowls",
+   "kcal": 50,
+   "why": "Very low in calories, high in fibre. Fill up on vegetables first so you feel full sooner."
+  },
+  {
+   "name": "Prawns, squid and sliced fish (about 150g)",
+   "kcal": 150,
+   "why": "High protein, low fat. Cooked in soup, so no added oil."
+  },
+  {
+   "name": "Sliced chicken breast (about 120g)",
+   "kcal": 150,
+   "why": "Filling protein. A good choice compared to fatty meat."
+  },
+  {
+   "name": "White tofu or silken tofu",
+   "kcal": 90,
+   "why": "Has protein, soft and soaks up the soup nicely. Choose white tofu, not fried tofu."
+  },
+  {
+   "name": "Mushrooms (enoki, shiitake, oyster)",
+   "kcal": 40,
+   "why": "Adds flavour and texture with few calories. Makes your plate look full."
+  },
+  {
+   "name": "1 chicken egg (cooked in the soup)",
+   "kcal": 75,
+   "why": "Easy and cheap protein. Good if you're not eating much seafood."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Fish balls, fishcake, sausages and processed slices (10-12 pieces)",
+   "kcal": 350,
+   "why": "They look small, but contain flour and fat. Easy to eat a lot without counting."
+  },
+  {
+   "name": "Thick tomyam soup or santan laksa soup (2 bowls)",
+   "kcal": 300,
+   "why": "There's santan and chilli oil in the soup. If you drink a lot of it, the calories go up."
+  },
+  {
+   "name": "Fatty sliced beef or mutton (about 150g)",
+   "kcal": 400,
+   "why": "Fatty cuts are high in calories. For BBQ, sweet marinades add even more."
+  },
+  {
+   "name": "Dipping sauces (peanut sauce, sweet chilli sauce, fried shallots) 4 spoons",
+   "kcal": 150,
+   "why": "These sauces have lots of sugar and oil. Every dip adds a few more calories."
+  },
+  {
+   "name": "Instant noodles or yellow noodles in steamboat",
+   "kcal": 400,
+   "why": "Usually eaten at the end when you're already full. Instant noodles are also high in fat and salt."
+  }
+ ],
+ "hacks": [
+  "Choose a clear soup base (chicken soup or herbal soup). If you want two types, get one clear and one tomyam.",
+  "Take vegetables and seafood first. Take balls and noodles later, only if you're still hungry.",
+  "Use chilli sauce or soy sauce with cili padi and garlic. Dip a little, don't pour.",
+  "For BBQ, choose skinless chicken, fish and prawns. Cut down on sausages and sweet marinated meat.",
+  "Eat slowly and chat. Steamboat takes a long time anyway, so give your stomach time to feel full."
+ ],
+ "drink": "Plain water or hot Chinese tea. If you want something cold, iced teh o limau kurang manis (lemon tea, less sweet).",
+ "faq": [
+  {
+   "q": "Is a steamboat buffet suitable if I'm trying to lose weight?",
+   "a": "Yes, if you plan your plate. Start with vegetables and protein, limit the processed balls and noodles, and don't force yourself to 'get your money's worth'. One buffet night won't ruin your progress."
+  },
+  {
+   "q": "Can I drink the steamboat soup?",
+   "a": "You can drink a reasonable amount of clear soup. With santan or thick tomyam soup, it's better to drink just a little. The soup is also usually salty, so drink more plain water."
+  }
+ ]
+}

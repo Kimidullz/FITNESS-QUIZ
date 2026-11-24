@@ -1,0 +1,23 @@
+{
+ "id": "shawarma-ayam-vs-burger-ayam",
+ "verdict": "Chicken shawarma is slightly better. A bit higher in calories, but more protein and less fat.",
+ "why": [
+  "Shawarma is about 550 kcal, a stall chicken burger with egg about 500 kcal. Only a 50 kcal difference.",
+  "Shawarma has 30 g protein, the burger 22 g. 8 g more protein to keep you full longer.",
+  "Shawarma has 23 g fat, the burger 26 g. Stall burgers usually have lots of margarine and mayo.",
+  "Shawarma has some vegetables inside, so it feels more solid and you're less likely to add other food."
+ ],
+ "when_a": "Shawarma is okay as a proper dinner, not a snack. Ask for less garlic sauce or mayo.",
+ "when_b": "A stall chicken burger is okay once in a while when you're hungry at night. Ask for less sauce, less margarine and add vegetables.",
+ "tip": "For both, ask for 'sos sikit je' (just a little sauce) and choose plain water or teh o kosong (no sugar). Lots of calories hide in the sauce.",
+ "faq": [
+  {
+   "q": "Is a burger without egg better?",
+   "a": "Egg actually adds protein. What's better to cut down is the mayo, sauce and margarine on the bun."
+  },
+  {
+   "q": "Can I eat shawarma late at night?",
+   "a": "Yes. Meal timing matters less than your total calories for the day. Just make sure it replaces dinner, not something extra after dinner."
+  }
+ ]
+}

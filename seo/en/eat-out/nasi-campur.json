@@ -1,0 +1,83 @@
+{
+ "slug": "nasi-campur",
+ "slug_en": "nasi-campur-nasi-kandar",
+ "title": "What to pick at nasi campur and nasi kandar shops when you want to lose weight",
+ "intro": "Nasi campur and nasi kandar are the go-to lunch for many working people. You can keep eating rice. The secret is how you build your plate: enough rice, protein that's not too oily, and lots of vegetables. The calories below are estimates.",
+ "best": [
+  {
+   "name": "White rice, 1 scoop",
+   "kcal": 200,
+   "why": "Keep eating rice, just one scoop. Enough energy for afternoon work."
+  },
+  {
+   "name": "Ikan bakar or ikan asam pedas (1 medium fish)",
+   "kcal": 200,
+   "why": "High protein with little oil. The best choice at most shops."
+  },
+  {
+   "name": "Ayam masak merah, 1 piece (skin removed)",
+   "kcal": 250,
+   "why": "Still tasty, and removing the skin saves a lot of fat."
+  },
+  {
+   "name": "Mixed vegetables or kangkung goreng belacan",
+   "kcal": 100,
+   "why": "Fibre helps you feel full. Take 2 types of vegetables if you can."
+  },
+  {
+   "name": "Boiled egg or gulai telur, 1 egg",
+   "kcal": 100,
+   "why": "Cheap protein that's easy to add to your plate."
+  },
+  {
+   "name": "Vegetable soup or sup tulang (clear broth)",
+   "kcal": 120,
+   "why": "Clear broth helps you feel full without many calories."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Kuah campur banjir (3 types of gravy)",
+   "kcal": 250,
+   "why": "Curry and santan gravies have hidden oil. Flooding your rice with gravy can add calories like a small meal."
+  },
+  {
+   "name": "Ayam goreng berempah, 1 piece",
+   "kcal": 350,
+   "why": "Deep-fried until crispy and soaks up oil, especially the skin."
+  },
+  {
+   "name": "Rendang daging (3-4 pieces)",
+   "kcal": 350,
+   "why": "Rich in santan and oil. Tasty, so take just a little for flavour."
+  },
+  {
+   "name": "Sotong goreng tepung",
+   "kcal": 350,
+   "why": "The batter and oil add far more calories than the squid itself."
+  },
+  {
+   "name": "Full nasi kandar (mountain of rice, fried chicken, egg, kuah banjir)",
+   "kcal": 1100,
+   "why": "All high-calorie items on one plate. Fine once in a while, not as a daily routine."
+  }
+ ],
+ "hacks": [
+  "Take vegetables first before other dishes, so half your plate is veg.",
+  "Say 'nasi sikit' (less rice) or 'satu senduk sahaja' (just one scoop).",
+  "Ask for 'kuah sikit' (less gravy) or 'kuah asing' (gravy on the side) so you control it yourself.",
+  "Pick just one main protein dish, not two or three.",
+  "Fried dish? Remove the skin or batter, and balance it with a dish in clear broth."
+ ],
+ "drink": "Plain water or teh o ais kosong (iced black tea, no sugar). Sirap and regular teh ais are high in sugar, so save them for the weekend.",
+ "faq": [
+  {
+   "q": "Do I have to stop eating rice to lose weight?",
+   "a": "No need. One scoop of rice with enough protein and vegetables is already balanced. What matters is your total calories for the day."
+  },
+  {
+   "q": "I love nasi kandar. How can I eat it without feeling guilty?",
+   "a": "Pick fish or skinless chicken, less rice, less gravy, and add vegetables. If you want the full version, plan it for once in a while and eat lighter at other meals."
+  }
+ ]
+}

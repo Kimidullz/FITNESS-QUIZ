@@ -1,0 +1,23 @@
+{
+ "id": "bubble-tea-vs-kopi-latte",
+ "verdict": "Latte is lower in calories and higher in protein. Bubble tea is still fine, especially with less sugar and a small size.",
+ "why": [
+  "A 500 ml bubble tea is an estimated 350 kcal, a 350 ml latte around 190 kcal. A 160 kcal difference.",
+  "Latte has 10 g protein from milk, bubble tea only 4 g. Latte helps more with feeling full.",
+  "Fat is the same (10 g), but bubble tea has more sugar and calorie-dense pearls.",
+  "Bubble tea easily becomes an extra 'snack' between meals that we don't count as calories."
+ ],
+ "when_a": "Bubble tea is okay once in a while as a treat. Choose a small size, 0-30% sugar and fewer toppings.",
+ "when_b": "Latte suits a morning or afternoon drink at the office, especially without added syrup.",
+ "tip": "For bubble tea, choose the lowest sugar level and just one topping. For latte, avoid flavoured syrups and whipped cream.",
+ "faq": [
+  {
+   "q": "Are pearls high in calories?",
+   "a": "Yes, pearls are starch soaked in sugar. One big spoonful of pearls can add calories significantly. Reduce or skip them."
+  },
+  {
+   "q": "Is a latte with oat milk lower in calories?",
+   "a": "It depends on the recipe. Sometimes it's about the same or even higher. Size and added sugar matter more."
+  }
+ ]
+}

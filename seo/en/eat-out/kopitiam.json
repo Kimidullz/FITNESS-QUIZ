@@ -1,0 +1,83 @@
+{
+ "slug": "kopitiam",
+ "slug_en": "kopitiam",
+ "title": "What to order at a kopitiam when you want to lose weight",
+ "intro": "The kopitiam is where many Malaysians have breakfast and lunch. The menu has lots of soupy options that are actually weight-loss friendly. Calories below are estimates for typical servings.",
+ "best": [
+  {
+   "name": "2 half-boiled eggs",
+   "kcal": 150,
+   "why": "High in protein and easy. A great breakfast pairing so you don't get hungry quickly."
+  },
+  {
+   "name": "Roti bakar kaya without butter (2 slices)",
+   "kcal": 250,
+   "why": "You don't have to give up your favourite toast, just skip the butter. Calories drop noticeably."
+  },
+  {
+   "name": "Kuey teow soup",
+   "kcal": 350,
+   "why": "Clear broth with a little meat or fish balls. Less oil than the fried version."
+  },
+  {
+   "name": "Yong tau foo soup (6-7 pieces)",
+   "kcal": 300,
+   "why": "You get to choose. Add more vegetables and tofu, fewer fried items."
+  },
+  {
+   "name": "Wantan mee soup",
+   "kcal": 380,
+   "why": "The soup version is lighter than the dry version coated in oil and sauce."
+  },
+  {
+   "name": "Chicken rice (steamed chicken, skin removed, half rice)",
+   "kcal": 450,
+   "why": "You still get your favourite chicken rice, just tweaked a little. You get protein, calories stay in check."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Roti bakar kaya with butter (2 slices)",
+   "kcal": 350,
+   "why": "Thick butter adds fat. Tasty, but if it's every morning, it adds up."
+  },
+  {
+   "name": "Char kuey teow",
+   "kcal": 750,
+   "why": "Fried with lots of oil and lard. Better shared or eaten once in a while."
+  },
+  {
+   "name": "Full chicken rice (oily rice, roasted chicken with skin)",
+   "kcal": 650,
+   "why": "The rice is cooked with oil and chicken skin is high in fat."
+  },
+  {
+   "name": "Curry mee",
+   "kcal": 600,
+   "why": "Thick santan broth. Filling, but high in calories for one bowl."
+  },
+  {
+   "name": "Regular kopi or teh with milk",
+   "kcal": 130,
+   "why": "Condensed milk. If you drink it 2-3 times a day, it adds up fast."
+  }
+ ],
+ "hacks": [
+  "Order 'kopi o kosong' (black coffee, no sugar) or 'kopi c kurang manis' (coffee with evaporated milk, less sweet).",
+  "Ask for 'roti bakar kaya, tak mau butter' (no butter) or 'kaya sikit sahaja' (just a little kaya).",
+  "Choose the soup version over the fried or dry version.",
+  "For curry mee, eat the noodles and toppings, leave some of the broth.",
+  "Add half-boiled eggs for protein so you stay full until lunch."
+ ],
+ "drink": "Kopi o kosong or teh o kosong (no sugar, no milk), hot or iced. If you need milk, ask for kopi c kurang manis (with evaporated milk, less sweet).",
+ "faq": [
+  {
+   "q": "What does the most balanced kopitiam breakfast look like?",
+   "a": "For example, 2 half-boiled eggs, 1-2 slices of roti bakar kaya without butter and kopi o kosong. You get protein, carbs, and calories stay in check."
+  },
+  {
+   "q": "Do I need to finish the soup?",
+   "a": "Clear soup is okay. Curry or santan broth is higher in calories, so leave some if you want to save calories."
+  }
+ ]
+}

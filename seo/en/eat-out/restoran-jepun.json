@@ -1,0 +1,83 @@
+{
+ "slug": "restoran-jepun",
+ "slug_en": "japanese-restaurant-sushi",
+ "title": "What to order at Japanese restaurants and sushi shops when you want to lose weight",
+ "intro": "Many people think all Japanese food is healthy. That's partly true, but there are also mayo-loaded rolls and fried dishes that are high in calories. If you choose well, a sushi shop can be a great place to eat for your goals. The calories below are estimates.",
+ "best": [
+  {
+   "name": "Salmon sashimi (5 pieces)",
+   "kcal": 170,
+   "why": "High protein with no rice. Rich in good fats and very filling."
+  },
+  {
+   "name": "Salmon or tuna nigiri (2 pieces)",
+   "kcal": 140,
+   "why": "Less rice, more fish. The simplest sushi choice."
+  },
+  {
+   "name": "Saba shioyaki or grilled fish (1 serving)",
+   "kcal": 300,
+   "why": "Fish grilled with salt. Packed with protein and no sweet sauce."
+  },
+  {
+   "name": "Chawanmushi (1 bowl)",
+   "kcal": 90,
+   "why": "Soft steamed egg. Light and tasty as a starter."
+  },
+  {
+   "name": "Edamame (1 plate)",
+   "kcal": 120,
+   "why": "A snack with protein and fibre. Good to munch on while waiting for your food."
+  },
+  {
+   "name": "Miso soup (1 bowl)",
+   "kcal": 40,
+   "why": "Warm and low in calories. Helps you feel fuller."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Mixed tempura (1 set)",
+   "kcal": 450,
+   "why": "Prawns and vegetables in fried batter. Share it or take just 2-3 pieces."
+  },
+  {
+   "name": "Mentai roll or cheese roll (6 pieces)",
+   "kcal": 400,
+   "why": "Mayo, cheese and sauce add a lot of calories. Choose plain maki or nigiri instead."
+  },
+  {
+   "name": "Katsu don (1 bowl)",
+   "kcal": 800,
+   "why": "Battered fried chicken on rice with sweet sauce. Consider grilled teriyaki or share it."
+  },
+  {
+   "name": "Kani mayo salad (1 plate)",
+   "kcal": 250,
+   "why": "Looks like a salad, but has lots of mayo. Take just a little."
+  },
+  {
+   "name": "Takoyaki (6 pieces)",
+   "kcal": 300,
+   "why": "Batter, sauce and mayo. Nice as a shared snack, not as a main meal."
+  }
+ ],
+ "hacks": [
+  "Start with miso soup and edamame so you're not too hungry when the sushi arrives.",
+  "Pick more sashimi and nigiri than mayo-loaded rolls.",
+  "Ask for sauce and mayo on the side. Dip a little, don't pour.",
+  "At the conveyor belt counter, set a plate limit first, for example 5 plates, before you start picking.",
+  "For bento sets, choose grilled protein and ask for less rice."
+ ],
+ "drink": "Hot or cold ocha with no sugar. Most sushi shops offer free ocha refills, so it's a perfect choice.",
+ "faq": [
+  {
+   "q": "Is it okay to eat sushi every week when losing weight?",
+   "a": "Yes, as long as you pick lighter options like sashimi, nigiri and plain maki. Watch the number of plates and the mayo rolls, because that's where calories add up easily."
+  },
+  {
+   "q": "Japanese soy sauce is very salty. Should I worry?",
+   "a": "Soy sauce is high in sodium. Just dip a little, don't soak. Drink enough ocha or plain water throughout the meal."
+  }
+ ]
+}
