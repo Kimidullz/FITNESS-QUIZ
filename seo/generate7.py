@@ -4,6 +4,7 @@
   python seo/generate7.py order    -> seo/makan-luar/<slug>.json    (20 "apa nak order di ..." guides)
   python seo/generate7.py senior   -> seo/umur-50/<slug>.json       (10 guides for 50+, blood sugar, knees)
   python seo/generate7.py round2   -> all three (skips what already exists)
+  python seo/generate7.py en2      -> English versions: seo/en/compare/, seo/en/eat-out/, seo/en/over-50/ (same file names as BM)
 """
 import json
 import pathlib
@@ -123,10 +124,42 @@ def run_senior():
         print(f"senior {min(i + 5, len(todo))}/{len(todo)}", flush=True)
 
 
+EN_RULE = ("Translate into simple, natural Malaysian English for Malaysian readers (keep Malaysian food and place names like nasi "
+           "lemak, teh tarik, kuih, mamak, kopitiam, kenduri, pasar malam as they are; ordering phrases like 'kurang manis' may stay "
+           "in Malay with a short English gloss). Keep the meaning, numbers, kcal and doctor/safety notes exactly; keep every list in "
+           "the same order and length; do not add claims, products, supplements or brand names. Keep id and slug exactly as given. "
+           "slug_en = short lowercase English URL slug with hyphens.")
+FAQ = arr(obj({"q": S(), "a": S()}))
+ITEMS = arr(obj({"name": S(), "kcal": {"type": "integer"}, "why": S()}))
+EN_JOBS = {
+    "compare": ("banding", "id", 10, obj({"id": S(), "verdict": S(), "why": arr(S()), "when_a": S(), "when_b": S(), "tip": S(), "faq": FAQ})),
+    "eat-out": ("makan-luar", "slug", 5, obj({"slug": S(), "slug_en": S(), "title": S(), "intro": S(), "best": ITEMS, "careful": ITEMS,
+                                              "hacks": arr(S()), "drink": S(), "faq": FAQ})),
+    "over-50": ("umur-50", "slug", 5, obj({"slug": S(), "slug_en": S(), "title": S(), "intro": S(), "sections": arr(obj({"h": S(), "p": S()})),
+                                           "action": arr(S()), "doctor": S(), "faq": FAQ})),
+}
+
+
+def run_en2():
+    for kind, (src, key, n, sch) in EN_JOBS.items():
+        out = SEO / "en" / kind; out.mkdir(parents=True, exist_ok=True)
+        todo = [p for p in sorted((SEO / src).glob("*.json")) if not (out / p.name).exists()]
+        for i in range(0, len(todo), n):
+            batch = [json.loads(p.read_text()) for p in todo[i:i + n]]
+            for b in batch:
+                b.pop("winner", None)
+            for d in call(EN_RULE + "\n\n" + json.dumps(batch, ensure_ascii=False), obj({"pages": arr(sch)}))["pages"]:
+                if any(d[key] == b[key] for b in batch) and clean(d):
+                    (out / f"{d[key]}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1))
+            print(f"en2 {kind} {min(i + n, len(todo))}/{len(todo)}", flush=True)
+
+
 JOBS = {"compare": run_compare, "order": run_order, "senior": run_senior}
 
 if __name__ == "__main__":
     job = sys.argv[1] if len(sys.argv) > 1 else "round2"
+    if job == "en2":
+        run_en2()
     for name, fn in JOBS.items():
         if job in (name, "round2"):
             fn()
