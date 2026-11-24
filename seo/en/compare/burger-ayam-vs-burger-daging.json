@@ -1,0 +1,23 @@
+{
+ "id": "burger-ayam-vs-burger-daging",
+ "verdict": "A regular fast food beef burger is lighter, an estimated ~300 kcal compared to a stall chicken burger with egg at ~500 kcal. The stall burger is higher in protein, but its calories and fat are also much higher.",
+ "why": [
+  "A regular fast food beef burger is an estimated ~300 kcal, a stall chicken burger with egg ~500 kcal. About a 200 kcal difference.",
+  "The stall burger has 22 g protein, the fast food burger 15 g. The egg and chicken patty add the protein.",
+  "The stall burger has 26 g fat, more than double the fast food burger (12 g). Mayonnaise, margarine and oil on the griddle contribute a lot.",
+  "Regular fast food burgers usually come as a set with fries and a fizzy drink. The full set can end up higher than the stall burger."
+ ],
+ "when_a": "A stall chicken burger is okay as a full dinner, not as a snack. Its protein helps keep you full until bedtime.",
+ "when_b": "A fast food beef burger suits you when you need a quick meal. Order just the burger, not a large set.",
+ "tip": "At the stall, ask for 'kurang mayo, kurang sos' (less mayo, less sauce) and add lettuce or cucumber. At fast food places, have the burger with plain water or plain tea.",
+ "faq": [
+  {
+   "q": "Is a stall burger without egg better?",
+   "a": "Calories drop a little, but you also lose protein. It's more effective to cut down the mayonnaise, sauce and margarine on the bun."
+  },
+  {
+   "q": "What if I order a fast food set?",
+   "a": "Change the fries to a small size or share them, and choose a sugar-free drink. That's an easy way to save a few hundred calories."
+  }
+ ]
+}

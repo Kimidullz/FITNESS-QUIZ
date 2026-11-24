@@ -1,0 +1,83 @@
+{
+ "slug": "mamak",
+ "slug_en": "mamak",
+ "title": "What to order at a mamak when you want to lose weight",
+ "intro": "Lepak at the mamak with friends is a must, right? The good news is, you don't need to stop. You just need to know which items are lighter and how to order smart. All calories below are estimates for typical servings in Malaysia.",
+ "best": [
+  {
+   "name": "1 roti canai kosong + dhal gravy",
+   "kcal": 300,
+   "why": "One piece is enough to feel satisfied. Dhal gravy has a bit of protein and fibre compared to oily curry gravy."
+  },
+  {
+   "name": "2 chapati + dhal",
+   "kcal": 300,
+   "why": "Chapati is cooked without much oil. More filling and lower in fat than roti canai."
+  },
+  {
+   "name": "Plain tosai + chutney",
+   "kcal": 250,
+   "why": "Light and thin. Good for breakfast or a dinner that's not too heavy."
+  },
+  {
+   "name": "1 piece of tandoori chicken (no naan)",
+   "kcal": 260,
+   "why": "Grilled, not fried. High in protein, so you stay full longer."
+  },
+  {
+   "name": "3 idli + sambar",
+   "kcal": 250,
+   "why": "Steamed and low in fat. The sambar has vegetables that add fibre."
+  },
+  {
+   "name": "Chicken soup + half portion of white rice",
+   "kcal": 400,
+   "why": "Clear soup, protein from the chicken, and you still get rice but in a controlled portion."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Roti tisu with condensed milk and sugar",
+   "kcal": 600,
+   "why": "Lots of oil, butter and sugar on one plate. Nice once in a while, share it with friends."
+  },
+  {
+   "name": "Nasi goreng mamak",
+   "kcal": 700,
+   "why": "Lots of oil and sweet soy sauce. Portions are usually big too."
+  },
+  {
+   "name": "Maggi goreng",
+   "kcal": 600,
+   "why": "Instant noodles fried again with oil. Calories go up fast without keeping you full for long."
+  },
+  {
+   "name": "Murtabak ayam (1 full serving)",
+   "kcal": 850,
+   "why": "Layered dough fried on the griddle with lots of oil. Better shared between two or three people."
+  },
+  {
+   "name": "Regular teh tarik (large glass)",
+   "kcal": 200,
+   "why": "Condensed milk and sugar. Drinking 2 glasses a day is like having an extra snack."
+  }
+ ],
+ "hacks": [
+  "Ask for dhal gravy only, don't flood your plate with mixed curry gravy.",
+  "Order 'roti kosong, kurang minyak' (plain roti, less oil) or switch straight to chapati.",
+  "Add a half-boiled egg or tandoori chicken for protein, instead of a second roti.",
+  "If you want teh tarik, ask for 'kurang manis' (less sweet) or go straight for 'teh o kosong' (plain tea, no sugar, no milk).",
+  "Hungry late at night? Order soup first, drink plain water, then see if you still want more."
+ ],
+ "drink": "Teh o ais kosong (iced plain tea, no sugar) or warm water. If you still want milky tea, ask for a small teh tarik kurang manis (less sweet).",
+ "faq": [
+  {
+   "q": "Can I eat roti canai if I want to lose weight?",
+   "a": "Yes. What matters is portion and frequency. One piece with dhal, add protein like an egg, and not every day. Roti canai is not the enemy."
+  },
+  {
+   "q": "If I'm out at night with friends, what's the safest choice?",
+   "a": "Try tandoori chicken without naan, soup, or plain tosai. Drink teh o kosong or warm water. You can still lepak without feeling left out."
+  }
+ ]
+}

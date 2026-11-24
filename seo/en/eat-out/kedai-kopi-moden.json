@@ -1,0 +1,83 @@
+{
+ "slug": "kedai-kopi-moden",
+ "slug_en": "coffee-cafe",
+ "title": "What to order at coffee cafes (Starbucks, ZUS, Tealive) when you want to lose weight",
+ "intro": "Coffee cafes are now where many people lepak and work. The problem isn't the coffee. It's the sugar, syrup, whipped cream and pastries that come along with it. One sweet drink can have the same calories as a plate of rice. You don't need to stop going to cafes. Just pick lighter drinks, go for a smaller size, and don't make cake your daily 'coffee buddy'. All numbers below are estimates for a regular size.",
+ "best": [
+  {
+   "name": "Hot or iced Americano (no sugar)",
+   "kcal": 15,
+   "why": "Almost zero calories. Full coffee taste. The safest choice if you drink coffee every day."
+  },
+  {
+   "name": "Unsweetened latte (small/tall size)",
+   "kcal": 150,
+   "why": "It has milk, so it's more filling and has a bit of protein. The calories come from milk, not syrup."
+  },
+  {
+   "name": "Unsweetened cappuccino",
+   "kcal": 110,
+   "why": "More foam and less milk than a latte. Still creamy, but lower in calories."
+  },
+  {
+   "name": "Hot tea or green tea, no sugar",
+   "kcal": 5,
+   "why": "Good for non-coffee drinkers. You can sip slowly while working without worrying."
+  },
+  {
+   "name": "Chicken or tuna sandwich or wrap",
+   "kcal": 350,
+   "why": "Has protein and carbs. Keeps you full longer than cake or a muffin with almost the same calories."
+  },
+  {
+   "name": "Fresh milk tea, kurang manis (less sweet) (Tealive, regular size, no toppings)",
+   "kcal": 200,
+   "why": "If you're craving milk tea, this is the lighter version. The key is low sugar level and no pearls."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Caramel or chocolate frappe with whipped cream",
+   "kcal": 420,
+   "why": "Sugar, syrup, sauce and whipped cream in one cup. Estimated calories are similar to a plate of nasi lemak."
+  },
+  {
+   "name": "Brown sugar boba milk tea",
+   "kcal": 450,
+   "why": "Brown sugar syrup and pearls add calories fast. Tasty, but better as an occasional treat."
+  },
+  {
+   "name": "Spanish latte or sweet mocha",
+   "kcal": 280,
+   "why": "Condensed milk and chocolate add sugar. If you drink it daily, these calories pile up without you noticing."
+  },
+  {
+   "name": "Chocolate muffin or cheesecake",
+   "kcal": 450,
+   "why": "Cafe portions are usually big. High in calories but won't keep you full long because it's low in protein."
+  },
+  {
+   "name": "Butter croissant",
+   "kcal": 300,
+   "why": "Light in your hand but high in fat. Pair it with a sweet drink and the total goes up fast."
+  }
+ ],
+ "hacks": [
+  "Ask for 'kurang manis' (less sweet) or 'no sugar'. If there are sugar level options, choose 0% or 25%.",
+  "Switch from large to small size. Same taste, far fewer calories.",
+  "Skip the whipped cream and topping sauce. When ordering, say 'no whipped cream, no drizzle'.",
+  "If you want pearls or toppings, pick just one and ask for half.",
+  "If you're hungry, get a protein sandwich. Save cake for the weekend or share it with a friend."
+ ],
+ "drink": "Americano (hot or iced) with no sugar. If you want something creamy, a small unsweetened latte.",
+ "faq": [
+  {
+   "q": "Is oat milk lower in calories than regular milk?",
+   "a": "Not necessarily. Some oat milks have added sugar or oil, so the calories are about the same or even more. Choose based on the taste you like. What matters more is cutting the syrup and cup size."
+  },
+  {
+   "q": "Can I still have my favourite sweet drink?",
+   "a": "Yes. No drink is banned on a diet. Try making it a treat once or twice a week, choose a small size and less sweet. On other days, pick an americano or an unsweetened latte."
+  }
+ ]
+}

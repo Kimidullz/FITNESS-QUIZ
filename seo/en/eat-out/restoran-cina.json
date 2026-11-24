@@ -1,0 +1,83 @@
+{
+ "slug": "restoran-cina",
+ "slug_en": "chinese-restaurant-chap-fan",
+ "title": "What to pick at Chinese restaurants and chap fan shops when you want to lose weight",
+ "intro": "Chap fan or Chinese mixed rice shops are practical for a working lunch. There are many steamed dishes and stir-fried vegetables that suit you. What you need to watch out for are fried dishes, sweet sauces and flooded gravy. The calorie numbers below are estimates.",
+ "best": [
+  {
+   "name": "White rice, half plate",
+   "kcal": 180,
+   "why": "Still eating rice, just a more controlled portion. Enough energy for afternoon work."
+  },
+  {
+   "name": "Steamed fish with ginger or soy sauce (1 portion)",
+   "kcal": 180,
+   "why": "High protein, little oil. One of the best choices at a chap fan shop."
+  },
+  {
+   "name": "Steamed egg (1 portion)",
+   "kcal": 110,
+   "why": "Soft, light and cheap. Good extra protein."
+  },
+  {
+   "name": "Sawi or choy sum stir-fried with garlic (1 big scoop)",
+   "kcal": 90,
+   "why": "Take two types of vegetables. Full plate, calories stay low."
+  },
+  {
+   "name": "Steamed tofu or tofu in oyster sauce (2 pieces)",
+   "kcal": 150,
+   "why": "Protein from soybeans. Pick the ones that aren't deep-fried."
+  },
+  {
+   "name": "Radish soup or vegetable soup (1 bowl)",
+   "kcal": 80,
+   "why": "Clear soup makes you fuller without many calories."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Sweet and sour chicken (1 scoop)",
+   "kcal": 400,
+   "why": "Chicken is battered, fried and coated in sugary sauce. Take just 2-3 pieces."
+  },
+  {
+   "name": "Butter prawns or fried battered prawns (1 scoop)",
+   "kcal": 450,
+   "why": "Butter, batter and oil. Nice once in a while, not every day."
+  },
+  {
+   "name": "Fu yong egg (1 piece)",
+   "kcal": 280,
+   "why": "Egg fried in a lot of oil. Steamed egg is lighter."
+  },
+  {
+   "name": "Crispy fried tofu (3 pieces)",
+   "kcal": 250,
+   "why": "Tofu soaks up oil when fried. Choose the steamed or sauce version."
+  },
+  {
+   "name": "Curry gravy flooded over rice",
+   "kcal": 200,
+   "why": "Santan gravy adds calories without you noticing. Ask for gravy on the side or just a little."
+  }
+ ],
+ "hacks": [
+  "Easy formula: 1 steamed protein, 2 vegetables, half plate of rice.",
+  "Ask for 'kuah sikit' (less gravy) or 'kuah asing' (gravy on the side), don't flood your rice.",
+  "Take vegetables a bit drier and leave the oil in the tray first.",
+  "Pick dishes labelled 'steamed', 'boiled' or 'stir-fried' over 'fried' and 'sweet and sour'.",
+  "If there's a fried dish you're craving, take just one and balance it with vegetables."
+ ],
+ "drink": "Hot Chinese tea without sugar or plain water. If you want something cold, ask for teh O ais kosong (iced black tea, no sugar).",
+ "faq": [
+  {
+   "q": "Is white rice or brown rice better?",
+   "a": "Both are fine. Brown rice has more fibre and is more filling. But if the shop only has white rice, controlling your portion is enough."
+  },
+  {
+   "q": "If I have chap fan for lunch every day, won't it get boring?",
+   "a": "Switch up your protein: steamed fish today, chicken tomorrow, tofu and egg the day after. Pick different vegetables too. With the same formula, you still get lots of variety."
+  }
+ ]
+}

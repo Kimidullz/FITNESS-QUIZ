@@ -1,0 +1,23 @@
+{
+ "id": "milo-ais-vs-teh-tarik",
+ "verdict": "Teh tarik is lower in calories than Milo ais. Milo ais is still fine, just better as an occasional drink.",
+ "why": [
+  "Milo ais is about 200 kcal a glass, teh tarik around 120 kcal. A difference of 80 kcal.",
+  "Milo ais has slightly more protein (5 g vs 3 g), but it's still too little to keep you full.",
+  "Fat is almost the same (5 g vs 4 g). Most of the calorie difference comes from sugar and condensed milk.",
+  "Milo ais is cold and sweet, easy to finish in a few minutes and makes you want to order another."
+ ],
+ "when_a": "Milo ais is okay as an occasional drink, or ask for kurang manis (less sweet) in a regular size.",
+ "when_b": "Teh tarik suits you when you want a lighter milky drink while you lepak.",
+ "tip": "Ask for Milo ais kurang manis (less sweet) or 'Milo kosong ais' (iced Milo with no sugar) with a little milk. You still get the chocolate taste, with less sugar.",
+ "faq": [
+  {
+   "q": "Doesn't Milo ais have protein and give good energy?",
+   "a": "It has a little protein, but most of the calories come from sugar. To stay full, protein from food like eggs or chicken works better."
+  },
+  {
+   "q": "What about Milo ais 'dinosaur'?",
+   "a": "The extra powder on top adds even more calories. Treat it as a dessert, not a regular drink."
+  }
+ ]
+}

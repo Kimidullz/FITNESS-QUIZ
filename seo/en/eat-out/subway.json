@@ -1,0 +1,83 @@
+{
+ "slug": "subway",
+ "slug_en": "subway",
+ "title": "What to order at Subway when you want to lose weight",
+ "intro": "Subway is one of the easiest places to eat out while staying in control. You choose your own bread, filling, vegetables and sauce. The problem is that sauces and cheese can add calories without you noticing. Use this guide so your sandwich is filling, tasty and still on target. All calories are estimates for a 6-inch size with full vegetables, not including sauce unless stated.",
+ "best": [
+  {
+   "name": "Roasted Chicken 6-inch",
+   "kcal": 320,
+   "why": "Skinless chicken, high protein. Keeps you full for a long time at lunch."
+  },
+  {
+   "name": "Chicken Slice 6-inch",
+   "kcal": 280,
+   "why": "Light and still has protein. Good if you want to leave room for an afternoon snack."
+  },
+  {
+   "name": "Turkey 6-inch",
+   "kcal": 280,
+   "why": "Meat without much fat. Pair it with full vegetables to feel fuller."
+  },
+  {
+   "name": "Chicken Teriyaki 6-inch",
+   "kcal": 370,
+   "why": "Tasty sweet-salty flavour. Slightly more calories because of the sauce, but the protein is still good."
+  },
+  {
+   "name": "Roasted Chicken salad bowl",
+   "kcal": 200,
+   "why": "No bread, so fewer calories. Good if you've already had a lot of rice that day."
+  },
+  {
+   "name": "Veggie Delite 6-inch + egg (if available)",
+   "kcal": 300,
+   "why": "Full of vegetables and low in calories. Add protein so you don't get hungry quickly."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Tuna 6-inch",
+   "kcal": 480,
+   "why": "The tuna is mixed with mayo, so it's high in fat. Okay once in a while, but don't add more sauce."
+  },
+  {
+   "name": "Spicy Italian 6-inch",
+   "kcal": 480,
+   "why": "Fatty processed meat. High in calories for a small size."
+  },
+  {
+   "name": "Meatball Marinara 6-inch",
+   "kcal": 480,
+   "why": "Tasty and filling, but the meatballs and cheese push the calories up."
+  },
+  {
+   "name": "Footlong with any filling + mayo sauce",
+   "kcal": 800,
+   "why": "Double the size, double the calories. Mayo adds roughly another 100 kcal."
+  },
+  {
+   "name": "1 cookie",
+   "kcal": 200,
+   "why": "Small but calorie-dense. If you want one, share it or swap out another snack that day."
+  }
+ ],
+ "hacks": [
+  "Choose 6-inch, not footlong. If you're still hungry, add a small salad bowl, not a second sandwich.",
+  "Ask for full vegetables: lettuce, tomato, cucumber, onion, capsicum. They're free and keep you full.",
+  "Pick just one sauce. Honey mustard or sweet onion is lighter than mayo or chipotle.",
+  "Ask for just a little sauce, 'one line is enough'. Half the sauce already saves 50-100 kcal.",
+  "Skip the cheese or ask for just one slice. Not toasted is fine too, it still tastes okay with full vegetables."
+ ],
+ "drink": "Mineral water or unsweetened tea. If you want something fizzy, choose the sugar-free version. Avoid combo sets with a large sweet drink.",
+ "faq": [
+  {
+   "q": "Is wheat bread better for losing weight?",
+   "a": "Wheat and white bread are almost the same in calories, an estimated 200 kcal for 6 inches. Wheat has slightly more fibre, so it may be more filling. What matters more is the size, filling and sauce."
+  },
+  {
+   "q": "Can I eat Subway every day?",
+   "a": "Yes, if you like it and it fits your daily calories. Switch up the fillings and make sure your other meals that day have a balance of rice, lauk (dishes) and vegetables."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "slug": "food-court",
+ "slug_en": "food-court",
+ "title": "What to order at a food court or medan selera when you want to lose weight",
+ "intro": "A food court is a paradise of choices. Chicken rice, yong tau foo, economy rice, char kuey teow, chicken chop. Lots of choices means you can pick what suits your goal. Look for dishes with clear protein, vegetables, and soup, steamed or grilled cooking. All numbers are estimates for a normal serving.",
+ "best": [
+  {
+   "name": "Chicken rice (steamed or roasted chicken, no skin), white rice",
+   "kcal": 500,
+   "why": "Clear protein. Switch oily rice to white rice and remove the skin to save a lot of calories."
+  },
+  {
+   "name": "Yong tau foo soup (6-8 pieces, choose vegetables and tofu)",
+   "kcal": 350,
+   "why": "You choose your own items. Lots of vegetables and tofu, clear soup."
+  },
+  {
+   "name": "Fish soup bihun or fish soup with rice",
+   "kcal": 380,
+   "why": "Sliced fish is low in fat and the soup is light. Very filling."
+  },
+  {
+   "name": "Economy rice: half rice, 1 protein dish, 2 vegetables",
+   "kcal": 500,
+   "why": "Flexible. Choose chicken, fish or tofu that isn't battered and fried."
+  },
+  {
+   "name": "2 rolls popiah basah",
+   "kcal": 250,
+   "why": "Full of vegetables like sengkuang (jicama). Light for a quick lunch."
+  },
+  {
+   "name": "Chicken curry mee without tauhu pok, half the gravy",
+   "kcal": 500,
+   "why": "If you're craving thick gravy, reduce the gravy and skip the tauhu pok that soaks up coconut milk."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Regular char kuey teow",
+   "kcal": 750,
+   "why": "Fried with lots of oil on high heat. Tasty, but calorie-dense."
+  },
+  {
+   "name": "Fried chicken chop with black pepper sauce and fries",
+   "kcal": 850,
+   "why": "Battered fried chicken, creamy sauce and fries. High calories in one plate."
+  },
+  {
+   "name": "Nasi goreng kampung or nasi goreng pattaya",
+   "kcal": 700,
+   "why": "Fried rice soaks up oil. Food court portions are usually big."
+  },
+  {
+   "name": "Curry laksa or curry mee with full gravy",
+   "kcal": 650,
+   "why": "Coconut milk in the gravy. Finish the gravy and the calories go up."
+  },
+  {
+   "name": "Cendol or ais kacang",
+   "kcal": 350,
+   "why": "Gula melaka, milk and coconut milk. A tasty dessert to share."
+  }
+ ],
+ "hacks": [
+  "Chicken rice: 'white rice, no skin, extra soup'. Many stalls can do it.",
+  "Economy rice: avoid battered fried dishes, take soy sauce dishes, steamed dishes or stir-fried vegetables.",
+  "Yong tau foo: choose clear soup, take more vegetables and plain tofu, fewer fried items.",
+  "If you want char kuey teow, ask for 'kurang minyak' (less oil) and share with a friend, or add vegetables from another stall.",
+  "Drinks: choose plain water, teh O ais kurang manis (iced tea, less sweet) or air limau kurang manis (lime juice, less sweet). Save cendol for the weekend."
+ ],
+ "drink": "Plain water or teh O ais limau kurang manis (iced lemon tea, less sweet). If you want something creamy, a small teh tarik kurang manis (less sweet) once in a while.",
+ "faq": [
+  {
+   "q": "Can economy rice also be high in calories?",
+   "a": "Yes, depending on the dishes you take. Battered fried chicken, oily fried omelette and mixed rich gravies push the calories up fast. Easy formula: half rice, one protein, two vegetables, a little gravy."
+  },
+  {
+   "q": "I eat at the food court almost every workday. Is that okay for losing weight?",
+   "a": "Okay. Many of our clients eat out every day. Rotate a few 'safe' options like chicken rice without skin, yong tau foo soup and fish soup. Then slot in your favourite food 1-2 times a week so you don't feel tortured."
+  }
+ ]
+}

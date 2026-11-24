@@ -122,7 +122,7 @@ def senior_pages():
         msg = urllib.parse.quote(f"Hi Coach, saya baca panduan \"{d['title']}\". Saya nak tanya pasal turun berat dan kesihatan.")
         build2.write(f"umur-50/{d['slug']}", build2.head(d["title"], d["intro"][:155], f"umur-50/{d['slug']}/", "ms", faq_ld(d) + CSS5) + f"""<main class="w">
 <p class="crumb"><a href="../">Umur 50 ke atas</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
-<div class="doc"><b>Jumpa doktor dulu kalau:</b> {E(d['doctor'])}</div>
+<div class="doc"><b>Penting:</b> {E(d['doctor'])}</div>
 {''.join(f'<h2>{E(s["h"])}</h2><p>{E(s["p"])}</p>' for s in d['sections'])}
 <h2>Cuba minggu ini</h2><ul class="tips">{''.join(f'<li>{E(a)}</li>' for a in d['action'])}</ul>
 <div class="box"><h2>Nak coach yang faham keadaan anda?</h2><p>Coach susun pelan ikut umur, ubat dan sendi anda, bukan diet ekstrem. Ada soalan? Tanya terus.</p>
@@ -143,8 +143,142 @@ def senior_pages():
     return urls
 
 
+# ---------- English versions (data from generate7.py en2: seo/en/compare|eat-out|over-50, same file names as BM) ----------
+
+def load_en(kind):
+    return load(f"en/{kind}")
+
+
+def en_map5():
+    """Malay path -> English path for round 2 pages that have an English version."""
+    m = {}
+    for kind, sec, key in (("compare", "banding", "id"), ("eat-out", "makan-luar", "slug"), ("over-50", "umur-50", "slug")):
+        pages = load_en(kind)
+        for d in pages:
+            m[f"{sec}/{d[key]}"] = f"en/{kind}/{d['id'] if kind == 'compare' else d['slug_en']}"
+        if pages:
+            m[sec] = f"en/{kind}"
+    return m
+
+
+def short_en(slug):
+    p = SEO / "data-en" / f"{slug}.json"
+    return json.loads(p.read_text())["name_en"].split("(")[0].strip() if p.exists() else short(slug)
+
+
+def serving_en(slug):
+    p = SEO / "data-en" / f"{slug}.json"
+    return json.loads(p.read_text())["serving_en"] if p.exists() else FOODS[slug]["serving"]
+
+
+def cta_en(src, h, p):
+    return f"""<div class="box"><h2>{E(h)}</h2><p>{E(p)}</p>
+<a class="btn y" href="{BASE}kuiz/?src={src}&amp;lang=en">Take the 2-minute quiz →</a>
+<a class="btn w2" href="{BASE}?src={src}&amp;lang=en#kalori">Work out my calories + free meal plan</a>
+<p class="price">{build2.PRICE_EN}</p></div>"""
+
+
+def compare_en():
+    pages, urls = load_en("compare"), []
+    win = {d["id"]: d["winner"] for d in load("banding")}
+    for d in pages:
+        a, b = d["id"].split("-vs-")
+        w = win.get(d["id"], "seri")
+        da, db = (json.loads((SEO / "data" / f"{x}.json").read_text()) for x in (a, b))
+        na, nb = short_en(a), short_en(b)
+        card = lambda s, n, dd: f"""<div class="f{' win' if w == s else ''}">{'<span class="tag">Better pick</span>' if w == s else ''}<b>{E(n)}</b><div class="k">{FOODS[s]['kcal']}</div><small>kcal · {E(serving_en(s))}</small><small>protein {dd['protein_g']} g · fat {dd['fat_g']} g</small></div>"""
+        path = f"en/compare/{d['id']}/"
+        others = [x for x in pages if x is not d and (a in x["id"] or b in x["id"])][:4] or [x for x in pages if x is not d][:4]
+        build2.write(path.rstrip("/"), build2.head(f"{na} vs {nb}: which is better for weight loss?", d["verdict"][:155], path, "en", faq_ld(d) + CSS5,
+                                                   {"ms": f"banding/{d['id']}/", "en": path}) + f"""<main class="w">
+<p class="crumb"><a href="../">Food comparisons</a></p><h1>{E(na)} vs {E(nb)}</h1><p class="lead">{E(d['verdict'])}</p>
+<p class="lang">Read in Malay: <a href="{BASE}banding/{d['id']}/">versi Bahasa Melayu</a></p>
+<div class="vs">{card(a, na, da)}<div class="x">VS</div>{card(b, nb, db)}</div>
+<h2>Why?</h2><ul class="tips">{''.join(f'<li>{E(x)}</li>' for x in d['why'])}</ul>
+<h2>When {E(na)} is still fine</h2><div class="card">{E(d['when_a'])}</div>
+<h2>When {E(nb)} is still fine</h2><div class="card">{E(d['when_b'])}</div>
+<h2>A smarter way</h2><div class="card">{E(d['tip'])}</div>
+{cta_en('compare', "It's not the food, it's the routine", 'Take the 2-minute quiz to find what is really holding your results back.')}
+<h2>FAQ</h2>{faqs(d)}
+<h2>More comparisons</h2><div class="rel">{''.join(f'<a href="{BASE}en/compare/{x["id"]}/">{E(short_en(x["id"].split("-vs-")[0]))} vs {E(short_en(x["id"].split("-vs-")[1]))}</a>' for x in others)}</div>
+<div class="rel" style="margin-top:8px"><a href="{BASE}calories/{a}/">{E(na)} calories</a><a href="{BASE}calories/{b}/">{E(nb)} calories</a></div>
+<p class="fine">All numbers are estimates for a normal Malaysian serving. General guide only, not medical advice.</p></main>""" + build2.foot("en"))
+        urls.append(path)
+    if pages:
+        build2.write("en/compare", build2.head("Malaysian food comparisons: which is better for weight loss?",
+            "Nasi lemak vs roti canai, teh tarik vs kopi O, fried chicken vs satay and more. Compare calories, protein and which is better for weight loss.",
+            "en/compare/", "en", CSS5, {"ms": "banding/", "en": "en/compare/"}) + f"""<main class="w">
+<p class="crumb"><a href="{BASE}?lang=en">Coach Kimi &amp; Coach Zara</a> › Food comparisons</p><h1>Food comparisons</h1>
+<p class="lead">Two choices in front of you, which one is better when you want to lose weight? Tap to see calories, protein and the coach's answer.</p>
+<div class="list">{''.join(f'<a href="{x["id"]}/"><span>{E(short_en(x["id"].split("-vs-")[0]))} vs {E(short_en(x["id"].split("-vs-")[1]))}</span><b>→</b></a>' for x in pages)}</div>
+<p class="lang">Read in Malay: <a href="{BASE}banding/">Banding makanan</a></p></main>""" + build2.foot("en"))
+        urls.append("en/compare/")
+    return urls
+
+
+def order_en():
+    pages, urls = load_en("eat-out"), []
+    rows = lambda xs, cls: f'<div class="pick2 {cls}">' + "".join(f'<div><span class="n">~{x["kcal"]} kcal</span><b>{E(x["name"])}</b><br><small>{E(x["why"])}</small></div>' for x in xs) + "</div>"
+    for d in pages:
+        path = f"en/eat-out/{d['slug_en']}/"
+        build2.write(path.rstrip("/"), build2.head(d["title"], d["intro"][:155], path, "en", faq_ld(d) + CSS5,
+                                                   {"ms": f"makan-luar/{d['slug']}/", "en": path}) + f"""<main class="w">
+<p class="crumb"><a href="../">Eating out</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
+<p class="lang">Read in Malay: <a href="{BASE}makan-luar/{d['slug']}/">versi Bahasa Melayu</a></p>
+<h2>Best picks</h2>{rows(d['best'], '')}
+<h2>Be careful with these</h2>{rows(d['careful'], 'bad')}
+<h2>How to order</h2><ul class="tips">{''.join(f'<li>{E(x)}</li>' for x in d['hacks'])}</ul>
+<h2>Drinks</h2><div class="card">{E(d['drink'])}</div>
+{cta_en('eat-out', 'Eat out a lot?', 'Your coach can build a plan around the places you usually eat. Start with the 2-minute quiz.')}
+<h2>FAQ</h2>{faqs(d)}
+<h2>Other places</h2><div class="rel">{''.join([f'<a href="{BASE}en/eat-out/{x["slug_en"]}/">{E(x["title"])}</a>' for x in pages if x is not d][:6])}</div>
+<p class="fine">Calories are estimates and change with the shop and portion size. General guide only.</p></main>""" + build2.foot("en"))
+        urls.append(path)
+    if pages:
+        build2.write("en/eat-out", build2.head("Eating out but want to lose weight: what to order",
+            "What to order at the mamak, kopitiam, nasi campur, McDonald's, KFC, 7-Eleven, pasar malam, kenduri and more when you want to lose weight.",
+            "en/eat-out/", "en", CSS5, {"ms": "makan-luar/", "en": "en/eat-out/"}) + f"""<main class="w">
+<p class="crumb"><a href="{BASE}?lang=en">Coach Kimi &amp; Coach Zara</a> › Eating out</p><h1>Eat out, still lose weight</h1>
+<p class="lead">No need to stop eating out. Pick your place and see what's best to order.</p>
+<div class="list">{''.join(f'<a href="{x["slug_en"]}/"><span>{E(x["title"])}</span><b>→</b></a>' for x in pages)}</div>
+<p class="lang">Read in Malay: <a href="{BASE}makan-luar/">Makan luar</a></p></main>""" + build2.foot("en"))
+        urls.append("en/eat-out/")
+    return urls
+
+
+def senior_en():
+    pages, urls = load_en("over-50"), []
+    for d in pages:
+        path = f"en/over-50/{d['slug_en']}/"
+        msg = urllib.parse.quote(f"Hi Coach, I read your guide \"{d['title']}\". I'd like to ask about weight loss and my health.")
+        build2.write(path.rstrip("/"), build2.head(d["title"], d["intro"][:155], path, "en", faq_ld(d) + CSS5,
+                                                   {"ms": f"umur-50/{d['slug']}/", "en": path}) + f"""<main class="w">
+<p class="crumb"><a href="../">Age 50 and above</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
+<p class="lang">Read in Malay: <a href="{BASE}umur-50/{d['slug']}/">versi Bahasa Melayu</a></p>
+<div class="doc"><b>Important:</b> {E(d['doctor'])}</div>
+{''.join(f'<h2>{E(s["h"])}</h2><p>{E(s["p"])}</p>' for s in d['sections'])}
+<h2>Try this week</h2><ul class="tips">{''.join(f'<li>{E(a)}</li>' for a in d['action'])}</ul>
+<div class="box"><h2>Want a coach who understands your situation?</h2><p>Your coach builds the plan around your age, medicine and joints, not an extreme diet. Got a question? Just ask.</p>
+<a class="btn y" href="https://wa.me/{KIMI}?text={msg}" target="_blank" rel="noopener">WhatsApp a coach →</a>
+<a class="btn w2" href="{BASE}kuiz/?src=over-50&amp;lang=en">Take the 2-minute quiz first</a><p class="price">{build2.PRICE_EN}</p></div>
+<h2>FAQ</h2>{faqs(d)}
+<h2>Read next</h2><div class="rel">{''.join([f'<a href="{BASE}en/over-50/{x["slug_en"]}/">{E(x["title"])}</a>' for x in pages if x is not d][:6])}</div>
+<p class="fine">General guide only, not medical advice. Never change or stop your medicine without talking to your doctor.</p></main>""" + build2.foot("en"))
+        urls.append(path)
+    if pages:
+        build2.write("en/over-50", build2.head("Age 50 and above: weight loss, blood sugar, blood pressure and knees",
+            "Guides for age 50+: safe weight loss, blood sugar, high blood pressure, cholesterol, knee pain and chair exercises.",
+            "en/over-50/", "en", CSS5, {"ms": "umur-50/", "en": "en/over-50/"}) + f"""<main class="w">
+<p class="crumb"><a href="{BASE}?lang=en">Coach Kimi &amp; Coach Zara</a> › Age 50 and above</p><h1>Age 50 and above</h1>
+<p class="lead">Your body changes after 50, but losing weight and staying healthy is still possible, in a way that is safe for your joints and follows your doctor's advice.</p>
+<div class="list">{''.join(f'<a href="{x["slug_en"]}/"><span>{E(x["title"])}</span><b>→</b></a>' for x in pages)}</div>
+<p class="lang">Read in Malay: <a href="{BASE}umur-50/">Umur 50 ke atas</a></p></main>""" + build2.foot("en"))
+        urls.append("en/over-50/")
+    return urls
+
+
 def main():
-    urls = compare_pages() + order_pages() + senior_pages()
+    urls = compare_pages() + order_pages() + senior_pages() + compare_en() + order_en() + senior_en()
     sm = ROOT / "sitemap.xml"
     if build2.PUBLISH2 and sm.exists() and urls:
         s = sm.read_text()

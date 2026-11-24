@@ -1,0 +1,83 @@
+{
+ "slug": "mcdonalds",
+ "slug_en": "mcdonalds",
+ "title": "What to order at McDonald's when you want to lose weight",
+ "intro": "Sometimes life gets busy and McDonald's is the nearest option. That's okay. You can still order smart. The key is size, sets and drinks. The calories below are estimates.",
+ "best": [
+  {
+   "name": "McD Chicken Porridge (Bubur Ayam McD)",
+   "kcal": 200,
+   "why": "Light and warm. Good for breakfast or when you don't feel like a heavy meal."
+  },
+  {
+   "name": "Hamburger",
+   "kcal": 250,
+   "why": "Small size, enough to stop the hunger and still tasty."
+  },
+  {
+   "name": "Filet-O-Fish",
+   "kcal": 330,
+   "why": "One of the lower-calorie burgers. Moderate size."
+  },
+  {
+   "name": "Chicken McNuggets, 6 pieces",
+   "kcal": 260,
+   "why": "Protein in a controlled portion. Pick a lighter sauce like chilli sauce."
+  },
+  {
+   "name": "McD Fried Chicken, 1 piece (skin removed)",
+   "kcal": 230,
+   "why": "The chicken meat is high in protein. Removing the skin saves a lot of calories."
+  },
+  {
+   "name": "McChicken",
+   "kcal": 400,
+   "why": "Filling for lunch. Pair it with plain water, not a large set."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Big Mac",
+   "kcal": 520,
+   "why": "Two layers of meat plus sauce. Okay once in a while, but heavier than a regular burger."
+  },
+  {
+   "name": "Spicy Chicken McDeluxe",
+   "kcal": 550,
+   "why": "Battered chicken with mayonnaise sauce. High calories in one burger."
+  },
+  {
+   "name": "Large fries",
+   "kcal": 440,
+   "why": "Easy to finish without noticing. A small size or sharing makes more sense."
+  },
+  {
+   "name": "McFlurry",
+   "kcal": 330,
+   "why": "High in sugar. If you want dessert, try a smaller ice cream cone."
+  },
+  {
+   "name": "Large set with regular soft drink",
+   "kcal": 1100,
+   "why": "The sweet drink and large fries double your burger's calories."
+  }
+ ],
+ "hacks": [
+  "Order ala carte, not a set. Or ask for the set with mineral water.",
+  "If you want fries, get a small size or share.",
+  "Ask for 'kurang sos' (less sauce) or 'tak mau mayonis' (no mayo) for chicken burgers.",
+  "For fried chicken, pick the breast part and remove the skin.",
+  "Add a corn cup as a side instead of fries."
+ ],
+ "drink": "Mineral water. If you want a hot drink, go for coffee or tea without sugar.",
+ "faq": [
+  {
+   "q": "Can I eat McDonald's while trying to lose weight?",
+   "a": "Yes, if you pick small sizes, avoid sweet drinks and don't make it a daily habit. One burger with mineral water can fit into your daily calories."
+  },
+  {
+   "q": "My kids want McDonald's. How should I order?",
+   "a": "Try a Filet-O-Fish or 6 McNuggets with a corn cup and mineral water. You still eat together with the family without feeling too heavy."
+  }
+ ]
+}

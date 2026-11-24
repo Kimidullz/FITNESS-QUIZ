@@ -1,0 +1,83 @@
+{
+ "slug": "warung-sarapan",
+ "slug_en": "warung-breakfast",
+ "title": "What to order at a breakfast warung when you want to lose weight",
+ "intro": "Breakfast at the warung is a daily routine for many Malaysians. Nasi lemak, roti canai, mee goreng, kuih. You can eat all of them. There are just some options that keep you full longer with more moderate calories. Focus on protein like eggs, control the oil and sugar, and watch your sweet drinks. All numbers are estimates for a typical warung serving.",
+ "best": [
+  {
+   "name": "2 half-boiled eggs",
+   "kcal": 150,
+   "why": "High protein and cheap. Keeps you full until lunch."
+  },
+  {
+   "name": "Kaya toast, a little butter (2 slices)",
+   "kcal": 250,
+   "why": "Lighter than roti canai. Pair it with half-boiled eggs for a complete breakfast."
+  },
+  {
+   "name": "Plain nasi lemak bungkus with boiled egg",
+   "kcal": 400,
+   "why": "Yes, nasi lemak is okay! A small packet with boiled egg is more moderate than the fried chicken version."
+  },
+  {
+   "name": "Small packet of bihun goreng with egg",
+   "kcal": 380,
+   "why": "Bihun goreng is usually less oily than mamak-style mee goreng. Take a small portion."
+  },
+  {
+   "name": "1 roti canai kosong with dhal",
+   "kcal": 300,
+   "why": "If you're craving roti canai, one piece with dhal is lighter than two pieces with curry."
+  },
+  {
+   "name": "1 small pau kacang or apam balik",
+   "kcal": 180,
+   "why": "Steamed kuih is lighter than fried kuih. Good if you want something a little sweet."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Nasi lemak with fried chicken",
+   "kcal": 800,
+   "why": "Santan rice, fried chicken and oily sambal. Very tasty, but the calories are almost half of what many people need in a day."
+  },
+  {
+   "name": "2 roti canai with mixed curry",
+   "kcal": 650,
+   "why": "Roti canai is kneaded with oil and margarine. The curry adds more fat."
+  },
+  {
+   "name": "Full plate of mamak mee goreng",
+   "kcal": 650,
+   "why": "Lots of oil and sauce. Warung portions are usually big."
+  },
+  {
+   "name": "Karipap, cucur or pisang goreng (3 pieces)",
+   "kcal": 400,
+   "why": "Fried kuih soak up oil. Easy to take 'one more' while sipping tea."
+  },
+  {
+   "name": "Regular teh tarik or kopi susu",
+   "kcal": 150,
+   "why": "Sweetened condensed milk and sugar. If you drink two glasses every morning, the calories add up."
+  }
+ ],
+ "hacks": [
+  "Add a half-boiled or boiled egg to your breakfast. Protein keeps you from getting hungry quickly.",
+  "When ordering nasi lemak: 'nasi sikit, sambal asing' (less rice, sambal on the side). Take as much sambal as you need for taste.",
+  "Roti canai: choose dhal, ask for the gravy on the side, and stick to one piece.",
+  "Kuih: choose just one, and go for steamed kuih like pau or putu first.",
+  "Drinks: ask for 'kurang manis' (less sweet) or 'kosong' (no sugar). Teh o kosong and kopi o kosong have almost no calories."
+ ],
+ "drink": "Kopi O kosong or teh O kosong (black coffee or tea, no sugar). If you need milk, a small teh tarik kurang manis (less sweet).",
+ "faq": [
+  {
+   "q": "I can't give up nasi lemak. What should I do?",
+   "a": "No need to give it up. Choose a plain packet with egg, ask for less rice and sambal on the side. Have it 2-3 times a week, not every day. On other days, try toast with eggs."
+  },
+  {
+   "q": "Is it okay if I skip breakfast completely?",
+   "a": "It depends on what feels comfortable for you. Some people are fine skipping it, others get too hungry and overeat at lunch. What matters is your total food for the day. If you often 'take revenge' at lunch, a light breakfast with protein may suit you better."
+  }
+ ]
+}
