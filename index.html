@@ -232,8 +232,14 @@
   .pdpa{font-size:12px;color:var(--muted);margin-top:12px;text-align:center}
   .pick-label{font-size:14px;font-weight:700;margin-bottom:8px}
   .coachpick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
-  .coachpick button{padding:12px 10px;border:2px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
+  .coachpick button{display:flex;align-items:center;gap:8px;text-align:left;line-height:1.25;padding:8px 10px;border:2px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
   .btn.off{background:#fff;color:#333;border:2px dashed #999;pointer-events:none}
+  .coachpick b{display:block;white-space:nowrap;font-size:15px}.coachpick span{min-width:0}.coachpick small{display:block;font-weight:600;font-size:13px;opacity:.75}
+  .coachpick img{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:top;flex:none}
+  .up-more{margin:4px 0 14px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:#fff}
+  .up-more summary{cursor:pointer;font-weight:700;font-size:15px}
+  .up-more[open] summary{margin-bottom:8px}
+  .btn.jump{background:#fff;color:var(--ink);border:2px solid var(--ink);margin:0 0 16px}
   .coachpick button.sel{border-color:var(--ink);background:var(--ink);color:#fff}
   @media (max-width:420px){.card h1{font-size:25px}.card{padding:24px 18px}}
 
@@ -460,6 +466,7 @@
   .as-float{display:none}
   @media (max-width:560px){
     .as-float{position:fixed;left:16px;right:82px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 14px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:15px;border-radius:99px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+    .as-float span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     .wa-float{width:52px;height:52px;padding:0;justify-content:center}
     .wa-float span{display:none}
     .wa-float svg{width:26px;height:26px}
@@ -607,6 +614,7 @@
           <span class="badge" id="r-badge"></span>
           <h1 id="r-title"></h1>
           <p class="lead" id="r-text"></p>
+          <button type="button" class="btn jump" id="r-jump" onclick="document.getElementById('cta-title').scrollIntoView({behavior:'smooth',block:'start'})"></button>
           <p class="coach-note" id="r-note" hidden></p>
           <div class="up-card" id="up-story" hidden></div>
 
@@ -616,15 +624,16 @@
             <a class="btn" id="kit-first" href="#kalori" data-t="kitFirstBtn" style="margin-bottom:20px" hidden></a>
             <p class="pick-label" data-t="coachPickH"></p>
             <div class="coachpick" id="coachpick"></div>
-            <div id="up-ask" hidden>
-              <div class="up-voice" id="up-voice" hidden></div>
+            <div class="up-voice" id="up-voice" hidden></div>
+            <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
+            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
+            <details class="up-more" id="up-ask" hidden>
+              <summary id="up-moreS"></summary>
               <p class="pick-label" id="up-timeH"></p>
               <div class="up-times" id="up-times"></div>
               <p class="pick-label" id="up-hardH"></p>
               <input class="up-hard" id="up-hard" maxlength="160" autocomplete="off">
-            </div>
-            <a class="btn wa" id="wa" target="_blank" rel="noopener"></a>
-            <p class="meta-s" data-t="bookMeta" style="margin:8px 0 6px"></p>
+            </details>
             <p class="meta-s" data-t="investShort" style="margin:0 0 14px;font-weight:700;color:var(--ink)"></p>
             <p class="pdpa" data-t="pdpa"></p>
             <p class="meta-s" style="margin-top:12px" id="res-kalori"><a href="#kalori" data-t="resKalori"></a></p>
@@ -812,13 +821,13 @@
           </div>
           <div class="links">
             <a id="web-foot" target="_blank" rel="noopener" data-t="webFoot"></a>
-            <a href="kalori/">Kalori makanan Malaysia</a>
-            <a href="semak/">Semak makan semalam</a>
-            <a href="workout/">Workout 7 Hari</a>
-            <a href="senaman/">Panduan senaman</a>
-            <a href="ramadan/">Panduan Ramadan</a>
-            <a href="wanita/">Wanita bekerja: turun lemak</a>
-            <a href="calories/">Food calories (English)</a>
+            <a href="kalori/" data-en="calories/" data-ten="Malaysian food calories">Kalori makanan Malaysia</a>
+            <a href="semak/" data-ten="Check what you ate yesterday (BM)">Semak makan semalam</a>
+            <a href="workout/" data-ten="7-day home workout (BM)">Workout 7 Hari</a>
+            <a href="senaman/" data-en="en/exercises/" data-ten="Exercise guides">Panduan senaman</a>
+            <a href="ramadan/" data-en="en/ramadan/" data-ten="Ramadan guide">Panduan Ramadan</a>
+            <a href="wanita/" data-en="en/women/" data-ten="Fat loss for working women">Wanita bekerja: turun lemak</a>
+            <a href="calories/" class="ms-only">Food calories (English)</a>
             <a id="income-foot" href="peluang.html" data-t="incomeFoot"></a>
           </div>
           <p class="fine" data-t="footFine"></p>
@@ -837,8 +846,8 @@ const CONFIG = {
   websiteUrl: "https://www.wedotransformations.com/coach/3e08ee09-9e41-403c-b54a-67a6b1d8e86c",
   // leads pick who they want to talk to; WhatsApp buttons go to that coach
   coaches: {
-    m: { name:"Coach Kimi", whatsapp:"60127040268", label:{en:"👨 Male coach",ms:"👨 Coach lelaki"}, pref:{en:"Male coach",ms:"Coach lelaki"} },
-    f: { name:"Coach Zara", whatsapp:"60123520097", label:{en:"👩 Female coach",ms:"👩 Coach perempuan"}, pref:{en:"Female coach",ms:"Coach perempuan"} }
+    m: { name:"Coach Kimi", whatsapp:"60127040268", label:{en:"for men",ms:"untuk lelaki"}, photo:"img/kimi.jpg", pref:{en:"Male coach",ms:"Coach lelaki"} },
+    f: { name:"Coach Zara", whatsapp:"60123520097", label:{en:"for women",ms:"untuk wanita"}, photo:"img/zara.jpg", pref:{en:"Female coach",ms:"Coach perempuan"} }
   },
   funnel: false,
   booking: false,  // true = call slots someone booked show as Penuh for everyone (needs the quiz-funnel snippet with listSlots/saveSlot in Apps Script)
@@ -962,7 +971,7 @@ const TXT = {
     howH:"3 simple steps",
     howLede:"You don't need to figure it out alone. Here is exactly what happens.",
     how1H:"Take the 2-minute quiz", how1P:"10 quick questions show what is stopping your weight from going down. Free, no sign-up.",
-    how2H:"Chat with your coach", how2P:"WhatsApp your coach from your result page. Chat first, and if you want, set a free 30-minute call. Your coach builds a plan around your work and family.",
+    how2H:"Chat with your coach", how2P:"WhatsApp your coach from your result page. Chat first, and if you want, set a free 15-30 minute call. Your coach builds a plan around your work and family.",
     how3H:"Start, and we check in", how3P:"You get a meal plan with normal food, 20-minute workouts and a coach who follows up with you.",
     quizHead:"Start here: the 2-minute quiz",
     coachEyebrow:"Your coaches",
@@ -996,10 +1005,13 @@ const TXT = {
       ["How long does it take to lose 3 to 5 kg?","It depends on your starting point and your routine. A healthy pace is usually around 0.5 to 1 kg a week. We'll give you an honest estimate on the call. Results vary."],
       ["I'm really busy. Do I need the gym?","No. The workouts are about 20 minutes and can be done at home."],
       ["Do I have to stop eating rice or eating out?","No. The plans are built around normal Malaysian food and eating out. You'll learn what to pick, not what to give up forever."],
-      ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Female coach\" on your result page."],
+      ["Can I have a female coach?","Yes. Coach Zara coaches women. Pick \"Coach Zara\" on your result page."],
       ["How much does coaching cost?","Packages start from RM259 for one month. That includes supplements, 1-to-1 coaching, group coaching, accountability (a coach who keeps you on track), and a meal plan and workout plan built around your lifestyle. It's one payment for one month: no contract, no auto-renew, no membership. If you rejoin later you get 25-50% off (T&C apply). There are longer, fuller packages too. On WhatsApp, your coach will help you pick the one that fits your goal and budget."],
       ["I want to gain weight. Can you help?","Yes. Take the <a href='#quiz-zone'>2-minute quiz</a> and pick “Gain weight and look fuller” in question 1 to see what's stopping your weight from going up. Or in the <a href='#kalori'>calculator</a>, pick “Gain weight” for a free meal plan to gain weight without gaining excess fat (1,500-3,000 kcal). Our weight gain coaching uses normal food and strength training. Programs start from RM259 a month, supplements included. For ages 18 and up. Losing weight without trying? See a doctor first."],
-      ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."]
+      ["Are supplements part of the program?","Yes. Every online coaching package includes supplements at no extra cost. The RM259 package includes a nutrition shake, and bigger packages add more products. Your plan is still built on normal Malaysian food. Pregnant, breastfeeding, on medication or have a health condition? Tell your coach and check with your doctor first. Want to know what's in each package? Ask a coach on WhatsApp."],
+      ["Is this MLM? What is the shake?","The shake and supplements are Herbalife. They are a tool to make your journey easier, not something you depend on: your plan is built on normal Malaysian food and habits you can keep without them. You never have to sell anything or recruit anyone to join the program. The shake is food (a meal replacement), not a slimming product."],
+      ["What happens in the first month?","Week 1: your coach goes through your habits and food, sets your calories and protein, and gives you a meal and workout plan that fits your schedule. Every week: a check-in on your weight, measurements and how the week went, and the plan is adjusted. Every day: you can WhatsApp your coach with questions (what to order, missed a workout, a bad day) and get help."],
+      ["What if it doesn't work for me?","Results come from following the plan, so we make the plan easy to follow. If something doesn't fit your life (work, family, food you love), tell your coach at the weekly check-in and the plan is changed with you. Most people who struggle just need a smaller first step, and that's your coach's job."]
     ],
     finalH:"Know your body first. It's free.",
     footFine:"This site is for general wellness guidance only and is not medical advice. Results vary from person to person.",
@@ -1022,7 +1034,7 @@ const TXT = {
     fixTail:" Fix the weakest side first and the other two get easier.",
     stepsH:"What to do next",
     stepFinalH:"Get a plan built around your schedule",
-    stepFinal:"Tap WhatsApp below to chat first, and set a free 30-minute call if you want. We'll go through your answers, find the root cause and map out your game plan together.",
+    stepFinal:"Tap WhatsApp below to chat first, and set a free 15-30 minute call if you want. We'll go through your answers, find the root cause and map out your game plan together.",
     tellH:"What your answers tell me",
     tellGoal:(g,w)=>`<strong>Your goal:</strong> ${g}<br><strong>Why it matters to you:</strong> ${w}`,
     tellQ:"You said:",
@@ -1039,12 +1051,12 @@ const TXT = {
     docBox:"Weight that drops without trying should be checked by a doctor first (for example thyroid, blood sugar or stomach problems). Once your doctor says you're okay, we can help you with the right plan.",
     shareG:"I just took this 2-minute quiz that shows why your weight won't go up. Try it: ",
     stepFinalHG:"Find out why your weight won't go up",
-    stepFinalG:"Tap WhatsApp below to chat first. Your coach will go through your answers, work out the calories and protein you need, and map out a meal and workout plan around your schedule. If you want, we'll set a free 30-minute call. No pressure.",
+    stepFinalG:"Tap WhatsApp below to chat first. Your coach will go through your answers, work out the calories and protein you need, and map out a meal and workout plan around your schedule. If you want, we'll set a free 15-30 minute call. No pressure.",
     ctaLeadLowG:"No need to decide anything yet. Get a free weight gain plan that fits your calories, weigh yourself today and again on Day 7. When you're ready, WhatsApp a coach below with your Day 7 weight.",
     proofG:"Our plans use normal, affordable Malaysian food: rice, eggs, chicken, milk. For ages 18 and up. Losing weight without trying, no appetite for weeks, always thirsty and peeing often, heart often racing, or scared of gaining weight? See a doctor first. Results vary from person to person.",
     calGainHighWa:"Or WhatsApp a coach about building muscle →",
     calGainHighMsg:"Hi %C! I tried the weight gain calculator but my BMI is 23 or above. I want to build muscle. Can you help?",
-    ctaLead:"Pick your coach and tap WhatsApp. Your quiz answers are already in the message. We chat on WhatsApp first, and if you want, we set a free 30-minute call to build your game plan. No pressure.",
+    ctaLead:"Pick your coach and tap WhatsApp. Your quiz answers are already in the message. We chat on WhatsApp first, and if you want, we set a free 15-30 minute call to build your game plan. No pressure.",
     bookMeta:"Your quiz answers are sent with your message",
     coachPickH:"Who would you like to talk to?",
     pdpa:"By tapping a button, you agree to share your name and quiz answers with our coaches (Coach Kimi and Coach Zara) so we can contact you about your result. Your details won't be shared with anyone else.",
@@ -1147,7 +1159,7 @@ const TXT = {
     howH:"3 langkah mudah",
     howLede:"Anda tak perlu fikir seorang diri. Ini apa yang akan berlaku.",
     how1H:"Jawab kuiz 2 minit", how1P:"10 soalan ringkas tunjuk apa yang buat berat anda tak turun. Percuma, tak perlu daftar.",
-    how2H:"Chat dengan coach", how2P:"WhatsApp coach dari halaman result. Chat dulu, dan kalau anda nak, set free call 30 minit. Coach susun pelan ikut kerja dan keluarga anda.",
+    how2H:"Chat dengan coach", how2P:"WhatsApp coach dari halaman result. Chat dulu, dan kalau anda nak, set free call 15-30 minit. Coach susun pelan ikut kerja dan keluarga anda.",
     how3H:"Mula, dan kami follow-up", how3P:"Anda dapat meal plan dengan makanan biasa, senaman 20 minit dan coach yang pantau progress anda.",
     quizHead:"Mula di sini: kuiz 2 minit",
     coachEyebrow:"Coach anda",
@@ -1181,10 +1193,13 @@ const TXT = {
       ["Berapa lama nak turun 3 hingga 5 kg?","Bergantung pada titik mula dan rutin anda. Kadar yang sihat biasanya lebih kurang 0.5 hingga 1 kg seminggu. Kami bagi anggaran yang jujur dalam call nanti. Result berbeza mengikut individu."],
       ["Saya sangat sibuk. Kena pergi gym ke?","Tak perlu. Senaman lebih kurang 20 minit dan boleh buat di rumah."],
       ["Kena berhenti makan nasi atau makan di luar ke?","Tak perlu. Pelan dibina ikut makanan Malaysia biasa dan makan di luar. Anda belajar apa nak pilih, bukan apa nak tinggal selama-lamanya."],
-      ["Boleh dapat coach perempuan?","Boleh. Coach Zara ialah coach wanita. Pilih \"Coach perempuan\" di halaman result."],
+      ["Boleh dapat coach perempuan?","Boleh. Coach Zara ialah coach wanita. Pilih \"Coach Zara\" di halaman result."],
       ["Berapa kos coaching?","Pakej bermula dari RM259 untuk sebulan. Termasuk supplement, coaching 1-1, coaching berkumpulan, accountability (coach pantau progress anda), dan meal plan serta workout plan ikut gaya hidup anda. Bayar sekali untuk sebulan: tiada kontrak, tiada auto-renew, tiada keahlian. Kalau sambung semula nanti, dapat diskaun 25-50% (tertakluk syarat). Ada juga pakej yang lebih panjang dan lebih lengkap. Di WhatsApp, coach akan bantu pilih pakej yang sesuai dengan matlamat dan bajet anda."],
       ["Saya nak naik berat. Boleh tolong?","Boleh. Jawab <a href='#quiz-zone'>kuiz 2 minit</a> dan pilih “Naik berat dan nampak lebih berisi” di soalan 1 untuk tahu apa yang menghalang berat anda naik. Atau dalam <a href='#kalori'>kalkulator</a>, pilih “Naik berat” untuk meal plan percuma naik berat tanpa naik lemak berlebihan (1,500-3,000 kcal). Coaching naik berat kami guna makanan biasa dan latihan kekuatan. Program bermula dari RM259 sebulan, termasuk supplement. Untuk umur 18 tahun ke atas. Berat turun tanpa sebab? Jumpa doktor dulu."],
-      ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."]
+      ["Program ni ada supplement ke?","Ada. Harga setiap pakej coaching online dah termasuk supplement, tiada caj tambahan. Pakej RM259 termasuk shake nutrisi, dan pakej lebih besar ada produk tambahan. Pelan anda tetap berasaskan makanan Malaysia biasa. Mengandung, menyusu, ambil ubat atau ada masalah kesihatan? Beritahu coach dan tanya doktor dulu. Nak tahu apa dalam setiap pakej? Tanya coach di WhatsApp."],
+      ["Ini MLM ke? Shake tu apa?","Shake dan supplement tu Herbalife. Ia alat untuk bantu perjalanan anda jadi lebih mudah, bukan benda yang anda bergantung: pelan anda tetap berasaskan makanan Malaysia biasa dan tabiat yang anda boleh kekalkan tanpanya. Anda tak perlu jual apa-apa atau ajak sesiapa untuk sertai program. Shake ialah makanan (pengganti hidangan), bukan produk pelangsing."],
+      ["Apa jadi dalam bulan pertama?","Minggu 1: coach semak tabiat dan makan anda, tetapkan kalori dan protein, dan bagi pelan makan dan senaman ikut jadual anda. Setiap minggu: check-in berat, ukuran dan macam mana minggu anda, dan pelan diubah ikut progress. Setiap hari: anda boleh WhatsApp coach bila ada soalan (nak order apa, terlepas senaman, hari yang teruk) dan dapat bantuan."],
+      ["Kalau tak menjadi untuk saya macam mana?","Result datang dari ikut pelan, jadi kami buat pelan yang senang diikut. Kalau ada yang tak sesuai dengan hidup anda (kerja, keluarga, makanan kegemaran), beritahu coach masa check-in mingguan dan pelan diubah bersama anda. Kebanyakan yang susah cuma perlukan langkah pertama yang lebih kecil, dan itu kerja coach."]
     ],
     finalH:"Kenal badan anda dulu. Percuma.",
     footFine:"Laman ini hanya panduan kesihatan am dan bukan nasihat perubatan. Result berbeza mengikut individu.",
@@ -1207,7 +1222,7 @@ const TXT = {
     fixTail:" Bila bahagian ni dah okay, dua lagi pun jadi lebih mudah.",
     stepsH:"Apa yang perlu anda buat sekarang",
     stepFinalH:"Dapatkan pelan yang ikut jadual anda",
-    stepFinal:"Tekan WhatsApp di bawah untuk chat dulu, dan set free call 30 minit kalau anda nak. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
+    stepFinal:"Tekan WhatsApp di bawah untuk chat dulu, dan set free call 15-30 minit kalau anda nak. Kita akan semak jawapan anda, cari punca sebenar dan susun game plan anda bersama.",
     tellH:"Apa yang jawapan anda beritahu saya",
     tellGoal:(g,w)=>`<strong>Matlamat anda:</strong> ${g}<br><strong>Kenapa ia penting:</strong> ${w}`,
     tellQ:"Anda jawab:",
@@ -1224,12 +1239,12 @@ const TXT = {
     docBox:"Berat yang turun sendiri tanpa cuba perlu disemak doktor dulu (contohnya tiroid, gula dalam darah atau masalah perut). Lepas doktor kata okay, kami boleh bantu anda dengan pelan yang betul.",
     shareG:"Saya baru jawab kuiz 2 minit ni, dia tunjuk kenapa berat tak naik-naik. Cuba la: ",
     stepFinalHG:"Tahu kenapa berat anda tak naik",
-    stepFinalG:"Tekan WhatsApp di bawah untuk chat dulu. Coach akan semak jawapan anda, kira berapa kalori dan protein anda perlu, dan susun pelan makan dan latihan ikut jadual anda. Kalau anda nak, kita set free call 30 minit. Tiada paksaan.",
+    stepFinalG:"Tekan WhatsApp di bawah untuk chat dulu. Coach akan semak jawapan anda, kira berapa kalori dan protein anda perlu, dan susun pelan makan dan latihan ikut jadual anda. Kalau anda nak, kita set free call 15-30 minit. Tiada paksaan.",
     ctaLeadLowG:"Tak perlu buat keputusan lagi. Ambil pelan naik berat percuma ikut kalori anda, timbang berat hari ni dan timbang lagi Hari 7. Bila dah sedia, WhatsApp coach di bawah dengan berat Hari 7 anda.",
     proofG:"Pelan kami guna makanan Malaysia biasa yang mampu dibeli: nasi, telur, ayam, susu. Untuk umur 18 tahun ke atas. Berat turun sendiri, lama tak ada selera makan, selalu dahaga dan kerap buang air kecil, jantung selalu berdebar, atau takut bila berat naik? Jumpa doktor dulu. Result berbeza mengikut individu.",
     calGainHighWa:"Atau WhatsApp coach pasal bina otot →",
     calGainHighMsg:"Hi %C! Saya cuba kalkulator naik berat, tapi BMI saya 23 ke atas. Saya nak bina otot. Boleh bantu?",
-    ctaLead:"Pilih coach dan tekan WhatsApp. Jawapan kuiz anda dah siap dalam mesej. Kita chat di WhatsApp dulu, dan kalau anda nak, kita set free call 30 minit untuk susun game plan anda. Tiada paksaan.",
+    ctaLead:"Pilih coach dan tekan WhatsApp. Jawapan kuiz anda dah siap dalam mesej. Kita chat di WhatsApp dulu, dan kalau anda nak, kita set free call 15-30 minit untuk susun game plan anda. Tiada paksaan.",
     bookMeta:"Jawapan kuiz anda dihantar sekali dalam mesej",
     coachPickH:"Anda selesa bercakap dengan siapa?",
     pdpa:"Dengan menekan butang, anda bersetuju untuk berkongsi nama dan jawapan kuiz dengan coach kami (Coach Kimi dan Coach Zara) supaya kami boleh hubungi anda tentang result anda. Maklumat anda tidak akan dikongsi dengan pihak lain.",
@@ -1244,7 +1259,7 @@ const TXT = {
 /* language: ?lang=en in the link, or the visitor's last choice; Malay by default */
 let LANG = (()=>{
   const q = new URLSearchParams(location.search).get("lang");
-  if(q==="en"||q==="ms") return q;
+  if(q==="en"||q==="ms"){ try{ localStorage.setItem("wdt-lang", q); }catch(e){} return q; }
   try{ const s = localStorage.getItem("wdt-lang"); if(s==="en"||s==="ms") return s; }catch(e){}
   return "ms";
 })();
@@ -1267,7 +1282,7 @@ const Q_LOSS = [
     {en:"I have a big event coming (wedding, raya, holiday)",ms:"Ada majlis penting tak lama lagi (kahwin, raya, bercuti)"},
     {en:"I want more energy for my family and work",ms:"Nak lebih bertenaga untuk keluarga dan kerja"},
     {en:"Someone close to me (or my doctor) told me to",ms:"Orang terdekat (atau doktor) suruh saya"} ]},
-  { type:"score", pillar:{en:"Nutrition",ms:"Pemakanan"}, short:{en:"Meals",ms:"Makan"}, fix:{h:{en:"Protein at every meal, starting with breakfast",ms:"Protein setiap kali makan, mula dengan sarapan"}, t:{en:"This week, eat breakfast within an hour of waking and put a palm of protein (egg, chicken, fish, tempeh) on every plate. Eating out? Choose grilled over fried, with less kuah.",ms:"Minggu ni, makan sarapan dalam sejam selepas bangun, dan letak protein sebesar tapak tangan (telur, ayam, ikan, tempe) dalam setiap pinggan. Makan luar? Pilih bakar, bukan goreng, dan kuah sikit."}}, q:{en:"On a typical workday, how do your meals usually go?",ms:"Pada hari bekerja biasa, macam mana waktu makan anda?"}, a:[
+  { type:"score", pillar:{en:"Nutrition",ms:"Pemakanan"}, short:{en:"Meals",ms:"Makan"}, fix:{h:{en:"Protein at every meal, starting with breakfast",ms:"Protein setiap kali makan, mula dengan sarapan"}, t:{en:"This week, eat breakfast within an hour of waking and put a palm of protein (egg, chicken, fish, tempeh) on every plate. Eating out? Choose grilled over fried, with less kuah.",ms:"Minggu ni, makan sarapan dalam sejam selepas bangun, dan letak protein sebesar tapak tangan (telur, ayam, ikan, tempe) dalam setiap pinggan. Makan luar? Pilih bakar, bukan goreng, dan kuah sikit."}}, q:{en:"On a typical day (work or at home), how do your meals usually go?",ms:"Pada hari biasa (kerja atau di rumah), macam mana waktu makan anda?"}, a:[
     {en:"I eat 3 planned meals with protein most days",ms:"Makan 3 kali sehari dengan protein, kebanyakan hari",s:0},
     {en:"I eat regularly but grab whatever is quick",ms:"Makan ikut waktu, tapi ambil apa saja yang cepat",s:1,i:{en:"Quick food is usually high in oil and sugar and low in protein, so you get hungry again soon after.",ms:"Makanan cepat biasanya tinggi minyak dan gula tapi rendah protein, sebab tu cepat lapar balik."}},
     {en:"I often skip breakfast or lunch, then overeat at night",ms:"Selalu skip sarapan atau lunch, lepas tu makan banyak waktu malam",s:3,i:{en:"Skipping meals then eating big at night is one of the most common reasons busy people gain weight even when they feel they eat less. Your body runs on empty all day, then cravings win at night.",ms:"Skip makan lepas tu makan banyak waktu malam ialah antara sebab paling biasa orang sibuk naik berat walaupun rasa dah kurang makan. Badan kosong sepanjang hari, malam nanti craving yang menang."}},
@@ -1366,6 +1381,9 @@ function applyLang(){
   waFloat();
   $("web-foot").href = CONFIG.websiteUrl;
   $("income-foot").href = LANG==="en" ? "peluang.html?lang=en" : "peluang.html";
+  document.querySelectorAll("footer [data-ten]").forEach(a=>{ if(!a.dataset.tms){ a.dataset.tms=a.textContent; a.dataset.hms=a.getAttribute("href"); }
+    a.textContent = LANG==="en" ? a.dataset.ten : a.dataset.tms; a.setAttribute("href", LANG==="en" && a.dataset.en ? a.dataset.en : a.dataset.hms); });
+  document.querySelectorAll("footer .ms-only").forEach(a=>a.hidden = LANG==="en");
   $("share").href = shareLink(false);
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
   document.querySelectorAll(".assess").forEach(a=>{ a.href = CONFIG.websiteUrl; a.onclick = ()=>{ kitMark("a"); logTap({type:"quiz", via:"Body assessment", src:SRC, go:CONFIG.websiteUrl}); }; });
@@ -1377,7 +1395,7 @@ function applyLang(){
   $("coachpick").innerHTML = "";
   Object.keys(CONFIG.coaches).forEach(k=>{
     const b = document.createElement("button");
-    b.textContent = L(CONFIG.coaches[k].label); b.dataset.c = k; if(k===coach) b.classList.add("sel");
+    b.innerHTML = `<img src="${CONFIG.coaches[k].photo}" alt="" width="40" height="40"><span><b>${CONFIG.coaches[k].name}</b><small>${L(CONFIG.coaches[k].label)}</small></span>`; b.dataset.c = k; if(k===coach) b.classList.add("sel");
     b.onclick = ()=>{ coach = k; kitSave({c:k}); waFloat(); document.querySelectorAll("#coachpick button").forEach(x=>x.classList.toggle("sel", x.dataset.c===k)); if(UP){ upTimes(); upVoice(); upStory(isGain()); } updateWa(); };
     $("coachpick").appendChild(b);
   });
@@ -1531,7 +1549,9 @@ function showResult(relang){
 // ---------- quiz upgrade (23 Nov 2026): call time, hardest part, coach voice, stories, starter plans ----------
 const UP = true;   // live since 23 Nov 2026 (Kimi: "Go: both quizzes")
 const UPT = {
-  timeH:{ms:"Bila senang untuk call 15 minit dengan coach?",en:"When suits you for a 15-minute call with your coach?"},
+  timeH:{ms:"Bila senang untuk call 15-30 minit dengan coach?",en:"When suits you for a 15-30 minute call with your coach?"},
+  more:{ms:"📅 Nak set masa call? Pilih di sini (tak wajib)",en:"📅 Want to set a call time? Pick here (optional)"},
+  jump:{ms:"💬 Terus ke WhatsApp coach ↓",en:"💬 Go straight to WhatsApp ↓"},
   extra:[{ms:"Bincang masa call dengan %C% dulu",en:"Agree a call time with %C% first"},{ms:"Chat dulu",en:"Chat first"}],
   confirm:{ms:"Masa ni belum muktamad. %C% akan sahkan dengan anda dulu di WhatsApp.",en:"This time isn't final yet. %C% will confirm it with you on WhatsApp first."},
   waConfirm:{ms:"(tunggu coach sahkan)",en:"(waiting for coach to confirm)"},
@@ -1612,10 +1632,11 @@ function upStory(gain){
   if(w){ const t=UP_WDT[w];
     el.className="up-wdt";
     el.innerHTML=`<img src="img/story/${w}-front.jpg" alt="${t.name}: Day 1 vs Day 21" width="632" height="528"><div class="up-views">${UP_VIEWS.map((v,k)=>`<button type="button" data-v="${v[0]}" class="${k?"":"sel"}">${L(v[1])}</button>`).join("")}</div>
-      <div><small>${LANG==="en"?"Same problem as you? · Team WDT 21-Day Challenge":"Masalah sama macam anda? · Team WDT 21-Day Challenge"}</small><b>${t.name} · ${LANG==="en"?"Coach":"Coach"} ${t.coach}</b><p>${L(t.why)}</p><i>${LANG==="en"?"Results vary from person to person.":"Keputusan berbeza mengikut individu."}</i></div>`;
+      <div><small>${LANG==="en"?"Same problem as you? · Team WDT 21-Day Challenge":"Masalah sama macam anda? · Team WDT 21-Day Challenge"}</small><b>${t.name}</b><p>${L(t.why)}</p><i>${LANG==="en"?"Results vary from person to person.":"Keputusan berbeza mengikut individu."}</i></div>`;
     el.querySelector(".up-views").onclick=e=>{const b=e.target.closest("button"); if(!b) return; el.querySelector("img").src=`img/story/${w}-${b.dataset.v}.jpg`;
       el.querySelectorAll(".up-views button").forEach(x=>x.classList.toggle("sel",x===b));};
     el.hidden=false; return; }
+  if(!coach){ el.hidden=true; return; }
   el.className="up-card"; const ids = !gain && UP_STORY[answers[0]];
   const tm = ids && TESTIMONIALS.find(x=>x.id===ids[0]) || ids && TESTIMONIALS.find(x=>x.id===ids[1]);
   if(!tm){ el.hidden=true; return; }
@@ -1643,7 +1664,7 @@ function upResult(gain, weakest, weakestPct){
   if(!UP) return;
   upWeak = weakestPct ? weakest : "none";
   $("up-ask").hidden=false;
-  $("up-timeH").textContent=L(UPT.timeH); $("up-hardH").textContent=L(UPT.hardH); $("up-hard").placeholder=L(UPT.hardPh);
+  $("up-moreS").textContent=L(UPT.more); $("r-jump").textContent=L(UPT.jump); $("up-timeH").textContent=L(UPT.timeH); $("up-hardH").textContent=L(UPT.hardH); $("up-hard").placeholder=L(UPT.hardPh);
   upTimes(); upLoadTaken();
   upStory(gain); upVoice();
   let worst=null; QUESTIONS.forEach((q,k)=>{ if(q.type!=="score") return; const s=q.a[answers[k]].s; if(s && (!worst||s>worst.s)) worst={k,a:answers[k],s}; });
@@ -1870,8 +1891,8 @@ foldFromHash(); window.addEventListener("load", foldFromHash);
 if(QONLY){ document.body.classList.add("qonly"); openFold("quiz-zone"); }   // #quiz-zone / #kalori links (shares, PDFs) open the folded section   // again after fonts/images settle
 window.addEventListener("load", ()=>document.documentElement.classList.add("loaded"));
 const onScreen = {};
-const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
-floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe(document.querySelector(".sx-final"));
+const floatObs = new IntersectionObserver(es=>{ es.forEach(e=>onScreen[e.target.id||e.target.className]=e.isIntersecting); const h = Object.values(onScreen).some(Boolean); document.querySelectorAll(".wa-float,.as-float").forEach(x=>x.hidden=h); }, {rootMargin:"-30% 0px -30% 0px"});
+floatObs.observe($("quiz-zone")); floatObs.observe($("sx-hero")); floatObs.observe(document.querySelector(".c-next")); floatObs.observe($("hari7")); floatObs.observe($("kit")); floatObs.observe($("kalori")); floatObs.observe($("faq")); floatObs.observe(document.querySelector(".sx-final"));
 $("r-dot").style.left = "4%";
 $("start").onclick = ()=>{ firstName = ($("name").value.trim().split(/\s+/)[0] || "").replace(/[<>&"]/g,""); i=0; answers=[]; QUESTIONS = Q_LOSS; show("quiz"); render(); };
 $("name").addEventListener("keydown", e=>{ if(e.key==="Enter") $("start").click(); });

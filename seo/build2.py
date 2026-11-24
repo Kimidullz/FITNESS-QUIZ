@@ -77,6 +77,33 @@ def write(path, html):
     (p / "index.html").write_text(html)
 
 
+def _title(path):
+    """Display title for a site path like wanita/<slug>, senaman/<slug>, kalori/<slug>, semak."""
+    sec, _, slug = path.partition("/")
+    if sec == "wanita" and (SEO / "wanita" / f"{slug}.json").exists():
+        return json.loads((SEO / "wanita" / f"{slug}.json").read_text())["title"]
+    if sec == "senaman" and (SEO / "exercises" / f"{slug}.json").exists():
+        return json.loads((SEO / "exercises" / f"{slug}.json").read_text())["title"]
+    if sec == "kalori":
+        for f in json.loads((SEO / "foods.json").read_text())["foods"]:
+            if f["slug"] == slug:
+                return "Kalori " + f["name"].split("(")[0].strip()
+    return {"semak": "Semak makan semalam", "workout": "Workout 7 Hari di rumah", "ramadan": "Panduan Ramadan"}.get(path, path)
+
+
+def related_for(sec, slug, pages):
+    """Hand-picked links from seo/related.json (made by generate6.py related); falls back to the first pages A-Z."""
+    rp = SEO / "related.json"
+    r = json.loads(rp.read_text()).get(f"{sec}/{slug}") if rp.exists() else None
+    if r and r["same"]:
+        return r["same"] + r["other"]
+    return [f"{sec}/{x['slug']}" for x in pages if x["slug"] != slug][:6]
+
+
+def rel_html(paths):
+    return "".join(f'<a href="{BASE}{p}/">{E(_title(p))}</a>' for p in paths)
+
+
 def box_ms(h, p, src):
     return f"""<div class="box"><h2>{E(h)}</h2><p>{E(p)}</p>
 <a class="btn y" href="{BASE}kuiz/?src={src}">Jawab kuiz percuma →</a>
@@ -267,7 +294,7 @@ def senaman():
         vid = f'<div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/{d["video"]}" title="{E(d["title"])}" loading="lazy" allowfullscreen></iframe></div>' if d.get("video") else ""
         faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in d["faq"]]}
-        rel = [x for x in pages if x["slug"] != d["slug"]][:6]
+        rel = related_for("senaman", d["slug"], pages)
         write(f"senaman/{d['slug']}", head(f"{d['title']} | Panduan senaman", d["intro"][:155], f"senaman/{d['slug']}/", "ms",
                                            f'<script type="application/ld+json">{json.dumps(faq, ensure_ascii=False)}</script>') + f"""<main class="w">
 <p class="crumb"><a href="../">Senaman di rumah</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>{vid}
@@ -279,7 +306,7 @@ def senaman():
 <div class="box"><h2>Nak pelan senaman 7 hari ikut tahap anda?</h2><p>Percuma, tanpa alat, 10 hingga 30 minit sehari, dengan video setiap senaman.</p>
 <a class="btn y" href="{BASE}workout/?src=senaman">Buat pelan 7 hari saya →</a><a class="btn w2" href="{BASE}kuiz/?src=senaman">Jawab kuiz 2 minit</a><p class="price">{PRICE_MS}</p></div>
 <h2>Soalan lazim</h2>{''.join(f'<details><summary>{E(q["q"])}</summary><p>{E(q["a"])}</p></details>' for q in d['faq'])}
-<h2>Panduan lain</h2><div class="rel">{''.join(f'<a href="../{x["slug"]}/">{E(x["title"])}</a>' for x in rel)}</div>
+<h2>Panduan lain</h2><div class="rel">{rel_html(rel)}</div>
 <p class="fine">{E(d['safety'])} Panduan am sahaja, bukan nasihat perubatan.</p></main>""" + foot())
     if pages:
         write("senaman", head("Senaman di rumah: panduan untuk beginner", "Panduan senaman di rumah tanpa alat: squat, push-up, plank, senaman perut, lengan, peha dan banyak lagi. Cara buat, kesilapan biasa dan video.", "senaman/") + f"""<main class="w">
