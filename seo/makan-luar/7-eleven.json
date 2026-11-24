@@ -1,0 +1,82 @@
+{
+ "slug": "7-eleven",
+ "title": "Apa nak beli di 7-Eleven atau kedai serbaneka bila nak turun berat",
+ "intro": "Lambat keluar office, perut lapar, yang ada cuma 7-Eleven atau kedai serbaneka bawah rumah. Jangan risau. Ada banyak pilihan yang sesuai untuk makan ringkas atau snek. Kuncinya ialah cari protein dulu, kemudian karbohidrat. Kalori di bawah ialah anggaran. Semak label pada pek untuk nilai yang lebih tepat.",
+ "best": [
+  {
+   "name": "Telur rebus 2 biji",
+   "kcal": 140,
+   "why": "Protein mudah dan murah. Kenyang lama, sesuai jadi snek atau tambah pada sarapan."
+  },
+  {
+   "name": "Onigiri tuna atau ayam",
+   "kcal": 200,
+   "why": "Saiz terkawal dan ada protein. Padankan dengan telur rebus untuk makan ringkas."
+  },
+  {
+   "name": "Sandwic ayam atau telur (pek segi tiga)",
+   "kcal": 280,
+   "why": "Makan tengah hari ringkas. Pilih yang tak terlalu banyak mayo."
+  },
+  {
+   "name": "Susu segar rendah lemak atau tanpa gula 250ml",
+   "kcal": 110,
+   "why": "Ada protein dan kalsium. Lebih baik daripada air kotak berperisa manis."
+  },
+  {
+   "name": "Yogurt tanpa gula atau kurang manis",
+   "kcal": 120,
+   "why": "Snek petang yang ringan dan ada protein."
+  },
+  {
+   "name": "Pisang 1 biji atau buah potong",
+   "kcal": 100,
+   "why": "Manis semula jadi dan ada serat. Senang bawa ke office."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Hotdog bun dengan sos",
+   "kcal": 350,
+   "why": "Sosej proses dan roti manis. Okay sekali-sekala, tapi kurang kenyang untuk kalori itu."
+  },
+  {
+   "name": "Mi segera cawan",
+   "kcal": 330,
+   "why": "Kebanyakan tepung dan minyak, protein sedikit. Cepat lapar balik."
+  },
+  {
+   "name": "Roti krim atau bun berinti",
+   "kcal": 350,
+   "why": "Manis dan berlemak. Senang makan dua tanpa sedar."
+  },
+  {
+   "name": "Kerepek 1 paket kecil",
+   "kcal": 250,
+   "why": "Masin, rangup dan tak kenyang. Kalau nak, beli paket paling kecil."
+  },
+  {
+   "name": "Minuman sejuk berais manis saiz besar",
+   "kcal": 250,
+   "why": "Kalori cair yang tak beri rasa kenyang langsung."
+  }
+ ],
+ "hacks": [
+  "Formula mudah: 1 protein (telur, susu, yogurt, sandwic ayam) + 1 karbo (onigiri, pisang, roti). Siap.",
+  "Baca label kalori pada pek. Kalau satu pek ada 2 hidangan, kalori sebenar dua kali ganda.",
+  "Beli saiz paling kecil untuk snek kegemaran. Rasa tetap dapat, kalori terkawal.",
+  "Jauhkan mata dari kaunter promosi 'beli 2 lebih murah'. Murah, tapi anda makan dua.",
+  "Jangan masuk kedai dalam keadaan terlalu lapar. Simpan telur rebus atau buah dalam beg sebagai backup."
+ ],
+ "drink": "Air mineral, teh hijau tanpa gula, atau susu tanpa gula. Elak air kotak berperisa dan minuman tenaga bergula.",
+ "faq": [
+  {
+   "q": "Kalau dah malam dan cuma ada mi segera, boleh makan ke?",
+   "a": "Boleh. Untuk lebih seimbang, tambah 2 biji telur rebus atau sebotol susu. Guna separuh perisa untuk kurangkan garam. Esok cuba siapkan backup snek."
+  },
+  {
+   "q": "Snek apa paling sesuai simpan di meja office?",
+   "a": "Pilih yang ada protein atau serat, macam kacang panggang paket kecil, buah, atau yogurt dalam peti ais office. Bahagikan siap-siap supaya tak makan sepaket besar sekali gus."
+  }
+ ]
+}

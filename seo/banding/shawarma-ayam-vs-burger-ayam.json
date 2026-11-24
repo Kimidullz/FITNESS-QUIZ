@@ -1,0 +1,24 @@
+{
+ "id": "shawarma-ayam-vs-burger-ayam",
+ "winner": "shawarma-ayam",
+ "verdict": "Shawarma ayam sedikit lebih baik. Kalori lebih tinggi sikit, tapi protein lebih banyak dan lemak lebih rendah.",
+ "why": [
+  "Shawarma anggaran 550 kcal, burger ayam gerai dengan telur anggaran 500 kcal. Beza cuma 50 kcal.",
+  "Protein shawarma 30 g, burger 22 g. Lebih 8 g protein untuk kenyang lebih lama.",
+  "Lemak shawarma 23 g, burger 26 g. Burger gerai biasanya banyak marjerin dan mayo.",
+  "Shawarma ada sayur sikit di dalam, jadi rasa lebih padu dan kurang nak tambah makanan lain."
+ ],
+ "when_a": "Shawarma okay sebagai makan malam terus, bukan snek. Minta sos garlic atau mayo kurang.",
+ "when_b": "Burger ayam gerai okay sekali-sekala bila lapar malam. Minta kurang sos, kurang marjerin dan tambah sayur.",
+ "tip": "Untuk dua-dua, minta 'sos sikit je' dan pilih air kosong atau teh o kosong. Banyak kalori tersembunyi dalam sos.",
+ "faq": [
+  {
+   "q": "Burger tanpa telur lebih baik ke?",
+   "a": "Telur sebenarnya tambah protein. Yang lebih baik dikurangkan ialah mayo, sos dan marjerin di roti."
+  },
+  {
+   "q": "Boleh makan shawarma malam-malam?",
+   "a": "Boleh. Waktu makan tak sepenting jumlah kalori sehari. Cuma pastikan ia ganti makan malam, bukan tambahan selepas makan malam."
+  }
+ ]
+}

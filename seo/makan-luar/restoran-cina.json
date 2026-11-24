@@ -1,0 +1,82 @@
+{
+ "slug": "restoran-cina",
+ "title": "Apa nak ambil di restoran Cina dan kedai chap fan bila nak turun berat",
+ "intro": "Kedai chap fan atau nasi campur Cina memang praktikal untuk lunch waktu kerja. Banyak lauk stim dan sayur tumis yang sesuai untuk anda. Yang perlu diperhati ialah lauk bergoreng, bersos manis dan kuah yang dibanjirkan. Angka kalori di bawah ialah anggaran.",
+ "best": [
+  {
+   "name": "Nasi putih separuh pinggan",
+   "kcal": 180,
+   "why": "Masih makan nasi, cuma porsi yang lebih terkawal. Cukup untuk tenaga kerja petang."
+  },
+  {
+   "name": "Ikan stim halia atau kicap (1 bahagian)",
+   "kcal": 180,
+   "why": "Protein tinggi, minyak sedikit. Antara pilihan terbaik di kedai chap fan."
+  },
+  {
+   "name": "Telur stim (1 bahagian)",
+   "kcal": 110,
+   "why": "Lembut, ringan dan murah. Protein tambahan yang bagus."
+  },
+  {
+   "name": "Sayur sawi atau choy sum tumis bawang putih (1 senduk besar)",
+   "kcal": 90,
+   "why": "Ambil dua jenis sayur. Pinggan penuh, kalori kekal rendah."
+  },
+  {
+   "name": "Tauhu stim atau tauhu sos tiram (2 keping)",
+   "kcal": 150,
+   "why": "Protein dari kacang soya. Pilih yang tak digoreng garing."
+  },
+  {
+   "name": "Sup lobak atau sup sayur (1 mangkuk)",
+   "kcal": 80,
+   "why": "Sup jernih buat anda lebih kenyang tanpa banyak kalori."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Ayam masak masam manis (1 senduk)",
+   "kcal": 400,
+   "why": "Ayam digoreng tepung dan disalut sos bergula. Ambil 2-3 ketul sahaja."
+  },
+  {
+   "name": "Udang butter atau udang goreng tepung (1 senduk)",
+   "kcal": 450,
+   "why": "Mentega, tepung dan minyak. Sedap untuk sesekali, bukan setiap hari."
+  },
+  {
+   "name": "Telur fu yong (1 keping)",
+   "kcal": 280,
+   "why": "Telur digoreng dengan minyak yang banyak. Telur stim lebih ringan."
+  },
+  {
+   "name": "Tauhu goreng garing (3 keping)",
+   "kcal": 250,
+   "why": "Tauhu menyerap minyak bila digoreng. Pilih versi stim atau sos."
+  },
+  {
+   "name": "Kuah kari banjir atas nasi",
+   "kcal": 200,
+   "why": "Kuah santan menambah kalori tanpa anda sedar. Minta kuah asing atau sikit sahaja."
+  }
+ ],
+ "hacks": [
+  "Formula mudah: 1 protein stim, 2 sayur, nasi separuh pinggan.",
+  "Minta 'kuah sikit' atau 'kuah asing', jangan banjir atas nasi.",
+  "Ambil sayur yang kering sedikit dan tinggalkan minyak di dalam dulang.",
+  "Pilih lauk yang ditulis 'stim', 'rebus' atau 'tumis' berbanding 'goreng' dan 'masam manis'.",
+  "Kalau ada lauk bergoreng yang anda teringin, ambil satu sahaja dan seimbangkan dengan sayur."
+ ],
+ "drink": "Teh Cina panas tanpa gula atau air kosong. Kalau nak sejuk, minta teh O ais kosong.",
+ "faq": [
+  {
+   "q": "Nasi putih ke nasi perang lebih baik?",
+   "a": "Kedua-duanya boleh. Nasi perang ada lebih serat dan lebih mengenyangkan. Tapi kalau kedai hanya ada nasi putih, kawal porsi sudah memadai."
+  },
+  {
+   "q": "Kalau lunch kat chap fan setiap hari, bosan tak?",
+   "a": "Tukar-tukar protein: hari ini ikan stim, esok ayam, lusa tauhu dan telur. Sayur pun pilih jenis berbeza. Dengan formula yang sama, anda tetap ada banyak variasi."
+  }
+ ]
+}

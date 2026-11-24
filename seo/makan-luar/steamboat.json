@@ -1,0 +1,82 @@
+{
+ "slug": "steamboat",
+ "title": "Apa nak order masa makan steamboat atau BBQ bila nak turun berat",
+ "intro": "Steamboat dan BBQ memang best untuk makan ramai-ramai. Berita baik: steamboat boleh jadi antara makan luar yang paling mesra diet. Banyak sayur, seafood dan protein yang dimasak dalam sup. Yang buat kalori melambung biasanya kuah bersantan, bebola diproses, daging berlemak, mi dan sos cicah. Semua nombor ialah anggaran untuk hidangan biasa.",
+ "best": [
+  {
+   "name": "Sayur campur (sawi, kobis bunga, kangkung, bayam) 2 mangkuk",
+   "kcal": 50,
+   "why": "Kalori sangat rendah, banyak serat. Isi perut dulu dengan sayur supaya anda kenyang lebih awal."
+  },
+  {
+   "name": "Udang, sotong dan ikan hiris (anggaran 150g)",
+   "kcal": 150,
+   "why": "Protein tinggi, lemak rendah. Masak dalam sup, jadi tak tambah minyak."
+  },
+  {
+   "name": "Dada ayam hiris (anggaran 120g)",
+   "kcal": 150,
+   "why": "Protein yang mengenyangkan. Pilihan baik berbanding daging berlemak."
+  },
+  {
+   "name": "Tauhu putih atau tauhu sutera",
+   "kcal": 90,
+   "why": "Ada protein, lembut dan sedap serap kuah. Pilih tauhu putih, bukan tauhu goreng."
+  },
+  {
+   "name": "Cendawan (enoki, shiitake, tiram)",
+   "kcal": 40,
+   "why": "Tambah rasa dan tekstur dengan kalori rendah. Buat pinggan nampak penuh."
+  },
+  {
+   "name": "Telur ayam 1 biji (masak dalam sup)",
+   "kcal": 75,
+   "why": "Protein mudah dan murah. Bagus kalau anda kurang ambil seafood."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Bebola ikan, fishcake, sosej dan kepingan diproses (10-12 keping)",
+   "kcal": 350,
+   "why": "Nampak kecil, tapi ada tepung dan lemak. Senang makan banyak tanpa kira."
+  },
+  {
+   "name": "Kuah tomyam pekat atau kuah laksa bersantan (2 mangkuk)",
+   "kcal": 300,
+   "why": "Santan dan minyak cili ada dalam kuah. Kalau anda minum kuah banyak, kalori naik."
+  },
+  {
+   "name": "Daging lembu atau kambing hiris berlemak (anggaran 150g)",
+   "kcal": 400,
+   "why": "Bahagian berlemak tinggi kalori. Untuk BBQ, perapan manis tambah lagi."
+  },
+  {
+   "name": "Sos cicah (sos kacang, sos cili manis, bawang goreng) 4 sudu",
+   "kcal": 150,
+   "why": "Sos ini banyak gula dan minyak. Setiap kali cicah, kalori bertambah sikit-sikit."
+  },
+  {
+   "name": "Mi segera atau mi kuning dalam steamboat",
+   "kcal": 400,
+   "why": "Biasanya dimakan di hujung bila dah kenyang. Mi segera juga tinggi lemak dan garam."
+  }
+ ],
+ "hacks": [
+  "Pilih kuah sup jernih (sup ayam atau sup herba). Kalau nak dua jenis, satu jernih, satu tomyam.",
+  "Ambil sayur dan seafood dulu. Bebola dan mi ambil kemudian, kalau masih lapar.",
+  "Guna sos cili atau kicap dengan cili padi dan bawang putih. Cicah sikit, jangan tuang.",
+  "Untuk BBQ, pilih ayam tanpa kulit, ikan dan udang. Kurangkan sosej dan daging berperap manis.",
+  "Makan perlahan dan berbual. Steamboat memang lama, jadi bagi masa perut rasa kenyang."
+ ],
+ "drink": "Air kosong atau teh cina panas. Kalau nak sejuk, teh o ais limau kurang manis.",
+ "faq": [
+  {
+   "q": "Steamboat buffet ni sesuai ke kalau saya tengah turun berat?",
+   "a": "Boleh, kalau anda rancang pinggan. Mula dengan sayur dan protein, hadkan bebola diproses dan mi, dan jangan paksa diri 'balik modal'. Satu malam buffet tak akan rosakkan progress anda."
+  },
+  {
+   "q": "Kuah steamboat boleh minum ke?",
+   "a": "Kuah jernih boleh minum secukupnya. Kuah santan atau tomyam pekat lebih baik minum sedikit sahaja. Kuah juga biasanya masin, jadi minum air kosong lebih."
+  }
+ ]
+}

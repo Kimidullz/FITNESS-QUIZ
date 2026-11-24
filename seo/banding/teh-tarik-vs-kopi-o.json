@@ -1,0 +1,24 @@
+{
+ "id": "teh-tarik-vs-kopi-o",
+ "winner": "kopi-o",
+ "verdict": "Kopi O bergula anggaran separuh kalori teh tarik. Teh tarik masih boleh, terutama kalau minta kurang manis.",
+ "why": [
+  "Teh tarik anggaran 120 kcal segelas, Kopi O bergula sekitar 60 kcal.",
+  "Teh tarik ada sedikit protein (3 g) dari susu, tapi tak cukup untuk buat anda kenyang.",
+  "Lemak teh tarik anggaran 4 g dari susu pekat, Kopi O hampir tiada lemak.",
+  "Minum 2 gelas teh tarik sehari dah sekitar 240 kcal. Senang terlepas pandang sebab ia 'cuma minuman'."
+ ],
+ "when_a": "Teh tarik okay sebagai segelas 'reward' masa lepak, atau minta kurang manis.",
+ "when_b": "Kopi O sesuai untuk minuman harian pagi atau petang di office.",
+ "tip": "Minta 'kurang manis' atau 'kosong'. Lama-lama tekak akan biasa dengan rasa kurang manis.",
+ "faq": [
+  {
+   "q": "Kopi O kosong lagi bagus ke?",
+   "a": "Ya, kopi O kosong hampir tiada kalori. Kalau belum biasa, mula dengan kurang manis dulu."
+  },
+  {
+   "q": "Boleh ke minum teh tarik setiap hari?",
+   "a": "Boleh kalau masih dalam kalori harian. Hadkan segelas sehari dan minta kurang manis."
+  }
+ ]
+}

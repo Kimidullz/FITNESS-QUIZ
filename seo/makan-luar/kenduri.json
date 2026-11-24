@@ -1,0 +1,82 @@
+{
+ "slug": "kenduri",
+ "title": "Apa nak makan di kenduri kahwin bila nak turun berat",
+ "intro": "Kenduri kahwin memang susah nak elak. Lagi-lagi musim cuti sekolah, setiap minggu ada jemputan. Tak perlu skip dan tak perlu rasa bersalah. Yang penting, susun pinggan dengan bijak. Semua angka di bawah ialah anggaran kalori untuk hidangan biasa di kenduri Malaysia.",
+ "best": [
+  {
+   "name": "Nasi putih separuh pinggan",
+   "kcal": 200,
+   "why": "Kalau ada pilihan nasi putih, ambil ini. Kalorinya lebih rendah berbanding nasi minyak dan anda masih kenyang."
+  },
+  {
+   "name": "Ayam masak merah (1 ketul, buang kulit)",
+   "kcal": 230,
+   "why": "Sumber protein yang baik. Buang kulit dan kurangkan kuah untuk jimat lemak dan gula."
+  },
+  {
+   "name": "Acar buah atau acar timun (2 sudu)",
+   "kcal": 70,
+   "why": "Ada sayur dan rasa masam manis yang buat pinggan nampak penuh. Ambil sederhana sebab ada sedikit gula."
+  },
+  {
+   "name": "Dalca sayur (1 senduk kecil)",
+   "kcal": 120,
+   "why": "Ada sayur dan kacang dal. Ambil sayurnya lebih, kuahnya sikit sahaja."
+  },
+  {
+   "name": "Daging masak hitam (2 ketul kecil)",
+   "kcal": 200,
+   "why": "Protein tinggi. Ambil 2 ketul sahaja dan jangan banjirkan kuah atas nasi."
+  },
+  {
+   "name": "Buah tembikai (2 potong)",
+   "kcal": 60,
+   "why": "Pencuci mulut yang segar dan ringan. Bagus untuk ganti kuih manis."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Nasi minyak sepinggan penuh",
+   "kcal": 550,
+   "why": "Dimasak dengan minyak sapi dan santan. Sedap, tapi padat kalori. Ambil separuh pinggan sahaja."
+  },
+  {
+   "name": "Rendang daging dengan kuah banyak",
+   "kcal": 350,
+   "why": "Santan dan kerisik menambah lemak. Ambil isi, kurangkan kuah."
+  },
+  {
+   "name": "Air sirap bandung (1 gelas)",
+   "kcal": 200,
+   "why": "Gula dan susu pekat manis. Satu gelas dah hampir sama dengan sepinggan kecil nasi."
+  },
+  {
+   "name": "Puding roti atau pengat (1 mangkuk)",
+   "kcal": 300,
+   "why": "Manis dan berkrim. Kalau nak rasa, kongsi dengan pasangan atau ambil separuh."
+  },
+  {
+   "name": "Kuih-muih goreng di meja (3 biji)",
+   "kcal": 350,
+   "why": "Senang termakan sambil berborak. Pilih satu yang paling anda suka, kemudian berhenti."
+  }
+ ],
+ "hacks": [
+  "Ambil pinggan, isi separuh dengan lauk protein dan sayur dulu, baru letak nasi.",
+  "Minta nasi minyak separuh pinggan sahaja. Ramai yang tak habis pun, jadi tak perlu segan.",
+  "Kuah asing, jangan banjir. Lauk tetap sedap walaupun kuah sikit.",
+  "Makan perlahan dan berborak dengan saudara. Lagi lama makan, lagi cepat rasa kenyang.",
+  "Makan snek ringan sebelum pergi, contohnya telur rebus atau buah, supaya tak terlalu lapar bila sampai."
+ ],
+ "drink": "Air kosong sejuk. Kalau nak juga yang berperisa, minta sirap separuh gelas dan tambah ais atau air kosong.",
+ "faq": [
+  {
+   "q": "Saya ada 3 kenduri dalam satu hari. Macam mana?",
+   "a": "Pilih satu kenduri untuk makan penuh. Di kenduri lain, ambil sedikit lauk, buah dan air kosong. Tuan rumah lebih hargai kehadiran anda daripada berapa banyak anda makan."
+  },
+  {
+   "q": "Kalau dah terlebih makan di kenduri, perlu ke skip makan malam?",
+   "a": "Tak perlu skip sepenuhnya. Makan malam yang ringan seperti sup, sayur dan sedikit protein sudah memadai. Esoknya kembali kepada rutin biasa. Satu hari tidak merosakkan progress anda."
+  }
+ ]
+}

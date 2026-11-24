@@ -1,0 +1,82 @@
+{
+ "slug": "restoran-jepun",
+ "title": "Apa nak order di restoran Jepun dan kedai sushi bila nak turun berat",
+ "intro": "Ramai fikir makanan Jepun semuanya sihat. Ada betulnya, tapi ada juga roll bermayonis dan hidangan bergoreng yang padat kalori. Kalau pandai pilih, kedai sushi boleh jadi tempat makan yang sangat sesuai untuk matlamat anda. Kalori di bawah ialah anggaran.",
+ "best": [
+  {
+   "name": "Sashimi salmon (5 keping)",
+   "kcal": 170,
+   "why": "Protein tinggi tanpa nasi. Kaya lemak baik dan sangat mengenyangkan."
+  },
+  {
+   "name": "Nigiri salmon atau tuna (2 biji)",
+   "kcal": 140,
+   "why": "Nasi sedikit, ikan lebih. Pilihan sushi yang paling ringkas."
+  },
+  {
+   "name": "Saba shioyaki atau ikan panggang (1 bahagian)",
+   "kcal": 300,
+   "why": "Ikan panggang dengan garam. Protein padat tanpa sos manis."
+  },
+  {
+   "name": "Chawanmushi (1 mangkuk)",
+   "kcal": 90,
+   "why": "Telur kukus yang lembut. Ringan dan sedap sebagai pembuka selera."
+  },
+  {
+   "name": "Edamame (1 piring)",
+   "kcal": 120,
+   "why": "Snek berprotein dan berserat. Bagus untuk dimakan sementara tunggu hidangan."
+  },
+  {
+   "name": "Sup miso (1 mangkuk)",
+   "kcal": 40,
+   "why": "Hangat dan rendah kalori. Bantu anda rasa lebih kenyang."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Tempura campur (1 set)",
+   "kcal": 450,
+   "why": "Udang dan sayur bersalut tepung goreng. Kongsi atau ambil 2-3 keping sahaja."
+  },
+  {
+   "name": "Roll mentai atau roll keju (6 keping)",
+   "kcal": 400,
+   "why": "Mayonis, keju dan sos menambah banyak kalori. Pilih maki biasa atau nigiri."
+  },
+  {
+   "name": "Katsu don (1 mangkuk)",
+   "kcal": 800,
+   "why": "Ayam bergoreng tepung atas nasi dengan sos manis. Pertimbangkan teriyaki panggang atau kongsi."
+  },
+  {
+   "name": "Salad kani mayo (1 piring)",
+   "kcal": 250,
+   "why": "Nampak macam salad, tapi banyak mayonis. Ambil sedikit sahaja."
+  },
+  {
+   "name": "Takoyaki (6 biji)",
+   "kcal": 300,
+   "why": "Tepung, sos dan mayonis. Sedap sebagai snek kongsi, bukan hidangan utama."
+  }
+ ],
+ "hacks": [
+  "Mula dengan sup miso dan edamame supaya tak terlalu lapar bila sushi sampai.",
+  "Pilih sashimi dan nigiri lebih banyak daripada roll bermayonis.",
+  "Minta sos dan mayonis di tepi. Cicah sedikit, jangan siram.",
+  "Di kaunter sushi berputar, tetapkan had pinggan dulu, contohnya 5 pinggan, sebelum mula ambil.",
+  "Untuk set bento, pilih protein panggang dan minta nasi kurang."
+ ],
+ "drink": "Ocha panas atau sejuk tanpa gula. Kebanyakan kedai sushi sediakan ocha isi semula, jadi memang sesuai.",
+ "faq": [
+  {
+   "q": "Sushi setiap minggu okay ke untuk turun berat?",
+   "a": "Okay, asalkan anda pilih yang ringan seperti sashimi, nigiri dan maki biasa. Perhatikan jumlah pinggan dan roll bermayonis, sebab di situ kalori senang bertambah."
+  },
+  {
+   "q": "Kicap Jepun banyak garam, perlu risau ke?",
+   "a": "Kicap memang tinggi natrium. Cicah sedikit sahaja, jangan rendam. Minum ocha atau air kosong yang cukup sepanjang makan."
+  }
+ ]
+}

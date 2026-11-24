@@ -1,0 +1,24 @@
+{
+ "id": "pizza-vs-burger-daging",
+ "winner": "burger-daging",
+ "verdict": "Burger daging biasa lebih senang dikawal. Kalori sama, tapi protein lebih tinggi dan anda biasanya berhenti di 1 biji.",
+ "why": [
+  "Kalori sama: anggaran 300 kcal untuk 1 potong pizza dan 1 biji burger.",
+  "Burger ada protein 15 g, pizza 12 g. Lebih protein, lebih lama kenyang.",
+  "Lemak burger lebih rendah: 12 g vs 14 g.",
+  "Pizza sangat senang terlebih. Jarang orang makan 1 potong je. 3 potong dah anggaran 900 kcal."
+ ],
+ "when_a": "Pizza okay masa makan ramai-ramai atau sambut birthday. Ambil 1-2 potong, tambah salad, dan nikmati perlahan-lahan.",
+ "when_b": "Burger daging okay bila anda nak makan cepat. Pilih saiz biasa, bukan double, dan tukar air manis kepada air kosong.",
+ "tip": "Kalau makan pizza, makan salad atau sayur dulu. Kalau burger, skip kentang goreng saiz besar atau kongsi dengan kawan.",
+ "faq": [
+  {
+   "q": "Kalau saya nak juga pizza, macam mana?",
+   "a": "Boleh. Tetapkan dari awal, contohnya 2 potong. Letak dalam pinggan, jangan makan terus dari kotak. Pilih topping ayam atau sayur bila boleh."
+  },
+  {
+   "q": "Burger dengan set makan okay tak?",
+   "a": "Set dengan kentang goreng dan air manis boleh tambah beratus kalori. Ambil burger sahaja atau tukar ke air kosong. Itu langkah kecil tapi beri kesan."
+  }
+ ]
+}

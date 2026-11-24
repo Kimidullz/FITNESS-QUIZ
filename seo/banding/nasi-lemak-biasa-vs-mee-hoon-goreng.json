@@ -1,0 +1,24 @@
+{
+ "id": "nasi-lemak-biasa-vs-mee-hoon-goreng",
+ "winner": "nasi-lemak-biasa",
+ "verdict": "Nasi lemak biasa menang tipis. Protein dan lemak sama, tapi kalorinya lebih rendah sedikit dan portion bungkus lebih terkawal.",
+ "why": [
+  "Nasi lemak biasa anggaran 400 kcal, mee hoon goreng sepinggan anggaran 450 kcal.",
+  "Protein sama, anggaran 12 g setiap satu. Lemak pun sama, anggaran 17 g.",
+  "Nasi lemak bungkus ada saiz tetap. Mee hoon goreng di gerai kadang-kadang dicedok banyak, jadi kalori boleh naik lagi.",
+  "Mee hoon goreng biasanya sedikit sayur dan protein, jadi senang rasa lapar balik lebih cepat."
+ ],
+ "when_a": "Nasi lemak bungkus sesuai bila anda nak sarapan cepat dan nak tahu lebih kurang berapa yang anda makan.",
+ "when_b": "Mee hoon goreng okay bila anda minta separuh pinggan atau tambah telur mata dan sayur.",
+ "tip": "Kalau ambil mee hoon goreng, cedok separuh dari biasa dan tambah telur rebus atau telur mata. Portion terkawal, protein pun naik.",
+ "faq": [
+  {
+   "q": "Mee hoon lebih ringan dari nasi ke?",
+   "a": "Tak semestinya. Mee hoon goreng dimasak dengan minyak, jadi kalorinya boleh sama atau lebih tinggi dari nasi lemak."
+  },
+  {
+   "q": "Nak kurangkan kalori nasi lemak macam mana?",
+   "a": "Ambil sambal secukup rasa, jangan tambah kacang lebih, dan minum air kosong atau teh o kurang manis."
+  }
+ ]
+}

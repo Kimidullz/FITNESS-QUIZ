@@ -1,0 +1,24 @@
+{
+ "id": "nasi-ayam-vs-nasi-campur",
+ "winner": "nasi-ayam",
+ "verdict": "Nasi ayam menang tipis dari segi kalori. Tapi nasi campur boleh jadi pilihan terbaik kalau anda pandai pilih lauk dan sayur.",
+ "why": [
+  "Nasi ayam anggaran 600 kcal, nasi campur dengan ayam goreng dan 2 sayur anggaran 650 kcal.",
+  "Protein sama, anggaran 28 g setiap satu. Lemak pun hampir sama, 23 g dan 24 g.",
+  "Nasi campur ada sayur, jadi ada serat yang bantu kenyang. Ini kelebihan yang nasi ayam tak ada.",
+  "Tapi nasi campur senang terlebih: tambah lauk, kuah banjir, sayur bersantan. Kalori boleh naik jauh."
+ ],
+ "when_a": "Nasi ayam sesuai bila anda nak pilihan yang portion tetap dan senang dianggar.",
+ "when_b": "Nasi campur bagus bila anda pilih 1 lauk protein dan 2 sayur tumis atau rebus, dengan kuah sikit.",
+ "tip": "Di gerai nasi campur, ambil sayur dulu sebelum lauk. Biar sayur penuh separuh pinggan, nasi satu senduk, kuah sikit saja.",
+ "faq": [
+  {
+   "q": "Sayur lemak atau sayur tumis lebih baik?",
+   "a": "Sayur tumis atau rebus biasanya lebih rendah kalori. Sayur lemak okay, cuma ambil sedikit."
+  },
+  {
+   "q": "Kuah kari kat atas nasi banyak kalori ke?",
+   "a": "Ya, kuah ada minyak dan santan. Minta kuah sikit atau letak tepi, supaya anda boleh kawal."
+  }
+ ]
+}

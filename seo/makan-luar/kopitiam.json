@@ -1,0 +1,82 @@
+{
+ "slug": "kopitiam",
+ "title": "Apa nak order di kopitiam bila nak turun berat",
+ "intro": "Kopitiam ialah tempat sarapan dan makan tengah hari ramai orang Malaysia. Menu dia banyak pilihan berkuah yang sebenarnya mesra untuk turun berat. Kalori di bawah ialah anggaran untuk hidangan biasa.",
+ "best": [
+  {
+   "name": "Telur separuh masak 2 biji",
+   "kcal": 150,
+   "why": "Protein tinggi dan mudah. Gandingan bagus untuk sarapan supaya tak cepat lapar."
+  },
+  {
+   "name": "Roti bakar kaya tanpa butter (2 keping)",
+   "kcal": 250,
+   "why": "Tak buang terus roti bakar kegemaran, cuma buang butter. Kalori turun dengan ketara."
+  },
+  {
+   "name": "Kuey teow sup",
+   "kcal": 350,
+   "why": "Kuah jernih, ada sedikit daging atau bebola ikan. Kurang minyak berbanding versi goreng."
+  },
+  {
+   "name": "Yong tau foo sup (6-7 keping)",
+   "kcal": 300,
+   "why": "Anda boleh pilih sendiri. Lebihkan sayur dan tauhu, kurangkan item goreng."
+  },
+  {
+   "name": "Wantan mee sup",
+   "kcal": 380,
+   "why": "Versi sup lebih ringan daripada versi kering yang bersalut minyak dan sos."
+  },
+  {
+   "name": "Nasi ayam (ayam rebus, buang kulit, nasi separuh)",
+   "kcal": 450,
+   "why": "Masih makan nasi ayam kegemaran, cuma ubah sedikit. Protein dapat, kalori terkawal."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Roti bakar kaya butter (2 keping)",
+   "kcal": 350,
+   "why": "Butter tebal menambah lemak. Sedap, tapi kalau setiap pagi, ia bertambah."
+  },
+  {
+   "name": "Char kuey teow",
+   "kcal": 750,
+   "why": "Digoreng dengan banyak minyak dan lemak. Elok dikongsi atau dimakan sekali-sekala."
+  },
+  {
+   "name": "Nasi ayam penuh (nasi minyak, ayam panggang berkulit)",
+   "kcal": 650,
+   "why": "Nasi dimasak dengan minyak dan kulit ayam tinggi lemak."
+  },
+  {
+   "name": "Curry mee",
+   "kcal": 600,
+   "why": "Kuah santan pekat. Rasa kenyang, tapi kalori tinggi dalam semangkuk."
+  },
+  {
+   "name": "Kopi atau teh susu biasa",
+   "kcal": 130,
+   "why": "Susu pekat manis. Kalau minum 2-3 kali sehari, ia cepat bertambah."
+  }
+ ],
+ "hacks": [
+  "Order 'kopi o kosong' atau 'kopi c kurang manis'.",
+  "Minta 'roti bakar kaya, tak mau butter' atau 'kaya sikit sahaja'.",
+  "Pilih versi sup berbanding versi goreng atau kering.",
+  "Untuk curry mee, makan mee dan isi, tinggalkan sebahagian kuah.",
+  "Tambah telur separuh masak untuk protein supaya kenyang sampai tengah hari."
+ ],
+ "drink": "Kopi o kosong atau teh o kosong, panas atau ais. Kalau perlukan susu, minta kopi c kurang manis.",
+ "faq": [
+  {
+   "q": "Sarapan kopitiam yang paling seimbang macam mana?",
+   "a": "Contohnya 2 telur separuh masak, 1-2 keping roti bakar kaya tanpa butter dan kopi o kosong. Ada protein, ada karbohidrat, kalori pun terkawal."
+  },
+  {
+   "q": "Kuah sup kena habiskan ke?",
+   "a": "Sup jernih okay. Cuma kuah kari atau santan lebih tinggi kalori, jadi tinggalkan sedikit kalau anda nak jimat kalori."
+  }
+ ]
+}

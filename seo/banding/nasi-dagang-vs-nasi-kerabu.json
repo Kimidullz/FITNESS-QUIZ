@@ -1,0 +1,24 @@
+{
+ "id": "nasi-dagang-vs-nasi-kerabu",
+ "winner": "nasi-kerabu",
+ "verdict": "Nasi kerabu sedikit lebih baik. Kalorinya lebih rendah, protein lebih tinggi, dan ada ulam yang buat anda lebih kenyang.",
+ "why": [
+  "Nasi kerabu anggaran 550 kcal. Nasi dagang pula anggaran 600 kcal, beza dalam 50 kcal.",
+  "Lemak nasi kerabu anggaran 19 g, nasi dagang 24 g. Nasi dagang dimasak dengan santan, jadi lemaknya lebih tinggi.",
+  "Protein nasi kerabu anggaran 25 g berbanding 22 g. Lebih protein biasanya bantu anda kenyang lebih lama.",
+  "Ulam dan kerabu menambah isi pinggan tanpa banyak kalori. Ini buat anda makan lebih perlahan."
+ ],
+ "when_a": "Nasi dagang sesuai untuk sarapan hujung minggu atau balik kampung. Pilih ikan tongkol dan kurangkan kuah gulai.",
+ "when_b": "Nasi kerabu sesuai untuk makan tengah hari biasa. Minta ulam lebih dan kurangkan kuah tumis atau budu ikut selera.",
+ "tip": "Apa pun yang anda pilih, minta lauk ikan atau ayam bakar, kurangkan kuah santan, dan minum air kosong atau teh o kosong.",
+ "faq": [
+  {
+   "q": "Nasi kerabu memang selalu lebih sihat ke?",
+   "a": "Bergantung pada lauk. Kalau pilih ayam goreng berempah dan kerisik banyak, kalorinya boleh naik melebihi nasi dagang."
+  },
+  {
+   "q": "Boleh ke makan nasi dagang masa nak turun berat?",
+   "a": "Boleh. Makan sepinggan biasa, jangan tambah nasi, dan pastikan makanan lain hari tu lebih ringan."
+  }
+ ]
+}

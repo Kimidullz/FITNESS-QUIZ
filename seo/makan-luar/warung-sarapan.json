@@ -1,0 +1,82 @@
+{
+ "slug": "warung-sarapan",
+ "title": "Apa nak order di warung sarapan pagi bila nak turun berat",
+ "intro": "Sarapan di warung memang rutin ramai orang Malaysia. Nasi lemak, roti canai, mee goreng, kuih. Semua boleh dimakan. Cuma ada pilihan yang lebih kenyang lama dengan kalori lebih sederhana. Fokus pada protein seperti telur, kawal minyak dan gula, dan perhatikan air manis. Semua nombor ialah anggaran saiz warung biasa.",
+ "best": [
+  {
+   "name": "Telur separuh masak 2 biji",
+   "kcal": 150,
+   "why": "Protein tinggi dan murah. Buat anda kenyang sampai tengah hari."
+  },
+  {
+   "name": "Roti bakar kaya, mentega sikit (2 keping)",
+   "kcal": 250,
+   "why": "Lebih ringan berbanding roti canai. Padankan dengan telur separuh masak untuk sarapan lengkap."
+  },
+  {
+   "name": "Nasi lemak bungkus biasa dengan telur rebus",
+   "kcal": 400,
+   "why": "Ya, nasi lemak boleh! Versi bungkus kecil dengan telur rebus lebih sederhana dari versi ayam goreng."
+  },
+  {
+   "name": "Bihun goreng sebungkus kecil dengan telur",
+   "kcal": 380,
+   "why": "Bihun goreng biasanya kurang berminyak dari mee goreng mamak. Ambil saiz kecil."
+  },
+  {
+   "name": "Roti canai kosong 1 keping, kuah dhal",
+   "kcal": 300,
+   "why": "Kalau teringin roti canai, satu keping dengan dhal lebih ringan dari dua keping kuah kari."
+  },
+  {
+   "name": "Pau kacang atau apam balik kecil 1 biji",
+   "kcal": 180,
+   "why": "Kuih yang dikukus lebih ringan dari kuih goreng. Sesuai kalau nak sedikit manis."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Nasi lemak ayam goreng",
+   "kcal": 800,
+   "why": "Nasi santan, ayam goreng dan sambal berminyak. Sedap sangat, tapi kalorinya hampir separuh keperluan harian ramai orang."
+  },
+  {
+   "name": "Roti canai 2 keping kuah kari campur",
+   "kcal": 650,
+   "why": "Roti canai diuli dengan minyak dan majerin. Kuah kari pula tambah lemak."
+  },
+  {
+   "name": "Mee goreng mamak sepinggan penuh",
+   "kcal": 650,
+   "why": "Banyak minyak dan sos. Saiz warung biasanya besar."
+  },
+  {
+   "name": "Karipap, cucur atau pisang goreng (3 biji)",
+   "kcal": 400,
+   "why": "Kuih goreng serap minyak. Senang ambil 'satu lagi' sambil minum teh."
+  },
+  {
+   "name": "Teh tarik atau kopi susu biasa",
+   "kcal": 150,
+   "why": "Susu pekat manis dan gula. Kalau minum dua gelas setiap pagi, kalori terkumpul."
+  }
+ ],
+ "hacks": [
+  "Tambah telur separuh masak atau telur rebus pada sarapan anda. Protein buat anda tak cepat lapar.",
+  "Order nasi lemak: 'nasi sikit, sambal asing'. Ambil sambal secukup rasa.",
+  "Roti canai: pilih kuah dhal, minta kuah asing, dan cukup satu keping.",
+  "Kuih: pilih satu sahaja, dan utamakan kuih kukus seperti pau atau putu.",
+  "Air: minta 'kurang manis' atau 'kosong'. Teh o kosong dan kopi o kosong hampir tiada kalori."
+ ],
+ "drink": "Kopi O kosong atau teh O kosong. Kalau perlu susu, teh tarik kurang manis saiz kecil.",
+ "faq": [
+  {
+   "q": "Saya tak boleh tinggal nasi lemak. Macam mana?",
+   "a": "Tak perlu tinggal. Pilih bungkus biasa dengan telur, minta nasi sikit dan sambal asing. Makan 2-3 kali seminggu, bukan setiap hari. Hari lain cuba roti bakar dengan telur."
+  },
+  {
+   "q": "Elok ke kalau saya skip sarapan terus?",
+   "a": "Ikut keselesaan anda. Ada orang okay skip, ada yang jadi terlalu lapar dan makan berlebihan masa tengah hari. Yang penting jumlah makan sehari. Kalau anda selalu 'balas dendam' tengah hari, sarapan ringan berprotein mungkin lebih sesuai."
+  }
+ ]
+}

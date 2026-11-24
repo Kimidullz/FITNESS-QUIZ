@@ -1,0 +1,82 @@
+{
+ "slug": "mamak",
+ "title": "Apa nak order di kedai mamak bila nak turun berat",
+ "intro": "Lepak mamak dengan kawan memang tak boleh tinggal, kan? Berita baiknya, anda tak perlu berhenti. Anda cuma perlu tahu menu mana yang lebih ringan dan cara order yang bijak. Semua kalori di bawah ialah anggaran untuk hidangan biasa di Malaysia.",
+ "best": [
+  {
+   "name": "Roti canai kosong 1 keping + kuah dhal",
+   "kcal": 300,
+   "why": "Satu keping cukup untuk rasa puas. Kuah dhal ada sedikit protein dan serat berbanding kuah kari berminyak."
+  },
+  {
+   "name": "Chapati 2 keping + dhal",
+   "kcal": 300,
+   "why": "Chapati dimasak tanpa banyak minyak. Lebih mengenyangkan dan kurang lemak berbanding roti canai."
+  },
+  {
+   "name": "Tosai kosong + chutney",
+   "kcal": 250,
+   "why": "Ringan dan nipis. Sesuai untuk sarapan atau makan malam yang tak terlalu berat."
+  },
+  {
+   "name": "Ayam tandoori 1 ketul (tanpa naan)",
+   "kcal": 260,
+   "why": "Dibakar, bukan digoreng. Tinggi protein, jadi anda kenyang lebih lama."
+  },
+  {
+   "name": "Idli 3 biji + sambar",
+   "kcal": 250,
+   "why": "Dikukus, rendah lemak. Sambar ada sayur yang menambah serat."
+  },
+  {
+   "name": "Sup ayam + nasi putih separuh",
+   "kcal": 400,
+   "why": "Sup berkuah jernih, protein dari ayam, dan nasi masih ada tapi dalam portion yang terkawal."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Roti tisu dengan susu pekat dan gula",
+   "kcal": 600,
+   "why": "Banyak minyak, mentega dan gula dalam satu pinggan. Sedap untuk sekali-sekala, kongsi dengan kawan."
+  },
+  {
+   "name": "Nasi goreng mamak",
+   "kcal": 700,
+   "why": "Minyak dan kicap manis banyak. Portion pun selalunya besar."
+  },
+  {
+   "name": "Maggi goreng",
+   "kcal": 600,
+   "why": "Mi segera digoreng lagi dengan minyak. Kalori naik cepat tanpa rasa kenyang yang lama."
+  },
+  {
+   "name": "Murtabak ayam (1 hidangan penuh)",
+   "kcal": 850,
+   "why": "Doh berlapis dan digoreng atas tawa dengan banyak minyak. Lebih elok dikongsi berdua atau bertiga."
+  },
+  {
+   "name": "Teh tarik biasa (gelas besar)",
+   "kcal": 200,
+   "why": "Susu pekat dan gula. Kalau minum 2 gelas sehari, ia sama macam satu snek tambahan."
+  }
+ ],
+ "hacks": [
+  "Minta kuah dhal sahaja, jangan banjir kuah kari campur.",
+  "Order 'roti kosong, kurang minyak' atau tukar terus ke chapati.",
+  "Tambah telur separuh masak atau ayam tandoori untuk protein, bukannya roti kedua.",
+  "Kalau nak teh tarik, minta 'kurang manis' atau terus 'teh o kosong'.",
+  "Lapar tengah malam? Order sup dulu, minum air kosong, baru tengok sama ada masih nak makan lagi."
+ ],
+ "drink": "Teh o ais kosong atau air suam. Kalau nak juga rasa susu, minta teh tarik kurang manis, saiz kecil.",
+ "faq": [
+  {
+   "q": "Boleh ke saya makan roti canai kalau nak turun berat?",
+   "a": "Boleh. Yang penting portion dan kekerapan. Satu keping dengan dhal, tambah protein seperti telur, dan jangan setiap hari. Roti canai bukan musuh."
+  },
+  {
+   "q": "Kalau lepak malam dengan kawan, apa paling selamat?",
+   "a": "Cuba ayam tandoori tanpa naan, sup, atau tosai kosong. Minum teh o kosong atau air suam. Anda tetap boleh lepak tanpa rasa terlepas."
+  }
+ ]
+}

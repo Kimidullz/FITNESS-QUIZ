@@ -1,0 +1,82 @@
+{
+ "slug": "subway",
+ "title": "Apa nak order di Subway bila nak turun berat",
+ "intro": "Subway antara tempat makan luar yang paling senang dikawal. Anda pilih roti, inti, sayur dan sos sendiri. Masalahnya, sos dan keju boleh tambah kalori tanpa sedar. Guna panduan ini supaya sandwic anda kenyang, sedap dan masih ikut target. Semua kalori ialah anggaran untuk saiz 6 inci dengan sayur penuh, belum termasuk sos kecuali dinyatakan.",
+ "best": [
+  {
+   "name": "Roasted Chicken 6 inci",
+   "kcal": 320,
+   "why": "Ayam tanpa kulit, protein tinggi. Kenyang lama untuk makan tengah hari."
+  },
+  {
+   "name": "Chicken Slice 6 inci",
+   "kcal": 280,
+   "why": "Ringan dan masih ada protein. Sesuai kalau anda nak tinggalkan ruang untuk snek petang."
+  },
+  {
+   "name": "Turkey 6 inci",
+   "kcal": 280,
+   "why": "Daging tanpa banyak lemak. Padankan dengan sayur penuh untuk lebih kenyang."
+  },
+  {
+   "name": "Chicken Teriyaki 6 inci",
+   "kcal": 370,
+   "why": "Rasa manis-masin yang sedap. Sedikit lebih kalori sebab sos, tapi protein masih bagus."
+  },
+  {
+   "name": "Salad bowl Roasted Chicken",
+   "kcal": 200,
+   "why": "Tanpa roti, jadi kalori lebih rendah. Bagus kalau nasi anda dah banyak hari tu."
+  },
+  {
+   "name": "Veggie Delite 6 inci + telur (jika ada)",
+   "kcal": 300,
+   "why": "Penuh sayur dan rendah kalori. Tambah protein supaya tak cepat lapar."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Tuna 6 inci",
+   "kcal": 480,
+   "why": "Tuna dicampur mayonis, jadi lemak tinggi. Okay sekali-sekala, tapi jangan tambah sos lagi."
+  },
+  {
+   "name": "Spicy Italian 6 inci",
+   "kcal": 480,
+   "why": "Daging proses berlemak. Kalori tinggi untuk saiz yang kecil."
+  },
+  {
+   "name": "Meatball Marinara 6 inci",
+   "kcal": 480,
+   "why": "Sedap dan mengenyangkan, tapi bebola daging dan keju naikkan kalori."
+  },
+  {
+   "name": "Footlong apa-apa inti + sos mayo",
+   "kcal": 800,
+   "why": "Saiz dua kali ganda, kalori pun dua kali ganda. Sos mayo tambah lebih kurang 100 kcal lagi."
+  },
+  {
+   "name": "Cookie 1 keping",
+   "kcal": 200,
+   "why": "Kecil tapi padat kalori. Kalau nak, kongsi atau ganti snek lain hari itu."
+  }
+ ],
+ "hacks": [
+  "Pilih 6 inci, bukan footlong. Kalau masih lapar, tambah salad bowl kecil, bukan sandwic kedua.",
+  "Minta sayur penuh: salad, tomato, timun, bawang, capsicum. Percuma dan buat anda kenyang.",
+  "Sos pilih satu sahaja. Honey mustard atau sweet onion lebih ringan daripada mayo atau chipotle.",
+  "Minta sos sikit je, 'satu garis cukup'. Separuh sos dah jimat 50-100 kcal.",
+  "Skip keju atau minta satu keping saja. Tak toasted pun tak apa, rasa tetap okay dengan sayur penuh."
+ ],
+ "drink": "Air mineral atau teh tanpa gula. Kalau nak berkarbonat, pilih versi tanpa gula. Elak set combo dengan air manis besar.",
+ "faq": [
+  {
+   "q": "Roti gandum lebih bagus untuk turun berat ke?",
+   "a": "Kalori roti gandum dan roti putih hampir sama, anggaran 200 kcal untuk 6 inci. Gandum ada sedikit lebih serat, jadi mungkin lebih kenyang. Yang lebih penting ialah saiz, inti dan sos."
+  },
+  {
+   "q": "Boleh ke makan Subway setiap hari?",
+   "a": "Boleh, kalau anda suka dan ia muat dalam kalori harian. Tukar-tukar inti dan pastikan hidangan lain dalam hari itu ada nasi, lauk dan sayur yang seimbang."
+  }
+ ]
+}

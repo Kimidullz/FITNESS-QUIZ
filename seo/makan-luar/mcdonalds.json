@@ -1,0 +1,82 @@
+{
+ "slug": "mcdonalds",
+ "title": "Apa nak order di McDonald's bila nak turun berat",
+ "intro": "Kadang-kadang hidup sibuk dan McDonald's paling dekat. Tak apa. Anda masih boleh order dengan bijak. Kuncinya ialah saiz, set dan minuman. Kalori di bawah ialah anggaran.",
+ "best": [
+  {
+   "name": "Bubur Ayam McD",
+   "kcal": 200,
+   "why": "Ringan dan hangat. Sesuai untuk sarapan atau bila tak nak makan berat."
+  },
+  {
+   "name": "Hamburger",
+   "kcal": 250,
+   "why": "Saiz kecil, cukup untuk hilangkan lapar dan rasa tetap ada."
+  },
+  {
+   "name": "Filet-O-Fish",
+   "kcal": 330,
+   "why": "Antara burger yang lebih rendah kalori. Saiz sederhana."
+  },
+  {
+   "name": "Chicken McNuggets 6 ketul",
+   "kcal": 260,
+   "why": "Protein dalam portion terkawal. Pilih sos yang lebih ringan seperti sos cili."
+  },
+  {
+   "name": "Ayam Goreng McD 1 ketul (buang kulit)",
+   "kcal": 230,
+   "why": "Isi ayam tinggi protein. Buang kulit jimat banyak kalori."
+  },
+  {
+   "name": "McChicken",
+   "kcal": 400,
+   "why": "Mengenyangkan untuk makan tengah hari. Gandingkan dengan air kosong, bukan set besar."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Big Mac",
+   "kcal": 520,
+   "why": "Dua lapis daging dan sos. Okay sekali-sekala, tapi lebih berat daripada burger biasa."
+  },
+  {
+   "name": "Spicy Chicken McDeluxe",
+   "kcal": 550,
+   "why": "Ayam bersalut tepung dan sos mayonis. Kalori tinggi dalam satu burger."
+  },
+  {
+   "name": "Kentang goreng saiz besar",
+   "kcal": 440,
+   "why": "Senang habis tanpa sedar. Saiz kecil atau kongsi lebih masuk akal."
+  },
+  {
+   "name": "McFlurry",
+   "kcal": 330,
+   "why": "Tinggi gula. Kalau nak pencuci mulut, cuba kon aiskrim yang lebih kecil."
+  },
+  {
+   "name": "Set saiz besar dengan minuman bergas biasa",
+   "kcal": 1100,
+   "why": "Minuman manis dan kentang besar menggandakan kalori burger anda."
+  }
+ ],
+ "hacks": [
+  "Order ala carte, bukan set. Atau minta set dengan air mineral.",
+  "Kalau nak kentang, ambil saiz kecil atau kongsi.",
+  "Minta 'kurang sos' atau 'tak mau mayonis' untuk burger ayam.",
+  "Untuk ayam goreng, pilih bahagian dada dan buang kulit.",
+  "Tambah corn cup sebagai sampingan berbanding kentang goreng."
+ ],
+ "drink": "Air mineral. Kalau nak minuman panas, kopi tanpa gula atau teh tanpa gula.",
+ "faq": [
+  {
+   "q": "Boleh ke makan McDonald's semasa nak turun berat?",
+   "a": "Boleh, kalau anda pilih saiz kecil, elakkan minuman manis dan tak jadikan rutin harian. Satu burger dengan air mineral boleh muat dalam kalori harian anda."
+  },
+  {
+   "q": "Anak ajak makan McDonald's, macam mana saya nak order?",
+   "a": "Cuba Filet-O-Fish atau 6 McNuggets dengan corn cup dan air mineral. Anda tetap makan bersama keluarga tanpa rasa terlalu berat."
+  }
+ ]
+}

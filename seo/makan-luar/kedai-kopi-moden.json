@@ -1,0 +1,82 @@
+{
+ "slug": "kedai-kopi-moden",
+ "title": "Apa nak order di kafe kopi (Starbucks, ZUS, Tealive) bila nak turun berat",
+ "intro": "Kafe kopi dah jadi tempat lepak dan tempat kerja ramai orang. Masalahnya bukan kopi. Masalahnya gula, sirap, krim putar dan pastri yang datang sekali. Satu cawan minuman manis boleh sama kalori dengan sepinggan nasi. Anda tak perlu berhenti pergi kafe. Cuma pilih minuman yang lebih ringan, kecilkan saiz, dan jangan jadikan kek sebagai 'teman kopi' setiap hari. Semua nombor di bawah ialah anggaran untuk saiz biasa.",
+ "best": [
+  {
+   "name": "Americano panas atau ais (tanpa gula)",
+   "kcal": 15,
+   "why": "Hampir tiada kalori. Rasa kopi penuh. Pilihan paling selamat kalau anda minum kopi setiap hari."
+  },
+  {
+   "name": "Latte tanpa gula (saiz kecil/tall)",
+   "kcal": 150,
+   "why": "Ada susu, jadi lebih mengenyangkan dan ada sedikit protein. Kalori datang dari susu, bukan sirap."
+  },
+  {
+   "name": "Cappuccino tanpa gula",
+   "kcal": 110,
+   "why": "Lebih banyak buih, kurang susu berbanding latte. Rasa creamy tapi kalori lebih rendah."
+  },
+  {
+   "name": "Teh panas atau teh hijau tanpa gula",
+   "kcal": 5,
+   "why": "Sesuai untuk yang tak minum kopi. Boleh minum perlahan-lahan masa kerja tanpa risau."
+  },
+  {
+   "name": "Sandwich atau wrap ayam/tuna",
+   "kcal": 350,
+   "why": "Ada protein dan karbohidrat. Lebih kenyang lama berbanding kek atau muffin yang kalorinya hampir sama."
+  },
+  {
+   "name": "Fresh milk tea kurang manis (Tealive, saiz biasa, tanpa topping)",
+   "kcal": 200,
+   "why": "Kalau teringin teh susu, ini versi yang lebih ringan. Kuncinya tahap gula rendah dan tiada pearl."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Frappe karamel atau coklat dengan krim putar",
+   "kcal": 420,
+   "why": "Gula, sirap, sos dan krim putar dalam satu cawan. Anggaran kalorinya macam satu hidangan nasi lemak."
+  },
+  {
+   "name": "Brown sugar boba milk tea",
+   "kcal": 450,
+   "why": "Sirap gula perang dan pearl tambah kalori dengan cepat. Sedap, tapi lebih elok jadikan treat sekali-sekala."
+  },
+  {
+   "name": "Spanish latte atau mocha manis",
+   "kcal": 280,
+   "why": "Susu pekat manis dan coklat tambah gula. Kalau minum setiap hari, kalori ini terkumpul tanpa anda sedar."
+  },
+  {
+   "name": "Muffin coklat atau kek keju",
+   "kcal": 450,
+   "why": "Saiz kafe biasanya besar. Kalori tinggi tapi tak lama kenyang sebab kurang protein."
+  },
+  {
+   "name": "Croissant mentega",
+   "kcal": 300,
+   "why": "Ringan di tangan tapi tinggi lemak. Kalau makan dengan minuman manis, total cepat naik."
+  }
+ ],
+ "hacks": [
+  "Minta 'kurang manis' atau 'tanpa gula'. Kalau ada pilihan tahap gula, pilih 0% atau 25%.",
+  "Tukar saiz besar ke saiz kecil. Rasa sama, kalori turun banyak.",
+  "Skip krim putar dan sos atas. Bila diminta, cakap 'no whipped cream, no drizzle'.",
+  "Kalau nak pearl atau topping, pilih satu sahaja dan minta separuh.",
+  "Kalau lapar, ambil sandwich berprotein. Simpan kek untuk hujung minggu atau kongsi dengan kawan."
+ ],
+ "drink": "Americano (panas atau ais) tanpa gula. Kalau nak berkrim, latte tanpa gula saiz kecil.",
+ "faq": [
+  {
+   "q": "Susu oat lebih rendah kalori ke berbanding susu biasa?",
+   "a": "Tak semestinya. Ada susu oat yang ditambah gula atau minyak, jadi kalorinya hampir sama atau lebih. Pilih ikut rasa yang anda suka. Yang lebih penting ialah kurangkan sirap dan saiz cawan."
+  },
+  {
+   "q": "Boleh ke saya minum minuman manis kegemaran saya?",
+   "a": "Boleh. Tiada minuman yang haram untuk diet. Cuba jadikan ia treat seminggu sekali atau dua kali, pilih saiz kecil dan kurang manis. Hari lain, pilih americano atau latte tanpa gula."
+  }
+ ]
+}

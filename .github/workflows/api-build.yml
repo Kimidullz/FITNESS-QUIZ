@@ -8,7 +8,7 @@ on:
       job:
         description: "What to make"
         type: choice
-        options: [foods, notes, all, extras, foods-en, exercises, ramadan, plans, wanita, starter, pitch, upgrade24, build-only]
+        options: [foods, notes, all, extras, foods-en, exercises, ramadan, plans, wanita, starter, pitch, upgrade24, round2, build-only]
         default: foods
       limit:
         description: "Foods only: how many new foods at most (empty = all)"
@@ -40,11 +40,12 @@ jobs:
             starter) python seo/generate4.py ;;
             pitch) python seo/generate5.py ;;
             upgrade24) python seo/generate6.py all ;;
+            round2) python seo/generate7.py round2 ;;
             *) python seo/generate2.py ${{ inputs.job }} ;;
           esac
       - name: Build pages
         if: always()
-        run: python seo/build.py && python seo/build2.py && python seo/build3.py && python seo/build4.py && python seo/polish.py
+        run: python seo/build.py && python seo/build2.py && python seo/build3.py && python seo/build4.py && python seo/build5.py && python seo/polish.py
       - name: Keep private plans as a download (not committed)
         if: always() && hashFiles('private-out/*.json') != ''
         uses: actions/upload-artifact@v4
@@ -57,7 +58,7 @@ jobs:
         run: |
           git config user.name "api-build"
           git config user.email "api-build@users.noreply.github.com"
-          for f in seo/data seo/data-en seo/exercises seo/ramadan.json results kalori calories senaman ramadan semak workout seo/wanita wanita seo/en seo/aliases.json seo/related.json en sitemap.xml; do [ -e "$f" ] && git add -A "$f" || true; done
+          for f in seo/data seo/data-en seo/exercises seo/ramadan.json results kalori calories senaman ramadan semak workout seo/wanita wanita seo/en seo/aliases.json seo/related.json en seo/banding seo/makan-luar seo/umur-50 banding makan-luar umur-50 sitemap.xml; do [ -e "$f" ] && git add -A "$f" || true; done
           git diff --cached --quiet && exit 0
           git commit -m "API build: ${{ inputs.job }}"
           git pull --rebase && git push

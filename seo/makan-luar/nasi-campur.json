@@ -1,0 +1,82 @@
+{
+ "slug": "nasi-campur",
+ "title": "Apa nak ambil di kedai nasi campur dan nasi kandar bila nak turun berat",
+ "intro": "Nasi campur dan nasi kandar ialah makan tengah hari wajib ramai pekerja. Anda boleh terus makan nasi. Rahsianya ialah susunan pinggan: nasi secukupnya, protein yang tak terlalu berminyak, dan sayur banyak. Kalori di bawah ialah anggaran.",
+ "best": [
+  {
+   "name": "Nasi putih 1 senduk",
+   "kcal": 200,
+   "why": "Kekal makan nasi, cuma satu senduk. Cukup tenaga untuk kerja petang."
+  },
+  {
+   "name": "Ikan bakar atau ikan asam pedas (1 ekor sedang)",
+   "kcal": 200,
+   "why": "Protein tinggi dengan minyak yang sedikit. Pilihan terbaik di kebanyakan kedai."
+  },
+  {
+   "name": "Ayam masak merah 1 ketul (buang kulit)",
+   "kcal": 250,
+   "why": "Masih sedap, dan buang kulit menjimatkan banyak lemak."
+  },
+  {
+   "name": "Sayur campur atau kangkung goreng belacan",
+   "kcal": 100,
+   "why": "Serat membantu anda rasa kenyang. Ambil 2 jenis sayur kalau boleh."
+  },
+  {
+   "name": "Telur rebus atau gulai telur 1 biji",
+   "kcal": 100,
+   "why": "Protein murah dan mudah ditambah dalam pinggan."
+  },
+  {
+   "name": "Sup sayur atau sup tulang (kuah jernih)",
+   "kcal": 120,
+   "why": "Kuah jernih membantu rasa kenyang tanpa banyak kalori."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Kuah campur banjir (3 jenis kuah)",
+   "kcal": 250,
+   "why": "Kuah kari dan santan ada minyak tersembunyi. Banjir kuah boleh tambah kalori seperti satu hidangan kecil."
+  },
+  {
+   "name": "Ayam goreng berempah 1 ketul",
+   "kcal": 350,
+   "why": "Digoreng garing dan menyerap minyak, lebih-lebih lagi bahagian kulit."
+  },
+  {
+   "name": "Rendang daging (3-4 ketul)",
+   "kcal": 350,
+   "why": "Santan dan minyak pekat. Sedap, ambil sedikit sahaja sebagai perasa."
+  },
+  {
+   "name": "Sotong goreng tepung",
+   "kcal": 350,
+   "why": "Tepung dan minyak menambah kalori jauh lebih banyak daripada sotong itu sendiri."
+  },
+  {
+   "name": "Nasi kandar penuh (nasi berbukit, ayam goreng, telur, kuah banjir)",
+   "kcal": 1100,
+   "why": "Semua item tinggi kalori dalam satu pinggan. Sesuai untuk sekali-sekala, bukan rutin harian."
+  }
+ ],
+ "hacks": [
+  "Ambil sayur dulu sebelum lauk lain, biar separuh pinggan sayur.",
+  "Cakap 'nasi sikit' atau 'satu senduk sahaja'.",
+  "Minta 'kuah sikit' atau 'kuah asing' supaya anda kawal sendiri.",
+  "Pilih satu lauk protein utama sahaja, bukan dua tiga jenis.",
+  "Lauk goreng? Buang kulit atau tepung, dan imbangi dengan lauk lain yang berkuah jernih."
+ ],
+ "drink": "Air kosong atau teh o ais kosong. Sirap dan teh ais biasa tinggi gula, jadi simpan untuk hujung minggu.",
+ "faq": [
+  {
+   "q": "Kena berhenti makan nasi ke untuk turun berat?",
+   "a": "Tak perlu. Satu senduk nasi dengan protein dan sayur yang cukup sudah seimbang. Yang penting jumlah keseluruhan kalori sehari."
+  },
+  {
+   "q": "Saya suka nasi kandar. Macam mana nak makan tanpa rasa bersalah?",
+   "a": "Pilih ikan atau ayam tanpa kulit, nasi sikit, kuah sikit, tambah sayur. Kalau nak versi penuh, rancang untuk sekali-sekala dan makan lebih ringan di waktu lain."
+  }
+ ]
+}

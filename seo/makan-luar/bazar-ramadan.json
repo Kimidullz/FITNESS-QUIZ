@@ -1,0 +1,82 @@
+{
+ "slug": "bazar-ramadan",
+ "title": "Apa nak beli di Bazar Ramadan bila nak turun berat",
+ "intro": "Bulan puasa bukan alasan untuk progress terhenti, dan bukan juga masa untuk sekat diri sampai stres. Bazar Ramadan penuh dengan makanan sedap. Anda boleh nikmati semuanya dengan bijak. Fokus pada lauk berprotein untuk berbuka, kawal kuih dan air manis. Kalori di bawah ialah anggaran untuk satu bahagian biasa.",
+ "best": [
+  {
+   "name": "Kurma 3 biji",
+   "kcal": 70,
+   "why": "Cara berbuka yang ringan. Beri tenaga cepat tanpa terlalu banyak kalori."
+  },
+  {
+   "name": "Ayam percik 1 ketul",
+   "kcal": 300,
+   "why": "Dibakar, protein tinggi. Makan dengan nasi dan ulam di rumah."
+  },
+  {
+   "name": "Ikan bakar 1 ekor sederhana",
+   "kcal": 250,
+   "why": "Protein tinggi, lemak rendah. Cicah air asam, bukan kuah berminyak."
+  },
+  {
+   "name": "Sate ayam 5 cucuk + sedikit kuah",
+   "kcal": 280,
+   "why": "Pilihan berbuka yang tak digoreng. Kawal kuah kacang."
+  },
+  {
+   "name": "Bubur lambuk 1 mangkuk",
+   "kcal": 250,
+   "why": "Lembut untuk perut selepas berpuasa. Ada daging dan nasi dalam satu mangkuk."
+  },
+  {
+   "name": "Popiah basah 1 gulung",
+   "kcal": 150,
+   "why": "Banyak sayur dan ringan. Sesuai sebagai pembuka selera."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Murtabak 1 keping penuh",
+   "kcal": 800,
+   "why": "Padat minyak dan telur. Kongsi satu keluarga atau makan separuh."
+  },
+  {
+   "name": "Roti John 1 batang",
+   "kcal": 700,
+   "why": "Roti panjang, telur, sos dan mayo. Kalori satu hidangan penuh atau lebih."
+  },
+  {
+   "name": "Ayam goreng berempah 1 ketul besar",
+   "kcal": 400,
+   "why": "Digoreng dengan rempah bertepung. Buang kulit untuk kurangkan sedikit."
+  },
+  {
+   "name": "Kuih manis (seri muka, talam, kuih lapis) 3 potong",
+   "kcal": 450,
+   "why": "Santan dan gula. Satu potong okay, tiga potong cepat bertambah."
+  },
+  {
+   "name": "Air tebu atau air balang 500ml",
+   "kcal": 220,
+   "why": "Rasa sangat segar masa berbuka, tapi gula tinggi dan tak mengenyangkan."
+  }
+ ],
+ "hacks": [
+  "Buat list sebelum ke bazar: 1 lauk protein, 1 sayur, 1 kuih. Ikut list.",
+  "Berbuka dengan kurma dan air kosong dulu. Solat Maghrib, baru makan hidangan utama.",
+  "Beli lauk, makan dengan nasi dan sayur di rumah. Jangan jadikan kuih sebagai makan malam.",
+  "Kuih beli satu jenis saja setiap hari. Tukar-tukar ikut hari supaya tetap dapat rasa semua.",
+  "Minta air kurang manis atau kurang gula. Kalau beli air tebu, pilih cawan kecil dan campur air kosong di rumah."
+ ],
+ "drink": "Air kosong untuk berbuka, kemudian air suam atau teh o kurang manis. Kalau nak air bazar, pilih saiz kecil atau air kelapa.",
+ "faq": [
+  {
+   "q": "Kenapa berat naik masa bulan puasa walaupun makan dua kali sehari?",
+   "a": "Selalunya sebab kalori waktu berbuka dan moreh tinggi, terutama dari kuih, gorengan dan air manis. Bilangan kali makan bukan isunya. Cuba kawal jumlah dan pilih lauk berprotein."
+  },
+  {
+   "q": "Apa sesuai untuk sahur supaya tak cepat lapar?",
+   "a": "Pilih protein dan serat: nasi sederhana dengan telur, ayam atau ikan, sayur, dan air kosong yang cukup. Elak sahur dengan kuih manis dan air bergula saja kerana cepat lapar."
+  }
+ ]
+}

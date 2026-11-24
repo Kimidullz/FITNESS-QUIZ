@@ -1,0 +1,72 @@
+{
+ "slug": "kfc",
+ "title": "Apa nak order di KFC bila nak turun berat",
+ "intro": "KFC selalu jadi pilihan bila keluar dengan keluarga atau hujung minggu. Anda boleh nikmati ayam goreng kegemaran tanpa rosakkan usaha anda. Pilih ketul yang betul, sampingan yang ringan dan minuman tanpa gula. Kalori di bawah ialah anggaran.",
+ "best": [
+  {
+   "name": "Ayam Original Recipe bahagian dada (buang kulit)",
+   "kcal": 200,
+   "why": "Isi dada tinggi protein. Kebanyakan minyak dan tepung ada di kulit."
+  },
+  {
+   "name": "Ayam Original Recipe drumstick 1 ketul",
+   "kcal": 180,
+   "why": "Saiz kecil, senang kawal portion, rasa tetap puas."
+  },
+  {
+   "name": "Coleslaw (saiz biasa)",
+   "kcal": 150,
+   "why": "Ada sayur dan rasa segar. Lebih baik daripada wedges sebagai sampingan."
+  },
+  {
+   "name": "Whipped Potato (saiz biasa)",
+   "kcal": 100,
+   "why": "Portion kecil dan rendah kalori berbanding sampingan goreng."
+  },
+  {
+   "name": "Zinger tanpa mayonis",
+   "kcal": 380,
+   "why": "Kalau teringin burger, buang mayonis untuk jimat kalori."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Ayam Hot & Spicy ketul besar dengan kulit",
+   "kcal": 350,
+   "why": "Tepung tebal dan garing menyerap lebih banyak minyak."
+  },
+  {
+   "name": "Cheezy Wedges",
+   "kcal": 350,
+   "why": "Kentang goreng dengan sos keju. Kalori naik cepat, lebih baik dikongsi."
+  },
+  {
+   "name": "Kentang goreng saiz besar",
+   "kcal": 450,
+   "why": "Senang habis tanpa sedar, lebih-lebih lagi bila makan sambil berbual."
+  },
+  {
+   "name": "Kombo 3 ketul ayam + wedges + minuman bergas biasa",
+   "kcal": 1300,
+   "why": "Hampir separuh kalori harian dalam satu hidangan. Simpan untuk sekali-sekala."
+  }
+ ],
+ "hacks": [
+  "Pilih Original Recipe berbanding Hot & Spicy.",
+  "Minta bahagian dada atau drumstick, dan buang kulit separuh atau sepenuhnya.",
+  "Tukar wedges atau kentang kepada coleslaw atau whipped potato.",
+  "Order ala carte 2 ketul, bukan kombo 3 ketul.",
+  "Tukar minuman bergas manis kepada air mineral."
+ ],
+ "drink": "Air mineral. Kalau nak rasa sedikit, pilih minuman tanpa gula.",
+ "faq": [
+  {
+   "q": "Kena buang semua kulit ayam ke?",
+   "a": "Tak semestinya. Buang separuh pun sudah jimat kalori. Kalau anda nak makan kulit, cukup satu ketul dan imbangi dengan sampingan yang ringan."
+  },
+  {
+   "q": "Makan KFC dengan keluarga hujung minggu, okay ke?",
+   "a": "Okay. Ambil 1-2 ketul Original Recipe, coleslaw dan air mineral. Nikmati masa bersama keluarga dan teruskan makan seimbang pada hari lain."
+  }
+ ]
+}
