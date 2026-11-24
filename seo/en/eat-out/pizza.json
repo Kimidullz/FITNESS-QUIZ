@@ -1,0 +1,83 @@
+{
+ "slug": "pizza",
+ "slug_en": "pizza",
+ "title": "What to order at pizza places (Domino's, Pizza Hut) when you want to lose weight",
+ "intro": "Friday night, the family wants pizza. You don't need to be the one eating salad alone. Pizza can fit your plan if you choose your crust, toppings and number of slices wisely. The calories below are estimates for regular or medium size. Actual values differ by shop and topping.",
+ "best": [
+  {
+   "name": "2 slices thin crust chicken pizza (medium)",
+   "kcal": 380,
+   "why": "Thin crust has less flour and oil. Chicken topping gives protein."
+  },
+  {
+   "name": "2 slices thin crust veggie pizza",
+   "kcal": 340,
+   "why": "Light with lots of vegetables. Good if you want to add wings or soup."
+  },
+  {
+   "name": "2 slices regular crust chicken pizza (hand tossed)",
+   "kcal": 440,
+   "why": "If there's no thin crust, this is an okay middle option."
+  },
+  {
+   "name": "Baked wings, 4 pieces",
+   "kcal": 300,
+   "why": "High protein. Eat with 1-2 slices of pizza to feel fuller."
+  },
+  {
+   "name": "Mushroom soup, 1 bowl",
+   "kcal": 170,
+   "why": "Warm and filling. Have it first before pizza so you don't overdo the slices."
+  },
+  {
+   "name": "Garden salad (if available), dressing on the side",
+   "kcal": 120,
+   "why": "Adds fibre and fills you up. Use only half the dressing."
+  }
+ ],
+ "careful": [
+  {
+   "name": "2 slices cheese stuffed crust pizza",
+   "kcal": 700,
+   "why": "The cheese in the crust adds a lot of calories. Tasty, but count it properly."
+  },
+  {
+   "name": "2 slices pan pizza with meat/pepperoni",
+   "kcal": 620,
+   "why": "Thick oily crust and processed meat. Calories go up fast."
+  },
+  {
+   "name": "Garlic bread, 4 pieces",
+   "kcal": 350,
+   "why": "Butter and bread. People often eat it before the pizza arrives, then overeat."
+  },
+  {
+   "name": "Creamy baked pasta (1 serving)",
+   "kcal": 700,
+   "why": "Cream sauce and cheese. Same calories as 3-4 slices of pizza."
+  },
+  {
+   "name": "Chocolate lava cake, 1 piece",
+   "kcal": 350,
+   "why": "Calorie-dense dessert. Share between two if you want a taste."
+  }
+ ],
+ "hacks": [
+  "Decide from the start: just 2 slices. Put them on a plate, don't eat straight from the box.",
+  "Pick thin crust or regular crust. Avoid cheese crust and pan if you're focused on losing weight.",
+  "Add vegetable toppings like mushroom, capsicum, onion. Saves calories and adds volume.",
+  "Start with soup or salad first, then take pizza. Your stomach is already half full.",
+  "Order to share, not individual sets. Easier to control and you won't feel you have to finish it all."
+ ],
+ "drink": "Plain water or sugar-free fizzy drinks. One large glass of sweet drink can add 200 kcal or more.",
+ "faq": [
+  {
+   "q": "If I'm having pizza, should I skip lunch?",
+   "a": "No need. Skipping meals usually makes you hungrier and you eat more that night. Have lunch as usual, just reduce your rice a little if you want to make room."
+  },
+  {
+   "q": "What if I end up eating 4-5 slices?",
+   "a": "It's okay, one night won't ruin your progress. Tomorrow, continue eating as usual, drink enough water and keep walking. What matters is consistency week after week."
+  }
+ ]
+}

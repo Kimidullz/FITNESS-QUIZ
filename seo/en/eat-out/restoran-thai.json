@@ -1,0 +1,83 @@
+{
+ "slug": "restoran-thai",
+ "slug_en": "thai-restaurant-tomyam",
+ "title": "What to order at Thai restaurants and tomyam shops when you want to lose weight",
+ "intro": "Tomyam shops are a favourite dinner lepak spot for many Malaysians. The good news: Thai food has lots of fresh, sour and spicy options without much oil. You just need to know which dishes are light and which are heavy. The calories below are estimates for a typical serving.",
+ "best": [
+  {
+   "name": "Clear seafood tomyam (1 bowl)",
+   "kcal": 180,
+   "why": "Clear broth with no santan (coconut milk) or milk. Prawns, squid and fish give you good protein."
+  },
+  {
+   "name": "Steamed siakap with lime (half a fish)",
+   "kcal": 250,
+   "why": "Steamed, so minimal oil. The sour and spicy taste is very satisfying."
+  },
+  {
+   "name": "Kerabu mangga (mango salad, 1 small plate)",
+   "kcal": 150,
+   "why": "Fresh and full of vegetables. Ask for less sugar if you can."
+  },
+  {
+   "name": "Somtam (1 plate)",
+   "kcal": 120,
+   "why": "Young papaya with lime and chilli. Light but full of flavour."
+  },
+  {
+   "name": "Thai-style grilled chicken (1 thigh)",
+   "kcal": 250,
+   "why": "Grilled, not fried. Take just a little dipping sauce."
+  },
+  {
+   "name": "Kangkung belacan (1 shared plate)",
+   "kcal": 150,
+   "why": "Tasty green vegetables. Share with friends so the oil is split between you."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Thick red tomyam with milk (1 bowl)",
+   "kcal": 350,
+   "why": "Milk or santan raises the calories. Okay once in a while, but the clear version is lighter."
+  },
+  {
+   "name": "Nasi goreng pattaya (1 plate)",
+   "kcal": 750,
+   "why": "Fried rice wrapped in egg, with sauce. If you order it, share it or add a side of vegetables."
+  },
+  {
+   "name": "Pad Thai (1 plate)",
+   "kcal": 600,
+   "why": "Fried noodles with sugar and peanuts. Tasty but heavy."
+  },
+  {
+   "name": "Fried battered squid (1 shared plate)",
+   "kcal": 450,
+   "why": "The batter soaks up oil. Take just a few pieces for a taste."
+  },
+  {
+   "name": "Mango sticky rice (1 plate)",
+   "kcal": 450,
+   "why": "Sticky rice and sweet santan. Share it between two as dessert."
+  }
+ ],
+ "hacks": [
+  "Order to share: clear tomyam, one steamed fish, one vegetable dish and white rice according to the number of people.",
+  "Ask for just 1 scoop of white rice, not a full plate.",
+  "Choose 'stim' (steamed), 'bakar' (grilled) or 'kerabu' (salad) over 'goreng tepung' (battered and fried).",
+  "If you really want something fried, order one for the whole table to share, not one per person.",
+  "Ask for 'kurang manis' (less sweet) for the kerabu and dipping sauces."
+ ],
+ "drink": "Warm lime water without sugar, or plain water. Iced teh O limau kurang manis (iced lemon tea, less sweet) is also fine if you want some flavour.",
+ "faq": [
+  {
+   "q": "Can I finish the tomyam soup?",
+   "a": "Clear tomyam is low in calories, so no problem. But the soup is quite salty, so drink enough plain water. For creamy tomyam, eat the ingredients and drink less of the soup."
+  },
+  {
+   "q": "What about cha yen or Thai milk tea?",
+   "a": "Fine once in a while. One glass is an estimated 250 kcal because of the condensed milk and sugar. If you drink it often, ask for 'kurang manis' (less sweet) or switch to iced teh O limau."
+  }
+ ]
+}

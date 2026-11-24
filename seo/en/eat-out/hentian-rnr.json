@@ -1,0 +1,83 @@
+{
+ "slug": "hentian-rnr",
+ "slug_en": "highway-rnr-stop",
+ "title": "What to order at a highway R&R stop when you want to lose weight",
+ "intro": "Going back to your kampung or travelling outstation, you'll surely stop at an R&R. Tiredness from driving and hunger make it easy to order anything. Add snacks and sweet drinks in the car too. You can still eat well at the R&R. Choose grilled or soup dishes, add vegetables, and control the snacks. All numbers are estimates for a normal serving.",
+ "best": [
+  {
+   "name": "Nasi campur: half white rice, grilled fish or chicken, 2 vegetables",
+   "kcal": 500,
+   "why": "Has protein, vegetables and carbs. Grilled dishes use less oil than fried ones."
+  },
+  {
+   "name": "Chicken soup or sup tulang with half white rice",
+   "kcal": 450,
+   "why": "Filling and warm, good after a long time in the car. Choose clear soup."
+  },
+  {
+   "name": "6 sticks chicken satay with nasi impit, a little sauce",
+   "kcal": 400,
+   "why": "Satay is grilled and high in protein. Control the peanut sauce so the calories don't shoot up."
+  },
+  {
+   "name": "Ikan bakar with air asam and white rice",
+   "kcal": 450,
+   "why": "Grilled fish is low in fat. Air asam gives flavour without many calories."
+  },
+  {
+   "name": "1 boiled corn",
+   "kcal": 130,
+   "why": "A road trip snack more filling than keropok. Has fibre."
+  },
+  {
+   "name": "Cut fruit (watermelon, papaya, pineapple) 1 container",
+   "kcal": 70,
+   "why": "Fresh and naturally sweet. Good for avoiding sleepiness after a heavy meal."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Nasi ayam goreng berempah",
+   "kcal": 800,
+   "why": "Fried chicken with fried spices and oily rice. High calories in one plate."
+  },
+  {
+   "name": "Char kuey teow or mee goreng basah",
+   "kcal": 700,
+   "why": "Lots of oil and sauce. After eating, it's also easy to feel sleepy while driving."
+  },
+  {
+   "name": "6 sticks fried keropok lekor with sauce",
+   "kcal": 400,
+   "why": "A fried snack that's easy to eat a lot of in the car without noticing."
+  },
+  {
+   "name": "Pisang goreng or cempedak goreng (4 pieces)",
+   "kcal": 400,
+   "why": "Flour and oil. Tasty when hot, but better to share."
+  },
+  {
+   "name": "Sugarcane juice, packet drinks or sweet fizzy drinks",
+   "kcal": 200,
+   "why": "Liquid sugar that doesn't fill you up. When you sip throughout the trip, the total gets high."
+  }
+ ],
+ "hacks": [
+  "At the nasi campur stall, say 'nasi separuh, sayur lebih' (half rice, extra vegetables). Choose grilled, gulai or soup dishes.",
+  "Pour just a little gravy at the side of the rice, don't flood the whole plate.",
+  "If you order satay, ask for the peanut sauce in a small bowl and dip a little at a time.",
+  "Car snacks: choose corn, fruit or boiled peanuts. Buy one pack, not three.",
+  "Bring your own water bottle and refill it. You'll buy fewer sweet drinks at every stop."
+ ],
+ "drink": "Plain water. If you want something with flavour, teh O ais limau kurang manis (iced lemon tea, less sweet) or kopi O kurang manis (black coffee, less sweet) to stay alert while driving.",
+ "faq": [
+  {
+   "q": "It's a long trip and I'm afraid I'll get sleepy if I'm hungry. Should I eat a lot?",
+   "a": "Eat until comfortably full, not stuffed. Heavy, oily meals usually make you sleepier. Choose half rice with a protein dish and vegetables, and bring light snacks for the journey."
+  },
+  {
+   "q": "What if I've already overeaten while back in my kampung?",
+   "a": "That's okay. One or two days of eating more won't erase your progress. When you're back to your routine, continue eating as usual. No need to starve yourself to 'make up for it'."
+  }
+ ]
+}

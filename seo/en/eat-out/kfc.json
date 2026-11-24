@@ -1,0 +1,73 @@
+{
+ "slug": "kfc",
+ "slug_en": "kfc",
+ "title": "What to order at KFC when you want to lose weight",
+ "intro": "KFC is often the go-to when going out with family or on weekends. You can enjoy your favourite fried chicken without undoing your efforts. Choose the right piece, a light side and a sugar-free drink. Calories below are estimates.",
+ "best": [
+  {
+   "name": "Original Recipe chicken breast (skin removed)",
+   "kcal": 200,
+   "why": "Breast meat is high in protein. Most of the oil and batter is in the skin."
+  },
+  {
+   "name": "1 Original Recipe drumstick",
+   "kcal": 180,
+   "why": "Small size, easy to control your portion, still satisfying."
+  },
+  {
+   "name": "Coleslaw (regular size)",
+   "kcal": 150,
+   "why": "Has vegetables and a fresh taste. A better side than wedges."
+  },
+  {
+   "name": "Whipped Potato (regular size)",
+   "kcal": 100,
+   "why": "Small portion and low in calories compared to fried sides."
+  },
+  {
+   "name": "Zinger without mayonnaise",
+   "kcal": 380,
+   "why": "If you're craving a burger, skip the mayonnaise to save calories."
+  }
+ ],
+ "careful": [
+  {
+   "name": "Large Hot & Spicy chicken piece with skin",
+   "kcal": 350,
+   "why": "The thick, crispy batter soaks up more oil."
+  },
+  {
+   "name": "Cheezy Wedges",
+   "kcal": 350,
+   "why": "Fried potatoes with cheese sauce. Calories go up fast, better to share."
+  },
+  {
+   "name": "Large fries",
+   "kcal": 450,
+   "why": "Easy to finish without noticing, especially while chatting."
+  },
+  {
+   "name": "Combo of 3 chicken pieces + wedges + regular soft drink",
+   "kcal": 1300,
+   "why": "Almost half your daily calories in one meal. Save it for once in a while."
+  }
+ ],
+ "hacks": [
+  "Choose Original Recipe over Hot & Spicy.",
+  "Ask for breast or drumstick, and remove half or all of the skin.",
+  "Swap wedges or fries for coleslaw or whipped potato.",
+  "Order 2 pieces ala carte, not the 3-piece combo.",
+  "Swap sweet soft drinks for mineral water."
+ ],
+ "drink": "Mineral water. If you want a bit of flavour, choose a sugar-free drink.",
+ "faq": [
+  {
+   "q": "Do I have to remove all the chicken skin?",
+   "a": "Not necessarily. Removing half already saves calories. If you want to eat the skin, keep it to one piece and balance it with a light side."
+  },
+  {
+   "q": "Is it okay to eat KFC with my family on weekends?",
+   "a": "Yes, it's okay. Have 1-2 pieces of Original Recipe, coleslaw and mineral water. Enjoy your time with family and keep eating balanced on other days."
+  }
+ ]
+}
