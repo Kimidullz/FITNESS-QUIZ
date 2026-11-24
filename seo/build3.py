@@ -30,7 +30,7 @@ def main():
     for d in pages:
         faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in d["faq"]]}
-        rel = [x for x in pages if x["slug"] != d["slug"]][:6]
+        rel = build2.related_for("wanita", d["slug"], pages)
         build2.write(f"wanita/{d['slug']}", build2.head(f"{d['title']} | Coach Zara", d["intro"][:155], f"wanita/{d['slug']}/", "ms",
             f'<script type="application/ld+json">{json.dumps(faq, ensure_ascii=False)}</script>') + f"""<main class="w">
 <p class="crumb"><a href="../">Turun lemak untuk wanita bekerja</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>
@@ -39,7 +39,7 @@ def main():
 <div class="card"><b>Mitos:</b> {E(d['myth'])}</div>
 {zara_box(d['title'])}
 <h2>Soalan lazim</h2>{''.join(f'<details><summary>{E(q["q"])}</summary><p>{E(q["a"])}</p></details>' for q in d['faq'])}
-<h2>Baca juga</h2><div class="rel">{''.join(f'<a href="../{x["slug"]}/">{E(x["title"])}</a>' for x in rel)}</div>
+<h2>Baca juga</h2><div class="rel">{build2.rel_html(rel)}</div>
 <p class="fine">Panduan am sahaja, bukan nasihat perubatan. Ada masalah kesihatan, sedang mengandung atau ambil ubat: bincang dengan doktor dulu.</p></main>""" + build2.foot())
     if pages:
         build2.write("wanita", build2.head("Turun lemak untuk wanita bekerja | Coach Zara",

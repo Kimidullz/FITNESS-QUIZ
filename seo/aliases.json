@@ -1,0 +1,951 @@
+{
+"nasi-lemak-biasa": [
+"coconut rice",
+"ikan bilis",
+"nasi lemak",
+"nasi lmk",
+"nasilemak",
+"sambal",
+"santan"
+],
+"nasi-lemak-ayam-goreng": [
+"ayam",
+"fried chicken coconut rice",
+"nasi lemak ayam",
+"nasi lmk ayam",
+"nasilemak ayam",
+"santan"
+],
+"nasi-lemak-rendang-daging": [
+"beef",
+"beef rendang rice",
+"daging",
+"nasi lemak rendang",
+"nasilemak rendang",
+"rendang"
+],
+"roti-canai-kosong": [
+"canai",
+"plain roti",
+"prata",
+"roti canai",
+"roti kosong",
+"roti prata",
+"roticanai"
+],
+"roti-telur": [
+"egg roti",
+"roti canai telur",
+"roti prata egg",
+"roti tlur",
+"rotitelur",
+"telur"
+],
+"roti-planta": [
+"margarine roti",
+"planta",
+"roti canai planta",
+"roti marjerin",
+"rotiplanta"
+],
+"thosai-kosong": [
+"dosa",
+"dosai",
+"plain dosa",
+"thosai",
+"thosei",
+"tosai"
+],
+"capati": [
+"capatti",
+"chapati",
+"chapatti",
+"roti capati",
+"tepung gandum",
+"wholemeal flatbread"
+],
+"lontong": [
+"ketupat",
+"kuah lodeh",
+"lontong sayur",
+"nasi impit",
+"rice cake"
+],
+"nasi-dagang": [
+"gulai ikan",
+"ikan tongkol",
+"nasi dgg",
+"nasidagang",
+"terengganu rice",
+"tongkol"
+],
+"nasi-kerabu": [
+"blue rice",
+"kelantan rice",
+"kerabu",
+"nasi biru",
+"nasikerabu",
+"ulam"
+],
+"roti-bakar-kaya-mentega": [
+"butter",
+"kaya butter toast",
+"kaya toast",
+"mentega",
+"roti bakar",
+"roti kaya",
+"toast"
+],
+"telur-separuh-masak": [
+"half boiled egg",
+"soft boiled egg",
+"telur",
+"telur 1/2 masak",
+"telur separuh",
+"telur setengah masak"
+],
+"bubur-ayam": [
+"ayam",
+"bubur",
+"chicken congee",
+"chicken porridge",
+"congee",
+"porridge"
+],
+"mee-hoon-goreng": [
+"bee hoon goreng",
+"beehoon",
+"bihun goreng",
+"fried bihun",
+"fried rice vermicelli",
+"meehoon goreng"
+],
+"pulut-kuning-dengan-rendang": [
+"glutinous rice",
+"pulut",
+"pulut kuning",
+"rendang",
+"sticky rice",
+"yellow glutinous rice"
+],
+"roti-jala-dengan-kari-ayam": [
+"chicken curry",
+"kari ayam",
+"lacy pancake",
+"net bread",
+"roti jala",
+"rotijala"
+],
+"oat-dengan-susu": [
+"milk",
+"oat",
+"oatmeal",
+"oats",
+"porridge oat",
+"quaker",
+"susu"
+],
+"sandwich-telur": [
+"egg mayo",
+"egg sandwich",
+"roti",
+"sandwic telur",
+"sanwich telur",
+"telur"
+],
+"karipap": [
+"curry puff",
+"currypuff",
+"epok epok",
+"karipap kentang",
+"kentang",
+"kuih karipap"
+],
+"nasi-putih": [
+"beras",
+"nasi",
+"nasi kosong",
+"rice",
+"steamed rice",
+"white rice"
+],
+"nasi-goreng-kampung": [
+"fried rice",
+"ikan bilis",
+"kangkung",
+"nasgor",
+"nasi goreng",
+"nasi gr kampung"
+],
+"nasi-goreng-pattaya": [
+"nasgor pattaya",
+"nasi goreng pataya",
+"nasi pattaya",
+"omelette fried rice",
+"pattaya",
+"telur"
+],
+"nasi-ayam": [
+"ayam",
+"ayam rebus",
+"chicken rice",
+"chicken rice roasted",
+"hainanese chicken rice",
+"nasiayam"
+],
+"nasi-kandar": [
+"ayam",
+"banjir",
+"kari",
+"kuah campur",
+"mamak rice",
+"nasi kandar penang",
+"nasikandar"
+],
+"nasi-campur": [
+"ayam goreng",
+"chap fan",
+"economy rice",
+"mixed rice",
+"nasi berlauk",
+"nasi campor",
+"sayur"
+],
+"nasi-briyani-ayam": [
+"ayam",
+"beriani",
+"biryani",
+"briyani",
+"chicken biryani",
+"nasi beriani",
+"nasi briani"
+],
+"nasi-minyak": [
+"ghee",
+"ghee rice",
+"minyak sapi",
+"nasi kenduri",
+"nasiminyak"
+],
+"nasi-tomato-dengan-ayam-masak-merah": [
+"ayam",
+"ayam masak merah",
+"nasi kenduri",
+"nasi tomato",
+"tomato",
+"tomato rice"
+],
+"nasi-goreng-usa": [
+"ayam",
+"fried rice usa",
+"nasgor usa",
+"nasi goreng u.s.a",
+"nasi usa",
+"telur"
+],
+"nasi-paprik-ayam": [
+"ayam paprik",
+"nasi paprik",
+"nasi paprika",
+"paprik",
+"phad prik",
+"tomyam style chicken"
+],
+"nasi-ayam-penyet": [
+"ayam",
+"ayam penyek",
+"ayam penyet",
+"penyet",
+"sambal penyet",
+"smashed chicken"
+],
+"nasi-lemak-kukus-ayam": [
+"ayam",
+"ayam goreng",
+"nasi kukus",
+"nasi lemak kukus",
+"nasikukus",
+"steamed coconut rice"
+],
+"nasi-kerabu-ayam-percik": [
+"ayam",
+"ayam percik",
+"blue rice",
+"grilled chicken",
+"nasi kerabu",
+"percik"
+],
+"ayam-goreng": [
+"ayam",
+"ayam gr",
+"chicken thigh",
+"drumstick",
+"fried chicken",
+"paha ayam"
+],
+"ikan-goreng-kembung": [
+"fried mackerel",
+"ikan",
+"ikan goreng",
+"ikan kembung",
+"kembong",
+"mackerel"
+],
+"telur-dadar": [
+"dadar",
+"egg",
+"omelet",
+"omelette",
+"telor dadar",
+"telur"
+],
+"sayur-campur-goreng": [
+"chap choy",
+"mixed vegetables",
+"sayur",
+"sayur goreng",
+"stir fry vegetables",
+"vegetables"
+],
+"kari-ayam": [
+"ayam",
+"chicken curry",
+"curry",
+"curry chicken",
+"kare ayam",
+"kari"
+],
+"rendang-daging": [
+"beef",
+"beef rendang",
+"daging",
+"rendang",
+"rendang tok"
+],
+"mee-goreng-mamak": [
+"fried noodles",
+"mamak mee",
+"mee",
+"mee goreng",
+"mee gr",
+"mi goreng"
+],
+"char-kuey-teow": [
+"char koay teow",
+"ckt",
+"fried kuey teow",
+"koay teow",
+"kuey teow goreng",
+"kway teow"
+],
+"kuey-teow-sup": [
+"flat rice noodle soup",
+"koay teow sup",
+"kuey teow soup",
+"kueyteow",
+"kway teow soup",
+"noodle soup"
+],
+"mee-rebus": [
+"kuah kentang",
+"mee",
+"mee rebus johor",
+"meerebus",
+"mi rebus",
+"noodles gravy"
+],
+"laksa-penang": [
+"asam laksa",
+"assam laksa",
+"ikan sardin",
+"laksa",
+"laksa utara",
+"penang laksa"
+],
+"laksa-kari": [
+"curry laksa",
+"curry mee laksa",
+"curry noodle",
+"laksa",
+"laksa lemak",
+"santan"
+],
+"mee-kari": [
+"curry mee",
+"curry noodles",
+"kari",
+"kari mee",
+"mee",
+"mi kari"
+],
+"wantan-mee-kering": [
+"char siu",
+"dry wantan mee",
+"wan tan mee",
+"wantan mee",
+"wanton mee",
+"wonton noodles"
+],
+"mee-bandung": [
+"daging",
+"mee",
+"mee bandung muar",
+"meebandung",
+"mi bandung",
+"udang"
+],
+"mee-soto": [
+"chicken soup noodles",
+"mee",
+"meesoto",
+"mi soto",
+"soto",
+"soto ayam"
+],
+"maggi-goreng": [
+"fried maggi",
+"instant noodles fried",
+"maggi",
+"maggie goreng",
+"magi goreng",
+"mee segera goreng"
+],
+"mi-segera": [
+"instant noodles",
+"maggi",
+"maggi kari",
+"maggi sup",
+"maggie",
+"mee segera"
+],
+"pan-mee-sup": [
+"ban mian",
+"handmade noodles",
+"mee hoon kueh",
+"noodle soup",
+"pan mee",
+"panmee"
+],
+"kuey-teow-kungfu": [
+"kuey teow",
+"kung fu kuey teow",
+"kungfu kueh teow",
+"lad na",
+"ladna",
+"wat tan hor"
+],
+"bihun-sup": [
+"bee hoon",
+"beehoon soup",
+"bihun soup",
+"mee hoon sup",
+"meehoon",
+"rice vermicelli soup"
+],
+"mee-hailam": [
+"hailam mee",
+"hainan mee",
+"mee",
+"mee hainan",
+"mi hailam",
+"noodles"
+],
+"roti-tisu": [
+"roti canai tisu",
+"roti tissue",
+"roti tisu gula",
+"rotitisu",
+"tissue",
+"tissue prata"
+],
+"murtabak-ayam": [
+"ayam",
+"chicken murtabak",
+"martabak",
+"murtabak",
+"murtabak chicken",
+"mutabak"
+],
+"tosai-masala": [
+"dosai masala",
+"kentang",
+"masala",
+"masala dosa",
+"thosai masala",
+"tosai"
+],
+"nasi-lemak-mamak": [
+"fried egg nasi lemak",
+"mamak",
+"nasi lemak telur",
+"nasi lmk",
+"nasilemak mamak",
+"telur goreng"
+],
+"ayam-tandoori-dengan-naan": [
+"ayam",
+"naan",
+"nan",
+"tandoori",
+"tandoori chicken",
+"tandori"
+],
+"naan-cheese": [
+"cheese",
+"cheese naan",
+"keju naan",
+"naan",
+"naan keju",
+"nan cheese"
+],
+"pasembur": [
+"indian rojak",
+"kuah kacang",
+"pasembor",
+"rojak",
+"rojak mamak",
+"sengkuang"
+],
+"sup-kambing": [
+"kambing",
+"lamb soup",
+"mutton",
+"mutton soup",
+"sop kambing",
+"sup"
+],
+"teh-tarik": [
+"milk tea",
+"pulled tea",
+"tea tarik",
+"teh",
+"teh susu",
+"tehtarik"
+],
+"teh-o-ais": [
+"iced tea",
+"teh",
+"teh o",
+"teh o ice",
+"teh o ice manis",
+"tehoais"
+],
+"kopi-o": [
+"black coffee",
+"coffee",
+"kopi",
+"kopi hitam",
+"kopi o panas",
+"kopio"
+],
+"milo-ais": [
+"coklat",
+"iced milo",
+"milo",
+"milo ais",
+"milo dinosaur",
+"milo ice"
+],
+"sirap-bandung": [
+"air bandung",
+"bandung",
+"bandung ais",
+"rose syrup milk",
+"sirap",
+"syrup"
+],
+"air-tebu": [
+"airtebu",
+"jus tebu",
+"sugar cane",
+"sugarcane juice",
+"tebu"
+],
+"teh-ais-limau": [
+"iced lemon tea",
+"lemon tea",
+"limau",
+"teh",
+"teh limau",
+"teh o ais limau"
+],
+"air-kelapa": [
+"air kelapa muda",
+"coconut",
+"coconut water",
+"kelapa",
+"young coconut"
+],
+"bubble-tea": [
+"bbt",
+"boba",
+"bubbletea",
+"milk tea",
+"pearl milk tea",
+"tapioca",
+"teh boba"
+],
+"neslo-ais": [
+"kopi",
+"milo",
+"nescafe milo",
+"neslo",
+"neslo ais",
+"neslo ice"
+],
+"jus-oren": [
+"air oren",
+"juice",
+"jus orange",
+"oj",
+"orange juice",
+"oren"
+],
+"minuman-bergas": [
+"air berkarbonat",
+"air gas",
+"carbonated drink",
+"fizzy drink",
+"soda",
+"soft drink"
+],
+"kopi-latte": [
+"cafe latte",
+"coffee latte",
+"kopi",
+"kopi susu",
+"latte",
+"milk coffee"
+],
+"air-mangga": [
+"air mango",
+"jus mangga",
+"mangga",
+"mango",
+"mango juice"
+],
+"kuih-seri-muka": [
+"kuih",
+"kuih seri muka pandan",
+"pandan",
+"pulut",
+"seri muka",
+"serimuka"
+],
+"onde-onde": [
+"buah melaka",
+"gula melaka",
+"kuih",
+"onde",
+"ondeh ondeh",
+"ondeh-ondeh"
+],
+"kuih-lapis": [
+"kueh lapis",
+"kuih",
+"kuih lapis sagu",
+"lapis",
+"layer cake",
+"tepung beras"
+],
+"pisang-goreng": [
+"banana fritters",
+"cekodok",
+"fried banana",
+"goreng pisang",
+"jemput pisang",
+"pisang"
+],
+"cucur-udang": [
+"cucur",
+"cucur bawang",
+"fritters",
+"jemput udang",
+"prawn fritters",
+"udang"
+],
+"donut-gula": [
+"donat",
+"donut",
+"donut gula",
+"doughnut",
+"kuih keria",
+"sugar donut"
+],
+"apam-balik": [
+"apam",
+"apom balik",
+"ban chang kuih",
+"kacang",
+"martabak manis",
+"peanut pancake"
+],
+"kuih-koci": [
+"kelapa",
+"koci",
+"kueh koci",
+"kuih",
+"kuih koci pulut hitam",
+"pulut"
+],
+"popia-goreng": [
+"fried spring roll",
+"popia",
+"popiah",
+"popiah goreng",
+"sengkuang",
+"spring roll"
+],
+"keropok-lekor": [
+"fish sausage",
+"ikan",
+"keropok",
+"keropok ikan",
+"keropok lekor terengganu",
+"lekor"
+],
+"cendol": [
+"cendol pulut",
+"cendul",
+"chendol",
+"dessert",
+"gula melaka",
+"santan"
+],
+"ais-kacang": [
+"abc",
+"air batu campur",
+"ais batu campur",
+"aiskacang",
+"ice kacang",
+"shaved ice"
+],
+"burger-ayam": [
+"ayam",
+"burger",
+"burger special",
+"burger telur",
+"chicken burger",
+"ramly"
+],
+"burger-daging": [
+"beef",
+"beef burger",
+"burger",
+"cheeseburger",
+"daging",
+"hamburger"
+],
+"ayam-goreng-fast-food-original": [
+"ayam",
+"ayam goreng",
+"chicken",
+"fried chicken",
+"kfc",
+"original recipe"
+],
+"kentang-goreng": [
+"chips",
+"french fries",
+"fries",
+"fries medium",
+"kentang",
+"potato"
+],
+"pizza": [
+"cheese",
+"keju",
+"pepperoni",
+"pepperoni pizza",
+"piza",
+"pizza slice"
+],
+"spaghetti-bolognese": [
+"bolognaise",
+"bolognese",
+"daging",
+"pasta",
+"spagetti",
+"spaghetti"
+],
+"chicken-chop-dengan-kentang": [
+"ayam chop",
+"chicken chop",
+"chickenchop",
+"chop ayam",
+"kentang",
+"western food"
+],
+"nugget-ayam": [
+"ayam",
+"chicken",
+"chicken nuggets",
+"nuget",
+"nugget",
+"nuggets"
+],
+"sandwich-tuna": [
+"roti",
+"sandwic tuna",
+"sanwich tuna",
+"tuna",
+"tuna mayo",
+"tuna sandwich"
+],
+"shawarma-ayam": [
+"ayam",
+"chicken shawarma",
+"kebab",
+"shawarma",
+"syawarma",
+"wrap"
+],
+"pisang": [
+"banana",
+"buah",
+"fruit",
+"pisang berangan",
+"pisang emas"
+],
+"epal": [
+"apel",
+"apple",
+"buah epal",
+"fruit",
+"red apple"
+],
+"durian": [
+"buah",
+"duren",
+"durian kampung",
+"musang king",
+"raja buah"
+],
+"tembikai": [
+"buah tembikai",
+"fruit",
+"semangka",
+"tembikai merah",
+"watermelon"
+],
+"betik": [
+"betek",
+"buah betik",
+"fruit",
+"papaia",
+"papaya"
+],
+"mangga": [
+"buah mangga",
+"fruit",
+"harum manis",
+"mango",
+"mempelam"
+],
+"kurma": [
+"buah kurma",
+"date fruit",
+"dates",
+"kurma ajwa",
+"tamar"
+],
+"nanas": [
+"buah nanas",
+"fruit",
+"nanas madu",
+"nenas",
+"pineapple"
+],
+"rambutan": [
+"buah rambutan",
+"fruit",
+"rambotan",
+"rambutans"
+],
+"kacang-tanah": [
+"fried peanuts",
+"groundnuts",
+"kacang",
+"kacang goreng",
+"nuts",
+"peanuts"
+],
+"kerepek-ubi": [
+"cassava chips",
+"chips",
+"kerepek",
+"kerepek pedas",
+"tapioca chips",
+"ubi kayu"
+],
+"coklat-susu": [
+"cadbury",
+"choc",
+"chocolate",
+"chocolate bar",
+"coklat",
+"milk chocolate"
+],
+"biskut-krim": [
+"biscuit",
+"biskut",
+"biskut lemak",
+"cookies",
+"cream biscuit",
+"cream crackers sandwich"
+],
+"roti-putih": [
+"bread",
+"roti",
+"roti gardenia",
+"roti sandwich",
+"toast",
+"white bread"
+],
+"telur-rebus": [
+"boiled egg",
+"egg",
+"hard boiled egg",
+"telor rebus",
+"telur"
+],
+"yogurt": [
+"dadih",
+"flavoured yogurt",
+"susu",
+"yoghurt",
+"yogourt",
+"yogurt strawberry"
+],
+"badam": [
+"almond",
+"almonds",
+"kacang",
+"kacang badam",
+"nuts"
+],
+"sosej-ayam": [
+"ayam",
+"chicken sausage",
+"hotdog",
+"sausage",
+"sosej",
+"sosej goreng"
+],
+"tauhu-bakar": [
+"grilled tofu",
+"tahu bakar",
+"tauhu",
+"tauhu sumbat",
+"taukua",
+"tofu"
+],
+"satay-ayam": [
+"ayam",
+"chicken satay",
+"kuah kacang",
+"satay",
+"sate",
+"sate ayam"
+]
+}

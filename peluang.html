@@ -170,7 +170,7 @@
   <section id="intro" class="sc-section" data-sc-act="flow">
     <div class="sc-wrap intro" data-sc-in>
       <p class="pf vlabel" data-t="vlabel2"></p>
-      <div class="vwrap"><video id="jorgeVid" class="wide" autoplay muted playsinline controls preload="auto" poster="video/jorge-wdt-poster.jpg">
+      <div class="vwrap"><video id="jorgeVid" class="wide" muted playsinline controls preload="none" poster="video/jorge-wdt-poster.jpg">
         <source src="video/jorge-wdt-ms.mp4" type="video/mp4">
       </video><button type="button" id="unmute" class="unmute" data-t="unmute"></button></div>
       <p class="vnote" data-t="vnote2"></p>
@@ -517,7 +517,7 @@ document.querySelectorAll(".lang button").forEach(b => b.onclick = () => {
 <script src="sc/scrollcraft.js"></script>
 <script>ScrollCraft.mount(document.body);
 (() => { const v = document.getElementById("jorgeVid"), b = document.getElementById("unmute"); if (!v || !b) return;
-  const p = v.play(); if (p && p.catch) p.catch(() => {});
+  // no autoplay: the 17 MB video loads only when the visitor taps play
   const on = () => { v.muted = false; v.play().catch(() => {}); b.hidden = true; };
   b.addEventListener("click", on); v.addEventListener("volumechange", () => { if (!v.muted) b.hidden = true; }); })();
 </script>

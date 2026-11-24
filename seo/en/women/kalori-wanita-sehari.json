@@ -1,0 +1,49 @@
+{
+ "slug": "kalori-wanita-sehari",
+ "slug_en": "daily-calories-for-women",
+ "title": "How Many Calories Do Women Need a Day to Lose Weight?",
+ "intro": "Many working women can lose weight on an estimated 1,300 to 1,700 calories a day, depending on body size and activity. Use that as a starting point, then adjust based on your progress.",
+ "sections": [
+  {
+   "h": "Why there's no one number for everyone",
+   "p": "A 50 kg woman who works from home needs less energy than a 75 kg woman who does field work. Age, height, muscle and daily movement all play a part. So all these numbers are estimates only."
+  },
+  {
+   "h": "An easy rough calculation",
+   "p": "Multiply your body weight (kg) by 28. That's the estimated calories to maintain your weight. Subtract 300-500 calories to lose weight slowly. Example: 65 kg x 28 = 1,820, minus 400 = an estimated 1,420 calories a day."
+  },
+  {
+   "h": "Don't go too low",
+   "p": "Avoid eating below an estimated 1,200 calories a day without professional guidance. Going too low makes you hungry, tired and hard to focus at work. A realistic target is around 0.5-1 kg a week, and even slower is okay."
+  },
+  {
+   "h": "Hidden calories at work",
+   "p": "A teh tarik can reach an estimated 150-200 calories a glass. Meeting kuih is an estimated 100-200 calories per piece. Roti canai with curry is around 300-400 calories. No need to avoid them, just be aware and count them too."
+  },
+  {
+   "h": "Prioritise protein",
+   "p": "When you cut calories, protein helps you feel full and protects your muscle. Try to have protein at every meal, for example eggs, chicken, fish, tauhu or tempe. A piece of chicken the size of your palm is already good."
+  }
+ ],
+ "action": [
+  "Calculate your estimated calories using the formula weight x 28 minus 400.",
+  "Record what you eat for 3 days, including drinks and meeting kuih.",
+  "Make sure every meal has one protein source.",
+  "Weigh yourself 2-3 times a week and look at the average after 2-3 weeks before changing your calories."
+ ],
+ "myth": "Many think the less you eat, the faster you'll slim down. In reality, eating too little often makes you extremely hungry, lose muscle and end up overeating again.",
+ "faq": [
+  {
+   "q": "Do I need to count calories forever?",
+   "a": "No. Count for a few weeks so you get to know portions. After that, many people can just use hand and plate estimates."
+  },
+  {
+   "q": "I have thyroid problems or PCOS. Is this formula suitable?",
+   "a": "These conditions can affect weight and energy. Please check with your doctor first before setting a calorie target."
+  },
+  {
+   "q": "If I'm pregnant, can I cut calories?",
+   "a": "During pregnancy, don't go on a calorie deficit on your own. Discuss suitable nutrition and weight gain with your doctor."
+  }
+ ]
+}

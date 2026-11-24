@@ -19,6 +19,7 @@ PUBLISH2 = True
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SEO = ROOT / "seo"
 COACH = {"m": ("Coach Kimi", "60127040268"), "f": ("Coach Zara", "60123520097")}
+ALIASES = json.loads((SEO / "aliases.json").read_text()) if (SEO / "aliases.json").exists() else {}
 PRICE_MS = "Program coaching bermula dari RM259 sebulan, termasuk supplement. Bayar sekali untuk 1 bulan, tiada kontrak."
 PRICE_EN = "Coaching programs start from RM259 a month, supplements included. One payment for 1 month, no contract."
 
@@ -77,6 +78,33 @@ def write(path, html):
     (p / "index.html").write_text(html)
 
 
+def _title(path):
+    """Display title for a site path like wanita/<slug>, senaman/<slug>, kalori/<slug>, semak."""
+    sec, _, slug = path.partition("/")
+    if sec == "wanita" and (SEO / "wanita" / f"{slug}.json").exists():
+        return json.loads((SEO / "wanita" / f"{slug}.json").read_text())["title"]
+    if sec == "senaman" and (SEO / "exercises" / f"{slug}.json").exists():
+        return json.loads((SEO / "exercises" / f"{slug}.json").read_text())["title"]
+    if sec == "kalori":
+        for f in json.loads((SEO / "foods.json").read_text())["foods"]:
+            if f["slug"] == slug:
+                return "Kalori " + f["name"].split("(")[0].strip()
+    return {"semak": "Semak makan semalam", "workout": "Workout 7 Hari di rumah", "ramadan": "Panduan Ramadan"}.get(path, path)
+
+
+def related_for(sec, slug, pages):
+    """Hand-picked links from seo/related.json (made by generate6.py related); falls back to the first pages A-Z."""
+    rp = SEO / "related.json"
+    r = json.loads(rp.read_text()).get(f"{sec}/{slug}") if rp.exists() else None
+    if r and r["same"]:
+        return r["same"] + r["other"]
+    return [f"{sec}/{x['slug']}" for x in pages if x["slug"] != slug][:6]
+
+
+def rel_html(paths):
+    return "".join(f'<a href="{BASE}{p}/">{E(_title(p))}</a>' for p in paths)
+
+
 def box_ms(h, p, src):
     return f"""<div class="box"><h2>{E(h)}</h2><p>{E(p)}</p>
 <a class="btn y" href="{BASE}kuiz/?src={src}">Jawab kuiz percuma →</a>
@@ -113,7 +141,7 @@ def calories(foods, cats_en):
 <div class="answer"><div class="k">{f['kcal']}<small>kcal</small></div><div class="s">estimate<span>{E(d['serving_en'])}</span></div>
 <div class="macros"><span>Protein <b>{bm['protein_g']} g</b></span><span>Carbs <b>{bm['carbs_g']} g</b></span><span>Fat <b>{bm['fat_g']} g</b></span></div>
 <div class="walk">About <b>{walk} minutes</b> of brisk walking (estimate for a 65 kg adult).</div></div>
-<p class="lang">Baca dalam BM: <a href="{BASE}kalori/{f['slug']}/">{E(f['name'].split('(')[0].strip())}</a></p>
+<p class="lang">Read in Malay: <a href="{BASE}kalori/{f['slug']}/">{E(f['name'].split('(')[0].strip())}</a></p>
 <h2>Where the calories come from</h2><table>{rows(d['breakdown'])}</table>
 <h2>Other versions</h2><table>{rows(d['variants'])}</table>
 <h2>Can I eat it while losing weight?</h2><div class="card"><p style="margin:0">{E(d['diet'])}</p></div>
@@ -136,7 +164,7 @@ def calories(foods, cats_en):
 <p class="crumb"><a href="{BASE}?lang=en">Coach Kimi &amp; Coach Zara</a> › Food calories</p><h1>Malaysian food calories</h1>
 <p class="lead">How many calories in nasi lemak, roti canai or teh tarik? Search your food. Each page has calories, protein, other versions and tips for losing weight.</p>
 <input class="search" id="q" type="search" placeholder="Search, e.g. nasi lemak" aria-label="Search food">{secs}
-<p class="lang">Baca dalam BM: <a href="{BASE}kalori/">Kalori makanan Malaysia</a></p></main>{js}""" + foot("en"))
+<p class="lang">Read in Malay: <a href="{BASE}kalori/">Kalori makanan Malaysia</a></p></main>{js}""" + foot("en"))
     return [f"calories/{f['slug']}/" for f, _, _ in done] + (["calories/"] if done else [])
 
 
@@ -148,15 +176,17 @@ def semak(foods, cats):
         if not p.exists():
             continue
         d = json.loads(p.read_text())
-        data.append([f["slug"], f["name"].split("(")[0].strip(), f["cat"], f["serving"], f["kcal"], d["protein_g"], d["swap"]["name"], d["swap"]["kcal"]])
+        data.append([f["slug"], f["name"].split("(")[0].strip(), f["cat"], f["serving"], f["kcal"], d["protein_g"], d["swap"]["name"], d["swap"]["kcal"],
+                     " ".join([f["name"].lower()] + ALIASES.get(f["slug"], []))])
     chips = '<button class="on" data-c="">Semua</button>' + "".join(f'<button data-c="{c}">{E(l)}</button>' for c, l in cats.items())
     js = """<script>
 const F=__DATA__, CO=__COACH__, PRICE=__PRICE__;
 const st={q:{},c:"",s:"",sex:""};
 try{Object.assign(st.q,JSON.parse(localStorage.getItem("semak")||"{}"))}catch(e){}
 const $=id=>document.getElementById(id);
-function list(){const v=$("q").value.toLowerCase().trim();
- $("pick").innerHTML=F.filter(f=>(!st.c||f[2]===st.c)&&(!v||f[1].toLowerCase().includes(v))).map(f=>{const n=st.q[f[0]]||0;
+const nz=s=>s.toLowerCase().replace(/[^a-z0-9]/g,"");
+function list(){const v=nz($("q").value);
+ $("pick").innerHTML=F.filter(f=>(!st.c||f[2]===st.c)&&(!v||nz(f[8]).includes(v)||f[8].split(" ").some(w=>nz(w).includes(v)))).map(f=>{const n=st.q[f[0]]||0;
   return `<div class="it"><span>${f[1]}<small>${f[3]} · ~${f[4]} kcal</small></span><div class="q">${n?`<button data-m="${f[0]}" aria-label="Kurang">−</button><b>${n}</b>`:""}<button class="add" data-p="${f[0]}" aria-label="Tambah">+</button></div></div>`}).join("")||"<p>Tak jumpa. Cuba nama lain atau pilih yang paling hampir.</p>";tot()}
 function tot(){let k=0,p=0,n=0;for(const s in st.q){const f=F.find(x=>x[0]===s);if(f){k+=f[4]*st.q[s];p+=f[5]*st.q[s];n+=st.q[s]}}
  $("tk").textContent=k.toLocaleString();$("tn").textContent=n;try{localStorage.setItem("semak",JSON.stringify(st.q))}catch(e){}return {k,p,n}}
@@ -218,9 +248,9 @@ const st={lvl:"",min:"",sex:"",knee:false,back:false};
 document.addEventListener("click",e=>{const b=e.target.closest("button[data-k]");if(!b)return;st[b.dataset.k]=b.dataset.v;
  document.querySelectorAll(`button[data-k="${b.dataset.k}"]`).forEach(x=>x.classList.toggle("on",x===b))});
 const DOSE={10:[2,30,20],20:[3,40,20],30:[4,45,15]};
-function sess(list){return list.map(k=>st.knee&&SWAP_KNEE[k]?SWAP_KNEE[k]:k).map(k=>st.back&&SWAP_BACK[k]?SWAP_BACK[k]:k)}
+function sess(list){return [...new Set(list.map(k=>st.knee&&SWAP_KNEE[k]?SWAP_KNEE[k]:k).map(k=>st.back&&SWAP_BACK[k]?SWAP_BACK[k]:k))]}
 $("go").onclick=()=>{st.knee=$("knee").checked;st.back=$("back").checked;
- const miss=["lvl","min","sex"].find(k=>!st[k]);if(miss){$("f-"+miss).scrollIntoView({behavior:"smooth",block:"center"});$("f-"+miss).style.outline="3px solid #E30613";return}
+ const miss=["lvl","min","sex"].find(k=>!st[k]);if(miss){$("f-"+miss).scrollIntoView({behavior:"smooth",block:"center"});$("f-"+miss).style.outline="3px solid #E30613";$("miss").textContent="Pilih dulu: "+{lvl:"tahap anda",min:"masa sehari",sex:"lelaki atau perempuan"}[miss]+" ↑";$("miss").hidden=false;return}$("miss").hidden=true;
  const [r,on,off]=DOSE[st.min], A=sess(SESS[st.lvl][0]), B=sess(SESS[st.lvl][1]);
  const walk={10:15,20:20,30:30}[st.min];
  const ex=list=>`<ol>${list.map(k=>`<li><b>${EX[k].ms}</b>: ${EX[k].c_ms} <a href="https://www.youtube.com/watch?v=${EX[k].v}" target="_blank" rel="noopener">Tengok video →</a></li>`).join("")}</ol>`;
@@ -248,7 +278,7 @@ $("go").onclick=()=>{st.knee=$("knee").checked;st.back=$("back").checked;
 <div id="f-sex"><label class="l">Anda</label><div class="seg">{seg("sex", [("f", "Perempuan"), ("m", "Lelaki")])}</div></div>
 <label class="chk" style="display:flex;gap:8px;margin:6px 0"><input type="checkbox" id="knee"> Lutut saya selalu sakit</label>
 <label class="chk" style="display:flex;gap:8px;margin:6px 0 14px"><input type="checkbox" id="back"> Belakang (pinggang) saya selalu sakit</label>
-<button class="btn r" id="go" style="width:100%;border:0;font:800 16px Montserrat">Buat pelan saya →</button>
+<p id="miss" hidden style="color:var(--red);font-weight:700;margin:0 0 6px"></p><button class="btn r" id="go" style="width:100%;border:0;font:800 16px Montserrat">Buat pelan saya →</button>
 <section class="res" id="res"><h2>Pelan 7 hari anda</h2><div id="plan"></div>
 <div class="box"><h2>Hari 7: hantar progress</h2><p>Tandakan hari yang siap, kemudian hantar ke coach. Coach akan bagi langkah seterusnya ikut progress anda.</p>
 <a class="btn y" id="wa" target="_blank" rel="noopener"></a>
@@ -267,7 +297,7 @@ def senaman():
         vid = f'<div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/{d["video"]}" title="{E(d["title"])}" loading="lazy" allowfullscreen></iframe></div>' if d.get("video") else ""
         faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in d["faq"]]}
-        rel = [x for x in pages if x["slug"] != d["slug"]][:6]
+        rel = related_for("senaman", d["slug"], pages)
         write(f"senaman/{d['slug']}", head(f"{d['title']} | Panduan senaman", d["intro"][:155], f"senaman/{d['slug']}/", "ms",
                                            f'<script type="application/ld+json">{json.dumps(faq, ensure_ascii=False)}</script>') + f"""<main class="w">
 <p class="crumb"><a href="../">Senaman di rumah</a></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['intro'])}</p>{vid}
@@ -279,7 +309,7 @@ def senaman():
 <div class="box"><h2>Nak pelan senaman 7 hari ikut tahap anda?</h2><p>Percuma, tanpa alat, 10 hingga 30 minit sehari, dengan video setiap senaman.</p>
 <a class="btn y" href="{BASE}workout/?src=senaman">Buat pelan 7 hari saya →</a><a class="btn w2" href="{BASE}kuiz/?src=senaman">Jawab kuiz 2 minit</a><p class="price">{PRICE_MS}</p></div>
 <h2>Soalan lazim</h2>{''.join(f'<details><summary>{E(q["q"])}</summary><p>{E(q["a"])}</p></details>' for q in d['faq'])}
-<h2>Panduan lain</h2><div class="rel">{''.join(f'<a href="../{x["slug"]}/">{E(x["title"])}</a>' for x in rel)}</div>
+<h2>Panduan lain</h2><div class="rel">{rel_html(rel)}</div>
 <p class="fine">{E(d['safety'])} Panduan am sahaja, bukan nasihat perubatan.</p></main>""" + foot())
     if pages:
         write("senaman", head("Senaman di rumah: panduan untuk beginner", "Panduan senaman di rumah tanpa alat: squat, push-up, plank, senaman perut, lengan, peha dan banyak lagi. Cara buat, kesilapan biasa dan video.", "senaman/") + f"""<main class="w">

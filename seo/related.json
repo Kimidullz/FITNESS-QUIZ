@@ -1,0 +1,722 @@
+{
+"wanita/air-manis-kopi-pejabat": {
+"same": [
+"wanita/snek-pejabat-sihat",
+"wanita/kuih-dan-makanan-free-di-pejabat",
+"wanita/lapar-petang-3-petang",
+"wanita/kalori-wanita-sehari"
+],
+"other": [
+"kalori/teh-tarik",
+"kalori/kopi-latte"
+]
+},
+"wanita/angkat-beban-wanita-jadi-besar": {
+"same": [
+"wanita/protein-untuk-wanita",
+"wanita/berat-tak-turun-tapi-baju-longgar",
+"senaman/cardio-vs-angkat-beban",
+"senaman/senaman-wanita-beginner"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/bekal-ke-pejabat-turun-berat": {
+"same": [
+"wanita/lunch-luar-pejabat",
+"wanita/protein-untuk-wanita",
+"wanita/nasi-untuk-wanita-turun-berat",
+"wanita/snek-pejabat-sihat"
+],
+"other": [
+"kalori/nasi-putih",
+"kalori/telur-rebus"
+]
+},
+"wanita/berat-tak-turun-tapi-baju-longgar": {
+"same": [
+"wanita/dah-diet-tapi-berat-tak-turun",
+"wanita/kitaran-haid-dan-berat",
+"wanita/angkat-beban-wanita-jadi-besar",
+"wanita/motivasi-hilang-minggu-kedua"
+],
+"other": [
+"semak",
+"workout"
+]
+},
+"wanita/dah-diet-tapi-berat-tak-turun": {
+"same": [
+"wanita/berat-tak-turun-tapi-baju-longgar",
+"wanita/kalori-wanita-sehari",
+"wanita/hujung-minggu-rosak-diet",
+"wanita/air-manis-kopi-pejabat"
+],
+"other": [
+"semak",
+"kalori/teh-tarik"
+]
+},
+"wanita/diet-ekstrem-kesan": {
+"same": [
+"wanita/kalori-wanita-sehari",
+"wanita/nasi-untuk-wanita-turun-berat",
+"wanita/protein-untuk-wanita",
+"wanita/motivasi-hilang-minggu-kedua"
+],
+"other": [
+"semak",
+"kalori/nasi-putih"
+]
+},
+"wanita/duduk-lama-di-pejabat": {
+"same": [
+"wanita/wfh-berat-naik",
+"senaman/senaman-10-minit-pejabat",
+"senaman/jalan-kaki-turun-berat",
+"senaman/senaman-tangga"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/hujung-minggu-rosak-diet": {
+"same": [
+"wanita/makan-luar-dengan-kawan",
+"wanita/dah-diet-tapi-berat-tak-turun",
+"wanita/motivasi-hilang-minggu-kedua",
+"wanita/kalori-wanita-sehari"
+],
+"other": [
+"semak",
+"kalori/nasi-kandar"
+]
+},
+"wanita/kalori-wanita-sehari": {
+"same": [
+"wanita/protein-untuk-wanita",
+"wanita/dah-diet-tapi-berat-tak-turun",
+"wanita/diet-ekstrem-kesan",
+"wanita/nasi-untuk-wanita-turun-berat"
+],
+"other": [
+"semak",
+"kalori/nasi-lemak-biasa"
+]
+},
+"wanita/kenapa-susah-turun-berat-wanita-bekerja": {
+"same": [
+"wanita/duduk-lama-di-pejabat",
+"wanita/tiada-masa-bersenam",
+"wanita/stress-kerja-makan-banyak",
+"wanita/lunch-luar-pejabat"
+],
+"other": [
+"semak",
+"workout"
+]
+},
+"wanita/kitaran-haid-dan-berat": {
+"same": [
+"wanita/berat-tak-turun-tapi-baju-longgar",
+"wanita/dah-diet-tapi-berat-tak-turun",
+"wanita/pcos-turun-berat",
+"wanita/motivasi-hilang-minggu-kedua"
+],
+"other": [
+"semak",
+"kalori/coklat-susu"
+]
+},
+"wanita/kuih-dan-makanan-free-di-pejabat": {
+"same": [
+"wanita/snek-pejabat-sihat",
+"wanita/air-manis-kopi-pejabat",
+"wanita/lapar-petang-3-petang",
+"wanita/hujung-minggu-rosak-diet"
+],
+"other": [
+"kalori/karipap",
+"kalori/kuih-seri-muka"
+]
+},
+"wanita/lapar-petang-3-petang": {
+"same": [
+"wanita/snek-pejabat-sihat",
+"wanita/protein-untuk-wanita",
+"wanita/bekal-ke-pejabat-turun-berat",
+"wanita/air-manis-kopi-pejabat"
+],
+"other": [
+"kalori/pisang-goreng",
+"kalori/telur-rebus"
+]
+},
+"wanita/lemak-perut-wanita": {
+"same": [
+"wanita/lengan-dan-peha-wanita",
+"wanita/tidur-tak-cukup-berat-naik",
+"senaman/senaman-perut-buncit",
+"senaman/plank"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/lengan-dan-peha-wanita": {
+"same": [
+"wanita/lemak-perut-wanita",
+"wanita/angkat-beban-wanita-jadi-besar",
+"senaman/senaman-lengan-bergelambir",
+"senaman/senaman-peha-punggung"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/lunch-luar-pejabat": {
+"same": [
+"wanita/bekal-ke-pejabat-turun-berat",
+"wanita/nasi-untuk-wanita-turun-berat",
+"wanita/makan-luar-dengan-kawan",
+"wanita/air-manis-kopi-pejabat"
+],
+"other": [
+"kalori/nasi-campur",
+"kalori/nasi-ayam"
+]
+},
+"wanita/makan-luar-dengan-kawan": {
+"same": [
+"wanita/hujung-minggu-rosak-diet",
+"wanita/lunch-luar-pejabat",
+"wanita/makan-malam-lewat-balik-kerja",
+"wanita/air-manis-kopi-pejabat"
+],
+"other": [
+"kalori/char-kuey-teow",
+"semak"
+]
+},
+"wanita/makan-malam-lewat-balik-kerja": {
+"same": [
+"wanita/lapar-petang-3-petang",
+"wanita/tidur-tak-cukup-berat-naik",
+"wanita/bekal-ke-pejabat-turun-berat",
+"wanita/stress-kerja-makan-banyak"
+],
+"other": [
+"kalori/maggi-goreng",
+"kalori/bihun-sup"
+]
+},
+"wanita/motivasi-hilang-minggu-kedua": {
+"same": [
+"wanita/dah-diet-tapi-berat-tak-turun",
+"wanita/berat-tak-turun-tapi-baju-longgar",
+"wanita/diet-ekstrem-kesan",
+"wanita/hujung-minggu-rosak-diet"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/nasi-untuk-wanita-turun-berat": {
+"same": [
+"wanita/kalori-wanita-sehari",
+"wanita/lunch-luar-pejabat",
+"wanita/bekal-ke-pejabat-turun-berat",
+"wanita/diet-ekstrem-kesan"
+],
+"other": [
+"kalori/nasi-putih",
+"kalori/nasi-campur"
+]
+},
+"wanita/pcos-turun-berat": {
+"same": [
+"wanita/kitaran-haid-dan-berat",
+"wanita/protein-untuk-wanita",
+"wanita/angkat-beban-wanita-jadi-besar",
+"wanita/tidur-tak-cukup-berat-naik"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/protein-untuk-wanita": {
+"same": [
+"wanita/kalori-wanita-sehari",
+"wanita/angkat-beban-wanita-jadi-besar",
+"wanita/bekal-ke-pejabat-turun-berat",
+"wanita/lapar-petang-3-petang"
+],
+"other": [
+"kalori/telur-rebus",
+"kalori/tauhu-bakar"
+]
+},
+"wanita/rutin-pagi-wanita-bekerja": {
+"same": [
+"wanita/senaman-sebelum-atau-lepas-kerja",
+"wanita/tiada-masa-bersenam",
+"wanita/bekal-ke-pejabat-turun-berat",
+"senaman/senaman-wanita-beginner"
+],
+"other": [
+"kalori/oat-dengan-susu",
+"workout"
+]
+},
+"wanita/senaman-sebelum-atau-lepas-kerja": {
+"same": [
+"wanita/tiada-masa-bersenam",
+"wanita/rutin-pagi-wanita-bekerja",
+"senaman/senaman-20-minit-rumah",
+"senaman/cardio-vs-angkat-beban"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/snek-pejabat-sihat": {
+"same": [
+"wanita/lapar-petang-3-petang",
+"wanita/kuih-dan-makanan-free-di-pejabat",
+"wanita/air-manis-kopi-pejabat",
+"wanita/protein-untuk-wanita"
+],
+"other": [
+"kalori/badam",
+"kalori/biskut-krim"
+]
+},
+"wanita/stress-kerja-makan-banyak": {
+"same": [
+"wanita/tidur-tak-cukup-berat-naik",
+"wanita/makan-malam-lewat-balik-kerja",
+"wanita/lapar-petang-3-petang",
+"wanita/kenapa-susah-turun-berat-wanita-bekerja"
+],
+"other": [
+"semak",
+"kalori/coklat-susu"
+]
+},
+"wanita/tiada-masa-bersenam": {
+"same": [
+"wanita/senaman-sebelum-atau-lepas-kerja",
+"wanita/rutin-pagi-wanita-bekerja",
+"senaman/senaman-20-minit-rumah",
+"senaman/jalan-kaki-turun-berat"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/tidur-tak-cukup-berat-naik": {
+"same": [
+"wanita/stress-kerja-makan-banyak",
+"wanita/makan-malam-lewat-balik-kerja",
+"wanita/lemak-perut-wanita",
+"senaman/regangan-sebelum-tidur"
+],
+"other": [
+"semak",
+"workout"
+]
+},
+"wanita/umur-30-an-metabolisme": {
+"same": [
+"wanita/angkat-beban-wanita-jadi-besar",
+"wanita/protein-untuk-wanita",
+"wanita/kalori-wanita-sehari",
+"wanita/kenapa-susah-turun-berat-wanita-bekerja"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"wanita/wfh-berat-naik": {
+"same": [
+"wanita/duduk-lama-di-pejabat",
+"wanita/snek-pejabat-sihat",
+"wanita/tiada-masa-bersenam",
+"senaman/jalan-setempat"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/bird-dog": {
+"same": [
+"senaman/dead-bug",
+"senaman/plank",
+"senaman/side-plank",
+"senaman/glute-bridge"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/burpee-beginner": {
+"same": [
+"senaman/hiit-beginner",
+"senaman/mountain-climber",
+"senaman/jumping-jack",
+"senaman/squat"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/calf-raise": {
+"same": [
+"senaman/squat",
+"senaman/step-up-tangga",
+"senaman/lunge",
+"senaman/senaman-tangga"
+],
+"other": [
+"workout",
+"kalori/pisang"
+]
+},
+"senaman/cardio-vs-angkat-beban": {
+"same": [
+"wanita/angkat-beban-wanita-jadi-besar",
+"senaman/hiit-beginner",
+"senaman/jalan-kaki-turun-berat",
+"wanita/protein-untuk-wanita"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/dead-bug": {
+"same": [
+"senaman/bird-dog",
+"senaman/plank",
+"senaman/senaman-perut-buncit",
+"senaman/side-plank"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/duduk-bangun-kerusi": {
+"same": [
+"senaman/squat",
+"senaman/senaman-orang-gemuk",
+"wanita/duduk-lama-di-pejabat",
+"senaman/senaman-10-minit-pejabat"
+],
+"other": [
+"workout",
+"kalori/kopi-o"
+]
+},
+"senaman/glute-bridge": {
+"same": [
+"senaman/senaman-peha-punggung",
+"senaman/squat",
+"senaman/lunge",
+"senaman/bird-dog"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/hiit-beginner": {
+"same": [
+"senaman/burpee-beginner",
+"senaman/mountain-climber",
+"senaman/jumping-jack",
+"senaman/cardio-vs-angkat-beban"
+],
+"other": [
+"workout",
+"kalori/pisang"
+]
+},
+"senaman/jalan-kaki-turun-berat": {
+"same": [
+"senaman/jalan-setempat",
+"senaman/senaman-tangga",
+"wanita/duduk-lama-di-pejabat",
+"senaman/cardio-vs-angkat-beban"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/jalan-setempat": {
+"same": [
+"senaman/jalan-kaki-turun-berat",
+"senaman/senaman-orang-gemuk",
+"wanita/wfh-berat-naik",
+"senaman/senaman-wanita-beginner"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/jumping-jack": {
+"same": [
+"senaman/skipping",
+"senaman/hiit-beginner",
+"senaman/jalan-setempat",
+"senaman/burpee-beginner"
+],
+"other": [
+"workout",
+"kalori/air-kelapa"
+]
+},
+"senaman/lunge": {
+"same": [
+"senaman/squat",
+"senaman/step-up-tangga",
+"senaman/senaman-peha-punggung",
+"senaman/glute-bridge"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/mountain-climber": {
+"same": [
+"senaman/plank",
+"senaman/hiit-beginner",
+"senaman/burpee-beginner",
+"senaman/senaman-perut-buncit"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/plank": {
+"same": [
+"senaman/side-plank",
+"senaman/dead-bug",
+"senaman/senaman-perut-buncit",
+"senaman/push-up-lutut"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/push-up-dinding": {
+"same": [
+"senaman/push-up-lutut",
+"senaman/push-up",
+"senaman/senaman-lengan-bergelambir",
+"wanita/angkat-beban-wanita-jadi-besar"
+],
+"other": [
+"workout",
+"kalori/tauhu-bakar"
+]
+},
+"senaman/push-up-lutut": {
+"same": [
+"senaman/push-up-dinding",
+"senaman/push-up",
+"senaman/plank",
+"senaman/senaman-lengan-bergelambir"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/push-up": {
+"same": [
+"senaman/push-up-lutut",
+"senaman/push-up-dinding",
+"senaman/plank",
+"senaman/cardio-vs-angkat-beban"
+],
+"other": [
+"workout",
+"kalori/tauhu-bakar"
+]
+},
+"senaman/regangan-sebelum-tidur": {
+"same": [
+"wanita/tidur-tak-cukup-berat-naik",
+"wanita/stress-kerja-makan-banyak",
+"senaman/senaman-10-minit-pejabat",
+"wanita/makan-malam-lewat-balik-kerja"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/senaman-10-minit-pejabat": {
+"same": [
+"wanita/duduk-lama-di-pejabat",
+"senaman/duduk-bangun-kerusi",
+"senaman/senaman-tangga",
+"wanita/tiada-masa-bersenam"
+],
+"other": [
+"workout",
+"kalori/teh-tarik"
+]
+},
+"senaman/senaman-20-minit-rumah": {
+"same": [
+"senaman/senaman-wanita-beginner",
+"wanita/tiada-masa-bersenam",
+"senaman/hiit-beginner",
+"senaman/squat"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/senaman-lengan-bergelambir": {
+"same": [
+"wanita/lengan-dan-peha-wanita",
+"senaman/push-up-dinding",
+"senaman/push-up-lutut",
+"wanita/angkat-beban-wanita-jadi-besar"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/senaman-orang-gemuk": {
+"same": [
+"senaman/jalan-setempat",
+"senaman/duduk-bangun-kerusi",
+"senaman/push-up-dinding",
+"senaman/jalan-kaki-turun-berat"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/senaman-peha-punggung": {
+"same": [
+"senaman/glute-bridge",
+"senaman/squat",
+"senaman/lunge",
+"wanita/lengan-dan-peha-wanita"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/senaman-perut-buncit": {
+"same": [
+"wanita/lemak-perut-wanita",
+"senaman/plank",
+"senaman/dead-bug",
+"senaman/cardio-vs-angkat-beban"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/senaman-tangga": {
+"same": [
+"senaman/step-up-tangga",
+"senaman/jalan-kaki-turun-berat",
+"senaman/calf-raise",
+"senaman/senaman-10-minit-pejabat"
+],
+"other": [
+"workout",
+"kalori/air-kelapa"
+]
+},
+"senaman/senaman-wanita-beginner": {
+"same": [
+"senaman/senaman-20-minit-rumah",
+"wanita/angkat-beban-wanita-jadi-besar",
+"wanita/tiada-masa-bersenam",
+"senaman/squat"
+],
+"other": [
+"workout",
+"semak"
+]
+},
+"senaman/side-plank": {
+"same": [
+"senaman/plank",
+"senaman/dead-bug",
+"senaman/bird-dog",
+"senaman/senaman-perut-buncit"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/skipping": {
+"same": [
+"senaman/jumping-jack",
+"senaman/hiit-beginner",
+"senaman/calf-raise",
+"senaman/cardio-vs-angkat-beban"
+],
+"other": [
+"workout",
+"kalori/air-kelapa"
+]
+},
+"senaman/squat": {
+"same": [
+"senaman/lunge",
+"senaman/glute-bridge",
+"senaman/duduk-bangun-kerusi",
+"senaman/senaman-peha-punggung"
+],
+"other": [
+"workout",
+"kalori/telur-rebus"
+]
+},
+"senaman/step-up-tangga": {
+"same": [
+"senaman/senaman-tangga",
+"senaman/lunge",
+"senaman/squat",
+"senaman/calf-raise"
+],
+"other": [
+"workout",
+"kalori/pisang"
+]
+}
+}
