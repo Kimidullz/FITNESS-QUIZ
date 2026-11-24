@@ -25,7 +25,7 @@ ICON_SVG = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBo
             "%3Cpath d='M38 64 64 30v14L52 64z' fill='%23E30613'/%3E%3Cpath d='M50 64 64 46v10l-6 8z' fill='%23FFD200'/%3E%3Ctext x='8' y='40' "
             "font-family='Arial Black,Arial' font-weight='900' font-style='italic' font-size='20' fill='%23fff'%3EWDT%3C/text%3E%3C/svg%3E")
 ICONS = f'<link rel="icon" href="{ICON_SVG}"><link rel="apple-touch-icon" href="{BASE}img/icon-180.png">'
-SECTIONS = ["kalori", "calories", "semak", "workout", "senaman", "wanita", "ramadan", "en"]
+SECTIONS = ["kalori", "calories", "semak", "workout", "senaman", "wanita", "ramadan", "en", "banding", "makan-luar", "umur-50"]
 
 CSS = """<style>
 .snav{background:#111;border-bottom:3px solid var(--yellow)}
@@ -44,6 +44,28 @@ CSS = """<style>
 .nores{display:none;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:15px}
 :focus-visible{outline:3px solid var(--yellow);outline-offset:2px;box-shadow:0 0 0 6px #000}
 .fine{font-size:14px}
+/* dark WDT look, same family as the home page (24 Nov round 2) */
+:root{--ink:#f2f2f2;--muted:#a9a9a9;--line:#2b2b2b;--bg:#0b0b0b;--card:#161616}
+body{background:var(--bg);color:var(--ink)}
+h1{color:#fff;font-size:38px}h1:after{content:"";display:block;width:72px;height:7px;margin-top:12px;background:linear-gradient(90deg,var(--red) 0 55%,var(--yellow) 55% 100%);transform:skewX(-24deg)}
+h2{color:#fff}h2:before{content:"";display:inline-block;width:8px;height:.8em;background:var(--yellow);margin-right:10px;transform:skewX(-18deg)}
+.box h2:before,.answer h2:before{display:none}
+.lead{color:#ddd}.crumb,.crumb a{color:var(--muted)}
+.card,table,details,ul.tips li,.rel a,.list a,.menu,.day,.pick .it,.coaches,.vid,.nores{background:var(--card)!important;color:var(--ink);border-color:var(--line)!important}
+ul.tips li{border-left:5px solid var(--red)!important}
+.rel a:hover,.list a:hover{border-color:var(--yellow)!important}
+.answer{border:1px solid var(--line)}
+.search{background:var(--card);color:#fff;border-color:#444}.search::placeholder{color:#888}
+.chips button,.seg button{background:var(--card);color:#fff;border-color:#444}
+.chips button.on,.seg button.on{background:var(--yellow);color:#000;border-color:var(--yellow)}
+.q button{background:#262626;color:#fff}.q button.add{background:var(--red)}
+.coaches{border-left:5px solid var(--yellow)!important}
+.lang a,.rel a span,.list a b,.swap .n,.menu .n{color:var(--yellow)}
+.btn.w2{background:#fff;color:#000}
+.day .chk,label.l{color:#fff}
+.fine{color:var(--muted)}
+footer{border-top:1px solid #222}
+@media (min-width:700px){h1{font-size:48px}}
 </style>"""
 
 
@@ -54,7 +76,8 @@ def nav(lang, sec):
                  ("semak", "semak/", "Food check (BM)"), ("workout", "workout/", "7-day workout (BM)")]
     else:
         items = [("kalori", "kalori/", "Kalori makanan"), ("semak", "semak/", "Semak makan"), ("workout", "workout/", "Workout 7 hari"),
-                 ("senaman", "senaman/", "Senaman"), ("wanita", "wanita/", "Wanita bekerja"), ("ramadan", "ramadan/", "Ramadan")]
+                 ("banding", "banding/", "Banding makanan"), ("makan-luar", "makan-luar/", "Makan luar"),
+                 ("senaman", "senaman/", "Senaman"), ("wanita", "wanita/", "Wanita bekerja"), ("umur-50", "umur-50/", "Umur 50+"), ("ramadan", "ramadan/", "Ramadan")]
     lab = "Menu" if lang == "en" else "Menu bahagian"
     return f'<nav class="snav" aria-label="{lab}"><div class="w">' + "".join(
         f'<a href="{BASE}{h}"{" class=on aria-current=page" if k == sec else ""}>{t}</a>' for k, h, t in items) + "</div></nav>" + \

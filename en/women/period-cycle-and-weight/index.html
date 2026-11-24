@@ -94,6 +94,28 @@ ol.steps{padding-left:20px}ol.steps li{margin-bottom:8px}
 .nores{display:none;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:15px}
 :focus-visible{outline:3px solid var(--yellow);outline-offset:2px;box-shadow:0 0 0 6px #000}
 .fine{font-size:14px}
+/* dark WDT look, same family as the home page (24 Nov round 2) */
+:root{--ink:#f2f2f2;--muted:#a9a9a9;--line:#2b2b2b;--bg:#0b0b0b;--card:#161616}
+body{background:var(--bg);color:var(--ink)}
+h1{color:#fff;font-size:38px}h1:after{content:"";display:block;width:72px;height:7px;margin-top:12px;background:linear-gradient(90deg,var(--red) 0 55%,var(--yellow) 55% 100%);transform:skewX(-24deg)}
+h2{color:#fff}h2:before{content:"";display:inline-block;width:8px;height:.8em;background:var(--yellow);margin-right:10px;transform:skewX(-18deg)}
+.box h2:before,.answer h2:before{display:none}
+.lead{color:#ddd}.crumb,.crumb a{color:var(--muted)}
+.card,table,details,ul.tips li,.rel a,.list a,.menu,.day,.pick .it,.coaches,.vid,.nores{background:var(--card)!important;color:var(--ink);border-color:var(--line)!important}
+ul.tips li{border-left:5px solid var(--red)!important}
+.rel a:hover,.list a:hover{border-color:var(--yellow)!important}
+.answer{border:1px solid var(--line)}
+.search{background:var(--card);color:#fff;border-color:#444}.search::placeholder{color:#888}
+.chips button,.seg button{background:var(--card);color:#fff;border-color:#444}
+.chips button.on,.seg button.on{background:var(--yellow);color:#000;border-color:var(--yellow)}
+.q button{background:#262626;color:#fff}.q button.add{background:var(--red)}
+.coaches{border-left:5px solid var(--yellow)!important}
+.lang a,.rel a span,.list a b,.swap .n,.menu .n{color:var(--yellow)}
+.btn.w2{background:#fff;color:#000}
+.day .chk,label.l{color:#fff}
+.fine{color:var(--muted)}
+footer{border-top:1px solid #222}
+@media (min-width:700px){h1{font-size:48px}}
 </style></head><body>
 <header class="top"><div class="w"><a class="brand" href="https://kimidullz.github.io/FITNESS-QUIZ/?lang=en"><span class="logo">WDT</span><span><b>ARAMI</b><small>Coach Kimi &amp; Coach Zara</small></span></a>
 <a class="cta" href="https://kimidullz.github.io/FITNESS-QUIZ/kuiz/?src=en&amp;lang=en">Quiz 2 min</a></div></header><nav class="snav" aria-label="Menu"><div class="w"><a href="https://kimidullz.github.io/FITNESS-QUIZ/calories/">Food calories</a><a href="https://kimidullz.github.io/FITNESS-QUIZ/en/women/" class=on aria-current=page>Working women</a><a href="https://kimidullz.github.io/FITNESS-QUIZ/en/exercises/">Exercises</a><a href="https://kimidullz.github.io/FITNESS-QUIZ/en/ramadan/">Ramadan</a><a href="https://kimidullz.github.io/FITNESS-QUIZ/semak/">Food check (BM)</a><a href="https://kimidullz.github.io/FITNESS-QUIZ/workout/">7-day workout (BM)</a></div></nav><script>(()=>{const a=document.querySelector('.snav a.on');if(a)a.parentNode.scrollLeft=a.offsetLeft-16})()</script><main class="w">
