@@ -7,8 +7,11 @@ on:
   workflow_dispatch:
     inputs:
       run_id:
-        description: "API build run id that made private-plans"
+        description: "API build run id that made the private artifact"
         required: true
+      name:
+        description: "Artifact name (private-plans, private-pitch)"
+        default: private-plans
 
 permissions:
   contents: write
@@ -21,15 +24,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
-          name: private-plans
+          name: ${{ inputs.name }}
           path: private-out
           run-id: ${{ inputs.run_id }}
           github-token: ${{ github.token }}
       - run: |
           mkdir -p enc
-          openssl cms -encrypt -binary -aes256 -in private-out/plans.json -outform DER -out enc/plans.json.cms .github/keys/plans-cert.pem
+          for f in private-out/*.json; do
+            openssl cms -encrypt -binary -aes256 -in "$f" -outform DER -out "enc/$(basename "$f").cms" .github/keys/plans-cert.pem
+          done
           git config user.name "api-build"
           git config user.email "api-build@users.noreply.github.com"
-          git add enc/plans.json.cms
-          git commit -m "Encrypted private plans"
+          git add enc/
+          git commit -m "Encrypted private ${{ inputs.name }}"
           git pull --rebase && git push

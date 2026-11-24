@@ -8,7 +8,7 @@ on:
       job:
         description: "What to make"
         type: choice
-        options: [foods, notes, all, extras, foods-en, exercises, ramadan, plans, wanita, starter, build-only]
+        options: [foods, notes, all, extras, foods-en, exercises, ramadan, plans, wanita, starter, pitch, build-only]
         default: foods
       limit:
         description: "Foods only: how many new foods at most (empty = all)"
@@ -38,16 +38,17 @@ jobs:
             foods|notes|all) python seo/generate.py ${{ inputs.job }} ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }} ;;
             wanita) python seo/generate3.py wanita ;;
             starter) python seo/generate4.py ;;
+            pitch) python seo/generate5.py ;;
             *) python seo/generate2.py ${{ inputs.job }} ;;
           esac
       - name: Build pages
         if: always()
         run: python seo/build.py && python seo/build2.py && python seo/build3.py
       - name: Keep private plans as a download (not committed)
-        if: always() && hashFiles('private-out/plans.json') != ''
+        if: always() && hashFiles('private-out/*.json') != ''
         uses: actions/upload-artifact@v4
         with:
-          name: private-plans
+          name: private-${{ inputs.job }}
           path: private-out/
           retention-days: 30
       - name: Save to repo
