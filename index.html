@@ -495,6 +495,32 @@
   .container{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
   :focus-visible{outline:2px solid var(--p-gold);outline-offset:3px}
 
+
+  .p-h1.hub-h1{font-size:clamp(40px,7vw,64px);margin:14px 0 18px}
+  .hub-assess{display:flex;align-items:center;gap:12px;padding:16px 14px;border-radius:18px;background:var(--p-red);color:#fff;text-decoration:none;box-shadow:0 18px 40px -16px rgba(227,6,19,.8)}
+  .hub-assess b{display:block;font-size:18px;line-height:1.2}
+  .hub-assess small{display:block;margin-top:4px;font-size:13px;line-height:1.35;color:rgba(255,255,255,.88)}
+  .hub-assess .fr-ic{background:rgba(255,255,255,.16);color:#fff;flex:none}
+  .hub-assess .arr{margin-left:auto;flex:none;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.22);display:grid;place-items:center}
+  .hub-assess .arr svg{width:14px;height:14px}
+  #sx-hero .fr-grid{margin-top:10px}
+  @media(min-width:860px){#sx-hero .fr-grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:860px){#sx-hero .p-photo-wrap{display:none}}
+  /* free stuff section (28 Nov) */
+  #percuma{scroll-margin-top:72px}
+  .fr-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+  @media(min-width:860px){.fr-grid{grid-template-columns:repeat(3,1fr);gap:14px}}
+  .fr-tile{display:flex;flex-direction:column;gap:10px;padding:16px 14px;border:1px solid var(--p-line);border-radius:16px;background:var(--p-ink2);color:var(--p-paper);text-decoration:none;transition:border-color .25s,transform .25s var(--p-ease)}
+  .fr-tile:hover,.fr-tile:focus-visible{border-color:var(--p-gold);transform:translateY(-2px)}
+  .fr-tile b{display:block;font-size:16px;line-height:1.25}
+  .fr-tile small{display:block;margin-top:4px;font-size:13px;line-height:1.35;color:var(--p-mute)}
+  .fr-ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:rgba(255,210,0,.12);color:var(--p-gold)}
+  .fr-ic svg{width:22px;height:22px}
+  .fr-more{margin:16px 0 0;font-size:14px;line-height:2;color:var(--p-mute)}
+  .fr-more a{display:inline-block;margin:0 4px 0 0;padding:2px 12px;border:1px solid var(--p-line);border-radius:99px;color:var(--p-paper);text-decoration:none;font-size:13px;line-height:28px}
+  .fr-more a:hover{border-color:var(--p-gold)}
+  .top-free{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 12px;border:1px solid var(--p-line);border-radius:99px;color:var(--p-paper);text-decoration:none;font-size:13px;font-weight:700}
+  .top-free svg{width:16px;height:16px}
   /* top bar */
   .top{background:rgba(11,11,12,.72);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid transparent;transition:border-color .4s;top:env(safe-area-inset-top,0px)}
   .top.scrolled{border-color:var(--p-line)}
@@ -783,6 +809,7 @@
       <div class="lang" role="group" aria-label="Language">
         <button data-lang="ms">BM</button><button data-lang="en">EN</button>
       </div>
+      <a class="top-free" href="#percuma"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span data-t="navFree"></span></a>
       <a class="top-cta assess" target="_blank" rel="noopener" data-t="navCta"></a>
     </div>
   </div>
@@ -793,15 +820,20 @@
   <section class="p-hero" id="sx-hero">
     <div class="container p-hero-grid">
       <div>
-        <p class="p-eyebrow" data-t="heroKicker"></p>
-        <h1 class="p-h1" data-t="heroH"></h1>
-        <p class="p-lede" data-t="heroSub"></p>
-        <div class="p-ctas">
-          <a class="pbtn pbtn-main assess" target="_blank" rel="noopener"><span data-t="assessBtnS"></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a>
-          <a class="pbtn pbtn-ghost" href="#kit"><span data-t="heroKitBtn"></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a>
+        <p class="p-eyebrow" data-t="hubKicker"></p>
+        <h1 class="p-h1 hub-h1" data-t="hubH"></h1>
+        <div id="percuma">
+          <a class="hub-assess assess" target="_blank" rel="noopener"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.4-9.3-9A5 5 0 0 1 12 6a5 5 0 0 1 9.3 6c-2.3 4.6-9.3 9-9.3 9z"/><path d="M7 12h3l1.5-2.5L14 15l1.5-3H17"/></svg></span><span><b data-t="hubAssessH"></b><small data-t="hubAssessP"></small></span><span class="arr"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></a>
+        <div class="fr-grid">
+          <a class="fr-tile" href="#quiz-zone" data-en="#quiz-zone"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 9a3 3 0 1 1 4 2.8c-.7.3-1 .9-1 1.7V14"/><circle cx="12" cy="17.5" r=".6" fill="currentColor"/><circle cx="12" cy="12" r="9"/></svg></span><span><b data-t="frQuizH"></b><small data-t="frQuizP"></small></span></a>
+          <a class="fr-tile" href="#kalori" data-en="#kalori"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h10l4 4v14H5z"/><path d="M9 12h6M9 16h6M9 8h3"/></svg></span><span><b data-t="frPlanH"></b><small data-t="frPlanP"></small></span></a>
+          <a class="fr-tile" href="kalori/" data-en="calories/"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></span><span><b data-t="frCalH"></b><small data-t="frCalP"></small></span></a>
+          <a class="fr-tile" href="semak/" data-en="en/food-check/"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg></span><span><b data-t="frSemakH"></b><small data-t="frSemakP"></small></span></a>
+          <a class="fr-tile" href="workout/" data-en="en/workout/"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="4.5" r="2"/><path d="M6 21l3.5-6 3 2.5V22M8.5 10.5L12 8l3 3 3 1M12 8l-1.5 6.5"/></svg></span><span><b data-t="frWorkH"></b><small data-t="frWorkP"></small></span></a>
+          <a class="fr-tile" href="wanita/" data-en="en/women/"><span class="fr-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4.5"/><path d="M12 12.5V21M8.5 17.5h7"/></svg></span><span><b data-t="frWomenH"></b><small data-t="frWomenP"></small></span></a>
         </div>
-        <p class="p-note" data-t="assessNote"></p>
-        <div class="p-ticks" data-t="heroTicks"></div>
+        <p class="fr-more"><span data-t="frMore"></span> <a href="senaman/" data-en="en/exercises/" data-ten="Exercise guides">Panduan senaman</a> <a href="makan-luar/" data-en="en/eat-out/" data-ten="Eating out: what to order">Makan luar: apa nak order</a> <a href="banding/" data-en="en/compare/" data-ten="Food comparisons">Banding makanan</a> <a href="umur-50/" data-en="en/over-50/" data-ten="Age 50+">Umur 50 ke atas</a> <a href="ramadan/" data-en="en/ramadan/" data-ten="Ramadan guide">Panduan Ramadan</a></p>
+        </div>
         <a class="p-zara" href="#zara" data-t="heroZara"></a>
       </div>
       <div class="p-photo-wrap rv">
@@ -1339,7 +1371,7 @@ const TXT = {
       ["What if it doesn't work for me?","If your weight hasn't moved after 2 weeks, we look at what isn't working together and change the plan. We don't blame you. If something doesn't fit your life (work, family, food you love), tell your coach at the weekly check-in and the plan is changed with you. Most people who struggle just need a smaller first step, and that's your coach's job."]
     ],
     finalH:"Know your body first. <em>It's free.</em>",
-    assessBtnS:"Free body assessment", heroKitBtn:"Free 7-day starter kit", chip1:"Eka · still ate rice", heroPhotoCap:"Husband-and-wife online coaches · Malaysia", heroLive:"Replies 8am-10pm",
+    assessBtnS:"Free body assessment", heroKitBtn:"Free 7-day starter kit", hubKicker:"Coach Kimi &amp; Coach Zara · all free", hubH:"All <em>free.</em> Pick one.", hubAssessH:"Free body assessment", hubAssessP:"Losing weight isn't the same as losing fat. Know your body first. A coach replies within 1 hour.", frEyebrow:"Free for you", frBtn:"See everything free", frH:"Start free. Pick one.", frMore:"More free guides:", frQuizH:"Quiz: your program plan", frQuizP:"2 minutes \u00b7 why your weight won't drop + a 3-day plan", frPlanH:"Free meal plan", frPlanP:"Calorie calculator + PDF menu", frCalH:"Food calories", frCalP:"120 Malaysian foods", frSemakH:"Check yesterday's food", frSemakP:"See what to change today", frWorkH:"7-day home workout", frWorkP:"20 minutes, no gym", frWomenH:"Working women", frWomenP:"Fat loss guides from Coach Zara", navFree:"Free", chip1:"Eka · still ate rice", heroPhotoCap:"Husband-and-wife online coaches · Malaysia", heroLive:"Replies 8am-10pm",
     stripTeam:"Team client", stripRice:"Still eating rice",
     storyQ:"I was 84 kg. Got down to 60 kg but <em>skinny fat</em>. Now 70 kg, and stronger.", kgStart:"Start", kgNow:"Now · 19% fat", kgBefore:"Before", kgNow2:"Now",
     vsEyebrow:"Why this is different", vsH:"Usual diet vs <em>our way.</em>", vsA:"Usual diet", vsB:"The ARAMI way",
@@ -1539,7 +1571,7 @@ const TXT = {
       ["Kalau tak menjadi untuk saya macam mana?","Kalau berat tak bergerak selepas 2 minggu, kita semak bersama apa yang tak kena dan ubah pelan, bukan salahkan anda. Kalau ada yang tak sesuai dengan hidup anda (kerja, keluarga, makanan kegemaran), beritahu coach masa check-in mingguan dan pelan diubah bersama anda. Kebanyakan yang susah cuma perlukan langkah pertama yang lebih kecil, dan itu kerja coach."]
     ],
     finalH:"Kenal badan anda dulu. <em>Percuma.</em>",
-    assessBtnS:"Semak badan PERCUMA", heroKitBtn:"Kit Mula 7 Hari percuma", chip1:"Eka · masih makan nasi", heroPhotoCap:"Pasangan coach online · Malaysia", heroLive:"Balas 8am-10pm",
+    assessBtnS:"Semak badan PERCUMA", heroKitBtn:"Kit Mula 7 Hari percuma", hubKicker:"Coach Kimi &amp; Coach Zara · semua percuma", hubH:"Semua <em>percuma.</em> Pilih satu.", hubAssessH:"Semak badan PERCUMA", hubAssessP:"Turun berat tak sama dengan turun lemak. Kenal badan anda dulu. Coach balas dalam 1 jam.", frEyebrow:"Percuma untuk anda", frBtn:"Lihat semua yang percuma", frH:"Mula percuma. Pilih satu.", frMore:"Lagi panduan percuma:", frQuizH:"Kuiz: pelan program anda", frQuizP:"2 minit \u00b7 kenapa berat tak turun + pelan 3 hari", frPlanH:"Meal plan percuma", frPlanP:"Kalkulator kalori + menu PDF", frCalH:"Kalori makanan", frCalP:"120 makanan Malaysia", frSemakH:"Semak makan semalam", frSemakP:"Tahu apa nak ubah hari ni", frWorkH:"Workout 7 hari", frWorkP:"20 minit, tak perlu gym", frWomenH:"Wanita bekerja", frWomenP:"Panduan turun lemak dari Coach Zara", navFree:"Percuma", chip1:"Eka · masih makan nasi", heroPhotoCap:"Pasangan coach online · Malaysia", heroLive:"Balas 8am-10pm",
     stripTeam:"Klien team", stripRice:"Masih makan nasi",
     storyQ:"Saya pernah 84 kg. Turun ke 60 kg tapi <em>skinny fat</em>. Sekarang 70 kg, lebih kuat.", kgStart:"Mula", kgNow:"Sekarang · 19% lemak", kgBefore:"Dulu", kgNow2:"Sekarang",
     vsEyebrow:"Kenapa cara ni lain", vsH:"Diet biasa vs <em>cara kami.</em>", vsA:"Diet biasa", vsB:"Cara ARAMI",
@@ -1732,6 +1764,8 @@ function applyLang(){
   $("income-foot").href = LANG==="en" ? "peluang.html?lang=en" : "peluang.html";
   document.querySelectorAll("footer [data-ten]").forEach(a=>{ if(!a.dataset.tms){ a.dataset.tms=a.textContent; a.dataset.hms=a.getAttribute("href"); }
     a.textContent = LANG==="en" ? a.dataset.ten : a.dataset.tms; a.setAttribute("href", LANG==="en" && a.dataset.en ? a.dataset.en : a.dataset.hms); });
+  document.querySelectorAll("#percuma [data-en]").forEach(a=>{ if(!a.dataset.hms) a.dataset.hms=a.getAttribute("href"); a.setAttribute("href", LANG==="en" ? a.dataset.en : a.dataset.hms);
+    if(a.dataset.ten){ if(!a.dataset.tms) a.dataset.tms=a.textContent; a.textContent = LANG==="en" ? a.dataset.ten : a.dataset.tms; } });
   document.querySelectorAll("footer .ms-only").forEach(a=>a.hidden = LANG==="en");
   $("share").href = shareLink(false);
   if(typeof calcLang==="function"){ calcLang(); h7Lang(); kitRender(); }
