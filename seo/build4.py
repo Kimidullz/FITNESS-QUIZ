@@ -74,6 +74,9 @@ def main():
     for d in women:
         path = f"en/women/{d['slug_en']}/"
         r = rel_src.get(f"wanita/{d['slug']}", {})
+        bmj = SEO / "wanita" / f"{d['slug']}.json"
+        if not r and bmj.exists():
+            r = {"same": [f"wanita/{x}" for x in json.loads(bmj.read_text()).get("related", [])]}
         rel = rel_en(r.get("same", []) + r.get("other", []), m, women, ex) or "".join(
             [f'<a href="{BASE}en/women/{x["slug_en"]}/">{E(x["title"])}</a>' for x in women if x is not d][:6])
         build2.write(path.rstrip("/"), build2.head(d["title"] if len(d["title"]) > 50 else f"{d['title']} | Coach Zara", d["intro"][:155], path, "en", faq_ld(d),

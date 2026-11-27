@@ -18,7 +18,7 @@ import build3  # noqa: E402  (sets build2.PUBLISH2 = True on import)
 import build4  # noqa: E402
 from build import BASE, E  # noqa: E402
 
-PUBLISH7 = False
+PUBLISH7 = True
 SEO, ROOT = build2.SEO, build2.ROOT
 
 

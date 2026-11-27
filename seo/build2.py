@@ -98,6 +98,9 @@ def related_for(sec, slug, pages):
     r = json.loads(rp.read_text()).get(f"{sec}/{slug}") if rp.exists() else None
     if r and r["same"]:
         return r["same"] + r["other"]
+    own = next((x.get("related") for x in pages if x["slug"] == slug), None)
+    if own:
+        return [f"{sec}/{x}" for x in own]
     return [f"{sec}/{x['slug']}" for x in pages if x["slug"] != slug][:6]
 
 
