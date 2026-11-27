@@ -81,6 +81,17 @@ EXERCISES = [
     ("senaman-wanita-beginner", "Senaman wanita untuk beginner di rumah", ""),
     ("cardio-vs-angkat-beban", "Cardio atau angkat beban: mana lebih bagus untuk turun lemak?", ""),
     ("senaman-orang-gemuk", "Senaman untuk orang berat badan tinggi (selamat untuk lutut)", ""),
+    # 28 Nov: gentle / injury set (big body, sore joints, after injury)
+    ("senaman-duduk-kerusi", "Senaman sambil duduk di kerusi (untuk badan besar atau sendi sakit)", ""),
+    ("senaman-sakit-lutut", "Senaman bila lutut sakit: apa yang selamat di rumah", ""),
+    ("senaman-sakit-belakang", "Senaman ringan bila sakit belakang (bawah)", ""),
+    ("senaman-sakit-bahu", "Senaman ringan bila bahu sakit atau kaku", ""),
+    ("senaman-100kg-mula", "Berat 100kg ke atas: cara mula bersenam di rumah", ""),
+    ("senaman-tanpa-lompat", "Senaman tanpa lompat (low impact) 15 minit", ""),
+    ("jalan-kaki-badan-besar", "Jalan kaki untuk badan besar: cara mula tanpa sakit lutut", ""),
+    ("senaman-atas-katil", "Senaman ringan atas katil (untuk yang susah bangun atau baru sembuh)", ""),
+    ("senaman-lepas-cedera", "Mula bersenam semula lepas cedera: langkah selamat", ""),
+    ("regangan-pinggul-ketat", "Regangan untuk pinggul ketat dan sakit duduk lama", ""),
 ]
 EX_SCHEMA = obj({"pages": arr(obj({
     "slug": S(), "title": S(description="H1 in BM, the way people search"), "intro": S(description="2 sentences, direct answer"),
@@ -98,7 +109,10 @@ def run_exercises():
         batch = todo[i:i + 6]
         prompt = ("Write BM exercise guide pages for busy Malaysian beginners exercising at home with no equipment. "
                   "Steps: 4-6 short numbered cues. Mistakes: 3. FAQ: 3 real questions. Never promise spot reduction "
-                  "(fat loss comes from overall eating + movement); say so kindly on belly/arm/thigh pages.\n\n"
+                  "(fat loss comes from overall eating + movement); say so kindly on belly/arm/thigh pages. Pages about a big body (100kg+), knee/back/shoulder pain, bed or chair exercise, "
+                  "or coming back after injury: low impact only (no jumping, no deep squats), short sessions, seated or wall options, "
+                  "pain-free range; stop if pain is sharp, and see a doctor/physio first after surgery, a recent injury, "
+                  "chest pain or dizziness. Never diagnose.\n\n"
                   + "\n".join(f"- slug {s}: {t}" for s, t, _ in batch))
         got = call(prompt, EX_SCHEMA)["pages"]
         for d in got:
