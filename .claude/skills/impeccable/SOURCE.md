@@ -1,0 +1,1 @@
+Copied from https://github.com/pbakaus/impeccable (plugin/skills/impeccable) at commit 2fc5e14, v4.11.1, Apache 2.0. Skill folder only: the plugin's SessionStart/PostToolUse/Stop hooks are NOT installed. The scripts/impeccable launcher downloads a helper binary on first use; if it is blocked, the skill falls back to reading the reference files.
