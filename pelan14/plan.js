@@ -313,8 +313,14 @@ const EX = {
   deadbug:{ms:"Dead bug",en:"Dead bug",v:"GbSC02oU3To",c_ms:"Baring, tangan dan lutut ke atas, turunkan tangan dan kaki bertentangan, belakang rapat lantai.",c_en:"Lie down, arms and knees up, lower the opposite arm and leg, back pressed to the floor."},
   calf:{ms:"Calf raise",en:"Calf raise",v:"k8ipHzKeAkQ",c_ms:"Berdiri, jengket perlahan, turun perlahan. Pegang dinding kalau perlu.",c_en:"Stand, rise onto your toes slowly, lower slowly. Hold a wall if needed."},
   stepup:{ms:"Step-up (tangga)",en:"Step-up (stairs)",v:"VJtMb2im41c",c_ms:"Naik satu anak tangga dengan satu kaki, turun perlahan, tukar kaki.",c_en:"Step up one stair with one foot, step down slowly, switch legs."},
+  // gentle level (28 Nov, Kimi: bigger bodies + sore joints): seated or holding a support, no jumping, no floor
+  smarch:{ms:"Jalan setempat sambil duduk",en:"Seated march",v:"",c_ms:"Duduk tegak di kerusi, angkat lutut bergilir, hayun tangan.",c_en:"Sit tall on a chair, lift your knees in turn, swing your arms."},
+  legext:{ms:"Luruskan kaki sambil duduk",en:"Seated leg extension",v:"",c_ms:"Duduk tegak, luruskan satu kaki perlahan, tahan 2 saat, turun. Tukar kaki.",c_en:"Sit tall, straighten one leg slowly, hold 2 seconds, lower. Switch legs."},
+  armraise:{ms:"Angkat tangan sambil duduk",en:"Seated arm raise",v:"",c_ms:"Duduk tegak, angkat dua tangan ke atas perlahan, turun perlahan. Berhenti kalau bahu sakit.",c_en:"Sit tall, raise both arms overhead slowly, lower slowly. Stop if your shoulder hurts."},
+  sidestep:{ms:"Langkah ke tepi",en:"Side step",v:"",c_ms:"Berdiri dekat dinding atau meja, langkah ke kiri dan kanan perlahan. Pegang kalau perlu.",c_en:"Stand near a wall or table, step left and right slowly. Hold on if you need to."},
 };
 const SESS = {
+  gentle:[["smarch","sts","wallpu","legext","calf"], ["armraise","legext","wallpu","sidestep","smarch"]],
   new:   [["sts","wallpu","bridge","birddog","calf"], ["deadbug","stepup","kplank","bridge","wallpu"]],
   some:  [["squat","kneepu","bridge","plank"], ["lunge","birddog","stepup","side"]],
   active:[["squat","pu","lunge","plank","bridge"], ["stepup","pu","deadbug","side","calf"]],

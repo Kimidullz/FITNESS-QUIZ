@@ -88,6 +88,11 @@
   .c-big span{font-size:14px;color:var(--muted)}
   .c-h{font-size:17px;font-weight:800;margin-top:6px}
   .c-tips{list-style:none;font-size:14px;display:grid;gap:4px}
+  .c-more{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:4px 0 6px}
+  .c-more div{border:1px solid var(--line,#ddd);border-radius:12px;padding:10px 12px}
+  .c-more b{display:block;font-size:18px;line-height:1.2}
+  .c-more span{font-size:12.5px;color:var(--muted);line-height:1.35;display:block}
+  .c-more .wide{grid-column:1/-1}
   .c-tips li::before{content:"↻ ";font-weight:800}
   .c-next{background:var(--bg);border-radius:10px;padding:14px;display:grid;gap:8px}
   .c-next p{font-size:14px;color:var(--muted)}
@@ -1062,12 +1067,14 @@
           <label><span data-t="calWt"></span><input type="number" id="c-wt" inputmode="decimal" min="35" max="250" placeholder="65"></label>
         </div>
         <label><span data-t="calAct"></span><select id="c-act"></select></label>
+        <label><span data-t="calTgt"></span><input type="number" id="c-tgt" inputmode="decimal" min="35" max="250" placeholder="—"></label>
         <label class="chk"><input type="checkbox" id="c-preg"> <span data-t="calPreg"></span></label>
         <button class="btn" id="c-go" type="button" data-t="calGo"></button>
         <p class="c-err" id="c-err"></p>
         <div id="c-out" hidden>
           <div class="c-big"><b id="c-kcal"></b><span data-t="calPerDay"></span></div>
           <div class="c-big"><b id="c-pro"></b><span data-t="calProDay"></span></div>
+          <div class="c-more" id="c-more"></div>
           <a class="btn" id="c-pdf" target="_blank" rel="noopener"><span id="c-pdfBtn"></span></a>
           <p class="c-inapp" id="c-inapp" data-t="calInApp" hidden></p>
           <a class="c-rem" id="c-rem" target="_blank" rel="noopener" data-t="calRem"></a>
@@ -1238,6 +1245,13 @@ const TXT = {
   en: {
     calEyebrow:"Free calculator", calH:"How many calories <em>do I need a day?</em>",
     calLede:"Get your daily calorie range, protein target and a free meal plan to lose fat or gain weight: menu, recipes and a 7-day tracker. Takes 30 seconds.",
+    calTgt:"Goal weight (kg, optional)",
+    calMore:{meal:"protein per meal (3 meals). 1 palm of chicken or fish ≈ 25 g", water:"water a day (more if you sweat a lot)",
+      waist:"healthy waist for Malaysians: under %W cm. Measure at the belly button", steps:"steps a day. Start from what you do now, add 1,000 a week",
+      bmi:"BMI (Asian cut-offs: 23+ overweight, 27.5+ obese). Just a starting point, waist matters more",
+      time:"to reach %T kg at a safe pace (0.5–0.75 kg a week). An estimate, not a promise", timeG:"to reach %T kg at a healthy pace (0.25–0.5 kg a week). An estimate, not a promise",
+      big:"Bigger body or sore knees? Start with the gentle level in our <a href='en/workout/?lvl=gentle'>free home workout</a>: no jumping, chair and wall moves.",
+      wk:"weeks", mo:"months", tgtBad:"Your goal weight is in the other direction. Check the goal button above."},
     calF:"Female", calM:"Male", calAge:"Age", calHt:"Height (cm)", calWt:"Weight (kg)", calAct:"How active are you?",
     calActs:["Mostly sitting (office work, driving)","Shift work or on your feet a lot (factory, counter, security)","Lots of walking at work (nurse, retail, delivery, teacher)","Exercise 3-5x a week","Heavy physical work or train almost every day"],
     calPreg:"I'm pregnant or breastfeeding",
@@ -1438,6 +1452,13 @@ const TXT = {
   ms: {
     calEyebrow:"Kalkulator percuma", calH:"Berapa kalori <em>saya perlu sehari?</em>",
     calLede:"Dapatkan anggaran kalori, sasaran protein dan meal plan percuma untuk turun lemak atau naik berat: menu, resipi dan tracker 7 hari. 30 saat.",
+    calTgt:"Berat sasaran (kg, tak wajib)",
+    calMore:{meal:"protein setiap kali makan (3 kali). 1 tapak tangan ayam atau ikan ≈ 25 g", water:"air sehari (lebih kalau banyak berpeluh)",
+      waist:"lilitan pinggang sihat untuk orang Malaysia: bawah %W cm. Ukur paras pusat", steps:"langkah sehari. Mula dari yang anda buat sekarang, tambah 1,000 seminggu",
+      bmi:"BMI (ukuran Asia: 23+ berlebihan berat, 27.5+ obes). Cuma titik mula, pinggang lebih penting",
+      time:"untuk capai %T kg pada kadar selamat (0.5–0.75 kg seminggu). Anggaran, bukan janji", timeG:"untuk capai %T kg pada kadar sihat (0.25–0.5 kg seminggu). Anggaran, bukan janji",
+      big:"Badan besar atau lutut sakit? Mula dengan tahap ringan dalam <a href='workout/?lvl=gentle'>senaman rumah percuma</a> kami: tanpa lompat, guna kerusi dan dinding.",
+      wk:"minggu", mo:"bulan", tgtBad:"Berat sasaran anda arah bertentangan. Semak butang matlamat di atas."},
     calF:"Perempuan", calM:"Lelaki", calAge:"Umur", calHt:"Tinggi (cm)", calWt:"Berat (kg)", calAct:"Seaktif mana anda?",
     calActs:["Banyak duduk (kerja pejabat, memandu)","Kerja syif atau banyak berdiri (kilang, kaunter, guard)","Banyak berjalan masa kerja (nurse, retail, delivery, cikgu)","Bersenam 3-5x seminggu","Kerja fizikal berat atau bersenam hampir setiap hari"],
     calPreg:"Saya mengandung atau menyusu",
@@ -2190,6 +2211,7 @@ function runCalc(){
   const lo = gain ? r50(k-100) : Math.max(calc.sex==="m" ? 1500 : 1200, r50(k-100));
   const range = tight ? `~${lo.toLocaleString()}` : `${lo.toLocaleString()}–${(lo+200).toLocaleString()}`;
   $("c-kcal").textContent = range + " kcal"; $("c-pro").textContent = pro + " g";
+  calMore(gain, kg, bmi, pro, act);
   $("c-rem").href = calReminder(); $("c-rem").hidden = gain;   // the Day 7 check-in measures waist loss
   // explain whenever the PDF's calories fall outside the range shown (gain tiers are 300 apart)
   const extra = tight ? T.calFloor : k > +tier + (gain ? 100 : 150) ? (gain ? T.calHigherG : T.calHigher) : +tier > k + 100 ? (gain ? T.calGainLess : T.calLower) : "";
@@ -2207,6 +2229,21 @@ function runCalc(){
   calNext();
   $("c-out").hidden = false;
 }
+// extra numbers under the result (28 Nov): protein per meal, water, waist, steps, BMI, time to goal weight
+function calMore(gain, kg, bmi, pro, act){
+  const M = T.calMore, tg = +$("c-tgt").value, box = (b, t, w) => `<div${w ? ' class="wide"' : ""}><b>${b}</b><span>${t}</span></div>`;
+  let h = box(`~${Math.round(pro/3/5)*5} g`, M.meal) + box(`${(Math.round(kg*0.033*10)/10).toFixed(1)} L`, M.water)
+    + box(`${bmi.toFixed(1)}`, M.bmi) + box(gain ? "6,000+" : act >= 2 ? "8,000–10,000" : "6,000–8,000", M.steps)
+    + box(`< ${calc.sex === "m" ? 90 : 80} cm`, M.waist.replace("%W", calc.sex === "m" ? 90 : 80), true);
+  if(tg >= 35 && tg <= 250 && Math.abs(tg - kg) >= 0.5){
+    const d = Math.abs(tg - kg), right = gain ? tg > kg : tg < kg;
+    const w0 = Math.ceil(d/(gain ? 0.5 : 0.75)), w1 = Math.ceil(d/(gain ? 0.25 : 0.5)), mo = w0 >= 8 ? ` <small style="font-size:13px;font-weight:600">(~${Math.round(w0/4.35)}–${Math.round(w1/4.35)} ${M.mo})</small>` : "";
+    h += right ? box(`${w0}–${w1} ${M.wk}${mo}`, (gain ? M.timeG : M.time).replace("%T", tg), true)
+      : box("↺", M.tgtBad, true);
+  }
+  if(!gain && (bmi >= 30 || kg >= 100)) h += `<div class="wide"><span style="font-size:14px;color:inherit">${M.big}</span></div>`;
+  $("c-more").innerHTML = h;
+}
 function calNext(){
   const done = view==="result", gain = calc.goal==="gain", q = s => document.querySelector(".c-next " + s);
   q("b").innerHTML = gain ? T.calNextHG : T.calNextH;
@@ -2217,6 +2254,7 @@ function calNext(){
 $("c-sex").querySelectorAll("button").forEach(b=>b.onclick=()=>{ calc.sex = b.dataset.v; calcLang(); });
 $("c-goal").querySelectorAll("button").forEach(b=>b.onclick=()=>{ const retry = !!$("c-err").textContent; calc.goal = b.dataset.v; $("c-err").textContent = ""; calcLang(); if(retry) runCalc(); calNext(); });
 $("c-act").onchange = ()=>{ if(!$("c-out").hidden) runCalc(); };
+$("c-tgt").onchange = ()=>{ if(!$("c-out").hidden) runCalc(); };
 $("c-go").onclick = ()=>{ runCalc(); if(!$("c-out").hidden) $("c-kcal").scrollIntoView({behavior:"smooth",block:"center"}); };
 
 // ---------- Kit Mula 7 Hari: ticks + start date saved in this browser only ----------

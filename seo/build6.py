@@ -97,19 +97,20 @@ const st={lvl:"",min:"",sex:"",knee:false,back:false};
 document.addEventListener("click",e=>{const b=e.target.closest("button[data-k]");if(!b)return;st[b.dataset.k]=b.dataset.v;
  document.querySelectorAll(`button[data-k="${b.dataset.k}"]`).forEach(x=>x.classList.toggle("on",x===b))});
 const DOSE={10:[2,30,20],20:[3,40,20],30:[4,45,15]};
+{const q=new URLSearchParams(location.search).get("lvl");const b=q&&document.querySelector(`button[data-k="lvl"][data-v="${q.replace(/[^a-z]/g,"")}"]`);if(b)b.click();}
 function sess(list){return [...new Set(list.map(k=>st.knee&&SWAP_KNEE[k]?SWAP_KNEE[k]:k).map(k=>st.back&&SWAP_BACK[k]?SWAP_BACK[k]:k))]}
 $("go").onclick=()=>{st.knee=$("knee").checked;st.back=$("back").checked;
  const miss=["lvl","min","sex"].find(k=>!st[k]);if(miss){$("f-"+miss).scrollIntoView({behavior:"smooth",block:"center"});$("f-"+miss).style.outline="3px solid #E30613";$("miss").textContent="Pick first: "+{lvl:"your level",min:"time per day",sex:"male or female"}[miss]+" ↑";$("miss").hidden=false;return}$("miss").hidden=true;
- const [r,on,off]=DOSE[st.min], A=sess(SESS[st.lvl][0]), B=sess(SESS[st.lvl][1]);
- const walk={10:15,20:20,30:30}[st.min];
- const ex=list=>`<ol>${list.map(k=>`<li><b>${EX[k].en}</b>: ${EX[k].c_en} <a href="https://www.youtube.com/watch?v=${EX[k].v}" target="_blank" rel="noopener">Watch video →</a></li>`).join("")}</ol>`;
- const days=[["Day 1","Workout A",ex(A)],["Day 2","Walk",`<p>Brisk walk for ${walk} minutes. You can split it in 2 (morning + evening).</p>`],["Day 3","Workout B",ex(B)],["Day 4","Walk",`<p>Brisk walk for ${walk} minutes, or 10 minutes up and down the stairs.</p>`],["Day 5","Workout A",ex(A)],["Day 6","Workout B (optional) or walk",ex(B)],["Day 7","Rest + check-in","<p>Rest. Measure your waist and ask yourself: more energy? sleeping better?</p>"]];
+ const g=st.lvl==="gentle", [r0,on0,off0]=DOSE[st.min], r=g?Math.max(2,r0-1):r0, on=g?20:on0, off=g?40:off0, A=sess(SESS[st.lvl][0]), B=sess(SESS[st.lvl][1]);
+ const walk=g?{10:5,20:10,30:15}[st.min]:{10:15,20:20,30:30}[st.min];
+ const ex=list=>`<ol>${list.map(k=>`<li><b>${EX[k].en}</b>: ${EX[k].c_en} ${EX[k].v?`<a href="https://www.youtube.com/watch?v=${EX[k].v}" target="_blank" rel="noopener">Watch video →</a>`:""}</li>`).join("")}</ol>`;
+ const days=[["Day 1","Workout A",ex(A)],["Day 2","Walk",(g?`<p>Easy walk for ${walk} minutes, at your own pace. You can split it into 2-3 short walks.</p>`:`<p>Brisk walk for ${walk} minutes. You can split it in 2 (morning + evening).</p>`)],["Day 3","Workout B",ex(B)],["Day 4","Walk",(g?`<p>Easy walk for ${walk} minutes. If your knees hurt, do the seated march instead.</p>`:`<p>Brisk walk for ${walk} minutes, or 10 minutes up and down the stairs.</p>`)],["Day 5","Workout A",ex(A)],["Day 6","Workout B (optional) or walk",ex(B)],["Day 7","Rest + check-in","<p>Rest. Measure your waist and ask yourself: more energy? sleeping better?</p>"]];
  let done={};try{done=JSON.parse(localStorage.getItem("wk7")||"{}")}catch(e){}
- $("plan").innerHTML=`<div class="card" style="margin-bottom:12px"><b>How to do it:</b> each exercise ${on} seconds, rest ${off} seconds. All of them = 1 round. Do <b>${r} rounds</b> (~${st.min} minutes). Start with 2-3 minutes of marching in place.</div>`+
+ $("plan").innerHTML=`<div class="card" style="margin-bottom:12px"><b>How to do it:</b> each exercise ${on} seconds, rest ${off} seconds. All of them = 1 round. Do <b>${r} rounds</b> (~${st.min} minutes). Start with 2-3 minutes of marching in place.${g?" Gentle level: use a sturdy chair, no jumping, no lying on the floor. Able to talk while you move = the right pace.":""}</div>`+
   days.map((d,i)=>`<div class="day"><h3>${d[0]} · ${d[1]}</h3>${d[2]}<label class="chk"><input type="checkbox" data-d="${i}" ${done[i]?"checked":""}> Done</label></div>`).join("");
  const c=CO[st.sex];
  const go=()=>{const n=Object.values(done).filter(Boolean).length;
-  const msg=`Hi ${c[0]}! I did the 7-Day Home Workout from your website.\\nLevel: ${{new:"just starting",some:"exercise sometimes",active:"active"}[st.lvl]}, ${st.min} minutes.\\nDone: ${n} of 7 days.\\nWhat's my next step?`;
+  const msg=`Hi ${c[0]}! I did the 7-Day Home Workout from your website.\\nLevel: ${{gentle:"gentle (bigger body / sore joints)",new:"just starting",some:"exercise sometimes",active:"active"}[st.lvl]}, ${st.min} minutes.\\nDone: ${n} of 7 days.\\nWhat's my next step?`;
   $("wa").href=`https://wa.me/${c[1]}?text=${encodeURIComponent(msg)}`;$("wa").textContent=`Send my progress to ${c[0]} →`};
  go();document.querySelectorAll("[data-d]").forEach(x=>x.onchange=()=>{done[x.dataset.d]=x.checked;try{localStorage.setItem("wk7",JSON.stringify(done))}catch(e){};go()});
  $("res").classList.add("on");$("res").scrollIntoView({behavior:"smooth"})};
@@ -123,11 +124,12 @@ $("go").onclick=()=>{st.knee=$("knee").checked;st.back=$("back").checked;
 <h1>7-Day Home Workout</h1>
 <p class="lead">Answer 3 questions and get a 7-day plan for your level. No equipment, no gym, with a how-to video for every exercise.</p>
 <p class="lang">Read in Malay: <a href="{BASE}workout/">Workout 7 Hari di Rumah</a></p>
-<div id="f-lvl"><label class="l">Your level now</label><div class="seg">{seg("lvl", [("new", "Just starting"), ("some", "Sometimes"), ("active", "Active")])}</div></div>
+<div id="f-lvl"><label class="l">Your level now</label><div class="seg">{seg("lvl", [("gentle", "Bigger body / sore joints"), ("new", "Just starting"), ("some", "Sometimes"), ("active", "Active")])}</div></div>
 <div id="f-min"><label class="l">Time per day</label><div class="seg">{seg("min", [("10", "10 min"), ("20", "20 min"), ("30", "30 min")])}</div></div>
 <div id="f-sex"><label class="l">You are</label><div class="seg">{seg("sex", [("f", "Female"), ("m", "Male")])}</div></div>
 <label class="chk" style="display:flex;gap:8px;margin:6px 0"><input type="checkbox" id="knee"> My knees often hurt</label>
 <label class="chk" style="display:flex;gap:8px;margin:6px 0 14px"><input type="checkbox" id="back"> My lower back often hurts</label>
+<p class="fine" style="margin:-8px 0 14px">New injury, recent surgery, or pain that keeps getting worse? See a doctor or physio before you start.</p>
 <p id="miss" hidden style="color:var(--red);font-weight:700;margin:0 0 6px"></p><button class="btn r" id="go" style="width:100%;border:0;font:800 16px Montserrat">Make my plan →</button>
 <section class="res" id="res"><h2>Your 7-day plan</h2><div id="plan"></div>
 <div class="box"><h2>Day 7: send your progress</h2><p>Tick the days you finished, then send them to your coach. Your coach will give you the next step based on your progress.</p>

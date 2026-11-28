@@ -251,19 +251,20 @@ const st={lvl:"",min:"",sex:"",knee:false,back:false};
 document.addEventListener("click",e=>{const b=e.target.closest("button[data-k]");if(!b)return;st[b.dataset.k]=b.dataset.v;
  document.querySelectorAll(`button[data-k="${b.dataset.k}"]`).forEach(x=>x.classList.toggle("on",x===b))});
 const DOSE={10:[2,30,20],20:[3,40,20],30:[4,45,15]};
+{const q=new URLSearchParams(location.search).get("lvl");const b=q&&document.querySelector(`button[data-k="lvl"][data-v="${q.replace(/[^a-z]/g,"")}"]`);if(b)b.click();}
 function sess(list){return [...new Set(list.map(k=>st.knee&&SWAP_KNEE[k]?SWAP_KNEE[k]:k).map(k=>st.back&&SWAP_BACK[k]?SWAP_BACK[k]:k))]}
 $("go").onclick=()=>{st.knee=$("knee").checked;st.back=$("back").checked;
  const miss=["lvl","min","sex"].find(k=>!st[k]);if(miss){$("f-"+miss).scrollIntoView({behavior:"smooth",block:"center"});$("f-"+miss).style.outline="3px solid #E30613";$("miss").textContent="Pilih dulu: "+{lvl:"tahap anda",min:"masa sehari",sex:"lelaki atau perempuan"}[miss]+" ↑";$("miss").hidden=false;return}$("miss").hidden=true;
- const [r,on,off]=DOSE[st.min], A=sess(SESS[st.lvl][0]), B=sess(SESS[st.lvl][1]);
- const walk={10:15,20:20,30:30}[st.min];
- const ex=list=>`<ol>${list.map(k=>`<li><b>${EX[k].ms}</b>: ${EX[k].c_ms} <a href="https://www.youtube.com/watch?v=${EX[k].v}" target="_blank" rel="noopener">Tengok video →</a></li>`).join("")}</ol>`;
- const days=[["Hari 1","Senaman A",ex(A)],["Hari 2","Jalan kaki",`<p>Jalan laju ${walk} minit. Boleh pecah 2 kali (pagi + petang).</p>`],["Hari 3","Senaman B",ex(B)],["Hari 4","Jalan kaki",`<p>Jalan laju ${walk} minit, atau naik turun tangga 10 minit.</p>`],["Hari 5","Senaman A",ex(A)],["Hari 6","Senaman B (pilihan) atau jalan",ex(B)],["Hari 7","Rehat + semak","<p>Rehat. Ukur pinggang dan tanya diri: tenaga lebih baik? tidur lebih lena?</p>"]];
+ const g=st.lvl==="gentle", [r0,on0,off0]=DOSE[st.min], r=g?Math.max(2,r0-1):r0, on=g?20:on0, off=g?40:off0, A=sess(SESS[st.lvl][0]), B=sess(SESS[st.lvl][1]);
+ const walk=g?{10:5,20:10,30:15}[st.min]:{10:15,20:20,30:30}[st.min];
+ const ex=list=>`<ol>${list.map(k=>`<li><b>${EX[k].ms}</b>: ${EX[k].c_ms} ${EX[k].v?`<a href="https://www.youtube.com/watch?v=${EX[k].v}" target="_blank" rel="noopener">Tengok video →</a>`:""}</li>`).join("")}</ol>`;
+ const days=[["Hari 1","Senaman A",ex(A)],["Hari 2","Jalan kaki",(g?`<p>Jalan perlahan ${walk} minit, ikut keselesaan. Boleh pecah 2-3 kali sehari.</p>`:`<p>Jalan laju ${walk} minit. Boleh pecah 2 kali (pagi + petang).</p>`)],["Hari 3","Senaman B",ex(B)],["Hari 4","Jalan kaki",(g?`<p>Jalan perlahan ${walk} minit. Kalau lutut sakit, buat jalan setempat sambil duduk.</p>`:`<p>Jalan laju ${walk} minit, atau naik turun tangga 10 minit.</p>`)],["Hari 5","Senaman A",ex(A)],["Hari 6","Senaman B (pilihan) atau jalan",ex(B)],["Hari 7","Rehat + semak","<p>Rehat. Ukur pinggang dan tanya diri: tenaga lebih baik? tidur lebih lena?</p>"]];
  let done={};try{done=JSON.parse(localStorage.getItem("wk7")||"{}")}catch(e){}
- $("plan").innerHTML=`<div class="card" style="margin-bottom:12px"><b>Cara buat:</b> setiap senaman ${on} saat, rehat ${off} saat. Habis semua = 1 pusingan. Buat <b>${r} pusingan</b> (~${st.min} minit). Mula dengan 2-3 minit jalan setempat.</div>`+
+ $("plan").innerHTML=`<div class="card" style="margin-bottom:12px"><b>Cara buat:</b> setiap senaman ${on} saat, rehat ${off} saat. Habis semua = 1 pusingan. Buat <b>${r} pusingan</b> (~${st.min} minit). Mula dengan 2-3 minit jalan setempat.${g?" Tahap lembut: guna kerusi yang kukuh, tiada lompat, tiada baring di lantai. Boleh bercakap sambil buat = rentak yang betul.":""}</div>`+
   days.map((d,i)=>`<div class="day"><h3>${d[0]} · ${d[1]}</h3>${d[2]}<label class="chk"><input type="checkbox" data-d="${i}" ${done[i]?"checked":""}> Siap</label></div>`).join("");
  const c=CO[st.sex];
  const go=()=>{const n=Object.values(done).filter(Boolean).length;
-  const msg=`Hi ${c[0]}! Saya dah buat Workout 7 Hari di Rumah dari website.\\nTahap: ${{new:"baru mula",some:"kadang-kadang senam",active:"aktif"}[st.lvl]}, ${st.min} minit.\\nSiap: ${n} dari 7 hari.\\nApa langkah seterusnya untuk saya?`;
+  const msg=`Hi ${c[0]}! Saya dah buat Workout 7 Hari di Rumah dari website.\\nTahap: ${{gentle:"lembut (badan besar / sendi sakit)",new:"baru mula",some:"kadang-kadang senam",active:"aktif"}[st.lvl]}, ${st.min} minit.\\nSiap: ${n} dari 7 hari.\\nApa langkah seterusnya untuk saya?`;
   $("wa").href=`https://wa.me/${c[1]}?text=${encodeURIComponent(msg)}`;$("wa").textContent=`Hantar progress ke ${c[0]} →`};
  go();document.querySelectorAll("[data-d]").forEach(x=>x.onchange=()=>{done[x.dataset.d]=x.checked;try{localStorage.setItem("wk7",JSON.stringify(done))}catch(e){};go()});
  $("res").classList.add("on");$("res").scrollIntoView({behavior:"smooth"})};
@@ -276,11 +277,12 @@ $("go").onclick=()=>{st.knee=$("knee").checked;st.back=$("back").checked;
 <p class="crumb"><a href="{BASE}">Coach Kimi &amp; Coach Zara</a> › Workout 7 Hari</p>
 <h1>Workout 7 Hari di Rumah</h1>
 <p class="lead">Jawab 3 soalan, dapat pelan 7 hari ikut tahap anda. Tanpa alat, tanpa gym, ada video cara buat setiap senaman.</p>
-<div id="f-lvl"><label class="l">Tahap anda sekarang</label><div class="seg">{seg("lvl", [("new", "Baru mula"), ("some", "Kadang-kadang"), ("active", "Aktif")])}</div></div>
+<div id="f-lvl"><label class="l">Tahap anda sekarang</label><div class="seg">{seg("lvl", [("gentle", "Badan besar / sendi sakit"), ("new", "Baru mula"), ("some", "Kadang-kadang"), ("active", "Aktif")])}</div></div>
 <div id="f-min"><label class="l">Masa sehari</label><div class="seg">{seg("min", [("10", "10 minit"), ("20", "20 minit"), ("30", "30 minit")])}</div></div>
 <div id="f-sex"><label class="l">Anda</label><div class="seg">{seg("sex", [("f", "Perempuan"), ("m", "Lelaki")])}</div></div>
 <label class="chk" style="display:flex;gap:8px;margin:6px 0"><input type="checkbox" id="knee"> Lutut saya selalu sakit</label>
 <label class="chk" style="display:flex;gap:8px;margin:6px 0 14px"><input type="checkbox" id="back"> Belakang (pinggang) saya selalu sakit</label>
+<p class="fine" style="margin:-8px 0 14px">Baru cedera, baru operasi, atau sakit yang makin teruk? Jumpa doktor atau fisioterapi dulu sebelum mula.</p>
 <p id="miss" hidden style="color:var(--red);font-weight:700;margin:0 0 6px"></p><button class="btn r" id="go" style="width:100%;border:0;font:800 16px Montserrat">Buat pelan saya →</button>
 <section class="res" id="res"><h2>Pelan 7 hari anda</h2><div id="plan"></div>
 <div class="box"><h2>Hari 7: hantar progress</h2><p>Tandakan hari yang siap, kemudian hantar ke coach. Coach akan bagi langkah seterusnya ikut progress anda.</p>
