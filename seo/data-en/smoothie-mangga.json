@@ -1,0 +1,59 @@
+{
+ "slug": "smoothie-mangga",
+ "name_en": "Mango smoothie (shop)",
+ "serving_en": "1 cup",
+ "intro": "A cup of mango smoothie from a shop is about 300 kcal (estimate). Most of it comes from the mango, sugar syrup and the milk or yogurt blended in.",
+ "breakdown": [
+  {
+   "part": "Mango (~150 g)",
+   "kcal": 90
+  },
+  {
+   "part": "Sweetened milk / yogurt",
+   "kcal": 100
+  },
+  {
+   "part": "Sugar syrup",
+   "kcal": 110
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mango smoothie + ice cream",
+   "kcal": 420
+  },
+  {
+   "name": "Mango smoothie with unsweetened yogurt",
+   "kcal": 220
+  },
+  {
+   "name": "Mango smoothie, large",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, but count it like a big snack or half a meal. It sounds healthy because there's fruit, but there's often a lot of added sugar. If you have one, treat it as your afternoon snack, not a drink on the side with lunch.",
+ "tips": [
+  "Pick the smallest size and ask for less syrup.",
+  "Skip ice cream or whipped cream toppings.",
+  "Make your own: frozen mango + plain yogurt + a little milk, no sugar."
+ ],
+ "swap": {
+  "name": "Cut mango + plain yogurt",
+  "kcal": 180,
+  "why": "You still get the mango taste, more protein from the yogurt, and no sugar syrup."
+ },
+ "faq": [
+  {
+   "q": "Can a smoothie replace breakfast?",
+   "a": "Once in a while, yes, but most shop smoothies are low in protein. Better to have it with eggs or bread with some protein."
+  },
+  {
+   "q": "Which mango is best for smoothies?",
+   "a": "Harum manis or any mango that's properly ripe. Frozen mango works well too, since you don't need much ice."
+  },
+  {
+   "q": "What's the difference between a smoothie and juice?",
+   "a": "A smoothie blends the whole fruit, so the fibre stays. Juice is usually strained and has less fibre."
+  }
+ ]
+}

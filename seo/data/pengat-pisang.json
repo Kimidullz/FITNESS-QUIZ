@@ -1,0 +1,70 @@
+{
+ "slug": "pengat-pisang",
+ "intro": "Anggaran 300 kcal untuk 1 mangkuk pengat pisang. Kebanyakan kalori datang dari santan, gula melaka dan pisang.",
+ "protein_g": 3,
+ "carbs_g": 48,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Pisang (2 biji)",
+   "kcal": 120
+  },
+  {
+   "part": "Santan",
+   "kcal": 100
+  },
+  {
+   "part": "Gula melaka",
+   "kcal": 70
+  },
+  {
+   "part": "Sagu",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Separuh mangkuk",
+   "kcal": 150
+  },
+  {
+   "name": "Guna santan cair",
+   "kcal": 230
+  },
+  {
+   "name": "Pengat keledek",
+   "kcal": 280
+  },
+  {
+   "name": "Pengat campur (pisang, keledek, sagu)",
+   "kcal": 330
+  }
+ ],
+ "diet": "Boleh, tapi pengat pisang lebih kurang sama kalori dengan sepinggan kecil nasi. Santan dan gula melaka yang buat ia padat. Kalau nak makan, jadikan ia pencuci mulut separuh mangkuk. Atau makan semangkuk dan kurangkan nasi atau kuih lain hari tu.",
+ "tips": [
+  "Kongsi semangkuk dengan pasangan atau anak.",
+  "Kalau masak sendiri, campur separuh santan dan separuh air.",
+  "Elakkan tambah kuih lain bila dah makan pengat."
+ ],
+ "swap": {
+  "name": "Pisang rebus 2 biji",
+  "kcal": 180,
+  "why": "Rasa pisang yang sama, tanpa santan dan gula melaka."
+ },
+ "faq": [
+  {
+   "q": "Pisang apa sesuai untuk pengat?",
+   "a": "Pisang raja, pisang nangka atau pisang tanduk. Pilih yang masak tapi masih padat supaya tak hancur."
+  },
+  {
+   "q": "Kenapa santan pengat jadi pecah minyak?",
+   "a": "Api terlalu kuat. Masak dengan api perlahan dan kacau perlahan."
+  },
+  {
+   "q": "Pengat pisang boleh dipanaskan semula?",
+   "a": "Boleh, guna api kecil. Tambah sedikit air kalau terlalu pekat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "kangkung-belacan",
+ "intro": "Satu senduk kangkung belacan ada anggaran 120 kcal. Kangkung sendiri sangat rendah kalori, hampir semua kalori datang dari minyak goreng.",
+ "protein_g": 4,
+ "carbs_g": 8,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Kangkung (lebih kurang 1 cawan masak)",
+   "kcal": 25
+  },
+  {
+   "part": "Minyak menumis",
+   "kcal": 70
+  },
+  {
+   "part": "Belacan, cili dan bawang",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kangkung belacan berminyak (kedai)",
+   "kcal": 170
+  },
+  {
+   "name": "Kangkung belacan dengan sotong",
+   "kcal": 180
+  },
+  {
+   "name": "Kangkung celur dengan sambal",
+   "kcal": 70
+  },
+  {
+   "name": "Kangkung tumis air (sikit minyak)",
+   "kcal": 80
+  }
+ ],
+ "diet": "Boleh, malah digalakkan sebab ia sayur. Cuma ingat kalori bukan dari kangkung, tapi dari minyak. Ambil kangkung dan tinggalkan minyak di pinggan. Ini cara mudah tambah sayur dalam makan luar.",
+ "tips": [
+  "Masa order di kedai, minta 'kurang minyak'. Kebanyakan tukang masak faham.",
+  "Angkat kangkung pakai senduk berlubang atau tiriskan minyak sebelum letak atas nasi.",
+  "Masak di rumah, tumis dengan 1 sudu minyak dan sedikit air supaya tak kering."
+ ],
+ "swap": {
+  "name": "Kangkung celur dengan sambal belacan cicah",
+  "kcal": 70,
+  "why": "Rasa belacan dapat, tapi tanpa minyak goreng yang banyak."
+ },
+ "faq": [
+  {
+   "q": "Kangkung selamat dimakan selalu?",
+   "a": "Bagi kebanyakan orang, okay. Pastikan dibasuh bersih sebab kangkung tumbuh di tempat berair."
+  },
+  {
+   "q": "Macam mana nak kangkung kekal hijau masa masak?",
+   "a": "Guna api besar dan masak sekejap sahaja. Jangan tutup kuali terlalu lama."
+  },
+  {
+   "q": "Belacan tinggi garam ke?",
+   "a": "Ya, belacan memang masin. Guna sedikit sahaja dah cukup untuk rasa, dan kurangkan garam lain."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

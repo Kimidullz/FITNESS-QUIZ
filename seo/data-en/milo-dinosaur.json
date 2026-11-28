@@ -1,0 +1,67 @@
+{
+ "slug": "milo-dinosaur",
+ "name_en": "Milo dinosaur",
+ "serving_en": "1 glass",
+ "intro": "One glass of Milo dinosaur is about 320 kcal. The calories come from the thick layer of Milo powder on top and the condensed milk.",
+ "breakdown": [
+  {
+   "part": "Milo powder on top (3 tbsp)",
+   "kcal": 120
+  },
+  {
+   "part": "Milo in the drink (2 tbsp)",
+   "kcal": 80
+  },
+  {
+   "part": "Condensed milk",
+   "kcal": 100
+  },
+  {
+   "part": "Evaporated milk",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Regular Milo ais",
+   "kcal": 180
+  },
+  {
+   "name": "Milo dinosaur kurang manis",
+   "kcal": 260
+  },
+  {
+   "name": "Milo Godzilla (with ice cream)",
+   "kcal": 450
+  },
+  {
+   "name": "Hot Milo O kosong",
+   "kcal": 90
+  }
+ ],
+ "diet": "Yes, but treat it as a dessert, not a normal drink. The calories are close to a small meal. Once in a while when you lepak with friends, that's okay. If it's every day, it can easily wipe out your calorie deficit.",
+ "tips": [
+  "Share one glass with a friend.",
+  "Order Milo ais kurang manis when you want the chocolate taste without the thick topping.",
+  "If you're having Milo dinosaur, pick a lighter food like a plain roti telur with no extras."
+ ],
+ "swap": {
+  "name": "Milo ais kurang manis",
+  "kcal": 140,
+  "why": "You still get a cold Milo, at less than half the calories."
+ },
+ "faq": [
+  {
+   "q": "Why is it called Milo dinosaur?",
+   "a": "Because of the 'huge' pile of Milo powder on top. It became popular at mamak stalls and kopitiams."
+  },
+  {
+   "q": "What is Milo Godzilla?",
+   "a": "Milo dinosaur topped with ice cream or whipped cream. Sweeter and heavier."
+  },
+  {
+   "q": "Is it okay for kids?",
+   "a": "Yes, once in a while as a treat. For daily drinks, a regular Milo kurang manis is better."
+  }
+ ]
+}

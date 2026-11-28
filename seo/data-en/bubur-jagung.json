@@ -1,0 +1,67 @@
+{
+ "slug": "bubur-jagung",
+ "name_en": "Bubur jagung (corn porridge)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of bubur jagung is about 250 kcal (estimate). Most of the calories come from the corn, santan and sugar.",
+ "breakdown": [
+  {
+   "part": "Creamed corn / corn kernels",
+   "kcal": 110
+  },
+  {
+   "part": "Santan",
+   "kcal": 70
+  },
+  {
+   "part": "Sugar",
+   "kcal": 50
+  },
+  {
+   "part": "Sago / cornflour",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bubur jagung without santan",
+   "kcal": 180
+  },
+  {
+   "name": "Bubur jagung with extra santan",
+   "kcal": 320
+  },
+  {
+   "name": "Bubur jagung + sago",
+   "kcal": 290
+  },
+  {
+   "name": "Half bowl",
+   "kcal": 125
+  }
+ ],
+ "diet": "Yes, as a dessert or snack. Bubur jagung is high in carbs and sugar, but very low in protein. Half a bowl is usually enough to satisfy your sweet tooth.",
+ "tips": [
+  "Take half a bowl, especially after a heavy meal.",
+  "Cook your own with less sugar and thinner santan.",
+  "Don't use it to replace a main meal."
+ ],
+ "swap": {
+  "name": "1 boiled corn on the cob",
+  "kcal": 120,
+  "why": "Real corn taste without added santan and sugar, plus more fibre."
+ },
+ "faq": [
+  {
+   "q": "What is bubur jagung made of?",
+   "a": "Usually creamed corn or corn kernels, santan, sugar and a bit of sago or cornflour to thicken it."
+  },
+  {
+   "q": "Is bubur jagung good for buka puasa?",
+   "a": "Yes, it's a popular sweet treat at Ramadan bazaars. Have a small portion after your main meal."
+  },
+  {
+   "q": "Can I use milk instead of santan?",
+   "a": "Yes. Low-fat milk makes it lighter but still creamy."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "ciku",
+ "intro": "1 biji ciku bagi anggaran 90 kcal. Kebanyakan kalorinya datang daripada gula semula jadi, sebab tu rasanya manis macam gula perang.",
+ "protein_g": 1,
+ "carbs_g": 20,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi (~110g)",
+   "kcal": 72
+  },
+  {
+   "part": "Serat",
+   "kcal": 9
+  },
+  {
+   "part": "Protein dan lemak sikit",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ciku 1/2 biji",
+   "kcal": 45
+  },
+  {
+   "name": "Ciku 2 biji",
+   "kcal": 180
+  },
+  {
+   "name": "Jus ciku dengan gula, 1 gelas",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh. Sebiji ciku masih snek yang munasabah dan ada serat. Ciku agak manis dan lebih tinggi kalori berbanding buah berair seperti tembikai. Makan sebiji sudah cukup, dan elakkan versi jus bergula.",
+ "tips": [
+  "Makan buah ciku penuh, jangan jus. Jus biasanya ditambah gula dan serat hilang.",
+  "Potong separuh dan kongsi dengan anak atau pasangan.",
+  "Gandingkan dengan yogurt tanpa gula untuk snek petang yang ada protein."
+ ],
+ "swap": {
+  "name": "Betik 1 cawan potong",
+  "kcal": 55,
+  "why": "Manis juga tapi lebih banyak air, jadi kalori lebih rendah untuk porsi yang sama."
+ },
+ "faq": [
+  {
+   "q": "Macam mana nak tahu ciku dah masak?",
+   "a": "Kulit jadi coklat dan lembut bila ditekan perlahan. Kalau masih keras, simpan di suhu bilik 2 hingga 3 hari."
+  },
+  {
+   "q": "Kenapa ciku rasa kelat dan bergetah?",
+   "a": "Itu tanda ciku belum masak. Getah dalam buah muda yang buat rasa kelat. Tunggu sampai lembut baru makan."
+  },
+  {
+   "q": "Boleh simpan ciku dalam peti sejuk?",
+   "a": "Boleh, tapi selepas ia masak. Peti sejuk melambatkan proses masak, jadi masukkan bila dah lembut supaya tahan beberapa hari lagi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

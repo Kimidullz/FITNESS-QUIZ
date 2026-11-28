@@ -1,0 +1,59 @@
+{
+ "slug": "kuih-ketayap",
+ "name_en": "Kuih ketayap (dadar)",
+ "serving_en": "1 piece",
+ "intro": "One kuih ketayap (dadar) has about 150 kcal. Most of the calories come from the grated coconut and gula melaka filling, plus the crepe skin.",
+ "breakdown": [
+  {
+   "part": "Crepe skin (flour, egg, santan)",
+   "kcal": 60
+  },
+  {
+   "part": "Grated coconut",
+   "kcal": 45
+  },
+  {
+   "part": "Gula melaka",
+   "kcal": 45
+  }
+ ],
+ "variants": [
+  {
+   "name": "Large ketayap",
+   "kcal": 200
+  },
+  {
+   "name": "Ketayap with less filling",
+   "kcal": 120
+  },
+  {
+   "name": "Lempeng kelapa (1 piece)",
+   "kcal": 180
+  }
+ ],
+ "diet": "Yes, one ketayap is easy to fit into your daily calories. The coconut and gula melaka filling makes it quite dense, so 2-3 pieces can quickly go past 400 kcal. Have one as a snack with an unsweetened drink. Even better if you eat it after a meal with protein.",
+ "tips": [
+  "Take just one and save the rest for tomorrow.",
+  "If making your own, cut down the gula melaka in the filling a little.",
+  "Skip the sweet drinks, go for teh o kosong."
+ ],
+ "swap": {
+  "name": "Apam beras (1 piece)",
+  "kcal": 100,
+  "why": "Still a soft, sweet traditional kuih, but without the sugary coconut filling. Saves about 50 kcal."
+ },
+ "faq": [
+  {
+   "q": "Why is kuih ketayap green?",
+   "a": "The green colour comes from pandan leaf juice. Some people add colouring to make it brighter."
+  },
+  {
+   "q": "How do I stop the ketayap skin from tearing?",
+   "a": "Let the batter rest a while and use a non-stick pan on medium heat. Batter that's too thick also tears easily."
+  },
+  {
+   "q": "Can ketayap be frozen?",
+   "a": "Yes. Wrap each one and keep in a container. Steam briefly before eating."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "cereal-dengan-susu-penuh",
+ "intro": "1 mangkuk cereal dengan susu penuh ada anggaran 300 kcal. Kalori datang dari cereal (selalunya ada gula) dan lemak dalam susu penuh.",
+ "protein_g": 10,
+ "carbs_g": 45,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Cereal 40g (lebih kurang 1 cawan)",
+   "kcal": 150
+  },
+  {
+   "part": "Susu penuh 200ml",
+   "kcal": 130
+  },
+  {
+   "part": "Gula atau madu tambahan 1 sudu teh",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cereal dengan susu rendah lemak",
+   "kcal": 250
+  },
+  {
+   "name": "Cereal coklat atau bersalut gula",
+   "kcal": 330
+  },
+  {
+   "name": "Mangkuk besar (60g cereal + 300ml susu)",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, cereal dengan susu memang sarapan cepat untuk orang sibuk. Cuma ramai tuang cereal lebih dari sukatan pada kotak tanpa sedar. Kebanyakan cereal juga rendah protein dan tinggi gula, jadi cepat lapar. Sukat portion dan tambah protein, okay je untuk turun berat.",
+ "tips": [
+  "Sukat cereal dengan cawan sekali dua, supaya mata biasa dengan portion sebenar.",
+  "Pilih cereal plain atau oat, bukan yang bersalut coklat atau gula.",
+  "Makan dengan sebiji telur rebus atau segenggam kacang untuk tambah protein."
+ ],
+ "swap": {
+  "name": "Oat 40g dengan susu rendah lemak + pisang separuh",
+  "kcal": 260,
+  "why": "Oat lebih kenyang, kurang gula tambahan, dan susu rendah lemak potong kalori tanpa hilang protein."
+ },
+ "faq": [
+  {
+   "q": "Cereal mana yang lebih sihat?",
+   "a": "Pilih yang tinggi serat dan rendah gula, contohnya oat atau bran flakes. Baca label, cari gula bawah 10g setiap hidangan."
+  },
+  {
+   "q": "Susu penuh atau susu rendah lemak untuk cereal?",
+   "a": "Dua-dua okay. Susu rendah lemak kurang kalori dengan protein yang sama, sesuai kalau tengah jaga kalori."
+  },
+  {
+   "q": "Boleh makan cereal waktu malam?",
+   "a": "Boleh, asalkan masuk dalam jumlah kalori harian. Cuma pastikan bukan tambahan selepas makan malam penuh."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

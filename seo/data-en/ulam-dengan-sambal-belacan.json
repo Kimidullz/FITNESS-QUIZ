@@ -1,0 +1,63 @@
+{
+ "slug": "ulam-dengan-sambal-belacan",
+ "name_en": "Ulam with sambal belacan",
+ "serving_en": "1 small plate",
+ "intro": "A plate of ulam with sambal belacan is about 60 kcal (estimate). Most of the calories come from the sambal belacan. The ulam itself is very low in calories.",
+ "breakdown": [
+  {
+   "part": "Mixed ulam (cucumber, kacang botol, pegaga, cabbage)",
+   "kcal": 25
+  },
+  {
+   "part": "Raw sambal belacan, 1 tablespoon",
+   "kcal": 30
+  },
+  {
+   "part": "Squeeze of limau kasturi",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ulam + oily fried sambal belacan",
+   "kcal": 100
+  },
+  {
+   "name": "Ulam + budu",
+   "kcal": 50
+  },
+  {
+   "name": "Ulam + sambal tempoyak",
+   "kcal": 90
+  },
+  {
+   "name": "Ulam + petai (a handful)",
+   "kcal": 110
+  }
+ ],
+ "diet": "Yes, and it's highly encouraged. Ulam adds fibre and fills up your plate with very few calories. It helps you stay full longer when eating rice. Just watch out for sambal that's fried in a lot of oil.",
+ "tips": [
+  "Take plenty of ulam, and just enough sambal for taste.",
+  "Eat your ulam first before the rice so you feel full faster.",
+  "Choose raw sambal belacan (just pounded), not the oily fried kind."
+ ],
+ "swap": {
+  "name": "Ulam with a little raw sambal belacan and extra lime",
+  "kcal": 45,
+  "why": "Still spicy and fresh. Less sambal means fewer calories and less salt."
+ },
+ "faq": [
+  {
+   "q": "Is raw ulam safe to eat?",
+   "a": "Yes, if you wash it well under running water. Soak it briefly in clean water to remove sand and dirt."
+  },
+  {
+   "q": "Is sambal belacan high in salt?",
+   "a": "Belacan is salty. One tablespoon is usually okay, but if you keep adding more, the salt adds up fast."
+  },
+  {
+   "q": "Which ulam are easy to find?",
+   "a": "Cucumber, kacang botol, cabbage, terung bulat, pegaga, ulam raja and daun selom. Most are at pasar tani and supermarkets."
+  }
+ ]
+}

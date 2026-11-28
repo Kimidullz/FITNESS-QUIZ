@@ -1,0 +1,63 @@
+{
+ "slug": "iced-chocolate",
+ "name_en": "Iced chocolate (café)",
+ "serving_en": "1 cup",
+ "intro": "A cup of iced chocolate from a café is about 380 kcal (estimate). Most of it comes from full cream milk, chocolate sauce and the whipped cream on top.",
+ "breakdown": [
+  {
+   "part": "Full cream milk (~300 ml)",
+   "kcal": 190
+  },
+  {
+   "part": "Chocolate sauce / powder",
+   "kcal": 120
+  },
+  {
+   "part": "Whipped cream",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "No whipped cream",
+   "kcal": 310
+  },
+  {
+   "name": "With low-fat milk",
+   "kcal": 320
+  },
+  {
+   "name": "Small (regular) size",
+   "kcal": 260
+  },
+  {
+   "name": "Extra syrup / marshmallows",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, but it's closer to a dessert than a normal drink. 380 kcal is about the same as a small plate of nasi lemak. Enjoy it now and then when you lepak at a café. If you have one, cut back on other snacks or desserts that day.",
+ "tips": [
+  "Ask for no whipped cream to save about 70 kcal.",
+  "Pick the smallest size or share with a friend.",
+  "Ask for 'less sweet' or low-fat milk if the café offers it."
+ ],
+ "swap": {
+  "name": "Iced latte, no sugar",
+  "kcal": 150,
+  "why": "Still has milk and protein, minus the chocolate sauce and whipped cream. Saves over 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Does iced chocolate have caffeine?",
+   "a": "A little from the cocoa, but far less than coffee. Good if you want to avoid coffee."
+  },
+  {
+   "q": "Is iced chocolate okay for kids?",
+   "a": "Yes, as an occasional treat. Go for a small, less sweet version since the sugar is quite high."
+  },
+  {
+   "q": "What's the difference between iced chocolate and Milo ais?",
+   "a": "Café iced chocolate usually uses chocolate sauce and fresh milk, sometimes with whipped cream. Mamak Milo ais uses Milo powder with condensed or evaporated milk."
+  }
+ ]
+}

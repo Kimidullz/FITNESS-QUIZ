@@ -1,0 +1,67 @@
+{
+ "slug": "mee-rebus-mamak",
+ "name_en": "Mee rebus mamak",
+ "serving_en": "1 plate",
+ "intro": "A plate of mee rebus mamak is about 520 kcal (estimate). Most of the calories come from the yellow noodles and the thick gravy made from potatoes, peanuts and spices.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles",
+   "kcal": 250
+  },
+  {
+   "part": "Thick gravy (potato, peanuts, spices)",
+   "kcal": 150
+  },
+  {
+   "part": "Boiled egg",
+   "kcal": 70
+  },
+  {
+   "part": "Fried tofu and prawn fritters (cucur udang)",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee rebus without cucur",
+   "kcal": 480
+  },
+  {
+   "name": "Mee rebus with beef or chicken",
+   "kcal": 600
+  },
+  {
+   "name": "Mee rebus Johor (thicker gravy)",
+   "kcal": 580
+  },
+  {
+   "name": "Mihun rebus",
+   "kcal": 470
+  }
+ ],
+ "diet": "Yes. Mee rebus is lighter than mee goreng mamak because it's not fried. It's high in carbs with moderate protein. Add protein and don't finish all the gravy if you want to save calories.",
+ "tips": [
+  "Ask for an extra boiled egg or chicken for protein.",
+  "Ask for less noodles, more taugeh and veg.",
+  "Squeeze limau kasturi for flavour, no need to finish the gravy."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 420,
+  "why": "Clear soup is lighter than thick gravy, and the chicken gives more protein."
+ },
+ "faq": [
+  {
+   "q": "What is mee rebus gravy made of?",
+   "a": "Usually mashed potato or sweet potato, peanuts, dried shrimp and spices, which is why it's thick and slightly sweet."
+  },
+  {
+   "q": "What's the difference between mamak and Malay mee rebus?",
+   "a": "Mamak mee rebus is usually spicier with a hint of curry spices, while the Malay or Johor version is sweeter and thicker."
+  },
+  {
+   "q": "Is mee rebus okay for breakfast?",
+   "a": "Yes, many people have it for breakfast. Add an egg so you stay full till lunch."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "ayam-goreng-korea",
+ "intro": "Empat ketul ayam goreng Korea ada anggaran 650 kcal. Kebanyakan kalori datang daripada salutan tepung goreng berminyak dan sos manis yangnyeom.",
+ "protein_g": 38,
+ "carbs_g": 45,
+ "fat_g": 35,
+ "breakdown": [
+  {
+   "part": "Ayam 4 ketul (daging & kulit)",
+   "kcal": 300
+  },
+  {
+   "part": "Salutan tepung & minyak goreng",
+   "kcal": 220
+  },
+  {
+   "part": "Sos yangnyeom manis pedas",
+   "kcal": 130
+  }
+ ],
+ "variants": [
+  {
+   "name": "Original (tanpa sos)",
+   "kcal": 520
+  },
+  {
+   "name": "Yangnyeom (sos manis pedas)",
+   "kcal": 650
+  },
+  {
+   "name": "Honey garlic / soy garlic",
+   "kcal": 680
+  },
+  {
+   "name": "Dengan serbuk atau sos keju",
+   "kcal": 760
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia makanan sekali-sekala, bukan menu mingguan. 650 kcal untuk 4 ketul tu dah macam satu hidangan penuh, belum kira nasi atau air manis. Protein dia memang tinggi, itu bonus. Kuncinya kongsi dengan kawan dan elakkan tambah side yang berat.",
+ "tips": [
+  "Pilih original atau minta sos di tepi, cicah sikit-sikit.",
+  "Kongsi 1 set, ambil 2 ketul dan tambah salad atau jeruk lobak.",
+  "Minum air kosong atau teh O kosong, bukan soda."
+ ],
+ "swap": {
+  "name": "Ayam panggang / dakgalbi panggang (4 ketul)",
+  "kcal": 420,
+  "why": "Rasa Korea tetap ada, tapi tanpa salutan tepung goreng jadi lemak jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Apa beza ayam goreng Korea dengan ayam goreng biasa?",
+   "a": "Ayam Korea biasanya digoreng dua kali supaya lebih rangup, dan selalu disalut sos manis pedas atau soy garlic."
+  },
+  {
+   "q": "Ayam goreng Korea halal ke?",
+   "a": "Bergantung pada kedai. Semak sijil halal JAKIM, sebab sesetengah sos Korea mungkin guna bahan tidak halal."
+  },
+  {
+   "q": "Boleh buat ayam goreng Korea guna air fryer?",
+   "a": "Boleh. Hasilnya tetap rangup dengan minyak jauh lebih sedikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

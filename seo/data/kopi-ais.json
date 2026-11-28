@@ -1,0 +1,66 @@
+{
+ "slug": "kopi-ais",
+ "intro": "Segelas kopi ais (kopi susu) di kedai mamak atau kopitiam ada anggaran 170 kcal. Kebanyakan kalori datang dari susu pekat manis dan gula, bukan dari kopi itu sendiri.",
+ "protein_g": 3,
+ "carbs_g": 28,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis (2 sudu besar)",
+   "kcal": 130
+  },
+  {
+   "part": "Gula tambahan",
+   "kcal": 30
+  },
+  {
+   "part": "Kopi + ais",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kopi ais kurang manis",
+   "kcal": 120
+  },
+  {
+   "name": "Kopi-O ais (bergula)",
+   "kcal": 70
+  },
+  {
+   "name": "Kopi-O ais kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Kopi ais saiz besar / jag",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh, tapi kena tengok berapa kerap. Satu gelas sehari masih okay kalau kalori makanan lain terkawal. Masalahnya bila jadi 2-3 gelas sehari, dah sama macam satu hidangan nasi tambahan. Cuba kurangkan manis dulu, lidah akan biasa dalam seminggu dua.",
+ "tips": [
+  "Order 'kopi ais kurang manis' atau 'kopi C ais kosong' (susu cair tanpa gula).",
+  "Hadkan kepada satu gelas sehari, contohnya masa sarapan sahaja.",
+  "Kalau nak minum dua kali, gelas kedua tukar ke kopi-O ais kosong."
+ ],
+ "swap": {
+  "name": "Kopi C ais kosong",
+  "kcal": 60,
+  "why": "Masih ada rasa susu dari susu cair, tapi tanpa susu pekat dan gula. Jimat lebih 100 kcal setiap gelas."
+ },
+ "faq": [
+  {
+   "q": "Kopi ais boleh buat lapar cepat ke?",
+   "a": "Gula yang tinggi boleh buat tenaga naik turun cepat. Ada orang rasa lapar balik tak lama lepas minum. Minum bersama makanan yang ada protein boleh bantu."
+  },
+  {
+   "q": "Apa beza kopi susu dengan kopi C?",
+   "a": "Kopi susu guna susu pekat manis. Kopi C guna susu cair dan gula. Kopi C kosong pula tiada gula langsung."
+  },
+  {
+   "q": "Bila masa terbaik minum kopi ais?",
+   "a": "Kebanyakan orang minum waktu pagi atau tengah hari. Elakkan lewat petang kalau kafein ganggu tidur, sebab tidur kurang boleh buat susah kawal selera."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

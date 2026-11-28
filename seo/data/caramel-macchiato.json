@@ -1,0 +1,70 @@
+{
+ "slug": "caramel-macchiato",
+ "intro": "Secawan caramel macchiato saiz sederhana di kafe ada anggaran 250 kcal. Kebanyakan kalori datang dari susu penuh krim dan sirap vanila, bukan dari espresso.",
+ "protein_g": 10,
+ "carbs_g": 34,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Susu penuh krim (~300ml)",
+   "kcal": 165
+  },
+  {
+   "part": "Sirap vanila (3 pam)",
+   "kcal": 60
+  },
+  {
+   "part": "Caramel drizzle di atas",
+   "kcal": 20
+  },
+  {
+   "part": "Espresso (1-2 shot)",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Iced caramel macchiato (sederhana)",
+   "kcal": 200
+  },
+  {
+   "name": "Guna susu skim atau rendah lemak",
+   "kcal": 180
+  },
+  {
+   "name": "Saiz besar",
+   "kcal": 320
+  },
+  {
+   "name": "Tambah whipped cream",
+   "kcal": 330
+  }
+ ],
+ "diet": "Boleh, kalau kira dia sebagai snek dan bukan sekadar air. 250 kcal tu lebih kurang sama dengan sepinggan kecil nasi. Masalahnya bila minum hari-hari tanpa sedar, kalori cair ni senang terkumpul. Jadikan dia treat 1-2 kali seminggu, atau minta versi kurang manis.",
+ "tips": [
+  "Minta separuh sirap (1-2 pam) untuk jimat anggaran 30-40 kcal.",
+  "Tukar ke susu rendah lemak atau skim, rasa masih okay.",
+  "Pilih saiz kecil dan minum bersama makanan berprotein, bukan dengan kek."
+ ],
+ "swap": {
+  "name": "Cappuccino tanpa gula (sederhana)",
+  "kcal": 120,
+  "why": "Masih ada susu dan rasa kopi yang creamy, tapi tanpa sirap. Separuh kalori, protein hampir sama."
+ },
+ "faq": [
+  {
+   "q": "Apa beza caramel macchiato dengan latte?",
+   "a": "Latte ialah espresso campur susu. Caramel macchiato pula susu dengan sirap vanila, espresso dituang di atas, dan disiram karamel. Sebab tu ia lebih manis."
+  },
+  {
+   "q": "Caramel macchiato ada banyak kafein ke?",
+   "a": "Saiz sederhana biasanya ada 1-2 shot espresso, lebih kurang sama dengan secawan kopi biasa. Kalau sensitif, elak minum lewat petang."
+  },
+  {
+   "q": "Boleh minta kurang manis?",
+   "a": "Boleh. Kebanyakan kafe boleh kurangkan pam sirap atau buang caramel drizzle. Cakap saja masa order."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

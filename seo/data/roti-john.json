@@ -1,0 +1,74 @@
+{
+ "slug": "roti-john",
+ "intro": "Sebatang Roti John ada anggaran 650 kcal. Kebanyakan kalori datang dari roti panjang, telur, minyak masak serta sos dan mayonis.",
+ "protein_g": 28,
+ "carbs_g": 70,
+ "fat_g": 29,
+ "breakdown": [
+  {
+   "part": "Roti panjang 1 batang",
+   "kcal": 280
+  },
+  {
+   "part": "2 telur",
+   "kcal": 140
+  },
+  {
+   "part": "Daging atau ayam cincang",
+   "kcal": 100
+  },
+  {
+   "part": "Minyak / marjerin",
+   "kcal": 80
+  },
+  {
+   "part": "Sos cili & mayonis",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti John sardin",
+   "kcal": 600
+  },
+  {
+   "name": "Roti John daging + keju",
+   "kcal": 780
+  },
+  {
+   "name": "Roti John separuh batang",
+   "kcal": 330
+  },
+  {
+   "name": "Roti John extra mayo",
+   "kcal": 750
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia makanan sekali-sekala. Sebatang penuh dah hampir sama dengan satu hidangan besar. Cara paling mudah ialah kongsi atau makan separuh, kemudian tambah buah atau sayur.",
+ "tips": [
+  "Kongsi sebatang dengan pasangan atau kawan.",
+  "Minta mayonis sikit atau tiada mayonis.",
+  "Pilih inti ayam atau sardin, skip keju tambahan."
+ ],
+ "swap": {
+  "name": "Separuh Roti John ayam + timun",
+  "kcal": 340,
+  "why": "Masih dapat rasa Roti John, kalori hampir separuh."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama dia Roti John?",
+   "a": "Cerita popular kata ia bermula di Singapura pada tahun 1960-an bila seorang pelanggan Barat dipanggil 'John' minta sandwic."
+  },
+  {
+   "q": "Roti John sesuai untuk bazar Ramadan?",
+   "a": "Ya, ia antara juadah paling popular di bazar Ramadan. Kongsi sebatang untuk berbuka lebih seimbang."
+  },
+  {
+   "q": "Boleh buat Roti John guna air fryer?",
+   "a": "Boleh. Sapu sedikit minyak dan bakar sampai telur masak. Minyak yang diguna jauh kurang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

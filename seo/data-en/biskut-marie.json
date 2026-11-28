@@ -1,0 +1,63 @@
+{
+ "slug": "biskut-marie",
+ "name_en": "Biskut Marie (Marie biscuits)",
+ "serving_en": "4 pieces",
+ "intro": "Four Marie biscuits give you about 120 kcal (estimate). Most of the calories come from wheat flour and sugar, with a little fat.",
+ "breakdown": [
+  {
+   "part": "Wheat flour",
+   "kcal": 75
+  },
+  {
+   "part": "Sugar",
+   "kcal": 25
+  },
+  {
+   "part": "Oil / fat",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "2 pieces only",
+   "kcal": 60
+  },
+  {
+   "name": "4 pieces + kopi O kosong",
+   "kcal": 125
+  },
+  {
+   "name": "4 pieces + teh tarik",
+   "kcal": 270
+  },
+  {
+   "name": "Chocolate-coated Marie biscuits, 4 pieces",
+   "kcal": 180
+  }
+ ],
+ "diet": "Yes, you can. Marie biscuits are one of the lightest sweet snacks around. Four pieces are only about 120 kcal. But they're low in protein, so they won't keep you full for long. What usually adds the calories is the drink you dip them in, like teh tarik or kopi susu. They're fine for tea time, as long as you don't finish half the packet.",
+ "tips": [
+  "Count out 4 pieces, put them on a plate, then close the jar.",
+  "Dip them in kopi O or teh O kosong instead of teh tarik.",
+  "Add some protein, like a glass of low-fat milk, so you stay full longer."
+ ],
+ "swap": {
+  "name": "1 slice wholemeal bread + 1 boiled egg",
+  "kcal": 150,
+  "why": "About the same calories, but much more protein and fibre, so you won't get hungry so fast."
+ },
+ "faq": [
+  {
+   "q": "Are Marie biscuits okay for people with a sensitive stomach?",
+   "a": "Many people like Marie biscuits because they're plain and not spicy. If you have gastric or stomach problems, ask your doctor which foods suit you."
+  },
+  {
+   "q": "Can I use Marie biscuits to make kek batik?",
+   "a": "Yes, Marie biscuits are the main ingredient in kek batik. But kek batik also has chocolate, butter and condensed milk, so it's much higher in calories than plain biscuits."
+  },
+  {
+   "q": "Are Marie biscuits okay for small kids?",
+   "a": "Many parents give them as a light snack. They still have sugar, so pair them with fruit or milk and don't make them the main snack every day."
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-goreng-cina",
+ "intro": "Sepinggan nasi goreng cina ada anggaran 550 kcal. Kebanyakan kalori datang dari nasi dan minyak, dengan sikit protein dari telur dan isi.",
+ "protein_g": 18,
+ "carbs_g": 75,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Nasi 1.5 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak 1 sudu besar",
+   "kcal": 110
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Isi ayam atau udang sikit",
+   "kcal": 50
+  },
+  {
+   "part": "Kacang pea, lobak merah, bawang",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tambah telur mata",
+   "kcal": 640
+  },
+  {
+   "name": "Nasi goreng udang",
+   "kcal": 580
+  },
+  {
+   "name": "Portion besar kedai",
+   "kcal": 750
+  }
+ ],
+ "diet": "Boleh, nasi goreng cina antara nasi goreng yang lebih ringan sebab tak banyak cili atau santan. Tapi protein selalunya sikit dan nasi banyak. Jadi senang lapar balik walaupun kalori agak tinggi. Tambah protein dan sayur, kurangkan nasi.",
+ "tips": [
+  "Minta tambah telur atau ayam, kurang nasi.",
+  "Order sepinggan sayur goreng untuk kongsi.",
+  "Minta kurang minyak, kebanyakan kedai boleh ikut."
+ ],
+ "swap": {
+  "name": "Nasi ayam steam tanpa kulit + sup sayur",
+  "kcal": 480,
+  "why": "Protein lebih tinggi, minyak lebih rendah, dan masih makan nasi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi goreng cina dengan nasi goreng kampung?",
+   "a": "Nasi goreng cina lebih ringan, guna telur, bawang putih dan kicap cair. Nasi goreng kampung guna cili, belacan dan ikan bilis."
+  },
+  {
+   "q": "Nasi goreng cina halal ke?",
+   "a": "Bergantung pada kedai. Pilih kedai yang ada sijil halal atau kedai Muslim."
+  },
+  {
+   "q": "Macam mana nak buat nasi goreng cina tak lembik?",
+   "a": "Guna nasi sejuk, api besar dan jangan masukkan kicap terlalu banyak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

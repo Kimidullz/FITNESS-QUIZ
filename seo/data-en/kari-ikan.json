@@ -1,0 +1,67 @@
+{
+ "slug": "kari-ikan",
+ "name_en": "Kari ikan (fish curry)",
+ "serving_en": "1 piece + gravy",
+ "intro": "One piece of fish with curry gravy is roughly 280 kcal. Most of the calories come from the santan gravy and the oil for frying the spices. The fish is your main protein.",
+ "breakdown": [
+  {
+   "part": "Fish, 1 medium piece",
+   "kcal": 110
+  },
+  {
+   "part": "Santan curry gravy",
+   "kcal": 120
+  },
+  {
+   "part": "Oil for frying the spices",
+   "kcal": 40
+  },
+  {
+   "part": "Bendi, brinjal and tomato",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kari kepala ikan (1 big scoop)",
+   "kcal": 400
+  },
+  {
+   "name": "Fish curry without santan (Indian-style, sour)",
+   "kcal": 200
+  },
+  {
+   "name": "Kari ikan with lots of gravy on rice",
+   "kcal": 350
+  },
+  {
+   "name": "Kari ikan with fried fish",
+   "kcal": 330
+  }
+ ],
+ "diet": "Definitely yes. Fish is high in protein and usually low in fat. What raises the calories is the santan gravy, especially if your rice is flooded. Take the fish and the veggies in the curry, and just enough gravy for taste.",
+ "tips": [
+  "At nasi kandar shops, ask for less gravy or gravy on the side so you can control it.",
+  "Eat the bendi and brinjal in the curry. Extra veggies without many extra calories.",
+  "Cooking at home? Use half santan and half water or low-fat evaporated milk."
+ ],
+ "swap": {
+  "name": "Ikan masak asam pedas",
+  "kcal": 180,
+  "why": "Same fish but the gravy has no santan, so it's lower in fat and still tasty."
+ },
+ "faq": [
+  {
+   "q": "Which fish is best for curry?",
+   "a": "Tenggiri, ikan merah, ikan pari and red snapper head are popular choices because the flesh doesn't fall apart easily."
+  },
+  {
+   "q": "Does fish curry need santan?",
+   "a": "Not necessarily. Many South Indian-style curries use asam jawa without santan. They taste more sour and lighter."
+  },
+  {
+   "q": "Why does my fish curry smell fishy?",
+   "a": "Wash the fish with salt and asam, and make sure the spices are fried until fragrant. Curry leaves and ginger also help remove the smell."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "telur-puyuh-rebus",
+ "intro": "Lima biji telur puyuh rebus ada anggaran 70 kcal. Kalori datang dari protein dan lemak, kebanyakannya dari kuning telur.",
+ "protein_g": 6,
+ "carbs_g": 0,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Kuning telur",
+   "kcal": 50
+  },
+  {
+   "part": "Putih telur",
+   "kcal": 18
+  },
+  {
+   "part": "Garam atau kicap secubit",
+   "kcal": 2
+  }
+ ],
+ "variants": [
+  {
+   "name": "Telur puyuh goreng cucuk, 5 biji",
+   "kcal": 120
+  },
+  {
+   "name": "Telur puyuh masak kicap, 5 biji",
+   "kcal": 100
+  },
+  {
+   "name": "Telur puyuh dalam sup, 5 biji",
+   "kcal": 75
+  },
+  {
+   "name": "Telur ayam rebus, 1 biji",
+   "kcal": 70
+  }
+ ],
+ "diet": "Boleh, telur puyuh rebus memang snek mesra diet. Kalori rendah, ada protein dan mudah bawa. Lima biji lebih kurang sama dengan satu telur ayam. Cuma elakkan versi goreng atau bersos manis kalau nak jaga kalori.",
+ "tips": [
+  "Rebus satu pek, kupas dan simpan dalam bekas di peti sejuk untuk snek 3 hari.",
+  "Tambah 5 biji dalam mangkuk sup atau salad untuk naikkan protein.",
+  "Masa makan steamboat, pilih telur puyuh rebus, bukan bebola goreng."
+ ],
+ "swap": {
+  "name": "Telur ayam rebus, 1 biji",
+  "kcal": 70,
+  "why": "Kalori dan protein hampir sama, tapi lebih murah dan cepat kupas."
+ },
+ "faq": [
+  {
+   "q": "Telur puyuh tinggi kolesterol ke?",
+   "a": "Kuningnya memang ada kolesterol, sama macam telur ayam. Untuk kebanyakan orang, makan sederhana okay. Kalau ada masalah kesihatan, tanya doktor."
+  },
+  {
+   "q": "Macam mana nak kupas telur puyuh dengan mudah?",
+   "a": "Lepas rebus, rendam dalam air sejuk, kemudian goncang dalam bekas bertutup. Kulit akan retak dan senang kupas."
+  },
+  {
+   "q": "Berapa minit rebus telur puyuh?",
+   "a": "Sekitar 3 hingga 4 minit dalam air mendidih untuk masak penuh."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

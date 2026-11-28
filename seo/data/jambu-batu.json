@@ -1,0 +1,66 @@
+{
+ "slug": "jambu-batu",
+ "intro": "Sebiji jambu batu kecil ada anggaran 70 kcal. Hampir semua kalori datang daripada gula semula jadi buah, dan ia juga tinggi serat serta vitamin C.",
+ "protein_g": 3,
+ "carbs_g": 13,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Karbohidrat (gula semula jadi & serat)",
+   "kcal": 52
+  },
+  {
+   "part": "Protein",
+   "kcal": 12
+  },
+  {
+   "part": "Lemak",
+   "kcal": 6
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jambu batu besar tanpa biji (1 biji)",
+   "kcal": 200
+  },
+  {
+   "name": "Jambu batu dengan serbuk asam boi",
+   "kcal": 90
+  },
+  {
+   "name": "Jus jambu batu bergula (1 gelas)",
+   "kcal": 160
+  },
+  {
+   "name": "Jeruk jambu batu (1 bekas kecil)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Sangat boleh, jambu batu antara buah terbaik masa nak turun berat. Seratnya tinggi, jadi buat perut kenyang lebih lama. Cuma jambu batu tanpa biji di Malaysia selalunya besar, jadi sebiji boleh cecah 200 kcal. Makan buah segar, bukan versi jus atau jeruk bergula.",
+ "tips": [
+  "Potong jambu besar dan bahagi untuk 2-3 kali makan.",
+  "Kurangkan asam boi atau serbuk manis, cuba garam sikit saja.",
+  "Bawa ke pejabat sebagai snek petang ganti kuih."
+ ],
+ "swap": {
+  "name": "Jambu batu segar ganti jus jambu",
+  "kcal": 70,
+  "why": "Serat kekal, tiada gula tambahan, lebih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Jambu batu bagus untuk sembelit?",
+   "a": "Ia tinggi serat, jadi boleh bantu pergerakan usus. Minum air cukup sekali."
+  },
+  {
+   "q": "Kulit jambu batu boleh makan?",
+   "a": "Boleh, cuci bersih dulu. Kulit pun ada serat."
+  },
+  {
+   "q": "Jambu batu merah dan putih ada beza?",
+   "a": "Rasa dan warna saja sedikit berbeza. Nilai pemakanan lebih kurang sama."
+  }
+ ],
+ "check": "70 kcal fits only a small guava (~100 g). Common Malaysian seedless jambu batu weigh 250-350 g (~170-240 kcal). Suggest labelling the serving as '1 biji kecil (~100 g)' or using ~180 kcal for a typical large one.",
+ "problems": []
+}

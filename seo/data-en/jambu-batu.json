@@ -1,0 +1,63 @@
+{
+ "slug": "jambu-batu",
+ "name_en": "Guava (jambu batu)",
+ "serving_en": "1 fruit",
+ "intro": "One small guava is roughly 70 kcal (estimate). Almost all the calories come from natural fruit sugar, and it's also high in fibre and vitamin C.",
+ "breakdown": [
+  {
+   "part": "Carbs (natural sugar & fibre)",
+   "kcal": 52
+  },
+  {
+   "part": "Protein",
+   "kcal": 12
+  },
+  {
+   "part": "Fat",
+   "kcal": 6
+  }
+ ],
+ "variants": [
+  {
+   "name": "Large seedless guava (1 fruit)",
+   "kcal": 200
+  },
+  {
+   "name": "Guava with asam boi powder",
+   "kcal": 90
+  },
+  {
+   "name": "Sweetened guava juice (1 glass)",
+   "kcal": 160
+  },
+  {
+   "name": "Pickled guava (1 small tub)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Definitely. Guava is one of the best fruits when you're trying to lose weight. It's high in fibre, so you stay full longer. Just note that seedless guavas in Malaysia are usually big, so one can hit 200 kcal. Eat it fresh, not as sweetened juice or pickles.",
+ "tips": [
+  "Cut a big guava and split it into 2-3 servings.",
+  "Use less asam boi or sweet powder. Try a pinch of salt instead.",
+  "Bring it to the office as a tea-time snack instead of kuih."
+ ],
+ "swap": {
+  "name": "Fresh guava instead of guava juice",
+  "kcal": 70,
+  "why": "You keep the fibre, no added sugar, and it's more filling."
+ },
+ "faq": [
+  {
+   "q": "Is guava good for constipation?",
+   "a": "It's high in fibre, so it can help with bowel movement. Drink enough water too."
+  },
+  {
+   "q": "Can I eat guava skin?",
+   "a": "Can, just wash it properly first. The skin has fibre too."
+  },
+  {
+   "q": "Any difference between pink and white guava?",
+   "a": "Only slightly different in taste and colour. Nutrition is about the same."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "sayur-lemak-labu",
+ "name_en": "Sayur lemak labu (pumpkin in santan)",
+ "serving_en": "1 scoop (senduk)",
+ "intro": "One scoop of sayur lemak labu is roughly 150 kcal. Most of the calories come from the santan. The pumpkin itself is moderate in calories.",
+ "breakdown": [
+  {
+   "part": "Pumpkin (about 100 g)",
+   "kcal": 50
+  },
+  {
+   "part": "Santan",
+   "kcal": 80
+  },
+  {
+   "part": "Dried shrimp, onions and turmeric",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sayur lemak labu with fresh prawns",
+   "kcal": 180
+  },
+  {
+   "name": "Masak lemak labu with ikan masin",
+   "kcal": 190
+  },
+  {
+   "name": "Labu masak lemak with light santan",
+   "kcal": 110
+  },
+  {
+   "name": "Stir-fried pumpkin, no santan",
+   "kcal": 90
+  }
+ ],
+ "diet": "Yes, pumpkin has fibre and a natural sweetness. It's the santan that raises the calories, so control the gravy. One scoop with a protein dish and moderate rice is still okay. If you already have another santan dish, pick just one.",
+ "tips": [
+  "Take more pumpkin, less santan gravy.",
+  "Don't pick two santan dishes on one plate. Balance with something grilled or a soup.",
+  "At home, use light santan or mix it with water for a lighter gravy."
+ ],
+ "swap": {
+  "name": "Steamed pumpkin or pumpkin stir-fried with garlic",
+  "kcal": 90,
+  "why": "Same pumpkin without santan, so the fat drops a lot and the pumpkin's sweetness shines through."
+ },
+ "faq": [
+  {
+   "q": "Is pumpkin high in sugar?",
+   "a": "Pumpkin has a little natural sugar but also fibre. In one scoop, the carbs are moderate and fit into a balanced plate."
+  },
+  {
+   "q": "Why does my pumpkin turn mushy when cooking?",
+   "a": "Pumpkin cooks fast. Cut bigger pieces and add them when the gravy is already boiling, then simmer briefly."
+  },
+  {
+   "q": "Can you eat pumpkin skin?",
+   "a": "For some types, yes, if washed well. But many people remove it because it's tough. Up to your preference."
+  }
+ ]
+}

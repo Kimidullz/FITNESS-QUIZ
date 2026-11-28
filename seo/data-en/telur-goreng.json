@@ -1,0 +1,63 @@
+{
+ "slug": "telur-goreng",
+ "name_en": "Telur goreng (fried egg, sunny side up)",
+ "serving_en": "1 egg",
+ "intro": "One telur goreng mata kerbau is about 110 kcal (estimate). The egg itself is around 70 kcal. The rest comes from the frying oil.",
+ "breakdown": [
+  {
+   "part": "1 chicken egg",
+   "kcal": 70
+  },
+  {
+   "part": "Oil absorbed while frying",
+   "kcal": 35
+  },
+  {
+   "part": "Kicap or salt",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Crispy-edge fried egg (lots of oil)",
+   "kcal": 150
+  },
+  {
+   "name": "Egg fried in butter",
+   "kcal": 130
+  },
+  {
+   "name": "Telur dadar (1 egg omelette)",
+   "kcal": 130
+  },
+  {
+   "name": "Telur separuh masak (1 egg)",
+   "kcal": 70
+  }
+ ],
+ "diet": "Yes, you can. Fried egg is a cheap, easy source of protein. The extra calories come from the oil, so how you cook it matters more than the egg itself. Two fried eggs with rice and vegetables already make a balanced meal.",
+ "tips": [
+  "At home, use a non-stick pan with a little oil. Cover the pan so the egg cooks with steam.",
+  "At the mamak, ask for telur separuh masak or a boiled egg instead.",
+  "Add an egg for protein, but cut down on other fried lauk on the same plate."
+ ],
+ "swap": {
+  "name": "Boiled egg",
+  "kcal": 70,
+  "why": "Same protein, no extra oil. Easy to bring to the office as a snack."
+ },
+ "faq": [
+  {
+   "q": "Is it okay to eat eggs every day?",
+   "a": "For most healthy adults, one or two a day can fit into a balanced diet. If you have cholesterol issues, talk to your doctor."
+  },
+  {
+   "q": "Is runny egg yolk safe to eat?",
+   "a": "There is some risk of bacteria. For pregnant mums, small kids and the elderly, fully cooked eggs are safer."
+  },
+  {
+   "q": "Fried egg or boiled egg, which has more protein?",
+   "a": "About the same, around 6 g per egg. The only difference is the oil and extra calories."
+  }
+ ]
+}

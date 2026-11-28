@@ -1,0 +1,62 @@
+{
+ "slug": "kuih-talam",
+ "intro": "Sepotong kuih talam ada anggaran 150 kcal. Kalori datang dari tepung, gula dan lapisan santan di atasnya.",
+ "protein_g": 2,
+ "carbs_g": 24,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Tepung beras & tepung lain",
+   "kcal": 50
+  },
+  {
+   "part": "Gula",
+   "kcal": 45
+  },
+  {
+   "part": "Santan (terutama lapisan putih)",
+   "kcal": 55
+  }
+ ],
+ "variants": [
+  {
+   "name": "Talam keladi (1 potong)",
+   "kcal": 170
+  },
+  {
+   "name": "Talam ubi (1 potong)",
+   "kcal": 170
+  },
+  {
+   "name": "Seri muka (1 potong)",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, sepotong talam masih sederhana kalorinya. Cuma ia hampir semua karbohidrat dan santan, protein sangat sedikit. Kalau makan untuk sarapan, tambah sumber protein seperti telur. Hadkan kepada satu atau dua potong, bukan sepinggan.",
+ "tips": [
+  "Pilih satu jenis kuih sahaja di gerai, jangan campur banyak jenis.",
+  "Minum dengan teh o atau kopi o kosong, bukan teh tarik.",
+  "Untuk sarapan, makan sepotong talam bersama telur rebus."
+ ],
+ "swap": {
+  "name": "Pisang emas (2 biji)",
+  "kcal": 80,
+  "why": "Manis semula jadi dan ada serat, dengan separuh kalori. Senang dibeli di warung atau pasar."
+ },
+ "faq": [
+  {
+   "q": "Kenapa lapisan talam terpisah?",
+   "a": "Biasanya lapisan bawah belum cukup masak atau terlalu basah sebelum lapisan atas dituang. Kukus lapisan pertama hingga set dahulu."
+  },
+  {
+   "q": "Apa beza kuih talam dengan seri muka?",
+   "a": "Talam guna tepung untuk lapisan bawah. Seri muka pula guna pulut di bawah, sebab tu ia lebih padat dan lebih tinggi kalori."
+  },
+  {
+   "q": "Kuih talam perlu simpan dalam peti sejuk?",
+   "a": "Kalau tak habis dalam sehari, ya. Santan cepat basi dalam cuaca panas Malaysia."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

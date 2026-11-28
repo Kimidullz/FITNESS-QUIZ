@@ -1,0 +1,66 @@
+{
+ "slug": "jeli",
+ "intro": "Satu cawan jeli ada anggaran 80 kcal. Hampir semua kalori datang dari gula dalam jeli tu.",
+ "protein_g": 1,
+ "carbs_g": 19,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula",
+   "kcal": 60
+  },
+  {
+   "part": "Jus atau perisa buah",
+   "kcal": 12
+  },
+  {
+   "part": "Gelatin atau agar-agar",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jeli cup mini (saiz kecil)",
+   "kcal": 15
+  },
+  {
+   "name": "Jeli dengan isi nata de coco atau buah",
+   "kcal": 100
+  },
+  {
+   "name": "Jeli tanpa gula",
+   "kcal": 10
+  },
+  {
+   "name": "Agar-agar santan, 1 potong",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, satu cawan jeli tak akan rosakkan progress. Kalorinya rendah, tapi hampir semuanya gula dan tak ada protein atau serat. Jadi ia tak bagi kenyang lama. Anggap ia sebagai pencuci mulut kecil, bukan snek untuk alas perut.",
+ "tips": [
+  "Buat jeli sendiri di rumah dan kurangkan gula separuh dari resipi.",
+  "Masukkan buah potong betul dalam jeli supaya ada serat.",
+  "Makan selepas makan utama, bukan masa perut kosong, supaya tak mengidam benda manis lagi."
+ ],
+ "swap": {
+  "name": "Tembikai potong, 1 cawan",
+  "kcal": 45,
+  "why": "Manis dan sejuk macam jeli, tapi kalori lebih rendah dan ada air serta sedikit serat."
+ },
+ "faq": [
+  {
+   "q": "Jeli guna gelatin halal ke?",
+   "a": "Bergantung pada sumber gelatin. Semak logo halal pada pek, atau pilih jeli yang guna agar-agar atau konjac."
+  },
+  {
+   "q": "Apa beza jeli agar-agar dan gelatin?",
+   "a": "Agar-agar dari rumpai laut dan set lebih keras, tahan suhu bilik. Gelatin dari sumber haiwan, lebih lembut dan perlu disimpan sejuk."
+  },
+  {
+   "q": "Jeli konjac selamat untuk budak kecil?",
+   "a": "Jeli konjac kecil boleh menyebabkan tercekik pada kanak-kanak. Lebih selamat potong kecil atau elakkan untuk anak kecil."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

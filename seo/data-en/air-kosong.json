@@ -1,0 +1,63 @@
+{
+ "slug": "air-kosong",
+ "name_en": "Air kosong (plain water)",
+ "serving_en": "1 glass",
+ "intro": "A glass of plain water has 0 kcal. No sugar, fat or protein, so it's the most calorie-friendly drink there is.",
+ "breakdown": [
+  {
+   "part": "Plain water 1 glass (250ml)",
+   "kcal": 0
+  },
+  {
+   "part": "Ice",
+   "kcal": 0
+  },
+  {
+   "part": "Lemon/lime slice (optional)",
+   "kcal": 2
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air suam (warm water)",
+   "kcal": 0
+  },
+  {
+   "name": "Lime water, no sugar",
+   "kcal": 5
+  },
+  {
+   "name": "Teh o kosong",
+   "kcal": 2
+  },
+  {
+   "name": "Soda water, no sugar",
+   "kcal": 0
+  }
+ ],
+ "diet": "Absolutely, and it's the main drink we recommend. Swapping one teh tarik a day for plain water already saves about 150 kcal (estimate). Water doesn't 'burn fat', but it helps you avoid liquid calories you don't notice. Sometimes hunger is actually thirst, so drink first before snacking.",
+ "tips": [
+  "Bring a water bottle to the office and refill it 3-4 times a day.",
+  "At the mamak, order 'air kosong ais' first before the food arrives.",
+  "Bored? Add a slice of lime, cucumber or some mint leaves."
+ ],
+ "swap": {
+  "name": "Warm lime water, no sugar",
+  "kcal": 5,
+  "why": "For when you're bored of plain water. Has flavour, but almost zero calories."
+ },
+ "faq": [
+  {
+   "q": "How many glasses of water should I drink a day?",
+   "a": "It depends on your body weight, the weather and how active you are. Easy guide: drink until your urine is pale yellow. For many adults, that's around 6-8 glasses."
+  },
+  {
+   "q": "Does drinking water before meals help me eat less?",
+   "a": "For some people, a glass of water before eating makes them feel fuller and eat slower. It's an easy trick, but not magic."
+  },
+  {
+   "q": "Does cold water make you fat?",
+   "a": "No. Cold water and warm water are both 0 kcal. Pick whichever you're most comfortable drinking."
+  }
+ ]
+}

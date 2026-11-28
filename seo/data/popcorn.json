@@ -1,0 +1,66 @@
+{
+ "slug": "popcorn",
+ "intro": "Satu bekas popcorn wayang saiz sederhana memberi anggaran 400 kcal. Kebanyakan kalori datang daripada minyak atau mentega yang digunakan untuk memasak dan perisa.",
+ "protein_g": 6,
+ "carbs_g": 45,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Jagung popcorn",
+   "kcal": 200
+  },
+  {
+   "part": "Minyak / mentega masak",
+   "kcal": 150
+  },
+  {
+   "part": "Garam, gula dan perisa",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Popcorn masin saiz kecil",
+   "kcal": 250
+  },
+  {
+   "name": "Popcorn masin saiz besar",
+   "kcal": 650
+  },
+  {
+   "name": "Popcorn karamel saiz sederhana",
+   "kcal": 550
+  },
+  {
+   "name": "Combo popcorn sederhana + air bergas sederhana",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, tengok wayang sekali-sekala dengan popcorn memang okay. Yang selalu buat kalori melonjak ialah saiz besar, perisa karamel dan combo air bergas. Pilih saiz kecil atau kongsi satu bekas. Selebihnya, nikmati filem tu tanpa rasa bersalah.",
+ "tips": [
+  "Kongsi satu bekas sederhana dengan pasangan atau kawan.",
+  "Pilih perisa masin berbanding karamel atau cheese, beza boleh lebih 100 kcal.",
+  "Tukar air bergas kepada air mineral atau minuman zero sugar."
+ ],
+ "swap": {
+  "name": "Popcorn masin saiz kecil",
+  "kcal": 250,
+  "why": "Masih dapat feel wayang, tapi jimat anggaran 150 kcal berbanding sederhana."
+ },
+ "faq": [
+  {
+   "q": "Popcorn ni makanan bijirin penuh ke?",
+   "a": "Ya, jagung popcorn sendiri ialah bijirin penuh dan ada serat. Yang buat kalorinya tinggi ialah minyak, mentega dan gula yang ditambah."
+  },
+  {
+   "q": "Popcorn karamel atau masin, mana lebih baik?",
+   "a": "Popcorn masin biasanya lebih rendah kalori dan gula. Karamel ada lapisan gula yang menambah kalori dengan banyak."
+  },
+  {
+   "q": "Boleh bawa popcorn sendiri ke panggung?",
+   "a": "Kebanyakan panggung tak benarkan makanan dari luar. Lebih mudah pilih saiz kecil di kaunter atau buat popcorn sendiri bila tengok movie di rumah."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

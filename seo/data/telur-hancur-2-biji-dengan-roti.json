@@ -1,0 +1,70 @@
+{
+ "slug": "telur-hancur-2-biji-dengan-roti",
+ "intro": "Sepinggan telur hancur 2 biji dengan roti ada anggaran 380 kcal. Kalori datang dari roti, telur dan butter atau minyak yang digunakan untuk masak.",
+ "protein_g": 19,
+ "carbs_g": 30,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Telur 2 biji",
+   "kcal": 145
+  },
+  {
+   "part": "Butter atau minyak untuk masak",
+   "kcal": 60
+  },
+  {
+   "part": "Susu sikit dalam telur",
+   "kcal": 15
+  },
+  {
+   "part": "Roti putih 2 keping",
+   "kcal": 160
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dengan roti wholemeal",
+   "kcal": 370
+  },
+  {
+   "name": "Roti sapu butter atau kaya",
+   "kcal": 480
+  },
+  {
+   "name": "Tambah sosej 2 batang",
+   "kcal": 520
+  },
+  {
+   "name": "Telur 3 biji dengan roti",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, ini antara sarapan yang paling mesra turun berat. Telur bagi protein yang bagus dan kenyang lama. Yang tambah kalori biasanya butter, sosej dan roti sapu kaya. Jaga minyak, dah cukup elok.",
+ "tips": [
+  "Masak dengan kuali non-stick dan sikit butter je.",
+  "Tukar ke roti wholemeal untuk lebih serat dan kenyang.",
+  "Tambah tomato, timun atau sayur hijau di tepi pinggan."
+ ],
+ "swap": {
+  "name": "2 biji telur rebus + 2 keping roti wholemeal",
+  "kcal": 300,
+  "why": "Tiada minyak untuk masak, protein sama, serat lebih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Telur hancur atau telur rebus, mana lagi sihat?",
+   "a": "Dua-dua bagus. Telur rebus tiada minyak tambahan, jadi kalori lebih rendah sikit."
+  },
+  {
+   "q": "Makan telur setiap hari okay ke?",
+   "a": "Untuk kebanyakan orang sihat, 1-2 biji sehari okay. Kalau ada masalah kesihatan, tanya doktor."
+  },
+  {
+   "q": "Macam mana nak buat telur hancur lembut?",
+   "a": "Masak api perlahan dan kacau perlahan-lahan. Angkat sebelum betul-betul kering, sebab telur terus masak dengan haba sendiri."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

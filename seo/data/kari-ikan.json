@@ -1,0 +1,70 @@
+{
+ "slug": "kari-ikan",
+ "intro": "Satu potong ikan dengan kuah kari ada anggaran 280 kcal. Kebanyakan kalori datang dari kuah santan dan minyak tumis rempah, manakala ikan pula sumber protein utama.",
+ "protein_g": 22,
+ "carbs_g": 8,
+ "fat_g": 18,
+ "breakdown": [
+  {
+   "part": "Ikan 1 potong sederhana",
+   "kcal": 110
+  },
+  {
+   "part": "Kuah kari bersantan",
+   "kcal": 120
+  },
+  {
+   "part": "Minyak tumis rempah",
+   "kcal": 40
+  },
+  {
+   "part": "Bendi, terung dan tomato",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kari kepala ikan (1 senduk besar)",
+   "kcal": 400
+  },
+  {
+   "name": "Kari ikan tanpa santan (gaya India, asam)",
+   "kcal": 200
+  },
+  {
+   "name": "Kari ikan kuah banyak atas nasi",
+   "kcal": 350
+  },
+  {
+   "name": "Kari ikan dengan ikan goreng dulu",
+   "kcal": 330
+  }
+ ],
+ "diet": "Boleh sangat. Ikan tinggi protein dan biasanya rendah lemak. Yang naikkan kalori ialah kuah santan, terutama kalau nasi dibanjirkan. Ambil ikan dan sayur dalam kari, kuah secukup rasa.",
+ "tips": [
+  "Di kedai nasi kandar, minta kuah sikit atau kuah asing supaya boleh kawal.",
+  "Makan bendi dan terung dalam kari untuk tambah sayur tanpa tambah banyak kalori.",
+  "Masak di rumah, guna separuh santan dan separuh air atau susu cair rendah lemak."
+ ],
+ "swap": {
+  "name": "Ikan masak asam pedas",
+  "kcal": 180,
+  "why": "Ikan yang sama tapi kuah tanpa santan, jadi lemak lebih rendah dan rasa tetap sedap."
+ },
+ "faq": [
+  {
+   "q": "Ikan apa paling sesuai untuk kari?",
+   "a": "Ikan tenggiri, ikan merah, ikan pari dan kepala ikan merah antara pilihan popular kerana isinya tak mudah hancur."
+  },
+  {
+   "q": "Kari ikan kena masuk santan ke?",
+   "a": "Tak semestinya. Kari gaya India Selatan banyak yang guna asam jawa tanpa santan, rasa lebih masam dan ringan."
+  },
+  {
+   "q": "Kenapa kari ikan saya hanyir?",
+   "a": "Basuh ikan dengan garam dan asam, dan pastikan rempah ditumis sampai garing. Daun kari dan halia juga bantu hilangkan bau."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

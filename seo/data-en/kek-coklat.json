@@ -1,0 +1,59 @@
+{
+ "slug": "kek-coklat",
+ "name_en": "Chocolate cake",
+ "serving_en": "1 slice",
+ "intro": "A slice of chocolate cake is about 400 kcal (estimate). Most of the calories come from sugar, butter and the chocolate frosting or ganache on top and in the middle.",
+ "breakdown": [
+  {
+   "part": "Chocolate sponge",
+   "kcal": 180
+  },
+  {
+   "part": "Chocolate frosting or ganache",
+   "kcal": 170
+  },
+  {
+   "part": "Cream layer in the middle",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Steamed moist chocolate cake (1 slice)",
+   "kcal": 350
+  },
+  {
+   "name": "Chocolate lava cake with thick sauce",
+   "kcal": 500
+  },
+  {
+   "name": "Brownie (1 medium piece)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Yes, but plan for it. 400 kcal a slice is close to a plate of rice with light dishes. At an office birthday, take a small slice and enjoy it slowly. Usually the problem isn't the first slice, it's the second and third.",
+ "tips": [
+  "Ask for a thin slice or share half with a friend.",
+  "Scrape off some of the thick frosting if it's too sweet.",
+  "Pair it with kopi O or teh O kosong, not a sweet drink."
+ ],
+ "swap": {
+  "name": "Small brownie or 2 squares of dark chocolate",
+  "kcal": 180,
+  "why": "You still get your chocolate fix, with less than half the calories."
+ },
+ "faq": [
+  {
+   "q": "Is steamed chocolate cake healthier than baked?",
+   "a": "Not really. The cooking method doesn't change calories much. What matters is the sugar, oil and toppings."
+  },
+  {
+   "q": "How long does chocolate cake last in the fridge?",
+   "a": "Usually 3 to 5 days in a covered container. Cakes with fresh cream spoil faster."
+  },
+  {
+   "q": "Why does moist chocolate cake taste oily?",
+   "a": "Moist recipes often use more cooking oil than butter to keep the cake soft. That's why it feels a bit oily."
+  }
+ ]
+}

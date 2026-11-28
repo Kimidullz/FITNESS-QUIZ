@@ -1,0 +1,66 @@
+{
+ "slug": "ubi-kayu-rebus",
+ "intro": "Satu potong ubi kayu rebus (lebih kurang 100g) ada anggaran 160 kcal. Hampir semua kalori datang dari kanji, iaitu karbohidrat.",
+ "protein_g": 1,
+ "carbs_g": 39,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Karbohidrat (kanji)",
+   "kcal": 150
+  },
+  {
+   "part": "Protein",
+   "kcal": 5
+  },
+  {
+   "part": "Lemak semula jadi",
+   "kcal": 3
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cicah kelapa parut dan gula",
+   "kcal": 260
+  },
+  {
+   "name": "Cicah sambal tumis bilis 1 sudu",
+   "kcal": 220
+  },
+  {
+   "name": "Ubi kayu goreng, 1 potong",
+   "kcal": 250
+  },
+  {
+   "name": "Bingka ubi, 1 potong",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, ubi kayu rebus ialah sumber karbohidrat macam nasi. Satu potong lebih kurang sama dengan 3/4 cawan nasi. Jadi kalau makan ubi kayu, kurangkan nasi pada waktu yang sama. Yang buat kalori melonjak biasanya kelapa parut, gula dan sambal.",
+ "tips": [
+  "Kalau minum petang dengan ubi kayu, kurangkan nasi masa makan malam.",
+  "Pasangkan dengan telur rebus atau ikan bilis goreng kering untuk tambah protein.",
+  "Cicah sedikit kelapa parut tanpa gula, atau garam secubit sahaja."
+ ],
+ "swap": {
+  "name": "Keledek rebus, 1 biji kecil",
+  "kcal": 100,
+  "why": "Kalori lebih rendah dan ada lebih serat serta vitamin A, rasa manis semula jadi."
+ },
+ "faq": [
+  {
+   "q": "Ubi kayu kena masak sampai betul-betul empuk ke?",
+   "a": "Ya. Ubi kayu mentah ada bahan semula jadi yang tak elok untuk badan. Kupas, rendam dan rebus sampai empuk sebelum makan."
+  },
+  {
+   "q": "Ubi kayu boleh ganti nasi?",
+   "a": "Boleh sekali-sekala. Ia karbohidrat juga, cuma kurang protein, jadi pasangkan dengan lauk berprotein."
+  },
+  {
+   "q": "Kenapa ubi kayu rasa pahit kadang-kadang?",
+   "a": "Sesetengah jenis ubi kayu memang lebih pahit. Pilih ubi yang segar dan buang kulit serta urat tengah sebelum rebus."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

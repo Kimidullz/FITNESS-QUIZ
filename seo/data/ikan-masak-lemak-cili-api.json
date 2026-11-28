@@ -1,0 +1,70 @@
+{
+ "slug": "ikan-masak-lemak-cili-api",
+ "intro": "Satu potong ikan masak lemak cili api dengan kuah ada anggaran 300 kcal. Hampir separuh kalori datang dari santan dalam kuah, selebihnya dari ikan.",
+ "protein_g": 22,
+ "carbs_g": 8,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Ikan 1 potong",
+   "kcal": 130
+  },
+  {
+   "part": "Santan dalam kuah",
+   "kcal": 140
+  },
+  {
+   "part": "Nenas, ubi atau belimbing buluh",
+   "kcal": 20
+  },
+  {
+   "part": "Kunyit, cili api dan bawang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Masak lemak ikan salai",
+   "kcal": 320
+  },
+  {
+   "name": "Masak lemak ikan keli",
+   "kcal": 350
+  },
+  {
+   "name": "Masak lemak udang",
+   "kcal": 280
+  },
+  {
+   "name": "Kuah lebih atas nasi",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh, tapi jaga kuah. Ikannya sendiri rendah kalori dan tinggi protein. Santan yang buat kalori naik, jadi makan isi ikan dan ambil kuah secukup rasa sahaja. Ia lebih sesuai sekali-sekala, tak perlu setiap hari.",
+ "tips": [
+  "Makan isi ikan dulu, ambil kuah 2-3 sudu sahaja untuk basahkan nasi.",
+  "Pasangkan dengan sayur rebus atau ulam, bukan lauk bersantan lain.",
+  "Di rumah, guna separuh santan dan separuh susu rendah lemak atau air."
+ ],
+ "swap": {
+  "name": "Ikan masak asam pedas",
+  "kcal": 230,
+  "why": "Masih berkuah dan pedas, tapi tanpa santan jadi lebih ringan."
+ },
+ "faq": [
+  {
+   "q": "Masak lemak cili api berasal dari mana?",
+   "a": "Ia sangat sinonim dengan Negeri Sembilan, terutama masak lemak cili api daging salai dan ikan salai."
+  },
+  {
+   "q": "Kuah masak lemak boleh pecah minyak ke?",
+   "a": "Boleh kalau santan dimasak api terlalu besar. Kacau selalu dan masak api sederhana supaya kuah kekal licin."
+  },
+  {
+   "q": "Masak lemak kuning dengan masak lemak cili api sama ke?",
+   "a": "Hampir sama. Masak lemak cili api ada cili api kisar yang buat ia lebih pedas."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

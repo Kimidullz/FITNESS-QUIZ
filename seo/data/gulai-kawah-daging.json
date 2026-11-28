@@ -1,0 +1,70 @@
+{
+ "slug": "gulai-kawah-daging",
+ "intro": "Satu senduk gulai kawah daging ada anggaran 350 kcal. Kalori paling banyak datang dari daging berlemak dan kuah santan pekat.",
+ "protein_g": 22,
+ "carbs_g": 8,
+ "fat_g": 26,
+ "breakdown": [
+  {
+   "part": "Daging lembu dengan lemak (lebih kurang 100 g)",
+   "kcal": 190
+  },
+  {
+   "part": "Kuah santan pekat",
+   "kcal": 110
+  },
+  {
+   "part": "Minyak tumis rempah",
+   "kcal": 40
+  },
+  {
+   "part": "Bawang, serai dan rempah",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Gulai kawah daging dengan tetel/urat",
+   "kcal": 420
+  },
+  {
+   "name": "Gulai kawah dengan kentang",
+   "kcal": 400
+  },
+  {
+   "name": "Gulai kawah daging, kuah sikit",
+   "kcal": 260
+  },
+  {
+   "name": "Gulai kawah tulang/kambing",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, terutamanya masa kenduri atau majlis. Ini lauk tinggi protein tapi juga tinggi lemak dari santan. Kuncinya satu senduk sahaja dan kurangkan kuah yang dituang atas nasi. Seimbangkan dengan sayur dan makan lebih ringan untuk hidangan seterusnya.",
+ "tips": [
+  "Pilih ketulan daging yang kurang lemak dan minta kuah sikit sahaja.",
+  "Jangan banjirkan nasi dengan kuah, cukup 1 hingga 2 sudu untuk rasa.",
+  "Kenduri? Ambil nasi separuh dulu, tambah acar atau sayur, baru tengok perlu tambah atau tak."
+ ],
+ "swap": {
+  "name": "Daging masak asam pedas atau sup daging",
+  "kcal": 200,
+  "why": "Masih ada daging dan protein, tapi tiada santan pekat jadi lemak jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Apa beza gulai kawah dengan kari daging biasa?",
+   "a": "Gulai kawah dimasak dalam kuantiti besar dalam kawah, biasanya untuk kenduri. Rempahnya lebih banyak dan dimasak lama sampai daging empuk dan kuah pekat."
+  },
+  {
+   "q": "Gulai kawah boleh simpan berapa hari?",
+   "a": "Dalam peti sejuk, lebih kurang 3 hari. Untuk lebih lama, bekukan dalam bekas kecil dan panaskan sampai mendidih sebelum makan."
+  },
+  {
+   "q": "Daging bahagian mana sesuai untuk gulai kawah?",
+   "a": "Ramai guna batang pinang, daging paha atau daging bercampur tetel. Kalau nak kurang lemak, pilih daging paha dan buang lemak yang nampak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

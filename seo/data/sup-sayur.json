@@ -1,0 +1,66 @@
+{
+ "slug": "sup-sayur",
+ "intro": "Satu mangkuk sup sayur ada anggaran 90 kcal. Kalori kebanyakannya dari sayur berkanji seperti kentang dan lobak, serta sedikit minyak tumis.",
+ "protein_g": 4,
+ "carbs_g": 12,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Sayur campur (kubis, lobak, kentang)",
+   "kcal": 50
+  },
+  {
+   "part": "Minyak dan bawang tumis",
+   "kcal": 25
+  },
+  {
+   "part": "Kuah stok",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup sayur dengan fishball",
+   "kcal": 150
+  },
+  {
+   "name": "Sup sayur dengan tauhu",
+   "kcal": 160
+  },
+  {
+   "name": "Sup sayur kosong tanpa minyak",
+   "kcal": 60
+  },
+  {
+   "name": "Sup sayur dengan bihun",
+   "kcal": 220
+  }
+ ],
+ "diet": "Ya, sup sayur antara pilihan terbaik masa nak turun berat. Kalori rendah, isi banyak dan buat perut rasa penuh. Cuma protein agak sikit, jadi pasangkan dengan lauk protein. Perhatikan juga garam kalau beli di luar.",
+ "tips": [
+  "Minum sup dulu sebelum makan nasi supaya cepat rasa kenyang.",
+  "Tambah telur, tauhu atau ayam carik untuk naikkan protein.",
+  "Di rumah, masak banyak sekali dan simpan untuk 2 hingga 3 hari, senang untuk hari sibuk."
+ ],
+ "swap": {
+  "name": "Sup sayur dengan tauhu dan telur",
+  "kcal": 200,
+  "why": "Kalori masih rendah tapi protein naik, jadi kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Sayur apa sesuai untuk sup?",
+   "a": "Kubis, lobak merah, kentang, sawi, brokoli dan cendawan semua okay. Masukkan sayur keras dulu, sayur daun last."
+  },
+  {
+   "q": "Sup sayur kiub stok tinggi garam ke?",
+   "a": "Ya, kiub stok biasanya tinggi natrium. Guna separuh kiub atau buat stok sendiri dari tulang dan bawang."
+  },
+  {
+   "q": "Boleh makan sup sayur je untuk makan malam?",
+   "a": "Boleh sekali-sekala, tapi tambah protein supaya tak cepat lapar dan otot terjaga."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

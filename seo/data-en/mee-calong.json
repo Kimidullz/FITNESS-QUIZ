@@ -1,0 +1,63 @@
+{
+ "slug": "mee-calong",
+ "name_en": "Mee calong",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee calong has an estimated 420 kcal. Most of the calories come from the yellow noodles. Next is the calong (fish balls and fish cakes) in the soup.",
+ "breakdown": [
+  {
+   "part": "Yellow mee, 1 cup",
+   "kcal": 220
+  },
+  {
+   "part": "Calong (fish balls & fish cakes)",
+   "kcal": 120
+  },
+  {
+   "part": "Soup",
+   "kcal": 40
+  },
+  {
+   "part": "Vegetables, fried shallots & sambal",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee calong with extra calong",
+   "kcal": 500
+  },
+  {
+   "name": "Bihun calong",
+   "kcal": 390
+  },
+  {
+   "name": "Mee calong goreng",
+   "kcal": 560
+  }
+ ],
+ "diet": "Yes, mee calong is one of the more diet-friendly noodle choices. It's a soup dish, not too oily, and the fish calong gives you decent protein. Go for the soup version and ask for less fried shallots. Good for breakfast or lunch.",
+ "tips": [
+  "Choose the soup version, not the fried one.",
+  "Ask for more calong and less mee for extra protein.",
+  "Add sawi or kangkung if the stall has it."
+ ],
+ "swap": {
+  "name": "Calong soup without mee + half portion of rice",
+  "kcal": 330,
+  "why": "You still get the fish protein, the carbs are more controlled and you still feel full."
+ },
+ "faq": [
+  {
+   "q": "What is calong?",
+   "a": "Calong is a fish ball or fish cake popular in Terengganu and Kelantan. It's usually eaten with clear soup or peanut sauce."
+  },
+  {
+   "q": "Where does mee calong come from?",
+   "a": "Mee calong is linked to the East Coast, especially Kuala Terengganu."
+  },
+  {
+   "q": "What fish is calong made from?",
+   "a": "Usually fish like ikan parang or tamban, mixed with flour and shaped into balls or flat cakes."
+  }
+ ]
+}

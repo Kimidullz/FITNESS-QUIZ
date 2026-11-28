@@ -1,0 +1,62 @@
+{
+ "slug": "aglio-olio-udang",
+ "intro": "Satu pinggan aglio olio udang ada anggaran 600 kcal. Kebanyakan kalori datang dari pasta dan minyak zaitun yang digunakan untuk tumis.",
+ "protein_g": 25,
+ "carbs_g": 75,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Spaghetti masak ~1.5 cawan",
+   "kcal": 330
+  },
+  {
+   "part": "Minyak zaitun, bawang putih dan cili",
+   "kcal": 200
+  },
+  {
+   "part": "Udang ~6 ekor",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Aglio olio ayam",
+   "kcal": 650
+  },
+  {
+   "name": "Aglio olio seafood campur",
+   "kcal": 650
+  },
+  {
+   "name": "Dengan roti bawang putih 2 keping",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, ini antara pasta yang lebih ringan sebab tiada krim. Tapi minyaknya boleh banyak, terutama di kafe. Protein dari udang agak sikit, jadi tambah lauk protein kalau boleh. Sesuai sebagai pilihan bila keluar makan dengan kawan.",
+ "tips": [
+  "Minta kurang minyak masa order.",
+  "Tambah udang atau ayam untuk protein lebih tinggi.",
+  "Masak sendiri: ukur minyak 1 sudu besar sahaja untuk satu hidangan."
+ ],
+ "swap": {
+  "name": "Chicken grill (tanpa kulit) dengan salad",
+  "kcal": 450,
+  "why": "Protein lebih tinggi dan kalori lebih rendah untuk kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Aglio olio pedas ke?",
+   "a": "Biasanya ada cili kering atau cili padi, tahap pedas bergantung pada kedai. Boleh minta kurang pedas."
+  },
+  {
+   "q": "Aglio olio lagi sihat dari carbonara?",
+   "a": "Dari segi kalori dan lemak tepu, ya, biasanya lebih rendah sebab tiada krim dan keju banyak."
+  },
+  {
+   "q": "Senang ke masak aglio olio di rumah?",
+   "a": "Sangat senang. Rebus spaghetti, tumis bawang putih dan cili dalam sedikit minyak, masukkan udang dan gaul dengan pasta."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

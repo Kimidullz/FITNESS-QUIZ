@@ -1,0 +1,63 @@
+{
+ "slug": "tempe-goreng",
+ "name_en": "Tempe goreng (fried tempeh)",
+ "serving_en": "4 pieces",
+ "intro": "Four pieces of tempe goreng are about 230 kcal (estimate). Tempe itself has protein and fat, and the frying oil adds roughly one third of the calories.",
+ "breakdown": [
+  {
+   "part": "Tempe, about 80 g",
+   "kcal": 155
+  },
+  {
+   "part": "Oil absorbed while frying",
+   "kcal": 65
+  },
+  {
+   "part": "Marinade of salt, turmeric and onion",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Flour-coated fried tempe (4 pieces)",
+   "kcal": 300
+  },
+  {
+   "name": "Sambal tempe ikan bilis (1 scoop)",
+   "kcal": 350
+  },
+  {
+   "name": "Tempe goreng kicap (1 scoop)",
+   "kcal": 280
+  },
+  {
+   "name": "Grilled or steamed tempe (4 pieces)",
+   "kcal": 160
+  }
+ ],
+ "diet": "Yes, you can. Tempe is one of the best and cheapest plant-based protein sources. Four pieces give you about 13 g of protein. The only thing to watch is the oil, so pick plain fried tempe over the flour-coated or sugary versions.",
+ "tips": [
+  "Cook it in an air fryer or a pan with just a little oil.",
+  "Drain on kitchen paper after frying to remove excess oil.",
+  "At the warung, choose plain fried tempe over sambal tempe, which is sweeter and oilier."
+ ],
+ "swap": {
+  "name": "Air fryer tempe (4 pieces)",
+  "kcal": 170,
+  "why": "Still crispy, but uses much less oil. Protein stays the same."
+ },
+ "faq": [
+  {
+   "q": "Tempe or tofu, which has more protein?",
+   "a": "For the same weight, tempe usually has more protein and fibre than soft tofu."
+  },
+  {
+   "q": "Are the black spots on tempe a sign it's gone bad?",
+   "a": "A few black or grey spots are usually normal, from the tempe mould. If it smells strongly of ammonia or feels slimy, throw it away."
+  },
+  {
+   "q": "Is tempe suitable for vegetarians?",
+   "a": "Yes. Tempe is made from soybeans and is a main protein source for many vegetarians."
+  }
+ ]
+}

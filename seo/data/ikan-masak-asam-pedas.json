@@ -1,0 +1,66 @@
+{
+ "slug": "ikan-masak-asam-pedas",
+ "intro": "Satu potong ikan masak asam pedas dengan kuah ada anggaran 230 kcal. Kebanyakan kalori datang dari ikan dan minyak tumis cili kisar.",
+ "protein_g": 24,
+ "carbs_g": 10,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Ikan 1 potong (tenggiri atau pari)",
+   "kcal": 140
+  },
+  {
+   "part": "Minyak tumis cili kisar",
+   "kcal": 60
+  },
+  {
+   "part": "Kuah asam, tomato dan sayur",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Asam pedas ikan pari",
+   "kcal": 250
+  },
+  {
+   "name": "Asam pedas Melaka dengan bendi dan terung",
+   "kcal": 260
+  },
+  {
+   "name": "Asam pedas ikan merah",
+   "kcal": 220
+  },
+  {
+   "name": "Asam pedas kepala ikan",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh. Asam pedas tak guna santan, jadi ia lebih ringan berbanding gulai atau masak lemak. Protein dari ikan pun tinggi. Yang perlu dijaga ialah minyak terapung atas kuah dan portion nasi.",
+ "tips": [
+  "Ceduk kuah dari bawah, elak minyak yang terapung di atas.",
+  "Tambah bendi atau terung dari kuah sebagai sayur.",
+  "Masak sendiri: tumis cili kisar dengan 1 sudu minyak sahaja, cukup."
+ ],
+ "swap": {
+  "name": "Ikan masak singgang atau ikan rebus kuah asam",
+  "kcal": 170,
+  "why": "Masam pedas yang hampir sama, tapi hampir tiada minyak."
+ },
+ "faq": [
+  {
+   "q": "Ikan apa paling sedap untuk asam pedas?",
+   "a": "Ikan pari, tenggiri, jenahak dan ikan merah antara pilihan popular. Ikan berisi pejal tak mudah hancur."
+  },
+  {
+   "q": "Apa beza asam pedas Melaka dengan Johor?",
+   "a": "Asam pedas Melaka biasanya lebih pedas dan pekat dengan bunga kantan dan daun kesum. Versi lain ada yang guna serbuk kari sikit."
+  },
+  {
+   "q": "Kenapa asam pedas kena guna daun kesum?",
+   "a": "Daun kesum beri aroma wangi khas yang buat asam pedas rasa lengkap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

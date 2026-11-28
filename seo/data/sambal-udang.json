@@ -1,0 +1,66 @@
+{
+ "slug": "sambal-udang",
+ "intro": "Satu senduk sambal udang ada anggaran 220 kcal. Kebanyakan kalori datang dari minyak tumis sambal, bukan dari udangnya.",
+ "protein_g": 14,
+ "carbs_g": 10,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Udang 5-6 ekor sederhana",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak tumis sambal",
+   "kcal": 110
+  },
+  {
+   "part": "Cili, bawang, gula dan asam",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sambal udang petai",
+   "kcal": 250
+  },
+  {
+   "name": "Sambal udang harimau (udang besar)",
+   "kcal": 280
+  },
+  {
+   "name": "Sambal sotong",
+   "kcal": 230
+  },
+  {
+   "name": "Nasi lemak sambal udang sepinggan",
+   "kcal": 650
+  }
+ ],
+ "diet": "Boleh. Udang tinggi protein dan rendah lemak. Yang berat ialah minyak sambal, jadi kawal berapa banyak sambal yang anda ceduk. Satu senduk dengan nasi putih dan sayur masih okay untuk turun berat.",
+ "tips": [
+  "Ambil udang dan sambal yang melekat sahaja, tinggalkan minyak di dulang.",
+  "Pasangkan dengan nasi putih dan timun, bukan nasi lemak penuh.",
+  "Di rumah, masak cili kisar lama dengan sedikit minyak dan tambah air sikit-sikit."
+ ],
+ "swap": {
+  "name": "Udang goreng kunyit kering atau udang bakar",
+  "kcal": 150,
+  "why": "Protein sama, tapi minyak jauh kurang tanpa sambal berminyak."
+ },
+ "faq": [
+  {
+   "q": "Udang tinggi kolesterol ke?",
+   "a": "Udang memang ada kolesterol, tapi ia rendah lemak tepu. Kalau ada isu kesihatan, rujuk doktor untuk nasihat peribadi."
+  },
+  {
+   "q": "Kenapa sambal kena masak sampai pecah minyak?",
+   "a": "Supaya cili masak sepenuhnya, tak berbau mentah dan tahan lebih lama. Boleh juga capai dengan api perlahan dan kurang minyak."
+  },
+  {
+   "q": "Sambal udang tahan berapa lama?",
+   "a": "Dalam peti sejuk, anggaran 2-3 hari. Sambal tanpa udang boleh tahan lebih lama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

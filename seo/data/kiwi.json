@@ -1,0 +1,62 @@
+{
+ "slug": "kiwi",
+ "intro": "1 biji kiwi bagi anggaran 45 kcal. Kalorinya kebanyakan daripada gula semula jadi, dan ia antara buah yang paling ringan untuk satu biji.",
+ "protein_g": 1,
+ "carbs_g": 10,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi (~75g)",
+   "kcal": 36
+  },
+  {
+   "part": "Serat",
+   "kcal": 5
+  },
+  {
+   "part": "Protein dan lemak sikit",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kiwi gold 1 biji",
+   "kcal": 50
+  },
+  {
+   "name": "Kiwi 2 biji",
+   "kcal": 90
+  },
+  {
+   "name": "Kiwi hijau dimakan dengan kulit",
+   "kcal": 47
+  }
+ ],
+ "diet": "Boleh. Kiwi kecil, ringan kalori dan ada serat. Senang bawa ke pejabat sebagai snek. Ia tak 'bakar lemak', tapi ia pilihan snek yang baik berbanding kuih atau biskut.",
+ "tips": [
+  "Potong dua dan makan guna sudu, mudah di pejabat.",
+  "Simpan 2 hingga 3 biji dalam beg kerja sebagai snek kecemasan.",
+  "Gandingkan dengan sebiji telur rebus atau segenggam kecil kacang untuk lebih kenyang."
+ ],
+ "swap": {
+  "name": "Jambu batu 1/2 biji",
+  "kcal": 40,
+  "why": "Buah tempatan, lebih murah, kalori hampir sama dan seratnya tinggi."
+ },
+ "faq": [
+  {
+   "q": "Kulit kiwi boleh makan ke?",
+   "a": "Boleh. Basuh bersih dan gosok bulunya. Kulit kiwi gold lebih licin dan lebih senang dimakan."
+  },
+  {
+   "q": "Apa beza kiwi hijau dan kiwi gold?",
+   "a": "Kiwi hijau lebih masam. Kiwi gold lebih manis dan kurang bulu. Kalorinya hampir sama."
+  },
+  {
+   "q": "Kiwi membantu buang air besar ke?",
+   "a": "Kiwi ada serat dan air, dan ramai rasa ia membantu. Tapi hasil setiap orang berbeza. Minum air yang cukup dan makan sayur juga penting."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

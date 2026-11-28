@@ -1,0 +1,63 @@
+{
+ "slug": "lepat-pisang",
+ "name_en": "Lepat pisang",
+ "serving_en": "1 piece",
+ "intro": "About 140 kcal for 1 lepat pisang. Most of the calories come from the banana, flour and sugar in the batter.",
+ "breakdown": [
+  {
+   "part": "Mashed banana",
+   "kcal": 60
+  },
+  {
+   "part": "Wheat or rice flour",
+   "kcal": 45
+  },
+  {
+   "part": "Sugar",
+   "kcal": 25
+  },
+  {
+   "part": "Grated coconut or santan",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Large lepat pisang",
+   "kcal": 200
+  },
+  {
+   "name": "Lepat pisang with coconut filling",
+   "kcal": 170
+  },
+  {
+   "name": "Lepat ubi 1 piece",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, lepat pisang is one of the lighter kuih because it's steamed, not fried. Part of the sweetness comes from the banana itself. One piece as a tea-time snack is totally okay. But it's almost all carbs, so it's better to pair it with some protein.",
+ "tips": [
+  "Eat just 1 piece, keep the rest for tomorrow.",
+  "If making your own, use really ripe bananas and cut down the sugar.",
+  "Pair with a glass of milk or a small cup of nuts to stay full longer."
+ ],
+ "swap": {
+  "name": "1 fresh banana",
+  "kcal": 90,
+  "why": "Same sweet taste, without the flour and added sugar."
+ },
+ "faq": [
+  {
+   "q": "Which banana is best for lepat pisang?",
+   "a": "Very ripe pisang raja or pisang nangka. The riper, the sweeter and more fragrant."
+  },
+  {
+   "q": "Why is my lepat pisang hard?",
+   "a": "Usually too much flour or steamed too long. The batter should be soft and a bit sticky."
+  },
+  {
+   "q": "Can lepat pisang be kept in the fridge?",
+   "a": "Yes, it lasts 2-3 days. Steam again for 5 minutes to soften it."
+  }
+ ]
+}

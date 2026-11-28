@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-lemak-ayam-berempah",
+ "intro": "Sepinggan nasi lemak ayam berempah ada anggaran 780 kcal. Kebanyakan kalori datang dari nasi santan, ayam goreng berempah dan sambal yang berminyak.",
+ "protein_g": 32,
+ "carbs_g": 80,
+ "fat_g": 37,
+ "breakdown": [
+  {
+   "part": "Nasi santan 1 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Ayam berempah 1 ketul (dengan rempah goreng)",
+   "kcal": 300
+  },
+  {
+   "part": "Sambal 2 sudu besar",
+   "kcal": 100
+  },
+  {
+   "part": "Telur rebus separuh, kacang, ikan bilis, timun",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak biasa (tanpa ayam)",
+   "kcal": 400
+  },
+  {
+   "name": "Tambah telur mata",
+   "kcal": 880
+  },
+  {
+   "name": "Ayam berempah bahagian peha besar + sambal lebih",
+   "kcal": 900
+  },
+  {
+   "name": "Separuh nasi, ayam bahagian dada",
+   "kcal": 620
+  }
+ ],
+ "diet": "Boleh, tapi anggap ini hidangan besar untuk hari tu, bukan sarapan biasa. 780 kcal tu dah hampir separuh keperluan harian ramai orang yang nak turun berat. Kalau makan sekali dua seminggu dan hidangan lain hari tu lebih ringan, berat masih boleh turun. Yang buat susah biasanya bila ia jadi rutin hampir setiap pagi.",
+ "tips": [
+  "Minta nasi separuh dan sambal sikit, simpan ayam sebagai sumber protein utama.",
+  "Buang sebahagian rempah goreng yang melekat dan kulit ayam yang tebal.",
+  "Minum teh O kosong atau air suam, bukan teh tarik manis."
+ ],
+ "swap": {
+  "name": "Nasi lemak biasa + telur rebus penuh",
+  "kcal": 470,
+  "why": "Masih dapat rasa nasi lemak, tapi tanpa ayam goreng yang banyak minyak. Telur penuh tambah protein."
+ },
+ "faq": [
+  {
+   "q": "Apa beza ayam berempah dengan ayam goreng biasa?",
+   "a": "Ayam berempah diperap dengan rempah seperti serai, lengkuas dan kunyit, kemudian digoreng sampai rempahnya rangup. Rempah tu menyerap minyak, jadi ia biasanya lebih berminyak sikit."
+  },
+  {
+   "q": "Bahagian ayam mana yang paling kurang lemak?",
+   "a": "Bahagian dada tanpa kulit paling kurang lemak dan paling tinggi protein. Peha lebih juicy tapi lemaknya lebih tinggi."
+  },
+  {
+   "q": "Sesuai tak makan nasi lemak waktu malam?",
+   "a": "Boleh, masa makan tak tentukan berat naik atau turun. Yang penting jumlah kalori sepanjang hari tak berlebihan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

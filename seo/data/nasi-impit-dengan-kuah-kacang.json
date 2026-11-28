@@ -1,0 +1,62 @@
+{
+ "slug": "nasi-impit-dengan-kuah-kacang",
+ "intro": "Sepinggan nasi impit dengan kuah kacang ada anggaran 350 kcal. Kalori dibahagi antara nasi impit dan kuah kacang yang tinggi lemak dari kacang tanah dan minyak.",
+ "protein_g": 9,
+ "carbs_g": 52,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Nasi impit 6-8 ketul",
+   "kcal": 180
+  },
+  {
+   "part": "Kuah kacang (1 senduk)",
+   "kcal": 160
+  },
+  {
+   "part": "Timun & bawang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tambah serunding",
+   "kcal": 430
+  },
+  {
+   "name": "Kuah kacang lebih",
+   "kcal": 430
+  },
+  {
+   "name": "Tambah satay ayam 5 cucuk",
+   "kcal": 600
+  }
+ ],
+ "diet": "Boleh, porsi biasa kalorinya sederhana. Yang perlu jaga ialah kuah kacang, sebab senang tuang banyak. Nasi impit sendiri ringan kerana tiada santan. Tambah protein seperti satay ayam atau telur supaya jadi hidangan lengkap.",
+ "tips": [
+  "Cicah nasi impit dalam kuah, jangan tuang penuh pinggan.",
+  "Tambah 2-3 cucuk satay ayam untuk protein, bukan banyak ketupat lagi.",
+  "Makan timun dan bawang lebih untuk tambah rasa segar dan serat."
+ ],
+ "swap": {
+  "name": "Nasi impit + kuah kacang separuh + telur rebus",
+  "kcal": 330,
+  "why": "Kurang lemak dari kuah, tambah protein dari telur. Lebih kenyang dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi impit dengan ketupat?",
+   "a": "Nasi impit dimasak dan ditekan dalam bekas. Ketupat pula dimasak dalam anyaman daun kelapa. Rasanya hampir sama."
+  },
+  {
+   "q": "Macam mana nak buat nasi impit tanpa acuan?",
+   "a": "Masak nasi lembik sikit, masukkan dalam bekas, tekan kuat dengan sudu atau bekas lain, sejukkan, kemudian potong."
+  },
+  {
+   "q": "Kuah kacang boleh simpan berapa lama?",
+   "a": "Dalam peti sejuk biasanya 3-4 hari dalam bekas bertutup. Panaskan sampai mendidih sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

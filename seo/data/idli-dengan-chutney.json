@@ -1,0 +1,66 @@
+{
+ "slug": "idli-dengan-chutney",
+ "intro": "Tiga biji idli dengan chutney ada anggaran 230 kcal. Hampir semua kalori dari idli kukus (beras dan dal), chutney kelapa pula tambah sedikit lemak.",
+ "protein_g": 7,
+ "carbs_g": 40,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Idli 3 biji",
+   "kcal": 150
+  },
+  {
+   "part": "Chutney kelapa",
+   "kcal": 55
+  },
+  {
+   "part": "Sambar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Idli 2 biji",
+   "kcal": 170
+  },
+  {
+   "name": "Idli 3 biji + sambar lebih",
+   "kcal": 260
+  },
+  {
+   "name": "Idli 4 biji",
+   "kcal": 280
+  },
+  {
+   "name": "Idli goreng",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, idli antara sarapan paling ringan di kedai India. Ia dikukus, jadi rendah lemak. Cuma protein agak rendah, jadi mungkin cepat lapar. Tambah telur atau sambar lebih untuk kenyang lebih lama.",
+ "tips": [
+  "Ambil sambar lebih banyak dari chutney kelapa.",
+  "Tambah telur rebus atau omelet kecil untuk protein.",
+  "Elak idli goreng kalau nak kekal ringan."
+ ],
+ "swap": {
+  "name": "Idli 2 biji + telur rebus + sambar",
+  "kcal": 250,
+  "why": "Kalori hampir sama, tapi protein lebih tinggi. Lebih kenyang sampai tengah hari."
+ },
+ "faq": [
+  {
+   "q": "Idli dibuat dari apa?",
+   "a": "Idli dibuat dari adunan beras dan urad dal yang ditapai, kemudian dikukus dalam acuan bulat."
+  },
+  {
+   "q": "Chutney apa yang biasa dimakan dengan idli?",
+   "a": "Paling biasa chutney kelapa. Ada juga chutney tomato, chutney pudina dan sambar."
+  },
+  {
+   "q": "Idli sesuai untuk budak-budak?",
+   "a": "Sesuai. Teksturnya lembut dan mudah dihadam. Kurangkan cili dalam chutney atau sambar untuk anak kecil."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

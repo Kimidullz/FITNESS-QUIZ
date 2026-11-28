@@ -1,0 +1,63 @@
+{
+ "slug": "sup-ayam",
+ "name_en": "Sup ayam (chicken soup)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of sup ayam is roughly 180 kcal. Most of the calories come from the chicken, especially the skin, plus the potatoes and oil in the soup.",
+ "breakdown": [
+  {
+   "part": "Chicken, 1 small piece",
+   "kcal": 100
+  },
+  {
+   "part": "Potato and carrot",
+   "kcal": 45
+  },
+  {
+   "part": "Soup, oil and soup spices",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup ayam with skin and fat",
+   "kcal": 250
+  },
+  {
+   "name": "Sup ayam with skinless breast meat",
+   "kcal": 140
+  },
+  {
+   "name": "Sup ayam kampung",
+   "kcal": 200
+  },
+  {
+   "name": "Sup ayam with bihun/noodles",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, sup ayam is great when you're trying to lose weight. High protein, moderate calories and very filling. Remove the skin and the floating fat to save even more. Have it with half a plate of rice or bread, totally fine.",
+ "tips": [
+  "Remove the chicken skin and skim off the oil floating on top.",
+  "Cooking yourself? Choose skinless breast or thigh.",
+  "At a warung, order sup ayam with white rice and veggies. Lighter than fried dishes."
+ ],
+ "swap": {
+  "name": "Chicken breast soup with extra veggies",
+  "kcal": 150,
+  "why": "Higher protein, lower fat, and the veggies fill up the bowl."
+ },
+ "faq": [
+  {
+   "q": "Is sup ayam good when you have a fever?",
+   "a": "Many people like sup ayam when they're unwell because it's easy to eat and hydrating. But it's not medicine. Follow your doctor's advice if you're sick."
+  },
+  {
+   "q": "Which soup spices are commonly used?",
+   "a": "Cinnamon, star anise, cardamom and cloves. Some people use ready-made rempah sup packets."
+  },
+  {
+   "q": "Why is my chicken soup cloudy?",
+   "a": "Usually because it's boiled too hard. Simmer on low heat and remove the scum early for a clearer soup."
+  }
+ ]
+}

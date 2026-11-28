@@ -1,0 +1,59 @@
+{
+ "slug": "tepung-pelita",
+ "name_en": "Tepung pelita",
+ "serving_en": "1 piece",
+ "intro": "About 120 kcal for 1 tepung pelita. Most of the calories come from the white santan layer on top.",
+ "breakdown": [
+  {
+   "part": "Santan layer on top",
+   "kcal": 60
+  },
+  {
+   "part": "Pandan rice flour layer",
+   "kcal": 40
+  },
+  {
+   "part": "Sugar",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tepung pelita 2 pieces",
+   "kcal": 240
+  },
+  {
+   "name": "Kuih talam 1 piece",
+   "kcal": 140
+  },
+  {
+   "name": "Kuih seri muka 1 piece",
+   "kcal": 180
+  }
+ ],
+ "diet": "Yes, tepung pelita is small and light for a santan kuih. It's soft, so it's easy to finish two or three. One piece as dessert after buka puasa or dinner is totally okay. Just remember, santan still adds fat.",
+ "tips": [
+  "Buy just 1-2 pieces, not a whole box.",
+  "Eat it after a main meal with protein, not as a meal replacement.",
+  "If making your own, use half santan and half low-fat milk."
+ ],
+ "swap": {
+  "name": "Agar-agar santan 1 piece",
+  "kcal": 80,
+  "why": "Lighter and still has that santan pandan taste."
+ },
+ "faq": [
+  {
+   "q": "Why is it called tepung pelita?",
+   "a": "The folded banana leaf cup looks like a pelita, the traditional oil lamp."
+  },
+  {
+   "q": "When is tepung pelita popular?",
+   "a": "It's always at the Ramadan bazaar, but you can find it at kuih stalls all year round."
+  },
+  {
+   "q": "Why didn't my tepung pelita santan layer set?",
+   "a": "Usually the heat is too high or you didn't stir continuously. Cook the santan on low heat until thick."
+  }
+ ]
+}

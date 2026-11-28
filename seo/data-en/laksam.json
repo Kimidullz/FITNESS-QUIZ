@@ -1,0 +1,59 @@
+{
+ "slug": "laksam",
+ "name_en": "Laksam",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of laksam has an estimated 420 kcal. Most of the calories come from the rolled rice flour laksam and the thick fish and coconut milk kuah.",
+ "breakdown": [
+  {
+   "part": "Rolled laksam, 1 bowl",
+   "kcal": 220
+  },
+  {
+   "part": "Fish & coconut milk kuah",
+   "kcal": 180
+  },
+  {
+   "part": "Ulam & sambal",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Laksam with extra kuah",
+   "kcal": 520
+  },
+  {
+   "name": "Laksam with less kuah",
+   "kcal": 380
+  },
+  {
+   "name": "Laksam + boiled egg",
+   "kcal": 525
+  }
+ ],
+ "diet": "Yes, laksam can still fit into your weight loss plan. The santan kuah is what pushes the calories up, so watch how much kuah you drink. Lots of ulam helps you feel full and adds fibre. One normal bowl is fine for breakfast or lunch.",
+ "tips": [
+  "Ask for extra ulam like cucumber, long beans and daun kesum.",
+  "Eat the laksam with the kuah, but no need to finish every drop.",
+  "Add a boiled egg if you want more protein and to stay full longer."
+ ],
+ "swap": {
+  "name": "Laksa Penang (asam laksa)",
+  "kcal": 380,
+  "why": "The sour fish-based kuah has no santan, so it's lower in fat but still full of flavour."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between laksam and laksa?",
+   "a": "Laksam uses rice flour sheets that are rolled and sliced, while laksa uses round noodles. Laksam kuah is also whiter and richer with santan."
+  },
+  {
+   "q": "Where does laksam come from?",
+   "a": "Laksam is popular in Kelantan and Terengganu, often eaten for breakfast."
+  },
+  {
+   "q": "What is laksam kuah made of?",
+   "a": "Boiled fish that's blended, santan and simple spices like onion and black pepper."
+  }
+ ]
+}

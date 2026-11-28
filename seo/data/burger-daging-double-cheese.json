@@ -1,0 +1,70 @@
+{
+ "slug": "burger-daging-double-cheese",
+ "intro": "Sebiji burger daging double cheese ada anggaran 750 kcal. Kebanyakan kalori datang dari dua patty daging dan dua keping keju, diikuti roti bun dan sos mayonis.",
+ "protein_g": 40,
+ "carbs_g": 50,
+ "fat_g": 43,
+ "breakdown": [
+  {
+   "part": "2 patty daging",
+   "kcal": 360
+  },
+  {
+   "part": "Roti bun",
+   "kcal": 170
+  },
+  {
+   "part": "2 keping keju",
+   "kcal": 140
+  },
+  {
+   "part": "Sos mayonis dan sos lain",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Burger daging single cheese",
+   "kcal": 450
+  },
+  {
+   "name": "Burger daging single tanpa keju",
+   "kcal": 380
+  },
+  {
+   "name": "Double cheese dengan telur (gerai tepi jalan)",
+   "kcal": 850
+  },
+  {
+   "name": "Set dengan kentang goreng dan air berkarbonat",
+   "kcal": 1250
+  }
+ ],
+ "diet": "Boleh, kalau anda kira ia sebagai satu hidangan utama yang besar. Bahagian baiknya, proteinnya tinggi. Masalah biasanya datang dari set, iaitu kentang goreng dan air manis yang tambah 500 kcal lagi. Makan burger sahaja dengan air kosong, dan ia masih boleh muat dalam hari anda.",
+ "tips": [
+  "Pesan burger sahaja, bukan set. Minum air kosong atau minuman tanpa gula.",
+  "Minta kurang mayonis atau buang sekeping keju.",
+  "Kalau di gerai tepi jalan, tambah salad dan timun, minta kurang marjerin pada roti."
+ ],
+ "swap": {
+  "name": "Burger daging single cheese dengan salad",
+  "kcal": 450,
+  "why": "Masih dapat rasa burger dan protein yang baik, tapi jimat sekitar 300 kcal."
+ },
+ "faq": [
+  {
+   "q": "Burger daging gerai tepi jalan lebih berminyak ke?",
+   "a": "Selalunya ya. Patty dan roti digoreng atas plat dengan marjerin, dan sos ditambah banyak. Anda boleh minta kurang marjerin dan sos."
+  },
+  {
+   "q": "Patty daging burger tu daging betul ke?",
+   "a": "Patty biasanya daging lembu kisar dengan lemak, garam dan perisa. Patty murah mungkin ada tepung atau bahan pengisi."
+  },
+  {
+   "q": "Boleh makan burger semasa nak bina otot?",
+   "a": "Boleh. Burger double ada anggaran 40 g protein. Cuma perhatikan jumlah kalori dan lemak supaya seimbang dengan sasaran anda."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

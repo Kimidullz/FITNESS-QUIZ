@@ -1,0 +1,67 @@
+{
+ "slug": "telur-hancur-2-biji-dengan-roti",
+ "name_en": "Scrambled eggs (2 eggs) with toast",
+ "serving_en": "1 plate",
+ "intro": "A plate of scrambled eggs (2 eggs) with toast is about 380 kcal (estimate). The calories come from the bread, eggs, and the butter or oil used for cooking.",
+ "breakdown": [
+  {
+   "part": "2 eggs",
+   "kcal": 145
+  },
+  {
+   "part": "Butter or oil for cooking",
+   "kcal": 60
+  },
+  {
+   "part": "A little milk in the eggs",
+   "kcal": 15
+  },
+  {
+   "part": "White bread, 2 slices",
+   "kcal": 160
+  }
+ ],
+ "variants": [
+  {
+   "name": "With wholemeal bread",
+   "kcal": 370
+  },
+  {
+   "name": "Bread with butter or kaya",
+   "kcal": 480
+  },
+  {
+   "name": "Add 2 sausages",
+   "kcal": 520
+  },
+  {
+   "name": "3 eggs with toast",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, this is one of the most weight-loss friendly breakfasts. Eggs give you good protein and keep you full longer. The extra calories usually come from butter, sausages and kaya on the bread. Just watch the oil and you're good.",
+ "tips": [
+  "Cook with a non-stick pan and just a little butter.",
+  "Switch to wholemeal bread for more fibre and fullness.",
+  "Add tomato, cucumber or some greens on the side."
+ ],
+ "swap": {
+  "name": "2 boiled eggs + 2 slices wholemeal bread",
+  "kcal": 300,
+  "why": "No cooking oil, same protein, more fibre."
+ },
+ "faq": [
+  {
+   "q": "Scrambled or boiled eggs, which is healthier?",
+   "a": "Both are good. Boiled eggs have no added oil, so slightly fewer calories."
+  },
+  {
+   "q": "Is it okay to eat eggs every day?",
+   "a": "For most healthy people, 1-2 eggs a day is fine. If you have health issues, check with your doctor."
+  },
+  {
+   "q": "How do I make soft scrambled eggs?",
+   "a": "Cook on low heat and stir gently. Take them off before they're fully dry, because the eggs keep cooking with their own heat."
+  }
+ ]
+}

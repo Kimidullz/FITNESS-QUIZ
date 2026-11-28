@@ -1,0 +1,63 @@
+{
+ "slug": "kuaci",
+ "name_en": "Kuaci (sunflower seeds)",
+ "serving_en": "1 handful",
+ "intro": "One handful of kuaci (the part you eat) has about 160 kcal (estimate). Most of the calories come from the fat in the seed kernels.",
+ "breakdown": [
+  {
+   "part": "Sunflower seed kernels",
+   "kcal": 145
+  },
+  {
+   "part": "Flavour coating (sugar, salt, spices)",
+   "kcal": 15
+  },
+  {
+   "part": "Shell (not eaten)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Black kuaci (watermelon seeds), 1 handful",
+   "kcal": 150
+  },
+  {
+   "name": "Pumpkin seeds, 1 handful",
+   "kcal": 155
+  },
+  {
+   "name": "Caramel or green tea flavoured kuaci",
+   "kcal": 175
+  },
+  {
+   "name": "Shelled kuaci, 30g",
+   "kcal": 175
+  }
+ ],
+ "diet": "Yes, kuaci is fine as a lepak snack. The good thing is you have to crack them one by one, so you eat slower. But during raya or while watching football, you can finish a whole pack without noticing. Stick to one handful and put it on a small plate.",
+ "tips": [
+  "Pour one handful onto a plate, then put the pack back in the cupboard.",
+  "Choose original flavour, not caramel or sugar-coated.",
+  "Keep plain water next to you because salted kuaci makes you thirsty fast."
+ ],
+ "swap": {
+  "name": "Boiled peanuts in shell, 1 handful",
+  "kcal": 100,
+  "why": "You still need to shell them so you eat slowly, but fewer calories and less salt."
+ },
+ "faq": [
+  {
+   "q": "Can eating a lot of kuaci give you a sore throat?",
+   "a": "Many people feel their throat gets dry because of the salt and flavouring on the shells. Drink enough water and choose less salty kuaci."
+  },
+  {
+   "q": "Black or white kuaci, which is better?",
+   "a": "The calories are about the same. Pick whichever you like, what matters is the portion."
+  },
+  {
+   "q": "Does kuaci have protein?",
+   "a": "A little, about 5g per handful. But it's mostly fat, so don't make it your main protein source."
+  }
+ ]
+}

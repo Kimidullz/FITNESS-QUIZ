@@ -1,0 +1,70 @@
+{
+ "slug": "pau-ayam",
+ "intro": "Sebiji pau ayam ada anggaran 240 kcal. Kebanyakan kalori datang dari kulit pau, manakala inti ayam beri sedikit protein.",
+ "protein_g": 11,
+ "carbs_g": 34,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Kulit pau",
+   "kcal": 130
+  },
+  {
+   "part": "Inti ayam",
+   "kcal": 70
+  },
+  {
+   "part": "Kuah / minyak inti",
+   "kcal": 30
+  },
+  {
+   "part": "Kentang / sayur",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pau kari ayam",
+   "kcal": 260
+  },
+  {
+   "name": "Pau daging",
+   "kcal": 270
+  },
+  {
+   "name": "Tai pau (pau besar)",
+   "kcal": 400
+  },
+  {
+   "name": "Pau ayam mini",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh. Pau ayam lebih seimbang berbanding pau manis sebab ada protein dari ayam. Satu biji sesuai untuk sarapan ringan atau snek petang. Kalau nak makan 2 biji, jadikan ia satu hidangan penuh.",
+ "tips": [
+  "Pilih pau ayam berbanding pau manis untuk protein lebih.",
+  "Satu biji dengan susu tanpa gula atau kopi O kosong dah cukup untuk sarapan ringan.",
+  "Tai pau elok kongsi dua orang."
+ ],
+ "swap": {
+  "name": "Pau ayam 1 biji + telur rebus",
+  "kcal": 310,
+  "why": "Protein naik hampir dua kali ganda, kalori masih sederhana."
+ },
+ "faq": [
+  {
+   "q": "Pau ayam di 7-Eleven halal tak?",
+   "a": "Ada yang dah dapat pensijilan halal. Semak logo halal pada pembungkusan."
+  },
+  {
+   "q": "Kenapa kulit pau putih dan gebu?",
+   "a": "Ia guna tepung yang diproses khas dan doh yang dikembangkan dengan yis sebelum dikukus."
+  },
+  {
+   "q": "Boleh simpan pau ayam dalam freezer?",
+   "a": "Boleh. Kukus terus dari beku selama 10 hingga 15 minit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

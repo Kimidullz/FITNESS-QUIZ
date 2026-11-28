@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-lemak-sotong",
+ "name_en": "Nasi lemak sotong",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi lemak sotong has an estimated 600 kcal. Most of the calories come from the coconut rice and the oily sambal sotong.",
+ "breakdown": [
+  {
+   "part": "Coconut rice (nasi santan), 1 cup",
+   "kcal": 280
+  },
+  {
+   "part": "Sambal sotong (1 ladle)",
+   "kcal": 200
+  },
+  {
+   "part": "Ikan bilis & fried peanuts",
+   "kcal": 80
+  },
+  {
+   "part": "Half a boiled egg & cucumber",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain nasi lemak (no sotong)",
+   "kcal": 400
+  },
+  {
+   "name": "Add fried egg",
+   "kcal": 690
+  },
+  {
+   "name": "Fried battered sotong (instead of sambal)",
+   "kcal": 750
+  },
+  {
+   "name": "Add ayam goreng",
+   "kcal": 850
+  }
+ ],
+ "diet": "Yes, you can. Just make it one main meal, not breakfast plus lunch. At 600 kcal, it's quite high for one meal if you're trying to lose weight. Sotong itself is actually a good protein source. What pushes the calories up is the santan and the oil in the sambal. Have it 1-2 times a week, and balance the rest of your day with more veggies and lighter protein.",
+ "tips": [
+  "Ask for half rice or less rice, but keep the sotong.",
+  "Ask for sambal on the side so you control how much oil goes in.",
+  "Add a boiled egg instead of a fried egg for protein without extra oil."
+ ],
+ "swap": {
+  "name": "Plain nasi lemak (half rice) + boiled egg",
+  "kcal": 400,
+  "why": "You still get the nasi lemak taste, with less santan and sambal oil. The boiled egg adds protein so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Sotong is high in cholesterol. Can I eat it often?",
+   "a": "Sotong does have cholesterol, but it's low in saturated fat. For most healthy people, eating it in moderation is okay. If you have cholesterol issues, check with your doctor."
+  },
+  {
+   "q": "How do I cook sambal sotong that's not too oily?",
+   "a": "Sauté the blended chilli with just 1-2 spoons of oil and cook it slowly until the oil separates. Add the sotong at the end so it doesn't get rubbery."
+  },
+  {
+   "q": "Dried sotong or fresh sotong, which is better for nasi lemak?",
+   "a": "Both are tasty. Fresh sotong is softer and less salty. Dried sotong has more salt, so use less salt in the sambal."
+  }
+ ]
+}

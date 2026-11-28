@@ -1,0 +1,66 @@
+{
+ "slug": "teh-halia",
+ "intro": "Segelas teh halia ada anggaran 130 kcal. Hampir semua kalori datang dari susu pekat manis dan susu sejat.",
+ "protein_g": 3,
+ "carbs_g": 22,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis 1.5 sudu besar",
+   "kcal": 100
+  },
+  {
+   "part": "Susu sejat",
+   "kcal": 25
+  },
+  {
+   "part": "Teh dan halia",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh halia kurang manis",
+   "kcal": 90
+  },
+  {
+   "name": "Teh O halia kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Teh O halia bergula",
+   "kcal": 60
+  },
+  {
+   "name": "Teh halia ais",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh, tapi kira sebagai sebahagian kalori harian. Segelas sehari tak jadi masalah. Kalau minum 2-3 gelas sehari, kalori dari gula cepat bertambah. Pilih versi kurang manis atau teh O halia untuk minum lebih kerap.",
+ "tips": [
+  "Order 'teh halia kurang manis', ramai mamak faham.",
+  "Tukar ke teh O halia kosong untuk gelas kedua.",
+  "Minum bersama makanan, bukan sebagai snek berasingan petang."
+ ],
+ "swap": {
+  "name": "Teh O halia kosong",
+  "kcal": 5,
+  "why": "Rasa halia yang hangat kekal, tapi hampir tiada kalori."
+ },
+ "faq": [
+  {
+   "q": "Teh halia bagus untuk perut kembung?",
+   "a": "Ramai rasa selesa minum teh halia bila perut kembung. Tapi ia bukan rawatan, jumpa doktor kalau masalah berterusan."
+  },
+  {
+   "q": "Boleh buat teh halia sendiri di rumah?",
+   "a": "Boleh. Rebus halia hiris, masukkan uncang teh, kemudian tambah susu sejat sedikit ikut citarasa."
+  },
+  {
+   "q": "Teh halia ada kafein?",
+   "a": "Ada, dari teh. Kurang sedikit dari kopi, jadi elak minum terlalu lewat malam kalau sensitif."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "kuaci",
+ "intro": "Satu genggam kuaci (isi yang dimakan) ada anggaran 160 kcal. Kebanyakan kalori datang dari lemak dalam isi biji kuaci.",
+ "protein_g": 5,
+ "carbs_g": 5,
+ "fat_g": 14,
+ "breakdown": [
+  {
+   "part": "Isi kuaci bunga matahari",
+   "kcal": 145
+  },
+  {
+   "part": "Salutan perisa (gula, garam, rempah)",
+   "kcal": 15
+  },
+  {
+   "part": "Kulit (tak dimakan)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuaci hitam (biji tembikai), 1 genggam",
+   "kcal": 150
+  },
+  {
+   "name": "Kuaci labu, 1 genggam",
+   "kcal": 155
+  },
+  {
+   "name": "Kuaci perisa karamel atau teh hijau",
+   "kcal": 175
+  },
+  {
+   "name": "Kuaci kupas siap, 30g",
+   "kcal": 175
+  }
+ ],
+ "diet": "Boleh, kuaci okay sebagai snek sambil lepak. Kelebihan kuaci, kita kena kupas satu-satu jadi makan lebih perlahan. Tapi masa raya atau tengok bola, tanpa sedar boleh habis satu pek. Hadkan pada satu genggam dan letak dalam piring kecil.",
+ "tips": [
+  "Tuang satu genggam dalam piring, simpan balik pek ke dalam almari.",
+  "Pilih kuaci perisa asli, bukan karamel atau bersalut gula.",
+  "Minum air kosong di sebelah sebab kuaci bergaram buat cepat dahaga."
+ ],
+ "swap": {
+  "name": "Kacang tanah rebus berkulit, 1 genggam",
+  "kcal": 100,
+  "why": "Masih perlu kupas jadi makan perlahan, tapi kalori lebih rendah dan kurang garam."
+ },
+ "faq": [
+  {
+   "q": "Makan kuaci banyak boleh sakit tekak ke?",
+   "a": "Ramai rasa tekak kering sebab garam dan perisa pada kulit. Minum air yang cukup dan pilih kuaci kurang garam."
+  },
+  {
+   "q": "Kuaci hitam dan kuaci putih, mana lebih baik?",
+   "a": "Nilai kalori lebih kurang sama. Pilih ikut selera, yang penting saiz hidangan."
+  },
+  {
+   "q": "Kuaci ada protein ke?",
+   "a": "Ada sedikit, sekitar 5g segenggam. Tapi ia lebih banyak lemak, jadi jangan jadikan sumber protein utama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

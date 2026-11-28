@@ -1,0 +1,66 @@
+{
+ "slug": "sayur-lemak-labu",
+ "intro": "Satu senduk sayur lemak labu ada anggaran 150 kcal. Kebanyakan kalori datang dari santan, manakala labu sendiri sederhana kalori.",
+ "protein_g": 3,
+ "carbs_g": 14,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Labu kuning (lebih kurang 100 g)",
+   "kcal": 50
+  },
+  {
+   "part": "Santan",
+   "kcal": 80
+  },
+  {
+   "part": "Udang kering, bawang dan kunyit",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sayur lemak labu dengan udang segar",
+   "kcal": 180
+  },
+  {
+   "name": "Masak lemak labu dengan ikan masin",
+   "kcal": 190
+  },
+  {
+   "name": "Labu masak lemak santan cair",
+   "kcal": 110
+  },
+  {
+   "name": "Labu tumis tanpa santan",
+   "kcal": 90
+  }
+ ],
+ "diet": "Boleh, labu ada serat dan rasa manis semula jadi. Santan yang naikkan kalori, jadi kawal kuah. Satu senduk dengan lauk protein dan nasi sederhana masih okay. Kalau dah ada lauk lain bersantan, pilih satu sahaja.",
+ "tips": [
+  "Ambil labu lebih, kuah santan kurang.",
+  "Jangan pilih dua lauk bersantan dalam satu pinggan, imbang dengan lauk bakar atau sup.",
+  "Masak di rumah, guna santan cair atau campur dengan air untuk kuah lebih ringan."
+ ],
+ "swap": {
+  "name": "Labu kukus atau tumis bawang putih",
+  "kcal": 90,
+  "why": "Labu yang sama tapi tanpa santan, jadi lemak turun banyak dan rasa manis labu lebih terserlah."
+ },
+ "faq": [
+  {
+   "q": "Labu kuning tinggi gula ke?",
+   "a": "Labu ada sedikit gula semula jadi tapi juga ada serat. Dalam satu senduk, karbohidratnya sederhana dan boleh dimuatkan dalam pinggan seimbang."
+  },
+  {
+   "q": "Kenapa labu cepat hancur masa masak?",
+   "a": "Labu masak cepat. Potong besar sedikit dan masukkan bila kuah dah mendidih, reneh sekejap sahaja."
+  },
+  {
+   "q": "Kulit labu boleh makan ke?",
+   "a": "Boleh untuk sesetengah jenis labu kalau dicuci bersih, tapi ramai buang sebab keras. Ikut selera masing-masing."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

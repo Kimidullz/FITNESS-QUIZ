@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-kunyit-dengan-ayam",
+ "intro": "Sepinggan nasi kunyit dengan ayam ada anggaran 650 kcal. Kebanyakan kalori datang dari nasi kunyit yang dimasak dengan santan dan ayam kari atau rendang.",
+ "protein_g": 28,
+ "carbs_g": 75,
+ "fat_g": 26,
+ "breakdown": [
+  {
+   "part": "Nasi kunyit santan 1.5 cawan",
+   "kcal": 380
+  },
+  {
+   "part": "Ayam kari atau rendang 1 ketul",
+   "kcal": 200
+  },
+  {
+   "part": "Kuah kari",
+   "kcal": 50
+  },
+  {
+   "part": "Acar atau sambal",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi kunyit separuh pinggan dengan ayam",
+   "kcal": 500
+  },
+  {
+   "name": "Dengan rendang ayam",
+   "kcal": 700
+  },
+  {
+   "name": "Dengan kari ayam kuah banyak",
+   "kcal": 720
+  }
+ ],
+ "diet": "Boleh, terutama untuk kenduri atau sarapan hujung minggu. Nasi kunyit ada santan, jadi lebih tinggi kalori dari nasi putih. Kuah kari dan rendang pun berminyak. Jaga portion nasi dan kuah, sekali sekala tak jadi masalah.",
+ "tips": [
+  "Ambil nasi separuh pinggan dan banyakkan ayam.",
+  "Ambil isi ayam, kurangkan kuah dan minyak di atasnya.",
+  "Kalau ada, buang kulit ayam untuk potong lemak."
+ ],
+ "swap": {
+  "name": "Nasi putih 1 cawan + ayam bakar + ulam",
+  "kcal": 480,
+  "why": "Tiada santan dalam nasi dan kurang kuah berminyak, protein masih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Nasi kunyit asal dari mana?",
+   "a": "Nasi kunyit popular di Semenanjung, terutama Pantai Timur dan majlis kenduri. Biasa dihidang dengan kari atau rendang ayam."
+  },
+  {
+   "q": "Kenapa nasi kunyit kuning?",
+   "a": "Pulut atau beras diperap dengan kunyit, kemudian dikukus atau dimasak dengan santan."
+  },
+  {
+   "q": "Nasi kunyit guna pulut atau beras?",
+   "a": "Kebanyakan resepi guna beras pulut. Ada juga yang guna beras biasa ikut negeri dan keluarga."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

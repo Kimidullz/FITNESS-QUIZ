@@ -1,0 +1,67 @@
+{
+ "slug": "tosai-rava",
+ "name_en": "Tosai rava (rava thosai)",
+ "serving_en": "1 piece",
+ "intro": "One tosai rava with chutney and a bit of curry is about 320 kcal (estimate). Most of the calories come from the semolina and rice flour batter, plus the oil or ghee used to cook it.",
+ "breakdown": [
+  {
+   "part": "Rava and rice flour batter",
+   "kcal": 190
+  },
+  {
+   "part": "Oil or ghee for cooking",
+   "kcal": 70
+  },
+  {
+   "part": "Coconut chutney",
+   "kcal": 35
+  },
+  {
+   "part": "Kuah dal or sambar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Regular tosai (thosai) with chutney",
+   "kcal": 250
+  },
+  {
+   "name": "Onion rava tosai",
+   "kcal": 360
+  },
+  {
+   "name": "Rava masala tosai (potato filling)",
+   "kcal": 450
+  },
+  {
+   "name": "Rava tosai with extra ghee",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes. Tosai rava is one of the lighter options at the mamak compared to roti canai or murtabak. But protein is low, so add something to stay full longer. Also watch the chutney and ghee, that's where the hidden calories are.",
+ "tips": [
+  "Ask for more kuah dal and less coconut chutney, dal has some protein.",
+  "Add a boiled egg or a small piece of ayam tandoori on the side.",
+  "Ask them not to add extra ghee on top."
+ ],
+ "swap": {
+  "name": "1 regular tosai + kuah dal + boiled egg",
+  "kcal": 320,
+  "why": "About the same calories, but the egg and dal give protein so it's more filling."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between tosai rava and regular tosai?",
+   "a": "Regular tosai uses a fermented rice and urad dal batter. Tosai rava uses semolina, needs no fermenting, and is crispier with a lacy texture."
+  },
+  {
+   "q": "Does tosai rava contain gluten?",
+   "a": "Yes, rava or semolina is made from wheat, so it contains gluten."
+  },
+  {
+   "q": "Why does tosai rava take so long to cook?",
+   "a": "The batter is runny and needs to cook slowly over medium heat to crisp up evenly. That's why you sometimes have to wait a bit."
+  }
+ ]
+}

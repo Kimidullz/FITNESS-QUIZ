@@ -1,0 +1,63 @@
+{
+ "slug": "chicken-grill-dengan-salad",
+ "name_en": "Grilled chicken (skinless) with salad",
+ "serving_en": "1 plate",
+ "intro": "One plate of skinless grilled chicken with salad is about 850... no, about 450 kcal (estimate). Most of the calories come from the chicken, followed by the dressing and sauce.",
+ "breakdown": [
+  {
+   "part": "Skinless grilled chicken breast ~150 g",
+   "kcal": 250
+  },
+  {
+   "part": "Salad dressing (thousand island / sesame)",
+   "kcal": 120
+  },
+  {
+   "part": "Black pepper sauce",
+   "kcal": 50
+  },
+  {
+   "part": "Mixed vegetable salad",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "With fries",
+   "kcal": 700
+  },
+  {
+   "name": "Using chicken thigh (with skin)",
+   "kcal": 600
+  },
+  {
+   "name": "Dressing on the side, use half",
+   "kcal": 390
+  }
+ ],
+ "diet": "Yes, this is one of the most diet-friendly western options. It's high in protein, so you stay full longer. What usually pushes the calories up is the dressing, sauce and potato side. Control these three, and this meal fits well into a fat-loss week.",
+ "tips": [
+  "Ask for dressing and sauce on the side, and dip a little at a time.",
+  "Still hungry? Add half a cup of white rice instead of fries.",
+  "Choose plain water or teh o kosong ais, not sirap or soda."
+ ],
+ "swap": {
+  "name": "Chicken salad (dressing on the side)",
+  "kcal": 350,
+  "why": "A bit lighter, but still high in protein."
+ },
+ "faq": [
+  {
+   "q": "Chicken breast or thigh, which is better for dieting?",
+   "a": "Breast is lower in fat. Thigh is juicier but higher in calories. Both are okay. Removing the skin makes it lighter."
+  },
+  {
+   "q": "Is salad alone enough to keep me full?",
+   "a": "Salad alone usually isn't enough. Make sure there's protein like chicken, and add some carbs if you're active."
+  },
+  {
+   "q": "Can I eat this every day?",
+   "a": "Yes, but rotate your meals so you don't get bored and you get a variety of nutrients. For example, ikan bakar or rice with chicken lauk."
+  }
+ ]
+}

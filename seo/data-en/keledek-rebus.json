@@ -1,0 +1,63 @@
+{
+ "slug": "keledek-rebus",
+ "name_en": "Keledek rebus (boiled sweet potato)",
+ "serving_en": "1 medium",
+ "intro": "One medium boiled sweet potato (about 150g) has about 130 kcal (estimate). Most of the calories come from starch and the natural sugar in sweet potato.",
+ "breakdown": [
+  {
+   "part": "Starch",
+   "kcal": 105
+  },
+  {
+   "part": "Natural sugar",
+   "kcal": 15
+  },
+  {
+   "part": "Protein",
+   "kcal": 8
+  }
+ ],
+ "variants": [
+  {
+   "name": "Baked sweet potato",
+   "kcal": 140
+  },
+  {
+   "name": "Air fryer sweet potato with 1 tsp oil",
+   "kcal": 170
+  },
+  {
+   "name": "Kuih keria, 1 piece",
+   "kcal": 150
+  },
+  {
+   "name": "Cucur keledek, 2 pieces",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, boiled sweet potato is one of the most diet-friendly carb choices. It has fibre, a natural sweetness and keeps you full. But it's still a carb, so count it in your daily intake. Purple or orange, the calories are about the same.",
+ "tips": [
+  "Boil a big batch and keep it in the fridge for 3 days of breakfast.",
+  "Eat it with 2 boiled eggs for a breakfast with protein.",
+  "Skip the sugar or condensed milk, sweet potato is already sweet enough."
+ ],
+ "swap": {
+  "name": "Boiled pumpkin, 1 cup",
+  "kcal": 50,
+  "why": "Big volume with fewer calories, good if you want a lighter carb."
+ },
+ "faq": [
+  {
+   "q": "Is purple sweet potato healthier than orange?",
+   "a": "Both are good. Purple has antioxidant pigments, orange is high in vitamin A. Pick whichever you like."
+  },
+  {
+   "q": "Is it okay to eat sweet potato at night?",
+   "a": "Okay. What matters is your total calories for the day. Sweet potato can replace rice at dinner if you like."
+  },
+  {
+   "q": "Can I eat the skin?",
+   "a": "Yes, as long as it's washed clean. The skin gives extra fibre."
+  }
+ ]
+}

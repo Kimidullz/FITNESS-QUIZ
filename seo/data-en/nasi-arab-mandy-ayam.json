@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-arab-mandy-ayam",
+ "name_en": "Nasi arab mandy ayam",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi arab mandy ayam has about 850 kcal. Most of the calories come from the big, oily portion of mandy rice and the chicken with skin.",
+ "breakdown": [
+  {
+   "part": "Mandy rice, 2 cups",
+   "kcal": 480
+  },
+  {
+   "part": "Mandy chicken, quarter (with skin)",
+   "kcal": 250
+  },
+  {
+   "part": "Raisins and fried nuts",
+   "kcal": 100
+  },
+  {
+   "part": "Spicy tomato sauce/salad",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chicken without skin",
+   "kcal": 780
+  },
+  {
+   "name": "Half rice",
+   "kcal": 610
+  },
+  {
+   "name": "Lamb mandy",
+   "kcal": 1000
+  },
+  {
+   "name": "Shared dulang platter (per person)",
+   "kcal": 950
+  }
+ ],
+ "diet": "Yes, it's actually high in protein from the chicken. But rice portions at Arab restaurants are usually very big. If you control the rice, this is one of the eating-out meals that can fit into a weight loss plan. Sharing with friends is also a smart move.",
+ "tips": [
+  "Eat half the rice and tapau the rest for another meal.",
+  "Remove the chicken skin. The meat is still tender and tasty.",
+  "Take more salad and tomato sauce, and less raisins and nuts."
+ ],
+ "swap": {
+  "name": "Mandy chicken + half rice + salad",
+  "kcal": 600,
+  "why": "You keep all the chicken protein, but cut the rice carbs and oil by half."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi mandy and nasi kabsah?",
+   "a": "Mandy is usually slow-cooked with the chicken hung above the rice so the fat drips into it. Kabsah is cooked with spices and tomato in one pot."
+  },
+  {
+   "q": "Why is mandy rice yellow and white?",
+   "a": "Some of the rice is coloured with turmeric or saffron for looks and aroma. The taste is almost the same."
+  },
+  {
+   "q": "Is the mandy tomato sauce spicy?",
+   "a": "Usually it has a bit of chilli and is very light. It's great for adding flavour without many calories."
+  }
+ ]
+}

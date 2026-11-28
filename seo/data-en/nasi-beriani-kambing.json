@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-beriani-kambing",
+ "name_en": "Nasi beriani kambing",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi beriani kambing has about 900 kcal. Much of the calories come from rice cooked with ghee and the fatty mutton gravy.",
+ "breakdown": [
+  {
+   "part": "Beriani rice, 1.5 cups (ghee)",
+   "kcal": 420
+  },
+  {
+   "part": "Mutton with gravy, 1 ladle",
+   "kcal": 300
+  },
+  {
+   "part": "Acar and papadom",
+   "kcal": 100
+  },
+  {
+   "part": "Dalca",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chicken beriani",
+   "kcal": 800
+  },
+  {
+   "name": "Without papadom",
+   "kcal": 850
+  },
+  {
+   "name": "Half rice + full mutton",
+   "kcal": 690
+  },
+  {
+   "name": "Add boiled egg",
+   "kcal": 980
+  }
+ ],
+ "diet": "Yes, but this is a festive or once-in-a-while dish. Ghee and mutton fat make it high in calories. At a kenduri, take a little rice and focus on the lauk. Eat lighter on other days to balance it out.",
+ "tips": [
+  "Pick leaner mutton pieces and remove the visible fat.",
+  "Take half a plate of rice, and add cucumber and pineapple acar.",
+  "Skip the papadom if you're already full."
+ ],
+ "swap": {
+  "name": "Chicken beriani, half rice + acar",
+  "kcal": 600,
+  "why": "Chicken has less fat than mutton and the rice portion is controlled, but you still get the beriani taste."
+ },
+ "faq": [
+  {
+   "q": "Is it goat or mutton?",
+   "a": "In Malaysia, 'kambing' on the menu can be goat or sheep (mutton). The taste and texture are slightly different."
+  },
+  {
+   "q": "Why is beriani so fragrant?",
+   "a": "Because of spices like cinnamon, star anise, cardamom and cloves, plus ghee."
+  },
+  {
+   "q": "What is beriani acar?",
+   "a": "Usually cucumber, onion and pineapple in vinegar or yogurt. It's fresh and helps balance the rich taste."
+  }
+ ]
+}

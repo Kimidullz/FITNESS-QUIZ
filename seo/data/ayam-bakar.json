@@ -1,0 +1,66 @@
+{
+ "slug": "ayam-bakar",
+ "intro": "Satu ketul ayam bakar bahagian paha ada anggaran 260 kcal. Kebanyakan kalori datang dari daging paha dan kulit, dengan sedikit dari perapan.",
+ "protein_g": 25,
+ "carbs_g": 5,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Daging paha",
+   "kcal": 170
+  },
+  {
+   "part": "Kulit ayam",
+   "kcal": 60
+  },
+  {
+   "part": "Perapan madu, kicap dan rempah",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dada tanpa kulit",
+   "kcal": 180
+  },
+  {
+   "name": "Ayam bakar madu (perapan manis tebal)",
+   "kcal": 300
+  },
+  {
+   "name": "Dengan sos air asam",
+   "kcal": 280
+  },
+  {
+   "name": "Kepak 2 ketul",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, ayam bakar antara lauk terbaik untuk turun berat. Protein tinggi dan tak banyak minyak sebab tak digoreng. Paha ada lemak lebih sikit dari dada, tapi masih okay. Yang penting jaga sos dan portion nasi di sebelah.",
+ "tips": [
+  "Pilih ayam bakar berbanding ayam goreng di gerai nasi campur.",
+  "Cicah air asam atau sambal kicap berbanding sos manis.",
+  "Buang kulit kalau nak jimat lebih kurang 60 kcal."
+ ],
+ "swap": {
+  "name": "Dada ayam bakar tanpa kulit",
+  "kcal": 180,
+  "why": "Protein hampir sama, lemak jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Paha atau dada, mana lagi bagus?",
+   "a": "Dada lebih rendah lemak. Paha lebih juicy dan tak cepat kering. Dua-dua boleh, ikut bajet kalori anda."
+  },
+  {
+   "q": "Berapa lama nak perap ayam bakar?",
+   "a": "Sekurang-kurangnya 1 jam. Kalau perap semalaman dalam peti sejuk, rasa lebih meresap."
+  },
+  {
+   "q": "Ayam bakar boleh buat dalam air fryer?",
+   "a": "Boleh. Anggaran 180°C selama 20-25 minit, terbalikkan separuh masa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

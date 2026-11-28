@@ -1,0 +1,58 @@
+{
+ "slug": "jus-tembikai",
+ "intro": "Segelas jus tembikai dari gerai ada anggaran 130 kcal. Kebanyakan kalori dari gula semula jadi tembikai, ditambah sirap gula yang selalu dimasukkan penjual.",
+ "protein_g": 1,
+ "carbs_g": 31,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Tembikai (~300 g)",
+   "kcal": 90
+  },
+  {
+   "part": "Sirap gula",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jus tembikai tanpa gula",
+   "kcal": 90
+  },
+  {
+   "name": "Jus tembikai + susu pekat",
+   "kcal": 200
+  },
+  {
+   "name": "Jus tembikai saiz besar",
+   "kcal": 190
+  }
+ ],
+ "diet": "Boleh. Jus tembikai antara jus paling rendah kalori di gerai. Tapi jus kurang serat berbanding makan buah, jadi kurang mengenyangkan. Minta tanpa gula, dan jangan jadikan ia ganti makan.",
+ "tips": [
+  "Order 'jus tembikai tak nak gula', tembikai dah cukup manis.",
+  "Elakkan versi campur susu pekat.",
+  "Kalau ada, makan tembikai potong sahaja, lebih kenyang."
+ ],
+ "swap": {
+  "name": "Tembikai potong (2 hiris)",
+  "kcal": 60,
+  "why": "Ada serat, lebih lama nak habis makan, dan rasa lebih kenyang dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Jus tembikai bagus untuk hidrasi?",
+   "a": "Tembikai memang tinggi kandungan air. Tapi air kosong tetap pilihan utama untuk hidrasi harian."
+  },
+  {
+   "q": "Kenapa jus tembikai gerai ada rasa lebih manis?",
+   "a": "Banyak gerai tambah sirap gula untuk rasa konsisten. Minta tanpa gula kalau tak nak."
+  },
+  {
+   "q": "Boleh minum jus tembikai waktu malam?",
+   "a": "Boleh. Cuma ada orang rasa kerap ke tandas sebab ia banyak air."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

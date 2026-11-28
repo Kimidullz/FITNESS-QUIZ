@@ -1,0 +1,70 @@
+{
+ "slug": "bihun-goreng-singapore",
+ "intro": "Sepinggan bihun goreng singapore ada anggaran 480 kcal. Kebanyakan kalori datang dari bihun dan minyak, dengan sedikit dari telur dan lauk.",
+ "protein_g": 16,
+ "carbs_g": 70,
+ "fat_g": 15,
+ "breakdown": [
+  {
+   "part": "Bihun 1 pinggan",
+   "kcal": 250
+  },
+  {
+   "part": "Minyak & serbuk kari",
+   "kcal": 110
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 70
+  },
+  {
+   "part": "Udang/ayam, sayur & taugeh",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bihun singapore + telur mata",
+   "kcal": 570
+  },
+  {
+   "name": "Bihun singapore extra udang",
+   "kcal": 520
+  },
+  {
+   "name": "Bihun goreng biasa",
+   "kcal": 450
+  },
+  {
+   "name": "Bihun singapore kurang minyak",
+   "kcal": 420
+  }
+ ],
+ "diet": "Boleh, bihun singapore antara pilihan mi goreng yang lebih ringan. Ia lebih kering dan biasanya kurang minyak berbanding kuey teow goreng. Cuma protein masih rendah, jadi tambah lauk berprotein supaya tak cepat lapar. Sesuai untuk makan tengah hari di kedai.",
+ "tips": [
+  "Minta tambah udang atau ayam hiris untuk protein.",
+  "Pesan sayur lebih, contohnya kubis dan sawi.",
+  "Tak perlu tambah telur mata kalau dah ada telur dalam bihun."
+ ],
+ "swap": {
+  "name": "Bihun sup ayam",
+  "kcal": 350,
+  "why": "Dapat bihun dan ayam dalam kuah, minyak jauh kurang dan lebih mengenyangkan dengan kuah panas."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama bihun goreng singapore?",
+   "a": "Ia dikenali sebagai gaya 'Singapore' kerana guna serbuk kari, walaupun di Singapura sendiri ia tak begitu biasa."
+  },
+  {
+   "q": "Apa beza bihun singapore dengan bihun goreng biasa?",
+   "a": "Bihun singapore guna serbuk kari, jadi warnanya kuning dan rasanya sedikit berempah. Bihun goreng biasa lebih kepada kicap dan cili."
+  },
+  {
+   "q": "Bihun lebih baik dari mee kuning?",
+   "a": "Bihun tiada telur dan biasanya lebih ringan, tapi kalorinya bergantung pada minyak dan portion, bukan jenis mi sahaja."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

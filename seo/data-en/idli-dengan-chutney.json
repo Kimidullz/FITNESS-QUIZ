@@ -1,0 +1,63 @@
+{
+ "slug": "idli-dengan-chutney",
+ "name_en": "Idli (3 pieces) with chutney",
+ "serving_en": "3 pieces",
+ "intro": "Three idli with chutney have an estimated 230 kcal. Almost all the calories come from the steamed idli (rice and dal), while the coconut chutney adds a bit of fat.",
+ "breakdown": [
+  {
+   "part": "Idli, 3 pieces",
+   "kcal": 150
+  },
+  {
+   "part": "Coconut chutney",
+   "kcal": 55
+  },
+  {
+   "part": "Sambar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Idli, 2 pieces",
+   "kcal": 170
+  },
+  {
+   "name": "Idli, 3 pieces + extra sambar",
+   "kcal": 260
+  },
+  {
+   "name": "Idli, 4 pieces",
+   "kcal": 280
+  },
+  {
+   "name": "Fried idli",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, idli is one of the lightest breakfasts at an Indian restaurant. It's steamed, so it's low in fat. But it's quite low in protein, so you might get hungry fast. Add an egg or extra sambar to stay full longer.",
+ "tips": [
+  "Take more sambar than coconut chutney.",
+  "Add a boiled egg or small omelette for protein.",
+  "Skip fried idli if you want to keep it light."
+ ],
+ "swap": {
+  "name": "Idli 2 pieces + boiled egg + sambar",
+  "kcal": 250,
+  "why": "Almost the same calories, but more protein. Keeps you full until lunch."
+ },
+ "faq": [
+  {
+   "q": "What is idli made from?",
+   "a": "Idli is made from a fermented rice and urad dal batter, then steamed in round moulds."
+  },
+  {
+   "q": "What chutney usually goes with idli?",
+   "a": "Coconut chutney is the most common. There's also tomato chutney, mint chutney and sambar."
+  },
+  {
+   "q": "Is idli good for kids?",
+   "a": "Yes. It's soft and easy to digest. Use less chilli in the chutney or sambar for young kids."
+  }
+ ]
+}

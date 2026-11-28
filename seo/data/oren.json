@@ -1,0 +1,66 @@
+{
+ "slug": "oren",
+ "intro": "Sebiji oren sederhana ada anggaran 60 kcal. Hampir semua kalori datang daripada gula semula jadi, bersama serat dan vitamin C.",
+ "protein_g": 1,
+ "carbs_g": 14,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi",
+   "kcal": 46
+  },
+  {
+   "part": "Serat & karbohidrat lain",
+   "kcal": 10
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Oren mandarin / limau mandarin kecil",
+   "kcal": 45
+  },
+  {
+   "name": "Oren sunkist besar",
+   "kcal": 85
+  },
+  {
+   "name": "Jus oren segar (1 gelas, ~3 biji)",
+   "kcal": 150
+  },
+  {
+   "name": "Jus oren kotak (1 gelas)",
+   "kcal": 120
+  }
+ ],
+ "diet": "Sangat boleh, oren snek rendah kalori yang segar dan mengenyangkan. Yang perlu jaga ialah jus oren, sebab segelas guna 2-3 biji tanpa serat. Makan buah penuh lebih kenyang berbanding minum jus. Sebiji dua sehari memang okay.",
+ "tips": [
+  "Makan oren penuh, bukan jus, supaya serat kekal.",
+  "Simpan oren di meja pejabat untuk snek petang.",
+  "Masa Tahun Baru Cina, kira limau mandarin yang dimakan, senang terlebih."
+ ],
+ "swap": {
+  "name": "Oren segar ganti jus oren kotak",
+  "kcal": 60,
+  "why": "Separuh kalori, ada serat, tiada gula tambahan."
+ },
+ "faq": [
+  {
+   "q": "Oren bagus untuk selesema?",
+   "a": "Oren tinggi vitamin C yang bantu sistem imun, tapi ia bukan ubat selesema."
+  },
+  {
+   "q": "Makan oren masa perut kosong okay ke?",
+   "a": "Bagi kebanyakan orang okay. Kalau ada gastrik, ada yang rasa pedih, jadi makan selepas makanan lain."
+  },
+  {
+   "q": "Bahagian putih pada oren tu perlu buang?",
+   "a": "Tak perlu. Bahagian putih tu ada serat, boleh makan sekali."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

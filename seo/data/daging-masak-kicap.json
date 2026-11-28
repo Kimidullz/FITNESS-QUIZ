@@ -1,0 +1,70 @@
+{
+ "slug": "daging-masak-kicap",
+ "intro": "Satu senduk daging masak kicap ada anggaran 300 kcal. Kalori datang dari daging, minyak menumis dan kicap manis yang bergula.",
+ "protein_g": 22,
+ "carbs_g": 14,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Daging lembu (lebih kurang 100 g)",
+   "kcal": 180
+  },
+  {
+   "part": "Minyak menumis",
+   "kcal": 70
+  },
+  {
+   "part": "Kicap manis dan gula",
+   "kcal": 40
+  },
+  {
+   "part": "Bawang, cili dan halia",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Daging masak kicap dengan kentang",
+   "kcal": 360
+  },
+  {
+   "name": "Daging goreng dulu baru masak kicap",
+   "kcal": 380
+  },
+  {
+   "name": "Ayam masak kicap (tanpa kulit)",
+   "kcal": 250
+  },
+  {
+   "name": "Daging masak kicap kurang minyak (rumah)",
+   "kcal": 240
+  }
+ ],
+ "diet": "Boleh, ini antara lauk yang mudah masuk dalam pelan turun berat. Daging bagi protein yang buat anda kenyang lama. Yang perlu jaga ialah kuah kicap yang manis dan berminyak. Ambil satu senduk, kuah sikit, dan tambah sayur.",
+ "tips": [
+  "Ambil daging dahulu, kuah kicap cukup sesudu sahaja untuk basahkan nasi.",
+  "Masak di rumah, guna kicap masin campur sedikit kicap manis untuk kurangkan gula.",
+  "Tak payah goreng daging dulu, terus tumis dan reneh untuk jimat minyak."
+ ],
+ "swap": {
+  "name": "Daging masak black pepper kurang minyak",
+  "kcal": 230,
+  "why": "Rasa masih kuat tapi kurang gula berbanding kicap manis, dan protein kekal tinggi."
+ },
+ "faq": [
+  {
+   "q": "Macam mana nak buat daging masak kicap empuk?",
+   "a": "Hiris nipis melawan urat daging, atau reneh dengan api kecil lebih lama. Perapan sedikit halia juga membantu."
+  },
+  {
+   "q": "Kicap manis tinggi gula ke?",
+   "a": "Ya, kicap manis memang ada banyak gula. Satu sudu besar boleh ada sekitar 10 g gula, jadi guna secukupnya."
+  },
+  {
+   "q": "Boleh guna daging beku untuk masak kicap?",
+   "a": "Boleh. Cairkan dalam peti sejuk semalaman dan keringkan dengan tisu sebelum masak supaya tak berair."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

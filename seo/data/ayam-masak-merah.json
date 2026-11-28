@@ -1,0 +1,66 @@
+{
+ "slug": "ayam-masak-merah",
+ "intro": "Satu ketul ayam masak merah dengan kuah ada anggaran 320 kcal. Kebanyakan kalori datang dari ayam yang digoreng dulu dan minyak dalam kuah.",
+ "protein_g": 22,
+ "carbs_g": 12,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Ayam 1 ketul (digoreng sebelum masak)",
+   "kcal": 200
+  },
+  {
+   "part": "Kuah tomato, cili dan gula",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak tumis dalam kuah",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bahagian dada",
+   "kcal": 280
+  },
+  {
+   "name": "Bahagian paha",
+   "kcal": 360
+  },
+  {
+   "name": "Versi tak goreng dulu (rebus atau bakar)",
+   "kcal": 250
+  },
+  {
+   "name": "Kenduri dengan kuah banyak",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh, ayam masak merah tetap sumber protein yang bagus. Yang buat kalori naik ialah ayam yang digoreng dulu dan kuah yang manis berminyak. Kalau ambil satu ketul dan tak banjir kuah atas nasi, ia masih muat dalam bajet harian. Pasangkan dengan sayur supaya pinggan lebih seimbang.",
+ "tips": [
+  "Pilih ketul dada dan buang kulit kalau boleh.",
+  "Ambil kuah sikit sahaja, jangan banjir atas nasi.",
+  "Masak sendiri: bakar atau air fryer ayam dulu, tak perlu goreng deep fry."
+ ],
+ "swap": {
+  "name": "Ayam masak merah versi air fryer, kurang gula",
+  "kcal": 250,
+  "why": "Rasa hampir sama, tapi minyak dan gula jauh lebih sedikit."
+ },
+ "faq": [
+  {
+   "q": "Kenapa ayam masak merah kena goreng dulu?",
+   "a": "Supaya ayam tak hancur dan kuah melekat dengan rasa garing di luar. Tapi bakar atau air fryer pun boleh dapat hasil yang hampir sama."
+  },
+  {
+   "q": "Ayam masak merah sedap makan dengan apa?",
+   "a": "Biasanya dengan nasi minyak, nasi tomato atau nasi putih. Tambah acar atau sayur untuk imbangan."
+  },
+  {
+   "q": "Boleh guna sos tomato botol?",
+   "a": "Boleh. Ramai guna campuran tomato segar dan sos tomato. Sos botol ada gula, jadi kurangkan gula tambahan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

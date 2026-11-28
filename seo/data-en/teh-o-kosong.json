@@ -1,0 +1,63 @@
+{
+ "slug": "teh-o-kosong",
+ "name_en": "Teh O kosong",
+ "serving_en": "1 glass",
+ "intro": "One glass of teh O kosong is only about 5 kcal. Those few calories come from the tea itself, with no sugar or milk.",
+ "breakdown": [
+  {
+   "part": "Black tea",
+   "kcal": 5
+  },
+  {
+   "part": "Hot water",
+   "kcal": 0
+  },
+  {
+   "part": "Ice (for teh O ais kosong)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh O with sugar",
+   "kcal": 60
+  },
+  {
+   "name": "Teh O limau kosong",
+   "kcal": 10
+  },
+  {
+   "name": "Teh O ais limau with sugar",
+   "kcal": 90
+  },
+  {
+   "name": "Teh O kurang manis",
+   "kcal": 35
+  }
+ ],
+ "diet": "Great choice when you want to lose weight. It has almost no calories, so you can save your calories for food. Many people who switch from teh tarik to teh O kosong see a real difference in their daily calories. If it tastes too bitter, start with kurang manis first.",
+ "tips": [
+  "If you're not used to it, cut sugar step by step: sweet, kurang manis, then kosong.",
+  "Add lime for a fresher taste without sugar.",
+  "Go for teh O ais kosong on hot days. Still zero sugar."
+ ],
+ "swap": {
+  "name": "Teh O limau kosong",
+  "kcal": 10,
+  "why": "Fresh lime taste, still almost zero calories."
+ },
+ "faq": [
+  {
+   "q": "What does 'O' mean in teh O?",
+   "a": "'O' means no milk. 'Kosong' means no sugar."
+  },
+  {
+   "q": "Does teh O kosong have caffeine?",
+   "a": "Yes, from the tea. Usually less than coffee."
+  },
+  {
+   "q": "Can I drink teh O kosong during puasa?",
+   "a": "It's a good choice for sahur or buka puasa since there's no sugar. Don't forget to drink plain water too."
+  }
+ ]
+}

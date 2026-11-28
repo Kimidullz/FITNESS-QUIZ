@@ -1,0 +1,70 @@
+{
+ "slug": "kacang-campur",
+ "intro": "Kacang campur tanpa garam, 1 genggam (30g), ada anggaran 180 kcal. Kebanyakan kalori datang dari lemak semula jadi dalam kacang, jadi saiz kecil pun padat tenaga.",
+ "protein_g": 5,
+ "carbs_g": 6,
+ "fat_g": 15,
+ "breakdown": [
+  {
+   "part": "Badam ~8g",
+   "kcal": 46
+  },
+  {
+   "part": "Gajus ~8g",
+   "kcal": 45
+  },
+  {
+   "part": "Kacang tanah ~8g",
+   "kcal": 45
+  },
+  {
+   "part": "Walnut ~6g",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Separuh genggam (15g)",
+   "kcal": 90
+  },
+  {
+   "name": "Kacang campur bersalut madu, 30g",
+   "kcal": 190
+  },
+  {
+   "name": "Kacang tanah goreng bergaram, 30g",
+   "kcal": 175
+  },
+  {
+   "name": "Trail mix dengan kismis, 30g",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh, dan kacang campur ialah snek yang bagus untuk kenyang lama. Masalahnya cuma satu: senang sangat terlebih bila makan terus dari balang. Satu genggam okay, tapi tiga genggam depan TV dah jadi macam satu pinggan nasi. Kuncinya, sukat dulu sebelum makan.",
+ "tips": [
+  "Bahagikan kacang dalam bekas kecil 30g siap-siap untuk seminggu, simpan dalam beg atau laci ofis.",
+  "Pilih yang tanpa garam dan tanpa salutan madu atau gula.",
+  "Campur 1 genggam kecil dalam yogurt atau oat supaya sarapan lebih kenyang tanpa tambah banyak kalori."
+ ],
+ "swap": {
+  "name": "Edamame rebus, 1/2 cawan",
+  "kcal": 95,
+  "why": "Kalori lebih kurang separuh, protein hampir sama atau lebih tinggi, dan volume lebih besar jadi rasa makan lebih banyak."
+ },
+ "faq": [
+  {
+   "q": "Kacang campur ni sihat ke untuk jantung?",
+   "a": "Kacang ada lemak tak tepu dan serat yang baik. Pilih yang tanpa garam dan makan dalam saiz sederhana. Kalau ada masalah kesihatan, rujuk doktor."
+  },
+  {
+   "q": "Lebih baik kacang mentah atau panggang?",
+   "a": "Dua-dua okay. Panggang kering tanpa minyak tambahan pun nilai kalorinya hampir sama. Elakkan yang digoreng dengan banyak minyak dan garam."
+  },
+  {
+   "q": "Bila masa terbaik makan kacang?",
+   "a": "Waktu petang antara lunch dan dinner, bila perut mula lapar. Ia bantu elak kita makan berlebihan masa makan malam."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "kuih-bahulu",
+ "intro": "Tiga biji kuih bahulu kecil ada anggaran 130 kcal. Kalori kebanyakannya dari gula dan tepung, dengan sedikit dari telur.",
+ "protein_g": 3,
+ "carbs_g": 24,
+ "fat_g": 2,
+ "breakdown": [
+  {
+   "part": "Gula",
+   "kcal": 55
+  },
+  {
+   "part": "Tepung gandum",
+   "kcal": 45
+  },
+  {
+   "part": "Telur",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bahulu kecil (1 biji)",
+   "kcal": 45
+  },
+  {
+   "name": "Bahulu besar bentuk ikan/bunga (1 biji)",
+   "kcal": 70
+  },
+  {
+   "name": "Bahulu kecil (5 biji)",
+   "kcal": 215
+  }
+ ],
+ "diet": "Boleh. Bahulu antara kuih yang lebih ringan sebab tak guna santan atau minyak banyak. Cabarannya, saiz kecil buat kita senang makan berbiji-biji, terutama musim raya. Tetapkan jumlah dulu, contohnya 3 biji, dan letak dalam piring.",
+ "tips": [
+  "Ambil 3 biji ke dalam piring, jangan makan terus dari balang.",
+  "Gandingkan dengan teh o atau kopi o kosong.",
+  "Musim raya, pilih bahulu berbanding kuih bersantan atau biskut bermentega."
+ ],
+ "swap": {
+  "name": "Kuih bahulu 2 biji + teh o kosong",
+  "kcal": 90,
+  "why": "Masih dapat rasa bahulu yang dirindui, cuma kurang sebiji. Jimat anggaran 40 kcal tanpa rasa terkongkong."
+ },
+ "faq": [
+  {
+   "q": "Kenapa bahulu jadi keras?",
+   "a": "Biasanya sebab telur tak dipukul cukup kembang atau terlebih bakar. Simpan dalam bekas kedap udara supaya kekal lembut."
+  },
+  {
+   "q": "Bahulu boleh tahan berapa lama?",
+   "a": "Dalam bekas kedap udara, bahulu boleh tahan sekitar seminggu atau lebih pada suhu bilik."
+  },
+  {
+   "q": "Boleh buat bahulu tanpa acuan tembaga?",
+   "a": "Boleh guna acuan muffin kecil atau acuan silikon. Bentuk berbeza, tapi rasa masih sama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

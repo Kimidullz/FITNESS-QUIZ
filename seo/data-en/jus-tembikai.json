@@ -1,0 +1,55 @@
+{
+ "slug": "jus-tembikai",
+ "name_en": "Jus tembikai (watermelon juice, stall)",
+ "serving_en": "1 glass",
+ "intro": "A glass of watermelon juice from a stall is about 130 kcal (estimate). Most of it is natural sugar from the watermelon, plus the sugar syrup most sellers add.",
+ "breakdown": [
+  {
+   "part": "Watermelon (~300 g)",
+   "kcal": 90
+  },
+  {
+   "part": "Sugar syrup",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Watermelon juice, no sugar",
+   "kcal": 90
+  },
+  {
+   "name": "Watermelon juice + condensed milk",
+   "kcal": 200
+  },
+  {
+   "name": "Watermelon juice, large",
+   "kcal": 190
+  }
+ ],
+ "diet": "Yes. Watermelon juice is one of the lowest-calorie juices at a stall. But juice has less fibre than whole fruit, so it's less filling. Ask for no sugar, and don't use it to replace a meal.",
+ "tips": [
+  "Order 'jus tembikai tak nak gula'. Watermelon is sweet enough.",
+  "Skip the version mixed with condensed milk.",
+  "If available, just eat cut watermelon. It's more filling."
+ ],
+ "swap": {
+  "name": "Cut watermelon (2 slices)",
+  "kcal": 60,
+  "why": "It has fibre, takes longer to eat, and fills you up more for fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is watermelon juice good for hydration?",
+   "a": "Watermelon does have a lot of water. But plain water is still the best choice for daily hydration."
+  },
+  {
+   "q": "Why does stall watermelon juice taste sweeter?",
+   "a": "Many stalls add sugar syrup so the taste stays consistent. Ask for no sugar if you don't want it."
+  },
+  {
+   "q": "Can I drink watermelon juice at night?",
+   "a": "Yes. Some people just find they need the toilet more often because it's mostly water."
+  }
+ ]
+}

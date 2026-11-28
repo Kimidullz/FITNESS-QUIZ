@@ -1,0 +1,66 @@
+{
+ "slug": "pau-kaya",
+ "intro": "Sebiji pau kaya ada anggaran 200 kcal. Kebanyakan kalori datang dari kulit pau dari tepung dan gula dalam inti kaya.",
+ "protein_g": 4,
+ "carbs_g": 36,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Kulit pau",
+   "kcal": 120
+  },
+  {
+   "part": "Inti kaya",
+   "kcal": 70
+  },
+  {
+   "part": "Lemak dalam doh",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pau kacang merah",
+   "kcal": 190
+  },
+  {
+   "name": "Pau lotus",
+   "kcal": 230
+  },
+  {
+   "name": "Pau kaya saiz besar",
+   "kcal": 260
+  },
+  {
+   "name": "Pau kaya mini",
+   "kcal": 110
+  }
+ ],
+ "diet": "Boleh. Sebiji pau kaya kecil sahaja dan sesuai untuk snek. Cuma ia hampir semua karbo dan gula, jadi cepat lapar semula. Pasangkan dengan sumber protein supaya lebih kenyang.",
+ "tips": [
+  "Makan 1 biji sahaja dan pasangkan dengan telur rebus.",
+  "Minum kopi atau teh kosong, bukan air manis.",
+  "Pilih saiz mini kalau ada."
+ ],
+ "swap": {
+  "name": "Pau kaya 1 biji + telur rebus",
+  "kcal": 270,
+  "why": "Tambah protein supaya kenyang lebih lama dari makan 2 biji pau."
+ },
+ "faq": [
+  {
+   "q": "Pau kaya tahan berapa lama?",
+   "a": "Pau sejuk beku boleh tahan beberapa minggu. Selepas dikukus, elok habiskan dalam sehari."
+  },
+  {
+   "q": "Macam mana nak panaskan pau tanpa pengukus?",
+   "a": "Balut dengan tisu dapur lembap dan panaskan dalam microwave 30 hingga 60 saat."
+  },
+  {
+   "q": "Boleh beri pau kaya kepada kanak-kanak?",
+   "a": "Boleh sebagai snek, tapi jangan selalu kerana tinggi gula."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

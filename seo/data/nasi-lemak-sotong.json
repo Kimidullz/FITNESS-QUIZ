@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-lemak-sotong",
+ "intro": "Sepinggan nasi lemak sotong ada anggaran 600 kcal. Kebanyakan kalori datang dari nasi santan dan sambal sotong yang banyak minyak.",
+ "protein_g": 22,
+ "carbs_g": 75,
+ "fat_g": 24,
+ "breakdown": [
+  {
+   "part": "Nasi santan 1 cawan",
+   "kcal": 280
+  },
+  {
+   "part": "Sambal sotong (1 senduk)",
+   "kcal": 200
+  },
+  {
+   "part": "Ikan bilis & kacang goreng",
+   "kcal": 80
+  },
+  {
+   "part": "Separuh telur rebus & timun",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi lemak biasa (tanpa sotong)",
+   "kcal": 400
+  },
+  {
+   "name": "Tambah telur goreng",
+   "kcal": 690
+  },
+  {
+   "name": "Sotong goreng tepung (bukan sambal)",
+   "kcal": 750
+  },
+  {
+   "name": "Tambah ayam goreng",
+   "kcal": 850
+  }
+ ],
+ "diet": "Boleh, tapi jadikan ia satu hidangan utama, bukan sarapan plus makan tengah hari. 600 kcal agak tinggi untuk sekali makan bagi kebanyakan orang yang nak turun berat. Sotong sebenarnya sumber protein yang bagus, yang buat tinggi ialah santan dan minyak sambal. Makan 1-2 kali seminggu dan seimbangkan makan lain hari tu dengan lebih sayur dan protein ringan.",
+ "tips": [
+  "Minta nasi separuh atau kurang nasi, sotong kekalkan.",
+  "Minta sambal tepi supaya anda kawal berapa banyak minyak yang masuk.",
+  "Tambah telur rebus, bukan telur goreng, untuk protein tanpa minyak lebih."
+ ],
+ "swap": {
+  "name": "Nasi lemak biasa (nasi separuh) + telur rebus",
+  "kcal": 400,
+  "why": "Rasa nasi lemak masih dapat, tapi kurang santan dan minyak sambal. Telur rebus bantu tambah protein supaya kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Sotong tinggi kolesterol, boleh ke makan selalu?",
+   "a": "Sotong memang ada kolesterol, tapi rendah lemak tepu. Bagi kebanyakan orang sihat, makan secara sederhana okay. Kalau ada masalah kolesterol, tanya doktor anda."
+  },
+  {
+   "q": "Macam mana nak masak sambal sotong yang tak terlalu berminyak?",
+   "a": "Tumis cili kisar dengan 1-2 sudu minyak sahaja dan masak perlahan sampai pecah minyak. Masukkan sotong di akhir supaya tak liat."
+  },
+  {
+   "q": "Sotong kering atau sotong segar lebih bagus untuk nasi lemak?",
+   "a": "Dua-dua sedap. Sotong segar lebih lembut dan kurang masin. Sotong kering lebih tinggi garam, jadi kurangkan garam dalam sambal."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

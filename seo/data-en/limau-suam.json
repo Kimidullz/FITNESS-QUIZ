@@ -1,0 +1,63 @@
+{
+ "slug": "limau-suam",
+ "name_en": "Limau suam (with sugar)",
+ "serving_en": "1 glass",
+ "intro": "One glass of sweetened limau suam is about 90 kcal. Almost all of the calories come from the sugar syrup, not the lime.",
+ "breakdown": [
+  {
+   "part": "Sugar syrup, 2 tbsp",
+   "kcal": 75
+  },
+  {
+   "part": "Limau kasturi juice",
+   "kcal": 15
+  },
+  {
+   "part": "Warm water",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Limau suam kosong",
+   "kcal": 10
+  },
+  {
+   "name": "Limau ais with sugar",
+   "kcal": 100
+  },
+  {
+   "name": "Limau asam boi",
+   "kcal": 110
+  },
+  {
+   "name": "Limau suam kurang manis",
+   "kcal": 50
+  }
+ ],
+ "diet": "Yes, and it's one of the lighter drinks at the mamak. But there's still sugar, so don't think of it as zero. Ask for kurang manis or kosong and the calories drop a lot. It's a good replacement for teh tarik.",
+ "tips": [
+  "Order 'limau suam kurang manis' or 'kosong'.",
+  "Bring plain water too, so you don't order a second sweet glass.",
+  "Pick limau suam over canned drinks or sirap bandung."
+ ],
+ "swap": {
+  "name": "Limau suam kosong",
+  "kcal": 10,
+  "why": "Same fresh sour taste, almost no sugar."
+ },
+ "faq": [
+  {
+   "q": "What lime is used in limau suam?",
+   "a": "Usually limau kasturi. Some shops use limau nipis."
+  },
+  {
+   "q": "Why do people drink limau suam for a sore throat?",
+   "a": "Many people find a warm sour drink soothing on the throat. It's not medicine, so see a doctor if the pain doesn't go away."
+  },
+  {
+   "q": "Can limau suam burn fat?",
+   "a": "No. No drink burns fat. What matters is your total daily calories."
+  }
+ ]
+}

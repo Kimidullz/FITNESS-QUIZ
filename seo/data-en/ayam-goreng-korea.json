@@ -1,0 +1,63 @@
+{
+ "slug": "ayam-goreng-korea",
+ "name_en": "Korean fried chicken (4 pieces)",
+ "serving_en": "4 pieces",
+ "intro": "Four pieces of Korean fried chicken are about 650 kcal (estimate). Most of the calories come from the oily fried batter and the sweet yangnyeom sauce.",
+ "breakdown": [
+  {
+   "part": "Chicken, 4 pieces (meat & skin)",
+   "kcal": 300
+  },
+  {
+   "part": "Flour coating & frying oil",
+   "kcal": 220
+  },
+  {
+   "part": "Sweet spicy yangnyeom sauce",
+   "kcal": 130
+  }
+ ],
+ "variants": [
+  {
+   "name": "Original (no sauce)",
+   "kcal": 520
+  },
+  {
+   "name": "Yangnyeom (sweet spicy sauce)",
+   "kcal": 650
+  },
+  {
+   "name": "Honey garlic / soy garlic",
+   "kcal": 680
+  },
+  {
+   "name": "With cheese powder or cheese sauce",
+   "kcal": 760
+  }
+ ],
+ "diet": "Yes, but treat it as an occasional meal, not a weekly menu. 650 kcal for 4 pieces is already like a full meal, before rice or sweet drinks. The protein is high, which is a bonus. The key is to share with friends and skip heavy sides.",
+ "tips": [
+  "Choose original or ask for sauce on the side, and dip a little at a time.",
+  "Share 1 set, take 2 pieces and add salad or pickled radish.",
+  "Drink plain water or teh O kosong, not soda."
+ ],
+ "swap": {
+  "name": "Grilled chicken / grilled dakgalbi (4 pieces)",
+  "kcal": 420,
+  "why": "Still has the Korean flavour, but without the fried batter, so it's much lower in fat."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between Korean fried chicken and regular fried chicken?",
+   "a": "Korean chicken is usually fried twice so it's extra crispy, and often coated in sweet spicy or soy garlic sauce."
+  },
+  {
+   "q": "Is Korean fried chicken halal?",
+   "a": "It depends on the shop. Check for JAKIM halal certification, as some Korean sauces may use non-halal ingredients."
+  },
+  {
+   "q": "Can I make Korean fried chicken in an air fryer?",
+   "a": "Yes. It still turns out crispy with much less oil."
+  }
+ ]
+}

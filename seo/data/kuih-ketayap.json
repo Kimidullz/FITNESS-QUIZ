@@ -1,0 +1,62 @@
+{
+ "slug": "kuih-ketayap",
+ "intro": "Sebiji kuih ketayap atau dadar ada anggaran 150 kcal. Kebanyakan kalori datang dari inti kelapa parut bergula melaka dan kulit dadar.",
+ "protein_g": 3,
+ "carbs_g": 24,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Kulit dadar (tepung, telur, santan)",
+   "kcal": 60
+  },
+  {
+   "part": "Kelapa parut",
+   "kcal": 45
+  },
+  {
+   "part": "Gula melaka",
+   "kcal": 45
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ketayap saiz besar",
+   "kcal": 200
+  },
+  {
+   "name": "Ketayap inti sedikit",
+   "kcal": 120
+  },
+  {
+   "name": "Lempeng kelapa (1 keping)",
+   "kcal": 180
+  }
+ ],
+ "diet": "Boleh, sebiji ketayap masih senang dimuatkan dalam kalori harian. Inti kelapa dan gula melaka buat ia agak padat, jadi 2-3 biji cepat jadi 400 kcal lebih. Makan sebiji sebagai snek dengan minuman tanpa gula. Lebih baik lagi kalau makan selepas makanan yang ada protein.",
+ "tips": [
+  "Ambil sebiji sahaja dan simpan selebihnya untuk esok.",
+  "Kalau buat sendiri, kurangkan gula melaka dalam inti sedikit.",
+  "Elak gandingan dengan air manis, pilih teh o kosong."
+ ],
+ "swap": {
+  "name": "Apam beras (1 biji)",
+  "kcal": 100,
+  "why": "Masih kuih tradisional yang lembut dan manis, tapi tiada inti kelapa bergula. Jimat anggaran 50 kcal."
+ },
+ "faq": [
+  {
+   "q": "Kenapa warna kuih ketayap hijau?",
+   "a": "Warna hijau datang dari jus daun pandan. Ada juga yang tambah pewarna supaya lebih terang."
+  },
+  {
+   "q": "Macam mana nak kulit ketayap tak koyak?",
+   "a": "Rehatkan bancuhan sekejap dan guna kuali tidak melekat dengan api sederhana. Bancuhan yang terlalu pekat juga mudah koyak."
+  },
+  {
+   "q": "Ketayap boleh dibekukan?",
+   "a": "Boleh, balut satu-satu dan simpan dalam bekas. Panaskan dengan kukus sekejap sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

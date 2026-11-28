@@ -1,0 +1,67 @@
+{
+ "slug": "mee-kicap",
+ "name_en": "Mee kicap (soy sauce noodles)",
+ "serving_en": "1 plate",
+ "intro": "A plate of mee kicap is about 450 kcal (estimate). Most of the calories come from the yellow noodles, oil and the sweet soy sauce mixed in.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1 plate",
+   "kcal": 280
+  },
+  {
+   "part": "Oil, kicap manis and dark soy sauce",
+   "kcal": 110
+  },
+  {
+   "part": "A little chicken or char siu, plus vegetables",
+   "kcal": 50
+  },
+  {
+   "part": "Fried shallots and shallot oil",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee kicap + fried egg",
+   "kcal": 560
+  },
+  {
+   "name": "Mee kicap ayam (extra chicken)",
+   "kcal": 550
+  },
+  {
+   "name": "Mee kicap + fried wantan",
+   "kcal": 600
+  },
+  {
+   "name": "Mee kicap, small portion",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, but watch how often and how much. Mee kicap is mostly carbs and fairly low in protein, so you get hungry again quickly. Once in a while is okay, especially if you add protein and vegetables. For everyday meals, soup noodles are usually lighter.",
+ "tips": [
+  "Ask for 'less oil, less kicap' when you order.",
+  "Add vegetables plus a boiled egg or extra chicken so you stay full longer.",
+  "Get a small portion, or eat half the noodles and finish the protein."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 350,
+  "why": "Less oil and sweet soy sauce. The soup fills you up, and you still get protein from the chicken."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between mee kicap and mee goreng?",
+   "a": "Mee kicap is usually tossed or lightly cooked with soy sauce. Mee goreng is stir-fried with spices and sauces, and is usually oilier."
+  },
+  {
+   "q": "Is kicap manis high in sugar?",
+   "a": "Yes, kicap manis has quite a lot of sugar. Ask for less, or mix it with light soy sauce."
+  },
+  {
+   "q": "Do yellow noodles have protein?",
+   "a": "A little, but they're mostly carbs. Your main protein should come from chicken, egg or other toppings."
+  }
+ ]
+}

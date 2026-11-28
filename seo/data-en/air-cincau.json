@@ -1,0 +1,55 @@
+{
+ "slug": "air-cincau",
+ "name_en": "Air cincau",
+ "serving_en": "1 glass",
+ "intro": "A glass of air cincau from a stall is about 120 kcal (estimate). Almost all of it comes from the sugar syrup. The cincau jelly itself is very low in calories.",
+ "breakdown": [
+  {
+   "part": "Sugar syrup",
+   "kcal": 100
+  },
+  {
+   "part": "Cincau jelly",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cincau, less sweet",
+   "kcal": 70
+  },
+  {
+   "name": "Soya cincau",
+   "kcal": 170
+  },
+  {
+   "name": "Cincau with condensed milk",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes. Air cincau isn't that high in calories compared to milky drinks. But it's almost all sugar, with no protein. Fine once in a while on a hot day. Better to go less sweet.",
+ "tips": [
+  "Ask for 'kurang manis' or 'sirap sikit'.",
+  "Make it at home: diced canned cincau, cold water, a little sugar.",
+  "Pick the small size if there's a choice."
+ ],
+ "swap": {
+  "name": "Cincau, less sweet",
+  "kcal": 70,
+  "why": "You still get the cincau taste with almost half the sugar. Saves about 50 kcal."
+ },
+ "faq": [
+  {
+   "q": "What is cincau made from?",
+   "a": "Black cincau is made from the leaves of the cincau plant. They're boiled and set into a jelly."
+  },
+  {
+   "q": "Is it true air cincau cools the body?",
+   "a": "Many Malaysians drink cincau to feel refreshed in hot weather. It's more of a traditional belief, with no strong scientific proof."
+  },
+  {
+   "q": "Is canned cincau the same as stall cincau?",
+   "a": "More or less. Canned cincau is usually just the jelly, so you control how much sugar goes in."
+  }
+ ]
+}

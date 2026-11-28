@@ -1,0 +1,63 @@
+{
+ "slug": "roti-bom",
+ "name_en": "Roti bom",
+ "serving_en": "1 piece",
+ "intro": "One roti bom has an estimated 450 kcal. It's thicker and made with lots of margarine, so most calories come from the dough, the fat and the sugar on top.",
+ "breakdown": [
+  {
+   "part": "Thick roti dough",
+   "kcal": 300
+  },
+  {
+   "part": "Margarine/oil layers",
+   "kcal": 90
+  },
+  {
+   "part": "Sugar sprinkled on top",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half a piece, shared",
+   "kcal": 225
+  },
+  {
+   "name": "Roti bom with kuah kari",
+   "kcal": 510
+  },
+  {
+   "name": "Roti bom with condensed milk",
+   "kcal": 520
+  },
+  {
+   "name": "Roti bom telur",
+   "kcal": 540
+  }
+ ],
+ "diet": "Okay once in a while. Think of it more like a dessert. Roti bom is high in sugar and fat but has very little protein. So even though the calories are high, it won't keep you full for long. Best to share it with a friend or eat it with some protein.",
+ "tips": [
+  "Share one piece between two, and just have half.",
+  "Ask for no condensed milk or extra sugar.",
+  "Add a half-boiled or boiled egg for protein."
+ ],
+ "swap": {
+  "name": "Roti canai kosong + kuah dal on the side",
+  "kcal": 330,
+  "why": "Less margarine and sugar. The kuah dal also gives you a bit of protein and fibre."
+ },
+ "faq": [
+  {
+   "q": "Why is it called roti bom?",
+   "a": "Because it's round, thick and puffed up like a bomb. Some also say it's because the sweet, buttery taste 'explodes' in your mouth."
+  },
+  {
+   "q": "What's the best way to eat roti bom?",
+   "a": "Many people love it with sugar and condensed milk. Some dip it in kuah kari or dal for a sweet-salty combo."
+  },
+  {
+   "q": "Can I make roti bom at home?",
+   "a": "Yes. Use roti canai dough, fold it into many layers to make a thick round, then pan-fry slowly. Use less margarine for a lighter version."
+  }
+ ]
+}

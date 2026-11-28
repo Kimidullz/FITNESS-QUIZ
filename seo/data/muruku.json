@@ -1,0 +1,66 @@
+{
+ "slug": "muruku",
+ "intro": "Segenggam muruku memberi anggaran 160 kcal. Kebanyakan kalori datang daripada tepung beras dan minyak yang diserap semasa menggoreng.",
+ "protein_g": 3,
+ "carbs_g": 18,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Tepung beras dan tepung urad",
+   "kcal": 80
+  },
+  {
+   "part": "Minyak gorengan yang diserap",
+   "kcal": 70
+  },
+  {
+   "part": "Bijan, jintan dan garam",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Muruku pedas, 1 genggam",
+   "kcal": 165
+  },
+  {
+   "name": "Muruku mentega / susu, 1 genggam",
+   "kcal": 180
+  },
+  {
+   "name": "Muruku saiz besar, 1 lingkaran",
+   "kcal": 120
+  },
+  {
+   "name": "1 bekas kecil masa raya (~100 g)",
+   "kcal": 520
+  }
+ ],
+ "diet": "Boleh, segenggam muruku tak akan rosakkan progres anda. Masalahnya muruku rangup dan masin, jadi senang sangat nak tambah genggam kedua dan ketiga. Proteinnya rendah, jadi ia kurang mengenyangkan. Anggap ia snek nikmat, bukan snek harian.",
+ "tips": [
+  "Ambil segenggam dan letak dalam piring kecil, jangan makan terus dari balang.",
+  "Masa Deepavali atau rumah terbuka, pilih 1-2 jenis kuih sahaja dan nikmati perlahan.",
+  "Gandingkan dengan sumber protein seperti telur rebus atau kacang supaya lebih kenyang."
+ ],
+ "swap": {
+  "name": "Popcorn buatan rumah (air-pop), 3 cawan",
+  "kcal": 100,
+  "why": "Masih rangup dan masin, tapi isipadu lebih besar dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Muruku diperbuat daripada apa?",
+   "a": "Muruku biasanya dibuat daripada tepung beras dan tepung kacang urad, dicampur bijan atau jintan, kemudian dibentuk lingkaran dan digoreng."
+  },
+  {
+   "q": "Muruku tahan berapa lama?",
+   "a": "Jika disimpan dalam bekas kedap udara, muruku biasanya kekal rangup beberapa minggu. Jauhkan daripada udara lembap supaya tak lemau."
+  },
+  {
+   "q": "Muruku boleh dibakar dalam air fryer?",
+   "a": "Ada orang cuba buat muruku dalam air fryer atau oven untuk kurangkan minyak. Teksturnya kurang rangup berbanding goreng, tapi kalori lebih rendah."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

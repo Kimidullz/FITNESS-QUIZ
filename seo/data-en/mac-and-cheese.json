@@ -1,0 +1,59 @@
+{
+ "slug": "mac-and-cheese",
+ "name_en": "Mac and cheese",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of mac and cheese is about 550 kcal (estimate). Most of the calories come from the macaroni and the buttery cheese sauce.",
+ "breakdown": [
+  {
+   "part": "Cooked macaroni ~1 cup",
+   "kcal": 250
+  },
+  {
+   "part": "Cheese sauce and milk",
+   "kcal": 220
+  },
+  {
+   "part": "Butter and breadcrumb topping",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Baked mac and cheese with beef/chicken",
+   "kcal": 650
+  },
+  {
+   "name": "Instant mac and cheese (1 small box)",
+   "kcal": 400
+  },
+  {
+   "name": "Café-size truffle mac and cheese",
+   "kcal": 750
+  }
+ ],
+ "diet": "Yes, as an occasional comfort food. It's high in carbs and fat, but quite low in protein. So you may feel hungry again quickly. Go for a small bowl and add protein or vegetables.",
+ "tips": [
+  "Take a small bowl as a side, not the main meal.",
+  "Add broccoli or boiled chicken to feel fuller.",
+  "Cooking at home? Use low-fat milk and a strong cheese like mature cheddar, so a little goes a long way."
+ ],
+ "swap": {
+  "name": "Chicken wrap",
+  "kcal": 450,
+  "why": "Has protein and vegetables, so it's more filling for fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is mac and cheese okay for kids?",
+   "a": "Yes, as an occasional meal. Add vegetables like broccoli or corn to make it more balanced."
+  },
+  {
+   "q": "What cheese is usually used?",
+   "a": "Usually cheddar. Some mix in mozzarella or parmesan for taste and texture."
+  },
+  {
+   "q": "Can I keep it in the fridge?",
+   "a": "Yes, in a covered container for up to 2-3 days. Reheat with a bit of milk so it doesn't dry out."
+  }
+ ]
+}

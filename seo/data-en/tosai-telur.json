@@ -1,0 +1,67 @@
+{
+ "slug": "tosai-telur",
+ "name_en": "Tosai telur",
+ "serving_en": "1 piece",
+ "intro": "One tosai telur has an estimated 280 kcal. Most of the calories come from the tosai batter (rice and dal), plus the egg and a little oil or ghee.",
+ "breakdown": [
+  {
+   "part": "Tosai kosong",
+   "kcal": 150
+  },
+  {
+   "part": "1 egg",
+   "kcal": 75
+  },
+  {
+   "part": "Oil/ghee",
+   "kcal": 30
+  },
+  {
+   "part": "Chutney & sambar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tosai kosong",
+   "kcal": 180
+  },
+  {
+   "name": "Tosai telur bawang",
+   "kcal": 310
+  },
+  {
+   "name": "Tosai telur + extra kuah dal",
+   "kcal": 330
+  },
+  {
+   "name": "Tosai masala",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes, this is one of the most diet-friendly mamak breakfasts. The calories are moderate and you get protein from the egg. The fermented batter is also light on the stomach. If you're still hungry, add an egg or more sambar instead of ordering another roti.",
+ "tips": [
+  "Ask for less ghee or oil when they cook it.",
+  "Take more sambar and kuah dal, less coconut chutney.",
+  "For more protein, add a boiled egg or a second egg."
+ ],
+ "swap": {
+  "name": "Tosai kosong + boiled egg",
+  "kcal": 250,
+  "why": "About the same protein, but the egg isn't cooked in oil. Good if you want to save a bit more."
+ },
+ "faq": [
+  {
+   "q": "What is tosai made from?",
+   "a": "Tosai is made from rice and urad dal that are soaked, ground and fermented overnight."
+  },
+  {
+   "q": "What's the difference between tosai and dosa?",
+   "a": "They're the same thing. Tosai is how we usually say it in Malaysia, dosa is how it's said in India."
+  },
+  {
+   "q": "Is tosai okay for people watching their blood sugar?",
+   "a": "Tosai is still carbs, so watch your portion. Pair it with egg and sambar for protein and fibre, and check with your doctor if you have diabetes."
+  }
+ ]
+}

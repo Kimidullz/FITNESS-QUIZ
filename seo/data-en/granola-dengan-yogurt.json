@@ -1,0 +1,63 @@
+{
+ "slug": "granola-dengan-yogurt",
+ "name_en": "Granola with yogurt",
+ "serving_en": "1 bowl",
+ "intro": "1 bowl of granola with yogurt is about 380 kcal (estimate). Most of the calories come from the granola, which is baked with oil, honey and nuts.",
+ "breakdown": [
+  {
+   "part": "Granola 50g (about 1/2 cup)",
+   "kcal": 230
+  },
+  {
+   "part": "Plain yogurt 150g",
+   "kcal": 100
+  },
+  {
+   "part": "Honey, 1 teaspoon",
+   "kcal": 25
+  },
+  {
+   "part": "A little sliced fruit",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Granola 30g with plain Greek yogurt",
+   "kcal": 300
+  },
+  {
+   "name": "Granola with flavoured yogurt",
+   "kcal": 420
+  },
+  {
+   "name": "Add nuts and seeds",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, but don't think of granola as diet food. Granola is calorie-dense, a spoon or two already adds up. Yogurt gives you good protein. If you watch your granola portion, this is a filling and tasty breakfast.",
+ "tips": [
+  "Use granola as a topping, not the main part of the bowl.",
+  "Choose plain or Greek yogurt, avoid sweet flavoured ones.",
+  "Add fresh fruit for natural sweetness and skip the honey."
+ ],
+ "swap": {
+  "name": "Plain Greek yogurt 200g + granola 25g + berries",
+  "kcal": 280,
+  "why": "Higher protein, fewer calories, and still crunchy."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between granola and muesli?",
+   "a": "Granola is baked with oil and sweetener, so it's crunchy. Muesli is usually raw and not baked, often with less sugar."
+  },
+  {
+   "q": "Greek yogurt or regular yogurt?",
+   "a": "Greek yogurt is thicker and has almost double the protein. Regular yogurt is okay too, just pick plain."
+  },
+  {
+   "q": "Can I make my own granola?",
+   "a": "Yes. Bake oats with a little oil, honey and nuts in the oven. It's easy to control the sugar and oil."
+  }
+ ]
+}

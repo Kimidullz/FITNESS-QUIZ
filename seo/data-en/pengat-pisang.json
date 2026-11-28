@@ -1,0 +1,67 @@
+{
+ "slug": "pengat-pisang",
+ "name_en": "Pengat pisang",
+ "serving_en": "1 bowl",
+ "intro": "1 bowl of pengat pisang is about 300 kcal (estimate). Most of the calories come from santan, gula melaka and the bananas.",
+ "breakdown": [
+  {
+   "part": "Bananas (2 pieces)",
+   "kcal": 120
+  },
+  {
+   "part": "Santan",
+   "kcal": 100
+  },
+  {
+   "part": "Gula melaka",
+   "kcal": 70
+  },
+  {
+   "part": "Sago",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half bowl",
+   "kcal": 150
+  },
+  {
+   "name": "Made with thin santan",
+   "kcal": 230
+  },
+  {
+   "name": "Pengat keledek",
+   "kcal": 280
+  },
+  {
+   "name": "Pengat campur (banana, sweet potato, sago)",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, you can. But one bowl has about the same calories as a small plate of rice. The santan and gula melaka make it quite dense. Have half a bowl as dessert. Or enjoy a full bowl and cut back on rice or other kuih that day.",
+ "tips": [
+  "Share one bowl with your partner or kids.",
+  "If you cook it yourself, mix half santan with half water.",
+  "Skip other kuih once you've had pengat."
+ ],
+ "swap": {
+  "name": "2 boiled bananas",
+  "kcal": 180,
+  "why": "Same banana taste, without the santan and gula melaka."
+ },
+ "faq": [
+  {
+   "q": "Which bananas are best for pengat?",
+   "a": "Pisang raja, pisang nangka or pisang tanduk. Pick ones that are ripe but still firm so they don't turn mushy."
+  },
+  {
+   "q": "Why does the santan in my pengat split and turn oily?",
+   "a": "The fire is too high. Cook on low heat and stir gently."
+  },
+  {
+   "q": "Can I reheat pengat pisang?",
+   "a": "Yes, on low heat. Add a little water if it's too thick."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "kuey-teow-goreng",
+ "name_en": "Kuey teow goreng (hawker stall)",
+ "serving_en": "1 plate",
+ "intro": "A plate of hawker-style kuey teow goreng is about 650 kcal (estimate). Most of the calories come from the kuey teow itself and the generous oil used when frying over high heat.",
+ "breakdown": [
+  {
+   "part": "Kuey teow, 1 plate",
+   "kcal": 300
+  },
+  {
+   "part": "Cooking oil, soy sauce & sauces",
+   "kcal": 220
+  },
+  {
+   "part": "1 egg",
+   "kcal": 80
+  },
+  {
+   "part": "A little prawn/chicken, taugeh & sawi",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow goreng + telur mata",
+   "kcal": 740
+  },
+  {
+   "name": "Kuey teow goreng daging",
+   "kcal": 700
+  },
+  {
+   "name": "Kuey teow goreng ayam",
+   "kcal": 680
+  },
+  {
+   "name": "Kuey teow goreng, less oil, more vegetables",
+   "kcal": 560
+  }
+ ],
+ "diet": "Yes, kuey teow goreng can still fit into a weight loss plan. It's just high in oil and fairly low in protein, so you may get hungry again quickly. If you have it, make it your only heavy food for that meal and don't add other fried stuff. Once or twice a week, normal portion, is okay.",
+ "tips": [
+  "Order 'less oil, more taugeh and vegetables'.",
+  "Ask for extra chicken or prawns to boost protein so you stay full longer.",
+  "Drink teh o kosong or plain water, not teh tarik or sirap."
+ ],
+ "swap": {
+  "name": "Kuey teow sup ayam",
+  "kcal": 380,
+  "why": "Same kuey teow but in soup instead of fried, so much less oil and still satisfying."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between kuey teow goreng and char kuey teow?",
+   "a": "Char kuey teow is usually fried over very high heat with dark soy sauce, cockles and chives. Regular stall kuey teow goreng is simpler, sometimes wetter, and depends on the shop's style."
+  },
+  {
+   "q": "What is kuey teow made from?",
+   "a": "Rice flour and water, steamed into thin sheets and then cut into flat strips."
+  },
+  {
+   "q": "Is kuey teow goreng okay for dinner?",
+   "a": "Yes, as long as it's a normal portion and you skip sweet drinks. What matters is your total calories for the day, not the time you eat."
+  }
+ ]
+}

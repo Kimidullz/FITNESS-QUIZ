@@ -1,0 +1,58 @@
+{
+ "slug": "air-cincau",
+ "intro": "Segelas air cincau dari gerai ada anggaran 120 kcal. Hampir semua kalori datang dari sirap gula, cincau itu sendiri sangat rendah kalori.",
+ "protein_g": 0,
+ "carbs_g": 30,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Sirap gula",
+   "kcal": 100
+  },
+  {
+   "part": "Jeli cincau",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cincau kurang manis",
+   "kcal": 70
+  },
+  {
+   "name": "Soya cincau",
+   "kcal": 170
+  },
+  {
+   "name": "Cincau susu (susu pekat)",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh. Air cincau taklah tinggi sangat kalorinya berbanding minuman bersusu. Tapi ia hampir semua gula, tiada protein. Sesuai sesekali bila cuaca panas, lebih baik pilih kurang manis.",
+ "tips": [
+  "Minta 'kurang manis' atau 'sirap sikit'.",
+  "Buat sendiri di rumah: cincau tin potong dadu, air sejuk, sedikit gula.",
+  "Pilih saiz kecil kalau ada pilihan."
+ ],
+ "swap": {
+  "name": "Cincau kurang manis",
+  "kcal": 70,
+  "why": "Rasa cincau masih ada, gula hampir separuh. Jimat sekitar 50 kcal."
+ },
+ "faq": [
+  {
+   "q": "Cincau dibuat dari apa?",
+   "a": "Cincau hitam dibuat dari daun pokok cincau yang direbus dan dikeraskan jadi jeli."
+  },
+  {
+   "q": "Betul ke air cincau menyejukkan badan?",
+   "a": "Ramai orang Malaysia minum cincau untuk rasa segar masa panas. Ia lebih kepada kepercayaan tradisi, tiada bukti kuat secara saintifik."
+  },
+  {
+   "q": "Cincau tin sama dengan cincau gerai?",
+   "a": "Lebih kurang sama. Cincau tin biasanya jeli sahaja, jadi anda boleh kawal sendiri berapa banyak gula yang ditambah."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "kerepek-pisang",
+ "intro": "Segenggam kerepek pisang memberi anggaran 170 kcal. Kebanyakan kalori datang daripada minyak yang diserap ketika pisang digoreng, ditambah gula untuk versi manis.",
+ "protein_g": 1,
+ "carbs_g": 20,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Hirisan pisang",
+   "kcal": 90
+  },
+  {
+   "part": "Minyak gorengan yang diserap",
+   "kcal": 75
+  },
+  {
+   "part": "Gula atau garam",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kerepek pisang masin, 1 genggam",
+   "kcal": 170
+  },
+  {
+   "name": "Kerepek pisang manis bersalut gula, 1 genggam",
+   "kcal": 190
+  },
+  {
+   "name": "Kerepek pisang salut coklat, 1 genggam",
+   "kcal": 210
+  },
+  {
+   "name": "1 paket kecil (~70 g)",
+   "kcal": 360
+  }
+ ],
+ "diet": "Boleh, segenggam kerepek pisang muat dalam pelan turun berat. Walaupun dari buah, ia digoreng jadi kalorinya jauh lebih tinggi daripada pisang segar. Proteinnya hampir tiada, jadi cepat lapar semula. Makan sebagai snek kecil, bukan pengganti buah.",
+ "tips": [
+  "Tuang segenggam ke dalam mangkuk kecil, simpan baki paket.",
+  "Pilih versi masin berbanding bersalut gula atau coklat.",
+  "Kalau nak snek petang di pejabat, gandingkan dengan susu rendah lemak atau telur rebus untuk protein."
+ ],
+ "swap": {
+  "name": "Pisang berangan segar, 1 biji",
+  "kcal": 100,
+  "why": "Rasa manis pisang yang sama, lebih banyak air dan serat, tanpa minyak goreng."
+ },
+ "faq": [
+  {
+   "q": "Kerepek pisang dikira sebagai buah ke?",
+   "a": "Tidak sangat. Proses menggoreng membuang banyak air dan menambah minyak, jadi ia lebih kepada snek berbanding hidangan buah."
+  },
+  {
+   "q": "Pisang apa yang biasa digunakan untuk kerepek?",
+   "a": "Pisang tanduk, pisang nangka dan pisang awak antara yang popular kerana teksturnya sesuai dihiris nipis dan digoreng."
+  },
+  {
+   "q": "Macam mana nak simpan kerepek pisang supaya tak lemau?",
+   "a": "Simpan dalam bekas atau balang kedap udara, jauhkan dari tempat lembap. Tutup rapat setiap kali selepas ambil."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

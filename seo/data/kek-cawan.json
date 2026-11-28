@@ -1,0 +1,66 @@
+{
+ "slug": "kek-cawan",
+ "intro": "Sebiji kek cawan dengan frosting memberi anggaran 250 kcal. Kebanyakan kalori datang daripada kek berasaskan mentega dan gula, ditambah lapisan frosting buttercream.",
+ "protein_g": 3,
+ "carbs_g": 32,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Kek mentega / span",
+   "kcal": 150
+  },
+  {
+   "part": "Frosting buttercream",
+   "kcal": 90
+  },
+  {
+   "part": "Hiasan dan sprinkles",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kek cawan tanpa frosting",
+   "kcal": 160
+  },
+  {
+   "name": "Kek cawan mini",
+   "kcal": 100
+  },
+  {
+   "name": "Kek cawan frosting cream cheese",
+   "kcal": 300
+  },
+  {
+   "name": "Kek cawan red velvet saiz besar",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, kek cawan memang padan untuk majlis harijadi atau hadiah dari kawan. Sebiji kecil senang dimuatkan dalam kalori harian. Yang perlu diperhatikan ialah frosting tebal dan saiz besar dari kafe. Nikmati sebiji, perlahan-lahan, dan teruskan makan seperti biasa selepas itu.",
+ "tips": [
+  "Pilih saiz mini atau kongsi kek cawan besar dengan orang lain.",
+  "Kikis separuh frosting kalau lapisannya sangat tebal.",
+  "Makan selepas makan tengah hari yang ada protein, bukan masa perut kosong."
+ ],
+ "swap": {
+  "name": "Kek span biasa, 1 potong kecil",
+  "kcal": 150,
+  "why": "Masih rasa kek yang lembut, tapi tiada frosting mentega yang tinggi lemak dan gula."
+ },
+ "faq": [
+  {
+   "q": "Apa beza kek cawan dengan muffin?",
+   "a": "Kek cawan biasanya lebih manis, teksturnya lebih lembut dan ada frosting di atas. Muffin lebih padat dan selalunya tiada frosting."
+  },
+  {
+   "q": "Berapa lama kek cawan boleh tahan?",
+   "a": "Kek cawan dengan buttercream biasanya tahan 1-2 hari pada suhu bilik. Yang guna cream cheese atau krim segar perlu disimpan dalam peti sejuk."
+  },
+  {
+   "q": "Boleh buat kek cawan kurang manis di rumah?",
+   "a": "Boleh, kurangkan gula dalam adunan sedikit dan guna frosting nipis atau buah segar sebagai hiasan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

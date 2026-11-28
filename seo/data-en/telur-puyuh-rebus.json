@@ -1,0 +1,63 @@
+{
+ "slug": "telur-puyuh-rebus",
+ "name_en": "Telur puyuh rebus (boiled quail eggs)",
+ "serving_en": "5 eggs",
+ "intro": "Five boiled quail eggs have about 70 kcal (estimate). The calories come from protein and fat, mostly from the yolk.",
+ "breakdown": [
+  {
+   "part": "Egg yolk",
+   "kcal": 50
+  },
+  {
+   "part": "Egg white",
+   "kcal": 18
+  },
+  {
+   "part": "Pinch of salt or soy sauce",
+   "kcal": 2
+  }
+ ],
+ "variants": [
+  {
+   "name": "Fried quail eggs on skewer, 5 eggs",
+   "kcal": 120
+  },
+  {
+   "name": "Quail eggs in soy sauce, 5 eggs",
+   "kcal": 100
+  },
+  {
+   "name": "Quail eggs in soup, 5 eggs",
+   "kcal": 75
+  },
+  {
+   "name": "Boiled chicken egg, 1 egg",
+   "kcal": 70
+  }
+ ],
+ "diet": "Yes, boiled quail eggs are a truly diet-friendly snack. Low in calories, with protein and easy to carry. Five quail eggs are about the same as one chicken egg. Just avoid the fried or sweet sauce versions if you're watching calories.",
+ "tips": [
+  "Boil a pack, peel and store in a container in the fridge for 3 days of snacks.",
+  "Add 5 eggs into soup or salad to boost protein.",
+  "At steamboat, go for boiled quail eggs instead of fried balls."
+ ],
+ "swap": {
+  "name": "Boiled chicken egg, 1 egg",
+  "kcal": 70,
+  "why": "Almost the same calories and protein, but cheaper and faster to peel."
+ },
+ "faq": [
+  {
+   "q": "Are quail eggs high in cholesterol?",
+   "a": "The yolk does have cholesterol, same as chicken eggs. For most people, eating in moderation is okay. If you have health issues, ask your doctor."
+  },
+  {
+   "q": "How do I peel quail eggs easily?",
+   "a": "After boiling, soak them in cold water, then shake them in a covered container. The shells will crack and peel easily."
+  },
+  {
+   "q": "How many minutes to boil quail eggs?",
+   "a": "About 3 to 4 minutes in boiling water to cook fully."
+  }
+ ]
+}

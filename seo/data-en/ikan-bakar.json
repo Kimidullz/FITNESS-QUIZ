@@ -1,0 +1,63 @@
+{
+ "slug": "ikan-bakar",
+ "name_en": "Ikan bakar (kembung)",
+ "serving_en": "1 fish",
+ "intro": "One grilled ikan kembung is about 200 kcal (estimate). Most of the calories come from the fish itself, which is high in protein.",
+ "breakdown": [
+  {
+   "part": "1 ikan kembung (flesh)",
+   "kcal": 160
+  },
+  {
+   "part": "Turmeric marinade and a brush of oil",
+   "kcal": 25
+  },
+  {
+   "part": "A little air asam or sambal",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "With oily chilli sambal",
+   "kcal": 260
+  },
+  {
+   "name": "Wrapped in banana leaf, no oil",
+   "kcal": 170
+  },
+  {
+   "name": "1 piece ikan pari bakar",
+   "kcal": 250
+  },
+  {
+   "name": "With air asam",
+   "kcal": 210
+  }
+ ],
+ "diet": "Definitely. Grilled ikan kembung is high in protein, low in calories and has good fats from the fish. It's one of the most diet-friendly lauk at any warung. Just watch the sambal brushed on top, because that's what adds oil.",
+ "tips": [
+  "Choose air asam or kicap cili over oily sambal.",
+  "Have 1 fish with half a plate of rice and ulam.",
+  "At home, grill it in the air fryer or oven with just turmeric and salt."
+ ],
+ "swap": {
+  "name": "Ikan kembung bakar wrapped in banana leaf",
+  "kcal": 170,
+  "why": "No brushed oil, but still fragrant with the same protein."
+ },
+ "faq": [
+  {
+   "q": "Is ikan kembung high in omega-3?",
+   "a": "Yes, ikan kembung is one of the local fish rich in omega-3, and it's affordable too."
+  },
+  {
+   "q": "How do I know if ikan kembung is fresh?",
+   "a": "Clear eyes, red gills and firm flesh when pressed. It should smell like the sea, not strongly fishy."
+  },
+  {
+   "q": "What goes well with ikan bakar?",
+   "a": "White rice, air asam, ulam and vegetables. Many also eat it with sambal kicap and cucumber."
+  }
+ ]
+}

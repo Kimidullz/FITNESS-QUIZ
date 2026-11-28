@@ -1,0 +1,66 @@
+{
+ "slug": "kuih-bingka-ubi",
+ "intro": "Sepotong kuih bingka ubi ada anggaran 180 kcal. Kebanyakan kalori datang dari ubi kayu, gula dan santan.",
+ "protein_g": 2,
+ "carbs_g": 30,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Ubi kayu parut",
+   "kcal": 80
+  },
+  {
+   "part": "Gula",
+   "kcal": 50
+  },
+  {
+   "part": "Santan",
+   "kcal": 45
+  },
+  {
+   "part": "Telur & sedikit mentega",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Potongan kecil",
+   "kcal": 120
+  },
+  {
+   "name": "Bingka labu (1 potong)",
+   "kcal": 160
+  },
+  {
+   "name": "Bingka ubi potongan besar",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh, satu potong masih okay untuk snek. Tapi kuih ni padat dengan karbohidrat dan rendah protein, jadi cepat lapar semula. Elak makan 2-3 potong sekali gus bersama air manis. Nikmati sepotong dengan kopi o kosong dan dah cukup.",
+ "tips": [
+  "Ambil satu potong sahaja dan makan perlahan dengan kopi o atau teh o kosong.",
+  "Kongsi potongan besar dengan rakan pejabat.",
+  "Gandingkan dengan telur rebus untuk tambah protein supaya kenyang lebih lama."
+ ],
+ "swap": {
+  "name": "Ubi keledek rebus (1 potong kecil)",
+  "kcal": 90,
+  "why": "Masih rasa ubi yang manis semula jadi, tanpa santan dan gula tambahan. Separuh kalori."
+ },
+ "faq": [
+  {
+   "q": "Kuih bingka ubi boleh simpan berapa lama?",
+   "a": "Pada suhu bilik sekitar sehari kerana ada santan. Dalam peti sejuk boleh tahan 2-3 hari, panaskan sekejap sebelum makan."
+  },
+  {
+   "q": "Kenapa bingka ubi jadi lembik di tengah?",
+   "a": "Biasanya sebab tak cukup masa bakar atau terlalu banyak santan. Bakar sehingga atas perang dan bila dicucuk lidi tidak terlalu basah."
+  },
+  {
+   "q": "Boleh guna ubi kayu sejuk beku?",
+   "a": "Boleh. Ubi kayu parut sejuk beku memudahkan kerja, cuma perah sedikit airnya sebelum digunakan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

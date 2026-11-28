@@ -1,0 +1,63 @@
+{
+ "slug": "roti-sosej",
+ "name_en": "Roti sosej (sausage bun)",
+ "serving_en": "1 bun",
+ "intro": "One bakery roti sosej gives about 280 kcal (estimate). Most of the calories come from the soft sweet bun, followed by the sausage and mayo.",
+ "breakdown": [
+  {
+   "part": "Soft bun (sweet bread)",
+   "kcal": 170
+  },
+  {
+   "part": "Chicken sausage",
+   "kcal": 80
+  },
+  {
+   "part": "Mayonnaise / sauce",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mini roti sosej",
+   "kcal": 150
+  },
+  {
+   "name": "Cheese roti sosej",
+   "kcal": 340
+  },
+  {
+   "name": "Pastry sausage roll",
+   "kcal": 350
+  },
+  {
+   "name": "Roti sosej + packet teh susu",
+   "kcal": 430
+  }
+ ],
+ "diet": "Yes, roti sosej is okay for a quick breakfast or tea time. It has some protein, but the bun is sweet and the sausage is processed, so it's not very filling for its calories. One bun with an unsweetened drink is safer than two buns with a sweet drink. If you can, don't make it your everyday breakfast.",
+ "tips": [
+  "Take just one and add a boiled egg or unsweetened milk for protein.",
+  "Choose the version without cheese and with less mayo.",
+  "Drink kopi O or teh O kosong, not sweetened packet drinks."
+ ],
+ "swap": {
+  "name": "Wholemeal egg sandwich",
+  "kcal": 260,
+  "why": "Almost the same calories, but more protein and fibre, so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Is the sausage in roti sosej halal?",
+   "a": "Most bakeries in Malaysia use halal chicken or beef sausages. Check that the shop has a valid halal certificate if you're unsure."
+  },
+  {
+   "q": "Can I reheat roti sosej in an air fryer?",
+   "a": "Yes, reheat 2-3 minutes at medium temperature. The outside gets slightly crispy and the sausage heats evenly."
+  },
+  {
+   "q": "Is roti sosej good for kids' school bekal?",
+   "a": "It's practical and kids love it. For a more balanced bekal, pair it with fruit and plain water or milk, not sweet drinks."
+  }
+ ]
+}

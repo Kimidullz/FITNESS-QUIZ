@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-ayam-hainan-panggang",
+ "intro": "Sepinggan nasi ayam hainan panggang ada anggaran 600 kcal. Kebanyakan kalori datang dari nasi minyak ayam dan ayam panggang bersama kulitnya.",
+ "protein_g": 32,
+ "carbs_g": 75,
+ "fat_g": 19,
+ "breakdown": [
+  {
+   "part": "Nasi ayam (minyak ayam) 1 cawan",
+   "kcal": 330
+  },
+  {
+   "part": "Ayam panggang 100g dengan kulit",
+   "kcal": 200
+  },
+  {
+   "part": "Sos cili, kicap pekat, halia",
+   "kcal": 40
+  },
+  {
+   "part": "Sup sayur kecil",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam steam (rebus)",
+   "kcal": 560
+  },
+  {
+   "name": "Nasi putih ganti nasi ayam",
+   "kcal": 510
+  },
+  {
+   "name": "Ayam tanpa kulit",
+   "kcal": 540
+  },
+  {
+   "name": "Ayam bahagian peha besar",
+   "kcal": 680
+  }
+ ],
+ "diet": "Boleh, ini antara pilihan nasi luar yang agak ringan. Protein dari ayam tinggi dan senang nak kawal porsi. Nasi minyak ayam tu yang tambah kalori, jadi tukar ke nasi putih kalau ada. Dengan sedikit pengubahsuaian, ia boleh jadi makanan harian semasa diet.",
+ "tips": [
+  "Minta nasi putih ganti nasi ayam kalau kedai ada.",
+  "Buang kulit ayam atau pilih bahagian dada.",
+  "Tambah sayur sawi atau taugeh celur sebagai lauk tepi."
+ ],
+ "swap": {
+  "name": "Ayam steam dada + nasi putih + sayur celur",
+  "kcal": 480,
+  "why": "Kurang minyak dari nasi dan kulit ayam, tapi protein tetap tinggi dan mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Apa beza ayam panggang dan ayam steam dalam nasi ayam?",
+   "a": "Ayam panggang dibakar atau dipanggang dengan sos manis, jadi kulitnya lebih berwarna. Ayam steam direbus perlahan dan lebih lembut."
+  },
+  {
+   "q": "Kenapa nasi ayam berminyak dan wangi?",
+   "a": "Nasi dimasak dengan stok ayam, minyak ayam, halia dan bawang putih."
+  },
+  {
+   "q": "Sos cili nasi ayam tinggi kalori ke?",
+   "a": "Tak sangat. Sos cili halia biasanya ringan, cuma kicap pekat ada gula, jadi guna secukupnya."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

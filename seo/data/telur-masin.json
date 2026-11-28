@@ -1,0 +1,66 @@
+{
+ "slug": "telur-masin",
+ "intro": "Sebiji telur masin (telur itik) ada anggaran 120 kcal. Kebanyakan kalori datang dari kuning telur yang kaya lemak.",
+ "protein_g": 9,
+ "carbs_g": 1,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Kuning telur itik",
+   "kcal": 85
+  },
+  {
+   "part": "Putih telur",
+   "kcal": 35
+  },
+  {
+   "part": "Garam perapan (natrium tinggi, hampir 0 kcal)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Separuh biji telur masin",
+   "kcal": 60
+  },
+  {
+   "name": "Telur masin rebus 1 biji",
+   "kcal": 120
+  },
+  {
+   "name": "Ayam goreng telur masin (1 senduk)",
+   "kcal": 300
+  },
+  {
+   "name": "Udang sos telur masin (1 senduk)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh, kalori sebiji telur masin masih sederhana dan ada protein. Isu utamanya ialah garam, bukan kalori. Garam tinggi boleh buat badan tahan air, jadi berat di penimbang naik sekejap. Separuh biji biasanya dah cukup untuk perisa sepinggan nasi.",
+ "tips": [
+  "Makan separuh biji saja, simpan separuh lagi untuk hidangan seterusnya.",
+  "Padankan dengan sayur rebus atau sup dan minum air kosong yang cukup.",
+  "Hati-hati dengan lauk 'sos telur masin' kerana selalunya digoreng dan guna mentega."
+ ],
+ "swap": {
+  "name": "Telur rebus biasa",
+  "kcal": 75,
+  "why": "Protein hampir sama, kalori lebih rendah dan garam jauh kurang."
+ },
+ "faq": [
+  {
+   "q": "Telur masin tinggi garam ke?",
+   "a": "Ya, agak tinggi. Sebiji boleh beri sebahagian besar had garam harian. Kalau dah makan telur masin, kurangkan kicap dan lauk masin lain."
+  },
+  {
+   "q": "Ibu mengandung boleh makan telur masin?",
+   "a": "Secara umum boleh kalau dimasak sepenuhnya dan dimakan sesekali. Jaga jumlah garam, dan rujuk doktor kalau ada isu tekanan darah."
+  },
+  {
+   "q": "Berapa lama telur masin boleh tahan?",
+   "a": "Telur masin yang dah direbus elok disimpan dalam peti sejuk dan dihabiskan dalam lebih kurang seminggu. Yang belum dimasak tahan lebih lama dalam peti sejuk."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

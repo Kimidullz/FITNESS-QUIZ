@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-bujang",
+ "intro": "Sepinggan nasi bujang (nasi, telur mata dan kicap) ada anggaran 420 kcal. Kebanyakan kalori datang dari nasi, diikuti minyak untuk goreng telur.",
+ "protein_g": 12,
+ "carbs_g": 70,
+ "fat_g": 10,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.25 cawan",
+   "kcal": 260
+  },
+  {
+   "part": "Telur mata goreng 1 biji",
+   "kcal": 120
+  },
+  {
+   "part": "Kicap manis 1 sudu besar",
+   "kcal": 25
+  },
+  {
+   "part": "Minyak bawang/bawang goreng",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dengan 2 biji telur mata",
+   "kcal": 540
+  },
+  {
+   "name": "Telur rebus ganti telur goreng",
+   "kcal": 350
+  },
+  {
+   "name": "Tambah sardin atau ikan bilis",
+   "kcal": 520
+  },
+  {
+   "name": "Tambah majerin/butter atas nasi panas",
+   "kcal": 520
+  }
+ ],
+ "diet": "Boleh, malah ini antara pilihan yang agak ringan. Masalah utamanya protein rendah dan hampir tiada sayur, jadi cepat lapar semula. Kalau makan ini, tambah protein dan sayur supaya kenyang lebih lama. Ia sesuai sebagai makan malam ringkas masa penat.",
+ "tips": [
+  "Tambah satu lagi telur atau tukar ke 2 telur rebus untuk protein lebih.",
+  "Masukkan sayur cepat seperti timun hiris atau sawi celur.",
+  "Guna kuali non-stick supaya minyak untuk telur cukup sedikit."
+ ],
+ "swap": {
+  "name": "Nasi 1 cawan + 2 telur rebus + timun + kicap",
+  "kcal": 400,
+  "why": "Kalori hampir sama tapi protein dua kali ganda, jadi lebih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Kenapa dipanggil nasi bujang?",
+   "a": "Sebab ia makanan paling mudah yang selalu dimasak oleh orang bujang atau pelajar. Cukup nasi, telur dan kicap."
+  },
+  {
+   "q": "Kicap manis tinggi gula ke?",
+   "a": "Ya, kicap manis memang ada gula. Satu sudu biasanya okay, cuma jangan tuang terlalu banyak."
+  },
+  {
+   "q": "Telur mata lagi baik ke telur dadar?",
+   "a": "Dua-dua sama dari segi telur. Bezanya pada jumlah minyak yang digunakan masa masak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

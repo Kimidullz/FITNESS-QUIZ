@@ -1,0 +1,74 @@
+{
+ "slug": "curry-mee-kering",
+ "intro": "Sepinggan curry mee kering ada anggaran 600 kcal. Kebanyakan kalori datang daripada mee dan sos kari pekat yang bersantan.",
+ "protein_g": 22,
+ "carbs_g": 60,
+ "fat_g": 30,
+ "breakdown": [
+  {
+   "part": "Mee kuning/mee hoon campur",
+   "kcal": 260
+  },
+  {
+   "part": "Sos kari pekat & santan",
+   "kcal": 180
+  },
+  {
+   "part": "Tauhu pok",
+   "kcal": 60
+  },
+  {
+   "part": "Ayam atau char siu",
+   "kcal": 70
+  },
+  {
+   "part": "Sambal & minyak cili",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Curry mee sup (kari laksa)",
+   "kcal": 550
+  },
+  {
+   "name": "Tambah kerang",
+   "kcal": 640
+  },
+  {
+   "name": "Tambah telur",
+   "kcal": 680
+  },
+  {
+   "name": "Guna mee hoon sahaja",
+   "kcal": 580
+  }
+ ],
+ "diet": "Boleh, tapi kena bijak. Sos kari bersantan dan tauhu pok yang serap kuah buat lemak agak tinggi. Kalau makan untuk tengah hari, pastikan makan malam lebih ringan dengan protein dan sayur. Sekali seminggu pun dah cukup untuk puaskan hati.",
+ "tips": [
+  "Minta sos kari kurang, jangan banjirkan mee.",
+  "Tambah ayam lebih untuk protein.",
+  "Kurangkan tauhu pok sebab ia serap banyak santan."
+ ],
+ "swap": {
+  "name": "Yong tau foo sup dengan mee",
+  "kcal": 380,
+  "why": "Kuah jernih tanpa santan, jadi lemak jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Curry mee kering terkenal di mana?",
+   "a": "Ipoh dan Kuala Lumpur. Versi Ipoh biasanya ada char siu dan ayam dengan sos kari pekat."
+  },
+  {
+   "q": "Curry mee kering halal ke?",
+   "a": "Bergantung pada kedai. Ada yang guna char siu babi. Cari kedai halal yang guna ayam."
+  },
+  {
+   "q": "Curry mee kering pedas ke?",
+   "a": "Sederhana. Pedas datang dari sambal yang boleh minta asing atau kurang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

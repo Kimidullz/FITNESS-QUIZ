@@ -1,0 +1,59 @@
+{
+ "slug": "manggis",
+ "name_en": "Mangosteen (manggis)",
+ "serving_en": "3 fruits",
+ "intro": "3 mangosteens come to roughly 70 kcal (estimate). Almost all the calories come from natural sugar in the white flesh.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in the flesh (~90g)",
+   "kcal": 62
+  },
+  {
+   "part": "Fibre",
+   "kcal": 4
+  },
+  {
+   "part": "A little protein and fat",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mangosteen, 1 fruit",
+   "kcal": 23
+  },
+  {
+   "name": "Mangosteen, 5 fruits",
+   "kcal": 115
+  },
+  {
+   "name": "Canned mangosteen in syrup, 1/2 cup",
+   "kcal": 90
+  }
+ ],
+ "diet": "Absolutely. 3 mangosteens is still a light snack. The only risk is durian season, when mangosteen becomes durian's sidekick and the total calories climb fast. Have mangosteen as dessert or a snack, not as an add-on to a fruit feast.",
+ "tips": [
+  "Set 3 as one serving and keep the rest in the fridge.",
+  "Choose fresh mangosteen, not canned in syrup.",
+  "Eat it after lunch instead of a sweet drink or kuih."
+ ],
+ "swap": {
+  "name": "Papaya, 1 big slice (~150g)",
+  "kcal": 60,
+  "why": "About the same calories but a bigger portion, and easy to get at cut-fruit stalls."
+ },
+ "faq": [
+  {
+   "q": "How do I pick a good mangosteen?",
+   "a": "Pick dark purple skin that's still slightly soft when pressed, with fresh green leaves on top. Rock-hard skin usually means the flesh has gone bad."
+  },
+  {
+   "q": "Is it true the petals at the bottom match the number of segments?",
+   "a": "Yes, the small flower-shaped petals at the bottom usually match the number of segments inside. The trick works for most fruits."
+  },
+  {
+   "q": "Why do people say to eat mangosteen after durian?",
+   "a": "It's a traditional practice. Mangosteen is seen as 'cooling' to balance the 'heaty' durian. There's no strong scientific proof, but it's fine in normal portions."
+  }
+ ]
+}

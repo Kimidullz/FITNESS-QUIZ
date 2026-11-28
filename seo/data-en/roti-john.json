@@ -1,0 +1,71 @@
+{
+ "slug": "roti-john",
+ "name_en": "Roti John",
+ "serving_en": "1 full loaf",
+ "intro": "One Roti John is about 650 kcal (estimate). Most of the calories come from the long bread, eggs, cooking oil, plus the sauces and mayo.",
+ "breakdown": [
+  {
+   "part": "Long bread, 1 loaf",
+   "kcal": 280
+  },
+  {
+   "part": "2 eggs",
+   "kcal": 140
+  },
+  {
+   "part": "Minced beef or chicken",
+   "kcal": 100
+  },
+  {
+   "part": "Oil / margarine",
+   "kcal": 80
+  },
+  {
+   "part": "Chilli sauce & mayo",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti John sardine",
+   "kcal": 600
+  },
+  {
+   "name": "Roti John beef + cheese",
+   "kcal": 780
+  },
+  {
+   "name": "Half a Roti John",
+   "kcal": 330
+  },
+  {
+   "name": "Roti John extra mayo",
+   "kcal": 750
+  }
+ ],
+ "diet": "Yes, but treat it as an occasional food. One full loaf is almost like one big meal. The easiest way is to share it or eat half, then add some fruit or veggies.",
+ "tips": [
+  "Share one loaf with your partner or a friend.",
+  "Ask for less mayo or no mayo.",
+  "Pick chicken or sardine filling, skip the extra cheese."
+ ],
+ "swap": {
+  "name": "Half a chicken Roti John + cucumber",
+  "kcal": 340,
+  "why": "You still get the Roti John taste for almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "Why is it called Roti John?",
+   "a": "The popular story says it started in Singapore in the 1960s, when a Western customer called 'John' asked for a sandwich."
+  },
+  {
+   "q": "Is Roti John a good pick at the Ramadan bazaar?",
+   "a": "It's one of the most popular Ramadan bazaar foods. Sharing one loaf for buka puasa is more balanced."
+  },
+  {
+   "q": "Can I make Roti John in an air fryer?",
+   "a": "Yes. Brush on a little oil and bake until the egg is cooked. You use much less oil."
+  }
+ ]
+}

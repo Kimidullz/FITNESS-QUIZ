@@ -1,0 +1,66 @@
+{
+ "slug": "limau-suam",
+ "intro": "Segelas limau suam bergula ada anggaran 90 kcal. Hampir semua kalori datang dari sirap gula, bukan dari limau.",
+ "protein_g": 0,
+ "carbs_g": 22,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Sirap gula 2 sudu besar",
+   "kcal": 75
+  },
+  {
+   "part": "Jus limau kasturi",
+   "kcal": 15
+  },
+  {
+   "part": "Air suam",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Limau suam kosong",
+   "kcal": 10
+  },
+  {
+   "name": "Limau ais bergula",
+   "kcal": 100
+  },
+  {
+   "name": "Limau asam boi",
+   "kcal": 110
+  },
+  {
+   "name": "Limau suam kurang manis",
+   "kcal": 50
+  }
+ ],
+ "diet": "Boleh, dan ia antara pilihan minuman yang lebih ringan di mamak. Cuma gula masih ada, jadi jangan anggap ia sifar. Kalau minta kurang manis atau kosong, kalori turun banyak. Bagus sebagai pengganti teh tarik.",
+ "tips": [
+  "Order 'limau suam kurang manis' atau 'kosong'.",
+  "Bawa air kosong juga supaya tak order gelas kedua yang bergula.",
+  "Pilih limau suam berbanding minuman bertin atau sirap bandung."
+ ],
+ "swap": {
+  "name": "Limau suam kosong",
+  "kcal": 10,
+  "why": "Rasa masam segar kekal, gula hampir tiada."
+ },
+ "faq": [
+  {
+   "q": "Limau suam guna limau apa?",
+   "a": "Biasanya limau kasturi. Ada kedai guna limau nipis."
+  },
+  {
+   "q": "Kenapa orang minum limau suam bila sakit tekak?",
+   "a": "Ramai rasa air suam masam lebih selesa di tekak. Ia bukan ubat, jumpa doktor kalau sakit berterusan."
+  },
+  {
+   "q": "Limau suam boleh bakar lemak?",
+   "a": "Tidak. Tiada minuman yang bakar lemak, yang penting jumlah kalori harian."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

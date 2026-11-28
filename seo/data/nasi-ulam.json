@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-ulam",
+ "intro": "Sepinggan nasi ulam ada anggaran 400 kcal. Kebanyakan kalori datang dari nasi dan kerisik, manakala ulam sendiri sangat rendah kalori.",
+ "protein_g": 14,
+ "carbs_g": 60,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1 cawan",
+   "kcal": 200
+  },
+  {
+   "part": "Ulam dan herba hiris",
+   "kcal": 20
+  },
+  {
+   "part": "Kerisik atau kelapa",
+   "kcal": 80
+  },
+  {
+   "part": "Ikan kering atau ikan rebus hancur",
+   "kcal": 60
+  },
+  {
+   "part": "Budu atau sambal",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi ulam dengan ikan bakar",
+   "kcal": 550
+  },
+  {
+   "name": "Nasi ulam dengan telur masin",
+   "kcal": 480
+  },
+  {
+   "name": "Nasi ulam dengan ayam goreng",
+   "kcal": 650
+  }
+ ],
+ "diet": "Boleh, nasi ulam antara pilihan nasi yang paling ringan. Ulam bagi serat dan rasa tanpa banyak kalori. Cuma protein agak rendah kalau hanya ada ikan sikit. Tambah lauk bakar atau rebus untuk makan yang lebih seimbang.",
+ "tips": [
+  "Minta ulam lebih dan nasi kurang sikit.",
+  "Tambah ikan bakar atau telur rebus untuk protein.",
+  "Ambil kerisik sikit je, sebab ia padat lemak."
+ ],
+ "swap": {
+  "name": "Nasi ulam kurang kerisik + telur rebus",
+  "kcal": 400,
+  "why": "Kalori lebih kurang sama tapi protein lebih tinggi dan lebih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Apa ulam yang biasa dalam nasi ulam?",
+   "a": "Daun kesum, pegaga, daun kaduk, serai, bunga kantan dan daun limau purut. Setiap negeri ada campuran sendiri."
+  },
+  {
+   "q": "Apa beza nasi ulam dengan nasi kerabu?",
+   "a": "Nasi kerabu biasanya nasi biru dengan ulam berasingan dan kuah. Nasi ulam pula ulam digaul terus dalam nasi."
+  },
+  {
+   "q": "Boleh buat nasi ulam di rumah?",
+   "a": "Boleh. Hiris halus ulam, gaul dengan nasi sejuk, kerisik, ikan dan garam. Senang dan cepat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

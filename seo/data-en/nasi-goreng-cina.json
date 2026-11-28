@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-goreng-cina",
+ "name_en": "Nasi goreng cina",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi goreng cina has about 550 kcal. Most of the calories come from the rice and oil, with a bit of protein from the egg and meat.",
+ "breakdown": [
+  {
+   "part": "Rice, 1.5 cups",
+   "kcal": 300
+  },
+  {
+   "part": "Oil, 1 tablespoon",
+   "kcal": 110
+  },
+  {
+   "part": "Egg, 1",
+   "kcal": 75
+  },
+  {
+   "part": "A little chicken or prawn",
+   "kcal": 50
+  },
+  {
+   "part": "Peas, carrot, onion",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Add telur mata",
+   "kcal": 640
+  },
+  {
+   "name": "Nasi goreng udang",
+   "kcal": 580
+  },
+  {
+   "name": "Big shop portion",
+   "kcal": 750
+  }
+ ],
+ "diet": "Yes. Nasi goreng cina is one of the lighter fried rice options because it doesn't have much chilli or santan. But protein is usually low and there's a lot of rice. So you get hungry again quickly even though calories are quite high. Add protein and vegetables, and cut the rice.",
+ "tips": [
+  "Ask for extra egg or chicken, and less rice.",
+  "Order a plate of stir-fried vegetables to share.",
+  "Ask for less oil. Most shops can do it."
+ ],
+ "swap": {
+  "name": "Steamed chicken rice without skin + vegetable soup",
+  "kcal": 480,
+  "why": "More protein, less oil, and you still get your rice."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi goreng cina and nasi goreng kampung?",
+   "a": "Nasi goreng cina is lighter, using egg, garlic and light soy sauce. Nasi goreng kampung uses chilli, belacan and ikan bilis."
+  },
+  {
+   "q": "Is nasi goreng cina halal?",
+   "a": "It depends on the shop. Choose a halal-certified or Muslim-owned shop."
+  },
+  {
+   "q": "How do I make nasi goreng cina that's not mushy?",
+   "a": "Use cold rice, high heat, and don't add too much soy sauce."
+  }
+ ]
+}

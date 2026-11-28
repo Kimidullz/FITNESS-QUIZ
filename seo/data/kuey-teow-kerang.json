@@ -1,0 +1,74 @@
+{
+ "slug": "kuey-teow-kerang",
+ "intro": "Sepinggan kuey teow kerang ada anggaran 700 kcal. Kalori paling banyak datang dari kuey teow dan minyak yang digunakan masa goreng atas api besar.",
+ "protein_g": 24,
+ "carbs_g": 80,
+ "fat_g": 31,
+ "breakdown": [
+  {
+   "part": "Kuey teow 1 pinggan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak, kicap pekat & sos",
+   "kcal": 230
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 80
+  },
+  {
+   "part": "Kerang segenggam",
+   "kcal": 40
+  },
+  {
+   "part": "Udang, taugeh & kucai",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow kerang + telur itik",
+   "kcal": 760
+  },
+  {
+   "name": "Kuey teow kerang + udang besar",
+   "kcal": 760
+  },
+  {
+   "name": "Kuey teow kerang extra kerang",
+   "kcal": 740
+  },
+  {
+   "name": "Kuey teow kerang kurang minyak",
+   "kcal": 610
+  }
+ ],
+ "diet": "Boleh, tapi ini antara menu mi goreng yang paling tinggi kalori. Kerang bagi sedikit protein, tapi minyak dan kicap pekat yang buat kalori naik. Anggap ia makanan untuk dinikmati sekali-sekala, bukan menu harian. Kalau dah makan tengah hari, pilih makan malam yang ringan dan banyak sayur.",
+ "tips": [
+  "Kongsi sepinggan dengan pasangan dan tambah satu pinggan sayur goreng atau sup.",
+  "Minta extra kerang dan taugeh, kurang minyak.",
+  "Jangan tambah gorengan atau air manis, pilih air kosong atau limau ais kosong."
+ ],
+ "swap": {
+  "name": "Kuey teow kerang kuah (sup)",
+  "kcal": 420,
+  "why": "Bahan hampir sama dengan kerang dan taugeh, tapi tanpa minyak goreng yang banyak."
+ },
+ "faq": [
+  {
+   "q": "Kerang mentah dalam kuey teow selamat dimakan?",
+   "a": "Kerang biasanya dimasukkan di akhir dan masak sekejap. Kalau risau, minta peniaga masak kerang lebih lama."
+  },
+  {
+   "q": "Kenapa kuey teow kerang rasa 'wok hei'?",
+   "a": "Rasa hangit wangi tu datang dari api besar dan kuali panas, kicap terkaramel sedikit masa digoreng laju."
+  },
+  {
+   "q": "Kerang tinggi kolesterol ke?",
+   "a": "Kerang ada kolesterol tapi juga tinggi zat besi dan protein. Makan dalam kuantiti biasa okay untuk kebanyakan orang. Kalau ada masalah kesihatan, rujuk doktor."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

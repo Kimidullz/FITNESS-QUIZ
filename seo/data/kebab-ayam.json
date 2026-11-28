@@ -1,0 +1,66 @@
+{
+ "slug": "kebab-ayam",
+ "intro": "Satu biji kebab ayam ada anggaran 550 kcal. Kebanyakan kalori datang dari roti, isi ayam berminyak dan sos garlic atau mayo.",
+ "protein_g": 30,
+ "carbs_g": 55,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Roti pita atau lavash",
+   "kcal": 230
+  },
+  {
+   "part": "Isi ayam kebab ~120 g",
+   "kcal": 170
+  },
+  {
+   "part": "Sos garlic, mayo dan cili",
+   "kcal": 120
+  },
+  {
+   "part": "Salad, bawang, tomato",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kebab ayam double meat",
+   "kcal": 700
+  },
+  {
+   "name": "Kebab ayam dengan keju",
+   "kcal": 620
+  },
+  {
+   "name": "Kebab ayam dalam pinggan dengan nasi",
+   "kcal": 750
+  }
+ ],
+ "diet": "Boleh, kebab ayam ada protein yang agak tinggi dan sayur sekali. Cuma isi ayam kebab selalunya dimasak dengan minyak, dan sos boleh tambah banyak kalori. Makan sebiji sebagai makan tengah hari atau malam, bukan snek. Pilih minuman tanpa gula supaya jumlah kalori terkawal.",
+ "tips": [
+  "Minta sos garlic sikit dan lebih sos cili.",
+  "Minta tambah salad dan sayur dalam kebab.",
+  "Elakkan tambah keju dan kentang goreng."
+ ],
+ "swap": {
+  "name": "Wrap ayam grill tanpa mayo",
+  "kcal": 350,
+  "why": "Konsep sama tapi kurang sos dan minyak, jadi jimat anggaran 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Kebab dengan shawarma sama ke?",
+   "a": "Lebih kurang sama. Dua-dua daging diputar dan dipanggang, cuma rempah dan cara hidang berbeza ikut asal negara."
+  },
+  {
+   "q": "Kebab di pasar malam selamat dimakan?",
+   "a": "Pilih gerai yang bersih dan pastikan daging masak sepenuhnya. Daging kebab patut panas dan tidak merah di tengah."
+  },
+  {
+   "q": "Boleh makan kebab untuk makan malam?",
+   "a": "Boleh. Satu biji dengan air kosong dah cukup sebagai satu hidangan untuk ramai orang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

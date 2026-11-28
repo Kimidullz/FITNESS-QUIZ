@@ -1,0 +1,70 @@
+{
+ "slug": "kaya-toast-set",
+ "intro": "Satu set kaya toast dengan 2 telur dan kopi ada anggaran 480 kcal. Kebanyakan kalori datang dari roti, kaya, mentega dan gula dalam kopi.",
+ "protein_g": 18,
+ "carbs_g": 55,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Roti bakar 2 keping",
+   "kcal": 140
+  },
+  {
+   "part": "Kaya & mentega",
+   "kcal": 110
+  },
+  {
+   "part": "2 telur separuh masak",
+   "kcal": 140
+  },
+  {
+   "part": "Kopi susu manis",
+   "kcal": 90
+  }
+ ],
+ "variants": [
+  {
+   "name": "Set dengan kopi O kosong",
+   "kcal": 390
+  },
+  {
+   "name": "Set dengan teh tarik",
+   "kcal": 520
+  },
+  {
+   "name": "Tambah 1 set roti lagi",
+   "kcal": 730
+  },
+  {
+   "name": "Roti kukus kaya set",
+   "kcal": 470
+  }
+ ],
+ "diet": "Boleh. Set ini sebenarnya ada protein yang okay dari 2 biji telur. Yang perlu dijaga ialah mentega, kaya dan gula dalam kopi. Tukar air kepada kurang manis atau kosong, dan anda dah jimat banyak kalori.",
+ "tips": [
+  "Order kopi 'kurang manis' atau kopi O kosong.",
+  "Minta mentega nipis, atau kaya sahaja tanpa mentega.",
+  "Kalau lapar lagi, tambah telur, bukan roti lagi."
+ ],
+ "swap": {
+  "name": "Roti bakar kaya (tanpa mentega) + 2 telur + kopi O kosong",
+  "kcal": 360,
+  "why": "Kekal rasa sarapan kopitiam tapi kurang lemak dan gula."
+ },
+ "faq": [
+  {
+   "q": "Telur separuh masak selamat dimakan?",
+   "a": "Secara umum ramai makan tanpa masalah. Tapi ibu mengandung dan yang imuniti rendah elok pilih telur masak penuh."
+  },
+  {
+   "q": "Kaya dibuat daripada apa?",
+   "a": "Kaya dibuat dari telur, santan dan gula, kadang-kadang dengan daun pandan."
+  },
+  {
+   "q": "Kaya hijau dan kaya perang apa bezanya?",
+   "a": "Kaya hijau guna pandan, kaya perang pula guna gula yang dikaramelkan. Rasa sedikit berbeza, kalorinya lebih kurang sama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-arab-mandy-ayam",
+ "intro": "Sepinggan nasi arab mandy ayam ada anggaran 850 kcal. Kebanyakan kalori datang dari nasi mandy yang banyak dan berminyak, serta ayam bersama kulitnya.",
+ "protein_g": 45,
+ "carbs_g": 100,
+ "fat_g": 30,
+ "breakdown": [
+  {
+   "part": "Nasi mandy 2 cawan",
+   "kcal": 480
+  },
+  {
+   "part": "Ayam mandy suku ekor (dengan kulit)",
+   "kcal": 250
+  },
+  {
+   "part": "Kismis dan kacang goreng",
+   "kcal": 100
+  },
+  {
+   "part": "Sos tomato pedas/salad",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam tanpa kulit",
+   "kcal": 780
+  },
+  {
+   "name": "Nasi separuh",
+   "kcal": 610
+  },
+  {
+   "name": "Mandy kambing",
+   "kcal": 1000
+  },
+  {
+   "name": "Hidangan dulang kongsi (bahagian seorang)",
+   "kcal": 950
+  }
+ ],
+ "diet": "Boleh, ia sebenarnya tinggi protein dari ayam. Cuma porsi nasi di restoran Arab biasanya sangat besar. Kalau kawal nasi, ini antara makanan luar yang boleh masuk dalam plan turun berat. Kongsi dengan kawan pun pilihan bijak.",
+ "tips": [
+  "Makan separuh nasi dan tapau baki untuk makan lain kali.",
+  "Buang kulit ayam, isinya masih lembut dan berperisa.",
+  "Ambil lebih salad dan sos tomato, kurangkan kismis dan kacang."
+ ],
+ "swap": {
+  "name": "Ayam mandy + separuh nasi + salad",
+  "kcal": 600,
+  "why": "Protein ayam tetap penuh, cuma karbohidrat dan minyak nasi dipotong separuh."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi mandy dan nasi kabsah?",
+   "a": "Mandy biasanya dimasak secara perlahan dengan ayam digantung atas nasi supaya lemaknya menitis ke dalam nasi. Kabsah pula dimasak bersama rempah dan tomato dalam satu periuk."
+  },
+  {
+   "q": "Kenapa nasi mandy berwarna kuning dan putih?",
+   "a": "Sebahagian nasi diwarnakan dengan kunyit atau safron untuk rupa dan aroma. Rasanya hampir sama."
+  },
+  {
+   "q": "Sos tomato mandy pedas ke?",
+   "a": "Biasanya ada sedikit cili dan sangat ringan. Ia bagus untuk tambah rasa tanpa banyak kalori."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

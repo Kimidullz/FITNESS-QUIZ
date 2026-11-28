@@ -1,0 +1,59 @@
+{
+ "slug": "nasi-impit-dengan-kuah-kacang",
+ "name_en": "Nasi impit with kuah kacang",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi impit with kuah kacang has an estimated 350 kcal. The calories are split between the nasi impit and the peanut sauce, which is high in fat from peanuts and oil.",
+ "breakdown": [
+  {
+   "part": "Nasi impit, 6-8 pieces",
+   "kcal": 180
+  },
+  {
+   "part": "Kuah kacang (1 ladle)",
+   "kcal": 160
+  },
+  {
+   "part": "Cucumber & onion",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Add serunding",
+   "kcal": 430
+  },
+  {
+   "name": "Extra kuah kacang",
+   "kcal": 430
+  },
+  {
+   "name": "Add 5 sticks chicken satay",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes, a normal portion is moderate in calories. The thing to watch is the kuah kacang, because it's easy to pour too much. Nasi impit itself is light since there's no santan. Add protein like chicken satay or egg to make it a complete meal.",
+ "tips": [
+  "Dip the nasi impit in the sauce instead of drowning the whole plate.",
+  "Add 2-3 sticks of chicken satay for protein, instead of more ketupat.",
+  "Eat more cucumber and onion for freshness and fibre."
+ ],
+ "swap": {
+  "name": "Nasi impit + half kuah kacang + boiled egg",
+  "kcal": 330,
+  "why": "Less fat from the sauce, more protein from the egg. More filling with fewer calories."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi impit and ketupat?",
+   "a": "Nasi impit is cooked rice pressed in a container. Ketupat is cooked inside woven coconut leaves. They taste almost the same."
+  },
+  {
+   "q": "How do I make nasi impit without a mould?",
+   "a": "Cook the rice a bit soft, put it in a container, press it down hard with a spoon or another container, let it cool, then cut."
+  },
+  {
+   "q": "How long can I keep kuah kacang?",
+   "a": "Usually 3-4 days in the fridge in a covered container. Heat it until it boils before eating."
+  }
+ ]
+}

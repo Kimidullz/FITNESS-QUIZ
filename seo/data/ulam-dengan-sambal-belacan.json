@@ -1,0 +1,66 @@
+{
+ "slug": "ulam-dengan-sambal-belacan",
+ "intro": "Sepiring ulam dengan sambal belacan ada anggaran 60 kcal. Kebanyakan kalori datang dari sambal belacan, ulam pula sangat rendah kalori.",
+ "protein_g": 2,
+ "carbs_g": 8,
+ "fat_g": 2,
+ "breakdown": [
+  {
+   "part": "Ulam campur (timun, kacang botol, pegaga, kubis)",
+   "kcal": 25
+  },
+  {
+   "part": "Sambal belacan mentah 1 sudu besar",
+   "kcal": 30
+  },
+  {
+   "part": "Perahan limau kasturi",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ulam + sambal belacan tumis berminyak",
+   "kcal": 100
+  },
+  {
+   "name": "Ulam + budu",
+   "kcal": 50
+  },
+  {
+   "name": "Ulam + sambal tempoyak",
+   "kcal": 90
+  },
+  {
+   "name": "Ulam + petai (segenggam)",
+   "kcal": 110
+  }
+ ],
+ "diet": "Boleh, malah sangat digalakkan. Ulam tambah serat dan isi pinggan dengan kalori yang sangat rendah. Ia bantu rasa kenyang lebih lama bila makan nasi. Cuma perhatikan sambal yang ditumis dengan banyak minyak.",
+ "tips": [
+  "Ambil ulam banyak, sambal secukup rasa saja.",
+  "Makan ulam dulu sebelum suap nasi supaya perut cepat rasa kenyang.",
+  "Pilih sambal belacan mentah (tumbuk saja), bukan yang ditumis berminyak."
+ ],
+ "swap": {
+  "name": "Ulam dengan sambal belacan mentah sedikit dan limau lebih",
+  "kcal": 45,
+  "why": "Rasa masih pedas dan segar, sambal kurang jadi kalori dan garam pun turun."
+ },
+ "faq": [
+  {
+   "q": "Ulam mentah selamat dimakan?",
+   "a": "Selamat kalau dibasuh betul-betul di bawah air mengalir. Rendam sekejap dalam air bersih untuk buang pasir dan kotoran."
+  },
+  {
+   "q": "Sambal belacan tinggi garam ke?",
+   "a": "Belacan memang masin. Satu sudu besar biasanya okay, tapi kalau ambil banyak kali, garam cepat bertambah."
+  },
+  {
+   "q": "Ulam apa yang senang didapati?",
+   "a": "Timun, kacang botol, kubis, terung bulat, pegaga, ulam raja dan daun selom. Kebanyakannya ada di pasar tani dan pasar raya."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "mee-udang",
+ "intro": "Semangkuk mee udang ada anggaran 520 kcal. Kalori paling banyak datang daripada mee kuning dan kuah udang yang pekat.",
+ "protein_g": 28,
+ "carbs_g": 62,
+ "fat_g": 18,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1.5 cawan",
+   "kcal": 280
+  },
+  {
+   "part": "Udang 3-4 ekor",
+   "kcal": 90
+  },
+  {
+   "part": "Kuah udang pekat",
+   "kcal": 110
+  },
+  {
+   "part": "Telur rebus separuh, taugeh & bawang goreng",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee udang galah besar",
+   "kcal": 600
+  },
+  {
+   "name": "Mee udang goreng",
+   "kcal": 650
+  },
+  {
+   "name": "Mee hoon udang",
+   "kcal": 480
+  },
+  {
+   "name": "Tambah telur rebus",
+   "kcal": 595
+  }
+ ],
+ "diet": "Boleh makan, terutamanya bila lepak di Kuala Sepetang atau kedai seafood. Udang beri protein yang bagus dengan lemak rendah. Yang naikkan kalori ialah kuah pekat dan mee yang banyak. Jadikan ia satu-satunya hidangan berat hari itu dan seimbangkan dengan makan lain yang ringan.",
+ "tips": [
+  "Minta mee kurang, udang atau sayur lebih.",
+  "Makan udang dan isi dulu, minum kuah sikit je.",
+  "Elakkan versi goreng, pilih versi berkuah."
+ ],
+ "swap": {
+  "name": "Udang bakar/kukus + nasi separuh cawan + sayur",
+  "kcal": 380,
+  "why": "Protein sama tinggi, kurang karbohidrat dan kuah pekat."
+ },
+ "faq": [
+  {
+   "q": "Mee udang paling terkenal di mana?",
+   "a": "Kuala Sepetang di Perak dan Teluk Intan antara tempat popular. Banyak kedai guna udang galah segar."
+  },
+  {
+   "q": "Udang tinggi kolesterol, boleh makan ke?",
+   "a": "Udang memang ada kolesterol, tapi rendah lemak tepu. Untuk kebanyakan orang sihat, makan sekali-sekala okay. Kalau ada masalah kesihatan, tanya doktor."
+  },
+  {
+   "q": "Kuah mee udang dibuat dari apa?",
+   "a": "Biasanya dari kepala dan kulit udang yang direbus, ditambah rempah, kadang-kadang tepung untuk pekatkan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

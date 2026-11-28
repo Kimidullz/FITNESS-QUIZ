@@ -1,0 +1,66 @@
+{
+ "slug": "lepat-pisang",
+ "intro": "Anggaran 140 kcal untuk 1 biji lepat pisang. Kalori paling banyak datang dari pisang, tepung dan gula dalam adunan.",
+ "protein_g": 2,
+ "carbs_g": 26,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Pisang lenyek",
+   "kcal": 60
+  },
+  {
+   "part": "Tepung gandum atau beras",
+   "kcal": 45
+  },
+  {
+   "part": "Gula",
+   "kcal": 25
+  },
+  {
+   "part": "Kelapa parut atau santan",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Lepat pisang saiz besar",
+   "kcal": 200
+  },
+  {
+   "name": "Lepat pisang dengan inti kelapa",
+   "kcal": 170
+  },
+  {
+   "name": "Lepat ubi 1 biji",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, lepat pisang antara kuih yang lebih ringan sebab dikukus, bukan digoreng. Sebahagian rasa manis datang dari pisang sendiri. Satu biji sebagai snek petang memang okay. Cuma ia hampir semua karbohidrat, jadi lebih baik pasangkan dengan sumber protein.",
+ "tips": [
+  "Makan 1 biji je, simpan yang lain untuk esok.",
+  "Kalau buat sendiri, guna pisang yang betul-betul masak dan kurangkan gula.",
+  "Pasangkan dengan segelas susu atau secawan kacang untuk kenyang lebih lama."
+ ],
+ "swap": {
+  "name": "1 biji pisang segar",
+  "kcal": 90,
+  "why": "Rasa manis yang sama, tanpa tepung dan gula tambahan."
+ },
+ "faq": [
+  {
+   "q": "Pisang apa paling sesuai untuk lepat pisang?",
+   "a": "Pisang raja atau pisang nangka yang masak ranum. Lebih masak, lebih manis dan wangi."
+  },
+  {
+   "q": "Kenapa lepat pisang jadi keras?",
+   "a": "Biasanya tepung terlalu banyak atau kukus terlalu lama. Adunan patut lembut dan melekit sikit."
+  },
+  {
+   "q": "Lepat pisang boleh disimpan dalam peti sejuk?",
+   "a": "Boleh, tahan 2-3 hari. Kukus semula 5 minit supaya lembut balik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

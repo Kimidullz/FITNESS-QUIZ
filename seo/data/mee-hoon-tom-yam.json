@@ -1,0 +1,70 @@
+{
+ "slug": "mee-hoon-tom-yam",
+ "intro": "Semangkuk mee hoon tom yam ada anggaran 420 kcal. Kalori paling banyak datang daripada mee hoon, diikuti kuah tom yam dan isi campur.",
+ "protein_g": 22,
+ "carbs_g": 55,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Mee hoon 1.5 cawan",
+   "kcal": 220
+  },
+  {
+   "part": "Kuah tom yam",
+   "kcal": 90
+  },
+  {
+   "part": "Isi campur (ayam, udang, sotong, bebola ikan)",
+   "kcal": 90
+  },
+  {
+   "part": "Sayur & cendawan",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow tom yam",
+   "kcal": 450
+  },
+  {
+   "name": "Mee kuning tom yam",
+   "kcal": 480
+  },
+  {
+   "name": "Mee hoon tom yam susu",
+   "kcal": 520
+  },
+  {
+   "name": "Mee hoon tom yam ayam sahaja",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh, ini pilihan yang agak seimbang untuk makan tengah hari. Kuah tak bersantan dan isi campur bagi protein yang decent. Pilih versi jernih atau merah, bukan susu. Kalau nak lebih kenyang tanpa tambah banyak kalori, minta isi atau sayur lebih.",
+ "tips": [
+  "Minta isi lebih dan mee hoon kurang.",
+  "Elakkan tom yam susu, pilih yang jernih.",
+  "Jangan habiskan kuah kalau nampak banyak minyak di atas."
+ ],
+ "swap": {
+  "name": "Tom yam campur tanpa mee + sayur tambahan",
+  "kcal": 300,
+  "why": "Protein sama, karbohidrat jauh lebih rendah, masih rasa puas."
+ },
+ "faq": [
+  {
+   "q": "Mee hoon tom yam sesuai untuk sarapan?",
+   "a": "Boleh. Ramai suka makan sebab hangat dan menyegarkan. Pastikan ada isi untuk protein."
+  },
+  {
+   "q": "Kuah tom yam tinggi garam ke?",
+   "a": "Biasanya agak masin dari sos ikan dan perencah. Minum separuh kuah je kalau risau."
+  },
+  {
+   "q": "Mee hoon lebih ringan dari mee kuning ke?",
+   "a": "Sedikit lebih rendah kalori dan tak berminyak, tapi kedua-duanya tetap sumber karbohidrat. Kawal saiz hidangan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

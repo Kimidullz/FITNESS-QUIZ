@@ -1,0 +1,67 @@
+{
+ "slug": "caramel-macchiato",
+ "name_en": "Caramel macchiato (café, medium)",
+ "serving_en": "1 cup",
+ "intro": "A medium caramel macchiato at a café is about 250 kcal (estimate). Most of it comes from full cream milk and vanilla syrup, not the espresso.",
+ "breakdown": [
+  {
+   "part": "Full cream milk (~300ml)",
+   "kcal": 165
+  },
+  {
+   "part": "Vanilla syrup (3 pumps)",
+   "kcal": 60
+  },
+  {
+   "part": "Caramel drizzle on top",
+   "kcal": 20
+  },
+  {
+   "part": "Espresso (1-2 shots)",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Iced caramel macchiato (medium)",
+   "kcal": 200
+  },
+  {
+   "name": "With skim or low-fat milk",
+   "kcal": 180
+  },
+  {
+   "name": "Large size",
+   "kcal": 320
+  },
+  {
+   "name": "Add whipped cream",
+   "kcal": 330
+  }
+ ],
+ "diet": "Yes, if you count it as a snack and not just a drink. 250 kcal is about the same as a small plate of rice. The problem is drinking it daily without noticing, because liquid calories add up easily. Make it a treat 1-2 times a week, or ask for a less sweet version.",
+ "tips": [
+  "Ask for half the syrup (1-2 pumps) to save about 30-40 kcal.",
+  "Switch to low-fat or skim milk. It still tastes okay.",
+  "Pick a small size and have it with something with protein, not with cake."
+ ],
+ "swap": {
+  "name": "Cappuccino, no sugar (medium)",
+  "kcal": 120,
+  "why": "Still milky with a creamy coffee taste, but no syrup. Half the calories, almost the same protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between a caramel macchiato and a latte?",
+   "a": "A latte is espresso mixed with milk. A caramel macchiato is milk with vanilla syrup, espresso poured on top, then a caramel drizzle. That's why it's sweeter."
+  },
+  {
+   "q": "Does a caramel macchiato have a lot of caffeine?",
+   "a": "A medium usually has 1-2 espresso shots, about the same as a normal cup of coffee. If you're sensitive, avoid it late in the afternoon."
+  },
+  {
+   "q": "Can I ask for less sweet?",
+   "a": "Yes. Most cafés can reduce the syrup pumps or skip the caramel drizzle. Just tell them when you order."
+  }
+ ]
+}

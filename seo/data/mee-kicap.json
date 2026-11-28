@@ -1,0 +1,70 @@
+{
+ "slug": "mee-kicap",
+ "intro": "Sepinggan mee kicap ada anggaran 450 kcal. Kebanyakan kalori datang dari mi kuning, minyak dan kicap manis yang digaul.",
+ "protein_g": 14,
+ "carbs_g": 62,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Mi kuning 1 pinggan",
+   "kcal": 280
+  },
+  {
+   "part": "Minyak, kicap manis dan kicap pekat",
+   "kcal": 110
+  },
+  {
+   "part": "Isi ayam atau char siu sedikit dan sayur",
+   "kcal": 50
+  },
+  {
+   "part": "Bawang goreng dan minyak bawang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee kicap + telur goreng",
+   "kcal": 560
+  },
+  {
+   "name": "Mee kicap ayam (ayam lebih)",
+   "kcal": 550
+  },
+  {
+   "name": "Mee kicap + wantan goreng",
+   "kcal": 600
+  },
+  {
+   "name": "Mee kicap saiz kecil",
+   "kcal": 330
+  }
+ ],
+ "diet": "Boleh, tapi jaga kekerapan dan portion. Mee kicap kebanyakannya karbohidrat dan protein agak rendah, jadi cepat lapar semula. Sesekali okay, terutama kalau tambah protein dan sayur. Untuk makan harian, pilihan berkuah biasanya lebih ringan.",
+ "tips": [
+  "Minta 'kurang minyak, kurang kicap' masa order.",
+  "Tambah sayur dan telur rebus atau ayam lebih supaya kenyang lebih lama.",
+  "Ambil saiz kecil, atau makan separuh mi dan habiskan lauk protein."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 350,
+  "why": "Kurang minyak dan kicap manis, kuah buat perut rasa penuh, protein masih ada dari ayam."
+ },
+ "faq": [
+  {
+   "q": "Apa beza mee kicap dengan mee goreng?",
+   "a": "Mee kicap biasanya digaul atau dimasak ringkas dengan kicap. Mee goreng pula digoreng dengan rempah, sos dan biasanya lebih berminyak."
+  },
+  {
+   "q": "Kicap manis tinggi gula ke?",
+   "a": "Ya, kicap manis ada gula yang agak banyak. Minta kicap kurang atau campur dengan kicap cair."
+  },
+  {
+   "q": "Mee kuning ada protein ke?",
+   "a": "Ada sedikit, tapi kebanyakannya karbohidrat. Protein utama perlu datang dari ayam, telur atau isi lain."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

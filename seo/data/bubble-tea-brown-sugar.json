@@ -1,0 +1,66 @@
+{
+ "slug": "bubble-tea-brown-sugar",
+ "intro": "Satu cawan besar bubble tea brown sugar dengan susu segar ada anggaran 450 kcal. Kalori datang dari pearl tapioka, sirap gula perang dan susu penuh krim.",
+ "protein_g": 9,
+ "carbs_g": 75,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Pearl tapioka (sesenduk penuh)",
+   "kcal": 150
+  },
+  {
+   "part": "Sirap gula perang",
+   "kcal": 120
+  },
+  {
+   "part": "Susu segar penuh krim (~300 ml)",
+   "kcal": 180
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cawan sederhana, 50% gula",
+   "kcal": 300
+  },
+  {
+   "name": "Tambah krim keju (cheese foam)",
+   "kcal": 550
+  },
+  {
+   "name": "Teh susu tanpa pearl, 30% gula",
+   "kcal": 200
+  },
+  {
+   "name": "Teh hijau buah, 0% gula, tiada topping",
+   "kcal": 50
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia sebagai treat, bukan minuman harian. Kalorinya sama dengan satu hidangan nasi lemak biasa. Seminggu sekali dengan saiz kecil dan kurang gula masih boleh muat dalam plan. Kalau minum hampir setiap hari, berat memang susah nak turun.",
+ "tips": [
+  "Pilih saiz sederhana dan tahap gula 30% atau 50%.",
+  "Minta separuh pearl atau tukar ke topping lebih ringan seperti jeli aloe.",
+  "Rancang ia sebagai 'snek' hari itu, jangan tambah kuih atau kek lagi."
+ ],
+ "swap": {
+  "name": "Teh susu saiz sederhana, 30% gula, tanpa pearl",
+  "kcal": 180,
+  "why": "Rasa teh susu masih dapat, kalori kurang separuh."
+ },
+ "faq": [
+  {
+   "q": "Pearl tapioka diperbuat daripada apa?",
+   "a": "Kanji ubi kayu. Biasanya direndam dalam sirap gula perang supaya manis."
+  },
+  {
+   "q": "Kenapa brown sugar ada corak 'harimau' di cawan?",
+   "a": "Sirap gula perang pekat dititis di dinding cawan sebelum susu dituang. Ia hasilkan jalur coklat."
+  },
+  {
+   "q": "Bubble tea ada kafein?",
+   "a": "Kalau ada teh, ya. Brown sugar fresh milk ada yang tanpa teh, jadi tiada kafein, tanya kedai."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

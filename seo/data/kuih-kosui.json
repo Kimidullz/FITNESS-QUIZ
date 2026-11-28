@@ -1,0 +1,58 @@
+{
+ "slug": "kuih-kosui",
+ "intro": "Dua biji kuih kosui ada anggaran 140 kcal. Kebanyakan kalori datang dari tepung dan gula melaka, manakala kelapa parut menambah sedikit lemak.",
+ "protein_g": 1,
+ "carbs_g": 30,
+ "fat_g": 2,
+ "breakdown": [
+  {
+   "part": "Kosui (tepung dan gula melaka)",
+   "kcal": 115
+  },
+  {
+   "part": "Kelapa parut di luar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kosui pandan (2 biji)",
+   "kcal": 130
+  },
+  {
+   "name": "Kosui tanpa kelapa (2 biji)",
+   "kcal": 115
+  },
+  {
+   "name": "Kosui 4 biji",
+   "kcal": 280
+  }
+ ],
+ "diet": "Boleh, dan ini antara kuih yang agak ringan berbanding kuih bergoreng. Ia hampir tiada minyak, cuma tinggi gula. Dua biji dengan teh O untuk minum petang memang muat dalam bajet. Hati-hati sebab ia kecil dan mudah termakan banyak.",
+ "tips": [
+  "Ambil 2 biji dan letak dalam piring, jangan makan terus dari bekas.",
+  "Pilih kosui berbanding kuih goreng seperti karipap atau cucur bila ada pilihan.",
+  "Gandingkan dengan telur rebus atau segelas susu untuk tambah protein."
+ ],
+ "swap": {
+  "name": "Sebiji pisang sederhana",
+  "kcal": 100,
+  "why": "Manis semula jadi dengan serat, dan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Kuih kosui dibuat daripada apa?",
+   "a": "Biasanya tepung beras, tepung ubi atau tepung gandum, gula melaka, air kapur dan sedikit garam. Kemudian dikukus dan disalut kelapa parut."
+  },
+  {
+   "q": "Kenapa kosui perlu air kapur?",
+   "a": "Air kapur membantu tekstur jadi kenyal dan lembut. Tanpanya, kosui mudah jadi keras atau lembik."
+  },
+  {
+   "q": "Kosui tahan berapa lama?",
+   "a": "Elok habis dalam hari yang sama sebab ada kelapa parut. Kalau tanpa kelapa, boleh simpan dalam peti sejuk sehari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

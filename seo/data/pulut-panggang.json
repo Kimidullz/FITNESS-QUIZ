@@ -1,0 +1,62 @@
+{
+ "slug": "pulut-panggang",
+ "intro": "Anggaran 160 kcal untuk 1 batang pulut panggang. Kebanyakan kalori datang dari pulut yang dimasak dengan santan.",
+ "protein_g": 4,
+ "carbs_g": 25,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Pulut santan",
+   "kcal": 110
+  },
+  {
+   "part": "Inti sambal kelapa udang kering",
+   "kcal": 45
+  },
+  {
+   "part": "Minyak dalam inti",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pulut panggang inti ikan",
+   "kcal": 165
+  },
+  {
+   "name": "Pulut panggang inti kelapa manis",
+   "kcal": 180
+  },
+  {
+   "name": "2 batang pulut panggang",
+   "kcal": 320
+  }
+ ],
+ "diet": "Boleh, satu batang pulut panggang masih sederhana. Pulut agak padat, jadi senang rasa nak tambah batang kedua. Kalau makan sebagai sarapan, satu batang dengan minuman tanpa gula dah cukup okay. Elakkan jadikan ia snek tambahan selepas makan berat.",
+ "tips": [
+  "Kira satu batang sebagai satu snek, bukan 'kecil je'.",
+  "Pilih inti udang kering atau ikan, ada sikit protein berbanding inti manis.",
+  "Minum air kosong atau teh O kosong bersama, bukan teh tarik."
+ ],
+ "swap": {
+  "name": "Kuih koci 1 biji",
+  "kcal": 130,
+  "why": "Saiz lebih kecil dan masih ada rasa pulut, sesuai bila nak sikit je."
+ },
+ "faq": [
+  {
+   "q": "Pulut panggang asal dari mana?",
+   "a": "Popular di seluruh Semenanjung, terutama di Johor, Melaka dan Kelantan. Ia dibalut daun pisang dan dibakar atas bara."
+  },
+  {
+   "q": "Kenapa pulut panggang dibakar?",
+   "a": "Bakar beri bau daun pisang yang wangi dan lapisan luar yang sedikit garing."
+  },
+  {
+   "q": "Pulut panggang boleh dibekukan?",
+   "a": "Boleh. Bila nak makan, panaskan dalam ketuhar atau atas kuali tanpa minyak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

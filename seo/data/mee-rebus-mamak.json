@@ -1,0 +1,70 @@
+{
+ "slug": "mee-rebus-mamak",
+ "intro": "Sepinggan mee rebus mamak ada anggaran 520 kcal. Kebanyakan kalori datang daripada mi kuning dan kuah pekat yang dibuat dari ubi kentang, kacang dan rempah.",
+ "protein_g": 18,
+ "carbs_g": 75,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Mi kuning",
+   "kcal": 250
+  },
+  {
+   "part": "Kuah pekat (ubi kentang, kacang, rempah)",
+   "kcal": 150
+  },
+  {
+   "part": "Telur rebus",
+   "kcal": 70
+  },
+  {
+   "part": "Tauhu goreng dan cucur udang",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee rebus tanpa cucur",
+   "kcal": 480
+  },
+  {
+   "name": "Mee rebus dengan daging atau ayam",
+   "kcal": 600
+  },
+  {
+   "name": "Mee rebus Johor (kuah lebih pekat)",
+   "kcal": 580
+  },
+  {
+   "name": "Mihun rebus",
+   "kcal": 470
+  }
+ ],
+ "diet": "Boleh. Mee rebus lebih ringan berbanding mee goreng mamak sebab tak digoreng. Karbohidratnya tinggi dan protein sederhana. Tambah protein dan jangan habiskan semua kuah kalau nak jimat kalori.",
+ "tips": [
+  "Minta tambah telur rebus atau ayam untuk protein.",
+  "Minta kurang mi, tambah taugeh dan sayur.",
+  "Perah limau kasturi untuk rasa, tak perlu habiskan kuah."
+ ],
+ "swap": {
+  "name": "Mee sup ayam",
+  "kcal": 420,
+  "why": "Kuah jernih lebih ringan daripada kuah pekat, dan ayam beri protein lebih."
+ },
+ "faq": [
+  {
+   "q": "Kuah mee rebus diperbuat daripada apa?",
+   "a": "Biasanya dari ubi kentang atau keledek yang dilenyek, kacang tanah, udang kering dan rempah, sebab itu ia pekat dan manis sedikit."
+  },
+  {
+   "q": "Apa beza mee rebus mamak dengan mee rebus Melayu?",
+   "a": "Mee rebus mamak selalunya lebih pedas dan ada sentuhan rempah kari, manakala versi Melayu atau Johor lebih manis dan pekat."
+  },
+  {
+   "q": "Mee rebus sesuai untuk sarapan?",
+   "a": "Ya, ramai makan untuk sarapan. Tambah telur supaya tahan kenyang sampai tengah hari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "kacang-putih",
+ "intro": "Satu paket kecil kacang putih memberi anggaran 200 kcal. Kebanyakan kalori datang daripada kacang yang digoreng dalam minyak, terutamanya kacang tanah.",
+ "protein_g": 8,
+ "carbs_g": 22,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Kacang kuda goreng rangup",
+   "kcal": 70
+  },
+  {
+   "part": "Kacang tanah goreng",
+   "kcal": 70
+  },
+  {
+   "part": "Kacang hijau / kacang pis goreng",
+   "kcal": 40
+  },
+  {
+   "part": "Minyak, garam dan serbuk rempah",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kacang kuda panggang (tak goreng), 1 paket kecil",
+   "kcal": 150
+  },
+  {
+   "name": "Kacang tanah goreng sahaja, 1 paket kecil",
+   "kcal": 240
+  },
+  {
+   "name": "Kacang campur pedas berempah, 1 paket kecil",
+   "kcal": 220
+  },
+  {
+   "name": "Kacang putih 1 paket besar",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, kacang putih okay untuk snek masa nak turun berat. Ia ada sedikit protein dan serat, jadi lebih mengenyangkan berbanding kerepek. Cuma ia mudah dimakan tanpa sedar sampai habis paket besar. Kunci dia ialah beli paket kecil dan makan perlahan-lahan.",
+ "tips": [
+  "Pilih kacang kuda atau kacang pis yang dipanggang, kurangkan kacang tanah goreng.",
+  "Beli paket kecil sahaja, jangan bawa paket besar ke depan TV.",
+  "Makan bersama air kosong atau teh O kosong, bukan air manis."
+ ],
+ "swap": {
+  "name": "Kacang kuda rebus, 1/2 cawan",
+  "kcal": 130,
+  "why": "Tak guna minyak goreng, serat tinggi dan tetap rasa macam snek bila tabur sedikit garam dan lada."
+ },
+ "faq": [
+  {
+   "q": "Kacang putih ni sebenarnya kacang apa?",
+   "a": "Ia campuran pelbagai kekacang dan bijirin seperti kacang kuda, kacang tanah, kacang hijau, kacang pis dan kadang-kadang muruku kecil. Kebanyakannya digoreng atau dipanggang dengan rempah."
+  },
+  {
+   "q": "Kacang putih sesuai untuk orang kencing manis?",
+   "a": "Ia ada serat dan protein yang membantu, tapi masih ada karbohidrat dan garam. Kawal saiz paket dan rujuk doktor atau pakar diet untuk nasihat yang sesuai dengan keadaan anda."
+  },
+  {
+   "q": "Kenapa kacang putih Ipoh terkenal?",
+   "a": "Ipoh, terutamanya Buntong, terkenal sebagai pusat pembuatan kacang putih sejak lama dulu. Ramai beli sebagai buah tangan kerana pilihannya banyak dan rasanya rangup."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

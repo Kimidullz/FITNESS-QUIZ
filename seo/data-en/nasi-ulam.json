@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-ulam",
+ "name_en": "Nasi ulam",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi ulam has about 400 kcal. Most of the calories come from the rice and kerisik. The ulam itself is very low in calories.",
+ "breakdown": [
+  {
+   "part": "White rice, 1 cup",
+   "kcal": 200
+  },
+  {
+   "part": "Sliced ulam and herbs",
+   "kcal": 20
+  },
+  {
+   "part": "Kerisik or coconut",
+   "kcal": 80
+  },
+  {
+   "part": "Flaked dried fish or boiled fish",
+   "kcal": 60
+  },
+  {
+   "part": "Budu or sambal",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi ulam with ikan bakar",
+   "kcal": 550
+  },
+  {
+   "name": "Nasi ulam with telur masin",
+   "kcal": 480
+  },
+  {
+   "name": "Nasi ulam with ayam goreng",
+   "kcal": 650
+  }
+ ],
+ "diet": "Yes, nasi ulam is one of the lightest rice options. Ulam gives fibre and flavour without many calories. But protein is quite low if there's only a bit of fish. Add a grilled or boiled side for a more balanced meal.",
+ "tips": [
+  "Ask for more ulam and slightly less rice.",
+  "Add ikan bakar or a boiled egg for protein.",
+  "Take just a little kerisik, it's dense in fat."
+ ],
+ "swap": {
+  "name": "Nasi ulam with less kerisik + boiled egg",
+  "kcal": 400,
+  "why": "About the same calories, but more protein and you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "What ulam is usually in nasi ulam?",
+   "a": "Daun kesum, pegaga, daun kaduk, serai, bunga kantan and daun limau purut. Every state has its own mix."
+  },
+  {
+   "q": "What's the difference between nasi ulam and nasi kerabu?",
+   "a": "Nasi kerabu is usually blue rice with ulam served separately and a sauce. In nasi ulam, the ulam is mixed straight into the rice."
+  },
+  {
+   "q": "Can I make nasi ulam at home?",
+   "a": "Yes. Slice the ulam finely, then mix with cold rice, kerisik, fish and salt. Easy and fast."
+  }
+ ]
+}

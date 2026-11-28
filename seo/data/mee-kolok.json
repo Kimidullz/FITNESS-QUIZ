@@ -1,0 +1,66 @@
+{
+ "slug": "mee-kolok",
+ "intro": "Sepinggan mee kolok ada anggaran 480 kcal. Kebanyakan kalori datang dari mee dan minyak bawang yang digaul sebelum dihidang.",
+ "protein_g": 22,
+ "carbs_g": 60,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Mee kolok 1 sangkut",
+   "kcal": 260
+  },
+  {
+   "part": "Minyak bawang & sos",
+   "kcal": 110
+  },
+  {
+   "part": "Ayam/daging hiris & cincang",
+   "kcal": 90
+  },
+  {
+   "part": "Sayur & sup kosong",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee kolok merah",
+   "kcal": 520
+  },
+  {
+   "name": "Mee kolok + telur mata",
+   "kcal": 570
+  },
+  {
+   "name": "Mee kolok kurang minyak",
+   "kcal": 420
+  }
+ ],
+ "diet": "Boleh, mee kolok antara pilihan mi kering yang sederhana kalorinya. Daging cincang dan hiris bagi protein yang okay. Yang perlu diperhati ialah minyak bawang yang digaul. Minta kurang minyak dan ia mudah masuk plan diet.",
+ "tips": [
+  "Minta 'kurang minyak' atau 'minyak sikit' masa order.",
+  "Minta tambah daging hiris atau ayam untuk protein.",
+  "Minum sup kosong yang disediakan, ia bantu rasa kenyang."
+ ],
+ "swap": {
+  "name": "Mee kolok sup",
+  "kcal": 380,
+  "why": "Mee dan daging yang sama dalam sup, tanpa minyak bawang yang digaul."
+ },
+ "faq": [
+  {
+   "q": "Mee kolok asal dari mana?",
+   "a": "Mee kolok ialah makanan ikonik Sarawak, terutamanya di Kuching."
+  },
+  {
+   "q": "Apa beza mee kolok dengan wantan mee?",
+   "a": "Mee kolok lebih kenyal dan digaul dengan minyak bawang, rasanya lebih ringan dan kurang kicap berbanding wantan mee."
+  },
+  {
+   "q": "Apa itu mee kolok merah?",
+   "a": "Mee kolok yang digaul dengan sos merah dari char siu, jadi warnanya kemerahan dan rasanya lebih manis."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

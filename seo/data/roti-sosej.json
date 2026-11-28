@@ -1,0 +1,66 @@
+{
+ "slug": "roti-sosej",
+ "intro": "Sebiji roti sosej dari bakeri memberi anggaran 280 kcal. Kebanyakan kalori datang daripada roti lembut yang manis, diikuti sosej dan mayonis.",
+ "protein_g": 9,
+ "carbs_g": 32,
+ "fat_g": 13,
+ "breakdown": [
+  {
+   "part": "Roti lembut (roti manis)",
+   "kcal": 170
+  },
+  {
+   "part": "Sosej ayam",
+   "kcal": 80
+  },
+  {
+   "part": "Mayonis / sos",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti sosej mini",
+   "kcal": 150
+  },
+  {
+   "name": "Roti sosej keju",
+   "kcal": 340
+  },
+  {
+   "name": "Sausage roll pastri",
+   "kcal": 350
+  },
+  {
+   "name": "Roti sosej + air kotak teh susu",
+   "kcal": 430
+  }
+ ],
+ "diet": "Boleh, roti sosej okay sebagai sarapan cepat atau minum petang. Ia ada sedikit protein, tapi rotinya manis dan sosej diproses, jadi tak berapa mengenyangkan untuk kalorinya. Satu biji dengan minuman tanpa gula lebih selamat daripada dua biji dengan air manis. Kalau boleh, jangan jadikan ia sarapan setiap hari.",
+ "tips": [
+  "Ambil satu biji sahaja dan tambah telur rebus atau susu tanpa gula untuk protein.",
+  "Pilih versi tanpa keju dan kurang mayonis.",
+  "Minum kopi O atau teh O kosong, bukan air kotak bergula."
+ ],
+ "swap": {
+  "name": "Sandwic telur roti gandum penuh",
+  "kcal": 260,
+  "why": "Kalori hampir sama, tapi protein dan serat lebih tinggi, jadi kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Sosej dalam roti sosej halal ke?",
+   "a": "Kebanyakan bakeri di Malaysia guna sosej ayam atau daging yang halal. Pastikan kedai ada sijil halal yang sah jika anda ragu."
+  },
+  {
+   "q": "Roti sosej boleh dipanaskan dalam air fryer?",
+   "a": "Boleh, panaskan 2-3 minit pada suhu sederhana. Kulitnya akan jadi sedikit rangup dan sosejnya panas sekata."
+  },
+  {
+   "q": "Roti sosej sesuai untuk bekal anak sekolah?",
+   "a": "Ia praktikal dan anak-anak suka. Untuk lebih seimbang, gandingkan dengan buah dan air kosong atau susu, bukan minuman manis."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

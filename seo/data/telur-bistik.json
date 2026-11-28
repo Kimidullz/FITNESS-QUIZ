@@ -1,0 +1,70 @@
+{
+ "slug": "telur-bistik",
+ "intro": "Satu pinggan telur bistik (roti bistik) ada anggaran 480 kcal. Kebanyakan kalori datang dari roti, telur goreng berminyak dan kuah bistik yang manis.",
+ "protein_g": 18,
+ "carbs_g": 52,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Roti putih 2 keping",
+   "kcal": 160
+  },
+  {
+   "part": "Telur goreng 2 biji",
+   "kcal": 180
+  },
+  {
+   "part": "Kuah bistik (sos tomato, kicap, bawang)",
+   "kcal": 90
+  },
+  {
+   "part": "Kentang dan kacang pea",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Telur bistik dengan nasi putih (1 cawan)",
+   "kcal": 560
+  },
+  {
+   "name": "Telur bistik tambah ayam",
+   "kcal": 620
+  },
+  {
+   "name": "Telur bistik 1 biji telur sahaja dengan roti",
+   "kcal": 390
+  },
+  {
+   "name": "Roti bistik roti bakar bermentega",
+   "kcal": 550
+  }
+ ],
+ "diet": "Boleh, telur bistik masih muat dalam plan turun berat. Telur bagi protein yang bagus, tapi telur goreng dan kuah manis menambah kalori. Kalau makan untuk sarapan atau makan tengah hari, pastikan hidangan lain hari itu lebih ringan. Kuncinya portion roti dan berapa kerap anda order.",
+ "tips": [
+  "Minta telur mata kerbau kurang minyak atau telur rebus kalau kedai boleh buat.",
+  "Ambil roti 1 keping sahaja dan tambah sayur atau timun di tepi.",
+  "Jangan cicah roti dalam kuah berlebihan, makan kuah sekadar cukup rasa."
+ ],
+ "swap": {
+  "name": "Roti bakar 1 keping dengan 2 telur separuh masak",
+  "kcal": 300,
+  "why": "Protein hampir sama, tapi kurang minyak goreng dan tiada kuah manis."
+ },
+ "faq": [
+  {
+   "q": "Apa beza roti bistik dan telur bistik?",
+   "a": "Kedua-duanya guna kuah bistik gaya Hainan. Roti bistik biasanya dihidang dengan roti, telur bistik fokus pada telur goreng dalam kuah."
+  },
+  {
+   "q": "Kuah bistik diperbuat daripada apa?",
+   "a": "Biasanya sos tomato, kicap, sos Worcestershire, bawang, kentang dan kacang pea. Rasanya manis masam."
+  },
+  {
+   "q": "Sesuai tak untuk sarapan?",
+   "a": "Sesuai, sebab ada protein dari telur. Cuma imbangkan dengan minuman kosong atau kurang manis."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

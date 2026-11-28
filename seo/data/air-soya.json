@@ -1,0 +1,62 @@
+{
+ "slug": "air-soya",
+ "intro": "Segelas air soya bergula dari gerai ada anggaran 140 kcal. Separuh dari kacang soya itu sendiri, selebihnya dari gula atau sirap yang ditambah.",
+ "protein_g": 7,
+ "carbs_g": 22,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Susu kacang soya (tanpa gula)",
+   "kcal": 90
+  },
+  {
+   "part": "Gula / sirap pandan",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air soya tanpa gula",
+   "kcal": 90
+  },
+  {
+   "name": "Soya + cincau",
+   "kcal": 170
+  },
+  {
+   "name": "Air soya extra manis",
+   "kcal": 180
+  },
+  {
+   "name": "Soya saiz jag / besar",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, dan ia antara pilihan minuman yang lebih baik di gerai. Ada sedikit protein dari kacang soya. Cuma versi bergula tetap ada gula tambahan yang agak banyak. Kalau boleh dapat versi kurang manis atau tanpa gula, lagi bagus.",
+ "tips": [
+  "Cari gerai yang jual soya 'kosong' atau kurang manis.",
+  "Beli soya tanpa gula, tambah sendiri sikit gula di rumah ikut tekak.",
+  "Minum bersama sarapan sebagai tambahan protein, bukan sebagai snek berasingan."
+ ],
+ "swap": {
+  "name": "Air soya tanpa gula",
+  "kcal": 90,
+  "why": "Protein masih sama, kalori kurang sekitar 50 kcal sebab tiada gula tambahan."
+ },
+ "faq": [
+  {
+   "q": "Air soya tahan berapa lama dalam peti sejuk?",
+   "a": "Air soya segar biasanya elok dalam 1-2 hari dalam peti sejuk. Kalau bau masam atau berketul, jangan minum."
+  },
+  {
+   "q": "Air soya boleh ganti susu lembu ke?",
+   "a": "Boleh sebagai alternatif, terutama bagi yang tak tahan laktosa. Kandungan kalsium berbeza, jadi pastikan sumber kalsium lain cukup."
+  },
+  {
+   "q": "Lelaki boleh minum air soya selalu ke?",
+   "a": "Untuk kebanyakan orang dewasa sihat, minum soya dalam kuantiti biasa adalah okay. Kalau ada masalah kesihatan khusus, rujuk doktor."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

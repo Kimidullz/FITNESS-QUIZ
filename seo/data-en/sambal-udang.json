@@ -1,0 +1,63 @@
+{
+ "slug": "sambal-udang",
+ "name_en": "Sambal udang (prawn sambal)",
+ "serving_en": "1 ladle",
+ "intro": "One ladle of sambal udang is about 220 kcal (estimate). Most of the calories come from the oil in the sambal, not from the prawns.",
+ "breakdown": [
+  {
+   "part": "5-6 medium prawns",
+   "kcal": 70
+  },
+  {
+   "part": "Oil for frying the sambal",
+   "kcal": 110
+  },
+  {
+   "part": "Chilli, onion, sugar and tamarind",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sambal udang petai",
+   "kcal": 250
+  },
+  {
+   "name": "Sambal udang harimau (big prawns)",
+   "kcal": 280
+  },
+  {
+   "name": "Sambal sotong",
+   "kcal": 230
+  },
+  {
+   "name": "A plate of nasi lemak sambal udang",
+   "kcal": 650
+  }
+ ],
+ "diet": "Yes. Prawns are high in protein and low in fat. The heavy part is the sambal oil, so control how much sambal you scoop. One ladle with white rice and vegetables is still okay for weight loss.",
+ "tips": [
+  "Take the prawns and the sambal stuck to them, leave the oil in the tray.",
+  "Pair it with white rice and cucumber, not a full nasi lemak.",
+  "At home, cook the chilli paste longer with less oil and add water bit by bit."
+ ],
+ "swap": {
+  "name": "Dry turmeric-fried prawns or grilled prawns",
+  "kcal": 150,
+  "why": "Same protein, but much less oil without the oily sambal."
+ },
+ "faq": [
+  {
+   "q": "Are prawns high in cholesterol?",
+   "a": "Prawns do contain cholesterol, but they're low in saturated fat. If you have health concerns, check with your doctor for personal advice."
+  },
+  {
+   "q": "Why must sambal be cooked until the oil separates?",
+   "a": "So the chilli is fully cooked, doesn't smell raw and keeps longer. You can also get there with low heat and less oil."
+  },
+  {
+   "q": "How long does sambal udang keep?",
+   "a": "About 2-3 days in the fridge. Sambal without prawns keeps longer."
+  }
+ ]
+}

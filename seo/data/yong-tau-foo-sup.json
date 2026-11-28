@@ -1,0 +1,70 @@
+{
+ "slug": "yong-tau-foo-sup",
+ "intro": "Semangkuk yong tau foo sup (6 keping + mee) ada anggaran 380 kcal. Kalori paling banyak datang daripada mee, diikuti item yong tau foo itu sendiri.",
+ "protein_g": 22,
+ "carbs_g": 45,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Mee kuning/mee hoon 1 cawan",
+   "kcal": 180
+  },
+  {
+   "part": "6 keping yong tau foo (sayur & tauhu sumbat)",
+   "kcal": 150
+  },
+  {
+   "part": "Sup jernih",
+   "kcal": 20
+  },
+  {
+   "part": "Sos cili & sos manis",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Banyak pilih item goreng",
+   "kcal": 500
+  },
+  {
+   "name": "Tanpa mee (6 keping sahaja)",
+   "kcal": 200
+  },
+  {
+   "name": "Yong tau foo kari",
+   "kcal": 550
+  },
+  {
+   "name": "Dengan mee hoon",
+   "kcal": 360
+  }
+ ],
+ "diet": "Ya, ini antara pilihan terbaik bila makan luar. Kuah jernih, banyak pilihan sayur, dan protein dari ikan serta tauhu. Yang perlu jaga cuma item goreng dan sos manis. Pilih item rebus, kalori kekal rendah dan kenyang lama.",
+ "tips": [
+  "Pilih item rebus, kurangkan yang goreng (fucuk, wantan goreng).",
+  "Ambil lebih sayur sumbat dan tauhu untuk protein.",
+  "Minta sos asing dan cicah sikit je."
+ ],
+ "swap": {
+  "name": "Yong tau foo 8 keping tanpa mee",
+  "kcal": 260,
+  "why": "Lebih protein dan sayur, karbohidrat lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Isi yong tau foo dibuat dari apa?",
+   "a": "Biasanya pes ikan yang disumbat dalam sayur seperti terung, bendi, cili dan tauhu."
+  },
+  {
+   "q": "Item yong tau foo mana paling sesuai?",
+   "a": "Sayur sumbat rebus, tauhu, bebola ikan dan sayur hijau. Item goreng lebih berminyak."
+  },
+  {
+   "q": "Yong tau foo halal ke?",
+   "a": "Banyak kedai guna pes ikan, tapi tak semua halal. Pilih kedai yang ada sijil halal."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

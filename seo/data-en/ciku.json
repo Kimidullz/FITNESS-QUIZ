@@ -1,0 +1,59 @@
+{
+ "slug": "ciku",
+ "name_en": "Ciku (sapodilla)",
+ "serving_en": "1 fruit",
+ "intro": "One ciku is roughly 90 kcal (estimate). Most of the calories come from natural sugar, which is why it tastes sweet like brown sugar.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in the flesh (~110g)",
+   "kcal": 72
+  },
+  {
+   "part": "Fibre",
+   "kcal": 9
+  },
+  {
+   "part": "A little protein and fat",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ciku, 1/2 fruit",
+   "kcal": 45
+  },
+  {
+   "name": "Ciku, 2 fruits",
+   "kcal": 180
+  },
+  {
+   "name": "Ciku juice with sugar, 1 glass",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes. One ciku is still a reasonable snack and has fibre. It's quite sweet and higher in calories than watery fruits like watermelon. One is enough, and skip the sweetened juice version.",
+ "tips": [
+  "Eat the whole fruit, not juice. Juice usually has added sugar and loses the fibre.",
+  "Cut it in half and share with your kids or partner.",
+  "Pair with unsweetened yogurt for a tea-time snack with protein."
+ ],
+ "swap": {
+  "name": "Papaya, 1 cup cut",
+  "kcal": 55,
+  "why": "Still sweet but more watery, so fewer calories for the same portion."
+ },
+ "faq": [
+  {
+   "q": "How do I know if ciku is ripe?",
+   "a": "The skin turns brown and feels soft when gently pressed. If it's still hard, leave it at room temperature for 2 to 3 days."
+  },
+  {
+   "q": "Why does my ciku taste astringent and sticky?",
+   "a": "That means it's not ripe yet. The sap in young fruit causes the astringent taste. Wait until it's soft before eating."
+  },
+  {
+   "q": "Can I keep ciku in the fridge?",
+   "a": "Can, but only after it's ripe. The fridge slows down ripening, so put it in once it's soft and it'll last a few more days."
+  }
+ ]
+}

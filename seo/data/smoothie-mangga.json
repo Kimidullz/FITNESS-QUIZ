@@ -1,0 +1,62 @@
+{
+ "slug": "smoothie-mangga",
+ "intro": "Secawan smoothie mangga dari kedai ada anggaran 300 kcal. Kebanyakan kalori dari mangga, sirap gula dan susu atau yogurt yang dicampur.",
+ "protein_g": 5,
+ "carbs_g": 62,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Mangga (~150 g)",
+   "kcal": 90
+  },
+  {
+   "part": "Susu / yogurt bergula",
+   "kcal": 100
+  },
+  {
+   "part": "Sirap gula",
+   "kcal": 110
+  }
+ ],
+ "variants": [
+  {
+   "name": "Smoothie mangga + ais krim",
+   "kcal": 420
+  },
+  {
+   "name": "Smoothie mangga dengan yogurt tanpa gula",
+   "kcal": 220
+  },
+  {
+   "name": "Smoothie mangga saiz besar",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, tapi kiraan dia hampir macam satu snek besar atau separuh hidangan. Bunyinya sihat sebab ada buah, tapi gula tambahan selalunya banyak. Kalau minum, kira ia sebagai snek petang, bukan minuman sampingan dengan makan tengah hari.",
+ "tips": [
+  "Pilih saiz paling kecil dan minta kurang sirap.",
+  "Elakkan topping ais krim atau whipped cream.",
+  "Buat sendiri: mangga beku + yogurt plain + sedikit susu, tanpa gula."
+ ],
+ "swap": {
+  "name": "Mangga potong + yogurt plain",
+  "kcal": 180,
+  "why": "Rasa mangga masih ada, protein lebih dari yogurt, dan tiada sirap gula."
+ },
+ "faq": [
+  {
+   "q": "Smoothie boleh ganti sarapan ke?",
+   "a": "Boleh sekali-sekala, tapi kebanyakan smoothie kedai rendah protein. Lebih baik makan bersama telur atau roti dengan protein."
+  },
+  {
+   "q": "Mangga apa yang paling sedap buat smoothie?",
+   "a": "Mangga harum manis atau mangga yang betul-betul masak. Mangga beku pun bagus sebab tak perlu ais banyak."
+  },
+  {
+   "q": "Apa beza smoothie dengan jus?",
+   "a": "Smoothie guna buah penuh yang dikisar, jadi serat masih ada. Jus biasanya ditapis dan kurang serat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

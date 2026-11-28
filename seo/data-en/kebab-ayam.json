@@ -1,0 +1,63 @@
+{
+ "slug": "kebab-ayam",
+ "name_en": "Chicken kebab",
+ "serving_en": "1 kebab",
+ "intro": "One chicken kebab is about 550 kcal (estimate). Most of the calories come from the bread, the oily chicken filling and the garlic or mayo sauce.",
+ "breakdown": [
+  {
+   "part": "Pita or lavash bread",
+   "kcal": 230
+  },
+  {
+   "part": "Kebab chicken filling ~120 g",
+   "kcal": 170
+  },
+  {
+   "part": "Garlic, mayo and chilli sauce",
+   "kcal": 120
+  },
+  {
+   "part": "Lettuce, onion, tomato",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Double meat chicken kebab",
+   "kcal": 700
+  },
+  {
+   "name": "Chicken kebab with cheese",
+   "kcal": 620
+  },
+  {
+   "name": "Chicken kebab plate with rice",
+   "kcal": 750
+  }
+ ],
+ "diet": "Yes, a chicken kebab has fairly high protein plus some vegetables. But the kebab chicken is usually cooked with oil, and the sauce can add a lot of calories. Have one as lunch or dinner, not as a snack. Pick a sugar-free drink to keep total calories in check.",
+ "tips": [
+  "Ask for less garlic sauce and more chilli sauce.",
+  "Ask for extra salad and vegetables inside.",
+  "Skip the extra cheese and fries."
+ ],
+ "swap": {
+  "name": "Grilled chicken wrap, no mayo",
+  "kcal": 350,
+  "why": "Same idea but less sauce and oil, so you save about 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Are kebab and shawarma the same?",
+   "a": "Quite similar. Both use meat roasted on a rotating spit. The spices and serving style differ by country."
+  },
+  {
+   "q": "Is pasar malam kebab safe to eat?",
+   "a": "Choose a clean stall and make sure the meat is fully cooked. It should be hot and not pink in the middle."
+  },
+  {
+   "q": "Can I eat a kebab for dinner?",
+   "a": "Yes. One kebab with plain water is enough as a meal for most people."
+  }
+ ]
+}

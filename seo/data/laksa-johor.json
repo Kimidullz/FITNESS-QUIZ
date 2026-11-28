@@ -1,0 +1,66 @@
+{
+ "slug": "laksa-johor",
+ "intro": "Sepinggan laksa Johor ada anggaran 550 kcal. Kebanyakan kalori datang dari spageti dan kuah ikan bersantan dan kerisik.",
+ "protein_g": 22,
+ "carbs_g": 70,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Spageti 1.5 cawan",
+   "kcal": 280
+  },
+  {
+   "part": "Kuah ikan, santan & kerisik",
+   "kcal": 220
+  },
+  {
+   "part": "Ulam (timun, taugeh, daun selom)",
+   "kcal": 25
+  },
+  {
+   "part": "Sambal belacan & limau",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Laksa Johor extra kuah",
+   "kcal": 620
+  },
+  {
+   "name": "Laksa Johor separuh spageti",
+   "kcal": 410
+  },
+  {
+   "name": "Laksa Johor + telur rebus",
+   "kcal": 625
+  }
+ ],
+ "diet": "Boleh, laksa Johor boleh dimakan masa nak turun berat. Kuahnya ada protein dari ikan, tapi santan dan kerisik buat lemak naik. Biasanya ia dihidang masa raya atau kenduri, jadi kawal berapa kali tambah. Satu pinggan dengan ulam banyak, dah cukup.",
+ "tips": [
+  "Ambil spageti separuh pinggan dan penuhkan dengan ulam.",
+  "Jangan tambah kali kedua, nikmati satu pinggan perlahan-lahan.",
+  "Kalau masak sendiri, kurangkan santan dan kerisik dalam kuah."
+ ],
+ "swap": {
+  "name": "Laksa Johor separuh spageti, ulam penuh",
+  "kcal": 410,
+  "why": "Rasa sama, tapi karbohidrat kurang dan ulam bagi rasa kenyang."
+ },
+ "faq": [
+  {
+   "q": "Kenapa laksa Johor guna spageti?",
+   "a": "Dikatakan Sultan Abu Bakar Johor terinspirasi dengan pasta semasa lawatan ke Itali, lalu spageti mula digunakan dalam laksa."
+  },
+  {
+   "q": "Apa beza laksa Johor dengan laksa lain?",
+   "a": "Laksa Johor guna spageti dan kuah ikan pekat bersantan dan kerisik, dimakan dengan ulam dan sambal belacan."
+  },
+  {
+   "q": "Ikan apa yang sesuai untuk kuah laksa Johor?",
+   "a": "Selalunya ikan kembung, sardin atau ikan parang yang dikisar halus."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

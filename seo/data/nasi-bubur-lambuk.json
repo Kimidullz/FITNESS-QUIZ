@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-bubur-lambuk",
+ "intro": "Satu mangkuk nasi bubur lambuk ada anggaran 320 kcal. Kebanyakan kalori datang dari beras, diikuti minyak tumis rempah dan santan (kalau ada).",
+ "protein_g": 15,
+ "carbs_g": 45,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Beras yang dimasak jadi bubur",
+   "kcal": 170
+  },
+  {
+   "part": "Daging atau ayam cincang",
+   "kcal": 60
+  },
+  {
+   "part": "Minyak tumis rempah dan santan",
+   "kcal": 70
+  },
+  {
+   "part": "Sayur, udang kering, bawang goreng",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bubur lambuk ayam, kurang santan",
+   "kcal": 290
+  },
+  {
+   "name": "Bubur lambuk daging dengan santan pekat",
+   "kcal": 380
+  },
+  {
+   "name": "Mangkuk besar dari masjid (bekas penuh)",
+   "kcal": 450
+  },
+  {
+   "name": "Tambah cakwe atau kuih goreng di tepi",
+   "kcal": 550
+  }
+ ],
+ "diet": "Boleh, dan sebenarnya bubur lambuk antara pilihan yang agak ringan. Ia banyak air, jadi cepat rasa kenyang untuk kalori yang sederhana. Cuma protein dia rendah sikit, jadi lapar boleh datang balik cepat. Jaga saiz mangkuk dan apa yang anda makan bersamanya.",
+ "tips": [
+  "Ambil satu mangkuk biasa dan simpan baki bubur masjid untuk esok.",
+  "Tambah telur rebus atau sepotong ayam di tepi untuk naikkan protein.",
+  "Elak tambah bawang goreng banyak dan kuih goreng sebagai pelengkap."
+ ],
+ "swap": {
+  "name": "Bubur nasi ayam kosong + telur rebus",
+  "kcal": 280,
+  "why": "Tanpa santan dan kurang minyak, tapi protein lebih tinggi sebab ada telur."
+ },
+ "faq": [
+  {
+   "q": "Bubur lambuk sesuai untuk berbuka puasa?",
+   "a": "Sesuai. Ia lembut untuk perut kosong dan beri tenaga perlahan. Minum air dulu, kemudian makan bubur."
+  },
+  {
+   "q": "Bubur lambuk boleh simpan berapa lama?",
+   "a": "Dalam peti sejuk, anggaran 2 hari dalam bekas bertutup. Panaskan sampai mendidih dan tambah sikit air sebab bubur akan jadi pekat."
+  },
+  {
+   "q": "Apa beza bubur lambuk dengan bubur nasi biasa?",
+   "a": "Bubur lambuk dimasak dengan rempah, daging dan sayur, kadang-kadang santan. Bubur nasi biasa lebih kosong dan ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

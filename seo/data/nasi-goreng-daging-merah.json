@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-goreng-daging-merah",
+ "intro": "Sepinggan nasi goreng daging merah ada anggaran 700 kcal. Kalori banyak datang dari nasi, minyak goreng dan sos masak merah yang manis.",
+ "protein_g": 25,
+ "carbs_g": 90,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Nasi 1.5 cawan",
+   "kcal": 310
+  },
+  {
+   "part": "Minyak masak (goreng nasi)",
+   "kcal": 180
+  },
+  {
+   "part": "Daging masak merah",
+   "kcal": 150
+  },
+  {
+   "part": "Sos cili, kicap, bawang, sayur",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tambah telur mata",
+   "kcal": 820
+  },
+  {
+   "name": "Nasi goreng daging merah + keropok",
+   "kcal": 800
+  },
+  {
+   "name": "Nasi goreng ayam merah",
+   "kcal": 680
+  },
+  {
+   "name": "Minta kurang minyak, lebih sayur",
+   "kcal": 580
+  }
+ ],
+ "diet": "Boleh, cuma nasi goreng ni minyak dia selalu tersembunyi. Sos masak merah pula biasanya ada gula. Kalau nak turun berat, jadikan ini makan tengah hari utama dan pilih makanan ringan di waktu lain. Sekali-sekala, ia tak akan rosakkan progress.",
+ "tips": [
+  "Minta 'kurang minyak' dan 'lebih sayur' masa order di warung.",
+  "Skip keropok dan telur mata kalau dah cukup daging.",
+  "Kongsi atau tapau separuh untuk makan kemudian."
+ ],
+ "swap": {
+  "name": "Nasi putih + daging masak merah + sayur campur",
+  "kcal": 550,
+  "why": "Nasi tak digoreng, jadi minyak kurang banyak. Protein dari daging masih sama."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi goreng daging merah dengan nasi goreng biasa?",
+   "a": "Ia dimasak dengan daging yang dimasak dalam sos cili dan tomato yang pekat, jadi rasanya manis, pedas dan sedikit masam."
+  },
+  {
+   "q": "Daging merah ni daging lembu ke?",
+   "a": "Biasanya daging lembu. 'Merah' merujuk kepada sos masak merah, bukan jenis daging."
+  },
+  {
+   "q": "Boleh masak versi rumah yang lebih ringan?",
+   "a": "Boleh, guna daging tanpa lemak, sedikit minyak, sos tomato kurang gula dan banyak sayur."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

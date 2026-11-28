@@ -1,0 +1,67 @@
+{
+ "slug": "kuey-teow-sup-daging",
+ "name_en": "Kuey teow sup daging (beef noodle soup)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of kuey teow sup daging has an estimated 420 kcal. Most of the calories come from the kuey teow itself, followed by the beef slices and beef balls in the soup.",
+ "breakdown": [
+  {
+   "part": "Fresh kuey teow, 1 cup",
+   "kcal": 200
+  },
+  {
+   "part": "Sliced beef & beef balls",
+   "kcal": 120
+  },
+  {
+   "part": "Beef broth",
+   "kcal": 50
+  },
+  {
+   "part": "Vegetables, fried shallots & sambal kicap",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Add tripe / tendon (perut / urat)",
+   "kcal": 480
+  },
+  {
+   "name": "Kuey teow sup daging campur (tetel, paru)",
+   "kcal": 500
+  },
+  {
+   "name": "Mee hoon sup daging",
+   "kcal": 400
+  },
+  {
+   "name": "Beef soup only, no noodles",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, this is one of the lighter noodle choices at a shop. The soup is clear, so there's less oil than fried noodles. The beef gives you good protein too. Just watch fatty add-ons like perut and urat, and don't finish the soup if the shop uses a lot of oil.",
+ "tips": [
+  "Ask for more beef and half the kuey teow.",
+  "Choose sliced beef, not fatty tetel or urat.",
+  "Ask for extra vegetables and less fried shallots."
+ ],
+ "swap": {
+  "name": "Beef soup + half cup white rice",
+  "kcal": 330,
+  "why": "Fewer carbs but still filling, and you keep the beef protein."
+ },
+ "faq": [
+  {
+   "q": "Is kuey teow sup daging good for breakfast?",
+   "a": "Yes. It's warm, light and has protein. It keeps you full longer than a few pieces of roti canai."
+  },
+  {
+   "q": "Is beef soup high in salt?",
+   "a": "It's usually quite salty. If you're worried, drink only half the soup and go easy on the sambal kicap."
+  },
+  {
+   "q": "What's the difference between kuey teow sup daging and sup tulang?",
+   "a": "Kuey teow sup daging focuses on sliced beef and noodles. Sup tulang has more marrow bones and is usually fattier."
+  }
+ ]
+}

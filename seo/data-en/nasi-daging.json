@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-daging",
+ "name_en": "Nasi daging (Kelantan)",
+ "serving_en": "1 plate",
+ "intro": "A plate of Kelantan nasi daging is about 700 kcal (estimate). Most of the calories come from the rice, which is cooked with beef broth and fat, plus the beef itself.",
+ "breakdown": [
+  {
+   "part": "Nasi daging, 1.5 cups",
+   "kcal": 360
+  },
+  {
+   "part": "Boiled or grilled beef, 100g",
+   "kcal": 200
+  },
+  {
+   "part": "Beef soup or kuah",
+   "kcal": 100
+  },
+  {
+   "part": "Air asam or sambal kicap",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Fatty beef (tetel)",
+   "kcal": 820
+  },
+  {
+   "name": "Extra soup",
+   "kcal": 780
+  },
+  {
+   "name": "Half portion of rice",
+   "kcal": 520
+  }
+ ],
+ "diet": "Yes, it can fit. It's quite balanced between carbs and protein. The air asam is very light and great for adding flavour. Control the rice and pick leaner beef to make it more diet-friendly. A good, filling lunch option.",
+ "tips": [
+  "Ask for lean beef, not tetel or the fatty parts.",
+  "Use air asam for flavour instead of oily kuah.",
+  "Add some ulam or cucumber on the side of your plate."
+ ],
+ "swap": {
+  "name": "1 cup plain white rice + grilled beef + air asam + ulam",
+  "kcal": 480,
+  "why": "Plain rice has less oil than nasi daging, and grilled beef still gives you plenty of protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi daging and plain white rice?",
+   "a": "Nasi daging is cooked with beef stock and spices. So it's more flavourful and a bit oilier."
+  },
+  {
+   "q": "What is the air asam for nasi daging made of?",
+   "a": "Usually tamarind, chilli, onion, tomato and a little sugar. It tastes sour, spicy and refreshing."
+  },
+  {
+   "q": "Why is nasi daging so popular in Kelantan?",
+   "a": "It's a traditional dish often sold at lunchtime and served at kenduri. It's famous for its tender beef."
+  }
+ ]
+}

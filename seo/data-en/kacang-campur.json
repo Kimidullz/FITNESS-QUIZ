@@ -1,0 +1,67 @@
+{
+ "slug": "kacang-campur",
+ "name_en": "Mixed nuts (unsalted)",
+ "serving_en": "1 handful (30g)",
+ "intro": "One handful (30g) of unsalted mixed nuts has about 180 kcal (estimate). Most of the calories come from the natural fats in nuts, so even a small portion is energy-dense.",
+ "breakdown": [
+  {
+   "part": "Almonds ~8g",
+   "kcal": 46
+  },
+  {
+   "part": "Cashews ~8g",
+   "kcal": 45
+  },
+  {
+   "part": "Peanuts ~8g",
+   "kcal": 45
+  },
+  {
+   "part": "Walnuts ~6g",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half handful (15g)",
+   "kcal": 90
+  },
+  {
+   "name": "Honey-coated mixed nuts, 30g",
+   "kcal": 190
+  },
+  {
+   "name": "Salted fried peanuts, 30g",
+   "kcal": 175
+  },
+  {
+   "name": "Trail mix with raisins, 30g",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes, and mixed nuts are a great snack for staying full longer. There's just one problem: it's very easy to overeat when you eat straight from the jar. One handful is fine, but three handfuls in front of the TV is like a plate of rice. The key is to measure first before you eat.",
+ "tips": [
+  "Pack nuts into small 30g containers for the week, keep them in your bag or office drawer.",
+  "Pick unsalted ones without honey or sugar coating.",
+  "Mix a small handful into yogurt or oats so breakfast is more filling without adding many calories."
+ ],
+ "swap": {
+  "name": "Boiled edamame, 1/2 cup",
+  "kcal": 95,
+  "why": "About half the calories, similar or higher protein, and bigger volume so it feels like you're eating more."
+ },
+ "faq": [
+  {
+   "q": "Are mixed nuts good for the heart?",
+   "a": "Nuts have unsaturated fats and fibre, which are good. Choose unsalted ones and eat a moderate portion. If you have health issues, check with your doctor."
+  },
+  {
+   "q": "Raw or roasted nuts, which is better?",
+   "a": "Both are okay. Dry-roasted without extra oil has almost the same calories. Avoid ones fried in lots of oil and salt."
+  },
+  {
+   "q": "When is the best time to eat nuts?",
+   "a": "In the afternoon between lunch and dinner, when you start getting hungry. It helps you avoid overeating at dinner."
+  }
+ ]
+}

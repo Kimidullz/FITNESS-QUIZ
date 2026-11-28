@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-goreng-daging-merah",
+ "name_en": "Nasi goreng daging merah",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi goreng daging merah has about 700 kcal. Much of the calories come from the rice, frying oil and the sweet masak merah sauce.",
+ "breakdown": [
+  {
+   "part": "Rice, 1.5 cups",
+   "kcal": 310
+  },
+  {
+   "part": "Cooking oil (for frying rice)",
+   "kcal": 180
+  },
+  {
+   "part": "Daging masak merah",
+   "kcal": 150
+  },
+  {
+   "part": "Chilli sauce, soy sauce, onion, vegetables",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Add telur mata",
+   "kcal": 820
+  },
+  {
+   "name": "Nasi goreng daging merah + keropok",
+   "kcal": 800
+  },
+  {
+   "name": "Nasi goreng ayam merah",
+   "kcal": 680
+  },
+  {
+   "name": "Ask for less oil, more vegetables",
+   "kcal": 580
+  }
+ ],
+ "diet": "Yes, but fried rice often has hidden oil. The masak merah sauce also usually has sugar. If you're trying to lose weight, make this your main lunch and pick lighter food at other meals. Once in a while, it won't ruin your progress.",
+ "tips": [
+  "Ask for 'kurang minyak' and 'lebih sayur' when ordering at the warung.",
+  "Skip the keropok and telur mata if you already have enough beef.",
+  "Share it, or tapau half for later."
+ ],
+ "swap": {
+  "name": "White rice + daging masak merah + mixed vegetables",
+  "kcal": 550,
+  "why": "The rice isn't fried, so there's much less oil. You still get the same protein from the beef."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi goreng daging merah and normal fried rice?",
+   "a": "It's cooked with beef in a thick chilli and tomato sauce, so it tastes sweet, spicy and a bit sour."
+  },
+  {
+   "q": "Is the daging beef?",
+   "a": "Usually beef. 'Merah' refers to the red masak merah sauce, not the type of meat."
+  },
+  {
+   "q": "Can I cook a lighter version at home?",
+   "a": "Yes. Use lean beef, a little oil, tomato sauce with less sugar, and lots of vegetables."
+  }
+ ]
+}

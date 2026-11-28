@@ -1,0 +1,59 @@
+{
+ "slug": "dragon-fruit",
+ "name_en": "Dragon fruit (buah naga)",
+ "serving_en": "1/2 fruit",
+ "intro": "Half a dragon fruit gives about 70 kcal (estimate). The calories come from natural sugar, plus fibre from the tiny edible seeds.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in the flesh (~150g)",
+   "kcal": 55
+  },
+  {
+   "part": "Fibre",
+   "kcal": 6
+  },
+  {
+   "part": "Tiny seeds (a bit of fat and protein)",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dragon fruit, 1 whole fruit",
+   "kcal": 140
+  },
+  {
+   "name": "Dragon fruit, 1/4 fruit",
+   "kcal": 35
+  },
+  {
+   "name": "Dragon fruit smoothie with milk and sugar",
+   "kcal": 220
+  }
+ ],
+ "diet": "Definitely yes. Half a dragon fruit is light, with water and fibre. Great as dessert. Just be careful with shop smoothies or juices that add sugar and condensed milk. Eating the whole fruit saves more calories.",
+ "tips": [
+  "Cut into cubes and keep in a container in the fridge. Easy to grab when you want a snack.",
+  "Mix with unsweetened yogurt for a quick breakfast with some protein.",
+  "If you buy a smoothie, ask for no sugar and no condensed milk."
+ ],
+ "swap": {
+  "name": "Strawberries, 1 cup",
+  "kcal": 50,
+  "why": "Lower in calories with a sweet-sour taste. Good if you want some variety."
+ },
+ "faq": [
+  {
+   "q": "Why is my urine or stool red after eating red dragon fruit?",
+   "a": "That's from the natural red pigment in the fruit. It's usually harmless and goes away in a day or two. If it continues without eating dragon fruit, see a doctor."
+  },
+  {
+   "q": "What's the difference between red and white dragon fruit?",
+   "a": "Red flesh is usually sweeter with a deeper colour. White flesh tastes milder. Calories for both are about the same."
+  },
+  {
+   "q": "Can you eat dragon fruit seeds?",
+   "a": "Yes, the small black seeds are eaten together with the flesh. They give a slightly crunchy texture."
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "tosai-telur",
+ "intro": "Sekeping tosai telur ada anggaran 280 kcal. Kebanyakan kalori dari tepung tosai (beras dan dal), ditambah telur dan sedikit minyak atau ghee.",
+ "protein_g": 11,
+ "carbs_g": 34,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Tosai kosong",
+   "kcal": 150
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Minyak/ghee",
+   "kcal": 30
+  },
+  {
+   "part": "Chutney & sambar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tosai kosong",
+   "kcal": 180
+  },
+  {
+   "name": "Tosai telur bawang",
+   "kcal": 310
+  },
+  {
+   "name": "Tosai telur + kuah dal lebih",
+   "kcal": 330
+  },
+  {
+   "name": "Tosai masala",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh, ini antara pilihan sarapan mamak yang paling mesra diet. Kalori sederhana dan ada protein dari telur. Tepung tosai yang ditapai pun ringan untuk perut. Kalau masih lapar, tambah telur atau sambar daripada order roti lain.",
+ "tips": [
+  "Minta kurang ghee atau minyak masa masak.",
+  "Ambil sambar dan kuah dal lebih, kurangkan chutney kelapa.",
+  "Kalau nak lebih protein, tambah telur rebus atau telur kedua."
+ ],
+ "swap": {
+  "name": "Tosai kosong + telur rebus",
+  "kcal": 250,
+  "why": "Protein lebih kurang sama, tapi telur tak dimasak dengan minyak. Sesuai kalau nak jimat sikit lagi."
+ },
+ "faq": [
+  {
+   "q": "Tosai diperbuat dari apa?",
+   "a": "Tosai dibuat dari adunan beras dan urad dal yang direndam, dikisar dan ditapai semalaman."
+  },
+  {
+   "q": "Apa beza tosai dengan dosa?",
+   "a": "Sama sahaja. Tosai ialah sebutan biasa di Malaysia, dosa pula sebutan di India."
+  },
+  {
+   "q": "Tosai sesuai untuk orang yang jaga gula?",
+   "a": "Tosai masih karbohidrat, jadi jaga portion. Pasangkan dengan telur dan sambar untuk protein dan serat, dan rujuk doktor jika ada diabetes."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

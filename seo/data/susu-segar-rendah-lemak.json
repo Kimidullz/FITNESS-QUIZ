@@ -1,0 +1,66 @@
+{
+ "slug": "susu-segar-rendah-lemak",
+ "intro": "Segelas susu segar rendah lemak (250ml) ada anggaran 110 kcal. Kalori datang dari gula semula jadi susu (laktosa), protein dan sedikit lemak.",
+ "protein_g": 8,
+ "carbs_g": 13,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Laktosa (gula semula jadi)",
+   "kcal": 52
+  },
+  {
+   "part": "Protein",
+   "kcal": 32
+  },
+  {
+   "part": "Lemak",
+   "kcal": 27
+  }
+ ],
+ "variants": [
+  {
+   "name": "Susu penuh krim, 250ml",
+   "kcal": 160
+  },
+  {
+   "name": "Susu skim, 250ml",
+   "kcal": 85
+  },
+  {
+   "name": "Susu coklat rendah lemak, 250ml",
+   "kcal": 170
+  },
+  {
+   "name": "Susu soya tanpa gula, 250ml",
+   "kcal": 80
+  }
+ ],
+ "diet": "Boleh, susu rendah lemak pilihan minuman yang bagus masa nak turun berat. Ia ada protein dan kalsium, kalori pun sederhana. Lebih baik dari teh tarik atau minuman manis. Cuma pilih yang tawar, bukan versi berperisa yang tambah gula.",
+ "tips": [
+  "Ganti satu teh tarik atau kopi manis sehari dengan segelas susu rendah lemak.",
+  "Guna susu ini untuk masak oat atau buat kopi sendiri di rumah.",
+  "Minum segelas bersama sarapan untuk tambah protein tanpa susah."
+ ],
+ "swap": {
+  "name": "Susu skim, 250ml",
+  "kcal": 85,
+  "why": "Protein hampir sama, tapi lemak dan kalori lebih rendah sedikit."
+ },
+ "faq": [
+  {
+   "q": "Perut kembung lepas minum susu, kenapa?",
+   "a": "Sesetengah orang sukar hadam laktosa. Cuba minum sedikit dulu, atau pilih susu tanpa laktosa atau susu soya."
+  },
+  {
+   "q": "Susu rendah lemak sesuai untuk anak kecil?",
+   "a": "Untuk kanak-kanak kecil, ikut nasihat doktor atau pakar pemakanan sebab keperluan mereka berbeza dari orang dewasa."
+  },
+  {
+   "q": "Minum susu malam sebelum tidur okay ke?",
+   "a": "Okay, asalkan kira dalam jumlah kalori harian. Ramai suka sebab ia ringan dan ada protein."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

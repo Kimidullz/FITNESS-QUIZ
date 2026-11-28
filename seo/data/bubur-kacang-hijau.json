@@ -1,0 +1,70 @@
+{
+ "slug": "bubur-kacang-hijau",
+ "intro": "Anggaran 280 kcal untuk 1 mangkuk bubur kacang hijau. Kalori datang dari kacang hijau, gula dan santan.",
+ "protein_g": 8,
+ "carbs_g": 45,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Kacang hijau",
+   "kcal": 120
+  },
+  {
+   "part": "Gula atau gula melaka",
+   "kcal": 70
+  },
+  {
+   "part": "Santan",
+   "kcal": 70
+  },
+  {
+   "part": "Sagu",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mangkuk kecil",
+   "kcal": 150
+  },
+  {
+   "name": "Tanpa santan",
+   "kcal": 200
+  },
+  {
+   "name": "Campur pulut hitam",
+   "kcal": 320
+  },
+  {
+   "name": "Santan pekat lebih",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, bubur kacang hijau ada kelebihan sebab kacang hijau beri protein dan serat. Yang buat kalori naik ialah gula dan santan. Satu mangkuk kecil sebagai minum petang memang sesuai. Kalau makan semangkuk besar, kira ia sebagai satu hidangan, bukan snek.",
+ "tips": [
+  "Pilih mangkuk kecil di gerai atau bazar.",
+  "Kalau masak sendiri, kurangkan gula dan guna santan cair.",
+  "Makan sebagai snek petang, jangan tambah selepas makan malam."
+ ],
+ "swap": {
+  "name": "Bubur kacang hijau tanpa santan, kurang gula",
+  "kcal": 180,
+  "why": "Masih dapat protein dan serat kacang hijau, tapi kurang lemak dan gula."
+ },
+ "faq": [
+  {
+   "q": "Kacang hijau perlu direndam dulu?",
+   "a": "Rendam 2-3 jam bantu ia cepat lembut. Kalau tak sempat, rebus lebih lama pun boleh."
+  },
+  {
+   "q": "Bubur kacang hijau boleh dimakan sejuk?",
+   "a": "Boleh. Ramai suka sejuk dari peti, terutama cuaca panas."
+  },
+  {
+   "q": "Bubur kacang hijau tahan berapa lama?",
+   "a": "Dalam peti sejuk sekitar 2-3 hari. Santan cepat basi, jadi jangan biar lama dalam suhu bilik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

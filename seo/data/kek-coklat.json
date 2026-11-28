@@ -1,0 +1,62 @@
+{
+ "slug": "kek-coklat",
+ "intro": "Sepotong kek coklat ada anggaran 400 kcal. Kebanyakan kalori datang dari gula, mentega dan frosting atau ganache coklat di atas dan di tengah kek.",
+ "protein_g": 5,
+ "carbs_g": 50,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Kek span coklat",
+   "kcal": 180
+  },
+  {
+   "part": "Frosting atau ganache coklat",
+   "kcal": 170
+  },
+  {
+   "part": "Lapisan krim di tengah",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kek coklat moist kukus (1 potong)",
+   "kcal": 350
+  },
+  {
+   "name": "Kek coklat leleh dengan sos tebal",
+   "kcal": 500
+  },
+  {
+   "name": "Brownies (1 keping sederhana)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh, tapi kena rancang. 400 kcal sepotong hampir sama dengan sepinggan nasi berlauk ringan. Kalau ada majlis hari jadi di ofis, ambil potongan kecil dan nikmati perlahan. Masalah selalunya bukan sepotong, tapi potong kedua dan ketiga.",
+ "tips": [
+  "Minta potongan nipis atau kongsi separuh dengan kawan.",
+  "Kikis sedikit frosting tebal di atas kalau rasa terlalu manis.",
+  "Minum kopi atau teh O kosong bersama, bukan air manis."
+ ],
+ "swap": {
+  "name": "Brownies saiz kecil atau 2 ketul coklat gelap",
+  "kcal": 180,
+  "why": "Masih dapat rasa coklat, tapi kalori kurang separuh."
+ },
+ "faq": [
+  {
+   "q": "Kek coklat kukus lebih sihat daripada kek bakar ke?",
+   "a": "Tak semestinya. Cara masak tak banyak ubah kalori. Yang menentukan ialah jumlah gula, minyak dan topping."
+  },
+  {
+   "q": "Kek coklat tahan berapa lama dalam peti sejuk?",
+   "a": "Biasanya 3 hingga 5 hari dalam bekas bertutup. Kek dengan krim segar lebih cepat rosak."
+  },
+  {
+   "q": "Kenapa kek coklat moist rasa berminyak?",
+   "a": "Resipi moist selalu guna minyak masak lebih banyak daripada mentega supaya kek kekal lembap. Itu sebab ia terasa berminyak sedikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

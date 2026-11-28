@@ -1,0 +1,66 @@
+{
+ "slug": "cheese-naan",
+ "intro": "Sekeping cheese naan ada anggaran 420 kcal. Kebanyakan kalori datang daripada doh tepung gandum dan keju cair di dalamnya, ditambah sapuan mentega atau ghee.",
+ "protein_g": 15,
+ "carbs_g": 52,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Doh nan (tepung gandum)",
+   "kcal": 260
+  },
+  {
+   "part": "Keju di dalam",
+   "kcal": 110
+  },
+  {
+   "part": "Mentega atau ghee sapu atas",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nan kosong",
+   "kcal": 280
+  },
+  {
+   "name": "Garlic cheese naan",
+   "kcal": 460
+  },
+  {
+   "name": "Cheese naan saiz besar (restoran)",
+   "kcal": 520
+  },
+  {
+   "name": "Cheese naan + kuah dal",
+   "kcal": 500
+  }
+ ],
+ "diet": "Boleh, ia boleh muat dalam bajet kalori kalau dirancang. Satu keping cheese naan sudah hampir sama dengan sepinggan nasi kecil berlauk. Pasangkan dengan protein bakar seperti ayam tandoori, bukan kuah berkrim. Kalau makan beramai-ramai, kongsi dan ambil satu atau dua potong sahaja.",
+ "tips": [
+  "Minta tak sapu mentega atau ghee di atas.",
+  "Kongsi sekeping berdua dan tambah ayam tandoori.",
+  "Pilih kuah dal atau raita, bukan kuah butter berkrim."
+ ],
+ "swap": {
+  "name": "Nan kosong + ayam tandoori 1 ketul",
+  "kcal": 450,
+  "why": "Kalori hampir sama, tapi tukar keju dengan ayam bakar yang beri lebih banyak protein dan kenyang lebih lama."
+ },
+ "faq": [
+  {
+   "q": "Keju apa yang digunakan dalam cheese naan?",
+   "a": "Kebanyakan kedai guna keju mozzarella atau keju cair (processed cheese), jadi teksturnya meleleh dan mudah ditarik."
+  },
+  {
+   "q": "Cheese naan sesuai dimakan dengan apa?",
+   "a": "Ramai suka dengan ayam tandoori, kuah dal atau ayam butter. Ada juga yang makan begitu sahaja sebab dah cukup sedap."
+  },
+  {
+   "q": "Boleh panaskan semula cheese naan?",
+   "a": "Boleh. Guna kuali leper atau air fryer beberapa minit supaya keju cair semula dan luarnya rangup."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

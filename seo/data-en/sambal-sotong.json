@@ -1,0 +1,67 @@
+{
+ "slug": "sambal-sotong",
+ "name_en": "Sambal sotong",
+ "serving_en": "1 scoop (senduk)",
+ "intro": "One scoop of sambal sotong is roughly 220 kcal. Most of the calories come from the oil used to fry the sambal and the sugar. Not from the sotong itself.",
+ "breakdown": [
+  {
+   "part": "Sotong (about 80 g)",
+   "kcal": 70
+  },
+  {
+   "part": "Oil for frying the sambal",
+   "kcal": 90
+  },
+  {
+   "part": "Blended chilli, onions and belacan",
+   "kcal": 35
+  },
+  {
+   "part": "Sugar and asam jawa",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sambal sotong kering (very oily)",
+   "kcal": 280
+  },
+  {
+   "name": "Less-oil sambal sotong (home-cooked)",
+   "kcal": 160
+  },
+  {
+   "name": "Sambal sotong with petai",
+   "kcal": 250
+  },
+  {
+   "name": "Battered fried sotong with sambal",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, you can. Sotong is actually high in protein and low in fat. What pushes the calories up is the oil and sugar in the sambal. Take one scoop and skip the oil pooled at the bottom. Pair it with veggies and half a plate of rice, and it fits fine for weight loss.",
+ "tips": [
+  "When you scoop, lift out the sotong and leave the sambal oil behind in the tray.",
+  "Add one veggie dish without santan. Your plate feels fuller without many extra calories.",
+  "Cooking at home? Fry the sambal with just 1 tablespoon of oil and cut down the sugar."
+ ],
+ "swap": {
+  "name": "Grilled sotong with air asam",
+  "kcal": 130,
+  "why": "Same protein, but no oil from frying sambal. You still get the spicy, sour kick from the air asam."
+ },
+ "faq": [
+  {
+   "q": "Sotong is high in cholesterol. Can I eat it often?",
+   "a": "Sotong does have cholesterol, but it's low in saturated fat. For most healthy people, a few times a week is okay. If you have cholesterol issues, check with your doctor."
+  },
+  {
+   "q": "How do I cook sotong so it's not rubbery?",
+   "a": "Either cook it very quickly, about 1 to 2 minutes, or cook it long until tender. Anything in between makes it chewy."
+  },
+  {
+   "q": "How long does sambal sotong keep in the fridge?",
+   "a": "About 2 to 3 days in a covered container. Reheat until it's properly hot before eating."
+  }
+ ]
+}

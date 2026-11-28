@@ -1,0 +1,67 @@
+{
+ "slug": "murtabak-daging",
+ "name_en": "Murtabak daging (beef murtabak)",
+ "serving_en": "1 plate",
+ "intro": "A plate of murtabak daging is about 780 kcal (estimate). Most of the calories come from the pan-fried dough, the minced meat filling and the eggs.",
+ "breakdown": [
+  {
+   "part": "Roti dough and frying oil",
+   "kcal": 330
+  },
+  {
+   "part": "Minced meat and onion filling",
+   "kcal": 200
+  },
+  {
+   "part": "Eggs (2)",
+   "kcal": 150
+  },
+  {
+   "part": "Curry and pickled onions",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Murtabak ayam (chicken)",
+   "kcal": 720
+  },
+  {
+   "name": "Murtabak sardin",
+   "kcal": 650
+  },
+  {
+   "name": "Large murtabak daging (bazaar size)",
+   "kcal": 1000
+  },
+  {
+   "name": "Murtabak daging with cheese",
+   "kcal": 900
+  }
+ ],
+ "diet": "Yes, but one plate is close to half the daily calories for many women. The good part is it's quite high in protein. If you want it, share with one other person or make it your only heavy meal at that time. Avoid adding a sweet drink with it.",
+ "tips": [
+  "Share one plate between two, then add veg or the pickled onion salad.",
+  "Blot the surface oil with a tissue before eating.",
+  "Dip lightly in the curry, use the pickled onions for flavour."
+ ],
+ "swap": {
+  "name": "1 roti telur + kuah dal",
+  "kcal": 400,
+  "why": "You still get the roti and egg taste, at almost half the calories of murtabak."
+ },
+ "faq": [
+  {
+   "q": "Where does murtabak come from?",
+   "a": "Murtabak is said to come from India and Yemen, then became popular in Malaysia through mamak shops and Ramadan bazaars."
+  },
+  {
+   "q": "How long does takeaway murtabak last?",
+   "a": "Best eaten within 2-3 hours. If keeping it, put it in the fridge and reheat in a pan or air fryer within a day."
+  },
+  {
+   "q": "What meat is used in murtabak daging?",
+   "a": "Usually minced beef. Some shops use mutton, so you can ask the seller."
+  }
+ ]
+}

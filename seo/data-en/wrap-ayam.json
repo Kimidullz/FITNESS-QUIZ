@@ -1,0 +1,67 @@
+{
+ "slug": "wrap-ayam",
+ "name_en": "Chicken wrap",
+ "serving_en": "1 wrap",
+ "intro": "One chicken wrap is about 450 kcal (estimate). Most of the calories come from the tortilla, chicken and mayo sauce.",
+ "breakdown": [
+  {
+   "part": "Large tortilla, 1 piece",
+   "kcal": 180
+  },
+  {
+   "part": "Chicken filling ~100 g",
+   "kcal": 130
+  },
+  {
+   "part": "Mayo or creamy sauce",
+   "kcal": 100
+  },
+  {
+   "part": "Cheese, 1 slice",
+   "kcal": 20
+  },
+  {
+   "part": "Lettuce, tomato, cucumber",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Crispy fried chicken wrap",
+   "kcal": 600
+  },
+  {
+   "name": "Grilled chicken wrap, no mayo",
+   "kcal": 350
+  },
+  {
+   "name": "Chicken wrap with fries",
+   "kcal": 700
+  }
+ ],
+ "diet": "Yes, a chicken wrap can be a good office lunch. The protein is decent and it's easy to carry. Watch out for fried chicken and mayo. Choose grilled chicken, use less sauce, and it's very diet-friendly.",
+ "tips": [
+  "Pick grilled chicken, not battered fried chicken.",
+  "Ask for less sauce or switch to chilli sauce.",
+  "No need to add fries. Have fruit for dessert instead."
+ ],
+ "swap": {
+  "name": "Chicken salad (dressing on the side)",
+  "kcal": 350,
+  "why": "Similar protein but no tortilla, so fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is a wrap healthier than a burger bun?",
+   "a": "Not always. A large tortilla has almost the same calories as a burger bun. The filling and sauce matter more."
+  },
+  {
+   "q": "Can I make wraps for work bekal?",
+   "a": "Yes. Use grilled chicken, vegetables and sauce on the side so the tortilla doesn't get soggy. Wrap it in paper or foil."
+  },
+  {
+   "q": "Is a wholemeal tortilla better?",
+   "a": "It has more fibre, so it's more filling. The calories are about the same as a regular tortilla."
+  }
+ ]
+}

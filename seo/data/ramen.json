@@ -1,0 +1,70 @@
+{
+ "slug": "ramen",
+ "intro": "Semangkuk ramen di restoran ada anggaran 650 kcal. Kebanyakan kalori datang daripada mi ramen dan kuah kaldu yang berlemak.",
+ "protein_g": 28,
+ "carbs_g": 75,
+ "fat_g": 26,
+ "breakdown": [
+  {
+   "part": "Mi ramen 1 hidangan",
+   "kcal": 300
+  },
+  {
+   "part": "Kuah kaldu (tonkotsu/ayam pekat)",
+   "kcal": 180
+  },
+  {
+   "part": "Hirisan daging atau ayam",
+   "kcal": 100
+  },
+  {
+   "part": "Telur ajitama & topping",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ramen kuah pekat tonkotsu/paitan",
+   "kcal": 800
+  },
+  {
+   "name": "Ramen kuah jernih shoyu/shio",
+   "kcal": 500
+  },
+  {
+   "name": "Tambah topping daging",
+   "kcal": 750
+  },
+  {
+   "name": "Ramen miso pedas",
+   "kcal": 700
+  }
+ ],
+ "diet": "Boleh, terutama untuk makan bersama keluarga atau kawan. Kuah pekat jenis paitan atau tonkotsu memang tinggi lemak. Pilih kuah jernih dan jangan habiskan kuah, ini beza besar. Seimbangkan dengan sarapan dan makan malam yang ringan.",
+ "tips": [
+  "Pilih kuah jernih seperti shoyu atau shio.",
+  "Tinggalkan sekurang-kurangnya separuh kuah.",
+  "Elakkan tambah gyoza goreng atau nasi sebagai sampingan."
+ ],
+ "swap": {
+  "name": "Ramen kuah jernih + telur, tanpa minum kuah",
+  "kcal": 450,
+  "why": "Kurang lemak dari kuah, protein masih ada dari telur dan daging."
+ },
+ "faq": [
+  {
+   "q": "Ramen halal ke?",
+   "a": "Tonkotsu asal guna tulang babi. Banyak restoran halal kini guna kaldu ayam atau daging. Semak sijil halal kedai."
+  },
+  {
+   "q": "Apa beza ramen tonkotsu, shoyu dan miso?",
+   "a": "Tonkotsu kuah putih pekat dari tulang. Shoyu berasaskan kicap, lebih jernih. Miso berasaskan pes kacang soya, rasa lebih pekat."
+  },
+  {
+   "q": "Ramen segera sama ke dengan ramen restoran?",
+   "a": "Tak sama. Ramen restoran guna mi segar dan kaldu yang direneh lama. Mi segera biasanya digoreng dan tinggi garam."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

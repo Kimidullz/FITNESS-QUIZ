@@ -1,0 +1,66 @@
+{
+ "slug": "dal",
+ "intro": "Semangkuk kecil kuah dal ada anggaran 150 kcal. Kebanyakan kalori datang dari kacang dal dan minyak atau ghee tumisan.",
+ "protein_g": 7,
+ "carbs_g": 18,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Kacang dal yang dimasak",
+   "kcal": 95
+  },
+  {
+   "part": "Minyak atau ghee untuk tumisan",
+   "kcal": 40
+  },
+  {
+   "part": "Sayur (kentang, terung, tomato)",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuah dal banjir atas nasi (3 senduk)",
+   "kcal": 90
+  },
+  {
+   "name": "Dal sayur campur (1 mangkuk kecil)",
+   "kcal": 170
+  },
+  {
+   "name": "Dal dengan ghee lebih (1 mangkuk kecil)",
+   "kcal": 200
+  },
+  {
+   "name": "Dal makhani berkrim (1 mangkuk kecil)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Boleh sangat. Dal ada protein dan serat yang bantu kenyang lebih lama. Ia pilihan lebih ringan berbanding kuah kari bersantan di kedai nasi kandar. Cuma tengok jumlah ghee dan nasi yang dimakan bersama.",
+ "tips": [
+  "Di nasi kandar, minta kuah dal ganti kuah kari campur yang berminyak.",
+  "Padankan dal dengan ayam tandoori atau telur rebus untuk tambah protein.",
+  "Masak sendiri? Tumis dengan 1 sudu kecil minyak saja, rempah sudah cukup bagi rasa."
+ ],
+ "swap": {
+  "name": "Dal sayur masak sendiri tanpa ghee",
+  "kcal": 120,
+  "why": "Lebih banyak sayur, kurang minyak, tapi rasa rempah masih ada."
+ },
+ "faq": [
+  {
+   "q": "Dal diperbuat dari kacang apa?",
+   "a": "Biasanya kacang dal kuning (toor dal) atau dal merah (masoor). Ada juga yang campur kacang dal channa."
+  },
+  {
+   "q": "Dal cukup sebagai sumber protein?",
+   "a": "Dal ada protein, tapi semangkuk kecil cuma lebih kurang 7 g. Elok tambah ayam, ikan, telur atau tauhu dalam hidangan."
+  },
+  {
+   "q": "Kenapa makan dal kadang buat perut kembung?",
+   "a": "Kacang memang boleh buat gas. Basuh dan rendam dal sebelum masak, dan masak sampai betul-betul lembut."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

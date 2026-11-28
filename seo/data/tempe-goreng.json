@@ -1,0 +1,66 @@
+{
+ "slug": "tempe-goreng",
+ "intro": "Empat keping tempe goreng ada anggaran 230 kcal. Tempe sendiri ada protein dan lemak, dan minyak goreng menambah lebih kurang satu pertiga kalori.",
+ "protein_g": 13,
+ "carbs_g": 8,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Tempe lebih kurang 80 g",
+   "kcal": 155
+  },
+  {
+   "part": "Minyak yang diserap semasa menggoreng",
+   "kcal": 65
+  },
+  {
+   "part": "Perapan garam, kunyit dan bawang",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tempe goreng bersalut tepung (4 keping)",
+   "kcal": 300
+  },
+  {
+   "name": "Sambal tempe ikan bilis (1 senduk)",
+   "kcal": 350
+  },
+  {
+   "name": "Tempe goreng kicap (1 senduk)",
+   "kcal": 280
+  },
+  {
+   "name": "Tempe bakar atau kukus (4 keping)",
+   "kcal": 160
+  }
+ ],
+ "diet": "Boleh. Tempe antara sumber protein berasaskan tumbuhan yang terbaik dan murah. Empat keping beri anggaran 13 g protein. Yang perlu dijaga cuma minyak, jadi pilih tempe goreng biasa berbanding yang bersalut tepung atau bergula.",
+ "tips": [
+  "Masak guna air fryer atau kuali dengan sedikit minyak sahaja.",
+  "Toskan atas tisu dapur selepas goreng untuk buang lebihan minyak.",
+  "Di warung, pilih tempe goreng kosong berbanding sambal tempe yang bergula dan berminyak."
+ ],
+ "swap": {
+  "name": "Tempe air fryer (4 keping)",
+  "kcal": 170,
+  "why": "Masih rangup, tapi guna minyak jauh lebih sedikit. Protein kekal sama."
+ },
+ "faq": [
+  {
+   "q": "Tempe atau tauhu, mana lebih tinggi protein?",
+   "a": "Ikut berat yang sama, tempe biasanya lebih tinggi protein dan serat berbanding tauhu lembut."
+  },
+  {
+   "q": "Bintik hitam pada tempe tu rosak ke?",
+   "a": "Bintik hitam atau kelabu sikit biasanya normal dari kulat tempe. Kalau berbau ammonia kuat atau berlendir, buang."
+  },
+  {
+   "q": "Tempe sesuai untuk vegetarian?",
+   "a": "Ya, tempe dibuat dari kacang soya dan jadi sumber protein utama bagi ramai vegetarian."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

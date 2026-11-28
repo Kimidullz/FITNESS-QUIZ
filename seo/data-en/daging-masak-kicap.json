@@ -1,0 +1,67 @@
+{
+ "slug": "daging-masak-kicap",
+ "name_en": "Daging masak kicap",
+ "serving_en": "1 scoop (senduk)",
+ "intro": "One scoop of daging masak kicap is roughly 300 kcal. The calories come from the beef, the cooking oil and the sugary kicap manis.",
+ "breakdown": [
+  {
+   "part": "Beef (about 100 g)",
+   "kcal": 180
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 70
+  },
+  {
+   "part": "Kicap manis and sugar",
+   "kcal": 40
+  },
+  {
+   "part": "Onions, chilli and ginger",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Daging masak kicap with potatoes",
+   "kcal": 360
+  },
+  {
+   "name": "Beef fried first, then cooked in kicap",
+   "kcal": 380
+  },
+  {
+   "name": "Ayam masak kicap (skinless)",
+   "kcal": 250
+  },
+  {
+   "name": "Less-oil daging masak kicap (home-cooked)",
+   "kcal": 240
+  }
+ ],
+ "diet": "Yes, this is one of the easier dishes to fit into a weight loss plan. Beef gives you protein that keeps you full longer. What to watch is the sweet, oily kicap gravy. Take one scoop, a little gravy, and add veggies.",
+ "tips": [
+  "Take the meat first. One spoon of kicap gravy is enough to wet your rice.",
+  "Cooking at home? Mix kicap masin with a little kicap manis to cut the sugar.",
+  "No need to fry the beef first. Just sauté and simmer to save oil."
+ ],
+ "swap": {
+  "name": "Less-oil black pepper beef",
+  "kcal": 230,
+  "why": "Still full of flavour but less sugar than kicap manis, and the protein stays high."
+ },
+ "faq": [
+  {
+   "q": "How do I make daging masak kicap tender?",
+   "a": "Slice thinly against the grain, or simmer longer on low heat. Marinating with a bit of ginger also helps."
+  },
+  {
+   "q": "Is kicap manis high in sugar?",
+   "a": "Yes, kicap manis has a lot of sugar. One tablespoon can have around 10 g of sugar, so use just enough."
+  },
+  {
+   "q": "Can I use frozen beef for masak kicap?",
+   "a": "Yes. Thaw it in the fridge overnight and pat it dry with tissue before cooking so it doesn't get watery."
+  }
+ ]
+}

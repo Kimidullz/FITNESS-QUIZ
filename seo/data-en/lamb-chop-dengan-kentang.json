@@ -1,0 +1,63 @@
+{
+ "slug": "lamb-chop-dengan-kentang",
+ "name_en": "Lamb chop with potatoes",
+ "serving_en": "1 plate",
+ "intro": "One plate of lamb chop with potatoes is about 850 kcal (estimate). Most of the calories come from the lamb fat, the fries and the black pepper sauce.",
+ "breakdown": [
+  {
+   "part": "Lamb chop, 2 pieces (pan-fried/grilled)",
+   "kcal": 400
+  },
+  {
+   "part": "Fries or wedges, 1 serving",
+   "kcal": 250
+  },
+  {
+   "part": "Black pepper / mushroom sauce",
+   "kcal": 100
+  },
+  {
+   "part": "Coleslaw or buttered mixed vegetables",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Lamb chop with mashed potato",
+   "kcal": 800
+  },
+  {
+   "name": "Lamb chop with steamed vegetables (no potatoes)",
+   "kcal": 600
+  },
+  {
+   "name": "Lamb chop, 3 pieces, with fries",
+   "kcal": 1050
+  }
+ ],
+ "diet": "Yes, you can. Just treat it as a once-in-a-while meal, not a weekly menu. 850 kcal is almost half the daily needs of many women trying to lose weight. It's high in protein, so it keeps you full. If this is your dinner, keep breakfast and lunch lighter and high in protein.",
+ "tips": [
+  "Ask to swap the fries for vegetables or salad. You save about 200 kcal.",
+  "Ask for the sauce on the side and use only half.",
+  "Trim off the white fat on the edge before eating."
+ ],
+ "swap": {
+  "name": "Grilled chicken (skinless) with salad",
+  "kcal": 450,
+  "why": "Still a western meal and high in protein, but much lower in fat."
+ },
+ "faq": [
+  {
+   "q": "Is lamb high in cholesterol?",
+   "a": "Lamb has saturated fat, especially the fatty parts. Eat a moderate portion and cut away the visible fat. If you have health issues, check with your doctor."
+  },
+  {
+   "q": "Is grilled lamb chop better than fried?",
+   "a": "Yes, grilling usually uses less oil. But lamb chop is naturally fatty, so portion size still matters."
+  },
+  {
+   "q": "Is lamb chop good for building muscle?",
+   "a": "It's a good protein source. Just balance it with leaner proteins like chicken, fish and eggs on other days."
+  }
+ ]
+}

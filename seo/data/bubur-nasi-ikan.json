@@ -1,0 +1,70 @@
+{
+ "slug": "bubur-nasi-ikan",
+ "intro": "Semangkuk bubur nasi ikan ada anggaran 280 kcal. Kebanyakan kalori datang dari nasi dalam bubur, manakala ikan pula sumbang protein.",
+ "protein_g": 18,
+ "carbs_g": 40,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Bubur nasi 1 mangkuk",
+   "kcal": 150
+  },
+  {
+   "part": "Ikan (hirisan atau fillet)",
+   "kcal": 80
+  },
+  {
+   "part": "Minyak bawang & bawang goreng",
+   "kcal": 35
+  },
+  {
+   "part": "Halia, daun bawang, kicap",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bubur ikan + 1 telur",
+   "kcal": 350
+  },
+  {
+   "name": "Bubur ayam",
+   "kcal": 300
+  },
+  {
+   "name": "Bubur ikan + cakoi",
+   "kcal": 480
+  },
+  {
+   "name": "Bubur ikan + telur pindan",
+   "kcal": 360
+  }
+ ],
+ "diet": "Boleh sangat. Bubur ikan antara pilihan sarapan atau makan malam yang ringan dan berprotein. Cuma bubur cepat hadam, jadi ada orang cepat lapar semula. Tambah protein atau sayur supaya kenyang lebih lama.",
+ "tips": [
+  "Minta ikan lebih atau tambah telur untuk naikkan protein.",
+  "Kurangkan minyak bawang dan bawang goreng di atas.",
+  "Skip cakoi, atau kongsi seketul dengan kawan."
+ ],
+ "swap": {
+  "name": "Bubur ikan + telur, tanpa cakoi",
+  "kcal": 350,
+  "why": "Protein lebih tinggi dan kenyang lebih lama, tanpa minyak tambahan dari cakoi."
+ },
+ "faq": [
+  {
+   "q": "Ikan apa yang selalu digunakan dalam bubur ikan?",
+   "a": "Biasanya ikan batang, ikan merah atau ikan haruan. Ada gerai yang guna fillet ikan dori."
+  },
+  {
+   "q": "Bubur ikan sesuai untuk orang tak sihat?",
+   "a": "Bubur memang selalu jadi pilihan bila selera kurang sebab lembut dan mudah ditelan. Kalau ada masalah kesihatan, ikut nasihat doktor."
+  },
+  {
+   "q": "Boleh buat bubur ikan sendiri di rumah dengan cepat?",
+   "a": "Boleh. Guna nasi lebihan, masak dengan air dan halia, kemudian masukkan hirisan ikan bila hampir siap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

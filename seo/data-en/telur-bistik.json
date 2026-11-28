@@ -1,0 +1,67 @@
+{
+ "slug": "telur-bistik",
+ "name_en": "Telur bistik (roti bistik)",
+ "serving_en": "1 plate",
+ "intro": "One plate of telur bistik (roti bistik) is about 480 kcal. Most of the calories come from the bread, the oily fried eggs and the sweet bistik gravy.",
+ "breakdown": [
+  {
+   "part": "White bread, 2 slices",
+   "kcal": 160
+  },
+  {
+   "part": "Fried eggs, 2",
+   "kcal": 180
+  },
+  {
+   "part": "Bistik gravy (tomato sauce, kicap, onions)",
+   "kcal": 90
+  },
+  {
+   "part": "Potatoes and green peas",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Telur bistik with white rice (1 cup)",
+   "kcal": 560
+  },
+  {
+   "name": "Telur bistik with added chicken",
+   "kcal": 620
+  },
+  {
+   "name": "Telur bistik with 1 egg only and bread",
+   "kcal": 390
+  },
+  {
+   "name": "Roti bistik with buttered toast",
+   "kcal": 550
+  }
+ ],
+ "diet": "Yes, telur bistik can still fit into a weight loss plan. Eggs give you good protein. But the fried eggs and sweet gravy add calories. If you have it for breakfast or lunch, keep your other meals that day lighter. The key is how much bread you eat and how often you order it.",
+ "tips": [
+  "Ask for a less oily fried egg, or boiled eggs if the shop can do it.",
+  "Take just 1 slice of bread and add some veg or cucumber on the side.",
+  "Don't soak your bread in the gravy. Use just enough for taste."
+ ],
+ "swap": {
+  "name": "1 slice of toast with 2 half-boiled eggs",
+  "kcal": 300,
+  "why": "Almost the same protein, but less frying oil and no sweet gravy."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between roti bistik and telur bistik?",
+   "a": "Both use Hainanese-style bistik gravy. Roti bistik is usually served with bread. Telur bistik focuses on fried eggs in the gravy."
+  },
+  {
+   "q": "What is bistik gravy made of?",
+   "a": "Usually tomato sauce, kicap, Worcestershire sauce, onions, potatoes and green peas. It tastes sweet and sour."
+  },
+  {
+   "q": "Is it okay for breakfast?",
+   "a": "Yes, because the eggs give you protein. Just balance it with a plain or less sweet drink."
+  }
+ ]
+}

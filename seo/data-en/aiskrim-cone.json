@@ -1,0 +1,55 @@
+{
+ "slug": "aiskrim-cone",
+ "name_en": "Ice cream cone (fast food)",
+ "serving_en": "1 cone",
+ "intro": "One fast food ice cream cone is about 170 kcal (estimate). Most of the calories come from the sugar and milk fat in the soft serve. The cone itself only adds a little.",
+ "breakdown": [
+  {
+   "part": "Vanilla soft serve",
+   "kcal": 135
+  },
+  {
+   "part": "Wafer cone",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chocolate-dipped cone",
+   "kcal": 220
+  },
+  {
+   "name": "Chocolate sundae (cup)",
+   "kcal": 330
+  },
+  {
+   "name": "Ice cream with crushed cookies (cup)",
+   "kcal": 340
+  }
+ ],
+ "diet": "Yes, and it's one of the easiest desserts to fit into your calorie budget. 170 kcal is about the same as one slice of roti bakar kaya. Just don't make it an add-on after a big burger set. Have it as a snack on its own on an active day.",
+ "tips": [
+  "Pick the plain cone, not the sundae or cookie version. The difference can be up to 150 kcal.",
+  "Have it after a light lunch, not after a big set with a sweet drink.",
+  "Share, or buy the small size if there is one, for the kids and yourself."
+ ],
+ "swap": {
+  "name": "Frozen yogurt or plain yogurt with fruit",
+  "kcal": 130,
+  "why": "Same cold and sweet feel, but more protein and more filling."
+ },
+ "faq": [
+  {
+   "q": "Is fast food soft serve made with real milk?",
+   "a": "Usually it's a mix of milk, sugar and stabilisers. It has less fat than premium ice cream, which is why it feels soft and light."
+  },
+  {
+   "q": "Is it okay to eat ice cream at night?",
+   "a": "Yes. Meal timing doesn't change calories. Just keep your total daily calories within target and don't let it become a nightly TV habit."
+  },
+  {
+   "q": "Why do I get hungry again so fast after ice cream?",
+   "a": "Ice cream is mostly sugar with little protein. Sugar digests quickly, so the full feeling doesn't last."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "cheesecake",
+ "name_en": "Cheesecake",
+ "serving_en": "1 slice",
+ "intro": "A slice of cheesecake is about 420 kcal (estimate). Most of the calories come from the cream cheese, eggs and sugar in the filling, plus the buttery biscuit base.",
+ "breakdown": [
+  {
+   "part": "Cream cheese, egg and sugar filling",
+   "kcal": 290
+  },
+  {
+   "part": "Biscuit and butter base",
+   "kcal": 110
+  },
+  {
+   "part": "Fruit topping or jam",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Burnt cheesecake (1 slice)",
+   "kcal": 450
+  },
+  {
+   "name": "Blueberry cheesecake",
+   "kcal": 440
+  },
+  {
+   "name": "Chocolate cookie cheesecake",
+   "kcal": 480
+  },
+  {
+   "name": "No-bake cheesecake",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, as an occasional treat. Cheesecake is high in fat, so it's calorie-dense even when the slice looks small. If you're having it, go easy on oily or santan dishes in your other meals that day. Enjoy it calmly, no need to feel guilty.",
+ "tips": [
+  "Share a slice, especially burnt cheesecake, which is really rich.",
+  "Choose fruit toppings over caramel or chocolate sauce.",
+  "Have it after a high-protein meal like ayam bakar, so you're not too hungry to want a second slice."
+ ],
+ "swap": {
+  "name": "Greek yogurt with berries and a little honey",
+  "kcal": 180,
+  "why": "Similar tangy, creamy taste, but much more protein and less than half the calories."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between burnt cheesecake and normal cheesecake?",
+   "a": "Burnt cheesecake is baked at high heat until the top is dark brown, and it has no biscuit base. The inside is softer and creamier."
+  },
+  {
+   "q": "Does cheesecake need to be refrigerated?",
+   "a": "Yes. It has cheese and eggs, so keep it chilled and finish it within 3 to 4 days."
+  },
+  {
+   "q": "Is cheesecake high in protein because of the cheese?",
+   "a": "Not really. Cream cheese is more fat than protein. One slice has only about 7 g protein."
+  }
+ ]
+}

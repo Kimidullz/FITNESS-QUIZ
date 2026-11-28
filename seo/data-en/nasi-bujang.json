@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-bujang",
+ "name_en": "Nasi bujang (rice, fried egg, soy sauce)",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi bujang (rice, telur mata and kicap) has about 420 kcal. Most of the calories come from the rice, followed by the oil used to fry the egg.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.25 cups",
+   "kcal": 260
+  },
+  {
+   "part": "Fried egg (telur mata), 1",
+   "kcal": 120
+  },
+  {
+   "part": "Kicap manis, 1 tablespoon",
+   "kcal": 25
+  },
+  {
+   "part": "Shallot oil/fried shallots",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "With 2 telur mata",
+   "kcal": 540
+  },
+  {
+   "name": "Boiled egg instead of fried",
+   "kcal": 350
+  },
+  {
+   "name": "Add sardine or ikan bilis",
+   "kcal": 520
+  },
+  {
+   "name": "Add margarine/butter on hot rice",
+   "kcal": 520
+  }
+ ],
+ "diet": "Yes, this is actually quite a light option. The main issue is low protein and almost no vegetables, so you get hungry again fast. If you eat this, add protein and vegetables so you stay full longer. It's a good simple dinner when you're tired.",
+ "tips": [
+  "Add another egg, or switch to 2 boiled eggs for more protein.",
+  "Add quick vegetables like sliced cucumber or blanched sawi.",
+  "Use a non-stick pan so you only need a little oil for the egg."
+ ],
+ "swap": {
+  "name": "1 cup rice + 2 boiled eggs + cucumber + kicap",
+  "kcal": 400,
+  "why": "Almost the same calories but double the protein, so you feel fuller."
+ },
+ "faq": [
+  {
+   "q": "Why is it called nasi bujang?",
+   "a": "Because it's the easiest meal that bachelors (bujang) and students always cook. Just rice, egg and kicap."
+  },
+  {
+   "q": "Is kicap manis high in sugar?",
+   "a": "Yes, kicap manis does have sugar. One spoon is usually okay, just don't pour too much."
+  },
+  {
+   "q": "Is telur mata better than telur dadar?",
+   "a": "The egg is the same. The difference is how much oil you use to cook it."
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "kuey-teow-kerang",
+ "name_en": "Kuey teow kerang (char kuey teow with cockles)",
+ "serving_en": "1 plate",
+ "intro": "A plate of kuey teow kerang is about 700 kcal (estimate). Most of the calories come from the kuey teow and the oil used when frying over high heat.",
+ "breakdown": [
+  {
+   "part": "Kuey teow, 1 plate",
+   "kcal": 300
+  },
+  {
+   "part": "Oil, dark soy sauce & sauces",
+   "kcal": 230
+  },
+  {
+   "part": "1 egg",
+   "kcal": 80
+  },
+  {
+   "part": "A handful of cockles",
+   "kcal": 40
+  },
+  {
+   "part": "Prawns, taugeh & chives",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow kerang + duck egg",
+   "kcal": 760
+  },
+  {
+   "name": "Kuey teow kerang + big prawns",
+   "kcal": 760
+  },
+  {
+   "name": "Kuey teow kerang, extra cockles",
+   "kcal": 740
+  },
+  {
+   "name": "Kuey teow kerang, less oil",
+   "kcal": 610
+  }
+ ],
+ "diet": "Yes, but this is one of the highest-calorie fried noodle dishes. The cockles give some protein, but the oil and dark soy sauce push the calories up. Treat it as something to enjoy once in a while, not an everyday meal. If you had it for lunch, go for a light, veggie-heavy dinner.",
+ "tips": [
+  "Share a plate with your partner and add a plate of stir-fried vegetables or soup.",
+  "Ask for extra cockles and taugeh, less oil.",
+  "Skip extra fried food and sweet drinks. Go for plain water or limau ais kosong."
+ ],
+ "swap": {
+  "name": "Kuey teow kerang soup",
+  "kcal": 420,
+  "why": "Almost the same ingredients with cockles and taugeh, but without all the frying oil."
+ },
+ "faq": [
+  {
+   "q": "Are the half-cooked cockles in kuey teow safe to eat?",
+   "a": "Cockles are usually added at the end and cooked briefly. If you're worried, ask the hawker to cook them longer."
+  },
+  {
+   "q": "Why does kuey teow kerang have that 'wok hei' taste?",
+   "a": "That smoky aroma comes from the high flame and very hot wok, with the soy sauce caramelising slightly during fast frying."
+  },
+  {
+   "q": "Are cockles high in cholesterol?",
+   "a": "Cockles have cholesterol but are also high in iron and protein. Normal amounts are okay for most people. If you have health issues, check with your doctor."
+  }
+ ]
+}

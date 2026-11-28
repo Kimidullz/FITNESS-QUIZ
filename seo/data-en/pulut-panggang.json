@@ -1,0 +1,59 @@
+{
+ "slug": "pulut-panggang",
+ "name_en": "Pulut panggang",
+ "serving_en": "1 stick",
+ "intro": "About 160 kcal for 1 stick of pulut panggang. Most of the calories come from glutinous rice cooked in santan.",
+ "breakdown": [
+  {
+   "part": "Pulut cooked in santan",
+   "kcal": 110
+  },
+  {
+   "part": "Sambal kelapa udang kering filling",
+   "kcal": 45
+  },
+  {
+   "part": "Oil in the filling",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pulut panggang with fish filling",
+   "kcal": 165
+  },
+  {
+   "name": "Pulut panggang with sweet coconut filling",
+   "kcal": 180
+  },
+  {
+   "name": "2 sticks pulut panggang",
+   "kcal": 320
+  }
+ ],
+ "diet": "Yes, one stick of pulut panggang is still moderate. Pulut is quite dense, so it's easy to want a second stick. For breakfast, one stick with an unsweetened drink is good enough. Try not to make it an extra snack after a heavy meal.",
+ "tips": [
+  "Count one stick as one snack, not 'just a small one'.",
+  "Choose udang kering or fish filling, which has a bit of protein compared to the sweet filling.",
+  "Drink plain water or teh O kosong with it, not teh tarik."
+ ],
+ "swap": {
+  "name": "Kuih koci 1 piece",
+  "kcal": 130,
+  "why": "Smaller size and still has that pulut taste, good when you just want a little."
+ },
+ "faq": [
+  {
+   "q": "Where does pulut panggang come from?",
+   "a": "It's popular all over the Peninsula, especially in Johor, Melaka and Kelantan. It's wrapped in banana leaf and grilled over charcoal."
+  },
+  {
+   "q": "Why is pulut panggang grilled?",
+   "a": "Grilling gives it a fragrant banana leaf smell and a slightly crispy outside."
+  },
+  {
+   "q": "Can pulut panggang be frozen?",
+   "a": "Yes. When you want to eat it, heat it in the oven or on a dry pan without oil."
+  }
+ ]
+}

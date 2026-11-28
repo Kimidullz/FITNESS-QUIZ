@@ -1,0 +1,63 @@
+{
+ "slug": "telur-masin",
+ "name_en": "Telur masin (salted egg)",
+ "serving_en": "1 egg",
+ "intro": "One telur masin (salted duck egg) is roughly 120 kcal. Most of the calories come from the yolk, which is rich in fat.",
+ "breakdown": [
+  {
+   "part": "Duck egg yolk",
+   "kcal": 85
+  },
+  {
+   "part": "Egg white",
+   "kcal": 35
+  },
+  {
+   "part": "Salt from curing (high sodium, almost 0 kcal)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half a telur masin",
+   "kcal": 60
+  },
+  {
+   "name": "Boiled telur masin, 1 egg",
+   "kcal": 120
+  },
+  {
+   "name": "Salted egg fried chicken (1 scoop)",
+   "kcal": 300
+  },
+  {
+   "name": "Salted egg prawns (1 scoop)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Yes, one telur masin is still moderate in calories and has protein. The main issue is salt, not calories. High salt can make your body hold water, so the scale may go up for a while. Half an egg is usually enough to flavour a plate of rice.",
+ "tips": [
+  "Eat just half and save the other half for your next meal.",
+  "Pair it with boiled veggies or soup, and drink enough plain water.",
+  "Be careful with 'salted egg sauce' dishes. They're usually deep-fried and use butter."
+ ],
+ "swap": {
+  "name": "Plain boiled egg",
+  "kcal": 75,
+  "why": "Almost the same protein, fewer calories and much less salt."
+ },
+ "faq": [
+  {
+   "q": "Is telur masin high in salt?",
+   "a": "Yes, quite high. One egg can take up a big chunk of your daily salt limit. If you've had telur masin, go easy on kicap and other salty dishes."
+  },
+  {
+   "q": "Can pregnant mums eat telur masin?",
+   "a": "Generally yes, if fully cooked and eaten occasionally. Watch the salt, and check with your doctor if you have blood pressure issues."
+  },
+  {
+   "q": "How long does telur masin last?",
+   "a": "Boiled telur masin should be kept in the fridge and finished within about a week. Uncooked ones last longer in the fridge."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "jus-epal-hijau",
+ "intro": "Segelas jus epal hijau dari gerai ada anggaran 150 kcal. Kalori datang dari gula semula jadi epal dan sirap gula yang biasa ditambah.",
+ "protein_g": 1,
+ "carbs_g": 37,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Epal hijau (~1.5 biji)",
+   "kcal": 100
+  },
+  {
+   "part": "Sirap gula",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jus epal hijau tanpa gula",
+   "kcal": 100
+  },
+  {
+   "name": "Jus epal + asam boi",
+   "kcal": 170
+  },
+  {
+   "name": "Jus epal + lobak merah",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh, tapi jangan anggap jus sama macam makan buah. Bila diperah, serat banyak hilang dan senang minum banyak buah sekaligus. Versi tanpa gula lebih okay. Kalau tengah kawal kalori, makan epal sebiji lebih mengenyangkan.",
+ "tips": [
+  "Minta 'tak nak gula', epal hijau dah ada rasa masam-manis.",
+  "Campur dengan lobak merah atau timun untuk kurangkan gula.",
+  "Minum bersama makanan, bukan sebagai snek berasingan."
+ ],
+ "swap": {
+  "name": "Epal hijau sebiji (makan terus)",
+  "kcal": 80,
+  "why": "Serat penuh, lebih kenyang, dan kalori hampir separuh."
+ },
+ "faq": [
+  {
+   "q": "Jus epal hijau atau epal merah, mana lebih baik?",
+   "a": "Kedua-duanya okay. Epal hijau biasanya kurang manis sedikit, jadi ramai suka untuk jus."
+  },
+  {
+   "q": "Jus epal boleh minum masa perut kosong?",
+   "a": "Ada orang rasa pedih perut sebab ia masam. Kalau sensitif, minum lepas makan."
+  },
+  {
+   "q": "Kenapa jus epal cepat jadi warna coklat?",
+   "a": "Epal beroksida bila kena udara. Perahan lemon sedikit boleh lambatkan proses ini."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

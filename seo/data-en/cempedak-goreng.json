@@ -1,0 +1,63 @@
+{
+ "slug": "cempedak-goreng",
+ "name_en": "Cempedak goreng (fried cempedak)",
+ "serving_en": "5 pieces",
+ "intro": "5 pieces of cempedak goreng give about 350 kcal (estimate). More than half the calories come from the batter and the oil it soaks up while frying.",
+ "breakdown": [
+  {
+   "part": "Cempedak flesh, 5 pieces",
+   "kcal": 110
+  },
+  {
+   "part": "Batter",
+   "kcal": 90
+  },
+  {
+   "part": "Oil absorbed during frying",
+   "kcal": 150
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cempedak goreng, 2 pieces",
+   "kcal": 140
+  },
+  {
+   "name": "Cempedak goreng, 10 pieces",
+   "kcal": 700
+  },
+  {
+   "name": "Fresh cempedak, 5 pieces",
+   "kcal": 120
+  },
+  {
+   "name": "Air fryer cempedak goreng, 5 pieces",
+   "kcal": 230
+  }
+ ],
+ "diet": "Yes, but treat it as a once-in-a-while snack. 5 pieces is almost the same as a plate of rice with lauk. If you want some, take 2 to 3 pieces and share the rest. During cempedak season, pick either fried or fresh for that day.",
+ "tips": [
+  "Buy one small pack and share with your office mates. Take just 2 pieces.",
+  "Drain on kitchen paper first to remove some of the oil.",
+  "At home, try a thin coat of batter and cook in the air fryer."
+ ],
+ "swap": {
+  "name": "Fresh cempedak, 5 pieces",
+  "kcal": 120,
+  "why": "Same cempedak taste and smell, but no batter and no oil. You save more than 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "What flour makes cempedak goreng crispy?",
+   "a": "Many people use wheat flour with a bit of rice flour and cold water. A thin batter is crispier and soaks up less oil."
+  },
+  {
+   "q": "Can I make cempedak goreng in an air fryer?",
+   "a": "Yes. Coat with a slightly thick batter, spray a bit of oil, and cook at about 180°C for 10 to 12 minutes. The texture is not 100% the same, but still sedap."
+  },
+  {
+   "q": "Why is my cempedak goreng so oily?",
+   "a": "Usually the oil is not hot enough. Make sure the oil is really hot before frying, and don't fry too many at once."
+  }
+ ]
+}

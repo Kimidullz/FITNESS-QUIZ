@@ -1,0 +1,67 @@
+{
+ "slug": "maggi-sup-ayam",
+ "name_en": "Maggi sup ayam (chicken soup instant noodles)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of maggi sup ayam at a mamak is about 420 kcal (estimate). Most of the calories come from the instant noodles, which are already fried at the factory, plus the egg and seasoning.",
+ "breakdown": [
+  {
+   "part": "Instant noodles, 1 block",
+   "kcal": 300
+  },
+  {
+   "part": "Seasoning powder",
+   "kcal": 30
+  },
+  {
+   "part": "1 egg",
+   "kcal": 70
+  },
+  {
+   "part": "Vegetables and soup",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain maggi sup, no egg",
+   "kcal": 350
+  },
+  {
+   "name": "Maggi sup ayam with sliced chicken",
+   "kcal": 500
+  },
+  {
+   "name": "Maggi goreng mamak",
+   "kcal": 600
+  },
+  {
+   "name": "Maggi sup double (2 blocks)",
+   "kcal": 750
+  }
+ ],
+ "diet": "Yes, especially the soup version since it's lighter than maggi goreng. The issue is low protein and high salt, so you get hungry again fast. Add protein and veg, and don't make it a daily meal. Once in a while on a rainy day or late night is totally okay.",
+ "tips": [
+  "Ask for an extra egg or sliced chicken for protein.",
+  "Ask for more veg like sawi or cabbage.",
+  "No need to finish every drop of soup, it cuts down the salt."
+ ],
+ "swap": {
+  "name": "Mihun sup ayam",
+  "kcal": 350,
+  "why": "Mihun isn't fried like instant noodles, so it's lower in fat and you still get a warm soup."
+ },
+ "faq": [
+  {
+   "q": "Why does mamak maggi sup taste different from homemade?",
+   "a": "Mamak shops usually add onions, chilli, veg, egg and sometimes their own chicken stock, so it tastes richer."
+  },
+  {
+   "q": "Is maggi sup good when I have a fever or cold?",
+   "a": "Many people like it because it's warm and easy to eat. But for recovery, chicken soup with rice or porridge is more nourishing."
+  },
+  {
+   "q": "Can I make maggi sup healthier at home?",
+   "a": "Yes. Use half the seasoning powder and add veg, egg and sliced chicken breast. It still tastes good."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "mee-jawa",
+ "name_en": "Mee jawa",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee jawa is about 500 kcal (estimate). Most of the calories come from the yellow noodles and the thick sweet potato and peanut gravy.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1 cup",
+   "kcal": 220
+  },
+  {
+   "part": "Sweet potato & peanut gravy",
+   "kcal": 150
+  },
+  {
+   "part": "1 boiled egg",
+   "kcal": 75
+  },
+  {
+   "part": "Fried tofu & prawns",
+   "kcal": 55
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee jawa + cucur udang",
+   "kcal": 600
+  },
+  {
+   "name": "Mee jawa daging",
+   "kcal": 560
+  },
+  {
+   "name": "Mee jawa, half gravy",
+   "kcal": 430
+  }
+ ],
+ "diet": "Yes, mee jawa works fine when you're trying to lose weight, with a normal portion. The thick sweet potato and peanut gravy is really filling. What usually pushes the calories up is extra cucur udang and crackers. One bowl without add-ons is already a complete meal.",
+ "tips": [
+  "Skip the cucur udang or share it with a friend.",
+  "Add taugeh and squeeze in limau kasturi for freshness without extra calories.",
+  "No need to finish all the gravy. Leave a bit at the bottom of the bowl."
+ ],
+ "swap": {
+  "name": "Mee rebus ayam without cucur",
+  "kcal": 430,
+  "why": "Tastes quite similar, the gravy is a little lighter, and you can add chicken for protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between mee jawa and mee rebus?",
+   "a": "They're very similar. Mee jawa gravy is usually sweeter and has peanuts, while mee rebus uses more sweet potato and beef."
+  },
+  {
+   "q": "Why is mee jawa gravy so thick?",
+   "a": "The gravy is thickened with mashed sweet potato or tapioca, sometimes with a little flour."
+  },
+  {
+   "q": "Where does mee jawa come from?",
+   "a": "It was brought over by Javanese communities who migrated to Malaya, and it's now popular all over Malaysia."
+  }
+ ]
+}

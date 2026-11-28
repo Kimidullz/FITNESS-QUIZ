@@ -1,0 +1,63 @@
+{
+ "slug": "kek-cawan",
+ "name_en": "Cupcake (kek cawan)",
+ "serving_en": "1 piece",
+ "intro": "One cupcake with frosting gives about 250 kcal (estimate). Most of the calories come from the butter and sugar cake, plus the buttercream frosting on top.",
+ "breakdown": [
+  {
+   "part": "Butter / sponge cake",
+   "kcal": 150
+  },
+  {
+   "part": "Buttercream frosting",
+   "kcal": 90
+  },
+  {
+   "part": "Decorations and sprinkles",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cupcake without frosting",
+   "kcal": 160
+  },
+  {
+   "name": "Mini cupcake",
+   "kcal": 100
+  },
+  {
+   "name": "Cupcake with cream cheese frosting",
+   "kcal": 300
+  },
+  {
+   "name": "Large red velvet cupcake",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, cupcakes are perfect for birthdays or as a gift from friends. One small cupcake fits easily into your daily calories. What to watch is thick frosting and the big café sizes. Enjoy one, slowly, and carry on eating as usual after that.",
+ "tips": [
+  "Choose a mini size or share a big cupcake with someone.",
+  "Scrape off half the frosting if it's very thick.",
+  "Have it after a lunch with protein, not on an empty stomach."
+ ],
+ "swap": {
+  "name": "Plain sponge cake, 1 small slice",
+  "kcal": 150,
+  "why": "Still soft and cakey, but no buttercream that's high in fat and sugar."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between a cupcake and a muffin?",
+   "a": "Cupcakes are usually sweeter, softer and have frosting on top. Muffins are denser and usually have no frosting."
+  },
+  {
+   "q": "How long do cupcakes last?",
+   "a": "Cupcakes with buttercream usually last 1-2 days at room temperature. Those with cream cheese or fresh cream must be kept in the fridge."
+  },
+  {
+   "q": "Can I make less sweet cupcakes at home?",
+   "a": "Yes, reduce the sugar in the batter a little and use thin frosting or fresh fruit as decoration."
+  }
+ ]
+}

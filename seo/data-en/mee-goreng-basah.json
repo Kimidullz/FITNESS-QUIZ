@@ -1,0 +1,71 @@
+{
+ "slug": "mee-goreng-basah",
+ "name_en": "Mee goreng basah (stall-style)",
+ "serving_en": "1 plate",
+ "intro": "A plate of mee goreng basah from a stall has an estimated 550 kcal. Most of the calories come from the yellow noodles and cooking oil.",
+ "breakdown": [
+  {
+   "part": "Yellow noodles, 1 plate",
+   "kcal": 280
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 140
+  },
+  {
+   "part": "Egg, prawns or sotong",
+   "kcal": 60
+  },
+  {
+   "part": "Chilli sauce, tomato sauce & soy sauce",
+   "kcal": 50
+  },
+  {
+   "part": "Veggies & taugeh",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee goreng basah + telur mata",
+   "kcal": 640
+  },
+  {
+   "name": "Mee goreng basah ayam",
+   "kcal": 620
+  },
+  {
+   "name": "Mee hoon goreng basah",
+   "kcal": 480
+  },
+  {
+   "name": "Ask for less oil",
+   "kcal": 460
+  }
+ ],
+ "diet": "Yes, as long as you watch how often and how much. Mee goreng is heavy on carbs and oil, but quite low in protein. If you have it once in a while and keep your next meal lighter, it can still fit in a calorie deficit.",
+ "tips": [
+  "Ask for 'kurang minyak' and 'sayur lebih' when you order.",
+  "Add protein like chicken or a boiled egg, not a fried telur mata.",
+  "Eat half and tapau the other half for later."
+ ],
+ "swap": {
+  "name": "Mee hoon sup ayam",
+  "kcal": 350,
+  "why": "It's soupy with less oil, but you still get a filling noodle meal."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between mee goreng basah and normal mee goreng?",
+   "a": "Mee goreng basah is cooked with more sauce, so it's moist and a little saucy."
+  },
+  {
+   "q": "Is mee goreng basah spicy?",
+   "a": "Depends on the stall. Most use chilli sauce, so it's a bit sweet and spicy. You can ask for less spicy."
+  },
+  {
+   "q": "Can I keep mee goreng basah for tomorrow?",
+   "a": "Yes, keep it in the fridge and reheat it. But it's best to finish it within the day."
+  }
+ ]
+}

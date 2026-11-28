@@ -1,0 +1,74 @@
+{
+ "slug": "nasi-goreng-mamak",
+ "intro": "Sepinggan nasi goreng mamak ada anggaran 700 kcal. Kebanyakan kalori datang daripada nasi yang banyak dan minyak yang digunakan masa menggoreng di kuali besar.",
+ "protein_g": 22,
+ "carbs_g": 90,
+ "fat_g": 28,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.5 cawan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 180
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 80
+  },
+  {
+   "part": "Ayam atau sotong sedikit",
+   "kcal": 80
+  },
+  {
+   "part": "Sos cili, kicap dan perencah",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng mamak dengan telur mata",
+   "kcal": 790
+  },
+  {
+   "name": "Nasi goreng mamak ayam lebih",
+   "kcal": 800
+  },
+  {
+   "name": "Nasi goreng kampung",
+   "kcal": 650
+  },
+  {
+   "name": "Nasi goreng pattaya",
+   "kcal": 850
+  }
+ ],
+ "diet": "Boleh, nasi goreng bukan makanan terlarang. Tapi satu pinggan mamak biasanya ada nasi dan minyak yang banyak, protein pula sikit. Kalau nak turun berat, kawal saiz pinggan dan tambah protein. Makan 1-2 kali seminggu masih okay dalam bajet kalori.",
+ "tips": [
+  "Minta kurang minyak dan nasi separuh, kebanyakan kedai boleh buat.",
+  "Tambah ayam atau telur rebus, bukan telur mata goreng.",
+  "Pesan sayur goreng atau timun di sebelah untuk isi perut."
+ ],
+ "swap": {
+  "name": "Nasi putih separuh + ayam tandoori + sayur",
+  "kcal": 480,
+  "why": "Masih makan nasi di mamak, tapi kurang minyak dan protein jauh lebih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi goreng mamak dengan nasi goreng biasa?",
+   "a": "Nasi goreng mamak biasanya lebih merah dan pedas, guna sos cili, kicap, kadang-kadang serbuk kari, dan ada sedikit kuah kari dicampur."
+  },
+  {
+   "q": "Kenapa nasi goreng mamak selalu berminyak?",
+   "a": "Ia dimasak cepat atas api besar dengan minyak yang cukup supaya nasi tak melekat dan dapat aroma 'wok hei'."
+  },
+  {
+   "q": "Nasi goreng mamak sesuai untuk makan malam?",
+   "a": "Boleh, cuma kalau makan lewat malam, cuba ambil saiz lebih kecil supaya tak terlalu berat sebelum tidur."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

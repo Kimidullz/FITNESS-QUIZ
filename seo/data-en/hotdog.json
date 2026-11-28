@@ -1,0 +1,63 @@
+{
+ "slug": "hotdog",
+ "name_en": "Hotdog",
+ "serving_en": "1 hotdog",
+ "intro": "One hotdog is roughly 300 kcal (estimate). Most of the calories come from the high-fat sausage and the white bun.",
+ "breakdown": [
+  {
+   "part": "1 hotdog bun",
+   "kcal": 120
+  },
+  {
+   "part": "1 chicken / beef sausage",
+   "kcal": 150
+  },
+  {
+   "part": "Chilli sauce, tomato sauce & mustard",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small hotdog, regular chicken sausage",
+   "kcal": 250
+  },
+  {
+   "name": "Hotdog with cheese",
+   "kcal": 360
+  },
+  {
+   "name": "Jumbo sausage hotdog",
+   "kcal": 450
+  },
+  {
+   "name": "Hotdog with mayo & fried onions",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes, one hotdog still fits as a snack or light breakfast. But it's low in protein compared to fat, so it's not very filling. Sausage is also processed food, so better to have it once in a while. Try not to eat two or three in one go.",
+ "tips": [
+  "Pick a regular-size chicken sausage, not jumbo or cheese-filled.",
+  "Go easy on mayo. Use mustard or chilli sauce instead.",
+  "Pair it with a boiled egg or unsweetened milk for protein."
+ ],
+ "swap": {
+  "name": "Egg / chicken sandwich",
+  "kcal": 280,
+  "why": "About the same calories, but more protein and less processed fat."
+ },
+ "faq": [
+  {
+   "q": "What are hotdog sausages made of?",
+   "a": "Usually minced chicken or beef mixed with flour, salt and flavouring. Check the label for halal status."
+  },
+  {
+   "q": "Can I pack hotdogs in my kid's lunchbox?",
+   "a": "Once in a while, sure. Add some fruit or veg on the side so the meal is more balanced."
+  },
+  {
+   "q": "Do I need to cook the sausage even though it's pre-cooked?",
+   "a": "Yes, heat it until properly hot before eating, for food safety."
+  }
+ ]
+}

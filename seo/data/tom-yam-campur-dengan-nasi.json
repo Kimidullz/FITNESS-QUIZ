@@ -1,0 +1,70 @@
+{
+ "slug": "tom-yam-campur-dengan-nasi",
+ "intro": "Satu set tom yam campur dengan nasi ada anggaran 550 kcal. Kebanyakan kalori datang daripada nasi putih, diikuti kuah tom yam merah dan isi campur.",
+ "protein_g": 30,
+ "carbs_g": 70,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.2 cawan",
+   "kcal": 240
+  },
+  {
+   "part": "Kuah tom yam merah (pes & minyak)",
+   "kcal": 130
+  },
+  {
+   "part": "Ayam, udang, sotong & bebola ikan",
+   "kcal": 150
+  },
+  {
+   "part": "Sayur & cendawan",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tom yam putih/jernih dengan nasi",
+   "kcal": 480
+  },
+  {
+   "name": "Tom yam susu dengan nasi",
+   "kcal": 650
+  },
+  {
+   "name": "Tambah telur dadar",
+   "kcal": 720
+  },
+  {
+   "name": "Tom yam campur tanpa nasi",
+   "kcal": 300
+  }
+ ],
+ "diet": "Boleh, dan ini pilihan yang okay di kedai tomyam. Isi campur beri protein yang tinggi dan kuahnya tak bersantan. Yang buat kalori naik ialah tom yam susu, telur dadar dan nasi tambah. Kekalkan satu pinggan nasi dan elakkan lauk goreng sampingan.",
+ "tips": [
+  "Pilih tom yam jernih atau merah, bukan versi susu.",
+  "Minta nasi separuh, tambah sayur campur goreng kurang minyak.",
+  "Kongsi telur dadar dengan kawan kalau nak juga."
+ ],
+ "swap": {
+  "name": "Tom yam jernih + nasi separuh cawan",
+  "kcal": 380,
+  "why": "Kurang minyak dan karbohidrat, protein dari seafood kekal tinggi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza tom yam merah dan tom yam putih?",
+   "a": "Tom yam merah guna pes cili dan lebih berminyak. Tom yam putih atau jernih lebih ringan, rasa masam dan pedas dari serai dan limau."
+  },
+  {
+   "q": "Tom yam pedas sangat ke?",
+   "a": "Bergantung kedai. Boleh minta kurang pedas semasa pesan."
+  },
+  {
+   "q": "Tom yam asal dari mana?",
+   "a": "Dari Thailand. Di Malaysia, kedai tomyam gaya Siam sangat popular terutama di Kelantan, Kedah dan Lembah Klang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

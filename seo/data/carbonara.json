@@ -1,0 +1,66 @@
+{
+ "slug": "carbonara",
+ "intro": "Satu pinggan carbonara ada anggaran 800 kcal. Kebanyakan kalori datang dari pasta dan sos krim berkeju.",
+ "protein_g": 30,
+ "carbs_g": 85,
+ "fat_g": 38,
+ "breakdown": [
+  {
+   "part": "Spaghetti masak ~1.5 cawan",
+   "kcal": 330
+  },
+  {
+   "part": "Sos krim, keju dan telur",
+   "kcal": 300
+  },
+  {
+   "part": "Ayam atau daging salai",
+   "kcal": 120
+  },
+  {
+   "part": "Mentega dan minyak masak",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Carbonara ayam saiz kafe besar",
+   "kcal": 950
+  },
+  {
+   "name": "Carbonara dengan roti bawang putih 2 keping",
+   "kcal": 1000
+  },
+  {
+   "name": "Carbonara gaya asli (telur & keju, tanpa krim)",
+   "kcal": 650
+  }
+ ],
+ "diet": "Boleh, tapi carbonara antara pasta paling tinggi kalori. Satu pinggan dah sama macam dua hidangan nasi berlauk. Kalau teringin, kongsi atau makan separuh dan tambah salad. Pastikan hidangan lain pada hari tu lebih ringan.",
+ "tips": [
+  "Kongsi satu pinggan dengan kawan dan order salad ayam untuk tambah protein.",
+  "Elakkan tambah roti bawang putih dan air manis.",
+  "Masak sendiri guna susu rendah lemak dan telur, kurangkan krim."
+ ],
+ "swap": {
+  "name": "Aglio olio udang",
+  "kcal": 600,
+  "why": "Tiada krim, jadi jimat anggaran 200 kcal dengan rasa pasta yang masih sedap."
+ },
+ "faq": [
+  {
+   "q": "Carbonara asli memang guna krim ke?",
+   "a": "Versi Itali asli guna telur dan keju, tanpa krim. Kebanyakan kafe di Malaysia tambah krim untuk lebih creamy."
+  },
+  {
+   "q": "Carbonara di Malaysia halal ke?",
+   "a": "Versi asli guna daging babi. Kafe halal biasanya guna ayam, daging salai atau beef bacon. Semak status halal kedai."
+  },
+  {
+   "q": "Kenapa lepas makan carbonara rasa muak?",
+   "a": "Sos krim dan keju tinggi lemak, jadi perut rasa berat. Makan bersama salad atau minuman tanpa gula boleh bantu."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

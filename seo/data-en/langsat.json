@@ -1,0 +1,63 @@
+{
+ "slug": "langsat",
+ "name_en": "Langsat",
+ "serving_en": "10 fruits",
+ "intro": "10 langsat come to only about 60 kcal (estimate). Almost all the calories come from natural sugar in the flesh.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in the flesh (~120g)",
+   "kcal": 52
+  },
+  {
+   "part": "Fibre",
+   "kcal": 4
+  },
+  {
+   "part": "A little protein and fat",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Langsat, 5 fruits",
+   "kcal": 30
+  },
+  {
+   "name": "Langsat, 20 fruits",
+   "kcal": 120
+  },
+  {
+   "name": "Dokong, 10 fruits",
+   "kcal": 70
+  },
+  {
+   "name": "Duku, 10 fruits",
+   "kcal": 75
+  }
+ ],
+ "diet": "Yes, langsat is one of the lighter fruits. Even 10 is still under 100 kcal. But during the season, it's easy to finish a whole bunch while lepak in front of the TV. Count first, put them in a bowl, then eat.",
+ "tips": [
+  "Put 10 in a bowl instead of eating straight off the bunch.",
+  "Make it your tea-time snack at the office instead of kuih or biscuits.",
+  "Pair with a glass of low-fat milk or a boiled egg for extra protein."
+ ],
+ "swap": {
+  "name": "Jambu air, 5 fruits",
+  "kcal": 50,
+  "why": "Watery and crunchy, so you feel full for about the same calories."
+ },
+ "faq": [
+  {
+   "q": "Why does langsat sometimes taste bitter?",
+   "a": "Usually because you bit into the seed. Langsat seeds are bitter, so just spit them out. Unripe fruit can also taste sour and astringent."
+  },
+  {
+   "q": "Are langsat, duku and dokong the same?",
+   "a": "All three are the same species but different varieties. Dokong usually has thicker skin, less sap and is sweeter. Langsat has thin skin and more sap."
+  },
+  {
+   "q": "How do I get langsat sap off my fingers?",
+   "a": "Rub a bit of cooking oil on your fingers, then wash with soap. The sap comes off much easier than with water alone."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "pau-kaya",
+ "name_en": "Pau kaya",
+ "serving_en": "1 piece",
+ "intro": "One pau kaya is about 200 kcal (estimate). Most of the calories come from the flour-based bun and the sugar in the kaya filling.",
+ "breakdown": [
+  {
+   "part": "Bun skin",
+   "kcal": 120
+  },
+  {
+   "part": "Kaya filling",
+   "kcal": 70
+  },
+  {
+   "part": "Fat in the dough",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Red bean pau",
+   "kcal": 190
+  },
+  {
+   "name": "Lotus pau",
+   "kcal": 230
+  },
+  {
+   "name": "Large pau kaya",
+   "kcal": 260
+  },
+  {
+   "name": "Mini pau kaya",
+   "kcal": 110
+  }
+ ],
+ "diet": "Yes. One pau kaya is small and works as a snack. But it's almost all carbs and sugar, so you get hungry again quickly. Pair it with some protein so you stay full longer.",
+ "tips": [
+  "Have just 1 piece and pair it with a boiled egg.",
+  "Drink kopi or teh kosong, not a sweet drink.",
+  "Pick the mini size if available."
+ ],
+ "swap": {
+  "name": "1 pau kaya + boiled egg",
+  "kcal": 270,
+  "why": "The extra protein keeps you full longer than eating 2 paus."
+ },
+ "faq": [
+  {
+   "q": "How long does pau kaya last?",
+   "a": "Frozen pau can last a few weeks. Once steamed, best to finish it within the day."
+  },
+  {
+   "q": "How do I reheat pau without a steamer?",
+   "a": "Wrap it in a damp kitchen towel and microwave for 30 to 60 seconds."
+  },
+  {
+   "q": "Can I give pau kaya to kids?",
+   "a": "Yes, as a snack, but not too often because it's high in sugar."
+  }
+ ]
+}

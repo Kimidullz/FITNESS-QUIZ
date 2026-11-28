@@ -1,0 +1,63 @@
+{
+ "slug": "kangkung-belacan",
+ "name_en": "Kangkung belacan",
+ "serving_en": "1 scoop (senduk)",
+ "intro": "One scoop of kangkung belacan is roughly 120 kcal. Kangkung itself is very low in calories. Almost all the calories come from the cooking oil.",
+ "breakdown": [
+  {
+   "part": "Kangkung (about 1 cup cooked)",
+   "kcal": 25
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 70
+  },
+  {
+   "part": "Belacan, chilli and onions",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Oily kangkung belacan (shop-style)",
+   "kcal": 170
+  },
+  {
+   "name": "Kangkung belacan with sotong",
+   "kcal": 180
+  },
+  {
+   "name": "Blanched kangkung with sambal",
+   "kcal": 70
+  },
+  {
+   "name": "Kangkung stir-fried with water (little oil)",
+   "kcal": 80
+  }
+ ],
+ "diet": "Yes, and it's encouraged because it's a vegetable. Just remember the calories come from the oil, not the kangkung. Take the kangkung and leave the oil on the plate. An easy way to add veggies when eating out.",
+ "tips": [
+  "When ordering, ask for 'kurang minyak'. Most cooks understand.",
+  "Use a slotted spoon or drain the oil before putting it on your rice.",
+  "At home, stir-fry with 1 spoon of oil and a splash of water so it doesn't dry out."
+ ],
+ "swap": {
+  "name": "Blanched kangkung with sambal belacan dip",
+  "kcal": 70,
+  "why": "You still get the belacan flavour, without all the frying oil."
+ },
+ "faq": [
+  {
+   "q": "Is it safe to eat kangkung often?",
+   "a": "For most people, yes. Just wash it well because kangkung grows in wet areas."
+  },
+  {
+   "q": "How do I keep kangkung green when cooking?",
+   "a": "Use high heat and cook it quickly. Don't cover the wok for too long."
+  },
+  {
+   "q": "Is belacan high in salt?",
+   "a": "Yes, belacan is salty. A little is enough for flavour, and cut back on other salt."
+  }
+ ]
+}

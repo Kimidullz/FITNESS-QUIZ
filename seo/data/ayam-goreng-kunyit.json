@@ -1,0 +1,70 @@
+{
+ "slug": "ayam-goreng-kunyit",
+ "intro": "Seketul ayam goreng kunyit saiz sederhana ada anggaran 300 kcal. Kalori datang dari isi ayam, kulit dan minyak yang diserap semasa menggoreng.",
+ "protein_g": 24,
+ "carbs_g": 6,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Isi ayam",
+   "kcal": 150
+  },
+  {
+   "part": "Kulit ayam",
+   "kcal": 80
+  },
+  {
+   "part": "Minyak yang diserap",
+   "kcal": 60
+  },
+  {
+   "part": "Perapan kunyit, garam dan sedikit tepung",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kepak ayam goreng kunyit",
+   "kcal": 200
+  },
+  {
+   "name": "Peha ayam besar goreng kunyit",
+   "kcal": 380
+  },
+  {
+   "name": "Dada ayam goreng kunyit tanpa kulit",
+   "kcal": 220
+  },
+  {
+   "name": "Ayam bakar kunyit (seketul)",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh. Ayam goreng kunyit beri protein yang tinggi, lebih kurang 24 g seketul. Kalorinya naik sebab kulit dan minyak. Seketul dengan nasi, sayur dan ulam masih boleh masuk dalam bajet kalori harian.",
+ "tips": [
+  "Buang kulit, jimat anggaran 80 kcal tanpa kurang protein.",
+  "Pilih bahagian dada kalau nak protein lebih dan lemak kurang.",
+  "Masak sendiri guna air fryer, perapan kunyit tetap sedap dan wangi."
+ ],
+ "swap": {
+  "name": "Ayam kunyit air fryer tanpa kulit",
+  "kcal": 200,
+  "why": "Protein hampir sama, tapi kurang minyak dan lemak kulit."
+ },
+ "faq": [
+  {
+   "q": "Macam mana nak buat ayam goreng kunyit rangup?",
+   "a": "Keringkan ayam selepas perap, tambah sedikit tepung beras, dan goreng dalam minyak yang betul-betul panas."
+  },
+  {
+   "q": "Boleh masak ayam goreng kunyit dalam air fryer?",
+   "a": "Boleh. Sapu sedikit minyak, masak sekitar 180°C lebih kurang 20 hingga 25 minit, terbalikkan di tengah masa masak."
+  },
+  {
+   "q": "Bahagian ayam mana paling tinggi protein?",
+   "a": "Dada ayam tanpa kulit paling tinggi protein dan paling rendah lemak. Peha lebih juicy tapi lemak lebih tinggi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

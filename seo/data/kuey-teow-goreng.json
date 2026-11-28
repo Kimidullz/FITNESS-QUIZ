@@ -1,0 +1,70 @@
+{
+ "slug": "kuey-teow-goreng",
+ "intro": "Sepinggan kuey teow goreng gerai ada anggaran 650 kcal. Kebanyakan kalori datang dari kuey teow itu sendiri dan minyak yang banyak masa digoreng atas api besar.",
+ "protein_g": 20,
+ "carbs_g": 85,
+ "fat_g": 26,
+ "breakdown": [
+  {
+   "part": "Kuey teow 1 pinggan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak masak, kicap & sos",
+   "kcal": 220
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 80
+  },
+  {
+   "part": "Udang/ayam sikit, taugeh & sawi",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow goreng + telur mata",
+   "kcal": 740
+  },
+  {
+   "name": "Kuey teow goreng daging",
+   "kcal": 700
+  },
+  {
+   "name": "Kuey teow goreng ayam",
+   "kcal": 680
+  },
+  {
+   "name": "Kuey teow goreng kurang minyak, lebih sayur",
+   "kcal": 560
+  }
+ ],
+ "diet": "Boleh, kuey teow goreng masih boleh masuk dalam plan turun berat. Cuma ia tinggi minyak dan protein agak rendah, jadi senang buat lapar balik cepat. Kalau makan, jadikan ia satu-satunya makanan berat untuk waktu itu dan jangan tambah gorengan lain. Satu atau dua kali seminggu, dengan portion biasa, okay je.",
+ "tips": [
+  "Pesan 'kurang minyak, lebih taugeh dan sayur' masa order.",
+  "Minta tambah ayam atau udang untuk naikkan protein supaya kenyang lebih lama.",
+  "Minum teh o kosong atau air kosong, bukan teh tarik atau sirap."
+ ],
+ "swap": {
+  "name": "Kuey teow sup ayam",
+  "kcal": 380,
+  "why": "Kuey teow yang sama tapi dalam kuah, bukan digoreng, jadi minyak jauh lebih sedikit dan masih rasa puas."
+ },
+ "faq": [
+  {
+   "q": "Apa beza kuey teow goreng dengan char kuey teow?",
+   "a": "Char kuey teow biasanya digoreng atas api sangat besar dengan kicap pekat, kerang dan kucai. Kuey teow goreng gerai biasa lebih ringkas, kadang lebih basah dan ikut gaya kedai."
+  },
+  {
+   "q": "Kuey teow diperbuat daripada apa?",
+   "a": "Kuey teow diperbuat daripada tepung beras dan air, dikukus jadi kepingan nipis kemudian dipotong leper."
+  },
+  {
+   "q": "Kuey teow goreng sesuai makan malam?",
+   "a": "Boleh, asalkan portion biasa dan tak tambah minum manis. Yang penting jumlah kalori sepanjang hari, bukan jam makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

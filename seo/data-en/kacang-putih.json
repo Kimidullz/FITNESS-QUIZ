@@ -1,0 +1,67 @@
+{
+ "slug": "kacang-putih",
+ "name_en": "Kacang putih",
+ "serving_en": "1 small packet",
+ "intro": "One small packet of kacang putih gives about 200 kcal (estimate). Most of the calories come from nuts and beans fried in oil, especially peanuts.",
+ "breakdown": [
+  {
+   "part": "Crispy fried chickpeas (kacang kuda)",
+   "kcal": 70
+  },
+  {
+   "part": "Fried peanuts",
+   "kcal": 70
+  },
+  {
+   "part": "Fried green peas / mung beans",
+   "kcal": 40
+  },
+  {
+   "part": "Oil, salt and spice powder",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roasted chickpeas (not fried), 1 small packet",
+   "kcal": 150
+  },
+  {
+   "name": "Fried peanuts only, 1 small packet",
+   "kcal": 240
+  },
+  {
+   "name": "Spicy mixed kacang, 1 small packet",
+   "kcal": 220
+  },
+  {
+   "name": "Kacang putih, 1 big packet",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, kacang putih is an okay snack when you're trying to lose weight. It has some protein and fibre, so it's more filling than chips. But it's easy to finish a big packet without noticing. The key is to buy a small packet and eat slowly.",
+ "tips": [
+  "Choose roasted chickpeas or peas, and cut down on fried peanuts.",
+  "Buy small packets only. Don't bring a big packet in front of the TV.",
+  "Have it with plain water or teh O kosong, not sweet drinks."
+ ],
+ "swap": {
+  "name": "Boiled chickpeas (kacang kuda), 1/2 cup",
+  "kcal": 130,
+  "why": "No frying oil, high in fibre, and still feels like a snack with a bit of salt and pepper."
+ },
+ "faq": [
+  {
+   "q": "What exactly is in kacang putih?",
+   "a": "It's a mix of beans and grains like chickpeas, peanuts, mung beans, green peas and sometimes small muruku. Most are fried or roasted with spices."
+  },
+  {
+   "q": "Is kacang putih okay for people with diabetes?",
+   "a": "It has fibre and protein that help, but it still has carbs and salt. Watch the packet size and check with your doctor or dietitian for advice that suits you."
+  },
+  {
+   "q": "Why is Ipoh kacang putih famous?",
+   "a": "Ipoh, especially Buntong, has long been known as a centre for making kacang putih. Many people buy it as buah tangan because there's lots of choice and it's crunchy."
+  }
+ ]
+}

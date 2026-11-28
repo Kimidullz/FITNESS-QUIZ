@@ -1,0 +1,66 @@
+{
+ "slug": "lamb-chop-dengan-kentang",
+ "intro": "Satu pinggan lamb chop dengan kentang ada anggaran 850 kcal. Kebanyakan kalori datang dari lemak daging kambing, kentang goreng dan sos black pepper.",
+ "protein_g": 45,
+ "carbs_g": 60,
+ "fat_g": 48,
+ "breakdown": [
+  {
+   "part": "Lamb chop 2 keping (bergoreng/grill)",
+   "kcal": 400
+  },
+  {
+   "part": "Kentang goreng atau wedges 1 hidangan",
+   "kcal": 250
+  },
+  {
+   "part": "Sos black pepper / mushroom",
+   "kcal": 100
+  },
+  {
+   "part": "Coleslaw atau sayur campur bermentega",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Lamb chop dengan mashed potato",
+   "kcal": 800
+  },
+  {
+   "name": "Lamb chop dengan sayur kukus (tanpa kentang)",
+   "kcal": 600
+  },
+  {
+   "name": "Lamb chop 3 keping dengan kentang goreng",
+   "kcal": 1050
+  }
+ ],
+ "diet": "Boleh, tapi anggap ini hidangan sekali-sekala, bukan menu mingguan. 850 kcal tu dah hampir separuh keperluan harian ramai wanita yang nak turun berat. Proteinnya tinggi, jadi ia mengenyangkan. Kalau makan malam ni, buat sarapan dan makan tengah hari lebih ringan dan tinggi protein.",
+ "tips": [
+  "Minta tukar kentang goreng kepada sayur atau salad, jimat anggaran 200 kcal.",
+  "Minta sos diasingkan dan guna separuh sahaja.",
+  "Potong lemak putih di tepi daging sebelum makan."
+ ],
+ "swap": {
+  "name": "Chicken grill (tanpa kulit) dengan salad",
+  "kcal": 450,
+  "why": "Masih rasa western, protein tinggi, tapi lemak jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Daging kambing tinggi kolesterol ke?",
+   "a": "Daging kambing ada lemak tepu, terutama bahagian berlemak. Makan sederhana dan buang lemak yang nampak. Kalau ada masalah kesihatan, rujuk doktor."
+  },
+  {
+   "q": "Lamb chop grill lagi baik dari goreng?",
+   "a": "Ya, biasanya grill guna kurang minyak. Tapi daging lamb chop memang sedia berlemak, jadi saiz hidangan tetap penting."
+  },
+  {
+   "q": "Lamb chop sesuai untuk bina otot?",
+   "a": "Ia sumber protein yang bagus. Cuma imbangkan dengan sumber protein lebih kurus seperti ayam, ikan dan telur pada hari lain."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

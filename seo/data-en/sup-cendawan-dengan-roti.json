@@ -1,0 +1,63 @@
+{
+ "slug": "sup-cendawan-dengan-roti",
+ "name_en": "Mushroom soup with bread",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of mushroom soup with bread is about 320 kcal (estimate). Most of the calories come from the cream and butter in the soup, plus the bread on the side.",
+ "breakdown": [
+  {
+   "part": "Creamy mushroom soup, 1 bowl",
+   "kcal": 190
+  },
+  {
+   "part": "Bread bun / garlic bread, 1 piece",
+   "kcal": 110
+  },
+  {
+   "part": "Butter spread for bread",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mushroom soup without bread",
+   "kcal": 190
+  },
+  {
+   "name": "With 2 pieces garlic bread",
+   "kcal": 430
+  },
+  {
+   "name": "Mushroom soup in a bread bowl",
+   "kcal": 600
+  },
+  {
+   "name": "Homemade mushroom soup with low-fat milk",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, mushroom soup with bread still fits within your daily calorie budget. But it's low in protein, so you may get hungry again soon. If it's your light dinner, add some protein like roast chicken. Also watch out if the bread comes in more than one piece.",
+ "tips": [
+  "Ask for plain bread, not butter-loaded garlic bread.",
+  "Add roast chicken or a boiled egg on the side for protein.",
+  "Cooking at home? Use low-fat milk instead of thick cream."
+ ],
+ "swap": {
+  "name": "Chicken vegetable soup with 1 slice of bread",
+  "kcal": 250,
+  "why": "More protein and less cream, so it's more filling with fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is canned mushroom soup the same as restaurant mushroom soup?",
+   "a": "Quite similar. Canned soup is usually saltier, so add water or milk and some vegetables to balance it."
+  },
+  {
+   "q": "Can I have mushroom soup for breakfast?",
+   "a": "Yes. Pair it with eggs or wholemeal bread so you stay full longer."
+  },
+  {
+   "q": "Is mushroom soup okay for kids?",
+   "a": "Yes, the texture is soft. Just use less salt if you're cooking for young children."
+  }
+ ]
+}

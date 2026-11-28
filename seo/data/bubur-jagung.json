@@ -1,0 +1,70 @@
+{
+ "slug": "bubur-jagung",
+ "intro": "Semangkuk bubur jagung ada anggaran 250 kcal. Kebanyakan kalori datang dari jagung, santan dan gula.",
+ "protein_g": 4,
+ "carbs_g": 42,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Jagung krim / biji jagung",
+   "kcal": 110
+  },
+  {
+   "part": "Santan",
+   "kcal": 70
+  },
+  {
+   "part": "Gula",
+   "kcal": 50
+  },
+  {
+   "part": "Sagu / tepung jagung",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bubur jagung tanpa santan",
+   "kcal": 180
+  },
+  {
+   "name": "Bubur jagung santan lebih",
+   "kcal": 320
+  },
+  {
+   "name": "Bubur jagung + sagu",
+   "kcal": 290
+  },
+  {
+   "name": "Separuh mangkuk",
+   "kcal": 125
+  }
+ ],
+ "diet": "Boleh, sebagai pencuci mulut atau snek. Bubur jagung tinggi karbo dan gula, tapi protein sangat rendah. Separuh mangkuk biasanya dah cukup untuk puaskan rasa manis.",
+ "tips": [
+  "Ambil separuh mangkuk, terutama selepas makan berat.",
+  "Masak sendiri dengan kurang gula dan santan cair.",
+  "Jangan jadikan ia pengganti makanan utama."
+ ],
+ "swap": {
+  "name": "Jagung rebus 1 tongkol",
+  "kcal": 120,
+  "why": "Rasa jagung asli tanpa santan dan gula tambahan, serat pula lebih."
+ },
+ "faq": [
+  {
+   "q": "Bubur jagung dibuat daripada apa?",
+   "a": "Biasanya jagung krim atau biji jagung, santan, gula dan sedikit sagu atau tepung jagung untuk pekat."
+  },
+  {
+   "q": "Bubur jagung sesuai untuk berbuka puasa?",
+   "a": "Ya, ia juadah manis yang popular di bazar Ramadan. Ambil portion kecil selepas makan utama."
+  },
+  {
+   "q": "Boleh guna susu ganti santan?",
+   "a": "Boleh. Susu rendah lemak jadikan bubur lebih ringan tapi masih berkrim."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

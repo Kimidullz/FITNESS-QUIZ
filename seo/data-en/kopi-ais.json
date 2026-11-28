@@ -1,0 +1,63 @@
+{
+ "slug": "kopi-ais",
+ "name_en": "Kopi ais (kopi susu)",
+ "serving_en": "1 glass",
+ "intro": "One glass of kopi ais (kopi susu) at a mamak or kopitiam is about 170 kcal. Most of the calories come from condensed milk and sugar, not the coffee itself.",
+ "breakdown": [
+  {
+   "part": "Condensed milk (2 tbsp)",
+   "kcal": 130
+  },
+  {
+   "part": "Added sugar",
+   "kcal": 30
+  },
+  {
+   "part": "Coffee + ice",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kopi ais kurang manis",
+   "kcal": 120
+  },
+  {
+   "name": "Kopi-O ais (with sugar)",
+   "kcal": 70
+  },
+  {
+   "name": "Kopi-O ais kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Kopi ais large / jug",
+   "kcal": 250
+  }
+ ],
+ "diet": "Yes, but watch how often. One glass a day is still okay if the rest of your food is in check. The problem is when it becomes 2-3 glasses a day. That's like adding an extra plate of rice. Try cutting the sweetness first. Your taste buds will adjust in a week or two.",
+ "tips": [
+  "Order 'kopi ais kurang manis' or 'kopi C ais kosong' (evaporated milk, no sugar).",
+  "Limit it to one glass a day, for example only at breakfast.",
+  "If you want a second glass, make it kopi-O ais kosong."
+ ],
+ "swap": {
+  "name": "Kopi C ais kosong",
+  "kcal": 60,
+  "why": "Still milky from the evaporated milk, but no condensed milk or sugar. You save over 100 kcal per glass."
+ },
+ "faq": [
+  {
+   "q": "Can kopi ais make me hungry faster?",
+   "a": "High sugar can make your energy go up and down quickly. Some people feel hungry again soon after. Having it with food that has protein can help."
+  },
+  {
+   "q": "What's the difference between kopi susu and kopi C?",
+   "a": "Kopi susu uses condensed milk. Kopi C uses evaporated milk and sugar. Kopi C kosong has no sugar at all."
+  },
+  {
+   "q": "When is the best time to drink kopi ais?",
+   "a": "Most people have it in the morning or at lunch. Avoid late afternoon if caffeine affects your sleep, because poor sleep can make it harder to control your appetite."
+  }
+ ]
+}

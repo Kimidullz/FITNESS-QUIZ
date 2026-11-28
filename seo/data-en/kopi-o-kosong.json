@@ -1,0 +1,63 @@
+{
+ "slug": "kopi-o-kosong",
+ "name_en": "Kopi O kosong",
+ "serving_en": "1 glass",
+ "intro": "One glass of kopi O kosong is only about 5 kcal. Those few calories come from the coffee, sometimes a little from the butter or sugar used when roasting the beans.",
+ "breakdown": [
+  {
+   "part": "Brewed coffee",
+   "kcal": 5
+  },
+  {
+   "part": "Hot water",
+   "kcal": 0
+  },
+  {
+   "part": "Ice (for kopi O ais kosong)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kopi O with sugar",
+   "kcal": 60
+  },
+  {
+   "name": "Kopi O kurang manis",
+   "kcal": 35
+  },
+  {
+   "name": "Kopi C kosong (evaporated milk)",
+   "kcal": 40
+  },
+  {
+   "name": "Kopi tarik",
+   "kcal": 150
+  }
+ ],
+ "diet": "Great choice when you want to lose weight. You get the coffee taste and caffeine without the sugar calories. It's also easy to order at any kopitiam. If it's too bitter, try kopi C kosong first.",
+ "tips": [
+  "Just ask for 'kopi O kosong'. Easy and cheap.",
+  "If you want it a bit creamy, choose kopi C kosong over kopi tarik.",
+  "Avoid drinking it late in the afternoon so your sleep isn't affected. Sleep matters for controlling your appetite too."
+ ],
+ "swap": {
+  "name": "Kopi C kosong",
+  "kcal": 40,
+  "why": "A little milky taste with no sugar, still much lighter than kopi tarik."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between kopi O, kopi C and regular kopi?",
+   "a": "Kopi O has no milk. Kopi C uses evaporated milk. Regular kopi uses condensed milk."
+  },
+  {
+   "q": "Why does kopitiam coffee taste different?",
+   "a": "Many local coffee beans are roasted with butter or margarine and sugar. That gives the special taste and aroma."
+  },
+  {
+   "q": "How many cups of coffee a day is okay?",
+   "a": "Most adults are okay with 2-3 cups a day. If you have health issues or are pregnant, check with your doctor."
+  }
+ ]
+}

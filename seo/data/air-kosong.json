@@ -1,0 +1,66 @@
+{
+ "slug": "air-kosong",
+ "intro": "Segelas air kosong ada 0 kcal. Tiada gula, lemak atau protein, jadi ia minuman paling 'jimat' kalori.",
+ "protein_g": 0,
+ "carbs_g": 0,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Air kosong 1 gelas (250ml)",
+   "kcal": 0
+  },
+  {
+   "part": "Ais",
+   "kcal": 0
+  },
+  {
+   "part": "Hirisan lemon/limau (pilihan)",
+   "kcal": 2
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air suam",
+   "kcal": 0
+  },
+  {
+   "name": "Air limau nipis tanpa gula",
+   "kcal": 5
+  },
+  {
+   "name": "Teh o kosong",
+   "kcal": 2
+  },
+  {
+   "name": "Air soda tanpa gula",
+   "kcal": 0
+  }
+ ],
+ "diet": "Sangat boleh, malah inilah minuman utama yang kami galakkan. Tukar satu teh tarik sehari kepada air kosong pun dah jimat anggaran 150 kcal. Air tak 'bakar lemak', tapi ia bantu elak kalori cair yang tak disedari. Kadang rasa lapar sebenarnya dahaga, jadi minum dulu sebelum snek.",
+ "tips": [
+  "Bawa botol air ke pejabat dan isi semula 3-4 kali sehari.",
+  "Di mamak, order 'air kosong ais' dulu sebelum makanan sampai.",
+  "Bosan? Tambah hirisan limau, timun atau daun pudina."
+ ],
+ "swap": {
+  "name": "Air limau nipis suam tanpa gula",
+  "kcal": 5,
+  "why": "Untuk yang bosan dengan air kosong. Ada rasa, tapi kalori hampir sifar."
+ },
+ "faq": [
+  {
+   "q": "Berapa gelas air perlu minum sehari?",
+   "a": "Keperluan berbeza ikut berat badan, cuaca dan aktiviti. Panduan mudah: minum sampai warna air kencing kuning pucat. Untuk ramai orang dewasa, sekitar 6-8 gelas."
+  },
+  {
+   "q": "Minum air sebelum makan boleh kurangkan makan?",
+   "a": "Bagi sesetengah orang, segelas air sebelum makan buat rasa lebih kenyang dan makan lebih perlahan. Ia cara mudah, tapi bukan magik."
+  },
+  {
+   "q": "Air sejuk buat gemuk ke?",
+   "a": "Tak. Air sejuk dan air suam sama-sama 0 kcal. Pilih yang anda paling selesa minum."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

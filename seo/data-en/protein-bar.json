@@ -1,0 +1,63 @@
+{
+ "slug": "protein-bar",
+ "name_en": "Protein bar",
+ "serving_en": "1 bar",
+ "intro": "A typical protein bar gives you about 200 kcal (estimate). The calories come roughly equally from protein and carbs, plus fat from nuts or chocolate coating.",
+ "breakdown": [
+  {
+   "part": "Protein (milk or soy blend)",
+   "kcal": 75
+  },
+  {
+   "part": "Carbs, sugar and fibre",
+   "kcal": 80
+  },
+  {
+   "part": "Fat from nuts and chocolate coating",
+   "kcal": 45
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small bar (~40 g)",
+   "kcal": 150
+  },
+  {
+   "name": "Large bar (~60 g)",
+   "kcal": 250
+  },
+  {
+   "name": "Regular granola bar",
+   "kcal": 180
+  },
+  {
+   "name": "Thick chocolate-coated bar",
+   "kcal": 260
+  }
+ ],
+ "diet": "Yes, you can. A protein bar can be a practical snack when you're busy and have no other option. But it's still processed food, and some have the same calories as a regular chocolate bar. It has no special power to make you lose weight. Real food like eggs, chicken, fish and tauhu should still be your main protein sources.",
+ "tips": [
+  "Read the label: pick one with at least 15 g protein and low sugar.",
+  "Keep it in your bag as an emergency snack, not an extra after every meal.",
+  "Have it with plain water and a fruit if you want to feel fuller."
+ ],
+ "swap": {
+  "name": "2 boiled eggs + 1 apple",
+  "kcal": 220,
+  "why": "Real food that's easy to carry, with good protein, fibre from the fruit, and usually cheaper."
+ },
+ "faq": [
+  {
+   "q": "Can a protein bar replace lunch?",
+   "a": "Once in a while when you're desperate, okay. But it's too small to be a full meal, so you may get hungry again and eat more later."
+  },
+  {
+   "q": "When is the best time to eat a protein bar?",
+   "a": "There's no must-time. Many people have it as an afternoon snack or after exercise when they can't get a proper meal."
+  },
+  {
+   "q": "Why do some protein bars make me feel bloated?",
+   "a": "Some bars use sugar alcohol sweeteners or high fibre, which can make some people feel bloated. Try another type or have them less often if this happens."
+  }
+ ]
+}

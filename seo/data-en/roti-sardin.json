@@ -1,0 +1,63 @@
+{
+ "slug": "roti-sardin",
+ "name_en": "Roti sardin",
+ "serving_en": "1 piece",
+ "intro": "One roti sardin has an estimated 480 kcal. The calories come from the roti canai dough and cooking oil, while the sardines give you decent protein.",
+ "breakdown": [
+  {
+   "part": "Roti canai dough",
+   "kcal": 300
+  },
+  {
+   "part": "Sardine & onion filling",
+   "kcal": 110
+  },
+  {
+   "part": "Extra cooking oil",
+   "kcal": 40
+  },
+  {
+   "part": "Kuah (a little)",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "No kuah",
+   "kcal": 450
+  },
+  {
+   "name": "Roti sardin telur",
+   "kcal": 570
+  },
+  {
+   "name": "Roti sardin cheese",
+   "kcal": 580
+  }
+ ],
+ "diet": "Yes, and it's one of the better mamak roti choices for protein. Sardines have protein and omega-3. But the dough and oil still keep the calories high. One piece with a less sweet drink is enough for one meal.",
+ "tips": [
+  "Have just one piece and ask for kuah on the side.",
+  "Choose teh o or kopi o kurang manis.",
+  "Have some veggies or fruit after so you feel fuller."
+ ],
+ "swap": {
+  "name": "Tosai telur",
+  "kcal": 280,
+  "why": "You still get protein from the egg, with less oil and dough. Saves you almost 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Is the sardine in roti sardin from a can?",
+   "a": "Usually yes. It's canned sardine in tomato sauce, mashed with onion and chilli. Some shops add a bit of spice."
+  },
+  {
+   "q": "Is roti sardin high in salt?",
+   "a": "Canned sardines do contain salt. If you're watching your blood pressure, take less kuah and skip the salty sambal."
+  },
+  {
+   "q": "Can I make roti sardin with Gardenia bread?",
+   "a": "Yes, this home version is easier. Spread the sardine filling in the bread, then bake or toast without much oil."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "aglio-olio-udang",
+ "name_en": "Prawn aglio olio",
+ "serving_en": "1 plate",
+ "intro": "One plate of prawn aglio olio is about 600 kcal (estimate). Most of the calories come from the pasta and the olive oil used for frying.",
+ "breakdown": [
+  {
+   "part": "Cooked spaghetti ~1.5 cups",
+   "kcal": 330
+  },
+  {
+   "part": "Olive oil, garlic and chilli",
+   "kcal": 200
+  },
+  {
+   "part": "Prawns ~6 pieces",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chicken aglio olio",
+   "kcal": 650
+  },
+  {
+   "name": "Mixed seafood aglio olio",
+   "kcal": 650
+  },
+  {
+   "name": "With 2 slices garlic bread",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, this is one of the lighter pastas because there's no cream. But it can be quite oily, especially at cafés. The protein from the prawns is a bit low, so add more protein if you can. A good choice when you're eating out with friends.",
+ "tips": [
+  "Ask for less oil when you order.",
+  "Add extra prawns or chicken for more protein.",
+  "Cooking at home? Measure just 1 tablespoon of oil per serving."
+ ],
+ "swap": {
+  "name": "Grilled chicken (skinless) with salad",
+  "kcal": 450,
+  "why": "Higher protein and fewer calories, so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Is aglio olio spicy?",
+   "a": "It usually has dried chilli or cili padi. How spicy depends on the shop. You can ask for less spicy."
+  },
+  {
+   "q": "Is aglio olio healthier than carbonara?",
+   "a": "In terms of calories and saturated fat, yes, it's usually lower because there's no cream and less cheese."
+  },
+  {
+   "q": "Is aglio olio easy to cook at home?",
+   "a": "Very easy. Boil spaghetti, fry garlic and chilli in a little oil, add prawns and toss with the pasta."
+  }
+ ]
+}

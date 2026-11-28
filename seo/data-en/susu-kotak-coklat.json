@@ -1,0 +1,63 @@
+{
+ "slug": "susu-kotak-coklat",
+ "name_en": "Chocolate milk (packet)",
+ "serving_en": "1 packet 200ml",
+ "intro": "A 200ml packet of chocolate milk is about 160 kcal (estimate). Most of it comes from the milk itself and the added sugar for the chocolate flavour.",
+ "breakdown": [
+  {
+   "part": "Milk (200ml)",
+   "kcal": 100
+  },
+  {
+   "part": "Added sugar (~12g)",
+   "kcal": 50
+  },
+  {
+   "part": "Cocoa powder",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain/full cream milk packet 200ml",
+   "kcal": 130
+  },
+  {
+   "name": "Reduced sugar chocolate milk 200ml",
+   "kcal": 130
+  },
+  {
+   "name": "Chocolate milk packet 250ml",
+   "kcal": 200
+  },
+  {
+   "name": "Low-fat plain milk packet 200ml",
+   "kcal": 95
+  }
+ ],
+ "diet": "Yes. Chocolate milk has protein and calcium, so it's not just sweet water. But the added sugar is quite high for one small packet. Better as a snack, for example after exercise, rather than with a heavy meal.",
+ "tips": [
+  "Pick 'reduced sugar' labels at the convenience store.",
+  "Have it as your afternoon snack instead of kuih, not on top of kuih.",
+  "At home, mix half chocolate milk with half plain milk."
+ ],
+ "swap": {
+  "name": "Low-fat plain milk 200ml",
+  "kcal": 95,
+  "why": "About the same protein, but no added sugar. Saves about 65 kcal per packet."
+ },
+ "faq": [
+  {
+   "q": "Is chocolate milk good after a workout?",
+   "a": "Many people drink chocolate milk after exercise because it has both carbs and protein. It's a practical choice, as long as you count it in your daily calories."
+  },
+  {
+   "q": "How much sugar is in a packet of chocolate milk?",
+   "a": "It depends on the brand, but usually around 15-20g total sugar, including the milk's natural sugar. Check the label on the back."
+  },
+  {
+   "q": "Can I give my kids chocolate milk every day?",
+   "a": "In moderate amounts, yes, but it's better to alternate with plain milk so they don't get too much sugar."
+  }
+ ]
+}

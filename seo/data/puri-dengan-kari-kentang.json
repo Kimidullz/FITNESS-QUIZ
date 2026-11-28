@@ -1,0 +1,66 @@
+{
+ "slug": "puri-dengan-kari-kentang",
+ "intro": "Dua keping puri dengan kari kentang ada anggaran 420 kcal. Puri digoreng deep-fry, jadi minyak yang diserap ialah penyumbang kalori terbesar, diikuti kentang.",
+ "protein_g": 8,
+ "carbs_g": 52,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Puri 2 keping (goreng)",
+   "kcal": 250
+  },
+  {
+   "part": "Kari kentang",
+   "kcal": 140
+  },
+  {
+   "part": "Chutney",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Puri 1 keping + kari",
+   "kcal": 250
+  },
+  {
+   "name": "Puri + kari dal (ganti kentang)",
+   "kcal": 400
+  },
+  {
+   "name": "Puri 3 keping + kari",
+   "kcal": 545
+  },
+  {
+   "name": "Puri + teh tarik",
+   "kcal": 570
+  }
+ ],
+ "diet": "Boleh, tapi ini lebih sesuai sebagai makanan sekali-sekala. Puri goreng dan kentang dua-dua karbohidrat, protein pula rendah. Jadi kalori tinggi tapi kenyang tak lama. Satu keping dengan lebih kari sayur atau dal sudah cukup untuk ramai orang.",
+ "tips": [
+  "Ambil 1 keping puri dulu, tunggu 10 minit sebelum tambah.",
+  "Minta kari dal atau kari kacang kuda untuk tambah protein.",
+  "Tekan puri dengan tisu sikit untuk buang minyak berlebihan."
+ ],
+ "swap": {
+  "name": "Chapati 2 keping + kuah dal",
+  "kcal": 340,
+  "why": "Chapati dibakar tanpa deep-fry, jadi kurang minyak. Dal pula beri protein dan serat."
+ },
+ "faq": [
+  {
+   "q": "Apa beza puri dengan chapati?",
+   "a": "Dua-dua dari tepung gandum. Puri digoreng sampai kembang, chapati pula dibakar atas kuali kering."
+  },
+  {
+   "q": "Kenapa puri boleh kembang macam belon?",
+   "a": "Wap dalam doh mengembang bila kena minyak panas. Minyak mesti cukup panas dan doh digelek sekata."
+  },
+  {
+   "q": "Kari kentang untuk puri pedas tak?",
+   "a": "Biasanya tak pedas sangat. Ia lebih kepada rasa kunyit, biji sawi dan daun kari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

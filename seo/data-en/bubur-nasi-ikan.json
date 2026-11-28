@@ -1,0 +1,67 @@
+{
+ "slug": "bubur-nasi-ikan",
+ "name_en": "Bubur nasi ikan (fish porridge)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of bubur nasi ikan has an estimated 280 kcal. Most of the calories come from the rice in the porridge, while the fish gives you protein.",
+ "breakdown": [
+  {
+   "part": "Rice porridge, 1 bowl",
+   "kcal": 150
+  },
+  {
+   "part": "Fish (slices or fillet)",
+   "kcal": 80
+  },
+  {
+   "part": "Shallot oil & fried shallots",
+   "kcal": 35
+  },
+  {
+   "part": "Ginger, spring onion, soy sauce",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Fish porridge + 1 egg",
+   "kcal": 350
+  },
+  {
+   "name": "Bubur ayam",
+   "kcal": 300
+  },
+  {
+   "name": "Fish porridge + cakoi",
+   "kcal": 480
+  },
+  {
+   "name": "Fish porridge + telur pindan",
+   "kcal": 360
+  }
+ ],
+ "diet": "Definitely. Fish porridge is a light, protein-rich option for breakfast or dinner. But porridge digests quickly, so some people get hungry again fast. Add more protein or veggies to stay full longer.",
+ "tips": [
+  "Ask for extra fish or add an egg to boost protein.",
+  "Go easy on the shallot oil and fried shallots on top.",
+  "Skip the cakoi, or share one with a friend."
+ ],
+ "swap": {
+  "name": "Fish porridge + egg, no cakoi",
+  "kcal": 350,
+  "why": "More protein and stays with you longer, without the extra oil from cakoi."
+ },
+ "faq": [
+  {
+   "q": "What fish is usually used in fish porridge?",
+   "a": "Usually ikan batang, ikan merah or ikan haruan. Some stalls use dory fillet."
+  },
+  {
+   "q": "Is fish porridge good when you're unwell?",
+   "a": "Porridge is a common choice when appetite is low because it's soft and easy to swallow. If you have health issues, follow your doctor's advice."
+  },
+  {
+   "q": "Can I make fish porridge quickly at home?",
+   "a": "Yes. Use leftover rice, cook it with water and ginger, then add the fish slices when it's almost done."
+  }
+ ]
+}

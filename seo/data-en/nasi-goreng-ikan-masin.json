@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-goreng-ikan-masin",
+ "name_en": "Nasi goreng ikan masin",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi goreng ikan masin has about 650 kcal less 30, around 620 kcal. Most of the calories come from the rice and cooking oil. The ikan masin itself adds only a little.",
+ "breakdown": [
+  {
+   "part": "Rice, 1.5 cups",
+   "kcal": 330
+  },
+  {
+   "part": "Oil, 1.5 tablespoons",
+   "kcal": 135
+  },
+  {
+   "part": "Egg, 1",
+   "kcal": 75
+  },
+  {
+   "part": "Ikan masin, 20g",
+   "kcal": 50
+  },
+  {
+   "part": "Vegetables, onion and soy sauce",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half rice, less oil",
+   "kcal": 450
+  },
+  {
+   "name": "Add telur mata",
+   "kcal": 710
+  },
+  {
+   "name": "Add ayam goreng",
+   "kcal": 900
+  }
+ ],
+ "diet": "Yes, but better as an occasional meal. Fried rice soaks up a lot of oil and shop portions are usually big. Ikan masin is also very salty, so many people feel thirsty and bloated after. Share it or ask for less oil to keep calories in check.",
+ "tips": [
+  "Say 'kurang minyak, kurang nasi' when you order.",
+  "Add vegetables like kangkung or sawi for fibre.",
+  "Drink plain water instead of teh tarik or sirap ais."
+ ],
+ "swap": {
+  "name": "1 cup white rice + telur dadar + stir-fried vegetables",
+  "kcal": 480,
+  "why": "Less oil and easier to control your rice portion."
+ },
+ "faq": [
+  {
+   "q": "What type of ikan masin is good for fried rice?",
+   "a": "Ikan masin kurau or gelama are popular because they're fragrant. Fry it crispy first, then break it up."
+  },
+  {
+   "q": "Is ikan masin high in salt?",
+   "a": "Yes, very high. If you're watching your blood pressure, use just a little and cut down on soy sauce."
+  },
+  {
+   "q": "Why does fried rice taste better with overnight rice?",
+   "a": "Overnight rice is drier, so it doesn't stick or go mushy when fried."
+  }
+ ]
+}

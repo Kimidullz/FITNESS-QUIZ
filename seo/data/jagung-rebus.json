@@ -1,0 +1,66 @@
+{
+ "slug": "jagung-rebus",
+ "intro": "Satu batang jagung rebus tanpa mentega ada anggaran 120 kcal. Kebanyakan kalori datang dari karbohidrat dalam biji jagung.",
+ "protein_g": 4,
+ "carbs_g": 24,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Karbohidrat biji jagung",
+   "kcal": 95
+  },
+  {
+   "part": "Protein",
+   "kcal": 16
+  },
+  {
+   "part": "Lemak semula jadi",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jagung + mentega 1 sudu teh",
+   "kcal": 155
+  },
+  {
+   "name": "Jagung cawan dengan mentega dan susu pekat",
+   "kcal": 200
+  },
+  {
+   "name": "Jagung bakar tanpa sapuan",
+   "kcal": 120
+  },
+  {
+   "name": "Jagung cawan kecil kosong",
+   "kcal": 90
+  }
+ ],
+ "diet": "Boleh, jagung rebus snek yang mengenyangkan dengan kalori sederhana. Ia ada serat dan perlu dikunyah lama. Yang tambah kalori biasanya mentega, marjerin dan susu pekat di pasar malam. Minta kurang topping, terus jadi snek yang okay.",
+ "tips": [
+  "Di pasar malam, minta jagung cawan tanpa susu pekat atau mentega separuh.",
+  "Tabur sedikit garam atau serbuk lada untuk rasa tanpa tambah kalori.",
+  "Makan jagung sebagai karbohidrat petang, dan kurangkan nasi waktu makan malam."
+ ],
+ "swap": {
+  "name": "Jambu batu, 1 biji sederhana",
+  "kcal": 70,
+  "why": "Kalori lebih rendah, tinggi serat dan vitamin C, sesuai untuk snek petang."
+ },
+ "faq": [
+  {
+   "q": "Jagung ni sayur atau karbohidrat?",
+   "a": "Dari segi pemakanan, jagung lebih dekat dengan karbohidrat macam nasi atau ubi. Jangan kira ia sebagai sayur."
+  },
+  {
+   "q": "Jagung manis tinggi gula ke?",
+   "a": "Ada sedikit gula semula jadi, tapi kebanyakan tetap kanji dan serat. Satu batang masih snek yang sederhana."
+  },
+  {
+   "q": "Berapa lama rebus jagung?",
+   "a": "Lebih kurang 10 hingga 15 minit dalam air mendidih, sampai biji lembut."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

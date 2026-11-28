@@ -1,0 +1,59 @@
+{
+ "slug": "teh-c-special",
+ "name_en": "Teh C special (3 layer)",
+ "serving_en": "1 glass",
+ "intro": "One glass of teh C special (3 layer) is about 220 kcal. Most of the calories come from the gula melaka syrup at the bottom and the evaporated milk.",
+ "breakdown": [
+  {
+   "part": "Gula melaka syrup",
+   "kcal": 140
+  },
+  {
+   "part": "Evaporated milk",
+   "kcal": 70
+  },
+  {
+   "part": "Tea + ice",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Regular teh C ais",
+   "kcal": 150
+  },
+  {
+   "name": "Teh C special kurang manis",
+   "kcal": 160
+  },
+  {
+   "name": "Teh C ais kosong",
+   "kcal": 60
+  }
+ ],
+ "diet": "Yes, but treat it as a 'treat' drink, not an everyday one. 220 kcal is about the same as a small plate of rice. Once a week when you lepak is no problem. Just don't make it a daily thing.",
+ "tips": [
+  "Ask for 'kurang gula melaka' when you order.",
+  "Share one glass with a friend or your partner.",
+  "Stir and drink half, then add more ice to dilute it."
+ ],
+ "swap": {
+  "name": "Teh C ais kosong",
+  "kcal": 60,
+  "why": "Still has that creamy milk tea taste, without the sugar syrup. You save about 160 kcal."
+ },
+ "faq": [
+  {
+   "q": "Why does teh C special have 3 layers?",
+   "a": "The bottom is gula melaka, the middle is evaporated milk, and the top is tea. Their different densities keep them layered until you stir."
+  },
+  {
+   "q": "Where does teh C special come from?",
+   "a": "It's popular in Sarawak, especially Kuching. Now many shops in the Peninsula sell it too."
+  },
+  {
+   "q": "Is gula melaka healthier than white sugar?",
+   "a": "Gula melaka is still sugar. It smells and tastes nicer, but the calories are about the same."
+  }
+ ]
+}

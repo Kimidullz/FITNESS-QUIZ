@@ -1,0 +1,67 @@
+{
+ "slug": "pau-ayam",
+ "name_en": "Pau ayam (chicken pau)",
+ "serving_en": "1 piece",
+ "intro": "One pau ayam is about 240 kcal (estimate). Most of the calories come from the bun, while the chicken filling gives you a bit of protein.",
+ "breakdown": [
+  {
+   "part": "Bun skin",
+   "kcal": 130
+  },
+  {
+   "part": "Chicken filling",
+   "kcal": 70
+  },
+  {
+   "part": "Gravy / oil in filling",
+   "kcal": 30
+  },
+  {
+   "part": "Potato / vegetables",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Curry chicken pau",
+   "kcal": 260
+  },
+  {
+   "name": "Beef pau",
+   "kcal": 270
+  },
+  {
+   "name": "Tai pau (big pau)",
+   "kcal": 400
+  },
+  {
+   "name": "Mini chicken pau",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes. Pau ayam is more balanced than sweet paus because of the protein from the chicken. One piece is good for a light breakfast or afternoon snack. If you want 2, count it as a full meal.",
+ "tips": [
+  "Choose pau ayam over sweet paus for more protein.",
+  "One pau with unsweetened milk or kopi O kosong is enough for a light breakfast.",
+  "Tai pau is best shared between two people."
+ ],
+ "swap": {
+  "name": "1 pau ayam + boiled egg",
+  "kcal": 310,
+  "why": "Protein almost doubles, and calories stay moderate."
+ },
+ "faq": [
+  {
+   "q": "Is the pau ayam at convenience stores halal?",
+   "a": "Some already have halal certification. Check for the halal logo on the packaging."
+  },
+  {
+   "q": "Why is pau skin so white and fluffy?",
+   "a": "It uses specially processed flour and a yeast-risen dough before steaming."
+  },
+  {
+   "q": "Can I keep pau ayam in the freezer?",
+   "a": "Yes. Steam it straight from frozen for 10 to 15 minutes."
+  }
+ ]
+}

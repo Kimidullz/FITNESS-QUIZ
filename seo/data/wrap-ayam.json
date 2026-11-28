@@ -1,0 +1,70 @@
+{
+ "slug": "wrap-ayam",
+ "intro": "Satu biji wrap ayam ada anggaran 450 kcal. Kebanyakan kalori datang dari tortilla, ayam dan sos mayonis.",
+ "protein_g": 28,
+ "carbs_g": 45,
+ "fat_g": 18,
+ "breakdown": [
+  {
+   "part": "Tortilla besar 1 keping",
+   "kcal": 180
+  },
+  {
+   "part": "Isi ayam ~100 g",
+   "kcal": 130
+  },
+  {
+   "part": "Sos mayo atau sos creamy",
+   "kcal": 100
+  },
+  {
+   "part": "Keju 1 keping",
+   "kcal": 20
+  },
+  {
+   "part": "Salad, tomato, timun",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Wrap ayam goreng crispy",
+   "kcal": 600
+  },
+  {
+   "name": "Wrap ayam grill tanpa mayo",
+   "kcal": 350
+  },
+  {
+   "name": "Wrap ayam dengan kentang goreng",
+   "kcal": 700
+  }
+ ],
+ "diet": "Ya, wrap ayam boleh jadi pilihan bagus untuk makan tengah hari di pejabat. Proteinnya okay dan senang dibawa. Yang perlu diperhati ialah ayam goreng dan sos mayo. Pilih ayam grill, kurangkan sos, dan ia memang mesra diet.",
+ "tips": [
+  "Pilih ayam grill, bukan ayam goreng tepung.",
+  "Minta sos sikit atau tukar kepada sos cili.",
+  "Tak perlu order kentang goreng sekali, ambil buah sebagai pencuci mulut."
+ ],
+ "swap": {
+  "name": "Salad ayam (dressing di tepi)",
+  "kcal": 350,
+  "why": "Protein serupa tapi tanpa tortilla, jadi kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Wrap lagi sihat dari roti burger?",
+   "a": "Tak semestinya. Tortilla besar kalorinya hampir sama dengan roti burger. Yang lebih penting ialah isi dan sos."
+  },
+  {
+   "q": "Boleh buat wrap untuk bekal kerja?",
+   "a": "Boleh. Guna ayam grill, sayur dan sos di tepi supaya tortilla tak lembik. Bungkus dengan kertas atau foil."
+  },
+  {
+   "q": "Tortilla wholemeal lagi baik?",
+   "a": "Ia ada lebih serat, jadi lebih kenyang. Kalorinya lebih kurang sama dengan tortilla biasa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

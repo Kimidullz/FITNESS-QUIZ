@@ -1,0 +1,71 @@
+{
+ "slug": "nasi-goreng-mamak",
+ "name_en": "Nasi goreng mamak",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi goreng mamak is about 700 kcal (estimate). Most of the calories come from the big portion of rice and the oil used when frying in a large wok.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.5 cups",
+   "kcal": 300
+  },
+  {
+   "part": "Cooking oil",
+   "kcal": 180
+  },
+  {
+   "part": "1 egg",
+   "kcal": 80
+  },
+  {
+   "part": "A little chicken or squid",
+   "kcal": 80
+  },
+  {
+   "part": "Chilli sauce, soy sauce and seasoning",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nasi goreng mamak with telur mata (fried egg)",
+   "kcal": 790
+  },
+  {
+   "name": "Nasi goreng mamak with extra chicken",
+   "kcal": 800
+  },
+  {
+   "name": "Nasi goreng kampung",
+   "kcal": 650
+  },
+  {
+   "name": "Nasi goreng pattaya",
+   "kcal": 850
+  }
+ ],
+ "diet": "Yes, fried rice isn't off-limits. But a mamak plate usually has lots of rice and oil, and not much protein. If you're trying to lose weight, control the portion and add protein. Having it 1-2 times a week can still fit your calorie budget.",
+ "tips": [
+  "Ask for less oil and half rice, most shops can do it.",
+  "Add chicken or a boiled egg instead of a fried egg.",
+  "Order fried veg or cucumber on the side to fill you up."
+ ],
+ "swap": {
+  "name": "Half white rice + ayam tandoori + vegetables",
+  "kcal": 480,
+  "why": "You still eat rice at the mamak, but with less oil and much more protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nasi goreng mamak and regular fried rice?",
+   "a": "Nasi goreng mamak is usually redder and spicier, made with chilli sauce, soy sauce, sometimes curry powder, and a bit of curry mixed in."
+  },
+  {
+   "q": "Why is nasi goreng mamak always oily?",
+   "a": "It's cooked fast over high heat with enough oil so the rice doesn't stick and gets that 'wok hei' aroma."
+  },
+  {
+   "q": "Is nasi goreng mamak okay for dinner?",
+   "a": "Sure, but if it's late at night, try a smaller portion so it's not too heavy before bed."
+  }
+ ]
+}

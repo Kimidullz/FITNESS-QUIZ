@@ -1,0 +1,70 @@
+{
+ "slug": "kuey-teow-sup-daging",
+ "intro": "Semangkuk kuey teow sup daging ada anggaran 420 kcal. Kebanyakan kalori datang daripada kuey teow itu sendiri, diikuti daging dan bebola daging dalam sup.",
+ "protein_g": 25,
+ "carbs_g": 55,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Kuey teow basah 1 cawan",
+   "kcal": 200
+  },
+  {
+   "part": "Hirisan daging & bebola daging",
+   "kcal": 120
+  },
+  {
+   "part": "Sup kaldu daging",
+   "kcal": 50
+  },
+  {
+   "part": "Sayur, bawang goreng & sambal kicap",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tambah perut / urat",
+   "kcal": 480
+  },
+  {
+   "name": "Kuey teow sup daging campur (tetel, paru)",
+   "kcal": 500
+  },
+  {
+   "name": "Mee hoon sup daging",
+   "kcal": 400
+  },
+  {
+   "name": "Sup daging sahaja tanpa mee",
+   "kcal": 200
+  }
+ ],
+ "diet": "Boleh, ini antara pilihan mi yang lebih ringan di kedai. Kuahnya jernih, jadi minyak tak banyak macam mi goreng. Protein pun okay daripada daging. Cuma jaga tambahan macam perut dan urat yang berlemak, dan jangan habiskan kuah kalau kedai guna banyak minyak.",
+ "tips": [
+  "Minta daging lebih, kuey teow kurang separuh.",
+  "Pilih daging hirisan, bukan tetel atau urat yang berlemak.",
+  "Minta tambah sayur dan kurangkan bawang goreng."
+ ],
+ "swap": {
+  "name": "Sup daging + nasi putih separuh cawan",
+  "kcal": 330,
+  "why": "Karbohidrat lebih sikit tapi masih kenyang, protein daging kekal."
+ },
+ "faq": [
+  {
+   "q": "Kuey teow sup daging sesuai untuk sarapan ke?",
+   "a": "Sesuai. Ia hangat, ringan dan ada protein. Lebih baik daripada roti canai berlapis kalau nak kenyang lama."
+  },
+  {
+   "q": "Kuah sup daging tinggi garam ke?",
+   "a": "Biasanya agak masin. Kalau risau, minum separuh kuah je dan elakkan sambal kicap berlebihan."
+  },
+  {
+   "q": "Apa beza kuey teow sup daging dengan sup tulang?",
+   "a": "Kuey teow sup daging fokus pada daging hirisan dan mi. Sup tulang lebih banyak tulang sumsum, biasanya lebih berlemak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "yong-tau-foo-sup",
+ "name_en": "Yong tau foo soup (6 pieces + noodles)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of yong tau foo soup (6 pieces + noodles) has an estimated 380 kcal. Most of the calories come from the noodles, followed by the yong tau foo pieces themselves.",
+ "breakdown": [
+  {
+   "part": "Yellow mee/mee hoon, 1 cup",
+   "kcal": 180
+  },
+  {
+   "part": "6 pieces yong tau foo (stuffed vegetables & tofu)",
+   "kcal": 150
+  },
+  {
+   "part": "Clear soup",
+   "kcal": 20
+  },
+  {
+   "part": "Chilli sauce & sweet sauce",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mostly fried pieces",
+   "kcal": 500
+  },
+  {
+   "name": "No noodles (6 pieces only)",
+   "kcal": 200
+  },
+  {
+   "name": "Curry yong tau foo",
+   "kcal": 550
+  },
+  {
+   "name": "With mee hoon",
+   "kcal": 360
+  }
+ ],
+ "diet": "Yes, this is one of the best choices when eating out. Clear soup, lots of vegetable options, and protein from fish paste and tofu. Just watch the fried pieces and the sweet sauce. Pick boiled items and the calories stay low while you stay full longer.",
+ "tips": [
+  "Pick boiled items, take fewer fried ones (fucuk, fried wantan).",
+  "Take more stuffed vegetables and tofu for protein.",
+  "Ask for sauce on the side and dip lightly."
+ ],
+ "swap": {
+  "name": "Yong tau foo 8 pieces, no noodles",
+  "kcal": 260,
+  "why": "More protein and vegetables, fewer carbs."
+ },
+ "faq": [
+  {
+   "q": "What is yong tau foo stuffing made of?",
+   "a": "Usually fish paste stuffed into vegetables like brinjal, lady's finger, chilli and tofu."
+  },
+  {
+   "q": "Which yong tau foo pieces are the best choice?",
+   "a": "Boiled stuffed vegetables, tofu, fish balls and green vegetables. Fried pieces are oilier."
+  },
+  {
+   "q": "Is yong tau foo halal?",
+   "a": "Many shops use fish paste, but not all are halal. Choose a shop with halal certification."
+  }
+ ]
+}

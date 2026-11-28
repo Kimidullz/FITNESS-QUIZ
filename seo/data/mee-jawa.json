@@ -1,0 +1,66 @@
+{
+ "slug": "mee-jawa",
+ "intro": "Semangkuk mee jawa ada anggaran 500 kcal. Kalori paling banyak datang dari mee kuning dan kuah pekat keledek dan kacang tanah.",
+ "protein_g": 18,
+ "carbs_g": 70,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1 cawan",
+   "kcal": 220
+  },
+  {
+   "part": "Kuah keledek & kacang",
+   "kcal": 150
+  },
+  {
+   "part": "Telur rebus 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Tauhu goreng & udang",
+   "kcal": 55
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee jawa + cucur udang",
+   "kcal": 600
+  },
+  {
+   "name": "Mee jawa daging",
+   "kcal": 560
+  },
+  {
+   "name": "Mee jawa separuh kuah",
+   "kcal": 430
+  }
+ ],
+ "diet": "Boleh, mee jawa sesuai dimakan masa nak turun berat dengan portion biasa. Kuah pekat dari keledek dan kacang memang mengenyangkan. Yang buat kalori naik biasanya tambahan cucur udang dan kerepek. Makan semangkuk tanpa tambahan, dah cukup satu hidangan.",
+ "tips": [
+  "Skip cucur udang atau kongsi dengan kawan.",
+  "Tambah taugeh dan perah limau kasturi untuk rasa segar tanpa kalori.",
+  "Tak perlu habiskan semua kuah, tinggalkan sikit di dasar mangkuk."
+ ],
+ "swap": {
+  "name": "Mee rebus ayam tanpa cucur",
+  "kcal": 430,
+  "why": "Rasa hampir sama, kuah sedikit ringan dan boleh tambah ayam untuk protein."
+ },
+ "faq": [
+  {
+   "q": "Apa beza mee jawa dengan mee rebus?",
+   "a": "Hampir sama. Mee jawa biasanya kuahnya lebih manis dan ada kacang tanah, mee rebus lebih banyak guna keledek dan daging."
+  },
+  {
+   "q": "Kenapa kuah mee jawa pekat?",
+   "a": "Kuahnya dipekatkan dengan keledek atau ubi yang dilecek, kadang tambah sedikit tepung."
+  },
+  {
+   "q": "Mee jawa asal dari mana?",
+   "a": "Ia dibawa oleh masyarakat Jawa yang berhijrah ke Tanah Melayu dan kini popular di seluruh Malaysia."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

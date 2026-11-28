@@ -1,0 +1,66 @@
+{
+ "slug": "chicken-grill-dengan-salad",
+ "intro": "Satu pinggan chicken grill tanpa kulit dengan salad ada anggaran 450 kcal. Kalori utama datang dari isi ayam, diikuti dressing dan sos.",
+ "protein_g": 45,
+ "carbs_g": 20,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Dada ayam grill tanpa kulit ~150 g",
+   "kcal": 250
+  },
+  {
+   "part": "Dressing salad (thousand island / sesame)",
+   "kcal": 120
+  },
+  {
+   "part": "Sos black pepper",
+   "kcal": 50
+  },
+  {
+   "part": "Salad sayur campur",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dengan kentang goreng",
+   "kcal": 700
+  },
+  {
+   "name": "Guna peha ayam (dengan kulit)",
+   "kcal": 600
+  },
+  {
+   "name": "Dressing di tepi, guna separuh",
+   "kcal": 390
+  }
+ ],
+ "diet": "Ya, ini antara pilihan western yang paling mesra diet. Proteinnya tinggi, jadi kenyang lebih lama. Yang selalu buat kalori naik ialah dressing, sos dan side kentang. Kawal tiga benda ni, hidangan ni memang sesuai untuk minggu turun berat.",
+ "tips": [
+  "Minta dressing dan sos di tepi, cicah sikit-sikit.",
+  "Kalau rasa tak cukup kenyang, tambah nasi putih separuh cawan, bukan kentang goreng.",
+  "Pilih air kosong atau teh o kosong ais, bukan air sirap atau soda."
+ ],
+ "swap": {
+  "name": "Salad ayam (dressing di tepi)",
+  "kcal": 350,
+  "why": "Lebih ringan sikit tapi protein masih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Dada atau peha ayam lagi bagus untuk diet?",
+   "a": "Dada ayam lebih rendah lemak. Peha lebih juicy tapi lebih tinggi kalori. Dua-dua boleh, buang kulit jadi pilihan lebih ringan."
+  },
+  {
+   "q": "Makan salad je cukup ke untuk kenyang?",
+   "a": "Salad sahaja selalunya tak cukup. Pastikan ada protein seperti ayam, dan tambah sedikit karbohidrat kalau anda aktif."
+  },
+  {
+   "q": "Boleh makan ni setiap hari?",
+   "a": "Boleh, tapi tukar-tukar menu supaya tak bosan dan dapat nutrien yang pelbagai, contohnya ikan bakar atau nasi dengan lauk ayam."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

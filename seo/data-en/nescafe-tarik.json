@@ -1,0 +1,63 @@
+{
+ "slug": "nescafe-tarik",
+ "name_en": "Nescafe tarik",
+ "serving_en": "1 glass",
+ "intro": "One glass of Nescafe tarik is about 160 kcal. Most of the calories come from the generous amount of condensed milk.",
+ "breakdown": [
+  {
+   "part": "Condensed milk, 2 tbsp",
+   "kcal": 125
+  },
+  {
+   "part": "Evaporated milk or creamer",
+   "kcal": 30
+  },
+  {
+   "part": "Nescafe powder",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nescafe tarik kurang manis",
+   "kcal": 110
+  },
+  {
+   "name": "Nescafe ais",
+   "kcal": 170
+  },
+  {
+   "name": "Nescafe O kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Nescafe tarik, large glass",
+   "kcal": 230
+  }
+ ],
+ "diet": "Yes, as long as it's not every time you lepak. One glass has about the same calories as a slice of buttered toast. The problem is when you drink 2-3 glasses a day without noticing. Kurang manis or O kosong helps a lot.",
+ "tips": [
+  "Ask for 'kurang manis' or 'satu sudu susu je'.",
+  "Choose a regular glass, not the large size or a jug.",
+  "If you want coffee in the morning and afternoon, make one of them O kosong."
+ ],
+ "swap": {
+  "name": "Nescafe O kosong with a little fresh milk",
+  "kcal": 40,
+  "why": "Still creamy, but with much less sugar."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between Nescafe tarik and kopi tarik?",
+   "a": "Nescafe tarik uses instant coffee. Kopi tarik uses brewed coffee from local coffee powder."
+  },
+  {
+   "q": "Why is it 'pulled'?",
+   "a": "Pulling mixes the milk in well and creates foam. It gives a smoother texture."
+  },
+  {
+   "q": "Does it have a lot of caffeine?",
+   "a": "One glass is usually moderate. If you're sensitive, avoid drinking it late in the afternoon."
+  }
+ ]
+}

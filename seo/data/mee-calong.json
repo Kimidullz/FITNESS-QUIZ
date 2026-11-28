@@ -1,0 +1,66 @@
+{
+ "slug": "mee-calong",
+ "intro": "Semangkuk mee calong ada anggaran 420 kcal. Kebanyakan kalori datang dari mee kuning, diikuti calong (bebola dan kek ikan) dalam kuah sup.",
+ "protein_g": 20,
+ "carbs_g": 60,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1 cawan",
+   "kcal": 220
+  },
+  {
+   "part": "Calong (bebola & kek ikan)",
+   "kcal": 120
+  },
+  {
+   "part": "Kuah sup",
+   "kcal": 40
+  },
+  {
+   "part": "Sayur, bawang goreng & sambal",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee calong extra calong",
+   "kcal": 500
+  },
+  {
+   "name": "Bihun calong",
+   "kcal": 390
+  },
+  {
+   "name": "Mee calong goreng",
+   "kcal": 560
+  }
+ ],
+ "diet": "Boleh, mee calong antara pilihan mi yang mesra diet. Ia berkuah, tak banyak minyak dan calong ikan bagi protein yang okay. Pilih versi sup dan kurangkan bawang goreng. Sesuai untuk sarapan atau makan tengah hari.",
+ "tips": [
+  "Pilih versi sup, bukan goreng.",
+  "Minta tambah calong dan kurang mee untuk lebih protein.",
+  "Tambah sayur sawi atau kangkung kalau gerai ada."
+ ],
+ "swap": {
+  "name": "Sup calong tanpa mee + nasi separuh",
+  "kcal": 330,
+  "why": "Protein ikan tetap ada, karbohidrat lebih terkawal dan masih rasa kenyang."
+ },
+ "faq": [
+  {
+   "q": "Apa itu calong?",
+   "a": "Calong ialah bebola atau kek ikan yang popular di Terengganu dan Kelantan, biasanya dimakan dengan kuah sup atau kuah kacang."
+  },
+  {
+   "q": "Mee calong berasal dari mana?",
+   "a": "Mee calong sinonim dengan Pantai Timur, terutamanya Kuala Terengganu."
+  },
+  {
+   "q": "Calong diperbuat dari ikan apa?",
+   "a": "Biasanya ikan seperti ikan parang atau tamban, dicampur tepung dan dibentuk bulat atau leper."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

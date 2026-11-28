@@ -1,0 +1,63 @@
+{
+ "slug": "mee-kolok",
+ "name_en": "Mee kolok",
+ "serving_en": "1 plate",
+ "intro": "A plate of mee kolok has an estimated 480 kcal. Most of the calories come from the noodles and the shallot oil tossed in before serving.",
+ "breakdown": [
+  {
+   "part": "Mee kolok, 1 portion",
+   "kcal": 260
+  },
+  {
+   "part": "Shallot oil & sauce",
+   "kcal": 110
+  },
+  {
+   "part": "Sliced & minced chicken/meat",
+   "kcal": 90
+  },
+  {
+   "part": "Vegetables & plain soup",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee kolok merah",
+   "kcal": 520
+  },
+  {
+   "name": "Mee kolok + fried egg (telur mata)",
+   "kcal": 570
+  },
+  {
+   "name": "Mee kolok with less oil",
+   "kcal": 420
+  }
+ ],
+ "diet": "Yes, mee kolok is one of the dry noodle dishes with moderate calories. The minced and sliced meat gives you decent protein. The main thing to watch is the shallot oil. Ask for less oil and it fits into a diet plan easily.",
+ "tips": [
+  "Say 'kurang minyak' or 'less oil' when you order.",
+  "Ask for extra sliced meat or chicken for protein.",
+  "Drink the plain soup that comes with it, it helps you feel full."
+ ],
+ "swap": {
+  "name": "Mee kolok soup",
+  "kcal": 380,
+  "why": "Same noodles and meat in soup, without the shallot oil tossed in."
+ },
+ "faq": [
+  {
+   "q": "Where does mee kolok come from?",
+   "a": "Mee kolok is an iconic Sarawak dish, especially in Kuching."
+  },
+  {
+   "q": "What's the difference between mee kolok and wantan mee?",
+   "a": "Mee kolok is springier and tossed in shallot oil. It tastes lighter and uses less soy sauce than wantan mee."
+  },
+  {
+   "q": "What is mee kolok merah?",
+   "a": "Mee kolok tossed with red sauce from char siu, so it looks reddish and tastes sweeter."
+  }
+ ]
+}

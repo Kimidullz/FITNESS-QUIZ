@@ -1,0 +1,63 @@
+{
+ "slug": "popcorn",
+ "name_en": "Popcorn (cinema, medium)",
+ "serving_en": "1 tub",
+ "intro": "One medium tub of cinema popcorn gives about 400 kcal (estimate). Most of the calories come from the oil or butter used for cooking and flavouring.",
+ "breakdown": [
+  {
+   "part": "Popcorn kernels",
+   "kcal": 200
+  },
+  {
+   "part": "Cooking oil / butter",
+   "kcal": 150
+  },
+  {
+   "part": "Salt, sugar and flavouring",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Salted popcorn, small",
+   "kcal": 250
+  },
+  {
+   "name": "Salted popcorn, large",
+   "kcal": 650
+  },
+  {
+   "name": "Caramel popcorn, medium",
+   "kcal": 550
+  },
+  {
+   "name": "Medium popcorn + medium soft drink combo",
+   "kcal": 600
+  }
+ ],
+ "diet": "Yes, popcorn at the movies once in a while is totally okay. What usually pushes the calories up is the large size, caramel flavour and the soft drink combo. Go for a small size or share one tub. Then just enjoy the movie without feeling guilty.",
+ "tips": [
+  "Share one medium tub with your partner or friend.",
+  "Choose salted over caramel or cheese. The difference can be more than 100 kcal.",
+  "Switch the soft drink to mineral water or a zero sugar drink."
+ ],
+ "swap": {
+  "name": "Salted popcorn, small",
+  "kcal": 250,
+  "why": "You still get the cinema feel, but save about 150 kcal compared to medium."
+ },
+ "faq": [
+  {
+   "q": "Is popcorn a wholegrain?",
+   "a": "Yes, popcorn itself is a wholegrain and has fibre. What makes it high in calories is the added oil, butter and sugar."
+  },
+  {
+   "q": "Caramel or salted popcorn, which is better?",
+   "a": "Salted popcorn is usually lower in calories and sugar. Caramel has a sugar coating that adds a lot of calories."
+  },
+  {
+   "q": "Can I bring my own popcorn to the cinema?",
+   "a": "Most cinemas don't allow outside food. Easier to pick a small size at the counter, or make your own popcorn when watching a movie at home."
+  }
+ ]
+}

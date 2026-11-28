@@ -1,0 +1,62 @@
+{
+ "slug": "ayam-percik",
+ "intro": "Satu ketul ayam percik ada anggaran 350 kcal. Kebanyakan kalori datang dari ayam berkulit dan kuah percik yang berasaskan santan.",
+ "protein_g": 26,
+ "carbs_g": 10,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Ayam paha bakar 1 ketul",
+   "kcal": 220
+  },
+  {
+   "part": "Kuah percik santan",
+   "kcal": 110
+  },
+  {
+   "part": "Gula dan rempah dalam kuah",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bahagian dada",
+   "kcal": 300
+  },
+  {
+   "name": "Kuah percik lebih (sapu tebal)",
+   "kcal": 430
+  },
+  {
+   "name": "Tanpa kulit, kuah sikit",
+   "kcal": 240
+  }
+ ],
+ "diet": "Boleh. Ayam percik dibakar, jadi ia lebih ringan berbanding ayam goreng. Kuah santan yang buat kalori naik, jadi jangan minta kuah lebih. Satu ketul dengan nasi separuh pinggan dan ulam masih okay untuk turun berat.",
+ "tips": [
+  "Minta kuah percik sapu nipis sahaja, bukan siram.",
+  "Buang kulit kalau nak jimat lebih kurang 60-80 kcal.",
+  "Pasangkan dengan ulam atau kerabu, bukan nasi kerabu dengan kelapa banyak."
+ ],
+ "swap": {
+  "name": "Ayam bakar biasa (paha)",
+  "kcal": 260,
+  "why": "Masih dibakar dan tinggi protein, tanpa kuah santan yang berat."
+ },
+ "faq": [
+  {
+   "q": "Ayam percik berasal dari negeri mana?",
+   "a": "Ayam percik terkenal di Kelantan dan Terengganu. Sekarang senang jumpa di bazar Ramadan seluruh Malaysia."
+  },
+  {
+   "q": "Apa beza ayam percik dengan ayam bakar?",
+   "a": "Ayam percik disapu kuah santan berempah semasa dibakar. Ayam bakar biasa guna perapan kicap, madu atau kunyit."
+  },
+  {
+   "q": "Boleh buat ayam percik guna oven?",
+   "a": "Boleh. Bakar ayam dalam oven dan sapu kuah percik beberapa kali sampai sedikit hangit di tepi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

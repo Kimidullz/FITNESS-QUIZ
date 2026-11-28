@@ -1,0 +1,67 @@
+{
+ "slug": "bubur-kacang-hijau",
+ "name_en": "Bubur kacang hijau",
+ "serving_en": "1 bowl",
+ "intro": "About 280 kcal for 1 bowl of bubur kacang hijau. The calories come from mung beans, sugar and santan.",
+ "breakdown": [
+  {
+   "part": "Mung beans (kacang hijau)",
+   "kcal": 120
+  },
+  {
+   "part": "Sugar or gula melaka",
+   "kcal": 70
+  },
+  {
+   "part": "Santan",
+   "kcal": 70
+  },
+  {
+   "part": "Sago",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small bowl",
+   "kcal": 150
+  },
+  {
+   "name": "Without santan",
+   "kcal": 200
+  },
+  {
+   "name": "Mixed with pulut hitam",
+   "kcal": 320
+  },
+  {
+   "name": "Extra thick santan",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes, bubur kacang hijau has a plus point because mung beans give protein and fibre. What pushes the calories up is the sugar and santan. A small bowl for tea time is a good fit. If you eat a big bowl, count it as a meal, not a snack.",
+ "tips": [
+  "Choose a small bowl at the stall or bazaar.",
+  "If cooking at home, cut down the sugar and use thinner santan.",
+  "Have it as a tea-time snack, don't add it after dinner."
+ ],
+ "swap": {
+  "name": "Bubur kacang hijau without santan, less sugar",
+  "kcal": 180,
+  "why": "You still get the protein and fibre from mung beans, with less fat and sugar."
+ },
+ "faq": [
+  {
+   "q": "Do mung beans need soaking first?",
+   "a": "Soaking 2-3 hours helps them soften faster. If you don't have time, just boil them longer."
+  },
+  {
+   "q": "Can bubur kacang hijau be eaten cold?",
+   "a": "Yes. Many people like it cold from the fridge, especially in hot weather."
+  },
+  {
+   "q": "How long does bubur kacang hijau keep?",
+   "a": "About 2-3 days in the fridge. Santan spoils fast, so don't leave it out at room temperature for long."
+  }
+ ]
+}

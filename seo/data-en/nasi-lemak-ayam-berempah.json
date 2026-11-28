@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-lemak-ayam-berempah",
+ "name_en": "Nasi lemak ayam berempah",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi lemak ayam berempah has about 780 kcal. Most of the calories come from the santan rice, the fried spiced chicken and the oily sambal.",
+ "breakdown": [
+  {
+   "part": "Santan rice, 1 cup",
+   "kcal": 300
+  },
+  {
+   "part": "Ayam berempah, 1 piece (with fried spice bits)",
+   "kcal": 300
+  },
+  {
+   "part": "Sambal, 2 tablespoons",
+   "kcal": 100
+  },
+  {
+   "part": "Half boiled egg, peanuts, ikan bilis, cucumber",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain nasi lemak (no chicken)",
+   "kcal": 400
+  },
+  {
+   "name": "Add telur mata",
+   "kcal": 880
+  },
+  {
+   "name": "Big thigh piece + extra sambal",
+   "kcal": 900
+  },
+  {
+   "name": "Half rice, chicken breast",
+   "kcal": 620
+  }
+ ],
+ "diet": "Yes, but treat it as the big meal of the day, not an everyday breakfast. 780 kcal is almost half of what many people need per day when trying to lose weight. If you have it once or twice a week and keep your other meals that day lighter, you can still lose weight. It gets harder when it becomes a near-daily morning habit.",
+ "tips": [
+  "Ask for half rice and less sambal, and keep the chicken as your main protein.",
+  "Remove some of the fried spice bits and thick chicken skin.",
+  "Drink teh O kosong or warm water instead of sweet teh tarik."
+ ],
+ "swap": {
+  "name": "Plain nasi lemak + 1 whole boiled egg",
+  "kcal": 470,
+  "why": "You still get the nasi lemak taste, minus the oily fried chicken. The whole egg adds protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between ayam berempah and normal fried chicken?",
+   "a": "Ayam berempah is marinated with spices like serai, lengkuas and kunyit, then fried until the spices turn crispy. The spices soak up oil, so it's usually a bit oilier."
+  },
+  {
+   "q": "Which part of the chicken has the least fat?",
+   "a": "Skinless breast has the least fat and the most protein. Thigh is juicier but higher in fat."
+  },
+  {
+   "q": "Is it okay to eat nasi lemak at night?",
+   "a": "Yes. The time you eat doesn't decide if you gain or lose weight. What matters is your total calories for the day."
+  }
+ ]
+}

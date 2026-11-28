@@ -1,0 +1,66 @@
+{
+ "slug": "roti-canai-banjir",
+ "intro": "Sekeping roti canai banjir dengan kuah campur ada anggaran 420 kcal. Kalori paling banyak dari doh roti yang dicanai dengan minyak atau marjerin, kuah pula tambah lebih kurang 100+ kcal.",
+ "protein_g": 9,
+ "carbs_g": 50,
+ "fat_g": 20,
+ "breakdown": [
+  {
+   "part": "Roti canai kosong 1 keping",
+   "kcal": 300
+  },
+  {
+   "part": "Kuah dal",
+   "kcal": 60
+  },
+  {
+   "part": "Kuah kari",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti canai kosong, kuah sikit di tepi",
+   "kcal": 340
+  },
+  {
+   "name": "Roti telur banjir",
+   "kcal": 520
+  },
+  {
+   "name": "Roti planta banjir",
+   "kcal": 520
+  },
+  {
+   "name": "Banjir + teh tarik",
+   "kcal": 570
+  }
+ ],
+ "diet": "Boleh, kalau ambil sekeping dan bukan selalu. Masalahnya roti canai cepat lapar balik sebab protein rendah. Ramai yang akhirnya order keping kedua dengan teh tarik, jadi kalori naik cepat. Pasangkan dengan sumber protein supaya lebih kenyang.",
+ "tips": [
+  "Minta kuah di tepi, bukan banjir, dan cicah sikit-sikit.",
+  "Pilih kuah dal lebih banyak dari kuah kari santan.",
+  "Order teh o kosong atau teh tarik kurang manis sebagai minuman."
+ ],
+ "swap": {
+  "name": "Tosai kosong + kuah dal",
+  "kcal": 220,
+  "why": "Tosai kurang minyak berbanding roti canai. Anda masih dapat feel sarapan mamak dengan kalori hampir separuh."
+ },
+ "faq": [
+  {
+   "q": "Apa beza roti canai banjir dengan roti canai biasa?",
+   "a": "Banjir maksudnya roti dituang kuah penuh atas pinggan. Biasa pula kuah diberi dalam mangkuk kecil di tepi."
+  },
+  {
+   "q": "Kuah campur tu kuah apa?",
+   "a": "Biasanya campuran kuah dal dan kuah kari ayam atau ikan. Ada kedai tambah sambal juga."
+  },
+  {
+   "q": "Roti canai sesuai untuk sarapan ke makan malam?",
+   "a": "Boleh bila-bila masa ikut selera. Yang penting jumlah kalori sehari dan apa yang anda makan bersama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

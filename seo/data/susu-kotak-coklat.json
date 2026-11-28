@@ -1,0 +1,66 @@
+{
+ "slug": "susu-kotak-coklat",
+ "intro": "Sekotak susu coklat 200ml ada anggaran 160 kcal. Sebahagian besar kalori datang dari susu itu sendiri dan gula tambahan untuk rasa coklat.",
+ "protein_g": 6,
+ "carbs_g": 24,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Susu (200ml)",
+   "kcal": 100
+  },
+  {
+   "part": "Gula tambahan (~12g)",
+   "kcal": 50
+  },
+  {
+   "part": "Serbuk koko",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Susu kotak plain/full cream 200ml",
+   "kcal": 130
+  },
+  {
+   "name": "Susu coklat kurang gula 200ml",
+   "kcal": 130
+  },
+  {
+   "name": "Susu coklat kotak 250ml",
+   "kcal": 200
+  },
+  {
+   "name": "Susu kotak rendah lemak plain 200ml",
+   "kcal": 95
+  }
+ ],
+ "diet": "Boleh. Susu coklat ada protein dan kalsium, jadi dia bukan sekadar air manis. Cuma gula tambahan dia agak tinggi untuk satu kotak kecil. Lebih baik jadikan snek, contohnya selepas bersenam, dan bukan diminum bersama makanan berat.",
+ "tips": [
+  "Pilih label 'kurang gula' bila beli di kedai serbaneka.",
+  "Jadikan snek petang dan gantikan kuih, bukan tambah atas kuih.",
+  "Campur separuh susu coklat dengan separuh susu plain di rumah."
+ ],
+ "swap": {
+  "name": "Susu rendah lemak plain 200ml",
+  "kcal": 95,
+  "why": "Protein lebih kurang sama, tapi tiada gula tambahan. Jimat anggaran 65 kcal sekotak."
+ },
+ "faq": [
+  {
+   "q": "Susu coklat sesuai lepas workout?",
+   "a": "Ramai guna susu coklat lepas bersenam sebab ada gabungan karbohidrat dan protein. Ia pilihan yang praktikal, asalkan dikira dalam kalori harian."
+  },
+  {
+   "q": "Berapa banyak gula dalam sekotak susu coklat?",
+   "a": "Bergantung jenama, tapi biasanya sekitar 15-20g jumlah gula, termasuk gula semula jadi susu. Semak label belakang kotak."
+  },
+  {
+   "q": "Boleh bagi anak minum setiap hari?",
+   "a": "Boleh dalam jumlah sederhana, tapi lebih baik selang-seli dengan susu plain supaya pengambilan gula tak berlebihan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

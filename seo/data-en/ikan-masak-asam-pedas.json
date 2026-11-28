@@ -1,0 +1,63 @@
+{
+ "slug": "ikan-masak-asam-pedas",
+ "name_en": "Ikan asam pedas",
+ "serving_en": "1 piece + gravy",
+ "intro": "One piece of ikan asam pedas with gravy is about 230 kcal (estimate). Most of the calories come from the fish and the oil used to fry the chilli paste.",
+ "breakdown": [
+  {
+   "part": "1 piece fish (tenggiri or pari)",
+   "kcal": 140
+  },
+  {
+   "part": "Oil for frying chilli paste",
+   "kcal": 60
+  },
+  {
+   "part": "Sour gravy, tomato and vegetables",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Asam pedas ikan pari",
+   "kcal": 250
+  },
+  {
+   "name": "Asam pedas Melaka with bendi and terung",
+   "kcal": 260
+  },
+  {
+   "name": "Asam pedas ikan merah",
+   "kcal": 220
+  },
+  {
+   "name": "Asam pedas fish head",
+   "kcal": 350
+  }
+ ],
+ "diet": "Yes. Asam pedas has no santan, so it's lighter than gulai or masak lemak. The fish is also high in protein. What you need to watch is the oil floating on top and your rice portion.",
+ "tips": [
+  "Scoop gravy from the bottom and avoid the oil floating on top.",
+  "Take the bendi or terung from the gravy as your vegetables.",
+  "Cooking at home: 1 spoon of oil is enough to fry the chilli paste."
+ ],
+ "swap": {
+  "name": "Ikan singgang or boiled fish in sour gravy",
+  "kcal": 170,
+  "why": "Almost the same sour and spicy taste, with hardly any oil."
+ },
+ "faq": [
+  {
+   "q": "Which fish is best for asam pedas?",
+   "a": "Ikan pari, tenggiri, jenahak and ikan merah are popular choices. Firm fish doesn't break apart easily."
+  },
+  {
+   "q": "What's the difference between Melaka and Johor asam pedas?",
+   "a": "Melaka asam pedas is usually spicier and thicker, with bunga kantan and daun kesum. Some other versions add a little curry powder."
+  },
+  {
+   "q": "Why use daun kesum in asam pedas?",
+   "a": "Daun kesum gives a special fragrance that makes asam pedas taste complete."
+  }
+ ]
+}

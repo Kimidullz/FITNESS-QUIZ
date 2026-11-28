@@ -1,0 +1,66 @@
+{
+ "slug": "protein-bar",
+ "intro": "Sebatang protein bar biasa memberi anggaran 200 kcal. Kalorinya datang hampir sama banyak daripada protein dan karbohidrat, dengan lemak dari kacang atau salutan coklat.",
+ "protein_g": 18,
+ "carbs_g": 20,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Protein (campuran susu atau soya)",
+   "kcal": 75
+  },
+  {
+   "part": "Karbohidrat, gula dan serat",
+   "kcal": 80
+  },
+  {
+   "part": "Lemak dari kacang dan salutan coklat",
+   "kcal": 45
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bar saiz kecil (~40 g)",
+   "kcal": 150
+  },
+  {
+   "name": "Bar saiz besar (~60 g)",
+   "kcal": 250
+  },
+  {
+   "name": "Granola bar biasa",
+   "kcal": 180
+  },
+  {
+   "name": "Bar bersalut coklat tebal",
+   "kcal": 260
+  }
+ ],
+ "diet": "Boleh, protein bar boleh jadi snek praktikal bila anda sibuk dan tiada pilihan lain. Tapi ia tetap makanan diproses, dan ada yang kalorinya sama seperti coklat bar biasa. Ia tak ada kuasa khas untuk turunkan berat. Makanan sebenar seperti telur, ayam, ikan dan tauhu masih patut jadi sumber protein utama anda.",
+ "tips": [
+  "Baca label: pilih yang protein sekurang-kurangnya 15 g dan gula rendah.",
+  "Guna sebagai snek kecemasan dalam beg, bukan tambahan selepas setiap makan.",
+  "Makan bersama air kosong dan buah jika nak lebih kenyang."
+ ],
+ "swap": {
+  "name": "Telur rebus 2 biji + epal 1 biji",
+  "kcal": 220,
+  "why": "Makanan sebenar yang mudah dibawa, protein yang baik, serat dari buah dan biasanya lebih murah."
+ },
+ "faq": [
+  {
+   "q": "Protein bar boleh ganti makan tengah hari?",
+   "a": "Sekali-sekala bila terdesak, okay. Tapi ia terlalu kecil untuk jadi makanan penuh, jadi anda mungkin lapar semula dan makan lebih banyak kemudian."
+  },
+  {
+   "q": "Bila masa terbaik makan protein bar?",
+   "a": "Tiada masa yang wajib. Ramai makan sebagai snek petang atau selepas bersenam bila tak sempat makan hidangan penuh."
+  },
+  {
+   "q": "Kenapa ada protein bar yang buat perut kembung?",
+   "a": "Sesetengah bar guna pemanis jenis gula alkohol atau serat tinggi yang boleh buat sesetengah orang rasa kembung. Cuba jenis lain atau kurangkan kekerapan jika berlaku."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

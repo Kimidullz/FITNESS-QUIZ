@@ -1,0 +1,71 @@
+{
+ "slug": "hokkien-mee",
+ "name_en": "Hokkien mee (KL style, black noodles)",
+ "serving_en": "1 plate",
+ "intro": "A plate of Hokkien mee (KL black noodles) has an estimated 650 kcal. Most of the calories come from the thick noodles and the lots of oil used for frying.",
+ "breakdown": [
+  {
+   "part": "Thick Hokkien noodles, 1 plate",
+   "kcal": 300
+  },
+  {
+   "part": "Oil & crispy fried bits (kerak minyak)",
+   "kcal": 150
+  },
+  {
+   "part": "Dark soy sauce & thick gravy",
+   "kcal": 60
+  },
+  {
+   "part": "Toppings (chicken/prawn/squid)",
+   "kcal": 120
+  },
+  {
+   "part": "Sawi & cabbage",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Add egg",
+   "kcal": 740
+  },
+  {
+   "name": "Hokkien mee soup",
+   "kcal": 450
+  },
+  {
+   "name": "Without kerak minyak",
+   "kcal": 580
+  },
+  {
+   "name": "Large portion",
+   "kcal": 850
+  }
+ ],
+ "diet": "Yes, but it's quite a heavy dish. The oil and dark soy sauce push the calories up fast. Better as an occasional dinner, not something you eat every week. The easiest way? Share one plate with a friend and add vegetables.",
+ "tips": [
+  "Ask for less oil and no kerak minyak.",
+  "Share one plate and add a plate of boiled vegetables.",
+  "Choose Hokkien mee soup if the same shop has it."
+ ],
+ "swap": {
+  "name": "Hokkien mee soup",
+  "kcal": 450,
+  "why": "Tastes quite similar but isn't fried in lots of oil."
+ },
+ "faq": [
+  {
+   "q": "Is Hokkien mee halal?",
+   "a": "The original version at traditional Chinese shops usually uses pork and pork lard. If you need halal, look for a halal-certified shop that uses chicken or seafood."
+  },
+  {
+   "q": "What's the difference between KL and Penang Hokkien mee?",
+   "a": "The KL version is fried black noodles with dark soy sauce. In Penang, Hokkien mee is a spicy prawn noodle soup."
+  },
+  {
+   "q": "Why is Hokkien mee black?",
+   "a": "Because it's fried with dark soy sauce, which is thick and slightly sweet."
+  }
+ ]
+}

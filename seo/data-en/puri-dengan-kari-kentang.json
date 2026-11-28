@@ -1,0 +1,63 @@
+{
+ "slug": "puri-dengan-kari-kentang",
+ "name_en": "Puri with potato curry (kari kentang)",
+ "serving_en": "2 pieces",
+ "intro": "Two puri with potato curry have an estimated 420 kcal. Puri is deep-fried, so the oil it soaks up is the biggest calorie source, followed by the potato.",
+ "breakdown": [
+  {
+   "part": "Puri, 2 pieces (fried)",
+   "kcal": 250
+  },
+  {
+   "part": "Kari kentang",
+   "kcal": 140
+  },
+  {
+   "part": "Chutney",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "1 puri + curry",
+   "kcal": 250
+  },
+  {
+   "name": "Puri + dal curry (instead of potato)",
+   "kcal": 400
+  },
+  {
+   "name": "3 puri + curry",
+   "kcal": 545
+  },
+  {
+   "name": "Puri + teh tarik",
+   "kcal": 570
+  }
+ ],
+ "diet": "Yes, but it's better as an occasional meal. Fried puri and potato are both carbs, and the protein is low. So it's high in calories but doesn't keep you full long. One puri with more veggie curry or dal is enough for many people.",
+ "tips": [
+  "Start with 1 puri, then wait 10 minutes before taking more.",
+  "Ask for dal or kacang kuda curry for extra protein.",
+  "Press the puri lightly with a tissue to soak up the extra oil."
+ ],
+ "swap": {
+  "name": "2 chapati + kuah dal",
+  "kcal": 340,
+  "why": "Chapati is cooked on a dry pan, not deep-fried, so there's less oil. Dal adds protein and fibre."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between puri and chapati?",
+   "a": "Both are made from wheat flour. Puri is deep-fried until it puffs up, while chapati is cooked on a dry pan."
+  },
+  {
+   "q": "Why does puri puff up like a balloon?",
+   "a": "The steam inside the dough expands when it hits hot oil. The oil must be hot enough and the dough rolled out evenly."
+  },
+  {
+   "q": "Is the potato curry for puri spicy?",
+   "a": "Usually not very spicy. It's more about turmeric, mustard seeds and curry leaves."
+  }
+ ]
+}

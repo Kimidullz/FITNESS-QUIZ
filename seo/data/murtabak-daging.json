@@ -1,0 +1,70 @@
+{
+ "slug": "murtabak-daging",
+ "intro": "Sepinggan murtabak daging ada anggaran 780 kcal. Kebanyakan kalori datang daripada kulit roti yang digoreng dengan minyak, inti daging cincang dan telur.",
+ "protein_g": 32,
+ "carbs_g": 70,
+ "fat_g": 41,
+ "breakdown": [
+  {
+   "part": "Kulit roti dan minyak goreng",
+   "kcal": 330
+  },
+  {
+   "part": "Inti daging cincang dan bawang",
+   "kcal": 200
+  },
+  {
+   "part": "Telur (2 biji)",
+   "kcal": 150
+  },
+  {
+   "part": "Kuah kari dan acar bawang",
+   "kcal": 100
+  }
+ ],
+ "variants": [
+  {
+   "name": "Murtabak ayam",
+   "kcal": 720
+  },
+  {
+   "name": "Murtabak sardin",
+   "kcal": 650
+  },
+  {
+   "name": "Murtabak daging saiz besar (bazar)",
+   "kcal": 1000
+  },
+  {
+   "name": "Murtabak daging dengan keju",
+   "kcal": 900
+  }
+ ],
+ "diet": "Boleh, tapi ia hampir separuh kalori harian ramai wanita dalam satu pinggan. Bagusnya, proteinnya agak tinggi. Kalau nak makan, kongsi dengan seorang lagi atau jadikan satu-satunya makanan berat waktu itu. Elakkan tambah minuman manis bersama.",
+ "tips": [
+  "Kongsi sepinggan berdua, kemudian tambah sayur atau salad acar.",
+  "Lap minyak di permukaan dengan tisu sebelum makan.",
+  "Cicah kuah kari sikit sahaja, guna acar bawang untuk rasa."
+ ],
+ "swap": {
+  "name": "Roti telur 1 keping + kuah dal",
+  "kcal": 400,
+  "why": "Masih dapat rasa roti dan telur, tapi kalori hampir separuh daripada murtabak."
+ },
+ "faq": [
+  {
+   "q": "Murtabak berasal dari mana?",
+   "a": "Murtabak dikatakan berasal dari India dan Yaman, kemudian popular di Malaysia melalui kedai mamak dan bazar Ramadan."
+  },
+  {
+   "q": "Berapa lama murtabak tahan kalau bungkus?",
+   "a": "Paling elok makan dalam 2-3 jam. Kalau nak simpan, masukkan peti sejuk dan panaskan semula dalam kuali atau air fryer dalam masa sehari."
+  },
+  {
+   "q": "Murtabak daging guna daging apa?",
+   "a": "Biasanya daging lembu cincang. Sesetengah kedai guna daging kambing, jadi boleh tanya penjual."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

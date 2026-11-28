@@ -1,0 +1,66 @@
+{
+ "slug": "teh-o-kosong",
+ "intro": "Segelas teh O kosong ada anggaran 5 kcal sahaja. Kalori yang sedikit itu datang dari teh itu sendiri, tanpa gula atau susu.",
+ "protein_g": 0,
+ "carbs_g": 1,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Teh hitam",
+   "kcal": 5
+  },
+  {
+   "part": "Air panas",
+   "kcal": 0
+  },
+  {
+   "part": "Ais (kalau teh O ais kosong)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh O bergula",
+   "kcal": 60
+  },
+  {
+   "name": "Teh O limau kosong",
+   "kcal": 10
+  },
+  {
+   "name": "Teh O ais limau bergula",
+   "kcal": 90
+  },
+  {
+   "name": "Teh O kurang manis",
+   "kcal": 35
+  }
+ ],
+ "diet": "Sangat sesuai masa nak turun berat. Hampir tiada kalori, jadi anda boleh simpan kalori untuk makanan. Ramai yang tukar dari teh tarik ke teh O kosong nampak beza dalam kalori harian. Kalau rasa pahit, mula dengan kurang manis dulu.",
+ "tips": [
+  "Kalau belum biasa, turunkan gula berperingkat: bergula, kurang manis, kemudian kosong.",
+  "Tambah limau untuk rasa lebih segar tanpa gula.",
+  "Pilih teh O ais kosong bila cuaca panas, tetap sifar gula."
+ ],
+ "swap": {
+  "name": "Teh O limau kosong",
+  "kcal": 10,
+  "why": "Ada rasa segar limau, kalori masih hampir sifar."
+ },
+ "faq": [
+  {
+   "q": "Apa maksud 'O' dalam teh O?",
+   "a": "'O' bermaksud tanpa susu. 'Kosong' pula bermaksud tanpa gula."
+  },
+  {
+   "q": "Teh O kosong ada kafein?",
+   "a": "Ada, dari teh. Biasanya kurang dari kopi."
+  },
+  {
+   "q": "Boleh minum teh O kosong masa puasa?",
+   "a": "Sesuai untuk sahur atau berbuka sebab tiada gula. Jangan lupa minum air kosong juga."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "salad-ayam",
+ "intro": "Satu mangkuk salad ayam dengan dressing di tepi ada anggaran 350 kcal. Kebanyakan kalori datang dari ayam dan dressing yang anda guna.",
+ "protein_g": 32,
+ "carbs_g": 15,
+ "fat_g": 18,
+ "breakdown": [
+  {
+   "part": "Ayam grill ~120 g",
+   "kcal": 200
+  },
+  {
+   "part": "Dressing 1 sudu besar",
+   "kcal": 80
+  },
+  {
+   "part": "Sayur campur (salad, timun, tomato)",
+   "kcal": 40
+  },
+  {
+   "part": "Telur atau jagung",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Salad ayam dengan semua dressing dituang",
+   "kcal": 480
+  },
+  {
+   "name": "Caesar salad ayam dengan crouton",
+   "kcal": 550
+  },
+  {
+   "name": "Salad ayam dengan nasi/quinoa separuh cawan",
+   "kcal": 450
+  }
+ ],
+ "diet": "Ya, ini pilihan yang sangat sesuai masa nak turun berat. Protein tinggi, sayur banyak, dan dressing di tepi bagi anda kawal kalori. Tapi jangan terlalu sikit sampai lapar semula petang nanti. Kalau aktif atau bersenam, tambah sedikit karbohidrat.",
+ "tips": [
+  "Cicah garfu dalam dressing dulu, baru cucuk sayur, guna jauh lebih sikit dressing.",
+  "Pilih dressing jenis vinaigrette atau lemon berbanding mayo atau thousand island.",
+  "Tambah telur rebus untuk protein dan rasa kenyang lebih lama."
+ ],
+ "swap": {
+  "name": "Chicken grill (tanpa kulit) dengan salad",
+  "kcal": 450,
+  "why": "Kalau rasa salad tak cukup kenyang, ini ada lebih ayam dan rasa lebih macam hidangan penuh."
+ },
+ "faq": [
+  {
+   "q": "Dressing apa yang paling ringan?",
+   "a": "Biasanya dressing berasaskan cuka, lemon atau minyak zaitun sikit. Dressing creamy seperti mayo, caesar dan thousand island lebih tinggi kalori."
+  },
+  {
+   "q": "Salad sahaja cukup untuk makan tengah hari?",
+   "a": "Kalau ada protein seperti ayam atau telur, boleh cukup. Kalau cepat lapar, tambah nasi, roti atau ubi sedikit."
+  },
+  {
+   "q": "Boleh prep salad untuk beberapa hari?",
+   "a": "Boleh, simpan sayur, ayam dan dressing dalam bekas berasingan. Tahan 2-3 hari dalam peti sejuk."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

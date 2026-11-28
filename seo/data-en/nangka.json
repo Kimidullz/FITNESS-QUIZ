@@ -1,0 +1,63 @@
+{
+ "slug": "nangka",
+ "name_en": "Jackfruit (nangka)",
+ "serving_en": "5 pieces",
+ "intro": "5 pieces of jackfruit come to roughly 120 kcal (estimate). The calories mainly come from natural sugar and starch in the thick flesh.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in the flesh (~120g)",
+   "kcal": 95
+  },
+  {
+   "part": "Fibre",
+   "kcal": 8
+  },
+  {
+   "part": "A little protein and fat",
+   "kcal": 17
+  }
+ ],
+ "variants": [
+  {
+   "name": "Jackfruit, 3 pieces",
+   "kcal": 70
+  },
+  {
+   "name": "Jackfruit, 10 pieces",
+   "kcal": 240
+  },
+  {
+   "name": "Boiled jackfruit seeds, 10 seeds",
+   "kcal": 100
+  },
+  {
+   "name": "Gulai nangka muda, 1 ladle",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, jackfruit is still a fruit with fibre and a satisfying sweetness. But it's higher in calories than most other fruits. The usual issue is buying a whole tub at the pasar malam and finishing it in one sitting. Take 5 pieces, that's enough.",
+ "tips": [
+  "When you buy a tub of jackfruit, put 5 pieces on a plate first.",
+  "Eat it after a meal of rice with protein, not as a snack when you're super hungry.",
+  "If you cook gulai nangka muda, use less santan and add chicken or fish."
+ ],
+ "swap": {
+  "name": "Watermelon, 2 slices",
+  "kcal": 60,
+  "why": "Half the calories, lots of water, and easy to get at cut-fruit stalls."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between nangka and cempedak?",
+   "a": "Nangka is bigger, with crunchier flesh and a milder smell. Cempedak is smaller, with soft sticky flesh and a stronger smell."
+  },
+  {
+   "q": "Can I eat jackfruit seeds?",
+   "a": "Can. Boil or roast them first, don't eat them raw. They taste like chestnuts and contain starch, so count them in your calories too."
+  },
+  {
+   "q": "How do I get jackfruit sap off my hands and knife?",
+   "a": "Rub cooking oil on your hands and knife before cutting. If it's already stuck, rub with oil first, then wash with soap."
+  }
+ ]
+}

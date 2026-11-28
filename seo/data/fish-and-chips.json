@@ -1,0 +1,66 @@
+{
+ "slug": "fish-and-chips",
+ "intro": "Sepinggan fish and chips ada anggaran 800 kcal. Kebanyakan kalori datang dari ikan bersalut tepung yang digoreng dan kentang goreng yang menyerap minyak.",
+ "protein_g": 30,
+ "carbs_g": 70,
+ "fat_g": 44,
+ "breakdown": [
+  {
+   "part": "Ikan goreng bersalut tepung",
+   "kcal": 350
+  },
+  {
+   "part": "Kentang goreng",
+   "kcal": 290
+  },
+  {
+   "part": "Sos tartar",
+   "kcal": 90
+  },
+  {
+   "part": "Coleslaw",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ikan grill dengan salad dan kentang lecek",
+   "kcal": 450
+  },
+  {
+   "name": "Fish and chips tanpa sos tartar",
+   "kcal": 710
+  },
+  {
+   "name": "Fish and chips saiz besar",
+   "kcal": 1000
+  }
+ ],
+ "diet": "Boleh, tapi ia antara menu kafe yang paling berat. Ikan sendiri bagus untuk protein, cuma salutan tepung dan minyak gorengnya yang menaikkan kalori. Kalau makan, jadikan ia hidangan utama hari itu dan pilih makanan ringan untuk waktu lain. Lebih senang lagi, pilih versi ikan grill.",
+ "tips": [
+  "Minta ikan grill atau bakar kalau ada dalam menu.",
+  "Kongsi kentang goreng, atau minta separuh kentang dan tambah salad.",
+  "Guna sos tartar sedikit dengan cara cecah, jangan tuang."
+ ],
+ "swap": {
+  "name": "Ikan grill dengan salad dan kentang lecek",
+  "kcal": 450,
+  "why": "Protein ikan yang sama, tapi kalori hampir separuh dan kurang minyak."
+ },
+ "faq": [
+  {
+   "q": "Ikan apa yang selalu guna untuk fish and chips di Malaysia?",
+   "a": "Kebanyakan kafe guna ikan dory atau patin. Ada juga yang guna ikan kod atau ikan putih lain untuk versi premium."
+  },
+  {
+   "q": "Fish and chips lebih sihat daripada ayam goreng ke?",
+   "a": "Lebih kurang sama sebab kedua-duanya digoreng bersalut tepung. Ikan ada protein yang baik, tapi salutan dan minyaknya yang menentukan kalori."
+  },
+  {
+   "q": "Boleh buat fish and chips guna air fryer?",
+   "a": "Boleh. Salut ikan dengan serbuk roti dan sedikit minyak, kemudian masak dalam air fryer. Hasilnya rangup dengan minyak yang jauh lebih sedikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

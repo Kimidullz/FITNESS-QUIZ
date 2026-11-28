@@ -1,0 +1,62 @@
+{
+ "slug": "roti-bakar-coklat",
+ "intro": "Dua keping roti bakar coklat ada anggaran 380 kcal. Kebanyakan kalori datang dari sapuan coklat dan mentega atau marjerin yang disapu tebal.",
+ "protein_g": 8,
+ "carbs_g": 48,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Roti putih 2 keping",
+   "kcal": 150
+  },
+  {
+   "part": "Mentega atau marjerin",
+   "kcal": 100
+  },
+  {
+   "part": "Sapuan coklat",
+   "kcal": 130
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti bakar mentega kosong (2 keping)",
+   "kcal": 280
+  },
+  {
+   "name": "Roti bakar kaya mentega (2 keping)",
+   "kcal": 330
+  },
+  {
+   "name": "Roti bakar coklat dengan keju",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, tapi ia lebih kepada gula dan lemak dengan protein yang sedikit. Kalau makan untuk sarapan, anda mungkin cepat lapar sebelum tengah hari. Gandingkan dengan telur supaya lebih kenyang. Jadikan ia pilihan sekali-sekala, bukan sarapan setiap hari.",
+ "tips": [
+  "Minta coklat sapu nipis atau tanpa mentega. Ini boleh jimat hampir 100 kcal.",
+  "Tambah 2 biji telur separuh masak untuk protein.",
+  "Pilih kopi O atau teh O kurang manis, bukan teh tarik."
+ ],
+ "swap": {
+  "name": "Roti bakar gandum dengan 2 telur separuh masak",
+  "kcal": 300,
+  "why": "Lebih banyak protein, lebih lama kenyang, dan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Roti bakar coklat di kedai kopi guna coklat apa?",
+   "a": "Kebanyakan kedai guna sapuan coklat dalam balang atau coklat masak sendiri dengan gula dan susu. Kedua-duanya tinggi gula."
+  },
+  {
+   "q": "Roti gandum lebih baik untuk roti bakar ke?",
+   "a": "Kalori lebih kurang sama, tapi roti gandum ada lebih serat. Ia membantu rasa kenyang lebih lama."
+  },
+  {
+   "q": "Sesuai ke roti bakar coklat untuk sarapan anak?",
+   "a": "Sekali-sekala okay. Untuk harian, lebih baik tambah telur atau susu supaya ada protein untuk tenaga sepanjang pagi."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

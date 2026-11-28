@@ -1,0 +1,63 @@
+{
+ "slug": "laksa-johor",
+ "name_en": "Laksa Johor",
+ "serving_en": "1 plate",
+ "intro": "A plate of laksa Johor has an estimated 550 kcal. Most of the calories come from the spaghetti and the fish kuah with santan and kerisik.",
+ "breakdown": [
+  {
+   "part": "Spaghetti, 1.5 cups",
+   "kcal": 280
+  },
+  {
+   "part": "Fish kuah, santan & kerisik",
+   "kcal": 220
+  },
+  {
+   "part": "Ulam (cucumber, taugeh, daun selom)",
+   "kcal": 25
+  },
+  {
+   "part": "Sambal belacan & lime",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Laksa Johor with extra kuah",
+   "kcal": 620
+  },
+  {
+   "name": "Laksa Johor with half spaghetti",
+   "kcal": 410
+  },
+  {
+   "name": "Laksa Johor + boiled egg",
+   "kcal": 625
+  }
+ ],
+ "diet": "Yes, you can eat laksa Johor while trying to lose weight. The kuah has protein from the fish, but santan and kerisik push the fat up. It's usually served during raya or kenduri, so watch how many times you go for seconds. One plate with plenty of ulam is enough.",
+ "tips": [
+  "Take half a plate of spaghetti and fill the rest with ulam.",
+  "Skip the second round, enjoy one plate slowly.",
+  "If cooking at home, use less santan and kerisik in the kuah."
+ ],
+ "swap": {
+  "name": "Laksa Johor with half spaghetti, full ulam",
+  "kcal": 410,
+  "why": "Same taste, fewer carbs, and the ulam keeps you full."
+ },
+ "faq": [
+  {
+   "q": "Why does laksa Johor use spaghetti?",
+   "a": "It's said that Sultan Abu Bakar of Johor was inspired by pasta during a trip to Italy, and spaghetti started being used in laksa."
+  },
+  {
+   "q": "How is laksa Johor different from other laksa?",
+   "a": "Laksa Johor uses spaghetti and a thick fish kuah with santan and kerisik, eaten with ulam and sambal belacan."
+  },
+  {
+   "q": "Which fish is good for laksa Johor kuah?",
+   "a": "Usually ikan kembung, sardines or ikan parang, blended finely."
+  }
+ ]
+}

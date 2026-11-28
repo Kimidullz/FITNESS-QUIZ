@@ -1,0 +1,63 @@
+{
+ "slug": "yogurt-asli",
+ "name_en": "Plain yogurt",
+ "serving_en": "1 cup",
+ "intro": "One cup of plain yogurt has about 110 kcal. The calories come almost equally from milk fat, natural milk sugar (lactose) and protein.",
+ "breakdown": [
+  {
+   "part": "Milk fat (regular yogurt, not low-fat)",
+   "kcal": 45
+  },
+  {
+   "part": "Natural milk sugar (lactose)",
+   "kcal": 36
+  },
+  {
+   "part": "Milk protein",
+   "kcal": 28
+  }
+ ],
+ "variants": [
+  {
+   "name": "Low-fat plain yogurt, 1 cup",
+   "kcal": 90
+  },
+  {
+   "name": "Plain Greek yogurt, 1 cup",
+   "kcal": 150
+  },
+  {
+   "name": "Flavoured/sweetened yogurt, 1 cup",
+   "kcal": 180
+  },
+  {
+   "name": "Plain yogurt + 1 tablespoon honey",
+   "kcal": 170
+  }
+ ],
+ "diet": "Yes. Plain yogurt is actually one of the easiest snacks to fit into a weight loss plan. It's low in calories and has some protein to help you feel full. What usually pushes the calories up is what we add, like honey, granola or fruit in syrup. Choose plain, no added sugar, and go easy on the toppings, okay.",
+ "tips": [
+  "Read the label and pick one that says 'plain' or 'no added sugar'. Flavoured ones usually have more sugar.",
+  "Want it sweet? Add fresh fruit like half a banana or a few slices of papaya instead of honey or condensed milk.",
+  "Use plain yogurt instead of mayonnaise or santan for salad dressing, dips or chicken marinade. Lighter, still tasty."
+ ],
+ "swap": {
+  "name": "Low-fat plain Greek yogurt, 1 cup",
+  "kcal": 100,
+  "why": "About the same calories, but almost double the protein. Thicker and keeps you full longer."
+ },
+ "faq": [
+  {
+   "q": "Is plain yogurt the same as dadih?",
+   "a": "Quite similar. Both are fermented milk. But traditional dadih sometimes has added sugar or flavouring, so check the label if you buy it from the shop."
+  },
+  {
+   "q": "Can I eat yogurt at night?",
+   "a": "Yes. What matters is your total calories for the whole day. A cup of plain yogurt is a light night snack compared to biscuits or Maggi."
+  },
+  {
+   "q": "Can people who can't take milk eat yogurt?",
+   "a": "Some people find yogurt easier to digest than regular milk, but everyone is different. Try a little first, and see a doctor if you have ongoing stomach problems."
+  }
+ ]
+}

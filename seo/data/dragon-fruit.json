@@ -1,0 +1,62 @@
+{
+ "slug": "dragon-fruit",
+ "intro": "Separuh biji buah naga bagi anggaran 70 kcal. Kalorinya datang daripada gula semula jadi, dengan serat dari biji-biji kecil yang boleh dimakan.",
+ "protein_g": 1,
+ "carbs_g": 15,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi (~150g)",
+   "kcal": 55
+  },
+  {
+   "part": "Serat",
+   "kcal": 6
+  },
+  {
+   "part": "Biji kecil (lemak dan protein sikit)",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Buah naga 1 biji penuh",
+   "kcal": 140
+  },
+  {
+   "name": "Buah naga 1/4 biji",
+   "kcal": 35
+  },
+  {
+   "name": "Smoothie buah naga dengan susu dan gula",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh sangat. Separuh biji buah naga ringan kalori, ada air dan serat, sesuai jadi pencuci mulut. Cuma hati-hati dengan smoothie atau jus kedai yang tambah gula dan susu pekat. Makan buah penuh lebih jimat kalori.",
+ "tips": [
+  "Potong dadu dan simpan dalam bekas di peti sejuk, senang capai bila nak snek.",
+  "Campur dengan yogurt tanpa gula untuk sarapan ringkas yang ada protein.",
+  "Kalau beli smoothie, minta tanpa gula atau susu pekat."
+ ],
+ "swap": {
+  "name": "Strawberi 1 cawan",
+  "kcal": 50,
+  "why": "Lebih rendah kalori dan rasa masam manis, sesuai kalau nak variasi."
+ },
+ "faq": [
+  {
+   "q": "Kenapa air kencing atau najis jadi merah lepas makan buah naga merah?",
+   "a": "Itu disebabkan pigmen merah semula jadi dalam buah. Biasanya tak berbahaya dan hilang dalam sehari dua. Kalau berterusan tanpa makan buah naga, jumpa doktor."
+  },
+  {
+   "q": "Apa beza buah naga merah dan putih?",
+   "a": "Isi merah biasanya lebih manis dan warnanya pekat. Isi putih lebih ringan rasanya. Kalori kedua-duanya lebih kurang sama."
+  },
+  {
+   "q": "Biji buah naga boleh makan?",
+   "a": "Boleh, biji kecil hitam tu memang dimakan bersama isi. Ia beri tekstur rangup sikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

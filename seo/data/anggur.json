@@ -1,0 +1,66 @@
+{
+ "slug": "anggur",
+ "intro": "Satu cawan anggur ada anggaran 100 kcal. Hampir semua kalori datang daripada gula semula jadi buah.",
+ "protein_g": 1,
+ "carbs_g": 25,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi",
+   "kcal": 90
+  },
+  {
+   "part": "Serat & karbohidrat lain",
+   "kcal": 6
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Anggur beku (1 cawan)",
+   "kcal": 100
+  },
+  {
+   "name": "Anggur 1/2 cawan",
+   "kcal": 50
+  },
+  {
+   "name": "Kismis (1/4 cawan)",
+   "kcal": 110
+  },
+  {
+   "name": "Jus anggur (1 gelas)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, anggur snek manis yang lebih baik daripada gula-gula atau kuih. Cuma ia senang dimakan banyak tanpa sedar, sebab saiznya kecil. Asingkan satu cawan dalam mangkuk, jangan makan terus dari bungkusan. Kismis pula padat kalori, jadi ambil sikit saja.",
+ "tips": [
+  "Asingkan 1 cawan dalam mangkuk kecil sebelum makan.",
+  "Bekukan anggur untuk snek sejuk yang dimakan perlahan.",
+  "Padankan dengan yogurt tanpa gula atau kacang sedikit untuk protein."
+ ],
+ "swap": {
+  "name": "Anggur segar 1 cawan ganti kismis 1/4 cawan",
+  "kcal": 100,
+  "why": "Kalori hampir sama tapi isinya lebih banyak, jadi lebih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Anggur hijau dan merah mana lebih baik?",
+   "a": "Kedua-duanya baik. Anggur merah dan hitam ada sedikit lebih antioksidan, tapi bezanya kecil."
+  },
+  {
+   "q": "Perlu cuci anggur dengan apa?",
+   "a": "Rendam dan bilas dengan air bersih beberapa kali sebelum makan."
+  },
+  {
+   "q": "Anggur selamat untuk anak kecil?",
+   "a": "Selamat, tapi potong dua atau empat untuk budak kecil supaya tak tercekik."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

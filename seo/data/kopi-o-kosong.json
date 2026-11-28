@@ -1,0 +1,66 @@
+{
+ "slug": "kopi-o-kosong",
+ "intro": "Segelas kopi O kosong ada anggaran 5 kcal sahaja. Kalori kecil itu datang dari kopi, kadang sedikit dari mentega atau gula semasa biji kopi dipanggang.",
+ "protein_g": 0,
+ "carbs_g": 1,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Kopi saring",
+   "kcal": 5
+  },
+  {
+   "part": "Air panas",
+   "kcal": 0
+  },
+  {
+   "part": "Ais (kalau kopi O ais kosong)",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kopi O bergula",
+   "kcal": 60
+  },
+  {
+   "name": "Kopi O kurang manis",
+   "kcal": 35
+  },
+  {
+   "name": "Kopi C kosong (susu sejat)",
+   "kcal": 40
+  },
+  {
+   "name": "Kopi tarik",
+   "kcal": 150
+  }
+ ],
+ "diet": "Sangat sesuai masa nak turun berat. Anda dapat rasa kopi dan kafein tanpa kalori gula. Ia juga pilihan mudah di mana-mana kopitiam. Kalau rasa terlalu pahit, cuba kopi C kosong dulu.",
+ "tips": [
+  "Minta 'kopi O kosong' terus, senang dan murah.",
+  "Kalau nak sikit berkrim, pilih kopi C kosong berbanding kopi tarik.",
+  "Elak minum lewat petang supaya tidur tak terganggu, tidur pun penting untuk kawal selera."
+ ],
+ "swap": {
+  "name": "Kopi C kosong",
+  "kcal": 40,
+  "why": "Ada rasa susu sedikit tanpa gula, masih jauh lebih ringan dari kopi tarik."
+ },
+ "faq": [
+  {
+   "q": "Apa beza kopi O, kopi C dan kopi biasa?",
+   "a": "Kopi O tiada susu. Kopi C guna susu sejat. Kopi biasa guna susu pekat manis."
+  },
+  {
+   "q": "Kenapa kopi kopitiam rasa lain?",
+   "a": "Banyak biji kopi tempatan dipanggang dengan mentega atau marjerin dan gula. Itu beri rasa dan aroma khas."
+  },
+  {
+   "q": "Berapa cawan kopi sehari okay?",
+   "a": "Kebanyakan orang dewasa okay dengan 2-3 cawan sehari. Kalau anda ada masalah kesihatan atau mengandung, tanya doktor."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

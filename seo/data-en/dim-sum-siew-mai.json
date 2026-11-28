@@ -1,0 +1,67 @@
+{
+ "slug": "dim-sum-siew-mai",
+ "name_en": "Dim sum siew mai (4 pieces)",
+ "serving_en": "4 pieces",
+ "intro": "Four pieces of siew mai are about 240 kcal (estimate). Most of the calories come from the meat or prawn filling and the fat inside it.",
+ "breakdown": [
+  {
+   "part": "Chicken & prawn filling",
+   "kcal": 130
+  },
+  {
+   "part": "Fat in the filling",
+   "kcal": 45
+  },
+  {
+   "part": "Wonton skin",
+   "kcal": 50
+  },
+  {
+   "part": "Fish roe / carrot topping",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Har gow, 4 pieces",
+   "kcal": 170
+  },
+  {
+   "name": "Fried dumplings, 4 pieces",
+   "kcal": 320
+  },
+  {
+   "name": "3-plate dim sum set",
+   "kcal": 650
+  },
+  {
+   "name": "Siew mai, 2 pieces",
+   "kcal": 120
+  }
+ ],
+ "diet": "Yes. Siew mai is one of the higher-protein dim sum, and it's steamed, not fried. What matters is how many plates you take. Go for steamed items and limit the fried ones.",
+ "tips": [
+  "Choose steamed items like siew mai and har gow, have less of the fried ones.",
+  "Order a plate of steamed veggies with a little oyster sauce.",
+  "Drink Chinese tea without sugar, not sweet drinks."
+ ],
+ "swap": {
+  "name": "Har gow, 4 pieces",
+  "kcal": 170,
+  "why": "Leaner prawn filling and thin skin, so fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Is siew mai halal?",
+   "a": "Traditional siew mai uses pork. Go to dim sum restaurants with halal certification, they use chicken and prawn."
+  },
+  {
+   "q": "Can I steam frozen siew mai straight away?",
+   "a": "Yes. Steam for 8 to 12 minutes until the filling is fully cooked."
+  },
+  {
+   "q": "What's the orange topping on siew mai?",
+   "a": "Usually fish roe or minced carrot, for colour and taste."
+  }
+ ]
+}

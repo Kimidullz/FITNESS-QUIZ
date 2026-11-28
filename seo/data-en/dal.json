@@ -1,0 +1,63 @@
+{
+ "slug": "dal",
+ "name_en": "Dal (kuah dal)",
+ "serving_en": "1 small bowl",
+ "intro": "A small bowl of kuah dal is about 150 kcal (estimate). Most of the calories come from the lentils and the oil or ghee used for tempering.",
+ "breakdown": [
+  {
+   "part": "Cooked lentils",
+   "kcal": 95
+  },
+  {
+   "part": "Oil or ghee for tempering",
+   "kcal": 40
+  },
+  {
+   "part": "Vegetables (potato, brinjal, tomato)",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuah dal banjir over rice (3 ladles)",
+   "kcal": 90
+  },
+  {
+   "name": "Mixed vegetable dal (1 small bowl)",
+   "kcal": 170
+  },
+  {
+   "name": "Dal with extra ghee (1 small bowl)",
+   "kcal": 200
+  },
+  {
+   "name": "Creamy dal makhani (1 small bowl)",
+   "kcal": 250
+  }
+ ],
+ "diet": "Absolutely. Dal has protein and fibre that help you stay full longer. It's a lighter choice than the santan curry gravy at nasi kandar shops. Just keep an eye on the ghee and how much rice you eat with it.",
+ "tips": [
+  "At nasi kandar, ask for kuah dal instead of oily mixed curry gravy.",
+  "Pair dal with ayam tandoori or a boiled egg for more protein.",
+  "Cooking at home? Temper with just 1 teaspoon of oil. The spices already give enough flavour."
+ ],
+ "swap": {
+  "name": "Homemade vegetable dal without ghee",
+  "kcal": 120,
+  "why": "More vegetables, less oil, but the spice flavour is still there."
+ },
+ "faq": [
+  {
+   "q": "What lentils is dal made from?",
+   "a": "Usually yellow lentils (toor dal) or red lentils (masoor). Some also mix in chana dal."
+  },
+  {
+   "q": "Is dal enough as a protein source?",
+   "a": "Dal has protein, but a small bowl only gives about 7 g. Better to add chicken, fish, egg or tofu to your meal."
+  },
+  {
+   "q": "Why does dal sometimes make me bloated?",
+   "a": "Beans and lentils can cause gas. Wash and soak the dal before cooking, and cook until really soft."
+  }
+ ]
+}

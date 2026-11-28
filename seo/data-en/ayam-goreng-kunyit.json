@@ -1,0 +1,67 @@
+{
+ "slug": "ayam-goreng-kunyit",
+ "name_en": "Ayam goreng kunyit (turmeric fried chicken)",
+ "serving_en": "1 piece",
+ "intro": "One medium piece of ayam goreng kunyit is about 300 kcal (estimate). The calories come from the meat, the skin and the oil absorbed while frying.",
+ "breakdown": [
+  {
+   "part": "Chicken meat",
+   "kcal": 150
+  },
+  {
+   "part": "Chicken skin",
+   "kcal": 80
+  },
+  {
+   "part": "Oil absorbed",
+   "kcal": 60
+  },
+  {
+   "part": "Marinade of turmeric, salt and a little flour",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam goreng kunyit wing",
+   "kcal": 200
+  },
+  {
+   "name": "Large drumstick/thigh ayam goreng kunyit",
+   "kcal": 380
+  },
+  {
+   "name": "Skinless chicken breast ayam goreng kunyit",
+   "kcal": 220
+  },
+  {
+   "name": "Ayam bakar kunyit (1 piece)",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, you can. Ayam goreng kunyit is high in protein, about 24 g per piece. The calories go up because of the skin and oil. One piece with rice, vegetables and ulam can still fit into your daily calorie budget.",
+ "tips": [
+  "Remove the skin to save about 80 kcal without losing protein.",
+  "Choose the breast if you want more protein and less fat.",
+  "Cook at home in an air fryer. The turmeric marinade still tastes great and smells fragrant."
+ ],
+ "swap": {
+  "name": "Skinless air fryer ayam kunyit",
+  "kcal": 200,
+  "why": "Almost the same protein, but less oil and no fat from the skin."
+ },
+ "faq": [
+  {
+   "q": "How do I make ayam goreng kunyit crispy?",
+   "a": "Pat the chicken dry after marinating, add a little rice flour, and fry in really hot oil."
+  },
+  {
+   "q": "Can I cook ayam goreng kunyit in an air fryer?",
+   "a": "Yes. Brush with a little oil and cook at around 180°C for about 20 to 25 minutes, flipping halfway."
+  },
+  {
+   "q": "Which part of the chicken has the most protein?",
+   "a": "Skinless chicken breast has the most protein and the least fat. Thigh is juicier but higher in fat."
+  }
+ ]
+}

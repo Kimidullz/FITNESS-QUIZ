@@ -1,0 +1,63 @@
+{
+ "slug": "kek-lapis-sarawak",
+ "name_en": "Kek lapis Sarawak",
+ "serving_en": "1 slice",
+ "intro": "About 220 kcal for 1 slice of kek lapis Sarawak. Most of the calories come from butter, sugar and condensed milk.",
+ "breakdown": [
+  {
+   "part": "Butter",
+   "kcal": 100
+  },
+  {
+   "part": "Sugar and condensed milk",
+   "kcal": 85
+  },
+  {
+   "part": "Flour and eggs",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Thin slice (half)",
+   "kcal": 110
+  },
+  {
+   "name": "Coffee kek lapis",
+   "kcal": 220
+  },
+  {
+   "name": "Prune kek lapis",
+   "kcal": 240
+  },
+  {
+   "name": "Cheese kek lapis",
+   "kcal": 260
+  }
+ ],
+ "diet": "Yes, but kek lapis Sarawak is really calorie-dense for its size. It's packed with butter and condensed milk. During raya or open houses, one thin slice is enough to enjoy the taste. What you need to watch is the 'one more slice' at every house.",
+ "tips": [
+  "Ask for a thin slice, it tastes just as good.",
+  "Pick the one flavour you love most, don't try them all.",
+  "Drink kopi O or teh O kosong so you don't add more sugar."
+ ],
+ "swap": {
+  "name": "Kuih bahulu 2 pieces",
+  "kcal": 100,
+  "why": "Sweet and soft, but with less butter and half the calories."
+ },
+ "faq": [
+  {
+   "q": "Why is kek lapis Sarawak so expensive?",
+   "a": "It's baked layer by layer, and one cake can take hours. It also uses a lot of butter and eggs."
+  },
+  {
+   "q": "How long does kek lapis Sarawak last?",
+   "a": "About a week at room temperature. In the fridge it can last a few weeks if wrapped tightly."
+  },
+  {
+   "q": "What's the difference between kek lapis Sarawak and regular kek lapis?",
+   "a": "Kek lapis Sarawak is more colourful and patterned, and usually uses condensed milk, so the texture is denser and moister."
+  }
+ ]
+}

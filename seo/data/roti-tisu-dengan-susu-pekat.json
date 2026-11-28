@@ -1,0 +1,70 @@
+{
+ "slug": "roti-tisu-dengan-susu-pekat",
+ "intro": "Sekeping roti tisu dengan susu pekat ada anggaran 500 kcal. Kebanyakan kalori datang daripada doh tepung, majerin yang disapu masa menebar dan susu pekat yang dituang atas.",
+ "protein_g": 9,
+ "carbs_g": 68,
+ "fat_g": 21,
+ "breakdown": [
+  {
+   "part": "Doh roti tisu (tepung gandum)",
+   "kcal": 220
+  },
+  {
+   "part": "Majerin dan minyak masa tebar",
+   "kcal": 150
+  },
+  {
+   "part": "Susu pekat (2-3 sudu besar)",
+   "kcal": 100
+  },
+  {
+   "part": "Gula tabur",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti tisu kosong tanpa susu pekat",
+   "kcal": 370
+  },
+  {
+   "name": "Roti tisu dengan gula sahaja",
+   "kcal": 420
+  },
+  {
+   "name": "Roti tisu dengan susu pekat dan mentega",
+   "kcal": 580
+  },
+  {
+   "name": "Roti tisu dengan aiskrim",
+   "kcal": 620
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia sebagai pencuci mulut, bukan makanan utama. Proteinnya rendah, jadi cepat lapar semula walaupun kalorinya tinggi. Kalau nak makan, kongsi dengan kawan atau keluarga dan jadikan ia sesekali seminggu. Yang penting jumlah kalori sehari masih dalam sasaran.",
+ "tips": [
+  "Kongsi satu keping dengan 2-3 orang, ambil satu bahagian sahaja.",
+  "Minta susu pekat diasingkan dalam piring kecil, cicah sikit-sikit.",
+  "Pasangkan dengan telur separuh masak atau teh O kosong, bukan teh tarik."
+ ],
+ "swap": {
+  "name": "Roti kosong 1 keping + 2 biji telur separuh masak",
+  "kcal": 390,
+  "why": "Masih rasa lepak mamak, tapi ada protein dari telur jadi lebih kenyang lama."
+ },
+ "faq": [
+  {
+   "q": "Kenapa roti tisu tinggi dan nipis sangat?",
+   "a": "Doh ditebar sangat nipis sampai hampir lutsinar, kemudian dimasak atas kuali leper dan dibentuk jadi kon. Teknik ini perlukan kemahiran tukang roti."
+  },
+  {
+   "q": "Roti tisu sesuai untuk sarapan ke?",
+   "a": "Boleh, tapi ia lebih kepada makanan manis. Kalau sarapan, tambah sumber protein seperti telur supaya tak cepat lapar sebelum tengah hari."
+  },
+  {
+   "q": "Boleh minta kurang manis?",
+   "a": "Boleh. Minta tak tabur gula dan susu pekat diasingkan. Kebanyakan kedai mamak okay dengan permintaan ini."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

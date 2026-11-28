@@ -1,0 +1,66 @@
+{
+ "slug": "biskut-marie",
+ "intro": "Empat keping biskut Marie memberi anggaran 120 kcal. Kebanyakan kalori datang daripada tepung gandum dan gula, dengan sedikit lemak.",
+ "protein_g": 2,
+ "carbs_g": 21,
+ "fat_g": 3,
+ "breakdown": [
+  {
+   "part": "Tepung gandum",
+   "kcal": 75
+  },
+  {
+   "part": "Gula",
+   "kcal": 25
+  },
+  {
+   "part": "Minyak / lemak",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "2 keping sahaja",
+   "kcal": 60
+  },
+  {
+   "name": "4 keping + kopi O kosong",
+   "kcal": 125
+  },
+  {
+   "name": "4 keping + teh tarik",
+   "kcal": 270
+  },
+  {
+   "name": "Biskut Marie bersalut coklat, 4 keping",
+   "kcal": 180
+  }
+ ],
+ "diet": "Boleh, biskut Marie antara snek manis yang paling ringan. Empat keping hanya sekitar 120 kcal, tapi proteinnya rendah, jadi tak lama kenyangnya. Yang selalu menambah kalori ialah air yang dicelup, macam teh tarik atau kopi susu. Ia okay untuk minum petang, asalkan tak habis separuh bungkus.",
+ "tips": [
+  "Kira dan ambil 4 keping, letak dalam piring, tutup balang.",
+  "Celup dalam kopi O atau teh O kosong, bukan teh tarik.",
+  "Tambah sesuatu berprotein seperti segelas susu rendah lemak supaya lebih kenyang."
+ ],
+ "swap": {
+  "name": "Roti gandum penuh 1 keping + telur rebus 1 biji",
+  "kcal": 150,
+  "why": "Kalori lebih kurang sama, tapi protein dan serat jauh lebih tinggi, jadi tak cepat lapar."
+ },
+ "faq": [
+  {
+   "q": "Biskut Marie sesuai untuk orang yang perut sensitif?",
+   "a": "Ramai suka biskut Marie kerana rasanya ringan dan tak berempah. Jika ada masalah gastrik atau perut, dapatkan nasihat doktor untuk pilihan makanan yang sesuai."
+  },
+  {
+   "q": "Boleh guna biskut Marie untuk buat kek batik?",
+   "a": "Ya, biskut Marie memang bahan utama kek batik. Cuma kek batik ada coklat, mentega dan susu pekat, jadi kalorinya jauh lebih tinggi daripada biskut kosong."
+  },
+  {
+   "q": "Biskut Marie sesuai untuk anak kecil?",
+   "a": "Ramai ibu bapa beri sebagai snek ringan. Tetap ada gula, jadi gandingkan dengan buah atau susu dan jangan jadikan ia snek utama setiap hari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

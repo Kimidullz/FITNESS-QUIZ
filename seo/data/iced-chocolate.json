@@ -1,0 +1,66 @@
+{
+ "slug": "iced-chocolate",
+ "intro": "Secawan iced chocolate dari kafe ada anggaran 380 kcal. Kebanyakan kalori dari susu penuh krim, sos coklat dan whipped cream di atas.",
+ "protein_g": 10,
+ "carbs_g": 52,
+ "fat_g": 15,
+ "breakdown": [
+  {
+   "part": "Susu penuh krim (~300 ml)",
+   "kcal": 190
+  },
+  {
+   "part": "Sos / serbuk coklat",
+   "kcal": 120
+  },
+  {
+   "part": "Whipped cream",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tanpa whipped cream",
+   "kcal": 310
+  },
+  {
+   "name": "Dengan susu rendah lemak",
+   "kcal": 320
+  },
+  {
+   "name": "Saiz kecil (regular)",
+   "kcal": 260
+  },
+  {
+   "name": "Tambah sirap / marshmallow",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, tapi ia lebih dekat kepada pencuci mulut berbanding minuman biasa. 380 kcal tu lebih kurang sama dengan sepinggan nasi lemak kecil. Nikmati sesekali masa lepak di kafe. Kalau nak minum, kurangkan snek atau dessert lain pada hari tu.",
+ "tips": [
+  "Minta tanpa whipped cream, jimat sekitar 70 kcal.",
+  "Pilih saiz paling kecil atau kongsi dengan kawan.",
+  "Minta 'less sweet' atau susu rendah lemak kalau kafe ada pilihan."
+ ],
+ "swap": {
+  "name": "Iced latte tanpa gula",
+  "kcal": 150,
+  "why": "Masih ada susu dan protein, tanpa sos coklat dan whipped cream. Jimat lebih 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Iced chocolate ada kafein ke?",
+   "a": "Ada sedikit dari koko, tapi jauh lebih rendah berbanding kopi. Sesuai bagi yang nak elak kopi."
+  },
+  {
+   "q": "Iced chocolate sesuai untuk budak-budak?",
+   "a": "Boleh sebagai treat sesekali. Pilih saiz kecil dan kurang manis kerana gula agak tinggi."
+  },
+  {
+   "q": "Apa beza iced chocolate dengan Milo ais?",
+   "a": "Iced chocolate kafe biasanya guna sos coklat dan susu segar, kadang ada whipped cream. Milo ais mamak guna serbuk Milo dan susu pekat atau susu cair."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "laksam",
+ "intro": "Semangkuk laksam ada anggaran 450 kcal. Kalori paling banyak datang dari gulungan laksam tepung beras dan kuah santan ikan yang pekat.",
+ "protein_g": 15,
+ "carbs_g": 58,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Laksam gulung 1 mangkuk",
+   "kcal": 220
+  },
+  {
+   "part": "Kuah santan ikan",
+   "kcal": 180
+  },
+  {
+   "part": "Ulam & sambal",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Laksam extra kuah",
+   "kcal": 520
+  },
+  {
+   "name": "Laksam kurang kuah",
+   "kcal": 380
+  },
+  {
+   "name": "Laksam + telur rebus",
+   "kcal": 525
+  }
+ ],
+ "diet": "Boleh, laksam masih boleh masuk plan turun berat. Kuah santan yang buat kalori lebih tinggi, jadi kawal berapa banyak kuah yang dihirup. Ulam yang banyak bantu bagi rasa kenyang dan serat. Satu mangkuk portion biasa okay untuk sarapan atau tengah hari.",
+ "tips": [
+  "Minta ulam lebih seperti timun, kacang panjang dan daun kesum.",
+  "Makan laksam dengan kuah, tapi tak perlu hirup sampai habis.",
+  "Tambah telur rebus kalau nak lebih protein dan kenyang."
+ ],
+ "swap": {
+  "name": "Laksa Penang (asam laksa)",
+  "kcal": 380,
+  "why": "Kuah asam berasaskan ikan tanpa santan, jadi lemak lebih rendah tapi rasa masih kuat."
+ },
+ "faq": [
+  {
+   "q": "Apa beza laksam dengan laksa?",
+   "a": "Laksam guna kepingan tepung beras yang digulung dan dipotong, laksa guna mi bulat. Kuah laksam juga lebih putih dan berlemak santan."
+  },
+  {
+   "q": "Laksam asal dari mana?",
+   "a": "Laksam popular di Kelantan dan Terengganu, selalu dimakan untuk sarapan."
+  },
+  {
+   "q": "Kuah laksam diperbuat dari apa?",
+   "a": "Kuahnya dibuat dari ikan rebus yang dikisar, santan dan rempah ringkas seperti bawang dan lada hitam."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

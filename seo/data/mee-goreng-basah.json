@@ -1,0 +1,74 @@
+{
+ "slug": "mee-goreng-basah",
+ "intro": "Sepinggan mee goreng basah dari gerai ada anggaran 550 kcal. Kebanyakan kalori datang dari mee kuning dan minyak masak.",
+ "protein_g": 18,
+ "carbs_g": 70,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Mee kuning 1 pinggan",
+   "kcal": 280
+  },
+  {
+   "part": "Minyak masak",
+   "kcal": 140
+  },
+  {
+   "part": "Telur, udang atau sotong",
+   "kcal": 60
+  },
+  {
+   "part": "Sos cili, tomato & kicap",
+   "kcal": 50
+  },
+  {
+   "part": "Sayur & taugeh",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee goreng basah + telur mata",
+   "kcal": 640
+  },
+  {
+   "name": "Mee goreng basah ayam",
+   "kcal": 620
+  },
+  {
+   "name": "Mee hoon goreng basah",
+   "kcal": 480
+  },
+  {
+   "name": "Minta kurang minyak",
+   "kcal": 460
+  }
+ ],
+ "diet": "Boleh, asalkan jaga kekerapan dan portion. Mee goreng banyak karbo dan minyak, tapi protein agak sikit. Kalau makan sekali-sekala dan pinggan seterusnya lebih ringan, ia masih boleh muat dalam defisit kalori.",
+ "tips": [
+  "Minta 'kurang minyak' dan 'sayur lebih' masa order.",
+  "Tambah protein seperti ayam atau telur rebus, bukan telur mata goreng.",
+  "Makan separuh dan tapau separuh untuk petang."
+ ],
+ "swap": {
+  "name": "Mee hoon sup ayam",
+  "kcal": 350,
+  "why": "Berkuah dan kurang minyak, tapi masih rasa mee yang mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Apa beza mee goreng basah dan mee goreng biasa?",
+   "a": "Mee goreng basah dimasak dengan kuah sos lebih, jadi teksturnya lembap dan berkuah sikit."
+  },
+  {
+   "q": "Mee goreng basah pedas tak?",
+   "a": "Bergantung pada gerai. Kebanyakannya guna sos cili, jadi ada rasa pedas manis. Boleh minta kurang pedas."
+  },
+  {
+   "q": "Boleh simpan mee goreng basah untuk esok?",
+   "a": "Boleh, simpan dalam peti sejuk dan panaskan semula. Tapi lebih elok habiskan dalam sehari."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "bihun-goreng-singapore",
+ "name_en": "Bihun goreng singapore (Singapore fried bihun)",
+ "serving_en": "1 plate",
+ "intro": "A plate of bihun goreng singapore is about 480 kcal (estimate). Most of the calories come from the bihun and oil, with a bit from the egg and toppings.",
+ "breakdown": [
+  {
+   "part": "Bihun, 1 plate",
+   "kcal": 250
+  },
+  {
+   "part": "Oil & curry powder",
+   "kcal": 110
+  },
+  {
+   "part": "1 egg",
+   "kcal": 70
+  },
+  {
+   "part": "Prawn/chicken, vegetables & taugeh",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Bihun singapore + telur mata",
+   "kcal": 570
+  },
+  {
+   "name": "Bihun singapore, extra prawns",
+   "kcal": 520
+  },
+  {
+   "name": "Regular bihun goreng",
+   "kcal": 450
+  },
+  {
+   "name": "Bihun singapore, less oil",
+   "kcal": 420
+  }
+ ],
+ "diet": "Yes, bihun singapore is one of the lighter fried noodle options. It's drier and usually less oily than kuey teow goreng. Protein is still low though, so add a protein topping so you don't get hungry fast. A good choice for lunch at the kedai.",
+ "tips": [
+  "Ask for extra prawns or sliced chicken for protein.",
+  "Order more vegetables, like cabbage and sawi.",
+  "No need to add telur mata if there's already egg in the bihun."
+ ],
+ "swap": {
+  "name": "Bihun sup ayam",
+  "kcal": 350,
+  "why": "You get bihun and chicken in soup, with much less oil, and the hot soup is more filling."
+ },
+ "faq": [
+  {
+   "q": "Why is it called Singapore fried bihun?",
+   "a": "It's known as 'Singapore' style because it uses curry powder, even though it's not that common in Singapore itself."
+  },
+  {
+   "q": "What's the difference between bihun singapore and regular bihun goreng?",
+   "a": "Bihun singapore uses curry powder, so it's yellow and slightly spiced. Regular bihun goreng leans more on soy sauce and chilli."
+  },
+  {
+   "q": "Is bihun better than yellow noodles?",
+   "a": "Bihun has no egg and is usually lighter, but the calories depend on the oil and portion, not just the type of noodle."
+  }
+ ]
+}

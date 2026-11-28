@@ -1,0 +1,74 @@
+{
+ "slug": "chicken-rice-bowl-jepun",
+ "intro": "Semangkuk chicken teriyaki rice bowl ada anggaran 650 kcal. Kebanyakan kalori datang daripada nasi Jepun yang banyak dan ayam peha bersos teriyaki manis.",
+ "protein_g": 35,
+ "carbs_g": 85,
+ "fat_g": 19,
+ "breakdown": [
+  {
+   "part": "Nasi Jepun (~1.5 cawan)",
+   "kcal": 300
+  },
+  {
+   "part": "Ayam peha teriyaki",
+   "kcal": 200
+  },
+  {
+   "part": "Sos teriyaki",
+   "kcal": 60
+  },
+  {
+   "part": "Mayo & bijan",
+   "kcal": 60
+  },
+  {
+   "part": "Salad kubis",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Ayam dada teriyaki, tanpa mayo",
+   "kcal": 520
+  },
+  {
+   "name": "Chicken katsu don",
+   "kcal": 850
+  },
+  {
+   "name": "Tambah telur onsen",
+   "kcal": 720
+  },
+  {
+   "name": "Saiz besar / nasi tambah",
+   "kcal": 800
+  }
+ ],
+ "diet": "Boleh, sebab ia ada protein yang baik dan senang dikawal. Yang buat kalori naik ialah nasi yang banyak, sos manis dan mayo. Minta nasi kurang dan sos di tepi, terus jimat lebih 100 kcal. Pilih teriyaki berbanding katsu yang digoreng.",
+ "tips": [
+  "Minta nasi separuh atau kurang nasi, tambah sayur.",
+  "Minta mayo dan sos teriyaki di tepi.",
+  "Tambah telur untuk protein ekstra kalau perlu kenyang lebih."
+ ],
+ "swap": {
+  "name": "Teriyaki bowl nasi separuh + salad lebih",
+  "kcal": 480,
+  "why": "Protein sama, karbo dan sos berkurang, masih kenyang."
+ },
+ "faq": [
+  {
+   "q": "Apa beza teriyaki dan katsu?",
+   "a": "Teriyaki dipanggang atau dimasak dengan sos manis kicap. Katsu pula disalut tepung roti dan digoreng."
+  },
+  {
+   "q": "Boleh buat teriyaki sendiri di rumah?",
+   "a": "Boleh. Campur kicap, sedikit madu atau gula, halia dan bawang putih, kemudian masak dengan ayam."
+  },
+  {
+   "q": "Nasi Jepun lain ke dengan nasi biasa?",
+   "a": "Nasi Jepun lebih pendek dan melekit. Kalorinya lebih kurang sama dengan nasi putih biasa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

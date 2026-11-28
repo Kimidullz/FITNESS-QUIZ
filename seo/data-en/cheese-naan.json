@@ -1,0 +1,63 @@
+{
+ "slug": "cheese-naan",
+ "name_en": "Cheese naan",
+ "serving_en": "1 piece",
+ "intro": "One cheese naan is about 420 kcal (estimate). Most of the calories come from the wheat flour dough and the melted cheese inside, plus the butter or ghee brushed on top.",
+ "breakdown": [
+  {
+   "part": "Naan dough (wheat flour)",
+   "kcal": 260
+  },
+  {
+   "part": "Cheese filling",
+   "kcal": 110
+  },
+  {
+   "part": "Butter or ghee brushed on top",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain naan",
+   "kcal": 280
+  },
+  {
+   "name": "Garlic cheese naan",
+   "kcal": 460
+  },
+  {
+   "name": "Large cheese naan (restaurant size)",
+   "kcal": 520
+  },
+  {
+   "name": "Cheese naan + kuah dal",
+   "kcal": 500
+  }
+ ],
+ "diet": "Yes, it can fit your calorie budget if you plan for it. One cheese naan is already close to a small plate of rice with dishes. Pair it with grilled protein like ayam tandoori, not creamy gravy. When eating in a group, share and take just one or two pieces.",
+ "tips": [
+  "Ask them not to brush butter or ghee on top.",
+  "Share one naan between two and add ayam tandoori.",
+  "Choose kuah dal or raita, not creamy butter gravy."
+ ],
+ "swap": {
+  "name": "Plain naan + 1 piece ayam tandoori",
+  "kcal": 450,
+  "why": "Almost the same calories, but you swap cheese for grilled chicken, which gives more protein and keeps you full longer."
+ },
+ "faq": [
+  {
+   "q": "What cheese is used in cheese naan?",
+   "a": "Most shops use mozzarella or processed cheese, so it's melty and stretchy."
+  },
+  {
+   "q": "What goes well with cheese naan?",
+   "a": "Many people like it with ayam tandoori, kuah dal or butter chicken. Some just eat it on its own because it's already tasty."
+  },
+  {
+   "q": "Can I reheat cheese naan?",
+   "a": "Yes. Use a flat pan or air fryer for a few minutes so the cheese melts again and the outside gets crispy."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "tauge-goreng",
+ "name_en": "Tauge goreng (fried bean sprouts)",
+ "serving_en": "1 scoop (senduk)",
+ "intro": "One scoop of tauge goreng (about 100 g) has roughly 90 kcal. Most of the calories come from the cooking oil, not the tauge itself.",
+ "breakdown": [
+  {
+   "part": "Tauge 100 g",
+   "kcal": 30
+  },
+  {
+   "part": "Cooking oil, about 1 teaspoon",
+   "kcal": 45
+  },
+  {
+   "part": "Garlic, chilli and oyster sauce/kicap",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tauge goreng with ikan masin (1 scoop)",
+   "kcal": 120
+  },
+  {
+   "name": "Tauge goreng with prawns (1 scoop)",
+   "kcal": 130
+  },
+  {
+   "name": "Tauge goreng with tauhu (1 scoop)",
+   "kcal": 150
+  },
+  {
+   "name": "Blanched tauge with kicap (1 scoop)",
+   "kcal": 50
+  }
+ ],
+ "diet": "Definitely yes. Tauge goreng is one of the lightest dishes at a nasi campur shop. It's low in calories and bulks up your plate so you feel full. But tauge is low in protein, so don't make it your only dish. Pair it with chicken, fish or egg.",
+ "tips": [
+  "Scoop from the top of the tray and avoid the oil pooled at the bottom.",
+  "Cooking yourself? Use high heat and just 1 teaspoon of oil for a small wok.",
+  "Make tauge half your plate, then add a protein like ikan bakar or chicken."
+ ],
+ "swap": {
+  "name": "Blanched tauge with a little kicap and shallot oil",
+  "kcal": 50,
+  "why": "Tastes almost the same with much less oil. Goes really well with boiled chicken or fish."
+ },
+ "faq": [
+  {
+   "q": "Why does my tauge goreng turn watery?",
+   "a": "Usually because the heat is too low or it's cooked too long. Use high heat, fry quickly, don't cover the wok, and add salt at the end."
+  },
+  {
+   "q": "Do I need to remove the tauge tails?",
+   "a": "Not a must. Removing the tails is just for a neater look and texture. The nutrition is about the same."
+  },
+  {
+   "q": "Is raw tauge safe to eat?",
+   "a": "Raw tauge can carry bacteria. For pregnant mums, young kids and the elderly, it's safer to eat it cooked or blanched."
+  }
+ ]
+}

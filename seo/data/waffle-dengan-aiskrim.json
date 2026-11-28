@@ -1,0 +1,62 @@
+{
+ "slug": "waffle-dengan-aiskrim",
+ "intro": "Sepinggan waffle dengan aiskrim ada anggaran 550 kcal. Kebanyakan kalori datang dari waffle bermentega, dua scoop aiskrim dan sos manis di atasnya.",
+ "protein_g": 9,
+ "carbs_g": 68,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Waffle 1 keping",
+   "kcal": 300
+  },
+  {
+   "part": "Aiskrim 2 scoop",
+   "kcal": 180
+  },
+  {
+   "part": "Sos coklat atau sirap",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Waffle dengan 1 scoop aiskrim",
+   "kcal": 460
+  },
+  {
+   "name": "Waffle kosong dengan mentega",
+   "kcal": 350
+  },
+  {
+   "name": "Waffle aiskrim dengan krim putar dan sos karamel",
+   "kcal": 650
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia sama berat dengan satu hidangan penuh, bukan sekadar pencuci mulut. 550 kcal hampir sama dengan nasi lemak biasa. Paling senang, kongsi dengan kawan atau keluarga semasa lepak di kafe. Pada hari yang sama, pilih makanan lain yang lebih ringan dan tinggi protein.",
+ "tips": [
+  "Kongsi satu pinggan berdua atau bertiga.",
+  "Minta 1 scoop aiskrim dan sos diasingkan.",
+  "Pilih topping buah segar berbanding krim putar atau marshmallow."
+ ],
+ "swap": {
+  "name": "Waffle separuh dengan 1 scoop aiskrim dan buah",
+  "kcal": 280,
+  "why": "Masih dapat pengalaman lepak kafe, tapi kalori kurang separuh."
+ },
+ "faq": [
+  {
+   "q": "Apa beza waffle Belgium dengan waffle biasa?",
+   "a": "Waffle Belgium lebih tebal, ada petak yang lebih dalam dan biasanya lebih rangup di luar. Saiznya selalunya lebih besar."
+  },
+  {
+   "q": "Boleh buat waffle sendiri di rumah tanpa mesin?",
+   "a": "Tanpa mesin waffle susah dapat bentuk asal. Ramai guna adunan yang sama untuk buat pancake dalam kuali."
+  },
+  {
+   "q": "Kenapa waffle kafe cepat lembik?",
+   "a": "Wap dari aiskrim cair dan sos meresap ke dalam waffle. Makan cepat atau minta topping diasingkan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

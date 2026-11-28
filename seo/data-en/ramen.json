@@ -1,0 +1,67 @@
+{
+ "slug": "ramen",
+ "name_en": "Ramen (restaurant)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of restaurant ramen has an estimated 650 kcal. Most of the calories come from the ramen noodles and the rich, fatty broth.",
+ "breakdown": [
+  {
+   "part": "Ramen noodles, 1 serving",
+   "kcal": 300
+  },
+  {
+   "part": "Broth (tonkotsu/rich chicken)",
+   "kcal": 180
+  },
+  {
+   "part": "Sliced meat or chicken",
+   "kcal": 100
+  },
+  {
+   "part": "Ajitama egg & toppings",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Rich tonkotsu/paitan broth ramen",
+   "kcal": 800
+  },
+  {
+   "name": "Clear shoyu/shio broth ramen",
+   "kcal": 500
+  },
+  {
+   "name": "Extra meat topping",
+   "kcal": 750
+  },
+  {
+   "name": "Spicy miso ramen",
+   "kcal": 700
+  }
+ ],
+ "diet": "Yes, especially when you're eating out with family or friends. Rich broths like paitan or tonkotsu are high in fat. Choose a clear broth and don't finish the soup, this makes a big difference. Balance it with a lighter breakfast and dinner.",
+ "tips": [
+  "Choose clear broth like shoyu or shio.",
+  "Leave at least half the broth.",
+  "Skip side orders like fried gyoza or rice."
+ ],
+ "swap": {
+  "name": "Clear broth ramen + egg, without drinking the broth",
+  "kcal": 450,
+  "why": "Less fat from the broth, and you still get protein from the egg and meat."
+ },
+ "faq": [
+  {
+   "q": "Is ramen halal?",
+   "a": "Original tonkotsu uses pork bones. Many halal restaurants now use chicken or beef broth. Check the shop's halal certificate."
+  },
+  {
+   "q": "What's the difference between tonkotsu, shoyu and miso ramen?",
+   "a": "Tonkotsu is a thick white broth from bones. Shoyu is soy sauce-based and clearer. Miso uses soybean paste and tastes richer."
+  },
+  {
+   "q": "Is instant ramen the same as restaurant ramen?",
+   "a": "No. Restaurant ramen uses fresh noodles and broth simmered for hours. Instant noodles are usually fried and high in salt."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "nescafe-tarik",
+ "intro": "Segelas Nescafe tarik ada anggaran 160 kcal. Kebanyakan kalori datang dari susu pekat manis yang dibancuh banyak.",
+ "protein_g": 4,
+ "carbs_g": 26,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Susu pekat manis 2 sudu besar",
+   "kcal": 125
+  },
+  {
+   "part": "Susu sejat atau krimer",
+   "kcal": 30
+  },
+  {
+   "part": "Serbuk Nescafe",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nescafe tarik kurang manis",
+   "kcal": 110
+  },
+  {
+   "name": "Nescafe ais",
+   "kcal": 170
+  },
+  {
+   "name": "Nescafe O kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Nescafe tarik gelas besar",
+   "kcal": 230
+  }
+ ],
+ "diet": "Boleh, kalau tidak setiap kali lepak. Satu gelas sudah sama kalori dengan sekeping roti bakar bermentega. Masalahnya bila minum 2-3 gelas sehari tanpa sedar. Kurang manis atau O kosong bantu banyak.",
+ "tips": [
+  "Minta 'kurang manis' atau 'satu sudu susu je'.",
+  "Pilih gelas biasa, bukan saiz besar atau jag.",
+  "Kalau nak kopi pagi dan petang, buat satu daripadanya O kosong."
+ ],
+ "swap": {
+  "name": "Nescafe O kosong dengan sedikit susu segar",
+  "kcal": 40,
+  "why": "Masih ada rasa berkrim, tapi gula jauh berkurang."
+ },
+ "faq": [
+  {
+   "q": "Apa beza Nescafe tarik dan kopi tarik?",
+   "a": "Nescafe tarik guna kopi segera. Kopi tarik guna kopi saring dari serbuk kopi tempatan."
+  },
+  {
+   "q": "Kenapa ditarik?",
+   "a": "Tarikan campurkan susu sebati dan hasilkan buih. Teksturnya jadi lebih lembut."
+  },
+  {
+   "q": "Banyak kafein tak?",
+   "a": "Satu gelas biasanya sederhana. Kalau sensitif, elak minum lewat petang."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

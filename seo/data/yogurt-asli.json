@@ -1,0 +1,66 @@
+{
+ "slug": "yogurt-asli",
+ "intro": "Satu cawan yogurt asli (plain) ada anggaran 110 kcal. Kalorinya datang hampir sama rata daripada lemak susu, gula semula jadi susu (laktosa) dan protein.",
+ "protein_g": 7,
+ "carbs_g": 9,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Lemak susu (yogurt biasa, bukan rendah lemak)",
+   "kcal": 45
+  },
+  {
+   "part": "Gula semula jadi susu (laktosa)",
+   "kcal": 36
+  },
+  {
+   "part": "Protein susu",
+   "kcal": 28
+  }
+ ],
+ "variants": [
+  {
+   "name": "Yogurt asli rendah lemak, 1 cawan",
+   "kcal": 90
+  },
+  {
+   "name": "Yogurt Greek asli, 1 cawan",
+   "kcal": 150
+  },
+  {
+   "name": "Yogurt berperisa/manis, 1 cawan",
+   "kcal": 180
+  },
+  {
+   "name": "Yogurt asli + 1 sudu besar madu",
+   "kcal": 170
+  }
+ ],
+ "diet": "Boleh, dan sebenarnya yogurt asli antara snek yang senang masuk dalam plan turun berat. Kalorinya rendah dan ada sedikit protein yang bantu rasa kenyang. Yang selalu buat kalori naik ialah apa yang kita tambah, macam madu, granola atau buah dalam sirap. Pilih yang asli tanpa gula, dan kawal topping, okay.",
+ "tips": [
+  "Baca label dan pilih yang tulis 'plain' atau 'tanpa gula tambahan'. Yang berperisa biasanya ada gula lebih.",
+  "Nak rasa manis? Tambah buah segar macam pisang separuh biji atau beberapa hiris betik, bukan madu atau susu pekat.",
+  "Guna yogurt asli ganti mayonis atau santan untuk sos salad, dip atau perap ayam. Lebih ringan, rasa tetap sedap."
+ ],
+ "swap": {
+  "name": "Yogurt Greek asli rendah lemak, 1 cawan",
+  "kcal": 100,
+  "why": "Kalori lebih kurang sama, tapi protein hampir dua kali ganda. Lebih pekat dan lebih lama kenyang."
+ },
+ "faq": [
+  {
+   "q": "Yogurt asli dengan dadih sama ke?",
+   "a": "Lebih kurang sama, dua-dua susu yang ditapai. Dadih tradisional kadang ada gula atau perisa ditambah, jadi semak label kalau beli di kedai."
+  },
+  {
+   "q": "Boleh ke makan yogurt waktu malam?",
+   "a": "Boleh. Yang penting jumlah kalori sepanjang hari. Secawan yogurt asli ialah snek malam yang ringan berbanding biskut atau maggi."
+  },
+  {
+   "q": "Orang yang tak tahan susu boleh makan yogurt?",
+   "a": "Sesetengah orang rasa yogurt lebih senang dihadam berbanding susu biasa, tapi setiap orang lain-lain. Cuba sedikit dulu, dan jumpa doktor kalau ada masalah perut yang berterusan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

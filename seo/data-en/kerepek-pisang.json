@@ -1,0 +1,63 @@
+{
+ "slug": "kerepek-pisang",
+ "name_en": "Kerepek pisang (banana chips)",
+ "serving_en": "1 handful",
+ "intro": "A handful of kerepek pisang gives about 170 kcal (estimate). Most of the calories come from the oil absorbed when the banana is fried, plus sugar for the sweet version.",
+ "breakdown": [
+  {
+   "part": "Banana slices",
+   "kcal": 90
+  },
+  {
+   "part": "Absorbed frying oil",
+   "kcal": 75
+  },
+  {
+   "part": "Sugar or salt",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Salted banana chips, 1 handful",
+   "kcal": 170
+  },
+  {
+   "name": "Sugar-coated banana chips, 1 handful",
+   "kcal": 190
+  },
+  {
+   "name": "Chocolate-coated banana chips, 1 handful",
+   "kcal": 210
+  },
+  {
+   "name": "1 small packet (~70 g)",
+   "kcal": 360
+  }
+ ],
+ "diet": "Yes, a handful of kerepek pisang can fit into a weight loss plan. Even though it's from fruit, it's fried, so it's much higher in calories than a fresh banana. There's almost no protein, so you get hungry again fast. Have it as a small snack, not as a replacement for fruit.",
+ "tips": [
+  "Pour one handful into a small bowl and keep the rest of the packet away.",
+  "Choose the salted version over sugar or chocolate-coated.",
+  "For an afternoon office snack, pair with low-fat milk or a boiled egg for protein."
+ ],
+ "swap": {
+  "name": "Fresh pisang berangan, 1 banana",
+  "kcal": 100,
+  "why": "Same sweet banana taste, more water and fibre, no frying oil."
+ },
+ "faq": [
+  {
+   "q": "Do banana chips count as fruit?",
+   "a": "Not really. Frying removes a lot of water and adds oil, so it's more of a snack than a serving of fruit."
+  },
+  {
+   "q": "What bananas are usually used for kerepek?",
+   "a": "Pisang tanduk, pisang nangka and pisang awak are popular because their texture is good for slicing thin and frying."
+  },
+  {
+   "q": "How do I keep banana chips from going lemau?",
+   "a": "Store in an airtight container or jar, away from damp places. Close it tightly every time after taking some."
+  }
+ ]
+}

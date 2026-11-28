@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-beriani-kambing",
+ "intro": "Sepinggan nasi beriani kambing ada anggaran 900 kcal. Kalori banyak datang dari nasi yang dimasak dengan minyak sapi dan kuah kambing yang berlemak.",
+ "protein_g": 35,
+ "carbs_g": 95,
+ "fat_g": 42,
+ "breakdown": [
+  {
+   "part": "Nasi beriani 1.5 cawan (minyak sapi)",
+   "kcal": 420
+  },
+  {
+   "part": "Kambing kuah 1 senduk",
+   "kcal": 300
+  },
+  {
+   "part": "Acar dan papadom",
+   "kcal": 100
+  },
+  {
+   "part": "Dalca",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Beriani ayam",
+   "kcal": 800
+  },
+  {
+   "name": "Tanpa papadom",
+   "kcal": 850
+  },
+  {
+   "name": "Nasi separuh + kambing penuh",
+   "kcal": 690
+  },
+  {
+   "name": "Tambah telur rebus",
+   "kcal": 980
+  }
+ ],
+ "diet": "Boleh, tapi ini hidangan majlis atau sekali-sekala. Minyak sapi dan lemak kambing buat kalorinya tinggi. Kalau makan di kenduri, ambil nasi sikit dan fokus pada lauk. Hari lain makan lebih ringan untuk imbangkan.",
+ "tips": [
+  "Pilih isi kambing yang kurang lemak dan buang bahagian lemak yang nampak.",
+  "Ambil nasi separuh pinggan, tambah acar timun dan nanas.",
+  "Skip papadom kalau dah kenyang."
+ ],
+ "swap": {
+  "name": "Beriani ayam separuh nasi + acar",
+  "kcal": 600,
+  "why": "Ayam kurang lemak berbanding kambing dan porsi nasi terkawal, tapi rasa beriani masih ada."
+ },
+ "faq": [
+  {
+   "q": "Kambing ke biri-biri yang selalu digunakan?",
+   "a": "Di Malaysia, 'kambing' dalam menu selalunya sama ada kambing atau biri-biri (mutton). Rasa dan teksturnya sedikit berbeza."
+  },
+  {
+   "q": "Kenapa beriani wangi?",
+   "a": "Sebab rempah seperti kayu manis, bunga lawang, buah pelaga dan cengkih, serta minyak sapi."
+  },
+  {
+   "q": "Acar beriani tu apa?",
+   "a": "Biasanya acar timun, bawang dan nanas dalam cuka atau yogurt. Ia segar dan bantu imbangkan rasa berlemak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "susu-segar-rendah-lemak",
+ "name_en": "Low-fat fresh milk",
+ "serving_en": "1 glass (250ml)",
+ "intro": "A glass of low-fat fresh milk (250ml) has about 110 kcal (estimate). The calories come from milk's natural sugar (lactose), protein and a bit of fat.",
+ "breakdown": [
+  {
+   "part": "Lactose (natural sugar)",
+   "kcal": 52
+  },
+  {
+   "part": "Protein",
+   "kcal": 32
+  },
+  {
+   "part": "Fat",
+   "kcal": 27
+  }
+ ],
+ "variants": [
+  {
+   "name": "Full cream milk, 250ml",
+   "kcal": 160
+  },
+  {
+   "name": "Skim milk, 250ml",
+   "kcal": 85
+  },
+  {
+   "name": "Low-fat chocolate milk, 250ml",
+   "kcal": 170
+  },
+  {
+   "name": "Unsweetened soy milk, 250ml",
+   "kcal": 80
+  }
+ ],
+ "diet": "Yes, low-fat milk is a good drink choice when you're trying to lose weight. It has protein and calcium, with moderate calories. Better than teh tarik or sweet drinks. Just pick the plain one, not the flavoured version with added sugar.",
+ "tips": [
+  "Swap one teh tarik or sweet coffee a day for a glass of low-fat milk.",
+  "Use it to cook oats or make your own coffee at home.",
+  "Have a glass with breakfast for easy extra protein."
+ ],
+ "swap": {
+  "name": "Skim milk, 250ml",
+  "kcal": 85,
+  "why": "Almost the same protein, but slightly less fat and fewer calories."
+ },
+ "faq": [
+  {
+   "q": "Why do I feel bloated after drinking milk?",
+   "a": "Some people find it hard to digest lactose. Try a small amount first, or choose lactose-free milk or soy milk."
+  },
+  {
+   "q": "Is low-fat milk okay for small kids?",
+   "a": "For young children, follow your doctor's or dietitian's advice because their needs are different from adults."
+  },
+  {
+   "q": "Is it okay to drink milk at night before bed?",
+   "a": "Okay, as long as you count it in your daily calories. Many people like it because it's light and has protein."
+  }
+ ]
+}

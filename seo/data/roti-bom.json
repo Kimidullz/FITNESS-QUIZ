@@ -1,0 +1,66 @@
+{
+ "slug": "roti-bom",
+ "intro": "Sekeping roti bom ada anggaran 450 kcal. Ia lebih tebal dan dicanai dengan banyak marjerin, jadi kalori kebanyakannya dari doh, lemak dan gula taburan.",
+ "protein_g": 7,
+ "carbs_g": 55,
+ "fat_g": 22,
+ "breakdown": [
+  {
+   "part": "Doh roti tebal",
+   "kcal": 300
+  },
+  {
+   "part": "Marjerin/minyak lapisan",
+   "kcal": 90
+  },
+  {
+   "part": "Gula taburan",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Separuh keping kongsi",
+   "kcal": 225
+  },
+  {
+   "name": "Roti bom dengan kuah kari",
+   "kcal": 510
+  },
+  {
+   "name": "Roti bom dengan susu pekat",
+   "kcal": 520
+  },
+  {
+   "name": "Roti bom telur",
+   "kcal": 540
+  }
+ ],
+ "diet": "Boleh sekali-sekala, anggap ia macam pencuci mulut. Roti bom tinggi gula dan lemak, tapi protein sangat sedikit. Jadi ia tak buat anda kenyang lama walaupun kalori tinggi. Paling okay kongsi dengan kawan atau makan bersama sumber protein.",
+ "tips": [
+  "Kongsi sekeping berdua, ambil separuh sahaja.",
+  "Minta tanpa susu pekat atau gula lebih.",
+  "Tambah telur separuh masak atau telur rebus untuk protein."
+ ],
+ "swap": {
+  "name": "Roti canai kosong + kuah dal di tepi",
+  "kcal": 330,
+  "why": "Kurang marjerin dan gula. Kuah dal pula beri sedikit protein dan serat."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nama dia roti bom?",
+   "a": "Sebab bentuknya bulat, tebal dan kembang macam bom. Ada juga yang panggil sebab rasanya 'meletup' manis dan lemak."
+  },
+  {
+   "q": "Roti bom makan dengan apa paling sedap?",
+   "a": "Ramai suka dengan gula dan susu pekat. Ada juga yang cicah kuah kari atau dal untuk rasa masin-manis."
+  },
+  {
+   "q": "Boleh buat roti bom di rumah?",
+   "a": "Boleh. Guna doh roti canai, lipat berlapis-lapis jadi bulat tebal, kemudian pan-fry perlahan. Kurangkan marjerin untuk versi lebih ringan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

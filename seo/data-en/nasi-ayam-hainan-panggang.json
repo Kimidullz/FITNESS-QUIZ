@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-ayam-hainan-panggang",
+ "name_en": "Nasi ayam hainan panggang (roasted chicken rice)",
+ "serving_en": "1 plate",
+ "intro": "A plate of roasted Hainanese chicken rice is about 600 kcal (estimate). Most of the calories come from the chicken-oil rice and the roasted chicken with skin.",
+ "breakdown": [
+  {
+   "part": "Chicken rice (cooked in chicken oil), 1 cup",
+   "kcal": 330
+  },
+  {
+   "part": "Roasted chicken with skin, 100g",
+   "kcal": 200
+  },
+  {
+   "part": "Chilli sauce, thick soy sauce, ginger",
+   "kcal": 40
+  },
+  {
+   "part": "Small bowl of vegetable soup",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Steamed (poached) chicken",
+   "kcal": 560
+  },
+  {
+   "name": "Plain white rice instead of chicken rice",
+   "kcal": 510
+  },
+  {
+   "name": "Chicken without skin",
+   "kcal": 540
+  },
+  {
+   "name": "Big thigh portion",
+   "kcal": 680
+  }
+ ],
+ "diet": "Yes, it's one of the lighter rice options when eating out. The chicken gives you high protein and the portion is easy to control. The chicken-oil rice is what adds calories, so switch to white rice if the shop has it. With a few small changes, you can eat this regularly while dieting.",
+ "tips": [
+  "Ask for plain white rice instead of chicken rice if available.",
+  "Remove the chicken skin or choose the breast.",
+  "Add blanched sawi or taugeh as a side."
+ ],
+ "swap": {
+  "name": "Steamed chicken breast + white rice + blanched vegetables",
+  "kcal": 480,
+  "why": "Less oil from the rice and skin, but still high in protein and filling."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between roasted and steamed chicken in chicken rice?",
+   "a": "Roasted chicken is grilled or roasted with a sweet sauce, so the skin is darker. Steamed chicken is slowly poached and softer."
+  },
+  {
+   "q": "Why is chicken rice so oily and fragrant?",
+   "a": "The rice is cooked with chicken stock, chicken oil, ginger and garlic."
+  },
+  {
+   "q": "Is chicken rice chilli sauce high in calories?",
+   "a": "Not really. The chilli-ginger sauce is usually light. Thick soy sauce has sugar though, so use just enough."
+  }
+ ]
+}

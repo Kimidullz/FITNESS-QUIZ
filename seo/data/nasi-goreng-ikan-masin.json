@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-goreng-ikan-masin",
+ "intro": "Sepinggan nasi goreng ikan masin ada anggaran 620 kcal. Kebanyakan kalori datang dari nasi dan minyak goreng, ikan masin sendiri cuma sikit.",
+ "protein_g": 20,
+ "carbs_g": 80,
+ "fat_g": 24,
+ "breakdown": [
+  {
+   "part": "Nasi 1.5 cawan",
+   "kcal": 330
+  },
+  {
+   "part": "Minyak 1.5 sudu besar",
+   "kcal": 135
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 75
+  },
+  {
+   "part": "Ikan masin 20g",
+   "kcal": 50
+  },
+  {
+   "part": "Sayur, bawang dan kicap",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Separuh nasi, kurang minyak",
+   "kcal": 450
+  },
+  {
+   "name": "Tambah telur mata",
+   "kcal": 710
+  },
+  {
+   "name": "Tambah ayam goreng",
+   "kcal": 900
+  }
+ ],
+ "diet": "Boleh, tapi lebih sesuai sekali sekala. Nasi goreng serap banyak minyak dan portion kedai selalunya besar. Ikan masin juga tinggi garam, jadi ramai rasa haus dan kembung selepas makan. Kongsi atau minta kurang minyak untuk jaga kalori.",
+ "tips": [
+  "Minta 'kurang minyak, kurang nasi' masa order.",
+  "Tambah sayur seperti kangkung atau sawi untuk serat.",
+  "Minum air kosong, elak teh tarik dan sirap ais."
+ ],
+ "swap": {
+  "name": "Nasi putih 1 cawan + telur dadar + sayur goreng",
+  "kcal": 480,
+  "why": "Minyak lebih sikit dan senang kawal portion nasi."
+ },
+ "faq": [
+  {
+   "q": "Ikan masin jenis apa sesuai untuk nasi goreng?",
+   "a": "Ikan masin kurau atau gelama popular sebab wangi. Goreng garing dulu, kemudian hancurkan."
+  },
+  {
+   "q": "Ikan masin tinggi garam ke?",
+   "a": "Ya, ikan masin sangat tinggi garam. Kalau jaga tekanan darah, ambil sikit je dan kurangkan kicap."
+  },
+  {
+   "q": "Kenapa nasi goreng sedap guna nasi semalam?",
+   "a": "Nasi semalam lebih kering, jadi tak melekat dan tak lembik bila digoreng."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

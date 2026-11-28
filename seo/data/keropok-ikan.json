@@ -1,0 +1,66 @@
+{
+ "slug": "keropok-ikan",
+ "intro": "Segenggam keropok ikan goreng bagi anggaran 150 kcal. Kalorinya datang terutamanya daripada tepung sagu atau ubi dan minyak yang diserap semasa digoreng.",
+ "protein_g": 3,
+ "carbs_g": 18,
+ "fat_g": 7,
+ "breakdown": [
+  {
+   "part": "Tepung sagu atau ubi (keropok kering ~25g)",
+   "kcal": 80
+  },
+  {
+   "part": "Ikan dalam adunan",
+   "kcal": 15
+  },
+  {
+   "part": "Minyak diserap semasa goreng",
+   "kcal": 55
+  }
+ ],
+ "variants": [
+  {
+   "name": "Keropok ikan microwave 1 genggam",
+   "kcal": 100
+  },
+  {
+   "name": "1 bekas kecil keropok raya (~100g)",
+   "kcal": 500
+  },
+  {
+   "name": "Keropok lekor goreng 5 batang",
+   "kcal": 250
+  },
+  {
+   "name": "Keropok dengan sos cili 1 sudu",
+   "kcal": 170
+  }
+ ],
+ "diet": "Boleh, kalau segenggam. Masalahnya keropok sangat mudah dimakan tanpa sedar, terutama depan TV atau masa raya. Protein dalam keropok pun sedikit sahaja walaupun namanya keropok ikan. Tuang dalam piring kecil, jangan makan terus dari balang.",
+ "tips": [
+  "Tuang segenggam dalam piring kecil dan tutup balang.",
+  "Kembangkan keropok dalam microwave tanpa minyak.",
+  "Makan bersama lauk protein, bukan sebagai snek berdiri sendiri bila lapar."
+ ],
+ "swap": {
+  "name": "Keropok ikan microwave 1 genggam",
+  "kcal": 100,
+  "why": "Keropok sama, rangup sama, tapi tiada minyak goreng. Jimat sekitar 50 kcal setiap genggam."
+ },
+ "faq": [
+  {
+   "q": "Apa beza keropok ikan dengan keropok lekor?",
+   "a": "Keropok ikan ialah kepingan kering yang digoreng sampai kembang. Keropok lekor ialah adunan ikan dan sagu berbentuk batang yang direbus, kemudian digoreng atau dimakan begitu sahaja."
+  },
+  {
+   "q": "Macam mana nak goreng keropok supaya kembang cantik?",
+   "a": "Pastikan keropok betul-betul kering, jemur dulu kalau perlu. Minyak mesti panas dan goreng sedikit-sedikit."
+  },
+  {
+   "q": "Boleh kembangkan keropok guna microwave?",
+   "a": "Boleh untuk kebanyakan jenis. Susun beberapa keping atas pinggan, microwave 30 hingga 60 saat sampai kembang. Tak perlu minyak langsung."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

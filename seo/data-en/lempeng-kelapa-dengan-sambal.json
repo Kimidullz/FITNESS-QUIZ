@@ -1,0 +1,63 @@
+{
+ "slug": "lempeng-kelapa-dengan-sambal",
+ "name_en": "Lempeng kelapa with sambal",
+ "serving_en": "2 pieces",
+ "intro": "2 pieces of lempeng kelapa with sambal are about 380 kcal (estimate). Most of the calories come from the flour, grated coconut and the oil used for cooking.",
+ "breakdown": [
+  {
+   "part": "Lempeng kelapa, 2 pieces (flour + grated coconut)",
+   "kcal": 280
+  },
+  {
+   "part": "Oil for cooking in the pan",
+   "kcal": 40
+  },
+  {
+   "part": "Sambal, 2 tablespoons",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "1 piece lempeng with sambal",
+   "kcal": 190
+  },
+  {
+   "name": "Lempeng pisang, 2 pieces",
+   "kcal": 360
+  },
+  {
+   "name": "Lempeng with sambal ikan bilis",
+   "kcal": 420
+  },
+  {
+   "name": "Lempeng dipped in sugar",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes, lempeng can still fit into a weight loss plan. The issue is it's almost all carbs and fat, with very little protein. So you get hungry again before lunch. Have 1-2 pieces and add some protein to stay full longer.",
+ "tips": [
+  "Use a non-stick pan and just brush on a thin layer of oil, don't pour.",
+  "Eat 1 piece and add 2 boiled eggs for protein.",
+  "Take just enough sambal, avoid the very oily kind."
+ ],
+ "swap": {
+  "name": "1 piece lempeng + 2 boiled eggs + a little sambal",
+  "kcal": 330,
+  "why": "About the same calories but much more protein, so you stay full until lunch."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between lempeng kelapa and cekodok?",
+   "a": "Lempeng is spread thin and cooked like a pancake. Cekodok is deep-fried, so it usually soaks up more oil."
+  },
+  {
+   "q": "What do you eat lempeng with?",
+   "a": "Most popular with sambal tumis or sambal ikan bilis. Some people eat it with curry or sugar."
+  },
+  {
+   "q": "Can I keep lempeng for tomorrow?",
+   "a": "Yes. Keep it in a closed container in the fridge and reheat it on a dry pan before eating."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "kuih-talam",
+ "name_en": "Kuih talam",
+ "serving_en": "1 piece",
+ "intro": "One piece of kuih talam has about 150 kcal. The calories come from flour, sugar and the santan layer on top.",
+ "breakdown": [
+  {
+   "part": "Rice flour & other flour",
+   "kcal": 50
+  },
+  {
+   "part": "Sugar",
+   "kcal": 45
+  },
+  {
+   "part": "Santan (mainly the white layer)",
+   "kcal": 55
+  }
+ ],
+ "variants": [
+  {
+   "name": "Talam keladi (1 piece)",
+   "kcal": 170
+  },
+  {
+   "name": "Talam ubi (1 piece)",
+   "kcal": 170
+  },
+  {
+   "name": "Seri muka (1 piece)",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, one piece of talam is still moderate in calories. But it's almost all carbs and santan, with very little protein. If you have it for breakfast, add some protein like an egg. Keep it to one or two pieces, not a whole plate.",
+ "tips": [
+  "Pick just one type of kuih at the stall, don't mix many types.",
+  "Drink teh o or kopi o kosong with it, not teh tarik.",
+  "For breakfast, have one piece of talam with a boiled egg."
+ ],
+ "swap": {
+  "name": "Pisang emas (2 pieces)",
+  "kcal": 80,
+  "why": "Naturally sweet with some fibre, at half the calories. Easy to buy at any warung or pasar."
+ },
+ "faq": [
+  {
+   "q": "Why do the talam layers separate?",
+   "a": "Usually the bottom layer isn't cooked enough or is too wet before the top layer goes in. Steam the first layer until set first."
+  },
+  {
+   "q": "What's the difference between kuih talam and seri muka?",
+   "a": "Talam uses flour for the bottom layer. Seri muka uses glutinous rice (pulut) at the bottom, so it's denser and higher in calories."
+  },
+  {
+   "q": "Does kuih talam need to go in the fridge?",
+   "a": "If you can't finish it within a day, yes. Santan spoils fast in Malaysia's hot weather."
+  }
+ ]
+}

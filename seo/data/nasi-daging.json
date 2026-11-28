@@ -1,0 +1,66 @@
+{
+ "slug": "nasi-daging",
+ "intro": "Sepinggan nasi daging Kelantan ada anggaran 700 kcal. Kebanyakan kalori datang dari nasi yang dimasak dengan kuah dan lemak daging, serta daging itu sendiri.",
+ "protein_g": 30,
+ "carbs_g": 85,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Nasi daging 1.5 cawan",
+   "kcal": 360
+  },
+  {
+   "part": "Daging rebus/bakar 100g",
+   "kcal": 200
+  },
+  {
+   "part": "Sup atau kuah daging",
+   "kcal": 100
+  },
+  {
+   "part": "Air asam atau sambal kicap",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Daging tetel/berlemak",
+   "kcal": 820
+  },
+  {
+   "name": "Tambah sup lebih",
+   "kcal": 780
+  },
+  {
+   "name": "Nasi separuh",
+   "kcal": 520
+  }
+ ],
+ "diet": "Boleh, ia agak seimbang antara karbohidrat dan protein. Air asam pula sangat ringan dan bagus untuk tambah rasa. Kawal nasi dan pilih daging yang kurang lemak supaya lebih mesra diet. Sesuai untuk makan tengah hari yang mengenyangkan.",
+ "tips": [
+  "Minta daging bahagian isi, bukan tetel atau berlemak.",
+  "Guna air asam untuk rasa, bukan kuah berlemak.",
+  "Tambah ulam atau timun di tepi pinggan."
+ ],
+ "swap": {
+  "name": "Nasi putih 1 cawan + daging bakar + air asam + ulam",
+  "kcal": 480,
+  "why": "Nasi biasa kurang minyak berbanding nasi daging, dan daging bakar tetap beri protein tinggi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nasi daging dengan nasi putih biasa?",
+   "a": "Nasi daging dimasak dengan stok daging dan rempah, jadi ia lebih berperisa dan sedikit berminyak."
+  },
+  {
+   "q": "Air asam nasi daging diperbuat dari apa?",
+   "a": "Biasanya asam jawa, cili, bawang, tomato dan sedikit gula. Rasanya masam pedas dan menyegarkan."
+  },
+  {
+   "q": "Kenapa nasi daging popular di Kelantan?",
+   "a": "Ia hidangan tradisi yang selalu dijual waktu tengah hari dan dalam majlis, terkenal dengan daging yang lembut."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "keropok-ikan",
+ "name_en": "Keropok ikan (fried fish crackers)",
+ "serving_en": "1 handful",
+ "intro": "A handful of fried keropok ikan gives about 150 kcal (estimate). Most of the calories come from the sago or tapioca flour and the oil absorbed during frying.",
+ "breakdown": [
+  {
+   "part": "Sago or tapioca flour (dry keropok ~25g)",
+   "kcal": 80
+  },
+  {
+   "part": "Fish in the dough",
+   "kcal": 15
+  },
+  {
+   "part": "Oil absorbed during frying",
+   "kcal": 55
+  }
+ ],
+ "variants": [
+  {
+   "name": "Microwaved keropok ikan, 1 handful",
+   "kcal": 100
+  },
+  {
+   "name": "1 small container of raya keropok (~100g)",
+   "kcal": 500
+  },
+  {
+   "name": "Keropok lekor goreng, 5 sticks",
+   "kcal": 250
+  },
+  {
+   "name": "Keropok with 1 tbsp chilli sauce",
+   "kcal": 170
+  }
+ ],
+ "diet": "Yes, if it's one handful. The problem is keropok is so easy to keep eating without noticing, especially in front of the TV or during raya. There's also very little protein, even though it's called fish crackers. Pour some into a small plate. Don't eat straight from the jar.",
+ "tips": [
+  "Pour one handful into a small plate and close the jar.",
+  "Puff keropok in the microwave, no oil needed.",
+  "Eat it with a protein lauk, not as a standalone snack when you're hungry."
+ ],
+ "swap": {
+  "name": "Microwaved keropok ikan, 1 handful",
+  "kcal": 100,
+  "why": "Same keropok, same crunch, but no frying oil. Saves about 50 kcal per handful."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between keropok ikan and keropok lekor?",
+   "a": "Keropok ikan is dried slices that are fried until they puff up. Keropok lekor is a fish and sago dough shaped into sticks, boiled, then fried or eaten as is."
+  },
+  {
+   "q": "How do I fry keropok so it puffs up nicely?",
+   "a": "Make sure the keropok is really dry. Sun-dry it first if needed. The oil must be hot, and fry a little at a time."
+  },
+  {
+   "q": "Can I puff keropok in the microwave?",
+   "a": "Yes, for most types. Arrange a few pieces on a plate and microwave 30 to 60 seconds until puffed. No oil at all."
+  }
+ ]
+}

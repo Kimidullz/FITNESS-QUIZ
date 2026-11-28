@@ -1,0 +1,67 @@
+{
+ "slug": "mee-hoon-tom-yam",
+ "name_en": "Mee hoon tom yam",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee hoon tom yam is about 420 kcal (estimate). Most of the calories come from the mee hoon, followed by the tom yam broth and the mixed fillings.",
+ "breakdown": [
+  {
+   "part": "Mee hoon, 1.5 cups",
+   "kcal": 220
+  },
+  {
+   "part": "Tom yam broth",
+   "kcal": 90
+  },
+  {
+   "part": "Mixed fillings (chicken, prawns, squid, fish balls)",
+   "kcal": 90
+  },
+  {
+   "part": "Vegetables & mushrooms",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuey teow tom yam",
+   "kcal": 450
+  },
+  {
+   "name": "Yellow mee tom yam",
+   "kcal": 480
+  },
+  {
+   "name": "Mee hoon tom yam susu (milky)",
+   "kcal": 520
+  },
+  {
+   "name": "Mee hoon tom yam, chicken only",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes, it's a fairly balanced lunch option. The broth has no santan and the fillings give decent protein. Go for clear or red, not the milky one. Want to feel fuller without adding many calories? Ask for extra fillings or veg.",
+ "tips": [
+  "Ask for more fillings and less mee hoon.",
+  "Skip tom yam susu, choose the clear one.",
+  "Don't finish the broth if you see a lot of oil on top."
+ ],
+ "swap": {
+  "name": "Tom yam campur without noodles + extra vegetables",
+  "kcal": 300,
+  "why": "Same protein, much fewer carbs, and still satisfying."
+ },
+ "faq": [
+  {
+   "q": "Is mee hoon tom yam okay for breakfast?",
+   "a": "Sure. Many people like it because it's warm and refreshing. Just make sure there are fillings for protein."
+  },
+  {
+   "q": "Is tom yam broth high in salt?",
+   "a": "Usually quite salty from fish sauce and seasoning. Drink only half the broth if you're concerned."
+  },
+  {
+   "q": "Is mee hoon lighter than yellow mee?",
+   "a": "Slightly lower in calories and less oily, but both are still carbs. Watch your portion size."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "jagung-rebus",
+ "name_en": "Jagung rebus (boiled corn)",
+ "serving_en": "1 cob",
+ "intro": "One cob of boiled corn without butter has about 120 kcal (estimate). Most of the calories come from the carbs in the corn kernels.",
+ "breakdown": [
+  {
+   "part": "Carbs from kernels",
+   "kcal": 95
+  },
+  {
+   "part": "Protein",
+   "kcal": 16
+  },
+  {
+   "part": "Natural fat",
+   "kcal": 9
+  }
+ ],
+ "variants": [
+  {
+   "name": "Corn + 1 tsp butter",
+   "kcal": 155
+  },
+  {
+   "name": "Corn cup with butter and condensed milk",
+   "kcal": 200
+  },
+  {
+   "name": "Grilled corn, no glaze",
+   "kcal": 120
+  },
+  {
+   "name": "Small plain corn cup",
+   "kcal": 90
+  }
+ ],
+ "diet": "Yes, boiled corn is a filling snack with moderate calories. It has fibre and takes a while to chew. What adds calories is usually the butter, margarine and condensed milk at the pasar malam. Ask for less topping and it's a good snack.",
+ "tips": [
+  "At the pasar malam, ask for a corn cup without condensed milk or with half the butter.",
+  "Sprinkle a little salt or pepper for flavour without extra calories.",
+  "Have corn as your afternoon carb, and reduce rice at dinner."
+ ],
+ "swap": {
+  "name": "Guava, 1 medium",
+  "kcal": 70,
+  "why": "Fewer calories, high in fibre and vitamin C, great for an afternoon snack."
+ },
+ "faq": [
+  {
+   "q": "Is corn a vegetable or a carb?",
+   "a": "Nutrition-wise, corn is closer to carbs like rice or tapioca. Don't count it as a vegetable."
+  },
+  {
+   "q": "Is sweet corn high in sugar?",
+   "a": "It has a little natural sugar, but it's mostly starch and fibre. One cob is still a moderate snack."
+  },
+  {
+   "q": "How long should I boil corn?",
+   "a": "About 10 to 15 minutes in boiling water, until the kernels are soft."
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "slug": "roti-nan-dengan-ayam-butter",
+ "intro": "Satu set roti nan dengan ayam butter ada anggaran 750 kcal. Kebanyakan kalori datang daripada kuah ayam butter yang kaya mentega dan krim, serta roti nan itu sendiri.",
+ "protein_g": 35,
+ "carbs_g": 75,
+ "fat_g": 34,
+ "breakdown": [
+  {
+   "part": "Roti nan kosong 1 keping",
+   "kcal": 280
+  },
+  {
+   "part": "Ayam (isi)",
+   "kcal": 150
+  },
+  {
+   "part": "Kuah butter (mentega, krim, tomato)",
+   "kcal": 250
+  },
+  {
+   "part": "Mentega sapu atas nan",
+   "kcal": 40
+  },
+  {
+   "part": "Salad, raita atau chutney",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nan kosong + ayam tandoori",
+   "kcal": 550
+  },
+  {
+   "name": "Garlic naan + ayam butter",
+   "kcal": 820
+  },
+  {
+   "name": "Cheese naan + ayam butter",
+   "kcal": 900
+  },
+  {
+   "name": "Nasi briyani + ayam butter",
+   "kcal": 950
+  }
+ ],
+ "diet": "Boleh, dan bagusnya proteinnya tinggi dari ayam. Yang berat ialah kuah butter, bukan ayamnya. Kalau nak turun berat, pilih ayam tandoori lebih kerap, dan simpan ayam butter untuk sesekali. Kongsi satu set atau makan kuahnya sedikit sahaja.",
+ "tips": [
+  "Minta nan tanpa sapuan mentega di atas.",
+  "Makan ayamnya, cicah kuah sikit, jangan tuang semua ke atas nan.",
+  "Pilih ayam tandoori atau tikka sebagai ganti bila nak lebih ringan."
+ ],
+ "swap": {
+  "name": "Nan kosong + ayam tandoori + salad",
+  "kcal": 550,
+  "why": "Ayam tandoori dibakar, jadi kurang lemak tapi protein masih tinggi."
+ },
+ "faq": [
+  {
+   "q": "Apa beza ayam butter dengan ayam tikka masala?",
+   "a": "Ayam butter lebih lembut dan berkrim dengan rasa mentega. Tikka masala lebih berempah dan kuahnya lebih tomato."
+  },
+  {
+   "q": "Ayam butter pedas ke?",
+   "a": "Biasanya tak pedas, lebih kepada rasa manis berkrim. Sesuai untuk kanak-kanak juga."
+  },
+  {
+   "q": "Nan dimasak macam mana?",
+   "a": "Doh nan ditampal pada dinding ketuhar tanah liat panas (tandoor), sebab itu ada kesan hangus dan rasa asap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

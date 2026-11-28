@@ -1,0 +1,59 @@
+{
+ "slug": "air-soya",
+ "name_en": "Air soya (sweetened)",
+ "serving_en": "1 glass",
+ "intro": "A glass of sweetened air soya from a stall is about 140 kcal (estimate). Around half comes from the soya beans. The rest comes from the added sugar or syrup.",
+ "breakdown": [
+  {
+   "part": "Soya milk (unsweetened)",
+   "kcal": 90
+  },
+  {
+   "part": "Sugar / pandan syrup",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Air soya, no sugar",
+   "kcal": 90
+  },
+  {
+   "name": "Soya + cincau",
+   "kcal": 170
+  },
+  {
+   "name": "Air soya, extra sweet",
+   "kcal": 180
+  },
+  {
+   "name": "Soya, jug / large size",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, and it's one of the better drink choices at a stall. You get a bit of protein from the soya beans. But the sweetened version still has quite a lot of added sugar. If you can get it less sweet or with no sugar, even better.",
+ "tips": [
+  "Look for stalls that sell 'kosong' or less sweet soya.",
+  "Buy unsweetened soya and add a little sugar yourself at home, to your taste.",
+  "Drink it with breakfast for extra protein, not as a separate snack."
+ ],
+ "swap": {
+  "name": "Air soya, no sugar",
+  "kcal": 90,
+  "why": "Same protein, about 50 kcal less because there's no added sugar."
+ },
+ "faq": [
+  {
+   "q": "How long does air soya last in the fridge?",
+   "a": "Fresh air soya usually keeps for 1-2 days in the fridge. If it smells sour or turns lumpy, don't drink it."
+  },
+  {
+   "q": "Can air soya replace cow's milk?",
+   "a": "Yes, as an alternative, especially if you're lactose intolerant. The calcium content is different, so make sure you get enough calcium from other foods."
+  },
+  {
+   "q": "Can men drink air soya often?",
+   "a": "For most healthy adults, drinking soya in normal amounts is okay. If you have a specific health condition, check with your doctor."
+  }
+ ]
+}

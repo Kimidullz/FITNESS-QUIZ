@@ -1,0 +1,71 @@
+{
+ "slug": "roti-nan-dengan-ayam-butter",
+ "name_en": "Naan with butter chicken",
+ "serving_en": "1 set",
+ "intro": "A set of naan with butter chicken is about 750 kcal (estimate). Most of the calories come from the rich butter and cream gravy, plus the naan itself.",
+ "breakdown": [
+  {
+   "part": "1 plain naan",
+   "kcal": 280
+  },
+  {
+   "part": "Chicken (meat)",
+   "kcal": 150
+  },
+  {
+   "part": "Butter gravy (butter, cream, tomato)",
+   "kcal": 250
+  },
+  {
+   "part": "Butter brushed on naan",
+   "kcal": 40
+  },
+  {
+   "part": "Salad, raita or chutney",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain naan + ayam tandoori",
+   "kcal": 550
+  },
+  {
+   "name": "Garlic naan + butter chicken",
+   "kcal": 820
+  },
+  {
+   "name": "Cheese naan + butter chicken",
+   "kcal": 900
+  },
+  {
+   "name": "Nasi briyani + butter chicken",
+   "kcal": 950
+  }
+ ],
+ "diet": "Yes, and the good thing is it's high in protein from the chicken. The heavy part is the butter gravy, not the chicken. If you're losing weight, choose ayam tandoori more often and save butter chicken for once in a while. Share a set, or just have a little of the gravy.",
+ "tips": [
+  "Ask for naan without butter brushed on top.",
+  "Eat the chicken and dip lightly in the gravy, don't pour it all over the naan.",
+  "Pick ayam tandoori or tikka instead when you want something lighter."
+ ],
+ "swap": {
+  "name": "Plain naan + ayam tandoori + salad",
+  "kcal": 550,
+  "why": "Ayam tandoori is grilled, so less fat but still high in protein."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between butter chicken and chicken tikka masala?",
+   "a": "Butter chicken is milder and creamier with a buttery taste. Tikka masala is spicier with a more tomato-based gravy."
+  },
+  {
+   "q": "Is butter chicken spicy?",
+   "a": "Usually not, it's more sweet and creamy. Good for kids too."
+  },
+  {
+   "q": "How is naan cooked?",
+   "a": "The dough is slapped onto the wall of a hot clay oven (tandoor), which gives it charred spots and a smoky taste."
+  }
+ ]
+}

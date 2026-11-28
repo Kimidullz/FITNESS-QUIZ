@@ -1,0 +1,59 @@
+{
+ "slug": "waffle-dengan-aiskrim",
+ "name_en": "Waffle with ice cream",
+ "serving_en": "1 plate",
+ "intro": "A plate of waffle with ice cream is about 550 kcal (estimate). Most of the calories come from the buttery waffle, two scoops of ice cream and the sweet sauce on top.",
+ "breakdown": [
+  {
+   "part": "1 waffle",
+   "kcal": 300
+  },
+  {
+   "part": "2 scoops ice cream",
+   "kcal": 180
+  },
+  {
+   "part": "Chocolate sauce or syrup",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Waffle with 1 scoop ice cream",
+   "kcal": 460
+  },
+  {
+   "name": "Plain waffle with butter",
+   "kcal": 350
+  },
+  {
+   "name": "Ice cream waffle with whipped cream and caramel sauce",
+   "kcal": 650
+  }
+ ],
+ "diet": "Yes, but treat it like a full meal, not just dessert. 550 kcal is close to a regular nasi lemak. The easiest way is to share it when you lepak at a café with friends or family. For the rest of that day, choose lighter, high-protein meals.",
+ "tips": [
+  "Share one plate between two or three people.",
+  "Ask for 1 scoop and the sauce on the side.",
+  "Choose fresh fruit toppings over whipped cream or marshmallows."
+ ],
+ "swap": {
+  "name": "Half waffle with 1 scoop ice cream and fruit",
+  "kcal": 280,
+  "why": "You still get the café lepak experience, with half the calories."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between a Belgian waffle and a regular waffle?",
+   "a": "Belgian waffles are thicker, have deeper squares and are usually crispier outside. They're often bigger too."
+  },
+  {
+   "q": "Can I make waffles at home without a waffle maker?",
+   "a": "It's hard to get the real shape without one. Many people use the same batter to make pancakes in a pan."
+  },
+  {
+   "q": "Why do café waffles go soggy so fast?",
+   "a": "Moisture from the melting ice cream and sauce soaks into the waffle. Eat it quickly or ask for toppings on the side."
+  }
+ ]
+}

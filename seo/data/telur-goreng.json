@@ -1,0 +1,66 @@
+{
+ "slug": "telur-goreng",
+ "intro": "Sebiji telur goreng mata kerbau ada anggaran 110 kcal. Telur sendiri sekitar 70 kcal, bakinya dari minyak goreng.",
+ "protein_g": 6,
+ "carbs_g": 1,
+ "fat_g": 9,
+ "breakdown": [
+  {
+   "part": "Telur ayam 1 biji",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak yang diserap semasa menggoreng",
+   "kcal": 35
+  },
+  {
+   "part": "Kicap atau garam",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Telur goreng tepi garing (banyak minyak)",
+   "kcal": 150
+  },
+  {
+   "name": "Telur goreng mentega",
+   "kcal": 130
+  },
+  {
+   "name": "Telur dadar 1 biji",
+   "kcal": 130
+  },
+  {
+   "name": "Telur separuh masak 1 biji",
+   "kcal": 70
+  }
+ ],
+ "diet": "Boleh. Telur goreng ialah sumber protein yang murah dan senang didapati. Kalori tambahan datang dari minyak, jadi cara masak lebih penting dari telur itu sendiri. Dua biji telur goreng dengan nasi dan sayur dah jadi satu hidangan yang seimbang.",
+ "tips": [
+  "Masak sendiri guna kuali tak melekat, sikit minyak, dan tutup kuali supaya telur masak dengan wap.",
+  "Di mamak, minta telur separuh masak atau telur rebus sebagai ganti.",
+  "Tambah telur untuk protein, tapi kurangkan lauk bergoreng lain dalam pinggan yang sama."
+ ],
+ "swap": {
+  "name": "Telur rebus",
+  "kcal": 70,
+  "why": "Protein sama, tanpa minyak tambahan. Senang dibawa ke pejabat sebagai snek."
+ },
+ "faq": [
+  {
+   "q": "Makan telur setiap hari okay ke?",
+   "a": "Bagi kebanyakan orang dewasa yang sihat, sebiji dua sehari boleh masuk dalam pemakanan seimbang. Kalau ada masalah kolesterol, bincang dengan doktor."
+  },
+  {
+   "q": "Kuning telur cair selamat dimakan?",
+   "a": "Ada risiko bakteria. Untuk ibu mengandung, anak kecil dan warga emas, lebih selamat makan telur yang masak sepenuhnya."
+  },
+  {
+   "q": "Telur goreng atau telur rebus, mana lebih banyak protein?",
+   "a": "Lebih kurang sama, sekitar 6 g sebiji. Bezanya cuma minyak dan kalori tambahan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

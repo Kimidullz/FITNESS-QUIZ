@@ -1,0 +1,63 @@
+{
+ "slug": "carbonara",
+ "name_en": "Carbonara",
+ "serving_en": "1 plate",
+ "intro": "One plate of carbonara is about 800 kcal (estimate). Most of the calories come from the pasta and the creamy, cheesy sauce.",
+ "breakdown": [
+  {
+   "part": "Cooked spaghetti ~1.5 cups",
+   "kcal": 330
+  },
+  {
+   "part": "Cream, cheese and egg sauce",
+   "kcal": 300
+  },
+  {
+   "part": "Chicken or smoked beef",
+   "kcal": 120
+  },
+  {
+   "part": "Butter and cooking oil",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Large café-size chicken carbonara",
+   "kcal": 950
+  },
+  {
+   "name": "Carbonara with 2 slices garlic bread",
+   "kcal": 1000
+  },
+  {
+   "name": "Traditional carbonara (egg & cheese, no cream)",
+   "kcal": 650
+  }
+ ],
+ "diet": "Yes, you can, but carbonara is one of the highest-calorie pastas. One plate is like two servings of nasi with lauk. If you're craving it, share it or eat half and add a salad. Keep your other meals that day lighter.",
+ "tips": [
+  "Share one plate with a friend and order a chicken salad for extra protein.",
+  "Skip the garlic bread and sweet drinks.",
+  "Cooking at home? Use low-fat milk and eggs, and cut down the cream."
+ ],
+ "swap": {
+  "name": "Prawn aglio olio",
+  "kcal": 600,
+  "why": "No cream, so you save about 200 kcal and still get a tasty pasta."
+ },
+ "faq": [
+  {
+   "q": "Does real carbonara use cream?",
+   "a": "The original Italian version uses egg and cheese, no cream. Most cafés in Malaysia add cream to make it creamier."
+  },
+  {
+   "q": "Is carbonara in Malaysia halal?",
+   "a": "The original uses pork. Halal cafés usually use chicken, smoked beef or beef bacon. Check the shop's halal status."
+  },
+  {
+   "q": "Why do I feel 'muak' after eating carbonara?",
+   "a": "The cream and cheese sauce is high in fat, so your stomach feels heavy. Eating it with a salad or a sugar-free drink can help."
+  }
+ ]
+}

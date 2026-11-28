@@ -1,0 +1,63 @@
+{
+ "slug": "jeli",
+ "name_en": "Jelly cup",
+ "serving_en": "1 cup",
+ "intro": "One jelly cup has about 80 kcal (estimate). Almost all the calories come from the sugar in the jelly.",
+ "breakdown": [
+  {
+   "part": "Sugar",
+   "kcal": 60
+  },
+  {
+   "part": "Fruit juice or flavouring",
+   "kcal": 12
+  },
+  {
+   "part": "Gelatin or agar-agar",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mini jelly cup (small size)",
+   "kcal": 15
+  },
+  {
+   "name": "Jelly with nata de coco or fruit bits",
+   "kcal": 100
+  },
+  {
+   "name": "Sugar-free jelly",
+   "kcal": 10
+  },
+  {
+   "name": "Agar-agar santan, 1 piece",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, one jelly cup won't ruin your progress. It's low in calories, but almost all of it is sugar with no protein or fibre. So it won't keep you full for long. Think of it as a small dessert, not a snack to fill your stomach.",
+ "tips": [
+  "Make jelly at home and cut the sugar in the recipe by half.",
+  "Add real cut fruit into the jelly so there's some fibre.",
+  "Eat it after a main meal, not on an empty stomach, so you won't crave more sweets."
+ ],
+ "swap": {
+  "name": "Cut watermelon, 1 cup",
+  "kcal": 45,
+  "why": "Sweet and cold like jelly, but lower in calories with water and a bit of fibre."
+ },
+ "faq": [
+  {
+   "q": "Is the gelatin in jelly halal?",
+   "a": "It depends on the gelatin source. Check for the halal logo on the pack, or choose jelly made with agar-agar or konjac."
+  },
+  {
+   "q": "What's the difference between agar-agar and gelatin jelly?",
+   "a": "Agar-agar comes from seaweed, sets firmer and holds at room temperature. Gelatin comes from animal sources, is softer and needs to be kept cold."
+  },
+  {
+   "q": "Is konjac jelly safe for small kids?",
+   "a": "Small konjac jellies can be a choking risk for children. It's safer to cut them small or avoid them for young kids."
+  }
+ ]
+}

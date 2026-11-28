@@ -1,0 +1,66 @@
+{
+ "slug": "sup-cendawan-dengan-roti",
+ "intro": "Semangkuk sup cendawan dengan roti ada anggaran 320 kcal. Kebanyakan kalori datang daripada krim dan mentega dalam sup, serta roti yang dimakan bersama.",
+ "protein_g": 9,
+ "carbs_g": 36,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Sup cendawan berkrim 1 mangkuk",
+   "kcal": 190
+  },
+  {
+   "part": "Roti bun / garlic bread 1 keping",
+   "kcal": 110
+  },
+  {
+   "part": "Mentega sapuan roti",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup cendawan tanpa roti",
+   "kcal": 190
+  },
+  {
+   "name": "Dengan 2 keping garlic bread",
+   "kcal": 430
+  },
+  {
+   "name": "Sup cendawan dalam bread bowl",
+   "kcal": 600
+  },
+  {
+   "name": "Sup cendawan versi susu rendah lemak (homemade)",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh, sup cendawan dengan roti masih muat dalam bajet kalori harian. Cuma ia rendah protein, jadi senang lapar balik dalam masa singkat. Kalau jadikan ia makan malam ringan, tambah lauk protein macam ayam panggang. Perhatikan juga kalau roti datang lebih dari satu keping.",
+ "tips": [
+  "Minta roti biasa, bukan garlic bread yang penuh mentega.",
+  "Tambah ayam panggang atau telur rebus di sisi untuk protein.",
+  "Kalau masak di rumah, guna susu rendah lemak ganti krim pekat."
+ ],
+ "swap": {
+  "name": "Sup ayam sayur dengan 1 keping roti",
+  "kcal": 250,
+  "why": "Lebih banyak protein dan kurang krim, jadi lebih kenyang dengan kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Sup cendawan tin sama ke dengan sup cendawan kedai?",
+   "a": "Lebih kurang sama. Sup tin biasanya lebih masin, jadi tambah air atau susu dan sayur untuk seimbangkan."
+  },
+  {
+   "q": "Boleh ke makan sup cendawan untuk sarapan?",
+   "a": "Boleh. Padankan dengan telur atau roti gandum penuh supaya lebih tahan kenyang."
+  },
+  {
+   "q": "Sup cendawan sesuai untuk budak?",
+   "a": "Sesuai, teksturnya lembut. Cuma kurangkan garam kalau masak sendiri untuk anak kecil."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

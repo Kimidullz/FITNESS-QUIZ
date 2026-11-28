@@ -1,0 +1,74 @@
+{
+ "slug": "hokkien-mee",
+ "intro": "Sepinggan Hokkien mee (mee hitam KL) ada anggaran 650 kcal. Kebanyakan kalori datang daripada mee kasar dan minyak yang banyak semasa menggoreng.",
+ "protein_g": 25,
+ "carbs_g": 70,
+ "fat_g": 30,
+ "breakdown": [
+  {
+   "part": "Mee kasar (mee Hokkien) 1 pinggan",
+   "kcal": 300
+  },
+  {
+   "part": "Minyak & kerak minyak",
+   "kcal": 150
+  },
+  {
+   "part": "Kicap pekat & kuah pekat",
+   "kcal": 60
+  },
+  {
+   "part": "Isi (ayam/udang/sotong)",
+   "kcal": 120
+  },
+  {
+   "part": "Sawi & kubis",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tambah telur",
+   "kcal": 740
+  },
+  {
+   "name": "Hokkien mee sup",
+   "kcal": 450
+  },
+  {
+   "name": "Tanpa kerak minyak",
+   "kcal": 580
+  },
+  {
+   "name": "Saiz besar",
+   "kcal": 850
+  }
+ ],
+ "diet": "Boleh, tapi ini hidangan yang agak berat. Minyak dan kicap pekat buat kalori naik cepat. Sesuai untuk makan malam sekali-sekala, bukan menu mingguan yang kerap. Kongsi sepinggan dengan kawan dan tambah sayur, ini cara paling mudah.",
+ "tips": [
+  "Minta kurang minyak dan tanpa kerak minyak.",
+  "Kongsi sepinggan, tambah sepinggan sayur rebus.",
+  "Pilih Hokkien mee sup kalau ada di kedai sama."
+ ],
+ "swap": {
+  "name": "Hokkien mee sup",
+  "kcal": 450,
+  "why": "Rasa hampir sama tapi tak digoreng dengan banyak minyak."
+ },
+ "faq": [
+  {
+   "q": "Hokkien mee halal ke?",
+   "a": "Versi asal di kedai Cina tradisional biasanya guna lemak dan daging babi. Kalau perlu halal, cari kedai bersijil halal yang guna ayam atau seafood."
+  },
+  {
+   "q": "Apa beza Hokkien mee KL dengan Penang?",
+   "a": "Versi KL ialah mee goreng hitam dengan kicap pekat. Di Penang, Hokkien mee ialah mi sup udang pedas."
+  },
+  {
+   "q": "Kenapa Hokkien mee warna hitam?",
+   "a": "Sebab digoreng dengan kicap pekat (dark soy sauce) yang manis dan pekat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

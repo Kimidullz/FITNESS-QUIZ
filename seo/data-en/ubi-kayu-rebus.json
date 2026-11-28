@@ -1,0 +1,63 @@
+{
+ "slug": "ubi-kayu-rebus",
+ "name_en": "Ubi kayu rebus (boiled tapioca)",
+ "serving_en": "1 piece",
+ "intro": "One piece of boiled tapioca (about 100g) has about 160 kcal (estimate). Almost all the calories come from starch, which is carbs.",
+ "breakdown": [
+  {
+   "part": "Carbs (starch)",
+   "kcal": 150
+  },
+  {
+   "part": "Protein",
+   "kcal": 5
+  },
+  {
+   "part": "Natural fat",
+   "kcal": 3
+  }
+ ],
+ "variants": [
+  {
+   "name": "With grated coconut and sugar",
+   "kcal": 260
+  },
+  {
+   "name": "With 1 spoon sambal tumis bilis",
+   "kcal": 220
+  },
+  {
+   "name": "Fried tapioca, 1 piece",
+   "kcal": 250
+  },
+  {
+   "name": "Bingka ubi, 1 piece",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, you can. Boiled tapioca is a carb source like rice. One piece is about the same as 3/4 cup of rice. So if you eat tapioca, reduce your rice at the same time. What usually makes the calories shoot up is the grated coconut, sugar and sambal.",
+ "tips": [
+  "If you have tapioca at tea time, reduce your rice at dinner.",
+  "Pair it with a boiled egg or dry-fried ikan bilis for extra protein.",
+  "Dip in a little grated coconut without sugar, or just a pinch of salt."
+ ],
+ "swap": {
+  "name": "Boiled sweet potato, 1 small",
+  "kcal": 100,
+  "why": "Fewer calories, more fibre and vitamin A, with a natural sweet taste."
+ },
+ "faq": [
+  {
+   "q": "Must tapioca be cooked until really soft?",
+   "a": "Yes. Raw tapioca has natural compounds that aren't good for the body. Peel, soak and boil until soft before eating."
+  },
+  {
+   "q": "Can tapioca replace rice?",
+   "a": "Yes, once in a while. It's also a carb, just lower in protein, so pair it with a protein dish."
+  },
+  {
+   "q": "Why does tapioca sometimes taste bitter?",
+   "a": "Some types of tapioca are naturally more bitter. Choose fresh ones and remove the skin and the middle vein before boiling."
+  }
+ ]
+}

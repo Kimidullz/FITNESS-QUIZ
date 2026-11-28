@@ -1,0 +1,66 @@
+{
+ "slug": "sushi",
+ "intro": "Enam keping sushi ada anggaran 300 kcal. Kebanyakan kalori datang daripada nasi sushi yang dicampur gula dan cuka.",
+ "protein_g": 12,
+ "carbs_g": 54,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Nasi sushi (6 keping)",
+   "kcal": 200
+  },
+  {
+   "part": "Ikan / isi (salmon, tuna, telur)",
+   "kcal": 60
+  },
+  {
+   "part": "Nori, kicap & sedikit mayo",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Maki timun (6 keping)",
+   "kcal": 180
+  },
+  {
+   "name": "California roll (6 keping)",
+   "kcal": 250
+  },
+  {
+   "name": "Salmon nigiri (6 keping)",
+   "kcal": 280
+  },
+  {
+   "name": "Tempura / salmon mayo roll (6 keping)",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, sushi antara pilihan makan luar yang mesra diet. Masalahnya selalunya kuantiti, sebab 6 keping senang habis dan kita ambil lagi. Pilih yang ada ikan mentah atau rebus berbanding tempura dan mayo. Tambah sup miso atau edamame supaya lebih kenyang.",
+ "tips": [
+  "Pilih nigiri atau sashimi untuk lebih protein, kurang nasi.",
+  "Elak roll yang ada tempura, mayo atau sos manis atas.",
+  "Order edamame atau sup miso dulu sebelum sushi sampai."
+ ],
+ "swap": {
+  "name": "Sashimi salmon 6 keping + sup miso",
+  "kcal": 250,
+  "why": "Protein tinggi dan hampir tiada nasi, jadi lebih kenyang lama."
+ },
+ "faq": [
+  {
+   "q": "Ibu mengandung boleh makan sushi?",
+   "a": "Pilih sushi yang dimasak seperti tamago, unagi atau ebi masak. Untuk ikan mentah, eloklah tanya doktor dulu."
+  },
+  {
+   "q": "Sushi tahan berapa lama?",
+   "a": "Sebaiknya makan dalam masa beberapa jam. Kalau simpan dalam peti sejuk, habiskan dalam hari yang sama."
+  },
+  {
+   "q": "Wasabi pedas sangat, perlu ke makan?",
+   "a": "Tak wajib. Ia untuk rasa saja, boleh ambil sikit atau tinggalkan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

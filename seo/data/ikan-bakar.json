@@ -1,0 +1,66 @@
+{
+ "slug": "ikan-bakar",
+ "intro": "Satu ekor ikan kembung bakar ada anggaran 200 kcal. Kebanyakan kalori datang dari isi ikan itu sendiri, yang tinggi protein.",
+ "protein_g": 28,
+ "carbs_g": 3,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Isi ikan kembung 1 ekor",
+   "kcal": 160
+  },
+  {
+   "part": "Perapan kunyit dan sapuan minyak",
+   "kcal": 25
+  },
+  {
+   "part": "Air asam atau sambal sikit",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Dengan sambal cili berminyak",
+   "kcal": 260
+  },
+  {
+   "name": "Dibalut daun pisang, tanpa minyak",
+   "kcal": 170
+  },
+  {
+   "name": "Ikan pari bakar 1 potong",
+   "kcal": 250
+  },
+  {
+   "name": "Dengan air asam",
+   "kcal": 210
+  }
+ ],
+ "diet": "Sangat boleh. Ikan kembung bakar tinggi protein, rendah kalori dan ada lemak baik dari ikan. Ini antara lauk paling mesra diet di warung. Cuma perhati sambal yang disapu, sebab itu yang boleh tambah minyak.",
+ "tips": [
+  "Pilih air asam atau kicap cili berbanding sambal berminyak.",
+  "Ambil 1 ekor ikan dengan nasi separuh pinggan dan ulam.",
+  "Di rumah, bakar dalam air fryer atau oven dengan kunyit dan garam sahaja."
+ ],
+ "swap": {
+  "name": "Ikan kembung bakar balut daun pisang",
+  "kcal": 170,
+  "why": "Tanpa minyak sapuan, tapi rasa masih wangi dan protein sama."
+ },
+ "faq": [
+  {
+   "q": "Ikan kembung tinggi omega-3 ke?",
+   "a": "Ya, ikan kembung antara ikan tempatan yang kaya omega-3 dan harganya berpatutan."
+  },
+  {
+   "q": "Macam mana nak tahu ikan kembung segar?",
+   "a": "Mata jernih, insang merah dan isi pejal bila ditekan. Bau laut, bukan bau hanyir kuat."
+  },
+  {
+   "q": "Ikan bakar sedap makan dengan apa?",
+   "a": "Nasi putih, air asam, ulam dan sayur. Ramai juga makan dengan sambal kicap dan timun."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

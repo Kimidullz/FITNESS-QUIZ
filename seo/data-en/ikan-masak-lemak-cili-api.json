@@ -1,0 +1,67 @@
+{
+ "slug": "ikan-masak-lemak-cili-api",
+ "name_en": "Ikan masak lemak cili api",
+ "serving_en": "1 piece + gravy",
+ "intro": "One piece of ikan masak lemak cili api with gravy is about 300 kcal (estimate). Almost half the calories come from the santan in the gravy, the rest from the fish.",
+ "breakdown": [
+  {
+   "part": "1 piece fish",
+   "kcal": 130
+  },
+  {
+   "part": "Santan in the gravy",
+   "kcal": 140
+  },
+  {
+   "part": "Pineapple, potato or belimbing buluh",
+   "kcal": 20
+  },
+  {
+   "part": "Turmeric, cili api and onion",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Masak lemak ikan salai",
+   "kcal": 320
+  },
+  {
+   "name": "Masak lemak ikan keli",
+   "kcal": 350
+  },
+  {
+   "name": "Masak lemak udang",
+   "kcal": 280
+  },
+  {
+   "name": "Extra gravy over rice",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes, but watch the gravy. The fish itself is low in calories and high in protein. The santan is what adds calories, so eat the fish and take just enough gravy for taste. Better as a once-in-a-while dish, no need to have it every day.",
+ "tips": [
+  "Eat the fish first, then take only 2-3 spoons of gravy to wet your rice.",
+  "Pair it with boiled vegetables or ulam, not another santan dish.",
+  "At home, use half santan and half low-fat milk or water."
+ ],
+ "swap": {
+  "name": "Ikan asam pedas",
+  "kcal": 230,
+  "why": "Still saucy and spicy, but no santan so it's lighter."
+ },
+ "faq": [
+  {
+   "q": "Where is masak lemak cili api from?",
+   "a": "It's very much linked to Negeri Sembilan, especially masak lemak cili api with smoked beef and smoked fish."
+  },
+  {
+   "q": "Can masak lemak gravy split?",
+   "a": "Yes, if the santan is cooked on high heat. Stir often and use medium heat so the gravy stays smooth."
+  },
+  {
+   "q": "Is masak lemak kuning the same as masak lemak cili api?",
+   "a": "Almost. Masak lemak cili api has blended cili api, which makes it spicier."
+  }
+ ]
+}

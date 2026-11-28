@@ -1,0 +1,66 @@
+{
+ "slug": "tauge-goreng",
+ "intro": "Satu senduk tauge goreng (anggaran 100 g) ada lebih kurang 90 kcal. Kebanyakan kalori datang dari minyak tumisan, bukan dari tauge itu sendiri.",
+ "protein_g": 3,
+ "carbs_g": 6,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Tauge 100 g",
+   "kcal": 30
+  },
+  {
+   "part": "Minyak masak, lebih kurang 1 sudu kecil",
+   "kcal": 45
+  },
+  {
+   "part": "Bawang putih, cili dan sos tiram/kicap",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tauge goreng ikan masin (1 senduk)",
+   "kcal": 120
+  },
+  {
+   "name": "Tauge goreng udang (1 senduk)",
+   "kcal": 130
+  },
+  {
+   "name": "Tauge goreng tauhu (1 senduk)",
+   "kcal": 150
+  },
+  {
+   "name": "Tauge celur dengan kicap (1 senduk)",
+   "kcal": 50
+  }
+ ],
+ "diet": "Boleh sangat. Tauge goreng antara lauk paling ringan di kedai nasi campur. Kalorinya rendah dan ia tambah isi pinggan supaya rasa kenyang. Cuma tauge rendah protein, jadi jangan jadikan ia satu-satunya lauk. Padankan dengan ayam, ikan atau telur.",
+ "tips": [
+  "Ambil dari bahagian atas dulang, elak minyak yang bertakung di bawah.",
+  "Masak sendiri? Guna api besar dan cukup 1 sudu kecil minyak untuk satu kuali kecil.",
+  "Jadikan tauge separuh pinggan, kemudian tambah lauk protein seperti ikan bakar atau ayam."
+ ],
+ "swap": {
+  "name": "Tauge celur dengan sedikit kicap dan minyak bawang",
+  "kcal": 50,
+  "why": "Rasa hampir sama, tapi minyak jauh kurang. Sesuai sangat dengan ayam rebus atau ikan."
+ },
+ "faq": [
+  {
+   "q": "Kenapa tauge goreng jadi berair?",
+   "a": "Selalunya sebab api kecil atau masak terlalu lama. Guna api besar, goreng sekejap, jangan tutup kuali, dan masukkan garam di akhir."
+  },
+  {
+   "q": "Perlu buang ekor tauge ke?",
+   "a": "Tak wajib. Buang ekor cuma untuk rupa dan tekstur lebih kemas. Nilai pemakanan lebih kurang sama."
+  },
+  {
+   "q": "Tauge mentah selamat dimakan?",
+   "a": "Tauge mentah boleh membawa bakteria. Untuk ibu mengandung, anak kecil dan warga emas, lebih selamat makan tauge yang dimasak atau dicelur."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

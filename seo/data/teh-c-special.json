@@ -1,0 +1,62 @@
+{
+ "slug": "teh-c-special",
+ "intro": "Segelas teh C special (3 layer) ada anggaran 220 kcal. Kebanyakan kalori datang dari sirap gula melaka di lapisan bawah dan susu cair.",
+ "protein_g": 4,
+ "carbs_g": 38,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Sirap gula melaka",
+   "kcal": 140
+  },
+  {
+   "part": "Susu cair",
+   "kcal": 70
+  },
+  {
+   "part": "Teh + ais",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh C ais biasa",
+   "kcal": 150
+  },
+  {
+   "name": "Teh C special kurang manis",
+   "kcal": 160
+  },
+  {
+   "name": "Teh C ais kosong",
+   "kcal": 60
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia sebagai minuman 'treat', bukan minuman harian. 220 kcal tu hampir sama dengan sepinggan kecil nasi. Kalau minum sekali seminggu masa lepak, tak jadi masalah. Yang penting jangan setiap hari.",
+ "tips": [
+  "Minta 'kurang gula melaka' masa order.",
+  "Kongsi segelas dengan kawan atau pasangan.",
+  "Kacau dan minum separuh, kemudian tambah ais untuk cairkan."
+ ],
+ "swap": {
+  "name": "Teh C ais kosong",
+  "kcal": 60,
+  "why": "Masih ada rasa teh susu yang lemak, tanpa sirap gula. Jimat sekitar 160 kcal."
+ },
+ "faq": [
+  {
+   "q": "Kenapa teh C special ada 3 lapisan?",
+   "a": "Lapisan bawah gula melaka, tengah susu cair, atas teh. Ketumpatan yang berbeza buat ia berlapis sebelum dikacau."
+  },
+  {
+   "q": "Teh C special asal dari mana?",
+   "a": "Ia popular dari Sarawak, terutama Kuching. Sekarang banyak kedai di Semenanjung pun jual."
+  },
+  {
+   "q": "Gula melaka lebih sihat dari gula putih ke?",
+   "a": "Gula melaka tetap gula. Rasanya lebih wangi, tapi kesan pada kalori lebih kurang sama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

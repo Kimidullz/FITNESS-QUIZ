@@ -1,0 +1,63 @@
+{
+ "slug": "ayam-bakar",
+ "name_en": "Ayam bakar (grilled chicken)",
+ "serving_en": "1 piece (thigh)",
+ "intro": "One piece of grilled chicken thigh is about 260 kcal (estimate). Most of the calories come from the thigh meat and skin, with a little from the marinade.",
+ "breakdown": [
+  {
+   "part": "Thigh meat",
+   "kcal": 170
+  },
+  {
+   "part": "Chicken skin",
+   "kcal": 60
+  },
+  {
+   "part": "Honey, soy sauce and spice marinade",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Skinless breast",
+   "kcal": 180
+  },
+  {
+   "name": "Honey ayam bakar (thick sweet marinade)",
+   "kcal": 300
+  },
+  {
+   "name": "With air asam",
+   "kcal": 280
+  },
+  {
+   "name": "2 wings",
+   "kcal": 200
+  }
+ ],
+ "diet": "Yes, ayam bakar is one of the best lauk for weight loss. High in protein and not much oil since it's not fried. Thigh has a bit more fat than breast, but it's still okay. Just watch the sauce and the rice portion beside it.",
+ "tips": [
+  "Choose ayam bakar over ayam goreng at the nasi campur stall.",
+  "Dip in air asam or sambal kicap instead of sweet sauce.",
+  "Remove the skin to save about 60 kcal."
+ ],
+ "swap": {
+  "name": "Skinless grilled chicken breast",
+  "kcal": 180,
+  "why": "Almost the same protein, with much less fat."
+ },
+ "faq": [
+  {
+   "q": "Thigh or breast, which is better?",
+   "a": "Breast is lower in fat. Thigh is juicier and doesn't dry out as fast. Both are fine, depending on your calorie budget."
+  },
+  {
+   "q": "How long should I marinate ayam bakar?",
+   "a": "At least 1 hour. Marinate overnight in the fridge for more flavour."
+  },
+  {
+   "q": "Can I make ayam bakar in an air fryer?",
+   "a": "Yes. About 180°C for 20-25 minutes, flipping halfway."
+  }
+ ]
+}

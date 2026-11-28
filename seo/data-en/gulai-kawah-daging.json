@@ -1,0 +1,67 @@
+{
+ "slug": "gulai-kawah-daging",
+ "name_en": "Gulai kawah daging",
+ "serving_en": "1 scoop (senduk)",
+ "intro": "One scoop of gulai kawah daging is roughly 350 kcal. Most of the calories come from fatty beef and the thick santan gravy.",
+ "breakdown": [
+  {
+   "part": "Beef with fat (about 100 g)",
+   "kcal": 190
+  },
+  {
+   "part": "Thick santan gravy",
+   "kcal": 110
+  },
+  {
+   "part": "Oil for frying the spices",
+   "kcal": 40
+  },
+  {
+   "part": "Onions, serai and spices",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Gulai kawah daging with tetel/tendon",
+   "kcal": 420
+  },
+  {
+   "name": "Gulai kawah with potatoes",
+   "kcal": 400
+  },
+  {
+   "name": "Gulai kawah daging, less gravy",
+   "kcal": 260
+  },
+  {
+   "name": "Gulai kawah tulang/mutton",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, especially at kenduri or events. It's high in protein but also high in fat from the santan. The key is one scoop only, and less gravy poured over your rice. Balance it with veggies and keep your next meal lighter.",
+ "tips": [
+  "Pick the leaner pieces of meat and ask for just a little gravy.",
+  "Don't flood your rice with gravy. 1 to 2 spoons is enough for flavour.",
+  "At a kenduri? Take half a plate of rice first, add acar or veggies, then see if you really need more."
+ ],
+ "swap": {
+  "name": "Daging masak asam pedas or sup daging",
+  "kcal": 200,
+  "why": "You still get the beef and protein, but there's no thick santan, so the fat is much lower."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between gulai kawah and normal beef curry?",
+   "a": "Gulai kawah is cooked in big batches in a kawah, usually for kenduri. It uses more spices and is cooked for a long time until the meat is tender and the gravy is thick."
+  },
+  {
+   "q": "How many days can gulai kawah keep?",
+   "a": "About 3 days in the fridge. For longer, freeze it in small containers and reheat until boiling before eating."
+  },
+  {
+   "q": "Which cut of beef is best for gulai kawah?",
+   "a": "Many people use batang pinang, thigh meat or beef mixed with tetel. For less fat, choose thigh meat and trim off the visible fat."
+  }
+ ]
+}

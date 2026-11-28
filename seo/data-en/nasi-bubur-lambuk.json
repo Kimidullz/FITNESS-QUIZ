@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-bubur-lambuk",
+ "name_en": "Bubur lambuk",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of bubur lambuk is about 320 kcal (estimate). Most of the calories come from the rice, followed by the oil for frying the spices and the santan (if used).",
+ "breakdown": [
+  {
+   "part": "Rice cooked into porridge",
+   "kcal": 170
+  },
+  {
+   "part": "Minced beef or chicken",
+   "kcal": 60
+  },
+  {
+   "part": "Oil for spices and santan",
+   "kcal": 70
+  },
+  {
+   "part": "Vegetables, dried shrimp, fried shallots",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chicken bubur lambuk, less santan",
+   "kcal": 290
+  },
+  {
+   "name": "Beef bubur lambuk with thick santan",
+   "kcal": 380
+  },
+  {
+   "name": "Big bowl from the masjid (full container)",
+   "kcal": 450
+  },
+  {
+   "name": "With cakwe or fried kuih on the side",
+   "kcal": 550
+  }
+ ],
+ "diet": "Yes, and bubur lambuk is actually one of the lighter choices. It has a lot of water, so you feel full quickly for moderate calories. But it's a bit low in protein, so hunger can come back fast. Watch the bowl size and what you eat with it.",
+ "tips": [
+  "Take one normal bowl and save the rest of the masjid bubur for tomorrow.",
+  "Add a boiled egg or a piece of chicken on the side for more protein.",
+  "Go easy on fried shallots and skip the fried kuih on the side."
+ ],
+ "swap": {
+  "name": "Plain chicken porridge + boiled egg",
+  "kcal": 280,
+  "why": "No santan and less oil, but more protein thanks to the egg."
+ },
+ "faq": [
+  {
+   "q": "Is bubur lambuk good for buka puasa?",
+   "a": "Yes. It's gentle on an empty stomach and gives slow energy. Drink water first, then eat the bubur."
+  },
+  {
+   "q": "How long can I keep bubur lambuk?",
+   "a": "About 2 days in the fridge, in a covered container. Reheat until boiling and add a little water, as the bubur will thicken."
+  },
+  {
+   "q": "What's the difference between bubur lambuk and plain rice porridge?",
+   "a": "Bubur lambuk is cooked with spices, meat and vegetables, sometimes with santan. Plain rice porridge is simpler and lighter."
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "curry-mee-kering",
+ "name_en": "Curry mee kering (dry curry noodles)",
+ "serving_en": "1 plate",
+ "intro": "A plate of curry mee kering has an estimated 600 kcal. Most of the calories come from the noodles and the thick curry sauce with santan.",
+ "breakdown": [
+  {
+   "part": "Yellow mee/mee hoon mix",
+   "kcal": 260
+  },
+  {
+   "part": "Thick curry sauce & santan",
+   "kcal": 180
+  },
+  {
+   "part": "Tau pok (tofu puffs)",
+   "kcal": 60
+  },
+  {
+   "part": "Chicken or char siu",
+   "kcal": 70
+  },
+  {
+   "part": "Sambal & chilli oil",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Curry mee soup (curry laksa)",
+   "kcal": 550
+  },
+  {
+   "name": "Add cockles (kerang)",
+   "kcal": 640
+  },
+  {
+   "name": "Add egg",
+   "kcal": 680
+  },
+  {
+   "name": "Mee hoon only",
+   "kcal": 580
+  }
+ ],
+ "diet": "Yes, but be smart about it. The santan curry sauce and the tau pok that soaks it up make the fat quite high. If you have it for lunch, keep dinner lighter with protein and vegetables. Once a week is enough to satisfy the craving.",
+ "tips": [
+  "Ask for less curry sauce, don't drown the noodles.",
+  "Add extra chicken for protein.",
+  "Take less tau pok since it soaks up a lot of santan."
+ ],
+ "swap": {
+  "name": "Yong tau foo soup with noodles",
+  "kcal": 380,
+  "why": "Clear soup without santan, so it's much lower in fat."
+ },
+ "faq": [
+  {
+   "q": "Where is curry mee kering famous?",
+   "a": "Ipoh and Kuala Lumpur. The Ipoh version usually comes with char siu and chicken in thick curry sauce."
+  },
+  {
+   "q": "Is curry mee kering halal?",
+   "a": "Depends on the shop. Some use pork char siu. Look for a halal shop that uses chicken."
+  },
+  {
+   "q": "Is curry mee kering spicy?",
+   "a": "Medium. The heat comes from the sambal, which you can ask for on the side or less."
+  }
+ ]
+}

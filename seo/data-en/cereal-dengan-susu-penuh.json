@@ -1,0 +1,59 @@
+{
+ "slug": "cereal-dengan-susu-penuh",
+ "name_en": "Cereal with full cream milk",
+ "serving_en": "1 bowl",
+ "intro": "1 bowl of cereal with full cream milk is about 300 kcal (estimate). The calories come from the cereal (usually with added sugar) and the fat in full cream milk.",
+ "breakdown": [
+  {
+   "part": "Cereal 40g (about 1 cup)",
+   "kcal": 150
+  },
+  {
+   "part": "Full cream milk 200ml",
+   "kcal": 130
+  },
+  {
+   "part": "Extra sugar or honey, 1 teaspoon",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cereal with low-fat milk",
+   "kcal": 250
+  },
+  {
+   "name": "Chocolate or sugar-coated cereal",
+   "kcal": 330
+  },
+  {
+   "name": "Big bowl (60g cereal + 300ml milk)",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, cereal with milk is a quick breakfast for busy people. But many of us pour more than the serving on the box without realising. Most cereals are also low in protein and high in sugar, so you get hungry fast. Measure your portion and add protein, and it's totally fine for weight loss.",
+ "tips": [
+  "Measure your cereal with a cup once or twice, so your eyes get used to the real portion.",
+  "Pick plain cereal or oats, not chocolate or sugar-coated ones.",
+  "Eat it with a boiled egg or a handful of nuts for extra protein."
+ ],
+ "swap": {
+  "name": "Oats 40g with low-fat milk + half a banana",
+  "kcal": 260,
+  "why": "Oats keep you fuller, less added sugar, and low-fat milk cuts calories without losing protein."
+ },
+ "faq": [
+  {
+   "q": "Which cereal is healthier?",
+   "a": "Pick ones high in fibre and low in sugar, like oats or bran flakes. Read the label and look for under 10g sugar per serving."
+  },
+  {
+   "q": "Full cream or low-fat milk for cereal?",
+   "a": "Both are okay. Low-fat milk has fewer calories with the same protein, good if you're watching calories."
+  },
+  {
+   "q": "Can I eat cereal at night?",
+   "a": "Yes, as long as it fits your daily calories. Just make sure it's not an extra after a full dinner."
+  }
+ ]
+}

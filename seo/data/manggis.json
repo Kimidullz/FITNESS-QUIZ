@@ -1,0 +1,62 @@
+{
+ "slug": "manggis",
+ "intro": "3 biji manggis bagi anggaran 70 kcal. Kalorinya datang hampir semua daripada gula semula jadi dalam isi putih.",
+ "protein_g": 1,
+ "carbs_g": 17,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi (~90g)",
+   "kcal": 62
+  },
+  {
+   "part": "Serat",
+   "kcal": 4
+  },
+  {
+   "part": "Protein dan lemak sikit",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Manggis 1 biji",
+   "kcal": 23
+  },
+  {
+   "name": "Manggis 5 biji",
+   "kcal": 115
+  },
+  {
+   "name": "Manggis dalam tin (dengan sirap), 1/2 cawan",
+   "kcal": 90
+  }
+ ],
+ "diet": "Boleh sangat. 3 biji manggis masih snek yang ringan. Bahayanya cuma bila musim durian, manggis jadi teman makan durian dan jumlah kalori naik dengan cepat. Makan manggis sebagai pencuci mulut atau snek, bukan tambahan pada pesta buah.",
+ "tips": [
+  "Tetapkan 3 biji sebagai satu hidangan dan simpan selebihnya dalam peti sejuk.",
+  "Pilih manggis segar, bukan dalam tin bersirap.",
+  "Makan selepas makan tengah hari ganti air manis atau kuih."
+ ],
+ "swap": {
+  "name": "Betik 1 potong besar (~150g)",
+  "kcal": 60,
+  "why": "Kalori hampir sama tapi porsi lebih besar, mudah dapat di gerai buah potong."
+ },
+ "faq": [
+  {
+   "q": "Macam mana nak pilih manggis yang elok?",
+   "a": "Pilih kulit ungu gelap yang masih lembut sikit bila ditekan. Kelopak hijau di atas masih segar. Kulit yang keras macam batu biasanya isi dah rosak."
+  },
+  {
+   "q": "Betul ke bilangan kelopak bawah sama dengan bilangan ulas?",
+   "a": "Ya, kelopak kecil berbentuk bunga di bahagian bawah biasanya sama dengan bilangan ulas di dalam. Trik ni memang tepat untuk kebanyakan buah."
+  },
+  {
+   "q": "Kenapa orang kata makan manggis lepas durian?",
+   "a": "Ia amalan tradisional, manggis dianggap 'sejuk' untuk imbangi durian yang 'panas'. Tiada bukti saintifik yang kukuh, tapi tak salah makan dalam porsi biasa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

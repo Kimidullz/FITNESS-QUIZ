@@ -1,0 +1,66 @@
+{
+ "slug": "nangka",
+ "intro": "5 ulas nangka bagi anggaran 120 kcal. Kalorinya datang terutamanya daripada gula dan kanji semula jadi dalam isi yang tebal.",
+ "protein_g": 2,
+ "carbs_g": 26,
+ "fat_g": 1,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi (~120g)",
+   "kcal": 95
+  },
+  {
+   "part": "Serat",
+   "kcal": 8
+  },
+  {
+   "part": "Protein dan lemak sikit",
+   "kcal": 17
+  }
+ ],
+ "variants": [
+  {
+   "name": "Nangka 3 ulas",
+   "kcal": 70
+  },
+  {
+   "name": "Nangka 10 ulas",
+   "kcal": 240
+  },
+  {
+   "name": "Biji nangka rebus 10 biji",
+   "kcal": 100
+  },
+  {
+   "name": "Gulai nangka muda 1 senduk",
+   "kcal": 150
+  }
+ ],
+ "diet": "Boleh, nangka masih buah dengan serat dan rasa manis yang memuaskan. Tapi ia lebih tinggi kalori berbanding kebanyakan buah lain. Masalah biasanya bila beli satu bekas di pasar malam dan habis sekali duduk. Ambil 5 ulas, cukup.",
+ "tips": [
+  "Bila beli sebekas nangka, asingkan 5 ulas dalam piring dulu.",
+  "Makan selepas makan nasi dengan lauk protein, bukan sebagai snek bila lapar sangat.",
+  "Kalau masak gulai nangka muda, kurangkan santan dan tambah ayam atau ikan."
+ ],
+ "swap": {
+  "name": "Tembikai 2 potong",
+  "kcal": 60,
+  "why": "Separuh kalori, banyak air, dan senang dapat di gerai buah potong."
+ },
+ "faq": [
+  {
+   "q": "Apa beza nangka dengan cempedak?",
+   "a": "Nangka lebih besar, isi lebih rangup dan bau lebih lembut. Cempedak lebih kecil, isi lembut melekit dan bau lebih kuat."
+  },
+  {
+   "q": "Biji nangka boleh makan ke?",
+   "a": "Boleh. Rebus atau bakar dahulu, jangan makan mentah. Rasanya macam berangan dan ia ada kanji, jadi kira juga dalam kalori."
+  },
+  {
+   "q": "Macam mana nak buang getah nangka di tangan dan pisau?",
+   "a": "Sapu minyak masak pada tangan dan pisau sebelum potong. Kalau dah melekat, gosok dengan minyak dan baru basuh dengan sabun."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

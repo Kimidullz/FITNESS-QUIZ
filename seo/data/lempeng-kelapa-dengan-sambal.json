@@ -1,0 +1,66 @@
+{
+ "slug": "lempeng-kelapa-dengan-sambal",
+ "intro": "2 keping lempeng kelapa dengan sambal ada anggaran 380 kcal. Kebanyakan kalori datang dari tepung, kelapa parut dan minyak masa memasak.",
+ "protein_g": 7,
+ "carbs_g": 50,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Lempeng kelapa 2 keping (tepung + kelapa parut)",
+   "kcal": 280
+  },
+  {
+   "part": "Minyak untuk masak di kuali",
+   "kcal": 40
+  },
+  {
+   "part": "Sambal 2 sudu besar",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "1 keping lempeng dengan sambal",
+   "kcal": 190
+  },
+  {
+   "name": "Lempeng pisang 2 keping",
+   "kcal": 360
+  },
+  {
+   "name": "Lempeng dengan sambal ikan bilis",
+   "kcal": 420
+  },
+  {
+   "name": "Lempeng cicah gula",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh, lempeng masih boleh masuk dalam plan turun berat. Masalahnya, lempeng hampir semua karbo dan lemak, protein sangat sikit. Jadi cepat lapar balik sebelum tengah hari. Makan 1-2 keping dan tambah sumber protein supaya kenyang lebih lama.",
+ "tips": [
+  "Masak guna kuali non-stick dan sapu minyak nipis je, bukan tuang.",
+  "Makan 1 keping dan tambah 2 biji telur rebus untuk protein.",
+  "Ambil sambal secukup rasa, elak sambal yang berminyak tebal."
+ ],
+ "swap": {
+  "name": "1 keping lempeng + 2 biji telur rebus + sambal sikit",
+  "kcal": 330,
+  "why": "Kalori lebih kurang sama tapi protein naik banyak, jadi kenyang sampai tengah hari."
+ },
+ "faq": [
+  {
+   "q": "Apa beza lempeng kelapa dengan cekodok?",
+   "a": "Lempeng dileperkan nipis dan dimasak macam pancake. Cekodok pula digoreng dalam minyak banyak, jadi biasanya serap lebih minyak."
+  },
+  {
+   "q": "Lempeng sesuai dimakan dengan apa?",
+   "a": "Paling popular dengan sambal tumis atau sambal ikan bilis. Ada juga yang makan dengan kari atau gula."
+  },
+  {
+   "q": "Boleh simpan lempeng untuk esok?",
+   "a": "Boleh. Simpan dalam bekas tertutup dalam peti sejuk dan panaskan semula atas kuali kering sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

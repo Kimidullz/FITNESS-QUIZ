@@ -1,0 +1,63 @@
+{
+ "slug": "kuih-bingka-ubi",
+ "name_en": "Kuih bingka ubi",
+ "serving_en": "1 piece",
+ "intro": "One piece of kuih bingka ubi has about 180 kcal. Most of the calories come from tapioca, sugar and santan.",
+ "breakdown": [
+  {
+   "part": "Grated tapioca (ubi kayu)",
+   "kcal": 80
+  },
+  {
+   "part": "Sugar",
+   "kcal": 50
+  },
+  {
+   "part": "Santan",
+   "kcal": 45
+  },
+  {
+   "part": "Egg & a little butter",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small piece",
+   "kcal": 120
+  },
+  {
+   "name": "Bingka labu (1 piece)",
+   "kcal": 160
+  },
+  {
+   "name": "Bingka ubi, big piece",
+   "kcal": 250
+  }
+ ],
+ "diet": "Yes, one piece is still okay as a snack. But this kuih is heavy on carbs and low in protein, so you get hungry again fast. Try not to eat 2-3 pieces at once with a sweet drink. Enjoy one piece with kopi o kosong and that's enough.",
+ "tips": [
+  "Take just one piece and eat it slowly with kopi o or teh o kosong.",
+  "Share a big piece with your office mates.",
+  "Pair it with a boiled egg for extra protein so you stay full longer."
+ ],
+ "swap": {
+  "name": "Boiled sweet potato (1 small piece)",
+  "kcal": 90,
+  "why": "Still has that naturally sweet ubi taste, without santan and added sugar. Half the calories."
+ },
+ "faq": [
+  {
+   "q": "How long can kuih bingka ubi keep?",
+   "a": "About one day at room temperature because of the santan. In the fridge it can last 2-3 days. Warm it up a bit before eating."
+  },
+  {
+   "q": "Why is my bingka ubi soggy in the middle?",
+   "a": "Usually it's not baked long enough or there's too much santan. Bake until the top is brown and a skewer comes out not too wet."
+  },
+  {
+   "q": "Can I use frozen tapioca?",
+   "a": "Yes. Frozen grated tapioca saves time. Just squeeze out some of the water before using."
+  }
+ ]
+}

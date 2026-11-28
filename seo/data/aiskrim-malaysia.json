@@ -1,0 +1,66 @@
+{
+ "slug": "aiskrim-malaysia",
+ "intro": "Anggaran 120 kcal untuk 1 batang aiskrim potong. Kalori datang dari gula, santan atau susu, dan perisa seperti jagung atau kacang merah.",
+ "protein_g": 2,
+ "carbs_g": 18,
+ "fat_g": 4,
+ "breakdown": [
+  {
+   "part": "Gula",
+   "kcal": 50
+  },
+  {
+   "part": "Santan atau susu",
+   "kcal": 45
+  },
+  {
+   "part": "Jagung atau kacang merah",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Aiskrim Malaya (plastik, sirap)",
+   "kcal": 60
+  },
+  {
+   "name": "Perisa jagung",
+   "kcal": 120
+  },
+  {
+   "name": "Perisa kacang merah",
+   "kcal": 130
+  },
+  {
+   "name": "Perisa durian",
+   "kcal": 140
+  }
+ ],
+ "diet": "Boleh, satu batang aiskrim potong masih sederhana untuk pencuci mulut. Ia lebih ringan berbanding banyak aiskrim kon atau cawan besar. Masalah cuma bila jadi tabiat setiap hari atau dua batang sekali. Nikmati sebatang perlahan-lahan, tak perlu rasa bersalah.",
+ "tips": [
+  "Beli sebatang je, jangan stok banyak dalam peti.",
+  "Pilih perisa kacang merah atau jagung, ada sikit serat.",
+  "Kalau nak lebih ringan, pilih aiskrim Malaya berasaskan sirap."
+ ],
+ "swap": {
+  "name": "Aiskrim Malaya perisa sirap",
+  "kcal": 60,
+  "why": "Sejuk dan manis yang sama, separuh kalori kerana kurang santan."
+ },
+ "faq": [
+  {
+   "q": "Kenapa dipanggil aiskrim potong?",
+   "a": "Ia dibuat dalam blok besar, kemudian dipotong ikut saiz batang. Sebab tu bentuknya segi empat."
+  },
+  {
+   "q": "Apa perisa aiskrim potong paling popular?",
+   "a": "Jagung, kacang merah, durian, yam dan sweet corn santan antara yang paling digemari."
+  },
+  {
+   "q": "Aiskrim potong boleh dibuat di rumah?",
+   "a": "Boleh guna santan, susu, gula dan perisa pilihan. Bekukan dalam bekas segi empat, kemudian potong."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

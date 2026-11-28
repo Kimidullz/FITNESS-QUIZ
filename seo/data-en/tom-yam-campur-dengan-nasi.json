@@ -1,0 +1,67 @@
+{
+ "slug": "tom-yam-campur-dengan-nasi",
+ "name_en": "Tom yam campur with rice",
+ "serving_en": "1 set",
+ "intro": "One set of tom yam campur with rice is about 550 kcal (estimate). Most of the calories come from the white rice. Next is the red tom yam broth, then the mixed seafood and chicken.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.2 cups",
+   "kcal": 240
+  },
+  {
+   "part": "Red tom yam broth (paste & oil)",
+   "kcal": 130
+  },
+  {
+   "part": "Chicken, prawns, squid & fish balls",
+   "kcal": 150
+  },
+  {
+   "part": "Vegetables & mushrooms",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Clear/white tom yam with rice",
+   "kcal": 480
+  },
+  {
+   "name": "Tom yam susu (milky) with rice",
+   "kcal": 650
+  },
+  {
+   "name": "Add telur dadar (omelette)",
+   "kcal": 720
+  },
+  {
+   "name": "Tom yam campur without rice",
+   "kcal": 300
+  }
+ ],
+ "diet": "Yes, and it's actually a decent choice at a tomyam shop. The mixed fillings give you good protein, and the broth has no santan. What pushes the calories up is tom yam susu, telur dadar and extra rice. Stick to one plate of rice and skip the fried side dishes.",
+ "tips": [
+  "Choose clear or red tom yam, not the milky version.",
+  "Ask for half rice and add a lightly fried mixed veg.",
+  "If you really want telur dadar, share it with a friend."
+ ],
+ "swap": {
+  "name": "Clear tom yam + half cup of rice",
+  "kcal": 380,
+  "why": "Less oil and carbs, but you still get plenty of protein from the seafood."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between red and white tom yam?",
+   "a": "Red tom yam uses chilli paste and is oilier. White or clear tom yam is lighter, with sour and spicy flavours from lemongrass and lime."
+  },
+  {
+   "q": "Is tom yam very spicy?",
+   "a": "Depends on the shop. You can ask for less spicy when you order."
+  },
+  {
+   "q": "Where does tom yam come from?",
+   "a": "Thailand. In Malaysia, Siam-style tomyam shops are very popular, especially in Kelantan, Kedah and the Klang Valley."
+  }
+ ]
+}

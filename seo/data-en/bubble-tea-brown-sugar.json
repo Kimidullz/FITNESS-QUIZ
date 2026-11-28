@@ -1,0 +1,63 @@
+{
+ "slug": "bubble-tea-brown-sugar",
+ "name_en": "Bubble tea brown sugar (fresh milk)",
+ "serving_en": "1 large cup",
+ "intro": "One large cup of brown sugar bubble tea with fresh milk is about 450 kcal. The calories come from the tapioca pearls, brown sugar syrup and full cream milk.",
+ "breakdown": [
+  {
+   "part": "Tapioca pearls (1 full scoop)",
+   "kcal": 150
+  },
+  {
+   "part": "Brown sugar syrup",
+   "kcal": 120
+  },
+  {
+   "part": "Full cream fresh milk (~300 ml)",
+   "kcal": 180
+  }
+ ],
+ "variants": [
+  {
+   "name": "Medium cup, 50% sugar",
+   "kcal": 300
+  },
+  {
+   "name": "With cheese foam",
+   "kcal": 550
+  },
+  {
+   "name": "Milk tea without pearls, 30% sugar",
+   "kcal": 200
+  },
+  {
+   "name": "Fruit green tea, 0% sugar, no topping",
+   "kcal": 50
+  }
+ ],
+ "diet": "Yes, but treat it as a treat, not a daily drink. It has about the same calories as a regular plate of nasi lemak. Once a week in a smaller size with less sugar can still fit your plan. If you drink it almost every day, losing weight will be tough.",
+ "tips": [
+  "Choose a medium size and 30% or 50% sugar.",
+  "Ask for half pearls, or switch to a lighter topping like aloe jelly.",
+  "Plan it as your 'snack' for the day. Don't add kuih or cake on top."
+ ],
+ "swap": {
+  "name": "Medium milk tea, 30% sugar, no pearls",
+  "kcal": 180,
+  "why": "You still get the milk tea taste, at less than half the calories."
+ },
+ "faq": [
+  {
+   "q": "What are tapioca pearls made of?",
+   "a": "Cassava starch. They're usually soaked in brown sugar syrup to make them sweet."
+  },
+  {
+   "q": "Why does brown sugar bubble tea have 'tiger stripes' on the cup?",
+   "a": "Thick brown sugar syrup is dripped along the cup walls before the milk is poured in. This creates the brown stripes."
+  },
+  {
+   "q": "Does bubble tea have caffeine?",
+   "a": "If it has tea, yes. Some brown sugar fresh milk drinks have no tea, so no caffeine. Ask the shop."
+  }
+ ]
+}

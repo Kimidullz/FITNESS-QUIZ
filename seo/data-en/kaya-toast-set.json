@@ -1,0 +1,67 @@
+{
+ "slug": "kaya-toast-set",
+ "name_en": "Kaya toast set (toast, 2 eggs, kopi)",
+ "serving_en": "1 set",
+ "intro": "A kaya toast set with 2 eggs and kopi is about 480 kcal (estimate). Most of the calories come from the bread, kaya, butter and the sugar in your kopi.",
+ "breakdown": [
+  {
+   "part": "Toast, 2 slices",
+   "kcal": 140
+  },
+  {
+   "part": "Kaya & butter",
+   "kcal": 110
+  },
+  {
+   "part": "2 half-boiled eggs",
+   "kcal": 140
+  },
+  {
+   "part": "Sweet kopi with condensed milk",
+   "kcal": 90
+  }
+ ],
+ "variants": [
+  {
+   "name": "Set with kopi O kosong",
+   "kcal": 390
+  },
+  {
+   "name": "Set with teh tarik",
+   "kcal": 520
+  },
+  {
+   "name": "Add 1 more set of toast",
+   "kcal": 730
+  },
+  {
+   "name": "Steamed bread kaya set",
+   "kcal": 470
+  }
+ ],
+ "diet": "Yes, you can. This set actually has decent protein from the 2 eggs. What you need to watch is the butter, kaya and sugar in your drink. Switch to a less sweet or unsweetened drink and you already save a lot of calories.",
+ "tips": [
+  "Order kopi 'kurang manis' or kopi O kosong.",
+  "Ask for a thin layer of butter, or kaya only without butter.",
+  "Still hungry? Add another egg, not more toast."
+ ],
+ "swap": {
+  "name": "Kaya toast (no butter) + 2 eggs + kopi O kosong",
+  "kcal": 360,
+  "why": "Same kopitiam breakfast feel, but less fat and sugar."
+ },
+ "faq": [
+  {
+   "q": "Are half-boiled eggs safe to eat?",
+   "a": "Most people eat them with no problem. But pregnant mums and people with low immunity should go for fully cooked eggs."
+  },
+  {
+   "q": "What is kaya made of?",
+   "a": "Kaya is made from eggs, santan and sugar, sometimes with pandan leaves."
+  },
+  {
+   "q": "What's the difference between green kaya and brown kaya?",
+   "a": "Green kaya uses pandan, brown kaya uses caramelised sugar. The taste is a bit different, but the calories are about the same."
+  }
+ ]
+}

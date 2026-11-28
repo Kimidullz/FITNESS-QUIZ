@@ -1,0 +1,67 @@
+{
+ "slug": "mee-udang",
+ "name_en": "Mee udang (prawn noodles)",
+ "serving_en": "1 bowl",
+ "intro": "A bowl of mee udang has an estimated 520 kcal. Most of the calories come from the yellow noodles and the thick prawn kuah.",
+ "breakdown": [
+  {
+   "part": "Yellow mee, 1.5 cups",
+   "kcal": 280
+  },
+  {
+   "part": "Prawns, 3-4 pieces",
+   "kcal": 90
+  },
+  {
+   "part": "Thick prawn kuah",
+   "kcal": 110
+  },
+  {
+   "part": "Half boiled egg, taugeh & fried shallots",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Mee udang with big udang galah",
+   "kcal": 600
+  },
+  {
+   "name": "Mee udang goreng",
+   "kcal": 650
+  },
+  {
+   "name": "Mee hoon udang",
+   "kcal": 480
+  },
+  {
+   "name": "Add boiled egg",
+   "kcal": 595
+  }
+ ],
+ "diet": "Yes, you can enjoy it, especially when you're out at Kuala Sepetang or a seafood place. Prawns give you good protein that's low in fat. What pushes the calories up is the thick kuah and a big portion of noodles. Make it your one heavier meal of the day and keep your other meals light.",
+ "tips": [
+  "Ask for less mee and more prawns or vegetables.",
+  "Eat the prawns and toppings first, just sip a bit of the kuah.",
+  "Skip the fried version, go for the soup one."
+ ],
+ "swap": {
+  "name": "Grilled/steamed prawns + half cup rice + vegetables",
+  "kcal": 380,
+  "why": "Same high protein, fewer carbs and no thick kuah."
+ },
+ "faq": [
+  {
+   "q": "Where is mee udang most famous?",
+   "a": "Kuala Sepetang in Perak and Teluk Intan are popular spots. Many shops use fresh udang galah."
+  },
+  {
+   "q": "Prawns are high in cholesterol, can I eat them?",
+   "a": "Prawns do have cholesterol, but they're low in saturated fat. For most healthy people, eating them once in a while is okay. If you have a health condition, check with your doctor."
+  },
+  {
+   "q": "What is mee udang kuah made of?",
+   "a": "Usually prawn heads and shells boiled with spices, sometimes with flour added to thicken it."
+  }
+ ]
+}

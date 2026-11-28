@@ -1,0 +1,55 @@
+{
+ "slug": "kuih-kosui",
+ "name_en": "Kuih kosui",
+ "serving_en": "2 pieces",
+ "intro": "Two pieces of kuih kosui are about 140 kcal (estimate). Most of the calories come from the flour and gula melaka, while the grated coconut adds a little fat.",
+ "breakdown": [
+  {
+   "part": "Kosui (flour and gula melaka)",
+   "kcal": 115
+  },
+  {
+   "part": "Grated coconut coating",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Pandan kosui (2 pieces)",
+   "kcal": 130
+  },
+  {
+   "name": "Kosui without coconut (2 pieces)",
+   "kcal": 115
+  },
+  {
+   "name": "Kosui, 4 pieces",
+   "kcal": 280
+  }
+ ],
+ "diet": "Yes, and it's one of the lighter kuih compared to fried ones. It has almost no oil, just quite a bit of sugar. Two pieces with teh O for tea time fit nicely in your budget. Just be careful, they're small and easy to overeat.",
+ "tips": [
+  "Take 2 pieces and put them on a plate, don't eat straight from the box.",
+  "Choose kosui over fried kuih like karipap or cucur when you can.",
+  "Pair with a boiled egg or a glass of milk for some protein."
+ ],
+ "swap": {
+  "name": "1 medium banana",
+  "kcal": 100,
+  "why": "Natural sweetness with fibre, and fewer calories."
+ },
+ "faq": [
+  {
+   "q": "What is kuih kosui made of?",
+   "a": "Usually rice flour, tapioca flour or wheat flour, gula melaka, air kapur (lime water) and a little salt. It's steamed and then coated in grated coconut."
+  },
+  {
+   "q": "Why does kosui need air kapur?",
+   "a": "Air kapur gives it that soft, chewy texture. Without it, kosui can turn too hard or too mushy."
+  },
+  {
+   "q": "How long does kosui keep?",
+   "a": "Best finished the same day because of the grated coconut. Without coconut, you can keep it in the fridge for a day."
+  }
+ ]
+}

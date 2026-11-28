@@ -1,0 +1,63 @@
+{
+ "slug": "sushi",
+ "name_en": "Sushi (6 pieces)",
+ "serving_en": "6 pieces",
+ "intro": "Six pieces of sushi come to roughly 300 kcal (estimate). Most of the calories come from the sushi rice, which is mixed with sugar and vinegar.",
+ "breakdown": [
+  {
+   "part": "Sushi rice (6 pieces)",
+   "kcal": 200
+  },
+  {
+   "part": "Fish / filling (salmon, tuna, egg)",
+   "kcal": 60
+  },
+  {
+   "part": "Nori, soy sauce & a bit of mayo",
+   "kcal": 40
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cucumber maki (6 pieces)",
+   "kcal": 180
+  },
+  {
+   "name": "California roll (6 pieces)",
+   "kcal": 250
+  },
+  {
+   "name": "Salmon nigiri (6 pieces)",
+   "kcal": 280
+  },
+  {
+   "name": "Tempura / salmon mayo roll (6 pieces)",
+   "kcal": 380
+  }
+ ],
+ "diet": "Yes, sushi is one of the more diet-friendly options when eating out. The usual problem is quantity. Six pieces go down fast, and then we grab more. Go for raw or boiled fish instead of tempura and mayo. Add miso soup or edamame so you feel fuller.",
+ "tips": [
+  "Choose nigiri or sashimi for more protein and less rice.",
+  "Skip rolls with tempura, mayo or sweet sauce on top.",
+  "Order edamame or miso soup first, before the sushi arrives."
+ ],
+ "swap": {
+  "name": "6 pieces salmon sashimi + miso soup",
+  "kcal": 250,
+  "why": "High in protein with almost no rice, so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Can pregnant women eat sushi?",
+   "a": "Choose cooked sushi like tamago, unagi or cooked ebi. For raw fish, best to check with your doctor first."
+  },
+  {
+   "q": "How long does sushi last?",
+   "a": "Best eaten within a few hours. If you keep it in the fridge, finish it the same day."
+  },
+  {
+   "q": "Wasabi is so spicy, do I need to eat it?",
+   "a": "No need. It's just for flavour. Take a little or leave it."
+  }
+ ]
+}

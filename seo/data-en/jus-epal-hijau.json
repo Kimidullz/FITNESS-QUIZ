@@ -1,0 +1,55 @@
+{
+ "slug": "jus-epal-hijau",
+ "name_en": "Green apple juice (stall)",
+ "serving_en": "1 glass",
+ "intro": "A glass of green apple juice from a stall is about 150 kcal (estimate). The calories come from the apple's natural sugar and the sugar syrup that's usually added.",
+ "breakdown": [
+  {
+   "part": "Green apple (~1.5 apples)",
+   "kcal": 100
+  },
+  {
+   "part": "Sugar syrup",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Green apple juice, no sugar",
+   "kcal": 100
+  },
+  {
+   "name": "Apple juice + asam boi",
+   "kcal": 170
+  },
+  {
+   "name": "Apple + carrot juice",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes, but don't treat juice the same as eating fruit. Juicing removes a lot of the fibre, and it's easy to drink several fruits at once. The no-sugar version is better. If you're watching calories, eating one whole apple is more filling.",
+ "tips": [
+  "Ask for 'tak nak gula'. Green apple already tastes sweet-sour.",
+  "Mix with carrot or cucumber to cut the sugar.",
+  "Drink it with a meal, not as a separate snack."
+ ],
+ "swap": {
+  "name": "1 whole green apple (eaten)",
+  "kcal": 80,
+  "why": "Full fibre, more filling, and almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "Green apple or red apple juice, which is better?",
+   "a": "Both are okay. Green apples are usually a bit less sweet, so many people like them for juice."
+  },
+  {
+   "q": "Can I drink apple juice on an empty stomach?",
+   "a": "Some people get a sore stomach because it's sour. If you're sensitive, drink it after eating."
+  },
+  {
+   "q": "Why does apple juice turn brown so fast?",
+   "a": "Apple oxidises when exposed to air. A little squeeze of lemon can slow this down."
+  }
+ ]
+}

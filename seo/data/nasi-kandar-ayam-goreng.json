@@ -1,0 +1,70 @@
+{
+ "slug": "nasi-kandar-ayam-goreng",
+ "intro": "Sepinggan nasi kandar ayam goreng dengan kuah banjir ada anggaran 900 kcal. Kalori paling banyak datang dari nasi yang banyak, ayam goreng dan kuah campur yang berminyak.",
+ "protein_g": 38,
+ "carbs_g": 95,
+ "fat_g": 41,
+ "breakdown": [
+  {
+   "part": "Nasi putih 1.5 cawan",
+   "kcal": 310
+  },
+  {
+   "part": "Ayam goreng 1 ketul",
+   "kcal": 320
+  },
+  {
+   "part": "Kuah campur banjir",
+   "kcal": 180
+  },
+  {
+   "part": "Sayur goreng (kobis/bendi)",
+   "kcal": 90
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuah sikit sahaja",
+   "kcal": 770
+  },
+  {
+   "name": "Tambah telur dadar/telur goreng",
+   "kcal": 1020
+  },
+  {
+   "name": "Tukar ke ayam kari (tanpa goreng)",
+   "kcal": 820
+  },
+  {
+   "name": "Nasi separuh + kuah sikit",
+   "kcal": 620
+  }
+ ],
+ "diet": "Boleh, cuma ini antara pinggan paling berat di kedai mamak. Kuah banjir tu nampak macam 'air' saja, tapi ia bawa banyak minyak dan santan. Kalau nak turun berat, makan ini sekali-sekala dan kawal kuah serta nasi. Tak perlu elak terus, cukup bijak masa minta.",
+ "tips": [
+  "Cakap 'kuah sikit' atau minta kuah diletak di tepi, bukan disiram atas nasi.",
+  "Minta nasi separuh dan tambah sayur seperti timun atau kobis rebus kalau ada.",
+  "Pilih satu lauk utama sahaja, jangan tambah telur dan sotong sekali."
+ ],
+ "swap": {
+  "name": "Nasi kandar ayam kari kuah sikit + sayur",
+  "kcal": 650,
+  "why": "Ayam kari tak digoreng dan kuah yang terkawal potong banyak minyak. Protein masih dapat."
+ },
+ "faq": [
+  {
+   "q": "Kenapa nasi kandar dipanggil 'kandar'?",
+   "a": "Dulu penjaja Mamak di Pulau Pinang memikul (mengandar) bekas nasi dan lauk dengan kayu di bahu. Nama tu kekal sampai sekarang."
+  },
+  {
+   "q": "Apa maksud 'kuah banjir'?",
+   "a": "Ia bermaksud nasi disiram dengan banyak kuah campur, biasanya kari ayam, kari ikan dan kuah dalca sekali gus."
+  },
+  {
+   "q": "Kuah apa yang paling ringan?",
+   "a": "Kuah dalca atau kuah ikan biasanya kurang berlemak berbanding kuah kari ayam dan kuah daging yang lebih pekat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

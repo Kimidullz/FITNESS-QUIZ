@@ -1,0 +1,63 @@
+{
+ "slug": "anggur",
+ "name_en": "Grapes",
+ "serving_en": "1 cup",
+ "intro": "One cup of grapes is roughly 100 kcal (estimate). Almost all the calories come from natural fruit sugar.",
+ "breakdown": [
+  {
+   "part": "Natural sugar",
+   "kcal": 90
+  },
+  {
+   "part": "Fibre & other carbs",
+   "kcal": 6
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Frozen grapes (1 cup)",
+   "kcal": 100
+  },
+  {
+   "name": "Grapes, 1/2 cup",
+   "kcal": 50
+  },
+  {
+   "name": "Raisins (1/4 cup)",
+   "kcal": 110
+  },
+  {
+   "name": "Grape juice (1 glass)",
+   "kcal": 150
+  }
+ ],
+ "diet": "Yes, grapes are a sweet snack that's better than sweets or kuih. But they're small, so it's easy to eat a lot without noticing. Put one cup in a bowl instead of eating straight from the pack. Raisins are calorie-dense, so just take a little.",
+ "tips": [
+  "Put 1 cup in a small bowl before you start eating.",
+  "Freeze grapes for a cold snack you eat slowly.",
+  "Pair with unsweetened yogurt or a few nuts for protein."
+ ],
+ "swap": {
+  "name": "1 cup fresh grapes instead of 1/4 cup raisins",
+  "kcal": 100,
+  "why": "About the same calories but much more volume, so you feel fuller."
+ },
+ "faq": [
+  {
+   "q": "Green or red grapes, which is better?",
+   "a": "Both are good. Red and black grapes have slightly more antioxidants, but the difference is small."
+  },
+  {
+   "q": "What should I wash grapes with?",
+   "a": "Soak and rinse with clean water a few times before eating."
+  },
+  {
+   "q": "Are grapes safe for young kids?",
+   "a": "Safe, but cut them into halves or quarters for small kids so they don't choke."
+  }
+ ]
+}

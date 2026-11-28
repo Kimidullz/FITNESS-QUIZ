@@ -1,0 +1,63 @@
+{
+ "slug": "ayam-masak-merah",
+ "name_en": "Ayam masak merah",
+ "serving_en": "1 piece + gravy",
+ "intro": "One piece of ayam masak merah with gravy is about 320 kcal (estimate). Most of the calories come from the chicken being fried first and the oil in the gravy.",
+ "breakdown": [
+  {
+   "part": "1 piece chicken (fried before cooking)",
+   "kcal": 200
+  },
+  {
+   "part": "Tomato, chilli and sugar gravy",
+   "kcal": 70
+  },
+  {
+   "part": "Cooking oil in the gravy",
+   "kcal": 50
+  }
+ ],
+ "variants": [
+  {
+   "name": "Breast piece",
+   "kcal": 280
+  },
+  {
+   "name": "Thigh piece",
+   "kcal": 360
+  },
+  {
+   "name": "Not fried first (boiled or grilled)",
+   "kcal": 250
+  },
+  {
+   "name": "Kenduri style with lots of gravy",
+   "kcal": 400
+  }
+ ],
+ "diet": "Yes, ayam masak merah is still a good source of protein. What pushes the calories up is the pre-fried chicken and the sweet, oily gravy. If you take one piece and don't flood your rice with gravy, it still fits your daily budget. Pair it with vegetables for a more balanced plate.",
+ "tips": [
+  "Pick a breast piece and remove the skin if you can.",
+  "Take just a little gravy, don't flood your rice.",
+  "Cooking at home: grill or air-fry the chicken first, no need to deep-fry."
+ ],
+ "swap": {
+  "name": "Air fryer ayam masak merah, less sugar",
+  "kcal": 250,
+  "why": "Tastes almost the same, but with much less oil and sugar."
+ },
+ "faq": [
+  {
+   "q": "Why is the chicken fried first for ayam masak merah?",
+   "a": "So the chicken holds its shape and the gravy sticks to the crispy outside. But grilling or using an air fryer gives a very similar result."
+  },
+  {
+   "q": "What goes well with ayam masak merah?",
+   "a": "Usually nasi minyak, nasi tomato or white rice. Add acar or vegetables for balance."
+  },
+  {
+   "q": "Can I use bottled tomato sauce?",
+   "a": "Yes. Many people use a mix of fresh tomatoes and tomato sauce. Bottled sauce has sugar, so cut down the added sugar."
+  }
+ ]
+}

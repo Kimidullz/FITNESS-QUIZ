@@ -1,0 +1,63 @@
+{
+ "slug": "sup-sayur",
+ "name_en": "Sup sayur (vegetable soup)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of sup sayur is roughly 90 kcal. Most of the calories come from starchy veggies like potatoes and carrots, plus a little oil.",
+ "breakdown": [
+  {
+   "part": "Mixed veggies (cabbage, carrot, potato)",
+   "kcal": 50
+  },
+  {
+   "part": "Oil and fried onions",
+   "kcal": 25
+  },
+  {
+   "part": "Stock",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup sayur with fishballs",
+   "kcal": 150
+  },
+  {
+   "name": "Sup sayur with tauhu",
+   "kcal": 160
+  },
+  {
+   "name": "Plain sup sayur, no oil",
+   "kcal": 60
+  },
+  {
+   "name": "Sup sayur with bihun",
+   "kcal": 220
+  }
+ ],
+ "diet": "Yes, sup sayur is one of the best choices when you're trying to lose weight. Low in calories, lots of volume and it fills you up. But protein is quite low, so pair it with a protein dish. Also watch the salt if you buy it outside.",
+ "tips": [
+  "Have the soup first before your rice so you feel full faster.",
+  "Add egg, tauhu or shredded chicken to boost the protein.",
+  "At home, cook a big batch and keep it for 2 to 3 days. Easy for busy days."
+ ],
+ "swap": {
+  "name": "Sup sayur with tauhu and egg",
+  "kcal": 200,
+  "why": "Still low in calories but higher in protein, so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Which veggies are good for soup?",
+   "a": "Cabbage, carrot, potato, sawi, broccoli and mushrooms are all okay. Put in the hard veggies first and leafy ones last."
+  },
+  {
+   "q": "Is soup with stock cubes high in salt?",
+   "a": "Yes, stock cubes are usually high in sodium. Use half a cube or make your own stock from bones and onions."
+  },
+  {
+   "q": "Can I just have sup sayur for dinner?",
+   "a": "Once in a while is fine, but add protein so you don't get hungry fast and your muscles are looked after."
+  }
+ ]
+}

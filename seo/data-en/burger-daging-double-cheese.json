@@ -1,0 +1,67 @@
+{
+ "slug": "burger-daging-double-cheese",
+ "name_en": "Double cheese beef burger",
+ "serving_en": "1 burger",
+ "intro": "One double cheese beef burger is about 750 kcal (estimate). Most of the calories come from the two beef patties and two cheese slices, followed by the bun and mayo.",
+ "breakdown": [
+  {
+   "part": "2 beef patties",
+   "kcal": 360
+  },
+  {
+   "part": "Bun",
+   "kcal": 170
+  },
+  {
+   "part": "2 cheese slices",
+   "kcal": 140
+  },
+  {
+   "part": "Mayo and other sauces",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Single cheese beef burger",
+   "kcal": 450
+  },
+  {
+   "name": "Single beef burger, no cheese",
+   "kcal": 380
+  },
+  {
+   "name": "Double cheese with egg (roadside stall)",
+   "kcal": 850
+  },
+  {
+   "name": "Set with fries and soft drink",
+   "kcal": 1250
+  }
+ ],
+ "diet": "Yes, if you count it as one big main meal. The good part is it's high in protein. The problem usually comes from the set, with fries and a sweet drink adding another 500 kcal. Have just the burger with plain water, and it can still fit into your day.",
+ "tips": [
+  "Order the burger alone, not the set. Drink plain water or a sugar-free drink.",
+  "Ask for less mayo or take out one cheese slice.",
+  "At a roadside stall, add salad and cucumber, and ask for less margarine on the bun."
+ ],
+ "swap": {
+  "name": "Single cheese beef burger with salad",
+  "kcal": 450,
+  "why": "Still the burger taste and good protein, but you save about 300 kcal."
+ },
+ "faq": [
+  {
+   "q": "Are roadside stall burgers oilier?",
+   "a": "Usually yes. The patty and bun are fried on a griddle with margarine, and lots of sauce is added. You can ask for less margarine and sauce."
+  },
+  {
+   "q": "Is the burger patty real meat?",
+   "a": "Patties are usually minced beef with fat, salt and seasoning. Cheaper patties may contain flour or fillers."
+  },
+  {
+   "q": "Can I eat burgers while building muscle?",
+   "a": "Yes. A double burger has about 40 g protein. Just watch the total calories and fat so it fits your goals."
+  }
+ ]
+}

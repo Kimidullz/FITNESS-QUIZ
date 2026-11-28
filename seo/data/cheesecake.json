@@ -1,0 +1,66 @@
+{
+ "slug": "cheesecake",
+ "intro": "Sepotong cheesecake ada anggaran 420 kcal. Kebanyakan kalori datang dari krim keju, telur dan gula dalam inti, serta base biskut bermentega.",
+ "protein_g": 7,
+ "carbs_g": 32,
+ "fat_g": 30,
+ "breakdown": [
+  {
+   "part": "Inti krim keju, telur dan gula",
+   "kcal": 290
+  },
+  {
+   "part": "Base biskut dan mentega",
+   "kcal": 110
+  },
+  {
+   "part": "Topping atau jem buah",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Burnt cheesecake (1 potong)",
+   "kcal": 450
+  },
+  {
+   "name": "Blueberry cheesecake",
+   "kcal": 440
+  },
+  {
+   "name": "Cheesecake biskut coklat",
+   "kcal": 480
+  },
+  {
+   "name": "No-bake cheesecake",
+   "kcal": 380
+  }
+ ],
+ "diet": "Boleh, sebagai treat sekali-sekala. Cheesecake tinggi lemak, jadi kalorinya padat walaupun potongannya nampak kecil. Kalau nak makan, kurangkan minyak atau lauk bersantan pada hidangan lain hari itu. Nikmati dengan tenang, tak perlu rasa bersalah.",
+ "tips": [
+  "Kongsi sepotong berdua, terutama burnt cheesecake yang memang padat.",
+  "Pilih yang ada topping buah, bukan sos karamel atau coklat.",
+  "Makan selepas makanan tinggi protein seperti ayam bakar, supaya tak terlalu lapar dan tak minta potong kedua."
+ ],
+ "swap": {
+  "name": "Yogurt Greek dengan buah beri dan sedikit madu",
+  "kcal": 180,
+  "why": "Rasa masam lemak yang mirip cheesecake, tapi protein jauh lebih tinggi dan kalori kurang separuh."
+ },
+ "faq": [
+  {
+   "q": "Apa beza burnt cheesecake dengan cheesecake biasa?",
+   "a": "Burnt cheesecake dibakar pada suhu tinggi sampai permukaan hangus perang dan tak ada base biskut. Bahagian dalam lebih lembut dan creamy."
+  },
+  {
+   "q": "Cheesecake perlu simpan dalam peti sejuk ke?",
+   "a": "Ya. Sebab ada keju dan telur, ia perlu disejukkan dan elok dihabiskan dalam 3 hingga 4 hari."
+  },
+  {
+   "q": "Cheesecake tinggi protein sebab ada keju?",
+   "a": "Tak juga. Krim keju lebih banyak lemak berbanding protein. Sepotong cuma ada anggaran 7 g protein."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

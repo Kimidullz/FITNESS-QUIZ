@@ -1,0 +1,63 @@
+{
+ "slug": "roti-canai-banjir",
+ "name_en": "Roti canai banjir (kuah campur)",
+ "serving_en": "1 piece",
+ "intro": "One roti canai banjir with kuah campur has an estimated 420 kcal. Most of the calories come from the dough, which is stretched with oil or margarine. The curry adds roughly 100+ kcal.",
+ "breakdown": [
+  {
+   "part": "Roti canai kosong, 1 piece",
+   "kcal": 300
+  },
+  {
+   "part": "Kuah dal",
+   "kcal": 60
+  },
+  {
+   "part": "Kuah kari",
+   "kcal": 60
+  }
+ ],
+ "variants": [
+  {
+   "name": "Roti canai kosong, a little kuah on the side",
+   "kcal": 340
+  },
+  {
+   "name": "Roti telur banjir",
+   "kcal": 520
+  },
+  {
+   "name": "Roti planta banjir",
+   "kcal": 520
+  },
+  {
+   "name": "Banjir + teh tarik",
+   "kcal": 570
+  }
+ ],
+ "diet": "Yes, if you stick to one piece and don't have it too often. The problem is roti canai is low in protein, so you get hungry again fast. Many people end up ordering a second piece with teh tarik, and the calories add up quickly. Pair it with some protein so you stay full.",
+ "tips": [
+  "Ask for kuah on the side instead of banjir, and dip a little at a time.",
+  "Go for more kuah dal than santan-based kuah kari.",
+  "Order teh o kosong or teh tarik kurang manis to drink."
+ ],
+ "swap": {
+  "name": "Tosai kosong + kuah dal",
+  "kcal": 220,
+  "why": "Tosai uses less oil than roti canai. You still get that mamak breakfast feel at almost half the calories."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between roti canai banjir and normal roti canai?",
+   "a": "Banjir means the curry is poured all over the roti on the plate. Normal roti canai comes with curry in a small bowl on the side."
+  },
+  {
+   "q": "What is kuah campur?",
+   "a": "Usually it's a mix of kuah dal and chicken or fish curry. Some shops add sambal too."
+  },
+  {
+   "q": "Is roti canai better for breakfast or dinner?",
+   "a": "Any time is fine, up to your taste. What matters is your total calories for the day and what you eat with it."
+  }
+ ]
+}

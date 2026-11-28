@@ -1,0 +1,66 @@
+{
+ "slug": "kuih-cara-manis",
+ "intro": "Anggaran 150 kcal untuk 3 biji kuih cara manis. Kebanyakan kalori datang dari adunan tepung, santan dan gula di tengah kuih.",
+ "protein_g": 3,
+ "carbs_g": 22,
+ "fat_g": 6,
+ "breakdown": [
+  {
+   "part": "Adunan tepung dan telur (3 biji)",
+   "kcal": 65
+  },
+  {
+   "part": "Santan dalam adunan",
+   "kcal": 40
+  },
+  {
+   "part": "Gula di tengah kuih",
+   "kcal": 35
+  },
+  {
+   "part": "Minyak sapu acuan",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuih cara manis 1 biji",
+   "kcal": 50
+  },
+  {
+   "name": "Kuih cara manis 5 biji",
+   "kcal": 250
+  },
+  {
+   "name": "Kuih cara berlauk 3 biji",
+   "kcal": 180
+  }
+ ],
+ "diet": "Boleh, kuih cara manis kecil dan senang dikawal. Masalahnya, ia sangat senang dimakan berbiji-biji tanpa sedar. Kalau ambil 3 biji dengan teh O kosong, ia masih muat dalam bajet harian. Cuma ia rendah protein, jadi tak akan kenyang lama.",
+ "tips": [
+  "Ambil 3 biji dalam pinggan kecil, jangan makan terus dari bekas.",
+  "Pasangkan dengan telur rebus atau segelas susu untuk tambah protein.",
+  "Pilih teh O atau kopi O kurang manis, sebab kuih dah ada gula."
+ ],
+ "swap": {
+  "name": "Kuih cara berlauk 2 biji",
+  "kcal": 120,
+  "why": "Ada inti daging atau ayam, jadi lebih banyak protein dan kurang gula."
+ },
+ "faq": [
+  {
+   "q": "Apa beza kuih cara manis dan cara berlauk?",
+   "a": "Cara manis diisi gula di tengah. Cara berlauk diisi inti daging atau ayam berempah, jadi rasa lebih masin dan berprotein."
+  },
+  {
+   "q": "Boleh buat kuih cara manis guna acuan biasa?",
+   "a": "Boleh guna acuan kuih cara atau acuan bahulu kecil. Bentuk berubah sikit, tapi rasa sama."
+  },
+  {
+   "q": "Kuih cara manis tahan berapa lama?",
+   "a": "Paling sedap dimakan hari sama. Dalam peti sejuk boleh tahan 1-2 hari, panaskan sekejap sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

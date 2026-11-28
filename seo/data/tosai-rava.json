@@ -1,0 +1,70 @@
+{
+ "slug": "tosai-rava",
+ "intro": "Sekeping tosai rava dengan chutney dan sedikit kuah ada anggaran 320 kcal. Kebanyakan kalori datang daripada adunan semolina dan tepung beras, serta minyak atau ghee yang digunakan masa masak.",
+ "protein_g": 7,
+ "carbs_g": 48,
+ "fat_g": 11,
+ "breakdown": [
+  {
+   "part": "Adunan rava dan tepung beras",
+   "kcal": 190
+  },
+  {
+   "part": "Minyak atau ghee masa masak",
+   "kcal": 70
+  },
+  {
+   "part": "Chutney kelapa",
+   "kcal": 35
+  },
+  {
+   "part": "Kuah dal atau sambar",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tosai biasa (thosai) dengan chutney",
+   "kcal": 250
+  },
+  {
+   "name": "Tosai rava bawang",
+   "kcal": 360
+  },
+  {
+   "name": "Tosai rava masala (inti kentang)",
+   "kcal": 450
+  },
+  {
+   "name": "Tosai rava dengan ghee ekstra",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh. Tosai rava antara pilihan yang lebih ringan di kedai mamak berbanding roti canai atau murtabak. Cuma proteinnya rendah, jadi perlu tambah sesuatu supaya kenyang lebih lama. Perhatikan juga chutney dan ghee, sebab di situ kalori tersembunyi.",
+ "tips": [
+  "Minta kuah dal lebih dan chutney kelapa kurang, dal ada sedikit protein.",
+  "Tambah telur rebus atau ayam tandoori kecil di sebelah.",
+  "Minta tak letak ghee ekstra di atas tosai."
+ ],
+ "swap": {
+  "name": "Tosai biasa 1 keping + kuah dal + telur rebus",
+  "kcal": 320,
+  "why": "Kalori lebih kurang sama, tapi ada protein dari telur dan dal jadi lebih mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Apa beza tosai rava dengan tosai biasa?",
+   "a": "Tosai biasa guna adunan beras dan kacang urad yang diperam. Tosai rava guna semolina, tak perlu perap, teksturnya lebih rangup dan berlubang."
+  },
+  {
+   "q": "Tosai rava ada gluten ke?",
+   "a": "Ya, rava atau semolina dibuat dari gandum, jadi ia mengandungi gluten."
+  },
+  {
+   "q": "Kenapa tosai rava ambil masa lama nak siap?",
+   "a": "Adunannya cair dan perlu dimasak perlahan atas api sederhana supaya rangup sekata. Sebab itu kadang-kadang kena tunggu sikit."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

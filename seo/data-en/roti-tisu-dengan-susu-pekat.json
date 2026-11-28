@@ -1,0 +1,67 @@
+{
+ "slug": "roti-tisu-dengan-susu-pekat",
+ "name_en": "Roti tisu with condensed milk",
+ "serving_en": "1 piece",
+ "intro": "One roti tisu with condensed milk is about 500 kcal (estimate). Most of the calories come from the flour dough, the margarine spread on while stretching it, and the condensed milk poured on top.",
+ "breakdown": [
+  {
+   "part": "Roti tisu dough (wheat flour)",
+   "kcal": 220
+  },
+  {
+   "part": "Margarine and oil while stretching",
+   "kcal": 150
+  },
+  {
+   "part": "Condensed milk (2-3 tbsp)",
+   "kcal": 100
+  },
+  {
+   "part": "Sprinkled sugar",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain roti tisu, no condensed milk",
+   "kcal": 370
+  },
+  {
+   "name": "Roti tisu with sugar only",
+   "kcal": 420
+  },
+  {
+   "name": "Roti tisu with condensed milk and butter",
+   "kcal": 580
+  },
+  {
+   "name": "Roti tisu with ice cream",
+   "kcal": 620
+  }
+ ],
+ "diet": "Yes, but treat it as dessert, not a main meal. Protein is low, so you'll feel hungry again quickly even though the calories are high. If you want it, share with friends or family and have it once in a while. What matters is your total daily calories stay on target.",
+ "tips": [
+  "Share one piece among 2-3 people and take just one portion.",
+  "Ask for condensed milk on the side in a small saucer, dip a little at a time.",
+  "Pair it with half-boiled eggs or teh O kosong, not teh tarik."
+ ],
+ "swap": {
+  "name": "1 roti kosong + 2 half-boiled eggs",
+  "kcal": 390,
+  "why": "Still feels like a mamak lepak, but the eggs add protein so you stay full longer."
+ },
+ "faq": [
+  {
+   "q": "Why is roti tisu so tall and thin?",
+   "a": "The dough is stretched until it's almost see-through, cooked on a flat griddle, then shaped into a cone. It takes real skill from the roti maker."
+  },
+  {
+   "q": "Is roti tisu okay for breakfast?",
+   "a": "You can, but it's more of a sweet treat. For breakfast, add some protein like eggs so you don't get hungry before lunch."
+  },
+  {
+   "q": "Can I ask for it less sweet?",
+   "a": "Yes. Ask for no sugar and condensed milk on the side. Most mamak shops are fine with this."
+  }
+ ]
+}

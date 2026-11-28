@@ -1,0 +1,66 @@
+{
+ "slug": "kek-lapis-sarawak",
+ "intro": "Anggaran 220 kcal untuk 1 potong kek lapis Sarawak. Kebanyakan kalori datang dari mentega, gula dan susu pekat.",
+ "protein_g": 3,
+ "carbs_g": 26,
+ "fat_g": 12,
+ "breakdown": [
+  {
+   "part": "Mentega",
+   "kcal": 100
+  },
+  {
+   "part": "Gula dan susu pekat",
+   "kcal": 85
+  },
+  {
+   "part": "Tepung dan telur",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Potong nipis (separuh)",
+   "kcal": 110
+  },
+  {
+   "name": "Kek lapis kopi",
+   "kcal": 220
+  },
+  {
+   "name": "Kek lapis prune",
+   "kcal": 240
+  },
+  {
+   "name": "Kek lapis cheese",
+   "kcal": 260
+  }
+ ],
+ "diet": "Boleh, tapi kek lapis Sarawak memang padat kalori untuk saiznya. Ia penuh mentega dan susu pekat. Waktu raya atau rumah terbuka, satu potong nipis cukup untuk rasa. Yang perlu dijaga ialah 'sepotong lagi' dari setiap rumah.",
+ "tips": [
+  "Minta potong nipis, rasa tetap sama.",
+  "Pilih satu perisa paling anda suka, jangan rasa semua.",
+  "Minum kopi O atau teh O kosong supaya gula tak bertambah."
+ ],
+ "swap": {
+  "name": "Kuih bahulu 2 biji",
+  "kcal": 100,
+  "why": "Rasa manis dan lembut, tapi kurang mentega dan separuh kalori."
+ },
+ "faq": [
+  {
+   "q": "Kenapa kek lapis Sarawak mahal?",
+   "a": "Ia dibakar lapis demi lapis, satu kek boleh ambil berjam-jam. Bahan seperti mentega dan telur pun banyak."
+  },
+  {
+   "q": "Kek lapis Sarawak tahan berapa lama?",
+   "a": "Dalam suhu bilik sekitar seminggu. Dalam peti sejuk boleh tahan beberapa minggu jika dibalut rapat."
+  },
+  {
+   "q": "Apa beza kek lapis Sarawak dan kek lapis biasa?",
+   "a": "Kek lapis Sarawak lebih berwarna, bercorak dan biasanya guna susu pekat, jadi teksturnya lebih padat dan lembap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

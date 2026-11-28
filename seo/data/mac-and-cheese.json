@@ -1,0 +1,62 @@
+{
+ "slug": "mac-and-cheese",
+ "intro": "Satu mangkuk mac and cheese ada anggaran 550 kcal. Kebanyakan kalori datang dari makaroni dan sos keju bermentega.",
+ "protein_g": 22,
+ "carbs_g": 55,
+ "fat_g": 27,
+ "breakdown": [
+  {
+   "part": "Makaroni masak ~1 cawan",
+   "kcal": 250
+  },
+  {
+   "part": "Sos keju dan susu",
+   "kcal": 220
+  },
+  {
+   "part": "Mentega dan serbuk roti di atas",
+   "kcal": 80
+  }
+ ],
+ "variants": [
+  {
+   "name": "Baked mac and cheese dengan daging/ayam",
+   "kcal": 650
+  },
+  {
+   "name": "Mac and cheese segera (1 kotak kecil)",
+   "kcal": 400
+  },
+  {
+   "name": "Mac and cheese truffle saiz kafe",
+   "kcal": 750
+  }
+ ],
+ "diet": "Boleh, kalau sebagai hidangan comfort sekali-sekala. Ia tinggi karbohidrat dan lemak, tapi protein agak rendah. Jadi senang rasa lapar balik. Makan mangkuk kecil dan tambah lauk protein atau sayur.",
+ "tips": [
+  "Ambil mangkuk kecil sebagai side, bukan hidangan utama.",
+  "Tambah brokoli atau ayam rebus untuk lebih kenyang.",
+  "Masak sendiri guna susu rendah lemak dan keju bertekstur kuat seperti cheddar matang, jadi guna sikit pun dah berasa."
+ ],
+ "swap": {
+  "name": "Wrap ayam",
+  "kcal": 450,
+  "why": "Ada protein dan sayur, jadi lebih mengenyangkan untuk kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Mac and cheese sesuai untuk budak?",
+   "a": "Sesuai sebagai hidangan sekali-sekala. Tambah sayur seperti brokoli atau jagung supaya lebih seimbang."
+  },
+  {
+   "q": "Keju apa yang biasa guna?",
+   "a": "Selalunya cheddar. Ada juga campur mozzarella atau parmesan untuk rasa dan tekstur."
+  },
+  {
+   "q": "Boleh simpan dalam peti sejuk?",
+   "a": "Boleh, dalam bekas bertutup sehingga 2-3 hari. Panaskan dengan sedikit susu supaya tak kering."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

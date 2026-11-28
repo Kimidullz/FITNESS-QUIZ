@@ -1,0 +1,67 @@
+{
+ "slug": "nasi-kandar-ayam-goreng",
+ "name_en": "Nasi kandar ayam goreng (kuah banjir)",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi kandar ayam goreng with kuah banjir has about 900 kcal. Most of the calories come from the big portion of rice, the fried chicken and the oily mixed gravy.",
+ "breakdown": [
+  {
+   "part": "White rice, 1.5 cups",
+   "kcal": 310
+  },
+  {
+   "part": "Ayam goreng, 1 piece",
+   "kcal": 320
+  },
+  {
+   "part": "Mixed gravy, kuah banjir",
+   "kcal": 180
+  },
+  {
+   "part": "Fried vegetables (cabbage/okra)",
+   "kcal": 90
+  }
+ ],
+ "variants": [
+  {
+   "name": "Just a little gravy",
+   "kcal": 770
+  },
+  {
+   "name": "Add telur dadar/fried egg",
+   "kcal": 1020
+  },
+  {
+   "name": "Switch to chicken curry (not fried)",
+   "kcal": 820
+  },
+  {
+   "name": "Half rice + a little gravy",
+   "kcal": 620
+  }
+ ],
+ "diet": "Yes, but this is one of the heaviest plates at a mamak. Kuah banjir looks like just 'liquid', but it carries a lot of oil and santan. If you're trying to lose weight, have this once in a while and control the gravy and rice. No need to avoid it totally, just order smart.",
+ "tips": [
+  "Say 'kuah sikit' or ask for the gravy on the side, not poured over the rice.",
+  "Ask for half rice and add vegetables like cucumber or boiled cabbage if available.",
+  "Pick just one main dish. Don't add egg and sotong on top."
+ ],
+ "swap": {
+  "name": "Nasi kandar chicken curry, little gravy + vegetables",
+  "kcal": 650,
+  "why": "Curry chicken isn't fried, and controlling the gravy cuts a lot of oil. You still get your protein."
+ },
+ "faq": [
+  {
+   "q": "Why is it called nasi kandar?",
+   "a": "Last time, Mamak hawkers in Penang carried (mengandar) the rice and dishes in containers on a pole over their shoulders. The name stuck."
+  },
+  {
+   "q": "What does 'kuah banjir' mean?",
+   "a": "It means the rice is flooded with lots of mixed gravy, usually chicken curry, fish curry and dalca all together."
+  },
+  {
+   "q": "Which gravy is the lightest?",
+   "a": "Dalca or fish gravy is usually less fatty than the thicker chicken curry or beef gravy."
+  }
+ ]
+}

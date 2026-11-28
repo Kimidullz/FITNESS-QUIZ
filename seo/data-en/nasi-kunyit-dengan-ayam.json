@@ -1,0 +1,63 @@
+{
+ "slug": "nasi-kunyit-dengan-ayam",
+ "name_en": "Nasi kunyit with chicken",
+ "serving_en": "1 plate",
+ "intro": "A plate of nasi kunyit with chicken has about 650 kcal. Most of the calories come from the nasi kunyit, which is cooked with santan, plus chicken curry or rendang.",
+ "breakdown": [
+  {
+   "part": "Nasi kunyit with santan, 1.5 cups",
+   "kcal": 380
+  },
+  {
+   "part": "Chicken curry or rendang, 1 piece",
+   "kcal": 200
+  },
+  {
+   "part": "Curry gravy",
+   "kcal": 50
+  },
+  {
+   "part": "Acar or sambal",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Half plate nasi kunyit with chicken",
+   "kcal": 500
+  },
+  {
+   "name": "With chicken rendang",
+   "kcal": 700
+  },
+  {
+   "name": "With chicken curry, extra gravy",
+   "kcal": 720
+  }
+ ],
+ "diet": "Yes, you can. It's great for kenduri or a weekend breakfast. Nasi kunyit has santan, so it's higher in calories than white rice. Curry gravy and rendang are also oily. Just watch your rice and gravy portions. Having it once in a while is no problem.",
+ "tips": [
+  "Take half a plate of rice and more chicken.",
+  "Eat the chicken meat and go easy on the gravy and the oil on top.",
+  "If you can, remove the chicken skin to cut fat."
+ ],
+ "swap": {
+  "name": "1 cup white rice + ayam bakar + ulam",
+  "kcal": 480,
+  "why": "No santan in the rice and less oily gravy, but protein stays high."
+ },
+ "faq": [
+  {
+   "q": "Where does nasi kunyit come from?",
+   "a": "Nasi kunyit is popular in the Peninsula, especially the East Coast and at kenduri. It's usually served with chicken curry or rendang."
+  },
+  {
+   "q": "Why is nasi kunyit yellow?",
+   "a": "The glutinous rice or rice is soaked with turmeric, then steamed or cooked with santan."
+  },
+  {
+   "q": "Is nasi kunyit made with glutinous rice or normal rice?",
+   "a": "Most recipes use glutinous rice (pulut). Some use normal rice, depending on the state and family."
+  }
+ ]
+}

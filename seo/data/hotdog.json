@@ -1,0 +1,66 @@
+{
+ "slug": "hotdog",
+ "intro": "Sebiji hotdog ada anggaran 300 kcal. Kebanyakan kalori datang daripada sosej yang tinggi lemak dan roti putih.",
+ "protein_g": 11,
+ "carbs_g": 26,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Roti hotdog 1 biji",
+   "kcal": 120
+  },
+  {
+   "part": "Sosej ayam / daging 1 batang",
+   "kcal": 150
+  },
+  {
+   "part": "Sos cili, tomato & mustard",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Hotdog kecil sosej ayam biasa",
+   "kcal": 250
+  },
+  {
+   "name": "Hotdog dengan keju",
+   "kcal": 360
+  },
+  {
+   "name": "Hotdog sosej jumbo",
+   "kcal": 450
+  },
+  {
+   "name": "Hotdog dengan mayo & bawang goreng",
+   "kcal": 400
+  }
+ ],
+ "diet": "Boleh, sebiji hotdog masih dalam bajet snek atau sarapan ringan. Tapi protein dia rendah berbanding lemak, jadi tak berapa mengenyangkan. Sosej juga makanan diproses, jadi lebih baik sekali-sekala. Elakkan ambil dua tiga biji sekali gus.",
+ "tips": [
+  "Pilih sosej ayam saiz biasa, bukan jumbo atau berkeju.",
+  "Kurangkan mayo, guna mustard atau sos cili saja.",
+  "Padankan dengan telur rebus atau susu tanpa gula untuk protein."
+ ],
+ "swap": {
+  "name": "Roti sandwich telur / ayam",
+  "kcal": 280,
+  "why": "Kalori hampir sama tapi protein lebih tinggi dan kurang lemak proses."
+ },
+ "faq": [
+  {
+   "q": "Sosej hotdog dibuat daripada apa?",
+   "a": "Biasanya daging ayam atau lembu yang dikisar, dicampur tepung, garam dan perisa. Semak label untuk status halal."
+  },
+  {
+   "q": "Boleh bagi hotdog untuk bekal anak?",
+   "a": "Boleh sekali-sekala. Tambah buah atau sayur di sisi supaya bekal lebih seimbang."
+  },
+  {
+   "q": "Sosej perlu dimasak ke walaupun dah masak?",
+   "a": "Ya, panaskan sampai betul-betul panas sebelum makan untuk keselamatan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

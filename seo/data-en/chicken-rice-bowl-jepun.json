@@ -1,0 +1,71 @@
+{
+ "slug": "chicken-rice-bowl-jepun",
+ "name_en": "Japanese chicken rice bowl (teriyaki)",
+ "serving_en": "1 bowl",
+ "intro": "A chicken teriyaki rice bowl is roughly 650 kcal (estimate). Most of the calories come from the big portion of Japanese rice and the chicken thigh in sweet teriyaki sauce.",
+ "breakdown": [
+  {
+   "part": "Japanese rice (~1.5 cups)",
+   "kcal": 300
+  },
+  {
+   "part": "Teriyaki chicken thigh",
+   "kcal": 200
+  },
+  {
+   "part": "Teriyaki sauce",
+   "kcal": 60
+  },
+  {
+   "part": "Mayo & sesame",
+   "kcal": 60
+  },
+  {
+   "part": "Cabbage salad",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teriyaki chicken breast, no mayo",
+   "kcal": 520
+  },
+  {
+   "name": "Chicken katsu don",
+   "kcal": 850
+  },
+  {
+   "name": "Add onsen egg",
+   "kcal": 720
+  },
+  {
+   "name": "Large size / extra rice",
+   "kcal": 800
+  }
+ ],
+ "diet": "Yes, it has good protein and is easy to control. What pushes the calories up is the big rice portion, the sweet sauce and the mayo. Ask for less rice and sauce on the side, and you save 100+ kcal straight away. Pick teriyaki over fried katsu.",
+ "tips": [
+  "Ask for half rice or less rice, and add more veg.",
+  "Ask for mayo and teriyaki sauce on the side.",
+  "Add an egg for extra protein if you need to feel fuller."
+ ],
+ "swap": {
+  "name": "Teriyaki bowl with half rice + extra salad",
+  "kcal": 480,
+  "why": "Same protein, less carbs and sauce, still filling."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between teriyaki and katsu?",
+   "a": "Teriyaki is grilled or cooked in a sweet soy sauce. Katsu is coated in breadcrumbs and deep-fried."
+  },
+  {
+   "q": "Can I make teriyaki at home?",
+   "a": "Can. Mix soy sauce, a little honey or sugar, ginger and garlic, then cook it with the chicken."
+  },
+  {
+   "q": "Is Japanese rice different from normal rice?",
+   "a": "Japanese rice is shorter and stickier. Calories are about the same as normal white rice."
+  }
+ ]
+}

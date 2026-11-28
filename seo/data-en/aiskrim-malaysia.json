@@ -1,0 +1,63 @@
+{
+ "slug": "aiskrim-malaysia",
+ "name_en": "Aiskrim potong (Malaysian ice cream stick)",
+ "serving_en": "1 stick",
+ "intro": "1 stick of aiskrim potong is about 120 kcal (estimate). The calories come from sugar, santan or milk, and flavours like corn or red bean.",
+ "breakdown": [
+  {
+   "part": "Sugar",
+   "kcal": 50
+  },
+  {
+   "part": "Santan or milk",
+   "kcal": 45
+  },
+  {
+   "part": "Corn or red bean",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Aiskrim Malaya (plastic tube, sirap)",
+   "kcal": 60
+  },
+  {
+   "name": "Corn flavour",
+   "kcal": 120
+  },
+  {
+   "name": "Red bean flavour",
+   "kcal": 130
+  },
+  {
+   "name": "Durian flavour",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes. One stick of aiskrim potong is a moderate dessert. It's lighter than many cones or big cups of ice cream. It only becomes an issue when it's a daily habit or two sticks at a time. Enjoy one slowly, no guilt needed.",
+ "tips": [
+  "Buy just one, don't stock up in the freezer.",
+  "Choose red bean or corn, they have a bit of fibre.",
+  "For something lighter, go for sirap-based aiskrim Malaya."
+ ],
+ "swap": {
+  "name": "Sirap aiskrim Malaya",
+  "kcal": 60,
+  "why": "Same cold and sweet treat, half the calories because there's less santan."
+ },
+ "faq": [
+  {
+   "q": "Why is it called aiskrim potong?",
+   "a": "It's made in a big block, then cut into stick-sized pieces. That's why it's rectangular."
+  },
+  {
+   "q": "What are the most popular aiskrim potong flavours?",
+   "a": "Corn, red bean, durian, yam and sweet corn santan are among the favourites."
+  },
+  {
+   "q": "Can I make aiskrim potong at home?",
+   "a": "Yes, with santan, milk, sugar and your favourite flavour. Freeze it in a rectangular container, then cut."
+  }
+ ]
+}

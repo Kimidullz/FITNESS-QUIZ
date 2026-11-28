@@ -1,0 +1,66 @@
+{
+ "slug": "sup-ayam",
+ "intro": "Satu mangkuk sup ayam ada anggaran 180 kcal. Kalori kebanyakannya dari ayam, terutama kulit, serta kentang dan minyak dalam kuah.",
+ "protein_g": 18,
+ "carbs_g": 10,
+ "fat_g": 8,
+ "breakdown": [
+  {
+   "part": "Ayam 1 ketul kecil",
+   "kcal": 100
+  },
+  {
+   "part": "Kentang dan lobak merah",
+   "kcal": 45
+  },
+  {
+   "part": "Kuah, minyak dan rempah sup",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sup ayam dengan kulit dan lemak",
+   "kcal": 250
+  },
+  {
+   "name": "Sup ayam isi dada tanpa kulit",
+   "kcal": 140
+  },
+  {
+   "name": "Sup ayam kampung",
+   "kcal": 200
+  },
+  {
+   "name": "Sup ayam dengan bihun/mi",
+   "kcal": 330
+  }
+ ],
+ "diet": "Ya, sup ayam memang sesuai masa nak turun berat. Protein tinggi, kalori sederhana dan sangat mengenyangkan. Buang kulit dan lemak yang terapung untuk jimat lagi. Makan dengan nasi separuh pinggan atau roti, okay sangat.",
+ "tips": [
+  "Buang kulit ayam dan cedok minyak yang terapung atas kuah.",
+  "Pilih isi dada atau peha tanpa kulit kalau masak sendiri.",
+  "Di warung, order sup ayam dengan nasi putih dan sayur, lebih ringan dari lauk goreng."
+ ],
+ "swap": {
+  "name": "Sup ayam isi dada dengan sayur lebih",
+  "kcal": 150,
+  "why": "Protein lebih tinggi, lemak lebih rendah, dan sayur tambah isi mangkuk."
+ },
+ "faq": [
+  {
+   "q": "Sup ayam elok masa demam ke?",
+   "a": "Ramai suka makan sup ayam masa tak sihat kerana mudah dimakan dan ada air. Tapi ia bukan ubat, ikut nasihat doktor kalau sakit."
+  },
+  {
+   "q": "Rempah sup apa yang biasa guna?",
+   "a": "Kayu manis, bunga lawang, buah pelaga dan cengkih. Ada juga yang guna rempah sup paket siap."
+  },
+  {
+   "q": "Kenapa kuah sup ayam jadi keruh?",
+   "a": "Biasanya sebab didihkan terlalu kuat. Reneh dengan api perlahan dan buang buih awal untuk kuah lebih jernih."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

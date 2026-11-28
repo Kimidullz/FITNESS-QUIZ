@@ -1,0 +1,63 @@
+{
+ "slug": "muruku",
+ "name_en": "Muruku",
+ "serving_en": "1 handful",
+ "intro": "A handful of muruku gives about 160 kcal (estimate). Most of the calories come from rice flour and the oil absorbed while frying.",
+ "breakdown": [
+  {
+   "part": "Rice flour and urad flour",
+   "kcal": 80
+  },
+  {
+   "part": "Absorbed frying oil",
+   "kcal": 70
+  },
+  {
+   "part": "Sesame, cumin and salt",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Spicy muruku, 1 handful",
+   "kcal": 165
+  },
+  {
+   "name": "Butter / milk muruku, 1 handful",
+   "kcal": 180
+  },
+  {
+   "name": "Large muruku, 1 coil",
+   "kcal": 120
+  },
+  {
+   "name": "1 small festive container (~100 g)",
+   "kcal": 520
+  }
+ ],
+ "diet": "Yes, one handful of muruku won't ruin your progress. The thing is, muruku is crunchy and salty, so it's very easy to go for a second and third handful. It's low in protein, so it doesn't keep you full. Treat it as an enjoy-sometimes snack, not a daily one.",
+ "tips": [
+  "Take one handful and put it on a small plate. Don't eat straight from the jar.",
+  "During Deepavali or open houses, pick just 1-2 types of kuih and enjoy slowly.",
+  "Pair with protein like a boiled egg or nuts so you feel fuller."
+ ],
+ "swap": {
+  "name": "Homemade air-popped popcorn, 3 cups",
+  "kcal": 100,
+  "why": "Still crunchy and salty, but bigger volume with fewer calories."
+ },
+ "faq": [
+  {
+   "q": "What is muruku made of?",
+   "a": "Muruku is usually made from rice flour and urad dal flour, mixed with sesame or cumin, shaped into coils and fried."
+  },
+  {
+   "q": "How long does muruku last?",
+   "a": "In an airtight container, muruku usually stays crispy for a few weeks. Keep it away from humid air so it doesn't go lemau."
+  },
+  {
+   "q": "Can muruku be made in an air fryer?",
+   "a": "Some people make muruku in the air fryer or oven to cut down oil. It's less crispy than fried, but lower in calories."
+  }
+ ]
+}

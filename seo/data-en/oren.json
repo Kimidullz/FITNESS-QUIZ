@@ -1,0 +1,63 @@
+{
+ "slug": "oren",
+ "name_en": "Orange",
+ "serving_en": "1 fruit",
+ "intro": "One medium orange is roughly 60 kcal (estimate). Almost all the calories come from natural sugar, along with fibre and vitamin C.",
+ "breakdown": [
+  {
+   "part": "Natural sugar",
+   "kcal": 46
+  },
+  {
+   "part": "Fibre & other carbs",
+   "kcal": 10
+  },
+  {
+   "part": "Protein",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small mandarin orange",
+   "kcal": 45
+  },
+  {
+   "name": "Large sunkist orange",
+   "kcal": 85
+  },
+  {
+   "name": "Fresh orange juice (1 glass, ~3 oranges)",
+   "kcal": 150
+  },
+  {
+   "name": "Boxed orange juice (1 glass)",
+   "kcal": 120
+  }
+ ],
+ "diet": "Definitely. Oranges are a fresh, low-calorie snack that keeps you full. The one to watch is orange juice, because one glass uses 2-3 oranges without the fibre. Eating the whole fruit fills you up more than drinking juice. One or two a day is totally okay.",
+ "tips": [
+  "Eat the whole orange, not juice, so you keep the fibre.",
+  "Keep oranges on your office desk for a tea-time snack.",
+  "During Chinese New Year, keep count of the mandarin oranges. Very easy to overeat."
+ ],
+ "swap": {
+  "name": "Fresh orange instead of boxed orange juice",
+  "kcal": 60,
+  "why": "Half the calories, has fibre, no added sugar."
+ },
+ "faq": [
+  {
+   "q": "Are oranges good for colds?",
+   "a": "Oranges are high in vitamin C, which supports the immune system, but they're not a cure for colds."
+  },
+  {
+   "q": "Is it okay to eat oranges on an empty stomach?",
+   "a": "For most people, okay. If you have gastric issues, some people feel discomfort, so eat it after other food."
+  },
+  {
+   "q": "Do I need to remove the white part of the orange?",
+   "a": "No need. The white part has fibre, you can eat it together."
+  }
+ ]
+}

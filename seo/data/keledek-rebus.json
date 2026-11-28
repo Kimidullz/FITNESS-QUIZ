@@ -1,0 +1,66 @@
+{
+ "slug": "keledek-rebus",
+ "intro": "Satu biji keledek rebus saiz sederhana (lebih kurang 150g) ada anggaran 130 kcal. Kebanyakan kalori datang dari kanji dan gula semula jadi keledek.",
+ "protein_g": 2,
+ "carbs_g": 30,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Kanji",
+   "kcal": 105
+  },
+  {
+   "part": "Gula semula jadi",
+   "kcal": 15
+  },
+  {
+   "part": "Protein",
+   "kcal": 8
+  }
+ ],
+ "variants": [
+  {
+   "name": "Keledek bakar",
+   "kcal": 140
+  },
+  {
+   "name": "Keledek air fryer dengan 1 sudu teh minyak",
+   "kcal": 170
+  },
+  {
+   "name": "Kuih keria, 1 biji",
+   "kcal": 150
+  },
+  {
+   "name": "Cucur keledek, 2 biji",
+   "kcal": 220
+  }
+ ],
+ "diet": "Boleh, keledek rebus antara pilihan karbohidrat yang paling mesra diet. Ada serat, rasa manis semula jadi dan buat kenyang. Tapi ia tetap karbohidrat, jadi kira dalam jumlah makan harian. Keledek ungu atau oren, kalori lebih kurang sama.",
+ "tips": [
+  "Rebus banyak sekali, simpan dalam peti sejuk untuk sarapan 3 hari.",
+  "Makan dengan 2 biji telur rebus untuk sarapan yang ada protein.",
+  "Elakkan cicah gula atau susu pekat, rasa manis keledek dah cukup."
+ ],
+ "swap": {
+  "name": "Labu rebus, 1 cawan",
+  "kcal": 50,
+  "why": "Volume besar dengan kalori lebih rendah, sesuai kalau nak karbohidrat lebih ringan."
+ },
+ "faq": [
+  {
+   "q": "Keledek ungu lebih sihat dari keledek oren?",
+   "a": "Dua-dua bagus. Ungu ada pigmen antioksidan, oren tinggi vitamin A. Pilih ikut selera."
+  },
+  {
+   "q": "Makan keledek malam okay ke?",
+   "a": "Okay. Yang penting jumlah kalori sehari. Keledek boleh ganti nasi malam kalau suka."
+  },
+  {
+   "q": "Kulit keledek boleh makan?",
+   "a": "Boleh, asalkan dicuci bersih. Kulit ada tambahan serat."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "minuman-isotonik",
+ "intro": "Sebotol minuman isotonik 500ml ada anggaran 130 kcal. Hampir semua kalorinya datang dari gula, lebih kurang 8 sudu teh.",
+ "protein_g": 0,
+ "carbs_g": 32,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula (~32g)",
+   "kcal": 130
+  },
+  {
+   "part": "Garam & elektrolit",
+   "kcal": 0
+  },
+  {
+   "part": "Air & perisa",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Versi zero/kurang gula 500ml",
+   "kcal": 10
+  },
+  {
+   "name": "Tin 325ml",
+   "kcal": 85
+  },
+  {
+   "name": "Botol besar 1.5L",
+   "kcal": 390
+  }
+ ],
+ "diet": "Boleh, tapi kebanyakan orang sebenarnya tak perlukannya. Kalau aktiviti harian di pejabat atau senaman ringan bawah sejam, air kosong dah cukup. Isotonik lebih sesuai bila berpeluh banyak, contohnya main futsal atau berlari lama di bawah panas. Kalau minum sebagai air biasa, kalori dari gula ni senang terkumpul.",
+ "tips": [
+  "Simpan untuk senaman berat atau cuaca sangat panas sahaja.",
+  "Pilih versi zero atau kurang gula kalau suka rasanya.",
+  "Minum separuh botol, selebihnya sambung dengan air kosong."
+ ],
+ "swap": {
+  "name": "Air kelapa muda tanpa gula (1 gelas)",
+  "kcal": 50,
+  "why": "Rasa segar dan semula jadi ada mineral seperti kalium, dengan kalori jauh lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Perlu minum isotonik lepas gym?",
+   "a": "Untuk sesi gym biasa sekitar sejam, air kosong biasanya cukup. Isotonik lebih berguna bila berpeluh banyak dalam tempoh lama."
+  },
+  {
+   "q": "Isotonik sesuai bila demam atau cirit-birit?",
+   "a": "Ramai minum untuk ganti cecair. Tapi untuk keadaan kesihatan, lebih baik ikut nasihat doktor atau ahli farmasi."
+  },
+  {
+   "q": "Apa beza isotonik dengan minuman tenaga?",
+   "a": "Isotonik fokus pada gula dan elektrolit untuk ganti cecair. Minuman tenaga biasanya ada kafein dan bahan perangsang lain."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

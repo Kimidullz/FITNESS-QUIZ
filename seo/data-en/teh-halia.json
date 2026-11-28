@@ -1,0 +1,63 @@
+{
+ "slug": "teh-halia",
+ "name_en": "Teh halia",
+ "serving_en": "1 glass",
+ "intro": "One glass of teh halia is about 130 kcal. Almost all of the calories come from condensed milk and evaporated milk.",
+ "breakdown": [
+  {
+   "part": "Condensed milk, 1.5 tbsp",
+   "kcal": 100
+  },
+  {
+   "part": "Evaporated milk",
+   "kcal": 25
+  },
+  {
+   "part": "Tea and ginger",
+   "kcal": 5
+  }
+ ],
+ "variants": [
+  {
+   "name": "Teh halia kurang manis",
+   "kcal": 90
+  },
+  {
+   "name": "Teh O halia kosong",
+   "kcal": 5
+  },
+  {
+   "name": "Teh O halia with sugar",
+   "kcal": 60
+  },
+  {
+   "name": "Teh halia ais",
+   "kcal": 140
+  }
+ ],
+ "diet": "Yes, but count it as part of your daily calories. One glass a day is no problem. If you drink 2-3 glasses a day, the sugar calories add up fast. Go for kurang manis or teh O halia if you drink it often.",
+ "tips": [
+  "Order 'teh halia kurang manis'. Most mamak will understand.",
+  "Switch to teh O halia kosong for your second glass.",
+  "Drink it with a meal, not as a separate afternoon snack."
+ ],
+ "swap": {
+  "name": "Teh O halia kosong",
+  "kcal": 5,
+  "why": "You still get the warm ginger taste, with almost zero calories."
+ },
+ "faq": [
+  {
+   "q": "Is teh halia good for bloating?",
+   "a": "Many people find teh halia comforting when they feel bloated. But it's not a treatment. See a doctor if the problem keeps coming back."
+  },
+  {
+   "q": "Can I make teh halia at home?",
+   "a": "Yes. Boil sliced ginger, add a tea bag, then add a little evaporated milk to taste."
+  },
+  {
+   "q": "Does teh halia have caffeine?",
+   "a": "Yes, from the tea. A bit less than coffee, so avoid drinking it late at night if you're sensitive."
+  }
+ ]
+}

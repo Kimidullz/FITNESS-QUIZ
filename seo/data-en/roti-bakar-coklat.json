@@ -1,0 +1,59 @@
+{
+ "slug": "roti-bakar-coklat",
+ "name_en": "Roti bakar coklat (chocolate toast)",
+ "serving_en": "2 slices",
+ "intro": "Two slices of roti bakar coklat are about 380 kcal (estimate). Most of the calories come from the chocolate spread and the thick layer of butter or margarine.",
+ "breakdown": [
+  {
+   "part": "White bread, 2 slices",
+   "kcal": 150
+  },
+  {
+   "part": "Butter or margarine",
+   "kcal": 100
+  },
+  {
+   "part": "Chocolate spread",
+   "kcal": 130
+  }
+ ],
+ "variants": [
+  {
+   "name": "Plain butter toast (2 slices)",
+   "kcal": 280
+  },
+  {
+   "name": "Roti bakar kaya butter (2 slices)",
+   "kcal": 330
+  },
+  {
+   "name": "Chocolate toast with cheese",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, but it's mostly sugar and fat with little protein. For breakfast, you might get hungry again before lunch. Pair it with eggs to stay full longer. Make it an occasional choice, not your daily breakfast.",
+ "tips": [
+  "Ask for a thin layer of chocolate or no butter. This can save almost 100 kcal.",
+  "Add 2 half-boiled eggs for protein.",
+  "Choose kopi O or teh O kurang manis instead of teh tarik."
+ ],
+ "swap": {
+  "name": "Wholemeal toast with 2 half-boiled eggs",
+  "kcal": 300,
+  "why": "More protein, keeps you full longer, and fewer calories."
+ },
+ "faq": [
+  {
+   "q": "What chocolate do kopitiams use for roti bakar coklat?",
+   "a": "Most use chocolate spread from a jar or a homemade chocolate cooked with sugar and milk. Both are high in sugar."
+  },
+  {
+   "q": "Is wholemeal bread better for toast?",
+   "a": "Calories are about the same, but wholemeal has more fibre. It helps you feel full longer."
+  },
+  {
+   "q": "Is roti bakar coklat okay for my kids' breakfast?",
+   "a": "Once in a while is fine. For daily breakfast, add eggs or milk so they get protein for energy through the morning."
+  }
+ ]
+}

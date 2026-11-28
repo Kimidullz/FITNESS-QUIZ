@@ -1,0 +1,59 @@
+{
+ "slug": "kiwi",
+ "name_en": "Kiwi",
+ "serving_en": "1 fruit",
+ "intro": "1 kiwi gives about 45 kcal (estimate). Most of the calories come from natural sugar. It's one of the lightest fruits per piece.",
+ "breakdown": [
+  {
+   "part": "Natural sugar in the flesh (~75g)",
+   "kcal": 36
+  },
+  {
+   "part": "Fibre",
+   "kcal": 5
+  },
+  {
+   "part": "A bit of protein and fat",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Gold kiwi, 1 fruit",
+   "kcal": 50
+  },
+  {
+   "name": "Kiwi, 2 fruits",
+   "kcal": 90
+  },
+  {
+   "name": "Green kiwi eaten with skin",
+   "kcal": 47
+  }
+ ],
+ "diet": "Yes. Kiwi is small, light in calories and has fibre. Easy to bring to the office as a snack. It doesn't 'burn fat', but it's a good snack choice compared to kuih or biscuits.",
+ "tips": [
+  "Cut in half and eat with a spoon. Easy at the office.",
+  "Keep 2 to 3 kiwis in your work bag as an emergency snack.",
+  "Pair with a boiled egg or a small handful of nuts to feel fuller."
+ ],
+ "swap": {
+  "name": "Jambu batu (guava), 1/2 fruit",
+  "kcal": 40,
+  "why": "Local fruit, cheaper, almost the same calories and high in fibre."
+ },
+ "faq": [
+  {
+   "q": "Can you eat kiwi skin?",
+   "a": "Yes. Wash well and rub off the fuzz. Gold kiwi skin is smoother and easier to eat."
+  },
+  {
+   "q": "What's the difference between green and gold kiwi?",
+   "a": "Green kiwi is more sour. Gold kiwi is sweeter and less fuzzy. Calories are almost the same."
+  },
+  {
+   "q": "Does kiwi help with bowel movements?",
+   "a": "Kiwi has fibre and water, and many people find it helps. But everyone is different. Drinking enough water and eating vegetables also matter."
+  }
+ ]
+}

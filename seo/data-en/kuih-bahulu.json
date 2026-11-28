@@ -1,0 +1,59 @@
+{
+ "slug": "kuih-bahulu",
+ "name_en": "Kuih bahulu",
+ "serving_en": "3 pieces",
+ "intro": "Three small kuih bahulu have about 130 kcal. Most of the calories come from sugar and flour, with a bit from eggs.",
+ "breakdown": [
+  {
+   "part": "Sugar",
+   "kcal": 55
+  },
+  {
+   "part": "Wheat flour",
+   "kcal": 45
+  },
+  {
+   "part": "Egg",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Small bahulu (1 piece)",
+   "kcal": 45
+  },
+  {
+   "name": "Large fish/flower-shaped bahulu (1 piece)",
+   "kcal": 70
+  },
+  {
+   "name": "Small bahulu (5 pieces)",
+   "kcal": 215
+  }
+ ],
+ "diet": "Yes. Bahulu is one of the lighter kuih because it doesn't use santan or much oil. The challenge is they're small, so it's easy to keep popping them, especially during raya. Decide your number first, like 3 pieces, and put them on a plate.",
+ "tips": [
+  "Put 3 pieces on a plate, don't eat straight from the jar.",
+  "Pair with teh o or kopi o kosong.",
+  "During raya, choose bahulu over santan-based kuih or buttery cookies."
+ ],
+ "swap": {
+  "name": "Kuih bahulu 2 pieces + teh o kosong",
+  "kcal": 90,
+  "why": "You still get the bahulu you crave, just one less. Saves about 40 kcal without feeling deprived."
+ },
+ "faq": [
+  {
+   "q": "Why does my bahulu turn hard?",
+   "a": "Usually the eggs weren't beaten fluffy enough or it was over-baked. Keep in an airtight container so it stays soft."
+  },
+  {
+   "q": "How long does bahulu last?",
+   "a": "In an airtight container, about a week or more at room temperature."
+  },
+  {
+   "q": "Can I make bahulu without the brass mould?",
+   "a": "Yes, use a mini muffin tray or silicone mould. The shape is different, but the taste is the same."
+  }
+ ]
+}

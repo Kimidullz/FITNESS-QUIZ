@@ -1,0 +1,63 @@
+{
+ "slug": "fish-and-chips",
+ "name_en": "Fish and chips",
+ "serving_en": "1 plate",
+ "intro": "A plate of fish and chips is about 800 kcal (estimate). Most of the calories come from the battered fried fish and the fries that soak up oil.",
+ "breakdown": [
+  {
+   "part": "Battered fried fish",
+   "kcal": 350
+  },
+  {
+   "part": "Fries",
+   "kcal": 290
+  },
+  {
+   "part": "Tartar sauce",
+   "kcal": 90
+  },
+  {
+   "part": "Coleslaw",
+   "kcal": 70
+  }
+ ],
+ "variants": [
+  {
+   "name": "Grilled fish with salad and mashed potato",
+   "kcal": 450
+  },
+  {
+   "name": "Fish and chips without tartar sauce",
+   "kcal": 710
+  },
+  {
+   "name": "Large fish and chips",
+   "kcal": 1000
+  }
+ ],
+ "diet": "Yes, but it's one of the heaviest café dishes. The fish itself is great for protein. It's the batter and frying oil that push up the calories. If you have it, make it your main meal of the day and keep other meals light. Even easier, go for the grilled version.",
+ "tips": [
+  "Ask for grilled or baked fish if it's on the menu.",
+  "Share the fries, or ask for half fries and add salad.",
+  "Dip lightly into the tartar sauce, don't pour it on."
+ ],
+ "swap": {
+  "name": "Grilled fish with salad and mashed potato",
+  "kcal": 450,
+  "why": "Same fish protein, almost half the calories and much less oil."
+ },
+ "faq": [
+  {
+   "q": "What fish is usually used for fish and chips in Malaysia?",
+   "a": "Most cafés use dory or patin. Some use cod or other white fish for a premium version."
+  },
+  {
+   "q": "Is fish and chips healthier than fried chicken?",
+   "a": "About the same, since both are battered and fried. Fish has good protein, but the batter and oil decide the calories."
+  },
+  {
+   "q": "Can I make fish and chips in an air fryer?",
+   "a": "Yes. Coat the fish in breadcrumbs with a little oil, then air fry. It comes out crispy with much less oil."
+  }
+ ]
+}

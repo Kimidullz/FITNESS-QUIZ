@@ -1,0 +1,59 @@
+{
+ "slug": "minuman-isotonik",
+ "name_en": "Isotonic drink",
+ "serving_en": "1 bottle 500ml",
+ "intro": "A 500ml bottle of isotonic drink is about 130 kcal (estimate). Almost all of it comes from sugar, roughly 8 teaspoons.",
+ "breakdown": [
+  {
+   "part": "Sugar (~32g)",
+   "kcal": 130
+  },
+  {
+   "part": "Salt & electrolytes",
+   "kcal": 0
+  },
+  {
+   "part": "Water & flavouring",
+   "kcal": 0
+  }
+ ],
+ "variants": [
+  {
+   "name": "Zero/low sugar version 500ml",
+   "kcal": 10
+  },
+  {
+   "name": "Can 325ml",
+   "kcal": 85
+  },
+  {
+   "name": "Large bottle 1.5L",
+   "kcal": 390
+  }
+ ],
+ "diet": "Yes, but most people don't actually need it. For office days or light exercise under an hour, plain water is enough. Isotonic drinks make more sense when you sweat a lot, like playing futsal or running long in the heat. If you drink it like normal water, the sugar calories add up fast.",
+ "tips": [
+  "Save it for heavy exercise or very hot weather only.",
+  "Choose the zero or low sugar version if you like the taste.",
+  "Drink half the bottle, then continue with plain water."
+ ],
+ "swap": {
+  "name": "Young coconut water, no sugar (1 glass)",
+  "kcal": 50,
+  "why": "Refreshing, naturally has minerals like potassium, and much lower in calories."
+ },
+ "faq": [
+  {
+   "q": "Do I need an isotonic drink after the gym?",
+   "a": "For a normal gym session of about an hour, plain water is usually enough. Isotonic drinks are more useful when you sweat a lot for a long time."
+  },
+  {
+   "q": "Is an isotonic drink okay when I have a fever or diarrhoea?",
+   "a": "Many people drink it to replace fluids. But for health issues, it's best to follow your doctor's or pharmacist's advice."
+  },
+  {
+   "q": "What's the difference between isotonic and energy drinks?",
+   "a": "Isotonic drinks focus on sugar and electrolytes to replace fluids. Energy drinks usually have caffeine and other stimulants."
+  }
+ ]
+}

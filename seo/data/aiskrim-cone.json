@@ -1,0 +1,58 @@
+{
+ "slug": "aiskrim-cone",
+ "intro": "Satu aiskrim cone dari kedai fast food ada anggaran 170 kcal. Kebanyakan kalori datang dari gula dan lemak susu dalam aiskrim soft serve, manakala cone sendiri cuma sumbang sedikit.",
+ "protein_g": 4,
+ "carbs_g": 27,
+ "fat_g": 5,
+ "breakdown": [
+  {
+   "part": "Aiskrim soft serve vanila",
+   "kcal": 135
+  },
+  {
+   "part": "Cone wafer",
+   "kcal": 35
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cone dicelup coklat",
+   "kcal": 220
+  },
+  {
+   "name": "Sundae coklat (cawan)",
+   "kcal": 330
+  },
+  {
+   "name": "Aiskrim campur biskut hancur (cawan)",
+   "kcal": 340
+  }
+ ],
+ "diet": "Boleh, dan ini antara pencuci mulut yang paling mudah dimuatkan dalam bajet kalori. 170 kcal lebih kurang sama dengan sekeping roti bakar kaya. Yang penting, jangan jadikan ia tambahan selepas set burger besar. Kalau nak, jadikan ia snek tersendiri pada hari yang aktif.",
+ "tips": [
+  "Pilih cone biasa, bukan sundae atau versi campur biskut. Beza boleh sampai 150 kcal.",
+  "Makan selepas makan tengah hari yang ringan, bukan selepas set besar dengan air manis.",
+  "Kongsi atau beli saiz kecil kalau ada, untuk anak-anak dan diri sendiri."
+ ],
+ "swap": {
+  "name": "Yogurt beku atau yogurt biasa dengan buah",
+  "kcal": 130,
+  "why": "Rasa sejuk dan manis yang sama, tapi protein lebih tinggi dan lebih mengenyangkan."
+ },
+ "faq": [
+  {
+   "q": "Aiskrim cone fast food ni guna susu betul ke?",
+   "a": "Biasanya soft serve dibuat daripada campuran susu, gula dan penstabil. Kandungan lemaknya lebih rendah daripada aiskrim premium, sebab itu teksturnya lembut dan ringan."
+  },
+  {
+   "q": "Boleh ke makan aiskrim waktu malam?",
+   "a": "Boleh. Waktu makan tak ubah kalori. Cuma pastikan jumlah kalori seharian masih dalam sasaran dan tak jadi tabiat makan sambil tengok TV setiap malam."
+  },
+  {
+   "q": "Kenapa lepas makan aiskrim cepat lapar balik?",
+   "a": "Aiskrim kebanyakannya gula dengan protein yang sedikit. Gula cepat dicerna, jadi rasa kenyang tak tahan lama."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

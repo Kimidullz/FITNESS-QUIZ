@@ -1,0 +1,63 @@
+{
+ "slug": "salad-ayam",
+ "name_en": "Chicken salad (dressing on the side)",
+ "serving_en": "1 bowl",
+ "intro": "One bowl of chicken salad with dressing on the side is about 350 kcal (estimate). Most of the calories come from the chicken and how much dressing you use.",
+ "breakdown": [
+  {
+   "part": "Grilled chicken ~120 g",
+   "kcal": 200
+  },
+  {
+   "part": "Dressing, 1 tablespoon",
+   "kcal": 80
+  },
+  {
+   "part": "Mixed vegetables (lettuce, cucumber, tomato)",
+   "kcal": 40
+  },
+  {
+   "part": "Egg or corn",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Chicken salad with all the dressing poured on",
+   "kcal": 480
+  },
+  {
+   "name": "Chicken Caesar salad with croutons",
+   "kcal": 550
+  },
+  {
+   "name": "Chicken salad with half cup rice/quinoa",
+   "kcal": 450
+  }
+ ],
+ "diet": "Yes, this is a great choice when you're trying to lose weight. High protein, lots of vegetables, and dressing on the side lets you control calories. But don't make it so small that you're hungry again by the afternoon. If you're active or working out, add some carbs.",
+ "tips": [
+  "Dip your fork in the dressing first, then pick up the salad. You'll use much less dressing.",
+  "Choose vinaigrette or lemon dressing over mayo or thousand island.",
+  "Add a boiled egg for more protein and to stay full longer."
+ ],
+ "swap": {
+  "name": "Grilled chicken (skinless) with salad",
+  "kcal": 450,
+  "why": "If salad doesn't fill you up, this has more chicken and feels more like a full meal."
+ },
+ "faq": [
+  {
+   "q": "Which dressing is the lightest?",
+   "a": "Usually vinegar, lemon or a little olive oil based dressings. Creamy ones like mayo, Caesar and thousand island are higher in calories."
+  },
+  {
+   "q": "Is salad enough for lunch?",
+   "a": "If it has protein like chicken or egg, it can be enough. If you get hungry fast, add a little rice, bread or ubi."
+  },
+  {
+   "q": "Can I meal prep salad for a few days?",
+   "a": "Yes, keep the vegetables, chicken and dressing in separate containers. It lasts 2-3 days in the fridge."
+  }
+ ]
+}

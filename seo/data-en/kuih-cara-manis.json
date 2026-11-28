@@ -1,0 +1,63 @@
+{
+ "slug": "kuih-cara-manis",
+ "name_en": "Kuih cara manis",
+ "serving_en": "3 pieces",
+ "intro": "About 150 kcal for 3 pieces of kuih cara manis. Most of the calories come from the flour batter, santan and the sugar in the centre.",
+ "breakdown": [
+  {
+   "part": "Flour and egg batter (3 pieces)",
+   "kcal": 65
+  },
+  {
+   "part": "Santan in the batter",
+   "kcal": 40
+  },
+  {
+   "part": "Sugar in the centre",
+   "kcal": 35
+  },
+  {
+   "part": "Oil for greasing the mould",
+   "kcal": 10
+  }
+ ],
+ "variants": [
+  {
+   "name": "Kuih cara manis 1 piece",
+   "kcal": 50
+  },
+  {
+   "name": "Kuih cara manis 5 pieces",
+   "kcal": 250
+  },
+  {
+   "name": "Kuih cara berlauk 3 pieces",
+   "kcal": 180
+  }
+ ],
+ "diet": "Yes, kuih cara manis is small and easy to control. The problem is it's very easy to keep eating without noticing. Three pieces with teh O kosong still fits your daily budget. But it's low in protein, so it won't keep you full for long.",
+ "tips": [
+  "Put 3 pieces on a small plate, don't eat straight from the container.",
+  "Pair with a boiled egg or a glass of milk for extra protein.",
+  "Choose teh O or kopi O kurang manis, since the kuih already has sugar."
+ ],
+ "swap": {
+  "name": "Kuih cara berlauk 2 pieces",
+  "kcal": 120,
+  "why": "It has a meat or chicken filling, so more protein and less sugar."
+ },
+ "faq": [
+  {
+   "q": "What's the difference between cara manis and cara berlauk?",
+   "a": "Cara manis has sugar in the centre. Cara berlauk has a spiced meat or chicken filling, so it's savoury and has more protein."
+  },
+  {
+   "q": "Can I make kuih cara manis with a regular mould?",
+   "a": "Yes, use a kuih cara mould or a small bahulu mould. The shape changes a bit, but the taste is the same."
+  },
+  {
+   "q": "How long does kuih cara manis keep?",
+   "a": "Best eaten the same day. In the fridge it lasts 1-2 days. Warm it up a bit before eating."
+  }
+ ]
+}

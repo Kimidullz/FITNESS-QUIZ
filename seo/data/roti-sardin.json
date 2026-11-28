@@ -1,0 +1,66 @@
+{
+ "slug": "roti-sardin",
+ "intro": "Sekeping roti sardin ada anggaran 480 kcal. Kalori datang dari doh roti canai dan minyak masak, manakala sardin beri protein yang agak baik.",
+ "protein_g": 18,
+ "carbs_g": 50,
+ "fat_g": 23,
+ "breakdown": [
+  {
+   "part": "Doh roti canai",
+   "kcal": 300
+  },
+  {
+   "part": "Inti sardin & bawang",
+   "kcal": 110
+  },
+  {
+   "part": "Minyak masak tambahan",
+   "kcal": 40
+  },
+  {
+   "part": "Kuah (sikit)",
+   "kcal": 30
+  }
+ ],
+ "variants": [
+  {
+   "name": "Tanpa kuah",
+   "kcal": 450
+  },
+  {
+   "name": "Roti sardin telur",
+   "kcal": 570
+  },
+  {
+   "name": "Roti sardin keju",
+   "kcal": 580
+  }
+ ],
+ "diet": "Boleh, dan antara pilihan roti mamak yang lebih baik dari segi protein. Sardin ada protein dan omega-3. Tapi doh dan minyak masih buat kalori tinggi. Satu keping dengan minuman kurang manis sudah cukup untuk satu hidangan.",
+ "tips": [
+  "Makan satu keping sahaja dan minta kuah di tepi.",
+  "Pilih minuman teh o atau kopi o kurang manis.",
+  "Tambah sayur atau buah lepas tu supaya lebih kenyang."
+ ],
+ "swap": {
+  "name": "Tosai telur",
+  "kcal": 280,
+  "why": "Masih ada protein dari telur, tapi kurang minyak dan doh. Jimat hampir 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Sardin dalam roti sardin tu sardin tin ke?",
+   "a": "Biasanya ya, sardin dalam sos tomato yang dihancurkan dengan bawang dan cili. Ada kedai tambah sedikit rempah."
+  },
+  {
+   "q": "Roti sardin tinggi garam tak?",
+   "a": "Sardin tin memang ada garam. Kalau anda jaga tekanan darah, kurangkan kuah dan elakkan tambah sambal masin."
+  },
+  {
+   "q": "Boleh buat roti sardin guna roti gardenia?",
+   "a": "Boleh, versi rumah ni lebih mudah. Sapu inti sardin dalam roti dan bakar atau toast tanpa banyak minyak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

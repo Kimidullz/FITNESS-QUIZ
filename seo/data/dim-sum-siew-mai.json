@@ -1,0 +1,70 @@
+{
+ "slug": "dim-sum-siew-mai",
+ "intro": "Empat biji siew mai ada anggaran 240 kcal. Kebanyakan kalori datang dari inti daging atau udang dan lemak di dalamnya.",
+ "protein_g": 14,
+ "carbs_g": 16,
+ "fat_g": 13,
+ "breakdown": [
+  {
+   "part": "Inti ayam & udang",
+   "kcal": 130
+  },
+  {
+   "part": "Lemak dalam inti",
+   "kcal": 45
+  },
+  {
+   "part": "Kulit wonton",
+   "kcal": 50
+  },
+  {
+   "part": "Topping telur ikan / lobak",
+   "kcal": 15
+  }
+ ],
+ "variants": [
+  {
+   "name": "Har gow 4 biji",
+   "kcal": 170
+  },
+  {
+   "name": "Dumpling goreng 4 biji",
+   "kcal": 320
+  },
+  {
+   "name": "Set 3 piring dim sum",
+   "kcal": 650
+  },
+  {
+   "name": "Siew mai 2 biji",
+   "kcal": 120
+  }
+ ],
+ "diet": "Boleh. Siew mai antara dim sum yang lebih tinggi protein dan dikukus, bukan digoreng. Yang perlu dijaga ialah jumlah piring yang diambil. Pilih item kukus dan hadkan yang bergoreng.",
+ "tips": [
+  "Pilih item kukus macam siew mai dan har gow, kurangkan yang goreng.",
+  "Order sepiring sayur kukus dengan sos tiram sikit.",
+  "Minum teh Cina tanpa gula, bukan air manis."
+ ],
+ "swap": {
+  "name": "Har gow 4 biji",
+  "kcal": 170,
+  "why": "Inti udang lebih kurus dan kulit nipis, kalori lebih rendah."
+ },
+ "faq": [
+  {
+   "q": "Siew mai halal tak?",
+   "a": "Siew mai tradisional guna daging babi. Pilih restoran dim sum yang ada sijil halal, mereka guna ayam dan udang."
+  },
+  {
+   "q": "Siew mai beku boleh dikukus terus?",
+   "a": "Boleh. Kukus 8 hingga 12 minit sampai inti masak sepenuhnya."
+  },
+  {
+   "q": "Apa topping oren di atas siew mai?",
+   "a": "Biasanya telur ikan atau lobak merah cincang untuk hiasan dan rasa."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

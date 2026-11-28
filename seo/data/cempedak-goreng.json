@@ -1,0 +1,66 @@
+{
+ "slug": "cempedak-goreng",
+ "intro": "5 biji cempedak goreng bagi anggaran 350 kcal. Lebih separuh kalorinya datang daripada tepung adunan dan minyak yang diserap semasa menggoreng.",
+ "protein_g": 5,
+ "carbs_g": 45,
+ "fat_g": 17,
+ "breakdown": [
+  {
+   "part": "Isi cempedak 5 ulas",
+   "kcal": 110
+  },
+  {
+   "part": "Tepung adunan",
+   "kcal": 90
+  },
+  {
+   "part": "Minyak diserap semasa goreng",
+   "kcal": 150
+  }
+ ],
+ "variants": [
+  {
+   "name": "Cempedak goreng 2 biji",
+   "kcal": 140
+  },
+  {
+   "name": "Cempedak goreng 10 biji",
+   "kcal": 700
+  },
+  {
+   "name": "Cempedak segar 5 ulas",
+   "kcal": 120
+  },
+  {
+   "name": "Cempedak goreng air fryer 5 biji",
+   "kcal": 230
+  }
+ ],
+ "diet": "Boleh, tapi anggap ia makanan sekali-sekala. 5 biji dah hampir sama dengan sepinggan nasi berlauk. Kalau nak makan, ambil 2 hingga 3 biji dan kongsi selebihnya. Masa musim cempedak, pilih sama ada goreng atau segar pada hari tersebut.",
+ "tips": [
+  "Beli satu bungkus kecil dan kongsi dengan rakan pejabat, ambil 2 biji sahaja.",
+  "Toskan atas tisu dapur dulu untuk buang sedikit minyak.",
+  "Di rumah, cuba salut tepung nipis dan masak dalam air fryer."
+ ],
+ "swap": {
+  "name": "Cempedak segar 5 ulas",
+  "kcal": 120,
+  "why": "Rasa dan bau cempedak sama, tapi tiada tepung dan minyak. Jimat lebih 200 kcal."
+ },
+ "faq": [
+  {
+   "q": "Tepung apa yang buat cempedak goreng rangup?",
+   "a": "Ramai guna campuran tepung gandum dengan sedikit tepung beras dan air sejuk. Adunan yang nipis lebih rangup dan kurang serap minyak."
+  },
+  {
+   "q": "Boleh buat cempedak goreng guna air fryer?",
+   "a": "Boleh. Salut dengan adunan agak pekat, spray minyak sikit, dan masak sekitar 180°C selama 10 hingga 12 minit. Tekstur tak sama 100% tapi masih sedap."
+  },
+  {
+   "q": "Kenapa cempedak goreng saya jadi berminyak?",
+   "a": "Biasanya minyak tak cukup panas. Pastikan minyak benar-benar panas sebelum masukkan, dan jangan goreng terlalu banyak sekali gus."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

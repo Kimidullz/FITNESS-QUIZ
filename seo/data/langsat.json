@@ -1,0 +1,66 @@
+{
+ "slug": "langsat",
+ "intro": "10 biji langsat bagi anggaran 60 kcal sahaja. Hampir semua kalorinya datang daripada gula semula jadi dalam isi buah.",
+ "protein_g": 1,
+ "carbs_g": 14,
+ "fat_g": 0,
+ "breakdown": [
+  {
+   "part": "Gula semula jadi dalam isi (~120g)",
+   "kcal": 52
+  },
+  {
+   "part": "Serat",
+   "kcal": 4
+  },
+  {
+   "part": "Protein dan lemak sikit",
+   "kcal": 4
+  }
+ ],
+ "variants": [
+  {
+   "name": "Langsat 5 biji",
+   "kcal": 30
+  },
+  {
+   "name": "Langsat 20 biji",
+   "kcal": 120
+  },
+  {
+   "name": "Dokong 10 biji",
+   "kcal": 70
+  },
+  {
+   "name": "Duku 10 biji",
+   "kcal": 75
+  }
+ ],
+ "diet": "Boleh, langsat antara buah yang ringan kalori. 10 biji pun masih bawah 100 kcal. Cuma masa musim, mudah makan satu tangkai sambil lepak depan TV. Kira dulu berapa biji, letak dalam mangkuk, baru makan.",
+ "tips": [
+  "Ambil 10 biji letak dalam mangkuk, jangan makan terus dari tangkai.",
+  "Jadikan snek petang ganti kuih atau biskut di pejabat.",
+  "Gandingkan dengan segelas susu rendah lemak atau sebiji telur rebus untuk tambah protein."
+ ],
+ "swap": {
+  "name": "Jambu air 5 biji",
+  "kcal": 50,
+  "why": "Banyak air dan rangup, jadi rasa kenyang untuk kalori yang hampir sama."
+ },
+ "faq": [
+  {
+   "q": "Kenapa langsat kadang rasa pahit?",
+   "a": "Biasanya sebab tergigit biji. Biji langsat memang pahit, jadi luah sahaja. Buah yang belum cukup masak juga boleh rasa masam kelat."
+  },
+  {
+   "q": "Langsat, duku dan dokong sama ke?",
+   "a": "Ketiganya dari spesies yang sama tapi varieti berbeza. Dokong biasanya kulit lebih tebal, kurang getah dan lebih manis. Langsat kulit nipis dan lebih banyak getah."
+  },
+  {
+   "q": "Macam mana nak buang getah langsat di jari?",
+   "a": "Sapu sikit minyak masak di jari, gosok, kemudian basuh dengan sabun. Getah akan tanggal lebih mudah berbanding air sahaja."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

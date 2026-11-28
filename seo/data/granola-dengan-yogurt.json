@@ -1,0 +1,66 @@
+{
+ "slug": "granola-dengan-yogurt",
+ "intro": "1 mangkuk granola dengan yogurt ada anggaran 380 kcal. Kebanyakan kalori datang dari granola, yang dibakar dengan minyak, madu dan kacang.",
+ "protein_g": 13,
+ "carbs_g": 48,
+ "fat_g": 15,
+ "breakdown": [
+  {
+   "part": "Granola 50g (lebih kurang 1/2 cawan)",
+   "kcal": 230
+  },
+  {
+   "part": "Yogurt plain 150g",
+   "kcal": 100
+  },
+  {
+   "part": "Madu 1 sudu teh",
+   "kcal": 25
+  },
+  {
+   "part": "Buah hiris sikit",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Granola 30g dengan Greek yogurt plain",
+   "kcal": 300
+  },
+  {
+   "name": "Granola dengan yogurt berperisa",
+   "kcal": 420
+  },
+  {
+   "name": "Tambah kacang dan biji-bijian",
+   "kcal": 450
+  }
+ ],
+ "diet": "Boleh, tapi jangan anggap granola itu makanan diet. Granola padat kalori, sesudu dua dah banyak. Yogurt pula bagi protein yang bagus. Kalau portion granola dijaga, ini sarapan yang kenyang dan sedap.",
+ "tips": [
+  "Jadikan granola sebagai topping, bukan isi utama mangkuk.",
+  "Pilih yogurt plain atau Greek yogurt, elak yang berperisa manis.",
+  "Tambah buah segar untuk manis semula jadi, skip madu."
+ ],
+ "swap": {
+  "name": "Greek yogurt plain 200g + granola 25g + buah beri",
+  "kcal": 280,
+  "why": "Protein lebih tinggi, kalori lebih rendah, dan masih rangup."
+ },
+ "faq": [
+  {
+   "q": "Granola dengan muesli, apa beza?",
+   "a": "Granola dibakar dengan minyak dan pemanis, jadi rangup. Muesli biasanya mentah tanpa dibakar, selalunya kurang gula."
+  },
+  {
+   "q": "Greek yogurt atau yogurt biasa?",
+   "a": "Greek yogurt lebih pekat dan protein hampir dua kali ganda. Yogurt biasa pun okay, pilih yang plain."
+  },
+  {
+   "q": "Boleh buat granola sendiri?",
+   "a": "Boleh. Bakar oat dengan sikit minyak, madu dan kacang dalam oven. Senang kawal gula dan minyak."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

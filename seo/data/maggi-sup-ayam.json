@@ -1,0 +1,70 @@
+{
+ "slug": "maggi-sup-ayam",
+ "intro": "Semangkuk maggi sup ayam di kedai mamak ada anggaran 420 kcal. Kebanyakan kalori datang daripada mi segera yang sudah digoreng masa dikilang, ditambah telur dan perisa.",
+ "protein_g": 14,
+ "carbs_g": 55,
+ "fat_g": 16,
+ "breakdown": [
+  {
+   "part": "Mi segera 1 keping",
+   "kcal": 300
+  },
+  {
+   "part": "Serbuk perisa",
+   "kcal": 30
+  },
+  {
+   "part": "Telur 1 biji",
+   "kcal": 70
+  },
+  {
+   "part": "Sayur dan kuah sup",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Maggi sup kosong tanpa telur",
+   "kcal": 350
+  },
+  {
+   "name": "Maggi sup ayam dengan ayam hiris",
+   "kcal": 500
+  },
+  {
+   "name": "Maggi goreng mamak",
+   "kcal": 600
+  },
+  {
+   "name": "Maggi sup double (2 keping mi)",
+   "kcal": 750
+  }
+ ],
+ "diet": "Boleh, terutamanya versi sup sebab lebih ringan daripada maggi goreng. Masalahnya protein rendah dan garam tinggi, jadi cepat lapar semula. Tambah protein dan sayur, dan jangan jadikan ia makanan harian. Sesekali bila hujan atau lewat malam, okay saja.",
+ "tips": [
+  "Minta tambah telur atau ayam hiris untuk protein.",
+  "Minta sayur lebih seperti sawi atau kobis.",
+  "Tak perlu habiskan kuah sampai licin, kurangkan garam."
+ ],
+ "swap": {
+  "name": "Mihun sup ayam",
+  "kcal": 350,
+  "why": "Mihun tak digoreng macam mi segera, jadi lemak lebih rendah dan masih rasa hangat sup."
+ },
+ "faq": [
+  {
+   "q": "Kenapa maggi sup mamak lain rasa dengan masak sendiri?",
+   "a": "Kedai mamak selalunya tambah bawang, cili, sayur, telur dan kadang-kadang sup ayam sendiri, jadi rasanya lebih kaya."
+  },
+  {
+   "q": "Maggi sup sesuai bila demam atau selsema?",
+   "a": "Ramai suka sebab hangat dan senang makan. Tapi untuk pemulihan, sup ayam dengan nasi atau bubur lebih berkhasiat."
+  },
+  {
+   "q": "Boleh buat maggi sup lebih sihat di rumah?",
+   "a": "Boleh. Guna separuh serbuk perisa, tambah sayur, telur dan dada ayam hiris. Rasa masih sedap."
+  }
+ ],
+ "check": "",
+ "problems": []
+}

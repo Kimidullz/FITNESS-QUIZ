@@ -1,0 +1,59 @@
+{
+ "slug": "ayam-percik",
+ "name_en": "Ayam percik",
+ "serving_en": "1 piece",
+ "intro": "One piece of ayam percik is about 350 kcal (estimate). Most of the calories come from the chicken with skin and the santan-based percik sauce.",
+ "breakdown": [
+  {
+   "part": "1 piece grilled chicken thigh",
+   "kcal": 220
+  },
+  {
+   "part": "Santan percik sauce",
+   "kcal": 110
+  },
+  {
+   "part": "Sugar and spices in the sauce",
+   "kcal": 20
+  }
+ ],
+ "variants": [
+  {
+   "name": "Breast piece",
+   "kcal": 300
+  },
+  {
+   "name": "Extra percik sauce (thick coating)",
+   "kcal": 430
+  },
+  {
+   "name": "Skinless, light sauce",
+   "kcal": 240
+  }
+ ],
+ "diet": "Yes. Ayam percik is grilled, so it's lighter than fried chicken. The santan sauce is what adds calories, so don't ask for extra. One piece with half a plate of rice and ulam is still okay for weight loss.",
+ "tips": [
+  "Ask for a thin brush of percik sauce, not a pour-over.",
+  "Remove the skin to save about 60-80 kcal.",
+  "Pair it with ulam or kerabu, not nasi kerabu with lots of kelapa."
+ ],
+ "swap": {
+  "name": "Plain ayam bakar (thigh)",
+  "kcal": 260,
+  "why": "Still grilled and high in protein, without the heavy santan sauce."
+ },
+ "faq": [
+  {
+   "q": "Which state is ayam percik from?",
+   "a": "Ayam percik is famous in Kelantan and Terengganu. Now it's easy to find at Ramadan bazaars all over Malaysia."
+  },
+  {
+   "q": "What's the difference between ayam percik and ayam bakar?",
+   "a": "Ayam percik is brushed with spiced santan sauce while grilling. Normal ayam bakar uses a soy sauce, honey or turmeric marinade."
+  },
+  {
+   "q": "Can I make ayam percik in the oven?",
+   "a": "Yes. Bake the chicken in the oven and brush on the percik sauce a few times until slightly charred at the edges."
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "sambal-sotong",
+ "intro": "Satu senduk sambal sotong ada anggaran 220 kcal. Kebanyakan kalori datang dari minyak tumis sambal dan gula, bukan dari sotong itu sendiri.",
+ "protein_g": 14,
+ "carbs_g": 12,
+ "fat_g": 13,
+ "breakdown": [
+  {
+   "part": "Sotong (lebih kurang 80 g)",
+   "kcal": 70
+  },
+  {
+   "part": "Minyak tumis sambal",
+   "kcal": 90
+  },
+  {
+   "part": "Cili kisar, bawang dan belacan",
+   "kcal": 35
+  },
+  {
+   "part": "Gula dan asam jawa",
+   "kcal": 25
+  }
+ ],
+ "variants": [
+  {
+   "name": "Sambal sotong kering (banyak minyak)",
+   "kcal": 280
+  },
+  {
+   "name": "Sambal sotong kurang minyak (masak rumah)",
+   "kcal": 160
+  },
+  {
+   "name": "Sambal sotong dengan petai",
+   "kcal": 250
+  },
+  {
+   "name": "Sotong goreng tepung bersambal",
+   "kcal": 350
+  }
+ ],
+ "diet": "Boleh, sotong sebenarnya lauk tinggi protein dan rendah lemak. Yang naikkan kalori ialah minyak dan gula dalam sambal. Ambil satu senduk, elakkan minyak yang bertakung di bawah. Padankan dengan sayur dan nasi separuh pinggan, okay je untuk turun berat.",
+ "tips": [
+  "Masa ambil lauk, angkat sotong dan tinggalkan minyak sambal di dalam dulang.",
+  "Tambah satu lauk sayur tak bersantan supaya pinggan lebih kenyang tanpa tambah banyak kalori.",
+  "Masak di rumah? Tumis sambal dengan 1 sudu besar minyak saja dan kurangkan gula."
+ ],
+ "swap": {
+  "name": "Sotong bakar dengan air asam",
+  "kcal": 130,
+  "why": "Protein sama, tapi tiada minyak tumis sambal. Rasa pedas masam masih dapat dari air asam."
+ },
+ "faq": [
+  {
+   "q": "Sotong tinggi kolesterol, boleh makan selalu ke?",
+   "a": "Sotong memang ada kolesterol, tapi rendah lemak tepu. Bagi kebanyakan orang sihat, makan beberapa kali seminggu okay. Kalau ada masalah kolesterol, tanya doktor anda."
+  },
+  {
+   "q": "Macam mana nak masak sotong supaya tak liat?",
+   "a": "Masak sekejap sahaja, dalam 1 hingga 2 minit, atau masak lama terus sampai empuk. Yang di tengah-tengah itulah yang buat liat."
+  },
+  {
+   "q": "Sambal sotong tahan berapa lama dalam peti sejuk?",
+   "a": "Lebih kurang 2 hingga 3 hari dalam bekas bertutup. Panaskan sampai betul-betul panas sebelum makan."
+  }
+ ],
+ "check": "",
+ "problems": []
+}
